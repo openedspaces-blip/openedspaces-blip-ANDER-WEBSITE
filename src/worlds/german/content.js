@@ -284,42 +284,42 @@
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Deutsch B2: vergleichen um Lösung com argumentos claros",
+        "text": "Deutsch B2: vergleichen ein Thema mit klaren Argumenten",
         "suggestions": [
-          "traguardo",
-          "ostacolo",
-          "percorso"
+          "Ziel",
+          "Hindernis",
+          "Weg"
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Deutsch B2: vergleichen um Lösung com argumentos claros",
+        "text": "Deutsch B2: vergleichen ein Thema mit klaren Argumenten",
         "suggestions": [
-          "traguardo",
-          "ostacolo",
-          "percorso"
+          "Ziel",
+          "Hindernis",
+          "Weg"
         ]
       }
     },
     "vocab": [
       [
-        "scadenza",
+        "Frist",
         "plazo"
       ],
       [
-        "incarico",
+        "Aufgabe",
         "tarea asignada"
       ],
       [
-        "risorsa",
+        "Ressource",
         "recurso"
       ],
       [
-        "coordinare",
+        "koordinieren",
         "coordinar"
       ],
       [
-        "valutare",
+        "bewerten",
         "evaluar"
       ]
     ],
@@ -330,12 +330,12 @@
       ],
       [
         "Mission",
-        "erläutern um Ziel com argumentos claros"
+        "erläutern ein Thema mit klaren Argumenten"
       ]
     ],
     "reading": {
       "title": "Deutsch B2 Reading",
-      "text": "Im Modul «Bilanz und Perspektiven» untersucht die Gruppe traguardo und ostacolo. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Bilanz und Perspektiven» untersucht die Gruppe Ziel und Hindernis. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -355,42 +355,42 @@
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Deutsch C1: vergleichen um Lösung com argumentos claros",
+        "text": "Deutsch C1: vergleichen ein Thema mit klaren Argumenten",
         "suggestions": [
-          "visione",
-          "strategia",
-          "risorsa"
+          "Vision",
+          "Strategie",
+          "Ressource"
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Deutsch C1: vergleichen um Lösung com argumentos claros",
+        "text": "Deutsch C1: vergleichen ein Thema mit klaren Argumenten",
         "suggestions": [
-          "visione",
-          "strategia",
-          "risorsa"
+          "Vision",
+          "Strategie",
+          "Ressource"
         ]
       }
     },
     "vocab": [
       [
-        "tesi",
+        "These",
         "tesis"
       ],
       [
-        "obiezione",
+        "Einwand",
         "objeción"
       ],
       [
-        "evidenza",
+        "Beleg",
         "evidencia"
       ],
       [
-        "confutare",
+        "widerlegen",
         "refutar"
       ],
       [
-        "sfumatura",
+        "Nuance",
         "matiz"
       ]
     ],
@@ -401,12 +401,12 @@
       ],
       [
         "Mission",
-        "erläutern um Ziel com argumentos claros"
+        "erläutern ein Thema mit klaren Argumenten"
       ]
     ],
     "reading": {
       "title": "Deutsch C1 Reading",
-      "text": "Im Modul «Persönliches Projekt» untersucht die Gruppe visione und strategia. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Persönliches Projekt» untersucht die Gruppe Vision und Strategie. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -426,42 +426,42 @@
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Deutsch C2: vergleichen um Lösung com argumentos claros",
+        "text": "Deutsch C2: vergleichen ein Thema mit klaren Argumenten",
         "suggestions": [
-          "sintesi",
-          "fonte",
-          "priorità"
+          "Synthese",
+          "Quelle",
+          "Priorität"
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Deutsch C2: vergleichen um Lösung com argumentos claros",
+        "text": "Deutsch C2: vergleichen ein Thema mit klaren Argumenten",
         "suggestions": [
-          "sintesi",
-          "fonte",
-          "priorità"
+          "Synthese",
+          "Quelle",
+          "Priorität"
         ]
       }
     },
     "vocab": [
       [
-        "retorica",
+        "Rhetorik",
         "retórica"
       ],
       [
-        "premessa",
+        "Prämisse",
         "premisa"
       ],
       [
-        "inferenza",
+        "Schlussfolgerung",
         "inferencia"
       ],
       [
-        "attenuare",
+        "abschwächen",
         "atenuar"
       ],
       [
-        "persuasivo",
+        "überzeugend",
         "persuasivo"
       ]
     ],
@@ -472,12 +472,12 @@
       ],
       [
         "Mission",
-        "erläutern um Ziel com argumentos claros"
+        "erläutern ein Thema mit klaren Argumenten"
       ]
     ],
     "reading": {
       "title": "Deutsch C2 Reading",
-      "text": "Im Modul «Synthese und Vorschlag» untersucht die Gruppe sintesi und fonte. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Synthese und Vorschlag» untersucht die Gruppe Synthese und Quelle. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -929,45 +929,45 @@
     "xpReward": 30,
     "orderIndex": 10,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "scadenza",
-      "incarico",
-      "risorsa"
+      "Frist",
+      "Aufgabe",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "scadenza",
+        "word": "Frist",
         "translation": "plazo",
-        "example": "Die Diskussion klärt die Rolle von scadenza."
+        "example": "Die Diskussion klärt die Rolle von Frist."
       },
       {
-        "word": "incarico",
+        "word": "Aufgabe",
         "translation": "tarea asignada",
-        "example": "Die Diskussion klärt die Rolle von incarico."
+        "example": "Die Diskussion klärt die Rolle von Aufgabe."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "coordinare",
+        "word": "koordinieren",
         "translation": "coordinar",
-        "example": "Die Diskussion klärt die Rolle von coordinare."
+        "example": "Die Diskussion klärt die Rolle von koordinieren."
       },
       {
-        "word": "valutare",
+        "word": "bewerten",
         "translation": "evaluar",
-        "example": "Die Diskussion klärt die Rolle von valutare."
+        "example": "Die Diskussion klärt die Rolle von bewerten."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Projekte und Verantwortung» untersucht die Gruppe scadenza und incarico. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Projekte und Verantwortung» untersucht die Gruppe Frist und Aufgabe. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -977,7 +977,7 @@
       "grammarProfile": {
         "name": "Projekte und Verantwortung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -988,10 +988,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "scadenza",
-          "risorsa",
-          "coordinare",
-          "valutare"
+          "Frist",
+          "Ressource",
+          "koordinieren",
+          "bewerten"
         ]
       },
       {
@@ -1002,39 +1002,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-projekte-und-verantwortung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-projekte-und-verantwortung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-projekte-und-verantwortung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -1050,45 +1017,45 @@
     "xpReward": 35,
     "orderIndex": 10,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "tesi",
-      "obiezione",
-      "evidenza"
+      "These",
+      "Einwand",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "tesi",
+        "word": "These",
         "translation": "tesis",
-        "example": "Die Diskussion klärt die Rolle von tesi."
+        "example": "Die Diskussion klärt die Rolle von These."
       },
       {
-        "word": "obiezione",
+        "word": "Einwand",
         "translation": "objeción",
-        "example": "Die Diskussion klärt die Rolle von obiezione."
+        "example": "Die Diskussion klärt die Rolle von Einwand."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "confutare",
+        "word": "widerlegen",
         "translation": "refutar",
-        "example": "Die Diskussion klärt die Rolle von confutare."
+        "example": "Die Diskussion klärt die Rolle von widerlegen."
       },
       {
-        "word": "sfumatura",
+        "word": "Nuance",
         "translation": "matiz",
-        "example": "Die Diskussion klärt die Rolle von sfumatura."
+        "example": "Die Diskussion klärt die Rolle von Nuance."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Öffentliche Argumentation» untersucht die Gruppe tesi und obiezione. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Öffentliche Argumentation» untersucht die Gruppe These und Einwand. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -1098,7 +1065,7 @@
       "grammarProfile": {
         "name": "Öffentliche Argumentation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -1109,10 +1076,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "tesi",
-          "evidenza",
-          "confutare",
-          "sfumatura"
+          "These",
+          "Beleg",
+          "widerlegen",
+          "Nuance"
         ]
       },
       {
@@ -1123,39 +1090,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-offentliche-argumentation-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-offentliche-argumentation-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "tesi",
-          "Jede",
-          "soll",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-offentliche-argumentation-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "die",
-          "und",
-          "ein"
         ]
       }
     ]
@@ -1171,45 +1105,45 @@
     "xpReward": 40,
     "orderIndex": 10,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "retorica",
-      "premessa",
-      "inferenza"
+      "Rhetorik",
+      "Prämisse",
+      "Schlussfolgerung"
     ],
     "vocabulary": [
       {
-        "word": "retorica",
+        "word": "Rhetorik",
         "translation": "retórica",
-        "example": "Die Diskussion klärt die Rolle von retorica."
+        "example": "Die Diskussion klärt die Rolle von Rhetorik."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "inferenza",
+        "word": "Schlussfolgerung",
         "translation": "inferencia",
-        "example": "Die Diskussion klärt die Rolle von inferenza."
+        "example": "Die Diskussion klärt die Rolle von Schlussfolgerung."
       },
       {
-        "word": "attenuare",
+        "word": "abschwächen",
         "translation": "atenuar",
-        "example": "Die Diskussion klärt die Rolle von attenuare."
+        "example": "Die Diskussion klärt die Rolle von abschwächen."
       },
       {
-        "word": "persuasivo",
+        "word": "überzeugend",
         "translation": "persuasivo",
-        "example": "Die Diskussion klärt die Rolle von persuasivo."
+        "example": "Die Diskussion klärt die Rolle von überzeugend."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Sprache und Überzeugung» untersucht die Gruppe retorica und premessa. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Sprache und Überzeugung» untersucht die Gruppe Rhetorik und Prämisse. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -1219,7 +1153,7 @@
       "grammarProfile": {
         "name": "Sprache und Überzeugung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -1230,10 +1164,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "retorica",
-          "inferenza",
-          "attenuare",
-          "persuasivo"
+          "Rhetorik",
+          "Schlussfolgerung",
+          "abschwächen",
+          "überzeugend"
         ]
       },
       {
@@ -1244,39 +1178,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-sprache-und-uberzeugung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "Sprache",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c2-c2-sprache-und-uberzeugung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-sprache-und-uberzeugung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -3384,50 +3285,50 @@
     "xpReward": 30,
     "orderIndex": 11,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "scadenza",
-      "incarico",
-      "risorsa"
+      "Frist",
+      "Aufgabe",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "scadenza",
+        "word": "Frist",
         "translation": "plazo",
-        "example": "Die Diskussion klärt die Rolle von scadenza."
+        "example": "Die Diskussion klärt die Rolle von Frist."
       },
       {
-        "word": "incarico",
+        "word": "Aufgabe",
         "translation": "tarea asignada",
-        "example": "Die Diskussion klärt die Rolle von incarico."
+        "example": "Die Diskussion klärt die Rolle von Aufgabe."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "coordinare",
+        "word": "koordinieren",
         "translation": "coordinar",
-        "example": "Die Diskussion klärt die Rolle von coordinare."
+        "example": "Die Diskussion klärt die Rolle von koordinieren."
       },
       {
-        "word": "valutare",
+        "word": "bewerten",
         "translation": "evaluar",
-        "example": "Die Diskussion klärt die Rolle von valutare."
+        "example": "Die Diskussion klärt die Rolle von bewerten."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „scadenza“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -3436,7 +3337,7 @@
       "grammarProfile": {
         "name": "Projekte und Verantwortung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -3445,7 +3346,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -3460,46 +3361,46 @@
     "xpReward": 35,
     "orderIndex": 11,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "tesi",
-      "obiezione",
-      "evidenza"
+      "These",
+      "Einwand",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "tesi",
+        "word": "These",
         "translation": "tesis",
-        "example": "Die Diskussion klärt die Rolle von tesi."
+        "example": "Die Diskussion klärt die Rolle von These."
       },
       {
-        "word": "obiezione",
+        "word": "Einwand",
         "translation": "objeción",
-        "example": "Die Diskussion klärt die Rolle von obiezione."
+        "example": "Die Diskussion klärt die Rolle von Einwand."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "confutare",
+        "word": "widerlegen",
         "translation": "refutar",
-        "example": "Die Diskussion klärt die Rolle von confutare."
+        "example": "Die Diskussion klärt die Rolle von widerlegen."
       },
       {
-        "word": "sfumatura",
+        "word": "Nuance",
         "translation": "matiz",
-        "example": "Die Diskussion klärt die Rolle von sfumatura."
+        "example": "Die Diskussion klärt die Rolle von Nuance."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -3512,7 +3413,7 @@
       "grammarProfile": {
         "name": "Öffentliche Argumentation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -3521,7 +3422,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -3536,46 +3437,46 @@
     "xpReward": 40,
     "orderIndex": 11,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "retorica",
-      "premessa",
-      "inferenza"
+      "Rhetorik",
+      "Prämisse",
+      "Schlussfolgerung"
     ],
     "vocabulary": [
       {
-        "word": "retorica",
+        "word": "Rhetorik",
         "translation": "retórica",
-        "example": "Die Diskussion klärt die Rolle von retorica."
+        "example": "Die Diskussion klärt die Rolle von Rhetorik."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "inferenza",
+        "word": "Schlussfolgerung",
         "translation": "inferencia",
-        "example": "Die Diskussion klärt die Rolle von inferenza."
+        "example": "Die Diskussion klärt die Rolle von Schlussfolgerung."
       },
       {
-        "word": "attenuare",
+        "word": "abschwächen",
         "translation": "atenuar",
-        "example": "Die Diskussion klärt die Rolle von attenuare."
+        "example": "Die Diskussion klärt die Rolle von abschwächen."
       },
       {
-        "word": "persuasivo",
+        "word": "überzeugend",
         "translation": "persuasivo",
-        "example": "Die Diskussion klärt die Rolle von persuasivo."
+        "example": "Die Diskussion klärt die Rolle von überzeugend."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -3588,7 +3489,7 @@
       "grammarProfile": {
         "name": "Sprache und Überzeugung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -3597,7 +3498,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -6113,40 +6014,40 @@
     "xpReward": 30,
     "orderIndex": 12,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "scadenza",
-      "incarico",
-      "risorsa"
+      "Frist",
+      "Aufgabe",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "scadenza",
+        "word": "Frist",
         "translation": "plazo",
-        "example": "Die Diskussion klärt die Rolle von scadenza."
+        "example": "Die Diskussion klärt die Rolle von Frist."
       },
       {
-        "word": "incarico",
+        "word": "Aufgabe",
         "translation": "tarea asignada",
-        "example": "Die Diskussion klärt die Rolle von incarico."
+        "example": "Die Diskussion klärt die Rolle von Aufgabe."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "coordinare",
+        "word": "koordinieren",
         "translation": "coordinar",
-        "example": "Die Diskussion klärt die Rolle von coordinare."
+        "example": "Die Diskussion klärt die Rolle von koordinieren."
       },
       {
-        "word": "valutare",
+        "word": "bewerten",
         "translation": "evaluar",
-        "example": "Die Diskussion klärt die Rolle von valutare."
+        "example": "Die Diskussion klärt die Rolle von bewerten."
       }
     ],
     "dialogue": [],
@@ -6156,7 +6057,7 @@
       "grammarProfile": {
         "name": "Projekte und Verantwortung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -6165,7 +6066,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -6180,40 +6081,40 @@
     "xpReward": 35,
     "orderIndex": 12,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "tesi",
-      "obiezione",
-      "evidenza"
+      "These",
+      "Einwand",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "tesi",
+        "word": "These",
         "translation": "tesis",
-        "example": "Die Diskussion klärt die Rolle von tesi."
+        "example": "Die Diskussion klärt die Rolle von These."
       },
       {
-        "word": "obiezione",
+        "word": "Einwand",
         "translation": "objeción",
-        "example": "Die Diskussion klärt die Rolle von obiezione."
+        "example": "Die Diskussion klärt die Rolle von Einwand."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "confutare",
+        "word": "widerlegen",
         "translation": "refutar",
-        "example": "Die Diskussion klärt die Rolle von confutare."
+        "example": "Die Diskussion klärt die Rolle von widerlegen."
       },
       {
-        "word": "sfumatura",
+        "word": "Nuance",
         "translation": "matiz",
-        "example": "Die Diskussion klärt die Rolle von sfumatura."
+        "example": "Die Diskussion klärt die Rolle von Nuance."
       }
     ],
     "dialogue": [],
@@ -6223,7 +6124,7 @@
       "grammarProfile": {
         "name": "Öffentliche Argumentation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -6232,7 +6133,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -6247,40 +6148,40 @@
     "xpReward": 40,
     "orderIndex": 12,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "retorica",
-      "premessa",
-      "inferenza"
+      "Rhetorik",
+      "Prämisse",
+      "Schlussfolgerung"
     ],
     "vocabulary": [
       {
-        "word": "retorica",
+        "word": "Rhetorik",
         "translation": "retórica",
-        "example": "Die Diskussion klärt die Rolle von retorica."
+        "example": "Die Diskussion klärt die Rolle von Rhetorik."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "inferenza",
+        "word": "Schlussfolgerung",
         "translation": "inferencia",
-        "example": "Die Diskussion klärt die Rolle von inferenza."
+        "example": "Die Diskussion klärt die Rolle von Schlussfolgerung."
       },
       {
-        "word": "attenuare",
+        "word": "abschwächen",
         "translation": "atenuar",
-        "example": "Die Diskussion klärt die Rolle von attenuare."
+        "example": "Die Diskussion klärt die Rolle von abschwächen."
       },
       {
-        "word": "persuasivo",
+        "word": "überzeugend",
         "translation": "persuasivo",
-        "example": "Die Diskussion klärt die Rolle von persuasivo."
+        "example": "Die Diskussion klärt die Rolle von überzeugend."
       }
     ],
     "dialogue": [],
@@ -6290,7 +6191,7 @@
       "grammarProfile": {
         "name": "Sprache und Überzeugung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -6299,7 +6200,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -6314,40 +6215,40 @@
     "xpReward": 30,
     "orderIndex": 13,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "scadenza",
-      "incarico",
-      "risorsa"
+      "Frist",
+      "Aufgabe",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "scadenza",
+        "word": "Frist",
         "translation": "plazo",
-        "example": "Die Diskussion klärt die Rolle von scadenza."
+        "example": "Die Diskussion klärt die Rolle von Frist."
       },
       {
-        "word": "incarico",
+        "word": "Aufgabe",
         "translation": "tarea asignada",
-        "example": "Die Diskussion klärt die Rolle von incarico."
+        "example": "Die Diskussion klärt die Rolle von Aufgabe."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "coordinare",
+        "word": "koordinieren",
         "translation": "coordinar",
-        "example": "Die Diskussion klärt die Rolle von coordinare."
+        "example": "Die Diskussion klärt die Rolle von koordinieren."
       },
       {
-        "word": "valutare",
+        "word": "bewerten",
         "translation": "evaluar",
-        "example": "Die Diskussion klärt die Rolle von valutare."
+        "example": "Die Diskussion klärt die Rolle von bewerten."
       }
     ],
     "dialogue": [],
@@ -6357,7 +6258,7 @@
       "grammarProfile": {
         "name": "Projekte und Verantwortung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -6366,52 +6267,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scadenza. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Frist. (1)",
         "options": [
-          "scadenza",
-          "incarico",
-          "risorsa",
-          "coordinare"
+          "Frist",
+          "Aufgabe",
+          "Ressource",
+          "koordinieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scadenza. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Frist. (2)",
         "options": [
-          "incarico",
-          "risorsa",
-          "coordinare",
-          "valutare"
+          "Aufgabe",
+          "Ressource",
+          "koordinieren",
+          "bewerten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scadenza. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Frist. (3)",
         "options": [
-          "risorsa",
-          "coordinare",
-          "valutare",
-          "scadenza"
+          "Ressource",
+          "koordinieren",
+          "bewerten",
+          "Frist"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scadenza. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Frist. (4)",
         "options": [
-          "coordinare",
-          "valutare",
-          "scadenza",
-          "incarico"
+          "koordinieren",
+          "bewerten",
+          "Frist",
+          "Aufgabe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scadenza. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Frist. (5)",
         "options": [
-          "valutare",
-          "scadenza",
-          "incarico",
-          "risorsa"
+          "bewerten",
+          "Frist",
+          "Aufgabe",
+          "Ressource"
         ]
       }
     ]
@@ -6427,40 +6328,40 @@
     "xpReward": 35,
     "orderIndex": 13,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "tesi",
-      "obiezione",
-      "evidenza"
+      "These",
+      "Einwand",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "tesi",
+        "word": "These",
         "translation": "tesis",
-        "example": "Die Diskussion klärt die Rolle von tesi."
+        "example": "Die Diskussion klärt die Rolle von These."
       },
       {
-        "word": "obiezione",
+        "word": "Einwand",
         "translation": "objeción",
-        "example": "Die Diskussion klärt die Rolle von obiezione."
+        "example": "Die Diskussion klärt die Rolle von Einwand."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "confutare",
+        "word": "widerlegen",
         "translation": "refutar",
-        "example": "Die Diskussion klärt die Rolle von confutare."
+        "example": "Die Diskussion klärt die Rolle von widerlegen."
       },
       {
-        "word": "sfumatura",
+        "word": "Nuance",
         "translation": "matiz",
-        "example": "Die Diskussion klärt die Rolle von sfumatura."
+        "example": "Die Diskussion klärt die Rolle von Nuance."
       }
     ],
     "dialogue": [],
@@ -6470,7 +6371,7 @@
       "grammarProfile": {
         "name": "Öffentliche Argumentation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -6479,52 +6380,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tesi. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu These. (1)",
         "options": [
-          "tesi",
-          "obiezione",
-          "evidenza",
-          "confutare"
+          "These",
+          "Einwand",
+          "Beleg",
+          "widerlegen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tesi. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu These. (2)",
         "options": [
-          "obiezione",
-          "evidenza",
-          "confutare",
-          "sfumatura"
+          "Einwand",
+          "Beleg",
+          "widerlegen",
+          "Nuance"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tesi. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu These. (3)",
         "options": [
-          "evidenza",
-          "confutare",
-          "sfumatura",
-          "tesi"
+          "Beleg",
+          "widerlegen",
+          "Nuance",
+          "These"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tesi. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu These. (4)",
         "options": [
-          "confutare",
-          "sfumatura",
-          "tesi",
-          "obiezione"
+          "widerlegen",
+          "Nuance",
+          "These",
+          "Einwand"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tesi. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu These. (5)",
         "options": [
-          "sfumatura",
-          "tesi",
-          "obiezione",
-          "evidenza"
+          "Nuance",
+          "These",
+          "Einwand",
+          "Beleg"
         ]
       }
     ]
@@ -6540,40 +6441,40 @@
     "xpReward": 40,
     "orderIndex": 13,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "retorica",
-      "premessa",
-      "inferenza"
+      "Rhetorik",
+      "Prämisse",
+      "Schlussfolgerung"
     ],
     "vocabulary": [
       {
-        "word": "retorica",
+        "word": "Rhetorik",
         "translation": "retórica",
-        "example": "Die Diskussion klärt die Rolle von retorica."
+        "example": "Die Diskussion klärt die Rolle von Rhetorik."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "inferenza",
+        "word": "Schlussfolgerung",
         "translation": "inferencia",
-        "example": "Die Diskussion klärt die Rolle von inferenza."
+        "example": "Die Diskussion klärt die Rolle von Schlussfolgerung."
       },
       {
-        "word": "attenuare",
+        "word": "abschwächen",
         "translation": "atenuar",
-        "example": "Die Diskussion klärt die Rolle von attenuare."
+        "example": "Die Diskussion klärt die Rolle von abschwächen."
       },
       {
-        "word": "persuasivo",
+        "word": "überzeugend",
         "translation": "persuasivo",
-        "example": "Die Diskussion klärt die Rolle von persuasivo."
+        "example": "Die Diskussion klärt die Rolle von überzeugend."
       }
     ],
     "dialogue": [],
@@ -6583,7 +6484,7 @@
       "grammarProfile": {
         "name": "Sprache und Überzeugung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -6592,52 +6493,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu retorica. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Rhetorik. (1)",
         "options": [
-          "retorica",
-          "premessa",
-          "inferenza",
-          "attenuare"
+          "Rhetorik",
+          "Prämisse",
+          "Schlussfolgerung",
+          "abschwächen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu retorica. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Rhetorik. (2)",
         "options": [
-          "premessa",
-          "inferenza",
-          "attenuare",
-          "persuasivo"
+          "Prämisse",
+          "Schlussfolgerung",
+          "abschwächen",
+          "überzeugend"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu retorica. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Rhetorik. (3)",
         "options": [
-          "inferenza",
-          "attenuare",
-          "persuasivo",
-          "retorica"
+          "Schlussfolgerung",
+          "abschwächen",
+          "überzeugend",
+          "Rhetorik"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu retorica. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Rhetorik. (4)",
         "options": [
-          "attenuare",
-          "persuasivo",
-          "retorica",
-          "premessa"
+          "abschwächen",
+          "überzeugend",
+          "Rhetorik",
+          "Prämisse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu retorica. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Rhetorik. (5)",
         "options": [
-          "persuasivo",
-          "retorica",
-          "premessa",
-          "inferenza"
+          "überzeugend",
+          "Rhetorik",
+          "Prämisse",
+          "Schlussfolgerung"
         ]
       }
     ]
@@ -6653,170 +6554,40 @@
     "xpReward": 30,
     "orderIndex": 14,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "scadenza",
-      "incarico",
-      "risorsa"
+      "Frist",
+      "Aufgabe",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "scadenza",
+        "word": "Frist",
         "translation": "plazo",
-        "example": "Die Diskussion klärt die Rolle von scadenza."
+        "example": "Die Diskussion klärt die Rolle von Frist."
       },
       {
-        "word": "incarico",
+        "word": "Aufgabe",
         "translation": "tarea asignada",
-        "example": "Die Diskussion klärt die Rolle von incarico."
+        "example": "Die Diskussion klärt die Rolle von Aufgabe."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
-      },
-      {
-        "word": "coordinare",
-        "translation": "coordinar",
-        "example": "Die Diskussion klärt die Rolle von coordinare."
-      },
-      {
-        "word": "valutare",
-        "translation": "evaluar",
-        "example": "Die Diskussion klärt die Rolle von valutare."
-      },
-      {
-        "word": "die Frist",
-        "translation": "plazo",
-        "example": "Die Frist für die Bewerbung endet nächste Woche."
-      },
-      {
-        "word": "das Ziel",
-        "translation": "objetivo",
-        "example": "Das Ziel des Projekts ist die Markteinführung im Herbst."
-      },
-      {
-        "word": "die Verantwortung",
-        "translation": "responsabilidad",
-        "example": "Die Verantwortung für Qualität darf nicht unterschätzt werden."
-      },
-      {
-        "word": "zuständig sein",
-        "translation": "estar a cargo",
-        "example": "Für die technische Umsetzung ist das Team zuständig."
-      },
-      {
-        "word": "die Priorität",
-        "translation": "prioridad",
-        "example": "Die Priorität liegt auf Kundenzufriedenheit."
-      },
-      {
-        "word": "die Ressource",
-        "translation": "recurso",
-        "example": "Die Ressource Zeit ist knapp."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
         "word": "koordinieren",
         "translation": "coordinar",
-        "example": "Ich koordiniere die Aufgabenverteilung."
+        "example": "Die Diskussion klärt die Rolle von koordinieren."
       },
       {
         "word": "bewerten",
         "translation": "evaluar",
-        "example": "Wir müssen die Risiken bewerten."
-      },
-      {
-        "word": "die Priorisierung",
-        "translation": "priorización",
-        "example": "Die Priorisierung der Aufgaben ist entscheidend."
-      },
-      {
-        "word": "das Budget",
-        "translation": "presupuesto",
-        "example": "Das Budget wurde für das nächste Quartal genehmigt."
-      },
-      {
-        "word": "realisierbar",
-        "translation": "realizable",
-        "example": "Das Ziel ist realisierbar innerhalb von drei Monaten."
-      },
-      {
-        "word": "die Stakeholder",
-        "translation": "partes interesadas",
-        "example": "Die Stakeholder müssen über Änderungen informiert werden."
-      },
-      {
-        "word": "die Kommunikation",
-        "translation": "comunicación",
-        "example": "Klare Kommunikation reduziert Missverständnisse."
-      },
-      {
-        "word": "das Protokoll",
-        "translation": "acta",
-        "example": "Bitte lesen Sie das Protokoll vom letzten Treffen."
-      },
-      {
-        "word": "der Meilenstein",
-        "translation": "hito",
-        "example": "Der nächste Meilenstein ist die Fertigstellung des Prototyps."
-      },
-      {
-        "word": "die Qualitätssicherung",
-        "translation": "aseguramiento de la calidad",
-        "example": "Die Qualitätssicherung prüft alle Produkte vor der Auslieferung."
-      },
-      {
-        "word": "priorisieren",
-        "translation": "priorizar",
-        "example": "Wir müssen die Aufgaben nach Dringlichkeit priorisieren."
-      },
-      {
-        "word": "die Umsetzung",
-        "translation": "implementación",
-        "example": "Die Umsetzung des Plans beginnt morgen."
-      },
-      {
-        "word": "die Verzögerung",
-        "translation": "retraso",
-        "example": "Die Verzögerung beeinträchtigt den Zeitplan."
-      },
-      {
-        "word": "der Zeitplan",
-        "translation": "cronograma",
-        "example": "Der Zeitplan muss angepasst werden."
-      },
-      {
-        "word": "Rückmeldung geben",
-        "translation": "dar retroalimentación",
-        "example": "Bitte geben Sie bis Freitag eine Rückmeldung.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, die Prioritäten zu klären?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach sollten wir mehr Ressourcen einsetzen.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu",
-        "translation": "estoy de acuerdo",
-        "example": "Ich stimme zu, das ist die beste Lösung.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Bedenken",
-        "translation": "tengo reservas",
-        "example": "Ich habe Bedenken bezüglich des Budgets.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von bewerten."
       }
     ],
     "dialogue": [],
@@ -6826,7 +6597,7 @@
       "grammarProfile": {
         "name": "Projekte und Verantwortung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -6837,50 +6608,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „plazo“?",
         "options": [
-          "scadenza",
-          "incarico",
-          "risorsa",
-          "coordinare"
+          "Frist",
+          "Aufgabe",
+          "Ressource",
+          "koordinieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „incarico“.",
+        "prompt": "Wähle „Aufgabe“.",
         "options": [
-          "incarico",
-          "risorsa",
-          "coordinare",
-          "valutare"
+          "Aufgabe",
+          "Ressource",
+          "koordinieren",
+          "bewerten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „risorsa“.",
+        "prompt": "Wähle „Ressource“.",
         "options": [
-          "risorsa",
-          "coordinare",
-          "valutare",
-          "scadenza"
+          "Ressource",
+          "koordinieren",
+          "bewerten",
+          "Frist"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „coordinare“.",
+        "prompt": "Wähle „koordinieren“.",
         "options": [
-          "coordinare",
-          "valutare",
-          "scadenza",
-          "incarico"
+          "koordinieren",
+          "bewerten",
+          "Frist",
+          "Aufgabe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „valutare“.",
+        "prompt": "Wähle „bewerten“.",
         "options": [
-          "valutare",
-          "scadenza",
-          "incarico",
-          "risorsa"
+          "bewerten",
+          "Frist",
+          "Aufgabe",
+          "Ressource"
         ]
       }
     ]
@@ -6896,171 +6667,40 @@
     "xpReward": 35,
     "orderIndex": 14,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "tesi",
-      "obiezione",
-      "evidenza"
+      "These",
+      "Einwand",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "tesi",
+        "word": "These",
         "translation": "tesis",
-        "example": "Die Diskussion klärt die Rolle von tesi."
+        "example": "Die Diskussion klärt die Rolle von These."
       },
       {
-        "word": "obiezione",
+        "word": "Einwand",
         "translation": "objeción",
-        "example": "Die Diskussion klärt die Rolle von obiezione."
+        "example": "Die Diskussion klärt die Rolle von Einwand."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "confutare",
+        "word": "widerlegen",
         "translation": "refutar",
-        "example": "Die Diskussion klärt die Rolle von confutare."
+        "example": "Die Diskussion klärt die Rolle von widerlegen."
       },
       {
-        "word": "sfumatura",
+        "word": "Nuance",
         "translation": "matiz",
-        "example": "Die Diskussion klärt die Rolle von sfumatura."
-      },
-      {
-        "word": "das Argument",
-        "translation": "el argumento",
-        "example": "Das starke Argument überzeugte die Mehrheit."
-      },
-      {
-        "word": "die These",
-        "translation": "la tesis",
-        "example": "Die These wurde klar formuliert."
-      },
-      {
-        "word": "das Gegenargument",
-        "translation": "el contraargumento",
-        "example": "Er brachte ein überzeugendes Gegenargument vor."
-      },
-      {
-        "word": "die Begründung",
-        "translation": "la justificación",
-        "example": "Die Begründung für die Entscheidung war nachvollziehbar."
-      },
-      {
-        "word": "die Prämisse",
-        "translation": "la premisa",
-        "example": "Die Prämisse ist nicht ausreichend belegt."
-      },
-      {
-        "word": "die Schlussfolgerung",
-        "translation": "la conclusión",
-        "example": "Aus den Ergebnissen ziehe ich diese Schlussfolgerung."
-      },
-      {
-        "word": "der Beleg",
-        "translation": "la prueba",
-        "example": "Für seine Behauptung fehlt ein valider Beleg."
-      },
-      {
-        "word": "die Kohärenz",
-        "translation": "la coherencia",
-        "example": "Die Kohärenz des Textes ist eindrucksvoll."
-      },
-      {
-        "word": "die Rhetorik",
-        "translation": "la retórica",
-        "example": "Gute Rhetorik verstärkt die Wirkung einer Rede."
-      },
-      {
-        "word": "die Überzeugungskraft",
-        "translation": "la fuerza persuasiva",
-        "example": "Ihre Argumente hatten große Überzeugungskraft."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Wir sollten die Perspektive der Betroffenen berücksichtigen."
-      },
-      {
-        "word": "der Einwand",
-        "translation": "la objeción",
-        "example": "Gibt es gegen diesen Vorschlag noch einen Einwand?"
-      },
-      {
-        "word": "die Widerlegung",
-        "translation": "la refutación",
-        "example": "Die Widerlegung seiner These war fundiert."
-      },
-      {
-        "word": "die Präzisierung",
-        "translation": "la precisión",
-        "example": "Eine Präzisierung des Begriffs erscheint nötig."
-      },
-      {
-        "word": "die Argumentationsstruktur",
-        "translation": "la estructura argumentativa",
-        "example": "Die Argumentationsstruktur ist logisch aufgebaut."
-      },
-      {
-        "word": "der Sachverhalt",
-        "translation": "el hecho / la situación fáctica",
-        "example": "Der Sachverhalt wurde korrekt dargestellt."
-      },
-      {
-        "word": "die Moderation",
-        "translation": "la moderación / conducción de la discusión",
-        "example": "Die Moderation leitete die Runde sachlich."
-      },
-      {
-        "word": "die Diskussionsrunde",
-        "translation": "la mesa redonda",
-        "example": "Die Diskussionsrunde dauerte eine Stunde."
-      },
-      {
-        "word": "das Publikum",
-        "translation": "el público",
-        "example": "Das Publikum reagierte mit Applaus."
-      },
-      {
-        "word": "Könnten Sie mir kurz helfen?",
-        "translation": "¿Podría ayudarme un momento?",
-        "example": "Könnten Sie mir kurz helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach ist die Begründung stichhaltig.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich Ihnen zu.",
-        "translation": "Estoy de acuerdo con usted.",
-        "example": "Da stimme ich Ihnen zu, das ist ein wichtiger Punkt.",
-        "category": "expression"
-      },
-      {
-        "word": "Das bezweifle ich.",
-        "translation": "Lo dudo.",
-        "example": "Das bezweifle ich, weil die Daten widersprüchlich sind.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigen Sie die Unterbrechung.",
-        "translation": "Disculpe la interrupción.",
-        "example": "Entschuldigen Sie die Unterbrechung, darf ich etwas hinzufügen?",
-        "category": "expression"
-      },
-      {
-        "word": "Daraus folgt, dass...",
-        "translation": "De ello se deduce que...",
-        "example": "Daraus folgt, dass wir unsere These revidieren müssen.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Nuance."
       }
     ],
     "dialogue": [],
@@ -7070,7 +6710,7 @@
       "grammarProfile": {
         "name": "Öffentliche Argumentation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -7081,50 +6721,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „tesis“?",
         "options": [
-          "tesi",
-          "obiezione",
-          "evidenza",
-          "confutare"
+          "These",
+          "Einwand",
+          "Beleg",
+          "widerlegen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „obiezione“.",
+        "prompt": "Wähle „Einwand“.",
         "options": [
-          "obiezione",
-          "evidenza",
-          "confutare",
-          "sfumatura"
+          "Einwand",
+          "Beleg",
+          "widerlegen",
+          "Nuance"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „evidenza“.",
+        "prompt": "Wähle „Beleg“.",
         "options": [
-          "evidenza",
-          "confutare",
-          "sfumatura",
-          "tesi"
+          "Beleg",
+          "widerlegen",
+          "Nuance",
+          "These"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „confutare“.",
+        "prompt": "Wähle „widerlegen“.",
         "options": [
-          "confutare",
-          "sfumatura",
-          "tesi",
-          "obiezione"
+          "widerlegen",
+          "Nuance",
+          "These",
+          "Einwand"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „sfumatura“.",
+        "prompt": "Wähle „Nuance“.",
         "options": [
-          "sfumatura",
-          "tesi",
-          "obiezione",
-          "evidenza"
+          "Nuance",
+          "These",
+          "Einwand",
+          "Beleg"
         ]
       }
     ]
@@ -7140,171 +6780,40 @@
     "xpReward": 40,
     "orderIndex": 14,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "retorica",
-      "premessa",
-      "inferenza"
+      "Rhetorik",
+      "Prämisse",
+      "Schlussfolgerung"
     ],
     "vocabulary": [
       {
-        "word": "retorica",
+        "word": "Rhetorik",
         "translation": "retórica",
-        "example": "Die Diskussion klärt die Rolle von retorica."
+        "example": "Die Diskussion klärt die Rolle von Rhetorik."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "inferenza",
+        "word": "Schlussfolgerung",
         "translation": "inferencia",
-        "example": "Die Diskussion klärt die Rolle von inferenza."
+        "example": "Die Diskussion klärt die Rolle von Schlussfolgerung."
       },
       {
-        "word": "attenuare",
+        "word": "abschwächen",
         "translation": "atenuar",
-        "example": "Die Diskussion klärt die Rolle von attenuare."
-      },
-      {
-        "word": "persuasivo",
-        "translation": "persuasivo",
-        "example": "Die Diskussion klärt die Rolle von persuasivo."
-      },
-      {
-        "word": "die Überzeugung",
-        "translation": "la convicción",
-        "example": "Seine Überzeugung gründete sich auf belastbaren Fakten."
-      },
-      {
-        "word": "überzeugen",
-        "translation": "convencer",
-        "example": "Sie konnte das Komitee mit ihren Argumenten überzeugen."
-      },
-      {
-        "word": "schlüssig",
-        "translation": "concluyente; coherente",
-        "example": "Ihr Argument war schlüssig und gut strukturiert."
-      },
-      {
-        "word": "plausibel",
-        "translation": "plausible",
-        "example": "Die Erklärung klang plausibel, aber nicht endgültig."
-      },
-      {
-        "word": "der Einwand",
-        "translation": "la objeción",
-        "example": "Ein häufiger Einwand betrifft die Methodik der Studie."
-      },
-      {
-        "word": "die Widerlegung",
-        "translation": "la refutación",
-        "example": "Die Widerlegung seiner These war klar und präzise."
-      },
-      {
-        "word": "die Prämisse",
-        "translation": "la premisa",
-        "example": "Die Prämisse des Arguments ist jedoch fragwürdig."
-      },
-      {
-        "word": "deduktiv",
-        "translation": "deductivo",
-        "example": "Die Argumentation folgte einem deduktiven Muster."
-      },
-      {
-        "word": "induktiv",
-        "translation": "inductivo",
-        "example": "Die Analyse arbeitete induktiv und zog allgemeine Schlüsse."
-      },
-      {
-        "word": "die Nuance",
-        "translation": "el matiz",
-        "example": "Man muss die Nuancen in der Formulierung beachten."
-      },
-      {
-        "word": "die Implikation",
-        "translation": "la implicación",
-        "example": "Die Implikation dieser Aussage ist politisch relevant."
-      },
-      {
-        "word": "rhetorisch",
-        "translation": "retórico",
-        "example": "Die rhetorische Frage blieb unbeantwortet."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Ohne klare Evidenz bleiben die Behauptungen spekulativ."
-      },
-      {
-        "word": "die Kohärenz",
-        "translation": "la coherencia",
-        "example": "Die Kohärenz des Textes überzeugte die Fachkollegen."
-      },
-      {
-        "word": "die Intention",
-        "translation": "la intención",
-        "example": "Die Intention des Autors war deutlich ersichtlich."
+        "example": "Die Diskussion klärt die Rolle von abschwächen."
       },
       {
         "word": "überzeugend",
-        "translation": "convincente",
-        "example": "Sein Vortrag war inhaltlich und rhetorisch überzeugend."
-      },
-      {
-        "word": "manipulierend",
-        "translation": "manipulador",
-        "example": "Manipulierende Strategien untergraben die Glaubwürdigkeit."
-      },
-      {
-        "word": "kontextualisieren",
-        "translation": "contextualizar",
-        "example": "Wir müssen die Aussage historisch kontextualisieren."
-      },
-      {
-        "word": "die Gegenargumentation",
-        "translation": "la contraargumentación",
-        "example": "Die Gegenargumentation wurde sorgfältig vorbereitet."
-      },
-      {
-        "word": "Könnten Sie mir kurz helfen?",
-        "translation": "¿Podría ayudarme brevemente?",
-        "example": "Könnten Sie mir kurz helfen? Ich möchte das Argument prüfen.",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach gelingt die Argumentation nicht vollständig.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich ganz Ihrer Meinung",
-        "translation": "estoy totalmente de acuerdo con usted",
-        "example": "Da bin ich ganz Ihrer Meinung; das ist nachvollziehbar.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz nachhaken?",
-        "translation": "¿Puedo preguntar brevemente?",
-        "example": "Darf ich kurz nachhaken? Wie definieren Sie hier 'Beweis'?",
-        "category": "expression"
-      },
-      {
-        "word": "Mit Verlaub",
-        "translation": "con todo respeto",
-        "example": "Mit Verlaub, das Argument übersieht einen zentralen Punkt.",
-        "category": "expression"
-      },
-      {
-        "word": "Aus diesem Grund",
-        "translation": "por este motivo",
-        "example": "Aus diesem Grund sollten wir die Schlussfolgerung überdenken.",
-        "category": "expression"
+        "translation": "persuasivo",
+        "example": "Die Diskussion klärt die Rolle von überzeugend."
       }
     ],
     "dialogue": [],
@@ -7314,7 +6823,7 @@
       "grammarProfile": {
         "name": "Sprache und Überzeugung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -7325,50 +6834,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „retórica“?",
         "options": [
-          "retorica",
-          "premessa",
-          "inferenza",
-          "attenuare"
+          "Rhetorik",
+          "Prämisse",
+          "Schlussfolgerung",
+          "abschwächen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „premessa“.",
+        "prompt": "Wähle „Prämisse“.",
         "options": [
-          "premessa",
-          "inferenza",
-          "attenuare",
-          "persuasivo"
+          "Prämisse",
+          "Schlussfolgerung",
+          "abschwächen",
+          "überzeugend"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „inferenza“.",
+        "prompt": "Wähle „Schlussfolgerung“.",
         "options": [
-          "inferenza",
-          "attenuare",
-          "persuasivo",
-          "retorica"
+          "Schlussfolgerung",
+          "abschwächen",
+          "überzeugend",
+          "Rhetorik"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „attenuare“.",
+        "prompt": "Wähle „abschwächen“.",
         "options": [
-          "attenuare",
-          "persuasivo",
-          "retorica",
-          "premessa"
+          "abschwächen",
+          "überzeugend",
+          "Rhetorik",
+          "Prämisse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „persuasivo“.",
+        "prompt": "Wähle „überzeugend“.",
         "options": [
-          "persuasivo",
-          "retorica",
-          "premessa",
-          "inferenza"
+          "überzeugend",
+          "Rhetorik",
+          "Prämisse",
+          "Schlussfolgerung"
         ]
       }
     ]
@@ -8063,45 +7572,45 @@
     "xpReward": 30,
     "orderIndex": 20,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "percorso",
-      "traffico",
-      "abbonamento"
+      "Strecke",
+      "Verkehr",
+      "Fahrkarte"
     ],
     "vocabulary": [
       {
-        "word": "percorso",
+        "word": "Strecke",
         "translation": "trayecto",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Strecke."
       },
       {
-        "word": "traffico",
+        "word": "Verkehr",
         "translation": "tráfico",
-        "example": "Die Diskussion klärt die Rolle von traffico."
+        "example": "Die Diskussion klärt die Rolle von Verkehr."
       },
       {
-        "word": "abbonamento",
+        "word": "Fahrkarte",
         "translation": "abono",
-        "example": "Die Diskussion klärt die Rolle von abbonamento."
+        "example": "Die Diskussion klärt die Rolle von Fahrkarte."
       },
       {
-        "word": "accessibile",
+        "word": "barrierefrei",
         "translation": "accesible",
-        "example": "Die Diskussion klärt die Rolle von accessibile."
+        "example": "Die Diskussion klärt die Rolle von barrierefrei."
       },
       {
-        "word": "ridurre",
+        "word": "verringern",
         "translation": "reducir",
-        "example": "Die Diskussion klärt die Rolle von ridurre."
+        "example": "Die Diskussion klärt die Rolle von verringern."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Stadt und Mobilität» untersucht die Gruppe percorso und traffico. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Stadt und Mobilität» untersucht die Gruppe Strecke und Verkehr. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -8111,7 +7620,7 @@
       "grammarProfile": {
         "name": "Stadt und Mobilität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -8122,10 +7631,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "percorso",
-          "abbonamento",
-          "accessibile",
-          "ridurre"
+          "Strecke",
+          "Fahrkarte",
+          "barrierefrei",
+          "verringern"
         ]
       },
       {
@@ -8136,39 +7645,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-stadt-und-mobilitat-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-stadt-und-mobilitat-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-stadt-und-mobilitat-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -8184,45 +7660,45 @@
     "xpReward": 35,
     "orderIndex": 20,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "innovazione",
-      "accesso",
-      "divario"
+      "Innovation",
+      "Zugang",
+      "Kluft"
     ],
     "vocabulary": [
       {
-        "word": "innovazione",
+        "word": "Innovation",
         "translation": "innovación",
-        "example": "Die Diskussion klärt die Rolle von innovazione."
+        "example": "Die Diskussion klärt die Rolle von Innovation."
       },
       {
-        "word": "accesso",
+        "word": "Zugang",
         "translation": "acceso",
-        "example": "Die Diskussion klärt die Rolle von accesso."
+        "example": "Die Diskussion klärt die Rolle von Zugang."
       },
       {
-        "word": "divario",
+        "word": "Kluft",
         "translation": "brecha",
-        "example": "Die Diskussion klärt die Rolle von divario."
+        "example": "Die Diskussion klärt die Rolle von Kluft."
       },
       {
-        "word": "regolare",
+        "word": "regulieren",
         "translation": "regular",
-        "example": "Die Diskussion klärt die Rolle von regolare."
+        "example": "Die Diskussion klärt die Rolle von regulieren."
       },
       {
-        "word": "conseguenza",
+        "word": "Folge",
         "translation": "consecuencia",
-        "example": "Die Diskussion klärt die Rolle von conseguenza."
+        "example": "Die Diskussion klärt die Rolle von Folge."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Innovation und Gesellschaft» untersucht die Gruppe innovazione und accesso. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Innovation und Gesellschaft» untersucht die Gruppe Innovation und Zugang. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -8232,7 +7708,7 @@
       "grammarProfile": {
         "name": "Innovation und Gesellschaft",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -8243,10 +7719,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "innovazione",
-          "divario",
-          "regolare",
-          "conseguenza"
+          "Innovation",
+          "Kluft",
+          "regulieren",
+          "Folge"
         ]
       },
       {
@@ -8257,39 +7733,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-innovation-und-gesellschaft-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "accesso",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c1-c1-innovation-und-gesellschaft-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-innovation-und-gesellschaft-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -8305,45 +7748,45 @@
     "xpReward": 40,
     "orderIndex": 20,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "politica",
-      "impatto",
-      "criterio"
+      "Politik",
+      "Auswirkung",
+      "Kriterium"
     ],
     "vocabulary": [
       {
-        "word": "politica",
+        "word": "Politik",
         "translation": "política",
-        "example": "Die Diskussion klärt die Rolle von politica."
+        "example": "Die Diskussion klärt die Rolle von Politik."
       },
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "criterio",
+        "word": "Kriterium",
         "translation": "criterio",
-        "example": "Die Diskussion klärt die Rolle von criterio."
+        "example": "Die Diskussion klärt die Rolle von Kriterium."
       },
       {
-        "word": "attuare",
+        "word": "umsetzen",
         "translation": "aplicar",
-        "example": "Die Diskussion klärt die Rolle von attuare."
+        "example": "Die Diskussion klärt die Rolle von umsetzen."
       },
       {
-        "word": "monitorare",
+        "word": "beobachten",
         "translation": "supervisar",
-        "example": "Die Diskussion klärt die Rolle von monitorare."
+        "example": "Die Diskussion klärt die Rolle von beobachten."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Öffentliche Politik» untersucht die Gruppe politica und impatto. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Öffentliche Politik» untersucht die Gruppe Politik und Auswirkung. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -8353,7 +7796,7 @@
       "grammarProfile": {
         "name": "Öffentliche Politik",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -8364,10 +7807,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "politica",
-          "criterio",
-          "attuare",
-          "monitorare"
+          "Politik",
+          "Kriterium",
+          "umsetzen",
+          "beobachten"
         ]
       },
       {
@@ -8378,39 +7821,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-offentliche-politik-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "Politik",
-          "impatto",
-          "Antwort",
-          "einzige"
-        ]
-      },
-      {
-        "id": "german-c2-c2-offentliche-politik-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-offentliche-politik-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "die",
-          "und",
-          "ein"
         ]
       }
     ]
@@ -10518,50 +9928,50 @@
     "xpReward": 30,
     "orderIndex": 21,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "percorso",
-      "traffico",
-      "abbonamento"
+      "Strecke",
+      "Verkehr",
+      "Fahrkarte"
     ],
     "vocabulary": [
       {
-        "word": "percorso",
+        "word": "Strecke",
         "translation": "trayecto",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Strecke."
       },
       {
-        "word": "traffico",
+        "word": "Verkehr",
         "translation": "tráfico",
-        "example": "Die Diskussion klärt die Rolle von traffico."
+        "example": "Die Diskussion klärt die Rolle von Verkehr."
       },
       {
-        "word": "abbonamento",
+        "word": "Fahrkarte",
         "translation": "abono",
-        "example": "Die Diskussion klärt die Rolle von abbonamento."
+        "example": "Die Diskussion klärt die Rolle von Fahrkarte."
       },
       {
-        "word": "accessibile",
+        "word": "barrierefrei",
         "translation": "accesible",
-        "example": "Die Diskussion klärt die Rolle von accessibile."
+        "example": "Die Diskussion klärt die Rolle von barrierefrei."
       },
       {
-        "word": "ridurre",
+        "word": "verringern",
         "translation": "reducir",
-        "example": "Die Diskussion klärt die Rolle von ridurre."
+        "example": "Die Diskussion klärt die Rolle von verringern."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „percorso“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -10570,7 +9980,7 @@
       "grammarProfile": {
         "name": "Stadt und Mobilität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -10579,7 +9989,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -10594,46 +10004,46 @@
     "xpReward": 35,
     "orderIndex": 21,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "innovazione",
-      "accesso",
-      "divario"
+      "Innovation",
+      "Zugang",
+      "Kluft"
     ],
     "vocabulary": [
       {
-        "word": "innovazione",
+        "word": "Innovation",
         "translation": "innovación",
-        "example": "Die Diskussion klärt die Rolle von innovazione."
+        "example": "Die Diskussion klärt die Rolle von Innovation."
       },
       {
-        "word": "accesso",
+        "word": "Zugang",
         "translation": "acceso",
-        "example": "Die Diskussion klärt die Rolle von accesso."
+        "example": "Die Diskussion klärt die Rolle von Zugang."
       },
       {
-        "word": "divario",
+        "word": "Kluft",
         "translation": "brecha",
-        "example": "Die Diskussion klärt die Rolle von divario."
+        "example": "Die Diskussion klärt die Rolle von Kluft."
       },
       {
-        "word": "regolare",
+        "word": "regulieren",
         "translation": "regular",
-        "example": "Die Diskussion klärt die Rolle von regolare."
+        "example": "Die Diskussion klärt die Rolle von regulieren."
       },
       {
-        "word": "conseguenza",
+        "word": "Folge",
         "translation": "consecuencia",
-        "example": "Die Diskussion klärt die Rolle von conseguenza."
+        "example": "Die Diskussion klärt die Rolle von Folge."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -10646,7 +10056,7 @@
       "grammarProfile": {
         "name": "Innovation und Gesellschaft",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -10655,7 +10065,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -10670,46 +10080,46 @@
     "xpReward": 40,
     "orderIndex": 21,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "politica",
-      "impatto",
-      "criterio"
+      "Politik",
+      "Auswirkung",
+      "Kriterium"
     ],
     "vocabulary": [
       {
-        "word": "politica",
+        "word": "Politik",
         "translation": "política",
-        "example": "Die Diskussion klärt die Rolle von politica."
+        "example": "Die Diskussion klärt die Rolle von Politik."
       },
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "criterio",
+        "word": "Kriterium",
         "translation": "criterio",
-        "example": "Die Diskussion klärt die Rolle von criterio."
+        "example": "Die Diskussion klärt die Rolle von Kriterium."
       },
       {
-        "word": "attuare",
+        "word": "umsetzen",
         "translation": "aplicar",
-        "example": "Die Diskussion klärt die Rolle von attuare."
+        "example": "Die Diskussion klärt die Rolle von umsetzen."
       },
       {
-        "word": "monitorare",
+        "word": "beobachten",
         "translation": "supervisar",
-        "example": "Die Diskussion klärt die Rolle von monitorare."
+        "example": "Die Diskussion klärt die Rolle von beobachten."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -10722,7 +10132,7 @@
       "grammarProfile": {
         "name": "Öffentliche Politik",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -10731,7 +10141,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -13244,40 +12654,40 @@
     "xpReward": 30,
     "orderIndex": 22,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "percorso",
-      "traffico",
-      "abbonamento"
+      "Strecke",
+      "Verkehr",
+      "Fahrkarte"
     ],
     "vocabulary": [
       {
-        "word": "percorso",
+        "word": "Strecke",
         "translation": "trayecto",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Strecke."
       },
       {
-        "word": "traffico",
+        "word": "Verkehr",
         "translation": "tráfico",
-        "example": "Die Diskussion klärt die Rolle von traffico."
+        "example": "Die Diskussion klärt die Rolle von Verkehr."
       },
       {
-        "word": "abbonamento",
+        "word": "Fahrkarte",
         "translation": "abono",
-        "example": "Die Diskussion klärt die Rolle von abbonamento."
+        "example": "Die Diskussion klärt die Rolle von Fahrkarte."
       },
       {
-        "word": "accessibile",
+        "word": "barrierefrei",
         "translation": "accesible",
-        "example": "Die Diskussion klärt die Rolle von accessibile."
+        "example": "Die Diskussion klärt die Rolle von barrierefrei."
       },
       {
-        "word": "ridurre",
+        "word": "verringern",
         "translation": "reducir",
-        "example": "Die Diskussion klärt die Rolle von ridurre."
+        "example": "Die Diskussion klärt die Rolle von verringern."
       }
     ],
     "dialogue": [],
@@ -13287,7 +12697,7 @@
       "grammarProfile": {
         "name": "Stadt und Mobilität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -13296,7 +12706,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -13311,40 +12721,40 @@
     "xpReward": 35,
     "orderIndex": 22,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "innovazione",
-      "accesso",
-      "divario"
+      "Innovation",
+      "Zugang",
+      "Kluft"
     ],
     "vocabulary": [
       {
-        "word": "innovazione",
+        "word": "Innovation",
         "translation": "innovación",
-        "example": "Die Diskussion klärt die Rolle von innovazione."
+        "example": "Die Diskussion klärt die Rolle von Innovation."
       },
       {
-        "word": "accesso",
+        "word": "Zugang",
         "translation": "acceso",
-        "example": "Die Diskussion klärt die Rolle von accesso."
+        "example": "Die Diskussion klärt die Rolle von Zugang."
       },
       {
-        "word": "divario",
+        "word": "Kluft",
         "translation": "brecha",
-        "example": "Die Diskussion klärt die Rolle von divario."
+        "example": "Die Diskussion klärt die Rolle von Kluft."
       },
       {
-        "word": "regolare",
+        "word": "regulieren",
         "translation": "regular",
-        "example": "Die Diskussion klärt die Rolle von regolare."
+        "example": "Die Diskussion klärt die Rolle von regulieren."
       },
       {
-        "word": "conseguenza",
+        "word": "Folge",
         "translation": "consecuencia",
-        "example": "Die Diskussion klärt die Rolle von conseguenza."
+        "example": "Die Diskussion klärt die Rolle von Folge."
       }
     ],
     "dialogue": [],
@@ -13354,7 +12764,7 @@
       "grammarProfile": {
         "name": "Innovation und Gesellschaft",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -13363,7 +12773,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -13378,40 +12788,40 @@
     "xpReward": 40,
     "orderIndex": 22,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "politica",
-      "impatto",
-      "criterio"
+      "Politik",
+      "Auswirkung",
+      "Kriterium"
     ],
     "vocabulary": [
       {
-        "word": "politica",
+        "word": "Politik",
         "translation": "política",
-        "example": "Die Diskussion klärt die Rolle von politica."
+        "example": "Die Diskussion klärt die Rolle von Politik."
       },
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "criterio",
+        "word": "Kriterium",
         "translation": "criterio",
-        "example": "Die Diskussion klärt die Rolle von criterio."
+        "example": "Die Diskussion klärt die Rolle von Kriterium."
       },
       {
-        "word": "attuare",
+        "word": "umsetzen",
         "translation": "aplicar",
-        "example": "Die Diskussion klärt die Rolle von attuare."
+        "example": "Die Diskussion klärt die Rolle von umsetzen."
       },
       {
-        "word": "monitorare",
+        "word": "beobachten",
         "translation": "supervisar",
-        "example": "Die Diskussion klärt die Rolle von monitorare."
+        "example": "Die Diskussion klärt die Rolle von beobachten."
       }
     ],
     "dialogue": [],
@@ -13421,7 +12831,7 @@
       "grammarProfile": {
         "name": "Öffentliche Politik",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -13430,7 +12840,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -13445,40 +12855,40 @@
     "xpReward": 30,
     "orderIndex": 23,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "percorso",
-      "traffico",
-      "abbonamento"
+      "Strecke",
+      "Verkehr",
+      "Fahrkarte"
     ],
     "vocabulary": [
       {
-        "word": "percorso",
+        "word": "Strecke",
         "translation": "trayecto",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Strecke."
       },
       {
-        "word": "traffico",
+        "word": "Verkehr",
         "translation": "tráfico",
-        "example": "Die Diskussion klärt die Rolle von traffico."
+        "example": "Die Diskussion klärt die Rolle von Verkehr."
       },
       {
-        "word": "abbonamento",
+        "word": "Fahrkarte",
         "translation": "abono",
-        "example": "Die Diskussion klärt die Rolle von abbonamento."
+        "example": "Die Diskussion klärt die Rolle von Fahrkarte."
       },
       {
-        "word": "accessibile",
+        "word": "barrierefrei",
         "translation": "accesible",
-        "example": "Die Diskussion klärt die Rolle von accessibile."
+        "example": "Die Diskussion klärt die Rolle von barrierefrei."
       },
       {
-        "word": "ridurre",
+        "word": "verringern",
         "translation": "reducir",
-        "example": "Die Diskussion klärt die Rolle von ridurre."
+        "example": "Die Diskussion klärt die Rolle von verringern."
       }
     ],
     "dialogue": [],
@@ -13488,7 +12898,7 @@
       "grammarProfile": {
         "name": "Stadt und Mobilität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -13497,52 +12907,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu percorso. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Strecke. (1)",
         "options": [
-          "percorso",
-          "traffico",
-          "abbonamento",
-          "accessibile"
+          "Strecke",
+          "Verkehr",
+          "Fahrkarte",
+          "barrierefrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu percorso. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Strecke. (2)",
         "options": [
-          "traffico",
-          "abbonamento",
-          "accessibile",
-          "ridurre"
+          "Verkehr",
+          "Fahrkarte",
+          "barrierefrei",
+          "verringern"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu percorso. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Strecke. (3)",
         "options": [
-          "abbonamento",
-          "accessibile",
-          "ridurre",
-          "percorso"
+          "Fahrkarte",
+          "barrierefrei",
+          "verringern",
+          "Strecke"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu percorso. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Strecke. (4)",
         "options": [
-          "accessibile",
-          "ridurre",
-          "percorso",
-          "traffico"
+          "barrierefrei",
+          "verringern",
+          "Strecke",
+          "Verkehr"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu percorso. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Strecke. (5)",
         "options": [
-          "ridurre",
-          "percorso",
-          "traffico",
-          "abbonamento"
+          "verringern",
+          "Strecke",
+          "Verkehr",
+          "Fahrkarte"
         ]
       }
     ]
@@ -13558,40 +12968,40 @@
     "xpReward": 35,
     "orderIndex": 23,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "innovazione",
-      "accesso",
-      "divario"
+      "Innovation",
+      "Zugang",
+      "Kluft"
     ],
     "vocabulary": [
       {
-        "word": "innovazione",
+        "word": "Innovation",
         "translation": "innovación",
-        "example": "Die Diskussion klärt die Rolle von innovazione."
+        "example": "Die Diskussion klärt die Rolle von Innovation."
       },
       {
-        "word": "accesso",
+        "word": "Zugang",
         "translation": "acceso",
-        "example": "Die Diskussion klärt die Rolle von accesso."
+        "example": "Die Diskussion klärt die Rolle von Zugang."
       },
       {
-        "word": "divario",
+        "word": "Kluft",
         "translation": "brecha",
-        "example": "Die Diskussion klärt die Rolle von divario."
+        "example": "Die Diskussion klärt die Rolle von Kluft."
       },
       {
-        "word": "regolare",
+        "word": "regulieren",
         "translation": "regular",
-        "example": "Die Diskussion klärt die Rolle von regolare."
+        "example": "Die Diskussion klärt die Rolle von regulieren."
       },
       {
-        "word": "conseguenza",
+        "word": "Folge",
         "translation": "consecuencia",
-        "example": "Die Diskussion klärt die Rolle von conseguenza."
+        "example": "Die Diskussion klärt die Rolle von Folge."
       }
     ],
     "dialogue": [],
@@ -13601,7 +13011,7 @@
       "grammarProfile": {
         "name": "Innovation und Gesellschaft",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -13610,52 +13020,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu innovazione. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Innovation. (1)",
         "options": [
-          "innovazione",
-          "accesso",
-          "divario",
-          "regolare"
+          "Innovation",
+          "Zugang",
+          "Kluft",
+          "regulieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu innovazione. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Innovation. (2)",
         "options": [
-          "accesso",
-          "divario",
-          "regolare",
-          "conseguenza"
+          "Zugang",
+          "Kluft",
+          "regulieren",
+          "Folge"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu innovazione. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Innovation. (3)",
         "options": [
-          "divario",
-          "regolare",
-          "conseguenza",
-          "innovazione"
+          "Kluft",
+          "regulieren",
+          "Folge",
+          "Innovation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu innovazione. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Innovation. (4)",
         "options": [
-          "regolare",
-          "conseguenza",
-          "innovazione",
-          "accesso"
+          "regulieren",
+          "Folge",
+          "Innovation",
+          "Zugang"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu innovazione. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Innovation. (5)",
         "options": [
-          "conseguenza",
-          "innovazione",
-          "accesso",
-          "divario"
+          "Folge",
+          "Innovation",
+          "Zugang",
+          "Kluft"
         ]
       }
     ]
@@ -13671,40 +13081,40 @@
     "xpReward": 40,
     "orderIndex": 23,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "politica",
-      "impatto",
-      "criterio"
+      "Politik",
+      "Auswirkung",
+      "Kriterium"
     ],
     "vocabulary": [
       {
-        "word": "politica",
+        "word": "Politik",
         "translation": "política",
-        "example": "Die Diskussion klärt die Rolle von politica."
+        "example": "Die Diskussion klärt die Rolle von Politik."
       },
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "criterio",
+        "word": "Kriterium",
         "translation": "criterio",
-        "example": "Die Diskussion klärt die Rolle von criterio."
+        "example": "Die Diskussion klärt die Rolle von Kriterium."
       },
       {
-        "word": "attuare",
+        "word": "umsetzen",
         "translation": "aplicar",
-        "example": "Die Diskussion klärt die Rolle von attuare."
+        "example": "Die Diskussion klärt die Rolle von umsetzen."
       },
       {
-        "word": "monitorare",
+        "word": "beobachten",
         "translation": "supervisar",
-        "example": "Die Diskussion klärt die Rolle von monitorare."
+        "example": "Die Diskussion klärt die Rolle von beobachten."
       }
     ],
     "dialogue": [],
@@ -13714,7 +13124,7 @@
       "grammarProfile": {
         "name": "Öffentliche Politik",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -13723,52 +13133,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu politica. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Politik. (1)",
         "options": [
-          "politica",
-          "impatto",
-          "criterio",
-          "attuare"
+          "Politik",
+          "Auswirkung",
+          "Kriterium",
+          "umsetzen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu politica. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Politik. (2)",
         "options": [
-          "impatto",
-          "criterio",
-          "attuare",
-          "monitorare"
+          "Auswirkung",
+          "Kriterium",
+          "umsetzen",
+          "beobachten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu politica. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Politik. (3)",
         "options": [
-          "criterio",
-          "attuare",
-          "monitorare",
-          "politica"
+          "Kriterium",
+          "umsetzen",
+          "beobachten",
+          "Politik"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu politica. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Politik. (4)",
         "options": [
-          "attuare",
-          "monitorare",
-          "politica",
-          "impatto"
+          "umsetzen",
+          "beobachten",
+          "Politik",
+          "Auswirkung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu politica. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Politik. (5)",
         "options": [
-          "monitorare",
-          "politica",
-          "impatto",
-          "criterio"
+          "beobachten",
+          "Politik",
+          "Auswirkung",
+          "Kriterium"
         ]
       }
     ]
@@ -13784,170 +13194,40 @@
     "xpReward": 30,
     "orderIndex": 24,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "percorso",
-      "traffico",
-      "abbonamento"
+      "Strecke",
+      "Verkehr",
+      "Fahrkarte"
     ],
     "vocabulary": [
       {
-        "word": "percorso",
+        "word": "Strecke",
         "translation": "trayecto",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Strecke."
       },
       {
-        "word": "traffico",
+        "word": "Verkehr",
         "translation": "tráfico",
-        "example": "Die Diskussion klärt die Rolle von traffico."
+        "example": "Die Diskussion klärt die Rolle von Verkehr."
       },
       {
-        "word": "abbonamento",
+        "word": "Fahrkarte",
         "translation": "abono",
-        "example": "Die Diskussion klärt die Rolle von abbonamento."
+        "example": "Die Diskussion klärt die Rolle von Fahrkarte."
       },
       {
-        "word": "accessibile",
+        "word": "barrierefrei",
         "translation": "accesible",
-        "example": "Die Diskussion klärt die Rolle von accessibile."
+        "example": "Die Diskussion klärt die Rolle von barrierefrei."
       },
       {
-        "word": "ridurre",
+        "word": "verringern",
         "translation": "reducir",
-        "example": "Die Diskussion klärt die Rolle von ridurre."
-      },
-      {
-        "word": "der Verkehr",
-        "translation": "el tráfico",
-        "example": "Der Verkehr ist heute besonders dicht."
-      },
-      {
-        "word": "die U-Bahn",
-        "translation": "el metro",
-        "example": "Die U-Bahn fährt alle fünf Minuten."
-      },
-      {
-        "word": "der Bus",
-        "translation": "el autobús",
-        "example": "Der Bus kommt in zehn Minuten."
-      },
-      {
-        "word": "die Straßenbahn",
-        "translation": "el tranvía",
-        "example": "Die Straßenbahn fährt durch die Innenstadt."
-      },
-      {
-        "word": "das Fahrrad",
-        "translation": "la bicicleta",
-        "example": "Das Fahrrad ist oft schneller im Zentrum."
-      },
-      {
-        "word": "der Fahrradweg",
-        "translation": "el carril para bicicletas",
-        "example": "Der Fahrradweg ist gut ausgeschildert."
-      },
-      {
-        "word": "die Haltestelle",
-        "translation": "la parada",
-        "example": "An der Haltestelle steigen viele Fahrgäste aus."
-      },
-      {
-        "word": "die Fahrkarte",
-        "translation": "el boleto",
-        "example": "Kannst du mir eine Fahrkarte kaufen?"
-      },
-      {
-        "word": "die Monatskarte",
-        "translation": "el abono mensual",
-        "example": "Mit der Monatskarte fahre ich deutlich günstiger."
-      },
-      {
-        "word": "das Carsharing",
-        "translation": "el servicio de coche compartido",
-        "example": "Carsharing ist in der Stadt sehr beliebt."
-      },
-      {
-        "word": "die Fahrgemeinschaft",
-        "translation": "viaje compartido en auto",
-        "example": "Wir bilden eine Fahrgemeinschaft zur Arbeit."
-      },
-      {
-        "word": "die Parkgebühr",
-        "translation": "la tarifa de estacionamiento",
-        "example": "Die Parkgebühren sind in der Innenstadt hoch."
-      },
-      {
-        "word": "das Parkhaus",
-        "translation": "el estacionamiento cubierto",
-        "example": "Das Parkhaus ist nur wenige Minuten vom Bahnhof entfernt."
-      },
-      {
-        "word": "der Fußgänger",
-        "translation": "el peatón",
-        "example": "Die Fußgänger haben Vorrang an dieser Kreuzung."
-      },
-      {
-        "word": "die Kreuzung",
-        "translation": "la intersección",
-        "example": "An der Kreuzung gibt es oft Staus."
-      },
-      {
-        "word": "die Verkehrsregel",
-        "translation": "la regla de tránsito",
-        "example": "Wir müssen die Verkehrsregeln beachten."
-      },
-      {
-        "word": "die Umweltzone",
-        "translation": "la zona de bajas emisiones",
-        "example": "In der Umweltzone gelten strenge Emissionsstandards."
-      },
-      {
-        "word": "die Innenstadt",
-        "translation": "el centro de la ciudad",
-        "example": "Die Innenstadt ist am Wochenende sehr belebt."
-      },
-      {
-        "word": "der Pendler",
-        "translation": "persona que viaja diariamente al trabajo",
-        "example": "Viele Pendler bevorzugen das Fahrrad."
-      },
-      {
-        "word": "die Infrastruktur",
-        "translation": "la infraestructura",
-        "example": "Die Infrastruktur der Stadt wird jetzt verbessert."
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach sollten wir mehr Radwege bauen.",
-        "translation": "En mi opinión deberíamos construir más carriles para bicicletas.",
-        "example": "Meiner Meinung nach sollten wir mehr Radwege bauen.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich Ihnen zu.",
-        "translation": "Estoy de acuerdo con usted.",
-        "example": "Da stimme ich Ihnen zu.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigen Sie die Störung.",
-        "translation": "Disculpe la molestia.",
-        "example": "Entschuldigen Sie die Störung.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von verringern."
       }
     ],
     "dialogue": [],
@@ -13957,7 +13237,7 @@
       "grammarProfile": {
         "name": "Stadt und Mobilität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -13968,50 +13248,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „trayecto“?",
         "options": [
-          "percorso",
-          "traffico",
-          "abbonamento",
-          "accessibile"
+          "Strecke",
+          "Verkehr",
+          "Fahrkarte",
+          "barrierefrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „traffico“.",
+        "prompt": "Wähle „Verkehr“.",
         "options": [
-          "traffico",
-          "abbonamento",
-          "accessibile",
-          "ridurre"
+          "Verkehr",
+          "Fahrkarte",
+          "barrierefrei",
+          "verringern"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „abbonamento“.",
+        "prompt": "Wähle „Fahrkarte“.",
         "options": [
-          "abbonamento",
-          "accessibile",
-          "ridurre",
-          "percorso"
+          "Fahrkarte",
+          "barrierefrei",
+          "verringern",
+          "Strecke"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „accessibile“.",
+        "prompt": "Wähle „barrierefrei“.",
         "options": [
-          "accessibile",
-          "ridurre",
-          "percorso",
-          "traffico"
+          "barrierefrei",
+          "verringern",
+          "Strecke",
+          "Verkehr"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „ridurre“.",
+        "prompt": "Wähle „verringern“.",
         "options": [
-          "ridurre",
-          "percorso",
-          "traffico",
-          "abbonamento"
+          "verringern",
+          "Strecke",
+          "Verkehr",
+          "Fahrkarte"
         ]
       }
     ]
@@ -14027,171 +13307,40 @@
     "xpReward": 35,
     "orderIndex": 24,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "innovazione",
-      "accesso",
-      "divario"
+      "Innovation",
+      "Zugang",
+      "Kluft"
     ],
     "vocabulary": [
       {
-        "word": "innovazione",
+        "word": "Innovation",
         "translation": "innovación",
-        "example": "Die Diskussion klärt die Rolle von innovazione."
+        "example": "Die Diskussion klärt die Rolle von Innovation."
       },
       {
-        "word": "accesso",
+        "word": "Zugang",
         "translation": "acceso",
-        "example": "Die Diskussion klärt die Rolle von accesso."
+        "example": "Die Diskussion klärt die Rolle von Zugang."
       },
       {
-        "word": "divario",
+        "word": "Kluft",
         "translation": "brecha",
-        "example": "Die Diskussion klärt die Rolle von divario."
+        "example": "Die Diskussion klärt die Rolle von Kluft."
       },
       {
-        "word": "regolare",
+        "word": "regulieren",
         "translation": "regular",
-        "example": "Die Diskussion klärt die Rolle von regolare."
+        "example": "Die Diskussion klärt die Rolle von regulieren."
       },
       {
-        "word": "conseguenza",
+        "word": "Folge",
         "translation": "consecuencia",
-        "example": "Die Diskussion klärt die Rolle von conseguenza."
-      },
-      {
-        "word": "die Innovation",
-        "translation": "la innovación",
-        "example": "Die Innovation im Energiesektor verändert Arbeitsmärkte."
-      },
-      {
-        "word": "die Digitalisierung",
-        "translation": "la digitalización",
-        "example": "Die Digitalisierung erleichtert den Datenaustausch."
-      },
-      {
-        "word": "die Chancengleichheit",
-        "translation": "la igualdad de oportunidades",
-        "example": "Die Chancengleichheit ist zentral für sozialen Fortschritt."
-      },
-      {
-        "word": "die Regulierung",
-        "translation": "la regulación",
-        "example": "Die Regulierung schützt Verbraucher und Markt."
-      },
-      {
-        "word": "die Auswirkung",
-        "translation": "el impacto",
-        "example": "Die Auswirkung der Maßnahme ist noch unklar."
-      },
-      {
-        "word": "die Nachhaltigkeit",
-        "translation": "la sostenibilidad",
-        "example": "Die Nachhaltigkeit muss in jeder Entscheidung berücksichtigt werden."
-      },
-      {
-        "word": "die Implementierung",
-        "translation": "la implementación",
-        "example": "Die Implementierung des Programms verlief planmäßig."
-      },
-      {
-        "word": "die Bewertung",
-        "translation": "la evaluación",
-        "example": "Die Bewertung der Optionen folgte festen Kriterien."
-      },
-      {
-        "word": "die Interessengruppe",
-        "translation": "el grupo de interés",
-        "example": "Die Interessengruppe forderte mehr Transparenz."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Die Evidenz stützt diese These."
-      },
-      {
-        "word": "nachvollziehbar",
-        "translation": "comprensible",
-        "example": "Die Argumentation ist nachvollziehbar."
-      },
-      {
-        "word": "plausibel",
-        "translation": "plausible",
-        "example": "Ihre Erklärung klingt plausibel."
-      },
-      {
-        "word": "abwägen",
-        "translation": "sopesar",
-        "example": "Wir müssen Vor- und Nachteile sorgfältig abwägen."
-      },
-      {
-        "word": "priorisieren",
-        "translation": "priorizar",
-        "example": "Man sollte dringende Aufgaben priorisieren."
-      },
-      {
-        "word": "konsequent",
-        "translation": "consecuente",
-        "example": "Ein konsequentes Vorgehen erhöht die Erfolgschancen."
-      },
-      {
-        "word": "umsetzen",
-        "translation": "implementar",
-        "example": "Die geplanten Maßnahmen lassen sich praktisch umsetzen."
-      },
-      {
-        "word": "die Skalierbarkeit",
-        "translation": "la escalabilidad",
-        "example": "Die Skalierbarkeit der Lösung ist entscheidend."
-      },
-      {
-        "word": "die Effizienz",
-        "translation": "la eficiencia",
-        "example": "Mehr Automatisierung steigert die Effizienz."
-      },
-      {
-        "word": "die Barrierefreiheit",
-        "translation": "la accesibilidad",
-        "example": "Die Barrierefreiheit gewährleistet Teilhabe für alle."
-      },
-      {
-        "word": "Könnten Sie mir dabei helfen?",
-        "translation": "¿Podría ayudarme con esto?",
-        "example": "Könnten Sie mir dabei helfen, die Daten zu vergleichen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach ist diese Lösung praktikabler.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich Ihnen zu.",
-        "translation": "Estoy de acuerdo con usted.",
-        "example": "Da stimme ich Ihnen zu; das ist ein wichtiger Punkt.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Bedenken bezüglich...",
-        "translation": "Tengo reservas con respecto a...",
-        "example": "Ich habe Bedenken bezüglich der langfristigen Kosten.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz etwas anmerken?",
-        "translation": "¿Puedo comentar algo brevemente?",
-        "example": "Darf ich kurz etwas anmerken, bevor wir entscheiden?",
-        "category": "expression"
-      },
-      {
-        "word": "Infolgedessen...",
-        "translation": "Como consecuencia...",
-        "example": "Infolgedessen musste das Projekt überarbeitet werden.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Folge."
       }
     ],
     "dialogue": [],
@@ -14201,7 +13350,7 @@
       "grammarProfile": {
         "name": "Innovation und Gesellschaft",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -14212,50 +13361,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „innovación“?",
         "options": [
-          "innovazione",
-          "accesso",
-          "divario",
-          "regolare"
+          "Innovation",
+          "Zugang",
+          "Kluft",
+          "regulieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „accesso“.",
+        "prompt": "Wähle „Zugang“.",
         "options": [
-          "accesso",
-          "divario",
-          "regolare",
-          "conseguenza"
+          "Zugang",
+          "Kluft",
+          "regulieren",
+          "Folge"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „divario“.",
+        "prompt": "Wähle „Kluft“.",
         "options": [
-          "divario",
-          "regolare",
-          "conseguenza",
-          "innovazione"
+          "Kluft",
+          "regulieren",
+          "Folge",
+          "Innovation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „regolare“.",
+        "prompt": "Wähle „regulieren“.",
         "options": [
-          "regolare",
-          "conseguenza",
-          "innovazione",
-          "accesso"
+          "regulieren",
+          "Folge",
+          "Innovation",
+          "Zugang"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „conseguenza“.",
+        "prompt": "Wähle „Folge“.",
         "options": [
-          "conseguenza",
-          "innovazione",
-          "accesso",
-          "divario"
+          "Folge",
+          "Innovation",
+          "Zugang",
+          "Kluft"
         ]
       }
     ]
@@ -14271,171 +13420,40 @@
     "xpReward": 40,
     "orderIndex": 24,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "politica",
-      "impatto",
-      "criterio"
+      "Politik",
+      "Auswirkung",
+      "Kriterium"
     ],
     "vocabulary": [
       {
-        "word": "politica",
+        "word": "Politik",
         "translation": "política",
-        "example": "Die Diskussion klärt die Rolle von politica."
+        "example": "Die Diskussion klärt die Rolle von Politik."
       },
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "criterio",
+        "word": "Kriterium",
         "translation": "criterio",
-        "example": "Die Diskussion klärt die Rolle von criterio."
+        "example": "Die Diskussion klärt die Rolle von Kriterium."
       },
       {
-        "word": "attuare",
+        "word": "umsetzen",
         "translation": "aplicar",
-        "example": "Die Diskussion klärt die Rolle von attuare."
+        "example": "Die Diskussion klärt die Rolle von umsetzen."
       },
       {
-        "word": "monitorare",
+        "word": "beobachten",
         "translation": "supervisar",
-        "example": "Die Diskussion klärt die Rolle von monitorare."
-      },
-      {
-        "word": "die Governance",
-        "translation": "gobernanza",
-        "example": "Die Governance des Projekts legt Entscheidungswege fest."
-      },
-      {
-        "word": "die Evidenzbasierung",
-        "translation": "política basada en evidencia",
-        "example": "Die Evidenzbasierung der Reform erhöht ihre Legitimität."
-      },
-      {
-        "word": "die Kohärenz",
-        "translation": "coherencia",
-        "example": "Die Kohärenz zwischen Bundes- und Landespolitik fehlt oft."
-      },
-      {
-        "word": "die Rechtsgrundlage",
-        "translation": "base legal",
-        "example": "Die Rechtsgrundlage für die Maßnahme ist unklar."
-      },
-      {
-        "word": "der Interessenkonflikt",
-        "translation": "conflicto de intereses",
-        "example": "Ein Interessenkonflikt wurde im Ausschuss offengelegt."
-      },
-      {
-        "word": "die Partizipation",
-        "translation": "participación ciudadana",
-        "example": "Die Partizipation der Bürgerinnen stärkt die Akzeptanz."
-      },
-      {
-        "word": "die Ressourcenallokation",
-        "translation": "asignación de recursos",
-        "example": "Die Ressourcenallokation entscheidet über Prioritäten."
-      },
-      {
-        "word": "die Interventionslogik",
-        "translation": "lógica de intervención",
-        "example": "Die Interventionslogik muss klar dokumentiert sein."
-      },
-      {
-        "word": "die Evaluierung",
-        "translation": "evaluación",
-        "example": "Die Evaluierung zeigte deutliche Wirkungseffekte."
-      },
-      {
-        "word": "die Implementierung",
-        "translation": "implementación, ejecución",
-        "example": "Die Implementierung verzögerte sich wegen Formalia."
-      },
-      {
-        "word": "der Haushalt",
-        "translation": "presupuesto público",
-        "example": "Der Haushalt für das nächste Jahr wurde debattiert."
-      },
-      {
-        "word": "die Verantwortungskette",
-        "translation": "cadena de responsabilidad",
-        "example": "Die Verantwortungskette im Verfahren ist nicht eindeutig."
-      },
-      {
-        "word": "die Sanktionsmechanismen",
-        "translation": "mecanismos de sanción",
-        "example": "Die Sanktionsmechanismen sind in der Verordnung geregelt."
-      },
-      {
-        "word": "die Interessengruppe",
-        "translation": "grupo de interés",
-        "example": "Eine Interessengruppe lobbyierte gegen die Neuregelung."
-      },
-      {
-        "word": "die Transparenzpflicht",
-        "translation": "obligación de transparencia",
-        "example": "Die Transparenzpflicht verpflichtet Behörden zur Offenlegung."
-      },
-      {
-        "word": "die Politikberatung",
-        "translation": "asesoría en políticas públicas",
-        "example": "Die Politikberatung lieferte mehrere Varianten."
-      },
-      {
-        "word": "die Mittelzuweisung",
-        "translation": "asignación de fondos",
-        "example": "Die Mittelzuweisung erfolgt nach festgelegten Kriterien."
-      },
-      {
-        "word": "die Kohäsionspolitik",
-        "translation": "política de cohesión",
-        "example": "Die Kohäsionspolitik zielt auf regionale Ausgewogenheit."
-      },
-      {
-        "word": "abwägen",
-        "translation": "ponderar, sopesar",
-        "example": "Wir müssen Vor- und Nachteile sorgfältig abwägen."
-      },
-      {
-        "word": "Könnten Sie mir dabei helfen?",
-        "translation": "¿Podría ayudarme con esto?",
-        "example": "Könnten Sie mir dabei helfen, die Auswirkungen zu quantifizieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Ansicht nach sollten wir mehr Evidenz verlangen.",
-        "category": "expression"
-      },
-      {
-        "word": "Dem stimme ich zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Dem stimme ich zu; die Daten sprechen dafür.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Bedenken, ob...",
-        "translation": "Tengo dudas sobre si...",
-        "example": "Ich habe Bedenken, ob die Maßnahme kurzfristig wirksam ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz etwas anmerken?",
-        "translation": "¿Puedo comentar algo brevemente?",
-        "example": "Darf ich kurz etwas anmerken, bevor wir abstimmen?",
-        "category": "expression"
-      },
-      {
-        "word": "Das hat zur Folge, dass...",
-        "translation": "Eso tiene como consecuencia que...",
-        "example": "Das hat zur Folge, dass zusätzliche Prüfungen nötig sind.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von beobachten."
       }
     ],
     "dialogue": [],
@@ -14445,7 +13463,7 @@
       "grammarProfile": {
         "name": "Öffentliche Politik",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -14456,50 +13474,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „política“?",
         "options": [
-          "politica",
-          "impatto",
-          "criterio",
-          "attuare"
+          "Politik",
+          "Auswirkung",
+          "Kriterium",
+          "umsetzen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „impatto“.",
+        "prompt": "Wähle „Auswirkung“.",
         "options": [
-          "impatto",
-          "criterio",
-          "attuare",
-          "monitorare"
+          "Auswirkung",
+          "Kriterium",
+          "umsetzen",
+          "beobachten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „criterio“.",
+        "prompt": "Wähle „Kriterium“.",
         "options": [
-          "criterio",
-          "attuare",
-          "monitorare",
-          "politica"
+          "Kriterium",
+          "umsetzen",
+          "beobachten",
+          "Politik"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „attuare“.",
+        "prompt": "Wähle „umsetzen“.",
         "options": [
-          "attuare",
-          "monitorare",
-          "politica",
-          "impatto"
+          "umsetzen",
+          "beobachten",
+          "Politik",
+          "Auswirkung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „monitorare“.",
+        "prompt": "Wähle „beobachten“.",
         "options": [
-          "monitorare",
-          "politica",
-          "impatto",
-          "criterio"
+          "beobachten",
+          "Politik",
+          "Auswirkung",
+          "Kriterium"
         ]
       }
     ]
@@ -15194,45 +14212,45 @@
     "xpReward": 30,
     "orderIndex": 30,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "colloquio",
-      "esperienza",
-      "candidatura"
+      "Vorstellungsgespräch",
+      "Erfahrung",
+      "Bewerbung"
     ],
     "vocabulary": [
       {
-        "word": "colloquio",
+        "word": "Vorstellungsgespräch",
         "translation": "entrevista",
-        "example": "Die Diskussion klärt die Rolle von colloquio."
+        "example": "Die Diskussion klärt die Rolle von Vorstellungsgespräch."
       },
       {
-        "word": "esperienza",
+        "word": "Erfahrung",
         "translation": "experiencia",
-        "example": "Die Diskussion klärt die Rolle von esperienza."
+        "example": "Die Diskussion klärt die Rolle von Erfahrung."
       },
       {
-        "word": "candidatura",
+        "word": "Bewerbung",
         "translation": "candidatura",
-        "example": "Die Diskussion klärt die Rolle von candidatura."
+        "example": "Die Diskussion klärt die Rolle von Bewerbung."
       },
       {
-        "word": "affidabile",
+        "word": "zuverlässig",
         "translation": "fiable",
-        "example": "Die Diskussion klärt die Rolle von affidabile."
+        "example": "Die Diskussion klärt die Rolle von zuverlässig."
       },
       {
-        "word": "migliorare",
+        "word": "verbessern",
         "translation": "mejorar",
-        "example": "Die Diskussion klärt die Rolle von migliorare."
+        "example": "Die Diskussion klärt die Rolle von verbessern."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Arbeit und Kompetenzen» untersucht die Gruppe colloquio und esperienza. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Arbeit und Kompetenzen» untersucht die Gruppe Vorstellungsgespräch und Erfahrung. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -15242,7 +14260,7 @@
       "grammarProfile": {
         "name": "Arbeit und Kompetenzen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -15253,10 +14271,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "colloquio",
-          "candidatura",
-          "affidabile",
-          "migliorare"
+          "Vorstellungsgespräch",
+          "Bewerbung",
+          "zuverlässig",
+          "verbessern"
         ]
       },
       {
@@ -15267,39 +14285,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-arbeit-und-kompetenzen-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-arbeit-und-kompetenzen-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-arbeit-und-kompetenzen-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -15315,45 +14300,45 @@
     "xpReward": 35,
     "orderIndex": 30,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "dilemma",
-      "principio",
-      "responsabilità"
+      "Dilemma",
+      "Grundsatz",
+      "Verantwortung"
     ],
     "vocabulary": [
       {
-        "word": "dilemma",
+        "word": "Dilemma",
         "translation": "dilema",
-        "example": "Die Diskussion klärt die Rolle von dilemma."
+        "example": "Die Diskussion klärt die Rolle von Dilemma."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       },
       {
-        "word": "giustificare",
+        "word": "begründen",
         "translation": "justificar",
-        "example": "Die Diskussion klärt die Rolle von giustificare."
+        "example": "Die Diskussion klärt die Rolle von begründen."
       },
       {
-        "word": "equità",
+        "word": "Gerechtigkeit",
         "translation": "equidad",
-        "example": "Die Diskussion klärt die Rolle von equità."
+        "example": "Die Diskussion klärt die Rolle von Gerechtigkeit."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Ethik und Entscheidungen» untersucht die Gruppe dilemma und principio. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Ethik und Entscheidungen» untersucht die Gruppe Dilemma und Grundsatz. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -15363,7 +14348,7 @@
       "grammarProfile": {
         "name": "Ethik und Entscheidungen",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -15374,10 +14359,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "dilemma",
-          "responsabilità",
-          "giustificare",
-          "equità"
+          "Dilemma",
+          "Verantwortung",
+          "begründen",
+          "Gerechtigkeit"
         ]
       },
       {
@@ -15388,39 +14373,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-ethik-und-entscheidungen-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "dilemma",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c1-c1-ethik-und-entscheidungen-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-ethik-und-entscheidungen-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -15436,45 +14388,45 @@
     "xpReward": 40,
     "orderIndex": 30,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "ipotesi",
-      "probabilità",
-      "evidenza"
+      "Hypothese",
+      "Wahrscheinlichkeit",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "probabilità",
+        "word": "Wahrscheinlichkeit",
         "translation": "probabilidad",
-        "example": "Die Diskussion klärt die Rolle von probabilità."
+        "example": "Die Diskussion klärt die Rolle von Wahrscheinlichkeit."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "presumere",
+        "word": "annehmen",
         "translation": "presumir",
-        "example": "Die Diskussion klärt die Rolle von presumere."
+        "example": "Die Diskussion klärt die Rolle von annehmen."
       },
       {
-        "word": "cautela",
+        "word": "Vorsicht",
         "translation": "cautela",
-        "example": "Die Diskussion klärt die Rolle von cautela."
+        "example": "Die Diskussion klärt die Rolle von Vorsicht."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Wissen und Unsicherheit» untersucht die Gruppe ipotesi und probabilità. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Wissen und Unsicherheit» untersucht die Gruppe Hypothese und Wahrscheinlichkeit. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -15484,7 +14436,7 @@
       "grammarProfile": {
         "name": "Wissen und Unsicherheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -15495,10 +14447,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "ipotesi",
-          "evidenza",
-          "presumere",
-          "cautela"
+          "Hypothese",
+          "Beleg",
+          "annehmen",
+          "Vorsicht"
         ]
       },
       {
@@ -15509,39 +14461,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-wissen-und-unsicherheit-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "ipotesi",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c2-c2-wissen-und-unsicherheit-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-wissen-und-unsicherheit-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -17649,50 +16568,50 @@
     "xpReward": 30,
     "orderIndex": 31,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "colloquio",
-      "esperienza",
-      "candidatura"
+      "Vorstellungsgespräch",
+      "Erfahrung",
+      "Bewerbung"
     ],
     "vocabulary": [
       {
-        "word": "colloquio",
+        "word": "Vorstellungsgespräch",
         "translation": "entrevista",
-        "example": "Die Diskussion klärt die Rolle von colloquio."
+        "example": "Die Diskussion klärt die Rolle von Vorstellungsgespräch."
       },
       {
-        "word": "esperienza",
+        "word": "Erfahrung",
         "translation": "experiencia",
-        "example": "Die Diskussion klärt die Rolle von esperienza."
+        "example": "Die Diskussion klärt die Rolle von Erfahrung."
       },
       {
-        "word": "candidatura",
+        "word": "Bewerbung",
         "translation": "candidatura",
-        "example": "Die Diskussion klärt die Rolle von candidatura."
+        "example": "Die Diskussion klärt die Rolle von Bewerbung."
       },
       {
-        "word": "affidabile",
+        "word": "zuverlässig",
         "translation": "fiable",
-        "example": "Die Diskussion klärt die Rolle von affidabile."
+        "example": "Die Diskussion klärt die Rolle von zuverlässig."
       },
       {
-        "word": "migliorare",
+        "word": "verbessern",
         "translation": "mejorar",
-        "example": "Die Diskussion klärt die Rolle von migliorare."
+        "example": "Die Diskussion klärt die Rolle von verbessern."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „colloquio“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -17701,7 +16620,7 @@
       "grammarProfile": {
         "name": "Arbeit und Kompetenzen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -17710,7 +16629,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "prompt": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -17725,46 +16644,46 @@
     "xpReward": 35,
     "orderIndex": 31,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "dilemma",
-      "principio",
-      "responsabilità"
+      "Dilemma",
+      "Grundsatz",
+      "Verantwortung"
     ],
     "vocabulary": [
       {
-        "word": "dilemma",
+        "word": "Dilemma",
         "translation": "dilema",
-        "example": "Die Diskussion klärt die Rolle von dilemma."
+        "example": "Die Diskussion klärt die Rolle von Dilemma."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       },
       {
-        "word": "giustificare",
+        "word": "begründen",
         "translation": "justificar",
-        "example": "Die Diskussion klärt die Rolle von giustificare."
+        "example": "Die Diskussion klärt die Rolle von begründen."
       },
       {
-        "word": "equità",
+        "word": "Gerechtigkeit",
         "translation": "equidad",
-        "example": "Die Diskussion klärt die Rolle von equità."
+        "example": "Die Diskussion klärt die Rolle von Gerechtigkeit."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "line": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -17777,7 +16696,7 @@
       "grammarProfile": {
         "name": "Ethik und Entscheidungen",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -17786,7 +16705,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "prompt": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -17801,46 +16720,46 @@
     "xpReward": 40,
     "orderIndex": 31,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "ipotesi",
-      "probabilità",
-      "evidenza"
+      "Hypothese",
+      "Wahrscheinlichkeit",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "probabilità",
+        "word": "Wahrscheinlichkeit",
         "translation": "probabilidad",
-        "example": "Die Diskussion klärt die Rolle von probabilità."
+        "example": "Die Diskussion klärt die Rolle von Wahrscheinlichkeit."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "presumere",
+        "word": "annehmen",
         "translation": "presumir",
-        "example": "Die Diskussion klärt die Rolle von presumere."
+        "example": "Die Diskussion klärt die Rolle von annehmen."
       },
       {
-        "word": "cautela",
+        "word": "Vorsicht",
         "translation": "cautela",
-        "example": "Die Diskussion klärt die Rolle von cautela."
+        "example": "Die Diskussion klärt die Rolle von Vorsicht."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "line": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -17853,7 +16772,7 @@
       "grammarProfile": {
         "name": "Wissen und Unsicherheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -17862,7 +16781,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "prompt": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -20375,40 +19294,40 @@
     "xpReward": 30,
     "orderIndex": 32,
     "estimatedMinutes": 20,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "colloquio",
-      "esperienza",
-      "candidatura"
+      "Vorstellungsgespräch",
+      "Erfahrung",
+      "Bewerbung"
     ],
     "vocabulary": [
       {
-        "word": "colloquio",
+        "word": "Vorstellungsgespräch",
         "translation": "entrevista",
-        "example": "Die Diskussion klärt die Rolle von colloquio."
+        "example": "Die Diskussion klärt die Rolle von Vorstellungsgespräch."
       },
       {
-        "word": "esperienza",
+        "word": "Erfahrung",
         "translation": "experiencia",
-        "example": "Die Diskussion klärt die Rolle von esperienza."
+        "example": "Die Diskussion klärt die Rolle von Erfahrung."
       },
       {
-        "word": "candidatura",
+        "word": "Bewerbung",
         "translation": "candidatura",
-        "example": "Die Diskussion klärt die Rolle von candidatura."
+        "example": "Die Diskussion klärt die Rolle von Bewerbung."
       },
       {
-        "word": "affidabile",
+        "word": "zuverlässig",
         "translation": "fiable",
-        "example": "Die Diskussion klärt die Rolle von affidabile."
+        "example": "Die Diskussion klärt die Rolle von zuverlässig."
       },
       {
-        "word": "migliorare",
+        "word": "verbessern",
         "translation": "mejorar",
-        "example": "Die Diskussion klärt die Rolle von migliorare."
+        "example": "Die Diskussion klärt die Rolle von verbessern."
       }
     ],
     "dialogue": [],
@@ -20418,7 +19337,7 @@
       "grammarProfile": {
         "name": "Arbeit und Kompetenzen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -20427,7 +19346,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um bewerten um Perspektive com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -20442,40 +19361,40 @@
     "xpReward": 35,
     "orderIndex": 32,
     "estimatedMinutes": 20,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "dilemma",
-      "principio",
-      "responsabilità"
+      "Dilemma",
+      "Grundsatz",
+      "Verantwortung"
     ],
     "vocabulary": [
       {
-        "word": "dilemma",
+        "word": "Dilemma",
         "translation": "dilema",
-        "example": "Die Diskussion klärt die Rolle von dilemma."
+        "example": "Die Diskussion klärt die Rolle von Dilemma."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       },
       {
-        "word": "giustificare",
+        "word": "begründen",
         "translation": "justificar",
-        "example": "Die Diskussion klärt die Rolle von giustificare."
+        "example": "Die Diskussion klärt die Rolle von begründen."
       },
       {
-        "word": "equità",
+        "word": "Gerechtigkeit",
         "translation": "equidad",
-        "example": "Die Diskussion klärt die Rolle von equità."
+        "example": "Die Diskussion klärt die Rolle von Gerechtigkeit."
       }
     ],
     "dialogue": [],
@@ -20485,7 +19404,7 @@
       "grammarProfile": {
         "name": "Ethik und Entscheidungen",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -20494,7 +19413,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um bewerten um Perspektive com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -20509,40 +19428,40 @@
     "xpReward": 40,
     "orderIndex": 32,
     "estimatedMinutes": 20,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "ipotesi",
-      "probabilità",
-      "evidenza"
+      "Hypothese",
+      "Wahrscheinlichkeit",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "probabilità",
+        "word": "Wahrscheinlichkeit",
         "translation": "probabilidad",
-        "example": "Die Diskussion klärt die Rolle von probabilità."
+        "example": "Die Diskussion klärt die Rolle von Wahrscheinlichkeit."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "presumere",
+        "word": "annehmen",
         "translation": "presumir",
-        "example": "Die Diskussion klärt die Rolle von presumere."
+        "example": "Die Diskussion klärt die Rolle von annehmen."
       },
       {
-        "word": "cautela",
+        "word": "Vorsicht",
         "translation": "cautela",
-        "example": "Die Diskussion klärt die Rolle von cautela."
+        "example": "Die Diskussion klärt die Rolle von Vorsicht."
       }
     ],
     "dialogue": [],
@@ -20552,7 +19471,7 @@
       "grammarProfile": {
         "name": "Wissen und Unsicherheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -20561,7 +19480,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um bewerten um Perspektive com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -20576,40 +19495,40 @@
     "xpReward": 30,
     "orderIndex": 33,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "colloquio",
-      "esperienza",
-      "candidatura"
+      "Vorstellungsgespräch",
+      "Erfahrung",
+      "Bewerbung"
     ],
     "vocabulary": [
       {
-        "word": "colloquio",
+        "word": "Vorstellungsgespräch",
         "translation": "entrevista",
-        "example": "Die Diskussion klärt die Rolle von colloquio."
+        "example": "Die Diskussion klärt die Rolle von Vorstellungsgespräch."
       },
       {
-        "word": "esperienza",
+        "word": "Erfahrung",
         "translation": "experiencia",
-        "example": "Die Diskussion klärt die Rolle von esperienza."
+        "example": "Die Diskussion klärt die Rolle von Erfahrung."
       },
       {
-        "word": "candidatura",
+        "word": "Bewerbung",
         "translation": "candidatura",
-        "example": "Die Diskussion klärt die Rolle von candidatura."
+        "example": "Die Diskussion klärt die Rolle von Bewerbung."
       },
       {
-        "word": "affidabile",
+        "word": "zuverlässig",
         "translation": "fiable",
-        "example": "Die Diskussion klärt die Rolle von affidabile."
+        "example": "Die Diskussion klärt die Rolle von zuverlässig."
       },
       {
-        "word": "migliorare",
+        "word": "verbessern",
         "translation": "mejorar",
-        "example": "Die Diskussion klärt die Rolle von migliorare."
+        "example": "Die Diskussion klärt die Rolle von verbessern."
       }
     ],
     "dialogue": [],
@@ -20619,7 +19538,7 @@
       "grammarProfile": {
         "name": "Arbeit und Kompetenzen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -20628,52 +19547,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu colloquio. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Vorstellungsgespräch. (1)",
         "options": [
-          "colloquio",
-          "esperienza",
-          "candidatura",
-          "affidabile"
+          "Vorstellungsgespräch",
+          "Erfahrung",
+          "Bewerbung",
+          "zuverlässig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu colloquio. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Vorstellungsgespräch. (2)",
         "options": [
-          "esperienza",
-          "candidatura",
-          "affidabile",
-          "migliorare"
+          "Erfahrung",
+          "Bewerbung",
+          "zuverlässig",
+          "verbessern"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu colloquio. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Vorstellungsgespräch. (3)",
         "options": [
-          "candidatura",
-          "affidabile",
-          "migliorare",
-          "colloquio"
+          "Bewerbung",
+          "zuverlässig",
+          "verbessern",
+          "Vorstellungsgespräch"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu colloquio. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Vorstellungsgespräch. (4)",
         "options": [
-          "affidabile",
-          "migliorare",
-          "colloquio",
-          "esperienza"
+          "zuverlässig",
+          "verbessern",
+          "Vorstellungsgespräch",
+          "Erfahrung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu colloquio. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Vorstellungsgespräch. (5)",
         "options": [
-          "migliorare",
-          "colloquio",
-          "esperienza",
-          "candidatura"
+          "verbessern",
+          "Vorstellungsgespräch",
+          "Erfahrung",
+          "Bewerbung"
         ]
       }
     ]
@@ -20689,40 +19608,40 @@
     "xpReward": 35,
     "orderIndex": 33,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "dilemma",
-      "principio",
-      "responsabilità"
+      "Dilemma",
+      "Grundsatz",
+      "Verantwortung"
     ],
     "vocabulary": [
       {
-        "word": "dilemma",
+        "word": "Dilemma",
         "translation": "dilema",
-        "example": "Die Diskussion klärt die Rolle von dilemma."
+        "example": "Die Diskussion klärt die Rolle von Dilemma."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       },
       {
-        "word": "giustificare",
+        "word": "begründen",
         "translation": "justificar",
-        "example": "Die Diskussion klärt die Rolle von giustificare."
+        "example": "Die Diskussion klärt die Rolle von begründen."
       },
       {
-        "word": "equità",
+        "word": "Gerechtigkeit",
         "translation": "equidad",
-        "example": "Die Diskussion klärt die Rolle von equità."
+        "example": "Die Diskussion klärt die Rolle von Gerechtigkeit."
       }
     ],
     "dialogue": [],
@@ -20732,7 +19651,7 @@
       "grammarProfile": {
         "name": "Ethik und Entscheidungen",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -20741,52 +19660,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dilemma. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Dilemma. (1)",
         "options": [
-          "dilemma",
-          "principio",
-          "responsabilità",
-          "giustificare"
+          "Dilemma",
+          "Grundsatz",
+          "Verantwortung",
+          "begründen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dilemma. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Dilemma. (2)",
         "options": [
-          "principio",
-          "responsabilità",
-          "giustificare",
-          "equità"
+          "Grundsatz",
+          "Verantwortung",
+          "begründen",
+          "Gerechtigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dilemma. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Dilemma. (3)",
         "options": [
-          "responsabilità",
-          "giustificare",
-          "equità",
-          "dilemma"
+          "Verantwortung",
+          "begründen",
+          "Gerechtigkeit",
+          "Dilemma"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dilemma. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Dilemma. (4)",
         "options": [
-          "giustificare",
-          "equità",
-          "dilemma",
-          "principio"
+          "begründen",
+          "Gerechtigkeit",
+          "Dilemma",
+          "Grundsatz"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dilemma. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Dilemma. (5)",
         "options": [
-          "equità",
-          "dilemma",
-          "principio",
-          "responsabilità"
+          "Gerechtigkeit",
+          "Dilemma",
+          "Grundsatz",
+          "Verantwortung"
         ]
       }
     ]
@@ -20802,40 +19721,40 @@
     "xpReward": 40,
     "orderIndex": 33,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "ipotesi",
-      "probabilità",
-      "evidenza"
+      "Hypothese",
+      "Wahrscheinlichkeit",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "probabilità",
+        "word": "Wahrscheinlichkeit",
         "translation": "probabilidad",
-        "example": "Die Diskussion klärt die Rolle von probabilità."
+        "example": "Die Diskussion klärt die Rolle von Wahrscheinlichkeit."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "presumere",
+        "word": "annehmen",
         "translation": "presumir",
-        "example": "Die Diskussion klärt die Rolle von presumere."
+        "example": "Die Diskussion klärt die Rolle von annehmen."
       },
       {
-        "word": "cautela",
+        "word": "Vorsicht",
         "translation": "cautela",
-        "example": "Die Diskussion klärt die Rolle von cautela."
+        "example": "Die Diskussion klärt die Rolle von Vorsicht."
       }
     ],
     "dialogue": [],
@@ -20845,7 +19764,7 @@
       "grammarProfile": {
         "name": "Wissen und Unsicherheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -20854,52 +19773,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (1)",
         "options": [
-          "ipotesi",
-          "probabilità",
-          "evidenza",
-          "presumere"
+          "Hypothese",
+          "Wahrscheinlichkeit",
+          "Beleg",
+          "annehmen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (2)",
         "options": [
-          "probabilità",
-          "evidenza",
-          "presumere",
-          "cautela"
+          "Wahrscheinlichkeit",
+          "Beleg",
+          "annehmen",
+          "Vorsicht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (3)",
         "options": [
-          "evidenza",
-          "presumere",
-          "cautela",
-          "ipotesi"
+          "Beleg",
+          "annehmen",
+          "Vorsicht",
+          "Hypothese"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (4)",
         "options": [
-          "presumere",
-          "cautela",
-          "ipotesi",
-          "probabilità"
+          "annehmen",
+          "Vorsicht",
+          "Hypothese",
+          "Wahrscheinlichkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (5)",
         "options": [
-          "cautela",
-          "ipotesi",
-          "probabilità",
-          "evidenza"
+          "Vorsicht",
+          "Hypothese",
+          "Wahrscheinlichkeit",
+          "Beleg"
         ]
       }
     ]
@@ -20915,171 +19834,40 @@
     "xpReward": 30,
     "orderIndex": 34,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "colloquio",
-      "esperienza",
-      "candidatura"
+      "Vorstellungsgespräch",
+      "Erfahrung",
+      "Bewerbung"
     ],
     "vocabulary": [
       {
-        "word": "colloquio",
+        "word": "Vorstellungsgespräch",
         "translation": "entrevista",
-        "example": "Die Diskussion klärt die Rolle von colloquio."
+        "example": "Die Diskussion klärt die Rolle von Vorstellungsgespräch."
       },
       {
-        "word": "esperienza",
+        "word": "Erfahrung",
         "translation": "experiencia",
-        "example": "Die Diskussion klärt die Rolle von esperienza."
+        "example": "Die Diskussion klärt die Rolle von Erfahrung."
       },
       {
-        "word": "candidatura",
+        "word": "Bewerbung",
         "translation": "candidatura",
-        "example": "Die Diskussion klärt die Rolle von candidatura."
+        "example": "Die Diskussion klärt die Rolle von Bewerbung."
       },
       {
-        "word": "affidabile",
+        "word": "zuverlässig",
         "translation": "fiable",
-        "example": "Die Diskussion klärt die Rolle von affidabile."
+        "example": "Die Diskussion klärt die Rolle von zuverlässig."
       },
       {
-        "word": "migliorare",
+        "word": "verbessern",
         "translation": "mejorar",
-        "example": "Die Diskussion klärt die Rolle von migliorare."
-      },
-      {
-        "word": "die Kompetenz",
-        "translation": "la competencia",
-        "example": "Die Kompetenz in interkultureller Kommunikation ist heute sehr gefragt."
-      },
-      {
-        "word": "die Fähigkeit",
-        "translation": "la habilidad",
-        "example": "Seine Fähigkeit, unter Druck ruhig zu bleiben, beeindruckt das Team."
-      },
-      {
-        "word": "die Qualifikation",
-        "translation": "la cualificación",
-        "example": "Ihre Qualifikation passt perfekt zur ausgeschriebenen Stelle."
-      },
-      {
-        "word": "das Vorstellungsgespräch",
-        "translation": "la entrevista de trabajo",
-        "example": "Das Vorstellungsgespräch dauert ungefähr 45 Minuten."
-      },
-      {
-        "word": "die Bewerbung",
-        "translation": "la solicitud de empleo",
-        "example": "Die Bewerbung sollte ein Anschreiben und einen Lebenslauf enthalten."
-      },
-      {
-        "word": "sich bewerben",
-        "translation": "postularse",
-        "example": "Sie hat sich online auf mehrere Positionen beworben."
-      },
-      {
-        "word": "die Stelle",
-        "translation": "el puesto (de trabajo)",
-        "example": "Die Stelle ist ab sofort zu besetzen."
-      },
-      {
-        "word": "die Weiterbildung",
-        "translation": "la formación continua",
-        "example": "Eine Weiterbildung im Bereich IT erhöht die Chancen."
-      },
-      {
-        "word": "die Stärke",
-        "translation": "la fortaleza",
-        "example": "Eine klare Kommunikation ist eine ihrer größten Stärken."
-      },
-      {
-        "word": "die Schwäche",
-        "translation": "la debilidad",
-        "example": "Er nennt offen seine Schwäche und zeigt, wie er daran arbeitet."
-      },
-      {
-        "word": "die Selbstreflexion",
-        "translation": "la autorreflexión",
-        "example": "Die Selbstreflexion nach Projekten fördert die persönliche Entwicklung."
-      },
-      {
-        "word": "bewerten",
-        "translation": "evaluar",
-        "example": "HR muss Bewerber fair und transparent bewerten."
-      },
-      {
-        "word": "die Leistungsbeurteilung",
-        "translation": "la evaluación del desempeño",
-        "example": "Die jährliche Leistungsbeurteilung wurde verschoben."
-      },
-      {
-        "word": "begründen",
-        "translation": "justificar",
-        "example": "Bitte begründen Sie Ihre Entscheidung mit zwei konkreten Beispielen."
-      },
-      {
-        "word": "die Priorität",
-        "translation": "la prioridad",
-        "example": "Diese Aufgabe hat kurzfristig höchste Priorität."
-      },
-      {
-        "word": "die Zielsetzung",
-        "translation": "la fijación de objetivos",
-        "example": "Die Zielsetzung für das Quartal wurde klar formuliert."
-      },
-      {
-        "word": "die Rückmeldung",
-        "translation": "la retroalimentación",
-        "example": "Ich habe heute eine positive Rückmeldung erhalten."
-      },
-      {
-        "word": "konstruktiv",
-        "translation": "constructivo",
-        "example": "Geben Sie konstruktive Vorschläge statt pauschaler Kritik."
-      },
-      {
-        "word": "die Verantwortung",
-        "translation": "la responsabilidad",
-        "example": "Die Verantwortung für das Budget liegt beim Projektleiter."
-      },
-      {
-        "word": "Könnten Sie mir bitte helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir bitte beim Ausfüllen des Formulars helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollten wir die Prioritäten neu bewerten.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Da stimme ich zu; das Argument ist überzeugend.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie das näher erläutern?",
-        "translation": "¿Podría explicar eso con más detalle?",
-        "example": "Könnten Sie das näher erläutern, damit alle es verstehen?",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz etwas anmerken?",
-        "translation": "¿Puedo comentar algo brevemente?",
-        "example": "Darf ich kurz etwas anmerken? Ein Zwischenziel wäre hilfreich.",
-        "category": "expression"
-      },
-      {
-        "word": "Wie wäre es, wenn...",
-        "translation": "¿Qué tal si...?",
-        "example": "Wie wäre es, wenn wir die Deadline um eine Woche verschieben?",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von verbessern."
       }
     ],
     "dialogue": [],
@@ -21089,7 +19877,7 @@
       "grammarProfile": {
         "name": "Arbeit und Kompetenzen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -21100,50 +19888,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „entrevista“?",
         "options": [
-          "colloquio",
-          "esperienza",
-          "candidatura",
-          "affidabile"
+          "Vorstellungsgespräch",
+          "Erfahrung",
+          "Bewerbung",
+          "zuverlässig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „esperienza“.",
+        "prompt": "Wähle „Erfahrung“.",
         "options": [
-          "esperienza",
-          "candidatura",
-          "affidabile",
-          "migliorare"
+          "Erfahrung",
+          "Bewerbung",
+          "zuverlässig",
+          "verbessern"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „candidatura“.",
+        "prompt": "Wähle „Bewerbung“.",
         "options": [
-          "candidatura",
-          "affidabile",
-          "migliorare",
-          "colloquio"
+          "Bewerbung",
+          "zuverlässig",
+          "verbessern",
+          "Vorstellungsgespräch"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „affidabile“.",
+        "prompt": "Wähle „zuverlässig“.",
         "options": [
-          "affidabile",
-          "migliorare",
-          "colloquio",
-          "esperienza"
+          "zuverlässig",
+          "verbessern",
+          "Vorstellungsgespräch",
+          "Erfahrung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „migliorare“.",
+        "prompt": "Wähle „verbessern“.",
         "options": [
-          "migliorare",
-          "colloquio",
-          "esperienza",
-          "candidatura"
+          "verbessern",
+          "Vorstellungsgespräch",
+          "Erfahrung",
+          "Bewerbung"
         ]
       }
     ]
@@ -21159,170 +19947,40 @@
     "xpReward": 35,
     "orderIndex": 34,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "dilemma",
-      "principio",
-      "responsabilità"
+      "Dilemma",
+      "Grundsatz",
+      "Verantwortung"
     ],
     "vocabulary": [
       {
-        "word": "dilemma",
+        "word": "Dilemma",
         "translation": "dilema",
-        "example": "Die Diskussion klärt die Rolle von dilemma."
+        "example": "Die Diskussion klärt die Rolle von Dilemma."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       },
       {
-        "word": "giustificare",
+        "word": "begründen",
         "translation": "justificar",
-        "example": "Die Diskussion klärt die Rolle von giustificare."
+        "example": "Die Diskussion klärt die Rolle von begründen."
       },
       {
-        "word": "equità",
+        "word": "Gerechtigkeit",
         "translation": "equidad",
-        "example": "Die Diskussion klärt die Rolle von equità."
-      },
-      {
-        "word": "die Verantwortung",
-        "translation": "la responsabilidad",
-        "example": "Die Verantwortung für die Entscheidung trägt das Gremium."
-      },
-      {
-        "word": "das Gewissen",
-        "translation": "la conciencia",
-        "example": "Sein Gewissen hinderte ihn daran, die Lüge fortzusetzen."
-      },
-      {
-        "word": "die Integrität",
-        "translation": "la integridad",
-        "example": "Ihre Integrität wurde nie infrage gestellt."
-      },
-      {
-        "word": "die Pflicht",
-        "translation": "el deber",
-        "example": "Er erfüllte seine Pflicht trotz Widerstands."
-      },
-      {
-        "word": "der Interessenkonflikt",
-        "translation": "el conflicto de intereses",
-        "example": "Ein Interessenkonflikt kann die Urteilskraft beeinträchtigen."
-      },
-      {
-        "word": "die Folgenabschätzung",
-        "translation": "la evaluación de las consecuencias",
-        "example": "Vor einer Entscheidung ist eine sorgfältige Folgenabschätzung nötig."
-      },
-      {
-        "word": "die Abwägung",
-        "translation": "la ponderación",
-        "example": "Die Abwägung von Risiken und Chancen ist entscheidend."
-      },
-      {
-        "word": "die Gerechtigkeit",
-        "translation": "la justicia",
-        "example": "Die Gerechtigkeit verlangt transparente Regeln."
-      },
-      {
-        "word": "die Konsequenz",
-        "translation": "la consecuencia",
-        "example": "Die Konsequenz aus der Analyse ist unmissverständlich."
-      },
-      {
-        "word": "die Tugend",
-        "translation": "la virtud",
-        "example": "Geduld gilt als wichtige Tugend in ethischen Debatten."
-      },
-      {
-        "word": "die Norm",
-        "translation": "la norma",
-        "example": "Die gesellschaftliche Norm beeinflusst moralische Urteile."
-      },
-      {
-        "word": "die Rechenschaftspflicht",
-        "translation": "la rendición de cuentas",
-        "example": "Die Rechenschaftspflicht stärkt das Vertrauen der Bevölkerung."
-      },
-      {
-        "word": "die Ethik",
-        "translation": "la ética",
-        "example": "Unternehmen diskutieren zunehmend ihre Ethik."
-      },
-      {
-        "word": "der Utilitarismus",
-        "translation": "el utilitarismo",
-        "example": "Der Utilitarismus misst Handlungen am größtmöglichen Nutzen."
-      },
-      {
-        "word": "die Deontologie",
-        "translation": "la deontología",
-        "example": "Die Deontologie betont Pflichten statt Konsequenzen."
-      },
-      {
-        "word": "die Ambivalenz",
-        "translation": "la ambivalencia",
-        "example": "Oft herrscht eine moralische Ambivalenz in praktischen Fällen."
-      },
-      {
-        "word": "die Legitimität",
-        "translation": "la legitimidad",
-        "example": "Die Legitimität der Maßnahme wurde angezweifelt."
-      },
-      {
-        "word": "die Solidarität",
-        "translation": "la solidaridad",
-        "example": "Solidarität war ein zentrales Argument der Debatte."
-      },
-      {
-        "word": "die Transparenz",
-        "translation": "la transparencia",
-        "example": "Mehr Transparenz ist für die Öffentlichkeit unerlässlich."
-      },
-      {
-        "word": "der Konsens",
-        "translation": "el consenso",
-        "example": "Ein Konsens wurde nach langen Verhandlungen erreicht."
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, das Für und Wider zu erläutern?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Ansicht nach sollte das Wohl aller Vorrang haben.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Da stimme ich zu; das Argument ist überzeugend.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Bedenken bezüglich...",
-        "translation": "Tengo reservas respecto a...",
-        "example": "Ich habe Bedenken bezüglich der finanziellen Belastung.",
-        "category": "expression"
-      },
-      {
-        "word": "Mit Verlaub, ...",
-        "translation": "Con todo respeto, ...",
-        "example": "Mit Verlaub, das Vorgehen erscheint mir problematisch.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Gerechtigkeit."
       }
     ],
     "dialogue": [],
@@ -21332,7 +19990,7 @@
       "grammarProfile": {
         "name": "Ethik und Entscheidungen",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -21343,50 +20001,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „dilema“?",
         "options": [
-          "dilemma",
-          "principio",
-          "responsabilità",
-          "giustificare"
+          "Dilemma",
+          "Grundsatz",
+          "Verantwortung",
+          "begründen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „principio“.",
+        "prompt": "Wähle „Grundsatz“.",
         "options": [
-          "principio",
-          "responsabilità",
-          "giustificare",
-          "equità"
+          "Grundsatz",
+          "Verantwortung",
+          "begründen",
+          "Gerechtigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „responsabilità“.",
+        "prompt": "Wähle „Verantwortung“.",
         "options": [
-          "responsabilità",
-          "giustificare",
-          "equità",
-          "dilemma"
+          "Verantwortung",
+          "begründen",
+          "Gerechtigkeit",
+          "Dilemma"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „giustificare“.",
+        "prompt": "Wähle „begründen“.",
         "options": [
-          "giustificare",
-          "equità",
-          "dilemma",
-          "principio"
+          "begründen",
+          "Gerechtigkeit",
+          "Dilemma",
+          "Grundsatz"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „equità“.",
+        "prompt": "Wähle „Gerechtigkeit“.",
         "options": [
-          "equità",
-          "dilemma",
-          "principio",
-          "responsabilità"
+          "Gerechtigkeit",
+          "Dilemma",
+          "Grundsatz",
+          "Verantwortung"
         ]
       }
     ]
@@ -21402,169 +20060,40 @@
     "xpReward": 40,
     "orderIndex": 34,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "ipotesi",
-      "probabilità",
-      "evidenza"
+      "Hypothese",
+      "Wahrscheinlichkeit",
+      "Beleg"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "probabilità",
+        "word": "Wahrscheinlichkeit",
         "translation": "probabilidad",
-        "example": "Die Diskussion klärt die Rolle von probabilità."
+        "example": "Die Diskussion klärt die Rolle von Wahrscheinlichkeit."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "presumere",
+        "word": "annehmen",
         "translation": "presumir",
-        "example": "Die Diskussion klärt die Rolle von presumere."
+        "example": "Die Diskussion klärt die Rolle von annehmen."
       },
       {
-        "word": "cautela",
+        "word": "Vorsicht",
         "translation": "cautela",
-        "example": "Die Diskussion klärt die Rolle von cautela."
-      },
-      {
-        "word": "die Plausibilität",
-        "translation": "plausibilidad",
-        "example": "Die Plausibilität seiner Erklärung überzeugt mich nicht."
-      },
-      {
-        "word": "die Gewissheit",
-        "translation": "certeza",
-        "example": "Absolute Gewissheit gibt es selten in komplexen Fragen."
-      },
-      {
-        "word": "die Unsicherheit",
-        "translation": "incertidumbre",
-        "example": "Trotz der Unsicherheit blieb das Team konzentriert."
-      },
-      {
-        "word": "die Spekulation",
-        "translation": "especulación",
-        "example": "Unbegründete Spekulationen sollten vermieden werden."
-      },
-      {
-        "word": "die Indizienkette",
-        "translation": "cadena de indicios",
-        "example": "Die Indizienkette legt ein kausales Muster nahe."
-      },
-      {
-        "word": "die Widerspruchsfreiheit",
-        "translation": "coherencia interna",
-        "example": "Die Widerspruchsfreiheit der Aussagen ist wichtig."
-      },
-      {
-        "word": "die Hypothese",
-        "translation": "hipótesis",
-        "example": "Die Hypothese muss empirisch überprüft werden."
-      },
-      {
-        "word": "die Wahrscheinlichkeit",
-        "translation": "probabilidad",
-        "example": "Die Wahrscheinlichkeit eines Fehlers ist gering."
-      },
-      {
-        "word": "schlussfolgern",
-        "translation": "concluir",
-        "example": "Aus diesen Daten kann man schlussfolgern, dass die Ursache komplex ist."
-      },
-      {
-        "word": "ableiten",
-        "translation": "derivar; extraer",
-        "example": "Man kann klare Kriterien aus den Ergebnissen ableiten."
-      },
-      {
-        "word": "belegen",
-        "translation": "respaldar; demostrar",
-        "example": "Die Studie belegt den Zusammenhang."
-      },
-      {
-        "word": "widerlegen",
-        "translation": "refutar",
-        "example": "Neue Daten konnten die Theorie widerlegen."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "evidencia",
-        "example": "Die Evidenz spricht gegen die Annahme."
-      },
-      {
-        "word": "die Inkonsistenz",
-        "translation": "inconsistencia",
-        "example": "Eine Inkonsistenz im Bericht erschwert die Interpretation."
-      },
-      {
-        "word": "plausibel",
-        "translation": "plausible",
-        "example": "Sein Argument erscheint plausibel."
-      },
-      {
-        "word": "fundiert",
-        "translation": "fundado; bien fundamentado",
-        "example": "Eine fundierte Analyse berücksichtigt alle Faktoren."
-      },
-      {
-        "word": "die Methodik",
-        "translation": "metodología",
-        "example": "Die Methodik beeinflusst die Schlussfolgerungen."
-      },
-      {
-        "word": "die Unsicherheitsabschätzung",
-        "translation": "estimación de la incertidumbre",
-        "example": "Die Unsicherheitsabschätzung ist Teil des Abschlussberichts."
-      },
-      {
-        "word": "das Indiz",
-        "translation": "indicio",
-        "example": "Ein einzelnes Indiz ist selten aussagekräftig."
-      },
-      {
-        "word": "die Redundanz",
-        "translation": "redundancia",
-        "example": "Technische Redundanz erhöht die Zuverlässigkeit."
-      },
-      {
-        "word": "differenzieren",
-        "translation": "diferenciar",
-        "example": "Wir müssen zwischen Ursache und Korrelation differenzieren."
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach ist die Schlussfolgerung nicht überzeugend.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich ganz Ihrer Meinung.",
-        "translation": "estoy totalmente de acuerdo con usted",
-        "example": "Da bin ich ganz Ihrer Meinung; die Daten sind schwach.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie mir dabei helfen?",
-        "translation": "¿Podría ayudarme con esto?",
-        "example": "Könnten Sie mir dabei helfen, die Analyse zu überprüfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Zweifel an...",
-        "translation": "tengo dudas sobre...",
-        "example": "Ich habe Zweifel an der Validität dieser Messmethode.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Vorsicht."
       }
     ],
     "dialogue": [],
@@ -21574,7 +20103,7 @@
       "grammarProfile": {
         "name": "Wissen und Unsicherheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -21585,50 +20114,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „hipótesis“?",
         "options": [
-          "ipotesi",
-          "probabilità",
-          "evidenza",
-          "presumere"
+          "Hypothese",
+          "Wahrscheinlichkeit",
+          "Beleg",
+          "annehmen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „probabilità“.",
+        "prompt": "Wähle „Wahrscheinlichkeit“.",
         "options": [
-          "probabilità",
-          "evidenza",
-          "presumere",
-          "cautela"
+          "Wahrscheinlichkeit",
+          "Beleg",
+          "annehmen",
+          "Vorsicht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „evidenza“.",
+        "prompt": "Wähle „Beleg“.",
         "options": [
-          "evidenza",
-          "presumere",
-          "cautela",
-          "ipotesi"
+          "Beleg",
+          "annehmen",
+          "Vorsicht",
+          "Hypothese"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „presumere“.",
+        "prompt": "Wähle „annehmen“.",
         "options": [
-          "presumere",
-          "cautela",
-          "ipotesi",
-          "probabilità"
+          "annehmen",
+          "Vorsicht",
+          "Hypothese",
+          "Wahrscheinlichkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „cautela“.",
+        "prompt": "Wähle „Vorsicht“.",
         "options": [
-          "cautela",
-          "ipotesi",
-          "probabilità",
-          "evidenza"
+          "Vorsicht",
+          "Hypothese",
+          "Wahrscheinlichkeit",
+          "Beleg"
         ]
       }
     ]
@@ -22323,45 +20852,45 @@
     "xpReward": 30,
     "orderIndex": 40,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "impatto",
-      "raccolta",
-      "spreco"
+      "Auswirkung",
+      "Sammlung",
+      "Verschwendung"
     ],
     "vocabulary": [
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "raccolta",
+        "word": "Sammlung",
         "translation": "recogida",
-        "example": "Die Diskussion klärt die Rolle von raccolta."
+        "example": "Die Diskussion klärt die Rolle von Sammlung."
       },
       {
-        "word": "spreco",
+        "word": "Verschwendung",
         "translation": "desperdicio",
-        "example": "Die Diskussion klärt die Rolle von spreco."
+        "example": "Die Diskussion klärt die Rolle von Verschwendung."
       },
       {
-        "word": "sostenibile",
+        "word": "nachhaltig",
         "translation": "sostenible",
-        "example": "Die Diskussion klärt die Rolle von sostenibile."
+        "example": "Die Diskussion klärt die Rolle von nachhaltig."
       },
       {
-        "word": "abitudine",
+        "word": "Gewohnheit",
         "translation": "hábito",
-        "example": "Die Diskussion klärt die Rolle von abitudine."
+        "example": "Die Diskussion klärt die Rolle von Gewohnheit."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Umwelt und Konsum» untersucht die Gruppe impatto und raccolta. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Umwelt und Konsum» untersucht die Gruppe Auswirkung und Sammlung. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -22371,7 +20900,7 @@
       "grammarProfile": {
         "name": "Umwelt und Konsum",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -22382,10 +20911,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "impatto",
-          "spreco",
-          "sostenibile",
-          "abitudine"
+          "Auswirkung",
+          "Verschwendung",
+          "nachhaltig",
+          "Gewohnheit"
         ]
       },
       {
@@ -22396,39 +20925,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-umwelt-und-konsum-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "impatto",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-b2-b2-umwelt-und-konsum-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-umwelt-und-konsum-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -22444,45 +20940,45 @@
     "xpReward": 35,
     "orderIndex": 40,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "opera",
-      "linguaggio",
-      "interpretazione"
+      "Werk",
+      "Sprache",
+      "Deutung"
     ],
     "vocabulary": [
       {
-        "word": "opera",
+        "word": "Werk",
         "translation": "obra",
-        "example": "Die Diskussion klärt die Rolle von opera."
+        "example": "Die Diskussion klärt die Rolle von Werk."
       },
       {
-        "word": "linguaggio",
+        "word": "Sprache",
         "translation": "lenguaje",
-        "example": "Die Diskussion klärt die Rolle von linguaggio."
+        "example": "Die Diskussion klärt die Rolle von Sprache."
       },
       {
-        "word": "interpretazione",
+        "word": "Deutung",
         "translation": "interpretación",
-        "example": "Die Diskussion klärt die Rolle von interpretazione."
+        "example": "Die Diskussion klärt die Rolle von Deutung."
       },
       {
-        "word": "evocare",
+        "word": "hervorrufen",
         "translation": "evocar",
-        "example": "Die Diskussion klärt die Rolle von evocare."
+        "example": "Die Diskussion klärt die Rolle von hervorrufen."
       },
       {
-        "word": "contrasto",
+        "word": "Kontrast",
         "translation": "contraste",
-        "example": "Die Diskussion klärt die Rolle von contrasto."
+        "example": "Die Diskussion klärt die Rolle von Kontrast."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Kunst und Interpretation» untersucht die Gruppe opera und linguaggio. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Kunst und Interpretation» untersucht die Gruppe Werk und Sprache. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -22492,7 +20988,7 @@
       "grammarProfile": {
         "name": "Kunst und Interpretation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -22503,10 +20999,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "opera",
-          "interpretazione",
-          "evocare",
-          "contrasto"
+          "Werk",
+          "Deutung",
+          "hervorrufen",
+          "Kontrast"
         ]
       },
       {
@@ -22517,39 +21013,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-kunst-und-interpretation-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-kunst-und-interpretation-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-kunst-und-interpretation-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -22565,45 +21028,45 @@
     "xpReward": 40,
     "orderIndex": 40,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "narrazione",
-      "memoria",
-      "voce"
+      "Erzählung",
+      "Erinnerung",
+      "Stimme"
     ],
     "vocabulary": [
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narración",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "voce",
+        "word": "Stimme",
         "translation": "voz",
-        "example": "Die Diskussion klärt die Rolle von voce."
+        "example": "Die Diskussion klärt die Rolle von Stimme."
       },
       {
-        "word": "rielaborare",
+        "word": "neu deuten",
         "translation": "reelaborar",
-        "example": "Die Diskussion klärt die Rolle von rielaborare."
+        "example": "Die Diskussion klärt die Rolle von neu deuten."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Erzählung und Identität» untersucht die Gruppe narrazione und memoria. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Erzählung und Identität» untersucht die Gruppe Erzählung und Erinnerung. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -22613,7 +21076,7 @@
       "grammarProfile": {
         "name": "Erzählung und Identität",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -22624,10 +21087,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "narrazione",
-          "voce",
-          "rielaborare",
-          "appartenenza"
+          "Erzählung",
+          "Stimme",
+          "neu deuten",
+          "Zugehörigkeit"
         ]
       },
       {
@@ -22638,39 +21101,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-erzahlung-und-identitat-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "memoria",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c2-c2-erzahlung-und-identitat-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-erzahlung-und-identitat-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -24778,50 +23208,50 @@
     "xpReward": 30,
     "orderIndex": 41,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "impatto",
-      "raccolta",
-      "spreco"
+      "Auswirkung",
+      "Sammlung",
+      "Verschwendung"
     ],
     "vocabulary": [
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "raccolta",
+        "word": "Sammlung",
         "translation": "recogida",
-        "example": "Die Diskussion klärt die Rolle von raccolta."
+        "example": "Die Diskussion klärt die Rolle von Sammlung."
       },
       {
-        "word": "spreco",
+        "word": "Verschwendung",
         "translation": "desperdicio",
-        "example": "Die Diskussion klärt die Rolle von spreco."
+        "example": "Die Diskussion klärt die Rolle von Verschwendung."
       },
       {
-        "word": "sostenibile",
+        "word": "nachhaltig",
         "translation": "sostenible",
-        "example": "Die Diskussion klärt die Rolle von sostenibile."
+        "example": "Die Diskussion klärt die Rolle von nachhaltig."
       },
       {
-        "word": "abitudine",
+        "word": "Gewohnheit",
         "translation": "hábito",
-        "example": "Die Diskussion klärt die Rolle von abitudine."
+        "example": "Die Diskussion klärt die Rolle von Gewohnheit."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „impatto“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -24830,7 +23260,7 @@
       "grammarProfile": {
         "name": "Umwelt und Konsum",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -24839,7 +23269,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -24854,46 +23284,46 @@
     "xpReward": 35,
     "orderIndex": 41,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "opera",
-      "linguaggio",
-      "interpretazione"
+      "Werk",
+      "Sprache",
+      "Deutung"
     ],
     "vocabulary": [
       {
-        "word": "opera",
+        "word": "Werk",
         "translation": "obra",
-        "example": "Die Diskussion klärt die Rolle von opera."
+        "example": "Die Diskussion klärt die Rolle von Werk."
       },
       {
-        "word": "linguaggio",
+        "word": "Sprache",
         "translation": "lenguaje",
-        "example": "Die Diskussion klärt die Rolle von linguaggio."
+        "example": "Die Diskussion klärt die Rolle von Sprache."
       },
       {
-        "word": "interpretazione",
+        "word": "Deutung",
         "translation": "interpretación",
-        "example": "Die Diskussion klärt die Rolle von interpretazione."
+        "example": "Die Diskussion klärt die Rolle von Deutung."
       },
       {
-        "word": "evocare",
+        "word": "hervorrufen",
         "translation": "evocar",
-        "example": "Die Diskussion klärt die Rolle von evocare."
+        "example": "Die Diskussion klärt die Rolle von hervorrufen."
       },
       {
-        "word": "contrasto",
+        "word": "Kontrast",
         "translation": "contraste",
-        "example": "Die Diskussion klärt die Rolle von contrasto."
+        "example": "Die Diskussion klärt die Rolle von Kontrast."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "line": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -24906,7 +23336,7 @@
       "grammarProfile": {
         "name": "Kunst und Interpretation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -24915,7 +23345,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -24930,46 +23360,46 @@
     "xpReward": 40,
     "orderIndex": 41,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "narrazione",
-      "memoria",
-      "voce"
+      "Erzählung",
+      "Erinnerung",
+      "Stimme"
     ],
     "vocabulary": [
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narración",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "voce",
+        "word": "Stimme",
         "translation": "voz",
-        "example": "Die Diskussion klärt die Rolle von voce."
+        "example": "Die Diskussion klärt die Rolle von Stimme."
       },
       {
-        "word": "rielaborare",
+        "word": "neu deuten",
         "translation": "reelaborar",
-        "example": "Die Diskussion klärt die Rolle von rielaborare."
+        "example": "Die Diskussion klärt die Rolle von neu deuten."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "line": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -24982,7 +23412,7 @@
       "grammarProfile": {
         "name": "Erzählung und Identität",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -24991,7 +23421,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -27503,40 +25933,40 @@
     "xpReward": 30,
     "orderIndex": 42,
     "estimatedMinutes": 20,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "impatto",
-      "raccolta",
-      "spreco"
+      "Auswirkung",
+      "Sammlung",
+      "Verschwendung"
     ],
     "vocabulary": [
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "raccolta",
+        "word": "Sammlung",
         "translation": "recogida",
-        "example": "Die Diskussion klärt die Rolle von raccolta."
+        "example": "Die Diskussion klärt die Rolle von Sammlung."
       },
       {
-        "word": "spreco",
+        "word": "Verschwendung",
         "translation": "desperdicio",
-        "example": "Die Diskussion klärt die Rolle von spreco."
+        "example": "Die Diskussion klärt die Rolle von Verschwendung."
       },
       {
-        "word": "sostenibile",
+        "word": "nachhaltig",
         "translation": "sostenible",
-        "example": "Die Diskussion klärt die Rolle von sostenibile."
+        "example": "Die Diskussion klärt die Rolle von nachhaltig."
       },
       {
-        "word": "abitudine",
+        "word": "Gewohnheit",
         "translation": "hábito",
-        "example": "Die Diskussion klärt die Rolle von abitudine."
+        "example": "Die Diskussion klärt die Rolle von Gewohnheit."
       }
     ],
     "dialogue": [],
@@ -27546,7 +25976,7 @@
       "grammarProfile": {
         "name": "Umwelt und Konsum",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -27555,7 +25985,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um begründen um Beispiel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -27570,40 +26000,40 @@
     "xpReward": 35,
     "orderIndex": 42,
     "estimatedMinutes": 20,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "opera",
-      "linguaggio",
-      "interpretazione"
+      "Werk",
+      "Sprache",
+      "Deutung"
     ],
     "vocabulary": [
       {
-        "word": "opera",
+        "word": "Werk",
         "translation": "obra",
-        "example": "Die Diskussion klärt die Rolle von opera."
+        "example": "Die Diskussion klärt die Rolle von Werk."
       },
       {
-        "word": "linguaggio",
+        "word": "Sprache",
         "translation": "lenguaje",
-        "example": "Die Diskussion klärt die Rolle von linguaggio."
+        "example": "Die Diskussion klärt die Rolle von Sprache."
       },
       {
-        "word": "interpretazione",
+        "word": "Deutung",
         "translation": "interpretación",
-        "example": "Die Diskussion klärt die Rolle von interpretazione."
+        "example": "Die Diskussion klärt die Rolle von Deutung."
       },
       {
-        "word": "evocare",
+        "word": "hervorrufen",
         "translation": "evocar",
-        "example": "Die Diskussion klärt die Rolle von evocare."
+        "example": "Die Diskussion klärt die Rolle von hervorrufen."
       },
       {
-        "word": "contrasto",
+        "word": "Kontrast",
         "translation": "contraste",
-        "example": "Die Diskussion klärt die Rolle von contrasto."
+        "example": "Die Diskussion klärt die Rolle von Kontrast."
       }
     ],
     "dialogue": [],
@@ -27613,7 +26043,7 @@
       "grammarProfile": {
         "name": "Kunst und Interpretation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -27622,7 +26052,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um begründen um Beispiel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -27637,40 +26067,40 @@
     "xpReward": 40,
     "orderIndex": 42,
     "estimatedMinutes": 20,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "narrazione",
-      "memoria",
-      "voce"
+      "Erzählung",
+      "Erinnerung",
+      "Stimme"
     ],
     "vocabulary": [
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narración",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "voce",
+        "word": "Stimme",
         "translation": "voz",
-        "example": "Die Diskussion klärt die Rolle von voce."
+        "example": "Die Diskussion klärt die Rolle von Stimme."
       },
       {
-        "word": "rielaborare",
+        "word": "neu deuten",
         "translation": "reelaborar",
-        "example": "Die Diskussion klärt die Rolle von rielaborare."
+        "example": "Die Diskussion klärt die Rolle von neu deuten."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       }
     ],
     "dialogue": [],
@@ -27680,7 +26110,7 @@
       "grammarProfile": {
         "name": "Erzählung und Identität",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -27689,7 +26119,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um begründen um Beispiel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -27704,40 +26134,40 @@
     "xpReward": 30,
     "orderIndex": 43,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "impatto",
-      "raccolta",
-      "spreco"
+      "Auswirkung",
+      "Sammlung",
+      "Verschwendung"
     ],
     "vocabulary": [
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "raccolta",
+        "word": "Sammlung",
         "translation": "recogida",
-        "example": "Die Diskussion klärt die Rolle von raccolta."
+        "example": "Die Diskussion klärt die Rolle von Sammlung."
       },
       {
-        "word": "spreco",
+        "word": "Verschwendung",
         "translation": "desperdicio",
-        "example": "Die Diskussion klärt die Rolle von spreco."
+        "example": "Die Diskussion klärt die Rolle von Verschwendung."
       },
       {
-        "word": "sostenibile",
+        "word": "nachhaltig",
         "translation": "sostenible",
-        "example": "Die Diskussion klärt die Rolle von sostenibile."
+        "example": "Die Diskussion klärt die Rolle von nachhaltig."
       },
       {
-        "word": "abitudine",
+        "word": "Gewohnheit",
         "translation": "hábito",
-        "example": "Die Diskussion klärt die Rolle von abitudine."
+        "example": "Die Diskussion klärt die Rolle von Gewohnheit."
       }
     ],
     "dialogue": [],
@@ -27747,7 +26177,7 @@
       "grammarProfile": {
         "name": "Umwelt und Konsum",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -27756,52 +26186,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu impatto. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Auswirkung. (1)",
         "options": [
-          "impatto",
-          "raccolta",
-          "spreco",
-          "sostenibile"
+          "Auswirkung",
+          "Sammlung",
+          "Verschwendung",
+          "nachhaltig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu impatto. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Auswirkung. (2)",
         "options": [
-          "raccolta",
-          "spreco",
-          "sostenibile",
-          "abitudine"
+          "Sammlung",
+          "Verschwendung",
+          "nachhaltig",
+          "Gewohnheit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu impatto. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Auswirkung. (3)",
         "options": [
-          "spreco",
-          "sostenibile",
-          "abitudine",
-          "impatto"
+          "Verschwendung",
+          "nachhaltig",
+          "Gewohnheit",
+          "Auswirkung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu impatto. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Auswirkung. (4)",
         "options": [
-          "sostenibile",
-          "abitudine",
-          "impatto",
-          "raccolta"
+          "nachhaltig",
+          "Gewohnheit",
+          "Auswirkung",
+          "Sammlung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu impatto. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Auswirkung. (5)",
         "options": [
-          "abitudine",
-          "impatto",
-          "raccolta",
-          "spreco"
+          "Gewohnheit",
+          "Auswirkung",
+          "Sammlung",
+          "Verschwendung"
         ]
       }
     ]
@@ -27817,40 +26247,40 @@
     "xpReward": 35,
     "orderIndex": 43,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "opera",
-      "linguaggio",
-      "interpretazione"
+      "Werk",
+      "Sprache",
+      "Deutung"
     ],
     "vocabulary": [
       {
-        "word": "opera",
+        "word": "Werk",
         "translation": "obra",
-        "example": "Die Diskussion klärt die Rolle von opera."
+        "example": "Die Diskussion klärt die Rolle von Werk."
       },
       {
-        "word": "linguaggio",
+        "word": "Sprache",
         "translation": "lenguaje",
-        "example": "Die Diskussion klärt die Rolle von linguaggio."
+        "example": "Die Diskussion klärt die Rolle von Sprache."
       },
       {
-        "word": "interpretazione",
+        "word": "Deutung",
         "translation": "interpretación",
-        "example": "Die Diskussion klärt die Rolle von interpretazione."
+        "example": "Die Diskussion klärt die Rolle von Deutung."
       },
       {
-        "word": "evocare",
+        "word": "hervorrufen",
         "translation": "evocar",
-        "example": "Die Diskussion klärt die Rolle von evocare."
+        "example": "Die Diskussion klärt die Rolle von hervorrufen."
       },
       {
-        "word": "contrasto",
+        "word": "Kontrast",
         "translation": "contraste",
-        "example": "Die Diskussion klärt die Rolle von contrasto."
+        "example": "Die Diskussion klärt die Rolle von Kontrast."
       }
     ],
     "dialogue": [],
@@ -27860,7 +26290,7 @@
       "grammarProfile": {
         "name": "Kunst und Interpretation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -27869,52 +26299,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu opera. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Werk. (1)",
         "options": [
-          "opera",
-          "linguaggio",
-          "interpretazione",
-          "evocare"
+          "Werk",
+          "Sprache",
+          "Deutung",
+          "hervorrufen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu opera. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Werk. (2)",
         "options": [
-          "linguaggio",
-          "interpretazione",
-          "evocare",
-          "contrasto"
+          "Sprache",
+          "Deutung",
+          "hervorrufen",
+          "Kontrast"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu opera. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Werk. (3)",
         "options": [
-          "interpretazione",
-          "evocare",
-          "contrasto",
-          "opera"
+          "Deutung",
+          "hervorrufen",
+          "Kontrast",
+          "Werk"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu opera. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Werk. (4)",
         "options": [
-          "evocare",
-          "contrasto",
-          "opera",
-          "linguaggio"
+          "hervorrufen",
+          "Kontrast",
+          "Werk",
+          "Sprache"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu opera. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Werk. (5)",
         "options": [
-          "contrasto",
-          "opera",
-          "linguaggio",
-          "interpretazione"
+          "Kontrast",
+          "Werk",
+          "Sprache",
+          "Deutung"
         ]
       }
     ]
@@ -27930,40 +26360,40 @@
     "xpReward": 40,
     "orderIndex": 43,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "narrazione",
-      "memoria",
-      "voce"
+      "Erzählung",
+      "Erinnerung",
+      "Stimme"
     ],
     "vocabulary": [
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narración",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "voce",
+        "word": "Stimme",
         "translation": "voz",
-        "example": "Die Diskussion klärt die Rolle von voce."
+        "example": "Die Diskussion klärt die Rolle von Stimme."
       },
       {
-        "word": "rielaborare",
+        "word": "neu deuten",
         "translation": "reelaborar",
-        "example": "Die Diskussion klärt die Rolle von rielaborare."
+        "example": "Die Diskussion klärt die Rolle von neu deuten."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       }
     ],
     "dialogue": [],
@@ -27973,7 +26403,7 @@
       "grammarProfile": {
         "name": "Erzählung und Identität",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -27982,52 +26412,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narrazione. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzählung. (1)",
         "options": [
-          "narrazione",
-          "memoria",
-          "voce",
-          "rielaborare"
+          "Erzählung",
+          "Erinnerung",
+          "Stimme",
+          "neu deuten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narrazione. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzählung. (2)",
         "options": [
-          "memoria",
-          "voce",
-          "rielaborare",
-          "appartenenza"
+          "Erinnerung",
+          "Stimme",
+          "neu deuten",
+          "Zugehörigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narrazione. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzählung. (3)",
         "options": [
-          "voce",
-          "rielaborare",
-          "appartenenza",
-          "narrazione"
+          "Stimme",
+          "neu deuten",
+          "Zugehörigkeit",
+          "Erzählung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narrazione. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzählung. (4)",
         "options": [
-          "rielaborare",
-          "appartenenza",
-          "narrazione",
-          "memoria"
+          "neu deuten",
+          "Zugehörigkeit",
+          "Erzählung",
+          "Erinnerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narrazione. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzählung. (5)",
         "options": [
-          "appartenenza",
-          "narrazione",
-          "memoria",
-          "voce"
+          "Zugehörigkeit",
+          "Erzählung",
+          "Erinnerung",
+          "Stimme"
         ]
       }
     ]
@@ -28043,170 +26473,40 @@
     "xpReward": 30,
     "orderIndex": 44,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "impatto",
-      "raccolta",
-      "spreco"
+      "Auswirkung",
+      "Sammlung",
+      "Verschwendung"
     ],
     "vocabulary": [
       {
-        "word": "impatto",
+        "word": "Auswirkung",
         "translation": "impacto",
-        "example": "Die Diskussion klärt die Rolle von impatto."
+        "example": "Die Diskussion klärt die Rolle von Auswirkung."
       },
       {
-        "word": "raccolta",
+        "word": "Sammlung",
         "translation": "recogida",
-        "example": "Die Diskussion klärt die Rolle von raccolta."
+        "example": "Die Diskussion klärt die Rolle von Sammlung."
       },
       {
-        "word": "spreco",
+        "word": "Verschwendung",
         "translation": "desperdicio",
-        "example": "Die Diskussion klärt die Rolle von spreco."
+        "example": "Die Diskussion klärt die Rolle von Verschwendung."
       },
       {
-        "word": "sostenibile",
+        "word": "nachhaltig",
         "translation": "sostenible",
-        "example": "Die Diskussion klärt die Rolle von sostenibile."
+        "example": "Die Diskussion klärt die Rolle von nachhaltig."
       },
       {
-        "word": "abitudine",
+        "word": "Gewohnheit",
         "translation": "hábito",
-        "example": "Die Diskussion klärt die Rolle von abitudine."
-      },
-      {
-        "word": "der Verbrauch",
-        "translation": "el consumo",
-        "example": "Der Stromverbrauch im Haushalt ist in letzter Zeit gestiegen."
-      },
-      {
-        "word": "der Konsument",
-        "translation": "el consumidor",
-        "example": "Der Konsument entscheidet oft nach dem Preis."
-      },
-      {
-        "word": "die Produktion",
-        "translation": "la producción",
-        "example": "Die Produktion von Verpackungen braucht viele Ressourcen."
-      },
-      {
-        "word": "die Verpackung",
-        "translation": "el envase / el embalaje",
-        "example": "Die Verpackung sollte möglichst recycelbar sein."
-      },
-      {
-        "word": "die Ressource",
-        "translation": "el recurso",
-        "example": "Wasser ist eine knappe Ressource in vielen Regionen."
-      },
-      {
-        "word": "die erneuerbare Energie",
-        "translation": "la energía renovable",
-        "example": "Die erneuerbare Energie reduziert die Abhängigkeit von fossilen Brennstoffen."
-      },
-      {
-        "word": "die Emission",
-        "translation": "la emisión",
-        "example": "Fahrzeuge verursachen viele schädliche Emissionen."
-      },
-      {
-        "word": "der CO2-Ausstoß",
-        "translation": "las emisiones de CO2",
-        "example": "Der CO2-Ausstoß muss für das Klima reduziert werden."
-      },
-      {
-        "word": "die Abfalltrennung",
-        "translation": "la separación de residuos",
-        "example": "In unserer Stadt ist die Abfalltrennung verpflichtend."
-      },
-      {
-        "word": "die Wiederverwendung",
-        "translation": "la reutilización",
-        "example": "Die Wiederverwendung von Glasflaschen spart Energie."
-      },
-      {
-        "word": "die Recyclingquote",
-        "translation": "la tasa de reciclaje",
-        "example": "Die Recyclingquote ist in den letzten Jahren gestiegen."
-      },
-      {
-        "word": "die Entsorgung",
-        "translation": "la eliminación de residuos",
-        "example": "Eine korrekte Entsorgung gefährlicher Stoffe ist wichtig."
-      },
-      {
-        "word": "der Beitrag",
-        "translation": "la contribución",
-        "example": "Jeder kleine Beitrag hilft beim Umweltschutz."
-      },
-      {
-        "word": "die Herkunft",
-        "translation": "el origen",
-        "example": "Die Herkunft der Rohstoffe ist schwer nachzuverfolgen."
-      },
-      {
-        "word": "die Lieferkette",
-        "translation": "la cadena de suministro",
-        "example": "Transparente Lieferketten fördern nachhaltigen Konsum."
-      },
-      {
-        "word": "die Nachhaltigkeit",
-        "translation": "la sostenibilidad",
-        "example": "Nachhaltigkeit sollte bei jeder Produktentwicklung berücksichtigt werden."
-      },
-      {
-        "word": "das Gleichgewicht",
-        "translation": "el equilibrio",
-        "example": "Ein ökologisches Gleichgewicht ist für das Ökosystem entscheidend."
-      },
-      {
-        "word": "die Verantwortung",
-        "translation": "la responsabilidad",
-        "example": "Unternehmen tragen Verantwortung für ihre Emissionen."
-      },
-      {
-        "word": "reduzieren",
-        "translation": "reducir",
-        "example": "Wir müssen Plastikmüll deutlich reduzieren."
-      },
-      {
-        "word": "vermeiden",
-        "translation": "evitar",
-        "example": "Man sollte Einwegprodukte möglichst vermeiden."
-      },
-      {
-        "word": "Könnten Sie mir bitte helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir bitte helfen, die Recyclingregeln zu verstehen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollten Städte mehr Radwege bauen.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Da stimme ich zu, gemeinsamer Konsum ist sinnvoller.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Bedenken wegen...",
-        "translation": "Tengo dudas/reservas sobre...",
-        "example": "Ich habe Bedenken wegen der langen Transportwege.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigen Sie die Störung.",
-        "translation": "Disculpe la molestia.",
-        "example": "Entschuldigen Sie die Störung, können Sie kurz zuhören?",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Gewohnheit."
       }
     ],
     "dialogue": [],
@@ -28216,7 +26516,7 @@
       "grammarProfile": {
         "name": "Umwelt und Konsum",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -28227,50 +26527,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „impacto“?",
         "options": [
-          "impatto",
-          "raccolta",
-          "spreco",
-          "sostenibile"
+          "Auswirkung",
+          "Sammlung",
+          "Verschwendung",
+          "nachhaltig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „raccolta“.",
+        "prompt": "Wähle „Sammlung“.",
         "options": [
-          "raccolta",
-          "spreco",
-          "sostenibile",
-          "abitudine"
+          "Sammlung",
+          "Verschwendung",
+          "nachhaltig",
+          "Gewohnheit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „spreco“.",
+        "prompt": "Wähle „Verschwendung“.",
         "options": [
-          "spreco",
-          "sostenibile",
-          "abitudine",
-          "impatto"
+          "Verschwendung",
+          "nachhaltig",
+          "Gewohnheit",
+          "Auswirkung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „sostenibile“.",
+        "prompt": "Wähle „nachhaltig“.",
         "options": [
-          "sostenibile",
-          "abitudine",
-          "impatto",
-          "raccolta"
+          "nachhaltig",
+          "Gewohnheit",
+          "Auswirkung",
+          "Sammlung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „abitudine“.",
+        "prompt": "Wähle „Gewohnheit“.",
         "options": [
-          "abitudine",
-          "impatto",
-          "raccolta",
-          "spreco"
+          "Gewohnheit",
+          "Auswirkung",
+          "Sammlung",
+          "Verschwendung"
         ]
       }
     ]
@@ -28286,169 +26586,40 @@
     "xpReward": 35,
     "orderIndex": 44,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "opera",
-      "linguaggio",
-      "interpretazione"
+      "Werk",
+      "Sprache",
+      "Deutung"
     ],
     "vocabulary": [
       {
-        "word": "opera",
+        "word": "Werk",
         "translation": "obra",
-        "example": "Die Diskussion klärt die Rolle von opera."
+        "example": "Die Diskussion klärt die Rolle von Werk."
       },
       {
-        "word": "linguaggio",
+        "word": "Sprache",
         "translation": "lenguaje",
-        "example": "Die Diskussion klärt die Rolle von linguaggio."
+        "example": "Die Diskussion klärt die Rolle von Sprache."
       },
       {
-        "word": "interpretazione",
+        "word": "Deutung",
         "translation": "interpretación",
-        "example": "Die Diskussion klärt die Rolle von interpretazione."
+        "example": "Die Diskussion klärt die Rolle von Deutung."
       },
       {
-        "word": "evocare",
+        "word": "hervorrufen",
         "translation": "evocar",
-        "example": "Die Diskussion klärt die Rolle von evocare."
+        "example": "Die Diskussion klärt die Rolle von hervorrufen."
       },
       {
-        "word": "contrasto",
+        "word": "Kontrast",
         "translation": "contraste",
-        "example": "Die Diskussion klärt die Rolle von contrasto."
-      },
-      {
-        "word": "die Darstellung",
-        "translation": "la representación",
-        "example": "Die Darstellung des Konflikts ist ambivalent."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Aus dieser Perspektive erscheint die Szene anders."
-      },
-      {
-        "word": "die Ambivalenz",
-        "translation": "la ambivalencia",
-        "example": "Die Ambivalenz der Figuren fordert eine genaue Analyse."
-      },
-      {
-        "word": "die Ästhetik",
-        "translation": "la estética",
-        "example": "Die Ästhetik des Gemäldes ist minimalistisch."
-      },
-      {
-        "word": "die Intention",
-        "translation": "la intención",
-        "example": "Die Intention der Künstlerin bleibt offen."
-      },
-      {
-        "word": "die Bildsprache",
-        "translation": "el lenguaje visual",
-        "example": "Die Bildsprache vermittelt starke Metaphern."
-      },
-      {
-        "word": "die Metapher",
-        "translation": "la metáfora",
-        "example": "Die Metapher im Text eröffnet neue Deutungen."
-      },
-      {
-        "word": "die Allegorie",
-        "translation": "la alegoría",
-        "example": "Die Allegorie verweist auf historische Ereignisse."
-      },
-      {
-        "word": "die Intertextualität",
-        "translation": "la intertextualidad",
-        "example": "Die Intertextualität des Romans ist komplex."
-      },
-      {
-        "word": "die Rezeption",
-        "translation": "la recepción",
-        "example": "Die Rezeption der Ausstellung war kontrovers."
-      },
-      {
-        "word": "die Subtilität",
-        "translation": "la sutileza",
-        "example": "Die Subtilität der Farbwahl ist bemerkenswert."
-      },
-      {
-        "word": "die Nuance",
-        "translation": "el matiz",
-        "example": "Jede Nuance im Tonfall zählt."
-      },
-      {
-        "word": "interpretieren",
-        "translation": "interpretar",
-        "example": "Man muss das Werk differenziert interpretieren."
-      },
-      {
-        "word": "begründen",
-        "translation": "fundamentar",
-        "example": "Bitte begründen Sie Ihre These mit konkreten Beispielen."
-      },
-      {
-        "word": "die These",
-        "translation": "la tesis",
-        "example": "Die These stützt sich auf umfangreiche Forschung."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Die Evidenz wird im Text kritisch gewürdigt."
-      },
-      {
-        "word": "analysieren",
-        "translation": "analizar",
-        "example": "Wir analysieren die Symbolik des Bildes."
-      },
-      {
-        "word": "kontextualisieren",
-        "translation": "contextualizar",
-        "example": "Es ist wichtig, das Werk historisch zu kontextualisieren."
-      },
-      {
-        "word": "Meiner Ansicht nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Ansicht nach stärkt das Werk die Debatte.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, das Bild zu analysieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu",
-        "translation": "estoy de acuerdo con eso",
-        "example": "Da stimme ich zu; die Begründung ist überzeugend.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Zweifel, ob",
-        "translation": "tengo dudas de que",
-        "example": "Ich habe Zweifel, ob diese Interpretation alle Aspekte erfasst.",
-        "category": "expression"
-      },
-      {
-        "word": "die Ursache",
-        "translation": "la causa",
-        "example": "Die Ursache für die Veränderung bleibt spekulativ."
-      },
-      {
-        "word": "folgern",
-        "translation": "inferir / concluir",
-        "example": "Aus dem Detail lässt sich nichts Allgemeines folgern."
-      },
-      {
-        "word": "das Stilmittel",
-        "translation": "el recurso estilístico",
-        "example": "Das Stilmittel der Wiederholung erzeugt Spannung."
+        "example": "Die Diskussion klärt die Rolle von Kontrast."
       }
     ],
     "dialogue": [],
@@ -28458,7 +26629,7 @@
       "grammarProfile": {
         "name": "Kunst und Interpretation",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -28469,50 +26640,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „obra“?",
         "options": [
-          "opera",
-          "linguaggio",
-          "interpretazione",
-          "evocare"
+          "Werk",
+          "Sprache",
+          "Deutung",
+          "hervorrufen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „linguaggio“.",
+        "prompt": "Wähle „Sprache“.",
         "options": [
-          "linguaggio",
-          "interpretazione",
-          "evocare",
-          "contrasto"
+          "Sprache",
+          "Deutung",
+          "hervorrufen",
+          "Kontrast"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „interpretazione“.",
+        "prompt": "Wähle „Deutung“.",
         "options": [
-          "interpretazione",
-          "evocare",
-          "contrasto",
-          "opera"
+          "Deutung",
+          "hervorrufen",
+          "Kontrast",
+          "Werk"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „evocare“.",
+        "prompt": "Wähle „hervorrufen“.",
         "options": [
-          "evocare",
-          "contrasto",
-          "opera",
-          "linguaggio"
+          "hervorrufen",
+          "Kontrast",
+          "Werk",
+          "Sprache"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „contrasto“.",
+        "prompt": "Wähle „Kontrast“.",
         "options": [
-          "contrasto",
-          "opera",
-          "linguaggio",
-          "interpretazione"
+          "Kontrast",
+          "Werk",
+          "Sprache",
+          "Deutung"
         ]
       }
     ]
@@ -28528,171 +26699,40 @@
     "xpReward": 40,
     "orderIndex": 44,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "narrazione",
-      "memoria",
-      "voce"
+      "Erzählung",
+      "Erinnerung",
+      "Stimme"
     ],
     "vocabulary": [
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narración",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "voce",
+        "word": "Stimme",
         "translation": "voz",
-        "example": "Die Diskussion klärt die Rolle von voce."
+        "example": "Die Diskussion klärt die Rolle von Stimme."
       },
       {
-        "word": "rielaborare",
+        "word": "neu deuten",
         "translation": "reelaborar",
-        "example": "Die Diskussion klärt die Rolle von rielaborare."
+        "example": "Die Diskussion klärt die Rolle von neu deuten."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
-      },
-      {
-        "word": "die Erzählperspektive",
-        "translation": "la perspectiva narrativa",
-        "example": "Die Erzählperspektive beeinflusst, welche Informationen der Leser erhält."
-      },
-      {
-        "word": "die Identitätskonstruktion",
-        "translation": "la construcción de la identidad",
-        "example": "Die Identitätskonstruktion der Protagonistin entwickelt sich in Rückblenden."
-      },
-      {
-        "word": "begründen",
-        "translation": "justificar, fundamentar",
-        "example": "Ich kann diese These mit empirischen Daten begründen."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Die vorgelegte Evidenz reicht nicht aus."
-      },
-      {
-        "word": "die Kohärenz",
-        "translation": "la coherencia",
-        "example": "Die Kohärenz zwischen den Kapiteln ist entscheidend."
-      },
-      {
-        "word": "plausibel",
-        "translation": "plausible",
-        "example": "Sein Argument erscheint zunächst plausibel."
-      },
-      {
-        "word": "die Zuschreibung",
-        "translation": "la atribución",
-        "example": "Die Zuschreibung von Eigenschaften verändert die Wahrnehmung der Figur."
-      },
-      {
-        "word": "die Ambivalenz",
-        "translation": "la ambivalencia",
-        "example": "Die Ambivalenz der Reaktion bleibt bewusst offen."
-      },
-      {
-        "word": "die Subjektivität",
-        "translation": "la subjetividad",
-        "example": "Die Subjektivität des Erzählers erschwert eine objektive Analyse."
-      },
-      {
-        "word": "die Authentizität",
-        "translation": "la autenticidad",
-        "example": "Die Authentizität des Berichts wurde überprüft."
-      },
-      {
-        "word": "deuten",
-        "translation": "interpretar",
-        "example": "Man kann das Verhalten als Ausdruck von Angst deuten."
-      },
-      {
-        "word": "hervorheben",
-        "translation": "resaltar",
-        "example": "Im Schlusskapitel hebt die Autorin die zentralen Motive hervor."
-      },
-      {
-        "word": "der Argumentationsstrang",
-        "translation": "la línea argumentativa",
-        "example": "Der Argumentationsstrang verliert sich bei zu vielen Abschweifungen."
-      },
-      {
-        "word": "evidenzbasiert",
-        "translation": "basado en evidencia",
-        "example": "Eine evidenzbasierte Herangehensweise stärkt die Argumentation."
-      },
-      {
-        "word": "der Kontextbezug",
-        "translation": "la referencia al contexto",
-        "example": "Ohne klaren Kontextbezug sind Aussagen schwer einzuordnen."
-      },
-      {
-        "word": "differenzieren",
-        "translation": "diferenciar",
-        "example": "Wir sollten Ursache und Wirkung sorgfältig differenzieren."
-      },
-      {
-        "word": "die Perspektivübernahme",
-        "translation": "la adopción de perspectiva",
-        "example": "Die Perspektivübernahme ermöglicht empathischere Deutungen."
-      },
-      {
-        "word": "schlüssig",
-        "translation": "coherente, concluyente",
-        "example": "Die Schlussfolgerung ist überzeugend und schlüssig."
-      },
-      {
-        "word": "belegen",
-        "translation": "respaldar, demostrar",
-        "example": "Können Sie diese Behauptung mit Quellen belegen?"
-      },
-      {
-        "word": "Könnten Sie mir kurz helfen?",
-        "translation": "¿Podría ayudarme un momento?",
-        "example": "Könnten Sie mir kurz helfen, den Text zu analysieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Ansicht nach bleibt die Begründung unzureichend.",
-        "category": "expression"
-      },
-      {
-        "word": "Das leuchtet mir ein.",
-        "translation": "Eso tiene sentido para mí.",
-        "example": "Ihre Erklärung leuchtet mir ein.",
-        "category": "expression"
-      },
-      {
-        "word": "Daran habe ich Zweifel.",
-        "translation": "Tengo dudas sobre eso.",
-        "example": "Daran habe ich Zweifel, weil die Methodik fehlt.",
-        "category": "expression"
-      },
-      {
-        "word": "Um ehrlich zu sein, ...",
-        "translation": "A decir verdad...",
-        "example": "Um ehrlich zu sein, finde ich die Darstellung einseitig.",
-        "category": "expression"
-      },
-      {
-        "word": "Aus diesem Grund...",
-        "translation": "Por esta razón...",
-        "example": "Aus diesem Grund empfehle ich eine Neuauswertung.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       }
     ],
     "dialogue": [],
@@ -28702,7 +26742,7 @@
       "grammarProfile": {
         "name": "Erzählung und Identität",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -28713,50 +26753,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „narración“?",
         "options": [
-          "narrazione",
-          "memoria",
-          "voce",
-          "rielaborare"
+          "Erzählung",
+          "Erinnerung",
+          "Stimme",
+          "neu deuten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „memoria“.",
+        "prompt": "Wähle „Erinnerung“.",
         "options": [
-          "memoria",
-          "voce",
-          "rielaborare",
-          "appartenenza"
+          "Erinnerung",
+          "Stimme",
+          "neu deuten",
+          "Zugehörigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „voce“.",
+        "prompt": "Wähle „Stimme“.",
         "options": [
-          "voce",
-          "rielaborare",
-          "appartenenza",
-          "narrazione"
+          "Stimme",
+          "neu deuten",
+          "Zugehörigkeit",
+          "Erzählung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „rielaborare“.",
+        "prompt": "Wähle „neu deuten“.",
         "options": [
-          "rielaborare",
-          "appartenenza",
-          "narrazione",
-          "memoria"
+          "neu deuten",
+          "Zugehörigkeit",
+          "Erzählung",
+          "Erinnerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „appartenenza“.",
+        "prompt": "Wähle „Zugehörigkeit“.",
         "options": [
-          "appartenenza",
-          "narrazione",
-          "memoria",
-          "voce"
+          "Zugehörigkeit",
+          "Erzählung",
+          "Erinnerung",
+          "Stimme"
         ]
       }
     ]
@@ -29451,45 +27491,45 @@
     "xpReward": 30,
     "orderIndex": 50,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "fonte",
-      "notizia",
-      "verificare"
+      "Quelle",
+      "Nachricht",
+      "überprüfen"
     ],
     "vocabulary": [
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "notizia",
+        "word": "Nachricht",
         "translation": "noticia",
-        "example": "Die Diskussion klärt die Rolle von notizia."
+        "example": "Die Diskussion klärt die Rolle von Nachricht."
       },
       {
-        "word": "verificare",
+        "word": "überprüfen",
         "translation": "verificar",
-        "example": "Die Diskussion klärt die Rolle von verificare."
+        "example": "Die Diskussion klärt die Rolle von überprüfen."
       },
       {
-        "word": "affidabilità",
+        "word": "Glaubwürdigkeit",
         "translation": "fiabilidad",
-        "example": "Die Diskussion klärt die Rolle von affidabilità."
+        "example": "Die Diskussion klärt die Rolle von Glaubwürdigkeit."
       },
       {
-        "word": "pregiudizio",
+        "word": "Vorurteil",
         "translation": "sesgo",
-        "example": "Die Diskussion klärt die Rolle von pregiudizio."
+        "example": "Die Diskussion klärt die Rolle von Vorurteil."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Medien und Information» untersucht die Gruppe fonte und notizia. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Medien und Information» untersucht die Gruppe Quelle und Nachricht. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -29499,7 +27539,7 @@
       "grammarProfile": {
         "name": "Medien und Information",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -29510,10 +27550,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "fonte",
-          "verificare",
-          "affidabilità",
-          "pregiudizio"
+          "Quelle",
+          "überprüfen",
+          "Glaubwürdigkeit",
+          "Vorurteil"
         ]
       },
       {
@@ -29524,39 +27564,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-medien-und-information-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "notizia",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-b2-b2-medien-und-information-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-medien-und-information-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -29572,45 +27579,45 @@
     "xpReward": 35,
     "orderIndex": 50,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "ipotesi",
-      "campione",
-      "risultato"
+      "Hypothese",
+      "Stichprobe",
+      "Ergebnis"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "campione",
+        "word": "Stichprobe",
         "translation": "muestra",
-        "example": "Die Diskussion klärt die Rolle von campione."
+        "example": "Die Diskussion klärt die Rolle von Stichprobe."
       },
       {
-        "word": "risultato",
+        "word": "Ergebnis",
         "translation": "resultado",
-        "example": "Die Diskussion klärt die Rolle von risultato."
+        "example": "Die Diskussion klärt die Rolle von Ergebnis."
       },
       {
-        "word": "dimostrare",
+        "word": "belegen",
         "translation": "demostrar",
-        "example": "Die Diskussion klärt die Rolle von dimostrare."
+        "example": "Die Diskussion klärt die Rolle von belegen."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Forschung und Methode» untersucht die Gruppe ipotesi und campione. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Forschung und Methode» untersucht die Gruppe Hypothese und Stichprobe. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -29620,7 +27627,7 @@
       "grammarProfile": {
         "name": "Forschung und Methode",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -29631,10 +27638,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "ipotesi",
-          "risultato",
-          "dimostrare",
-          "limite"
+          "Hypothese",
+          "Ergebnis",
+          "belegen",
+          "Grenze"
         ]
       },
       {
@@ -29645,39 +27652,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-forschung-und-methode-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "Methode",
-          "ipotesi",
-          "Antwort",
-          "einzige"
-        ]
-      },
-      {
-        "id": "german-c1-c1-forschung-und-methode-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-forschung-und-methode-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -29693,45 +27667,45 @@
     "xpReward": 40,
     "orderIndex": 50,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "diritto",
-      "dovere",
-      "principio"
+      "Recht",
+      "Pflicht",
+      "Grundsatz"
     ],
     "vocabulary": [
       {
-        "word": "diritto",
+        "word": "Recht",
         "translation": "derecho",
-        "example": "Die Diskussion klärt die Rolle von diritto."
+        "example": "Die Diskussion klärt die Rolle von Recht."
       },
       {
-        "word": "dovere",
+        "word": "Pflicht",
         "translation": "deber",
-        "example": "Die Diskussion klärt die Rolle von dovere."
+        "example": "Die Diskussion klärt die Rolle von Pflicht."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "tutelare",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von tutelare."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Recht und Verantwortung» untersucht die Gruppe diritto und dovere. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Recht und Verantwortung» untersucht die Gruppe Recht und Pflicht. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -29741,7 +27715,7 @@
       "grammarProfile": {
         "name": "Recht und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -29752,10 +27726,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "diritto",
-          "principio",
-          "tutelare",
-          "responsabilità"
+          "Recht",
+          "Grundsatz",
+          "schützen",
+          "Verantwortung"
         ]
       },
       {
@@ -29766,39 +27740,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-recht-und-verantwortung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "diritto",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c2-c2-recht-und-verantwortung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-recht-und-verantwortung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -31906,50 +29847,50 @@
     "xpReward": 30,
     "orderIndex": 51,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "fonte",
-      "notizia",
-      "verificare"
+      "Quelle",
+      "Nachricht",
+      "überprüfen"
     ],
     "vocabulary": [
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "notizia",
+        "word": "Nachricht",
         "translation": "noticia",
-        "example": "Die Diskussion klärt die Rolle von notizia."
+        "example": "Die Diskussion klärt die Rolle von Nachricht."
       },
       {
-        "word": "verificare",
+        "word": "überprüfen",
         "translation": "verificar",
-        "example": "Die Diskussion klärt die Rolle von verificare."
+        "example": "Die Diskussion klärt die Rolle von überprüfen."
       },
       {
-        "word": "affidabilità",
+        "word": "Glaubwürdigkeit",
         "translation": "fiabilidad",
-        "example": "Die Diskussion klärt die Rolle von affidabilità."
+        "example": "Die Diskussion klärt die Rolle von Glaubwürdigkeit."
       },
       {
-        "word": "pregiudizio",
+        "word": "Vorurteil",
         "translation": "sesgo",
-        "example": "Die Diskussion klärt die Rolle von pregiudizio."
+        "example": "Die Diskussion klärt die Rolle von Vorurteil."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „fonte“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -31958,7 +29899,7 @@
       "grammarProfile": {
         "name": "Medien und Information",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -31967,7 +29908,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -31982,46 +29923,46 @@
     "xpReward": 35,
     "orderIndex": 51,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "ipotesi",
-      "campione",
-      "risultato"
+      "Hypothese",
+      "Stichprobe",
+      "Ergebnis"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "campione",
+        "word": "Stichprobe",
         "translation": "muestra",
-        "example": "Die Diskussion klärt die Rolle von campione."
+        "example": "Die Diskussion klärt die Rolle von Stichprobe."
       },
       {
-        "word": "risultato",
+        "word": "Ergebnis",
         "translation": "resultado",
-        "example": "Die Diskussion klärt die Rolle von risultato."
+        "example": "Die Diskussion klärt die Rolle von Ergebnis."
       },
       {
-        "word": "dimostrare",
+        "word": "belegen",
         "translation": "demostrar",
-        "example": "Die Diskussion klärt die Rolle von dimostrare."
+        "example": "Die Diskussion klärt die Rolle von belegen."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "line": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -32034,7 +29975,7 @@
       "grammarProfile": {
         "name": "Forschung und Methode",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -32043,7 +29984,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -32058,46 +29999,46 @@
     "xpReward": 40,
     "orderIndex": 51,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "diritto",
-      "dovere",
-      "principio"
+      "Recht",
+      "Pflicht",
+      "Grundsatz"
     ],
     "vocabulary": [
       {
-        "word": "diritto",
+        "word": "Recht",
         "translation": "derecho",
-        "example": "Die Diskussion klärt die Rolle von diritto."
+        "example": "Die Diskussion klärt die Rolle von Recht."
       },
       {
-        "word": "dovere",
+        "word": "Pflicht",
         "translation": "deber",
-        "example": "Die Diskussion klärt die Rolle von dovere."
+        "example": "Die Diskussion klärt die Rolle von Pflicht."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "tutelare",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von tutelare."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "line": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -32110,7 +30051,7 @@
       "grammarProfile": {
         "name": "Recht und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -32119,7 +30060,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -34634,40 +32575,40 @@
     "xpReward": 30,
     "orderIndex": 52,
     "estimatedMinutes": 20,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "fonte",
-      "notizia",
-      "verificare"
+      "Quelle",
+      "Nachricht",
+      "überprüfen"
     ],
     "vocabulary": [
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "notizia",
+        "word": "Nachricht",
         "translation": "noticia",
-        "example": "Die Diskussion klärt die Rolle von notizia."
+        "example": "Die Diskussion klärt die Rolle von Nachricht."
       },
       {
-        "word": "verificare",
+        "word": "überprüfen",
         "translation": "verificar",
-        "example": "Die Diskussion klärt die Rolle von verificare."
+        "example": "Die Diskussion klärt die Rolle von überprüfen."
       },
       {
-        "word": "affidabilità",
+        "word": "Glaubwürdigkeit",
         "translation": "fiabilidad",
-        "example": "Die Diskussion klärt die Rolle von affidabilità."
+        "example": "Die Diskussion klärt die Rolle von Glaubwürdigkeit."
       },
       {
-        "word": "pregiudizio",
+        "word": "Vorurteil",
         "translation": "sesgo",
-        "example": "Die Diskussion klärt die Rolle von pregiudizio."
+        "example": "Die Diskussion klärt die Rolle von Vorurteil."
       }
     ],
     "dialogue": [],
@@ -34677,7 +32618,7 @@
       "grammarProfile": {
         "name": "Medien und Information",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -34686,7 +32627,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -34701,40 +32642,40 @@
     "xpReward": 35,
     "orderIndex": 52,
     "estimatedMinutes": 20,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "ipotesi",
-      "campione",
-      "risultato"
+      "Hypothese",
+      "Stichprobe",
+      "Ergebnis"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "campione",
+        "word": "Stichprobe",
         "translation": "muestra",
-        "example": "Die Diskussion klärt die Rolle von campione."
+        "example": "Die Diskussion klärt die Rolle von Stichprobe."
       },
       {
-        "word": "risultato",
+        "word": "Ergebnis",
         "translation": "resultado",
-        "example": "Die Diskussion klärt die Rolle von risultato."
+        "example": "Die Diskussion klärt die Rolle von Ergebnis."
       },
       {
-        "word": "dimostrare",
+        "word": "belegen",
         "translation": "demostrar",
-        "example": "Die Diskussion klärt die Rolle von dimostrare."
+        "example": "Die Diskussion klärt die Rolle von belegen."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       }
     ],
     "dialogue": [],
@@ -34744,7 +32685,7 @@
       "grammarProfile": {
         "name": "Forschung und Methode",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -34753,7 +32694,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -34768,40 +32709,40 @@
     "xpReward": 40,
     "orderIndex": 52,
     "estimatedMinutes": 20,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "diritto",
-      "dovere",
-      "principio"
+      "Recht",
+      "Pflicht",
+      "Grundsatz"
     ],
     "vocabulary": [
       {
-        "word": "diritto",
+        "word": "Recht",
         "translation": "derecho",
-        "example": "Die Diskussion klärt die Rolle von diritto."
+        "example": "Die Diskussion klärt die Rolle von Recht."
       },
       {
-        "word": "dovere",
+        "word": "Pflicht",
         "translation": "deber",
-        "example": "Die Diskussion klärt die Rolle von dovere."
+        "example": "Die Diskussion klärt die Rolle von Pflicht."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "tutelare",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von tutelare."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       }
     ],
     "dialogue": [],
@@ -34811,7 +32752,7 @@
       "grammarProfile": {
         "name": "Recht und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -34820,7 +32761,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -34835,40 +32776,40 @@
     "xpReward": 30,
     "orderIndex": 53,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "fonte",
-      "notizia",
-      "verificare"
+      "Quelle",
+      "Nachricht",
+      "überprüfen"
     ],
     "vocabulary": [
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "notizia",
+        "word": "Nachricht",
         "translation": "noticia",
-        "example": "Die Diskussion klärt die Rolle von notizia."
+        "example": "Die Diskussion klärt die Rolle von Nachricht."
       },
       {
-        "word": "verificare",
+        "word": "überprüfen",
         "translation": "verificar",
-        "example": "Die Diskussion klärt die Rolle von verificare."
+        "example": "Die Diskussion klärt die Rolle von überprüfen."
       },
       {
-        "word": "affidabilità",
+        "word": "Glaubwürdigkeit",
         "translation": "fiabilidad",
-        "example": "Die Diskussion klärt die Rolle von affidabilità."
+        "example": "Die Diskussion klärt die Rolle von Glaubwürdigkeit."
       },
       {
-        "word": "pregiudizio",
+        "word": "Vorurteil",
         "translation": "sesgo",
-        "example": "Die Diskussion klärt die Rolle von pregiudizio."
+        "example": "Die Diskussion klärt die Rolle von Vorurteil."
       }
     ],
     "dialogue": [],
@@ -34878,7 +32819,7 @@
       "grammarProfile": {
         "name": "Medien und Information",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -34887,52 +32828,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fonte. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Quelle. (1)",
         "options": [
-          "fonte",
-          "notizia",
-          "verificare",
-          "affidabilità"
+          "Quelle",
+          "Nachricht",
+          "überprüfen",
+          "Glaubwürdigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fonte. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Quelle. (2)",
         "options": [
-          "notizia",
-          "verificare",
-          "affidabilità",
-          "pregiudizio"
+          "Nachricht",
+          "überprüfen",
+          "Glaubwürdigkeit",
+          "Vorurteil"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fonte. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Quelle. (3)",
         "options": [
-          "verificare",
-          "affidabilità",
-          "pregiudizio",
-          "fonte"
+          "überprüfen",
+          "Glaubwürdigkeit",
+          "Vorurteil",
+          "Quelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fonte. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Quelle. (4)",
         "options": [
-          "affidabilità",
-          "pregiudizio",
-          "fonte",
-          "notizia"
+          "Glaubwürdigkeit",
+          "Vorurteil",
+          "Quelle",
+          "Nachricht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fonte. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Quelle. (5)",
         "options": [
-          "pregiudizio",
-          "fonte",
-          "notizia",
-          "verificare"
+          "Vorurteil",
+          "Quelle",
+          "Nachricht",
+          "überprüfen"
         ]
       }
     ]
@@ -34948,40 +32889,40 @@
     "xpReward": 35,
     "orderIndex": 53,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "ipotesi",
-      "campione",
-      "risultato"
+      "Hypothese",
+      "Stichprobe",
+      "Ergebnis"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "campione",
+        "word": "Stichprobe",
         "translation": "muestra",
-        "example": "Die Diskussion klärt die Rolle von campione."
+        "example": "Die Diskussion klärt die Rolle von Stichprobe."
       },
       {
-        "word": "risultato",
+        "word": "Ergebnis",
         "translation": "resultado",
-        "example": "Die Diskussion klärt die Rolle von risultato."
+        "example": "Die Diskussion klärt die Rolle von Ergebnis."
       },
       {
-        "word": "dimostrare",
+        "word": "belegen",
         "translation": "demostrar",
-        "example": "Die Diskussion klärt die Rolle von dimostrare."
+        "example": "Die Diskussion klärt die Rolle von belegen."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       }
     ],
     "dialogue": [],
@@ -34991,7 +32932,7 @@
       "grammarProfile": {
         "name": "Forschung und Methode",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -35000,52 +32941,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (1)",
         "options": [
-          "ipotesi",
-          "campione",
-          "risultato",
-          "dimostrare"
+          "Hypothese",
+          "Stichprobe",
+          "Ergebnis",
+          "belegen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (2)",
         "options": [
-          "campione",
-          "risultato",
-          "dimostrare",
-          "limite"
+          "Stichprobe",
+          "Ergebnis",
+          "belegen",
+          "Grenze"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (3)",
         "options": [
-          "risultato",
-          "dimostrare",
-          "limite",
-          "ipotesi"
+          "Ergebnis",
+          "belegen",
+          "Grenze",
+          "Hypothese"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (4)",
         "options": [
-          "dimostrare",
-          "limite",
-          "ipotesi",
-          "campione"
+          "belegen",
+          "Grenze",
+          "Hypothese",
+          "Stichprobe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu ipotesi. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Hypothese. (5)",
         "options": [
-          "limite",
-          "ipotesi",
-          "campione",
-          "risultato"
+          "Grenze",
+          "Hypothese",
+          "Stichprobe",
+          "Ergebnis"
         ]
       }
     ]
@@ -35061,40 +33002,40 @@
     "xpReward": 40,
     "orderIndex": 53,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "diritto",
-      "dovere",
-      "principio"
+      "Recht",
+      "Pflicht",
+      "Grundsatz"
     ],
     "vocabulary": [
       {
-        "word": "diritto",
+        "word": "Recht",
         "translation": "derecho",
-        "example": "Die Diskussion klärt die Rolle von diritto."
+        "example": "Die Diskussion klärt die Rolle von Recht."
       },
       {
-        "word": "dovere",
+        "word": "Pflicht",
         "translation": "deber",
-        "example": "Die Diskussion klärt die Rolle von dovere."
+        "example": "Die Diskussion klärt die Rolle von Pflicht."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "tutelare",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von tutelare."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       }
     ],
     "dialogue": [],
@@ -35104,7 +33045,7 @@
       "grammarProfile": {
         "name": "Recht und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -35113,52 +33054,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu diritto. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Recht. (1)",
         "options": [
-          "diritto",
-          "dovere",
-          "principio",
-          "tutelare"
+          "Recht",
+          "Pflicht",
+          "Grundsatz",
+          "schützen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu diritto. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Recht. (2)",
         "options": [
-          "dovere",
-          "principio",
-          "tutelare",
-          "responsabilità"
+          "Pflicht",
+          "Grundsatz",
+          "schützen",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu diritto. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Recht. (3)",
         "options": [
-          "principio",
-          "tutelare",
-          "responsabilità",
-          "diritto"
+          "Grundsatz",
+          "schützen",
+          "Verantwortung",
+          "Recht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu diritto. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Recht. (4)",
         "options": [
-          "tutelare",
-          "responsabilità",
-          "diritto",
-          "dovere"
+          "schützen",
+          "Verantwortung",
+          "Recht",
+          "Pflicht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu diritto. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Recht. (5)",
         "options": [
-          "responsabilità",
-          "diritto",
-          "dovere",
-          "principio"
+          "Verantwortung",
+          "Recht",
+          "Pflicht",
+          "Grundsatz"
         ]
       }
     ]
@@ -35174,171 +33115,40 @@
     "xpReward": 30,
     "orderIndex": 54,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "fonte",
-      "notizia",
-      "verificare"
+      "Quelle",
+      "Nachricht",
+      "überprüfen"
     ],
     "vocabulary": [
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "notizia",
+        "word": "Nachricht",
         "translation": "noticia",
-        "example": "Die Diskussion klärt die Rolle von notizia."
-      },
-      {
-        "word": "verificare",
-        "translation": "verificar",
-        "example": "Die Diskussion klärt die Rolle von verificare."
-      },
-      {
-        "word": "affidabilità",
-        "translation": "fiabilidad",
-        "example": "Die Diskussion klärt die Rolle von affidabilità."
-      },
-      {
-        "word": "pregiudizio",
-        "translation": "sesgo",
-        "example": "Die Diskussion klärt die Rolle von pregiudizio."
-      },
-      {
-        "word": "die Quelle",
-        "translation": "la fuente",
-        "example": "Die Quelle ist vertrauenswürdig."
-      },
-      {
-        "word": "der Artikel",
-        "translation": "el artículo",
-        "example": "Der Artikel fasst die Studie zusammen."
-      },
-      {
-        "word": "die Überschrift",
-        "translation": "el titular",
-        "example": "Die Überschrift ist irreführend."
-      },
-      {
-        "word": "der Bericht",
-        "translation": "el informe",
-        "example": "Der Bericht enthält klare Argumente."
-      },
-      {
-        "word": "das Medium",
-        "translation": "el medio (de comunicación)",
-        "example": "Das Medium erreicht viele Leser."
-      },
-      {
-        "word": "die Redaktion",
-        "translation": "la redacción",
-        "example": "Die Redaktion prüft Quellen sorgfältig."
-      },
-      {
-        "word": "die Darstellung",
-        "translation": "la presentación",
-        "example": "Die Darstellung ist sachlich und knapp."
-      },
-      {
-        "word": "die These",
-        "translation": "la tesis",
-        "example": "Die These wird logisch begründet."
-      },
-      {
-        "word": "die Argumentation",
-        "translation": "la argumentación",
-        "example": "Die Argumentation überzeugt viele Leser."
-      },
-      {
-        "word": "das Argument",
-        "translation": "el argumento",
-        "example": "Das Argument ist klar formuliert."
-      },
-      {
-        "word": "die Begründung",
-        "translation": "la justificación",
-        "example": "Die Begründung fehlt im Text."
-      },
-      {
-        "word": "die Schlussfolgerung",
-        "translation": "la conclusión",
-        "example": "Die Schlussfolgerung ist nachvollziehbar."
-      },
-      {
-        "word": "die Zusammenfassung",
-        "translation": "el resumen",
-        "example": "Die Zusammenfassung ist kurz und präzise."
-      },
-      {
-        "word": "die Objektivität",
-        "translation": "la objetividad",
-        "example": "Die Objektivität sollte gewahrt bleiben."
-      },
-      {
-        "word": "die Verzerrung",
-        "translation": "el sesgo",
-        "example": "Die Verzerrung beeinträchtigt die Wahrnehmung."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Die Perspektive des Autors ist wichtig."
-      },
-      {
-        "word": "die Glaubwürdigkeit",
-        "translation": "la credibilidad",
-        "example": "Die Glaubwürdigkeit der Quelle ist entscheidend."
+        "example": "Die Diskussion klärt die Rolle von Nachricht."
       },
       {
         "word": "überprüfen",
         "translation": "verificar",
-        "example": "Wir müssen die Fakten überprüfen."
+        "example": "Die Diskussion klärt die Rolle von überprüfen."
       },
       {
-        "word": "analysieren",
-        "translation": "analizar",
-        "example": "Die Studierenden analysieren den Text."
+        "word": "Glaubwürdigkeit",
+        "translation": "fiabilidad",
+        "example": "Die Diskussion klärt die Rolle von Glaubwürdigkeit."
       },
       {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, die Quelle zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach fehlt die Begründung.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu",
-        "translation": "estoy de acuerdo",
-        "example": "Da stimme ich zu; die Fakten sind klar.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Zweifel daran",
-        "translation": "tengo dudas al respecto",
-        "example": "Ich habe Zweifel daran, dass die Studie repräsentativ ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigen Sie bitte",
-        "translation": "Disculpe, por favor",
-        "example": "Entschuldigen Sie bitte, können Sie das wiederholen?",
-        "category": "expression"
-      },
-      {
-        "word": "Das ist der Grund, warum...",
-        "translation": "esa es la razón por la que...",
-        "example": "Das ist der Grund, warum die Quelle wichtig ist.",
-        "category": "expression"
+        "word": "Vorurteil",
+        "translation": "sesgo",
+        "example": "Die Diskussion klärt die Rolle von Vorurteil."
       }
     ],
     "dialogue": [],
@@ -35348,7 +33158,7 @@
       "grammarProfile": {
         "name": "Medien und Information",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -35359,50 +33169,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „fuente“?",
         "options": [
-          "fonte",
-          "notizia",
-          "verificare",
-          "affidabilità"
+          "Quelle",
+          "Nachricht",
+          "überprüfen",
+          "Glaubwürdigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „notizia“.",
+        "prompt": "Wähle „Nachricht“.",
         "options": [
-          "notizia",
-          "verificare",
-          "affidabilità",
-          "pregiudizio"
+          "Nachricht",
+          "überprüfen",
+          "Glaubwürdigkeit",
+          "Vorurteil"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „verificare“.",
+        "prompt": "Wähle „überprüfen“.",
         "options": [
-          "verificare",
-          "affidabilità",
-          "pregiudizio",
-          "fonte"
+          "überprüfen",
+          "Glaubwürdigkeit",
+          "Vorurteil",
+          "Quelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „affidabilità“.",
+        "prompt": "Wähle „Glaubwürdigkeit“.",
         "options": [
-          "affidabilità",
-          "pregiudizio",
-          "fonte",
-          "notizia"
+          "Glaubwürdigkeit",
+          "Vorurteil",
+          "Quelle",
+          "Nachricht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „pregiudizio“.",
+        "prompt": "Wähle „Vorurteil“.",
         "options": [
-          "pregiudizio",
-          "fonte",
-          "notizia",
-          "verificare"
+          "Vorurteil",
+          "Quelle",
+          "Nachricht",
+          "überprüfen"
         ]
       }
     ]
@@ -35418,171 +33228,40 @@
     "xpReward": 35,
     "orderIndex": 54,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "ipotesi",
-      "campione",
-      "risultato"
+      "Hypothese",
+      "Stichprobe",
+      "Ergebnis"
     ],
     "vocabulary": [
       {
-        "word": "ipotesi",
+        "word": "Hypothese",
         "translation": "hipótesis",
-        "example": "Die Diskussion klärt die Rolle von ipotesi."
+        "example": "Die Diskussion klärt die Rolle von Hypothese."
       },
       {
-        "word": "campione",
+        "word": "Stichprobe",
         "translation": "muestra",
-        "example": "Die Diskussion klärt die Rolle von campione."
+        "example": "Die Diskussion klärt die Rolle von Stichprobe."
       },
       {
-        "word": "risultato",
+        "word": "Ergebnis",
         "translation": "resultado",
-        "example": "Die Diskussion klärt die Rolle von risultato."
+        "example": "Die Diskussion klärt die Rolle von Ergebnis."
       },
       {
-        "word": "dimostrare",
+        "word": "belegen",
         "translation": "demostrar",
-        "example": "Die Diskussion klärt die Rolle von dimostrare."
+        "example": "Die Diskussion klärt die Rolle von belegen."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
-      },
-      {
-        "word": "die Hypothese",
-        "translation": "la hipótesis",
-        "example": "Die Hypothese wurde klar formuliert."
-      },
-      {
-        "word": "die Stichprobe",
-        "translation": "la muestra",
-        "example": "Die Stichprobe umfasst 200 Teilnehmende."
-      },
-      {
-        "word": "das Ergebnis",
-        "translation": "el resultado",
-        "example": "Das Ergebnis stützt unsere Vermutung."
-      },
-      {
-        "word": "nachweisen",
-        "translation": "demostrar",
-        "example": "Wir müssen den Effekt statistisch nachweisen."
-      },
-      {
-        "word": "die Variable",
-        "translation": "la variable",
-        "example": "Diese Variable beeinflusst das Ergebnis."
-      },
-      {
-        "word": "die Methodik",
-        "translation": "la metodología",
-        "example": "Die Methodik ist im Anhang beschrieben."
-      },
-      {
-        "word": "die Validität",
-        "translation": "la validez",
-        "example": "Die Validität der Daten ist entscheidend."
-      },
-      {
-        "word": "die Reliabilität",
-        "translation": "la confiabilidad",
-        "example": "Die Reliabilität wurde durch Wiederholung geprüft."
-      },
-      {
-        "word": "die Stichprobengröße",
-        "translation": "el tamaño de la muestra",
-        "example": "Die Stichprobengröße war ausreichend."
-      },
-      {
-        "word": "die Datenauswertung",
-        "translation": "el análisis de datos",
-        "example": "Die Datenauswertung dauert noch an."
-      },
-      {
-        "word": "die Korrelation",
-        "translation": "la correlación",
-        "example": "Eine starke Korrelation wurde gefunden."
-      },
-      {
-        "word": "die Kausalität",
-        "translation": "la causalidad",
-        "example": "Kausalität lässt sich nicht ohne Kontrollen behaupten."
-      },
-      {
-        "word": "die Operationalisierung",
-        "translation": "la operacionalización",
-        "example": "Die Operationalisierung der Variablen ist notwendig."
-      },
-      {
-        "word": "die Signifikanz",
-        "translation": "la significancia",
-        "example": "Die Signifikanz liegt unter 0,05."
-      },
-      {
-        "word": "die Kontrollgruppe",
-        "translation": "el grupo de control",
-        "example": "Die Kontrollgruppe erhielt kein Treatment."
-      },
-      {
-        "word": "zusammenfassen",
-        "translation": "resumir",
-        "example": "Fassen Sie die wichtigsten Befunde zusammen."
-      },
-      {
-        "word": "interpretieren",
-        "translation": "interpretar",
-        "example": "Die Daten müssen sorgfältig interpretiert werden."
-      },
-      {
-        "word": "ableiten",
-        "translation": "inferir",
-        "example": "Aus den Ergebnissen lässt sich eine Schlussfolgerung ableiten."
-      },
-      {
-        "word": "der Zusammenhang",
-        "translation": "la relación",
-        "example": "Der Zusammenhang ist statistisch signifikant."
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, die Daten zu überprüfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach ist die Methode angemessen.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme dem zu",
-        "translation": "estoy de acuerdo",
-        "example": "Ich stimme dem Ergebnis zu.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Zweifel daran",
-        "translation": "tengo dudas al respecto",
-        "example": "Ich habe Zweifel an der Validität.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz etwas anmerken?",
-        "translation": "¿Puedo decir algo brevemente?",
-        "example": "Darf ich kurz etwas anmerken? Die Methode könnte verbessert werden.",
-        "category": "expression"
-      },
-      {
-        "word": "Infolgedessen",
-        "translation": "como consecuencia",
-        "example": "Infolgedessen sind die Ergebnisse konsistent.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       }
     ],
     "dialogue": [],
@@ -35592,7 +33271,7 @@
       "grammarProfile": {
         "name": "Forschung und Methode",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -35603,50 +33282,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „hipótesis“?",
         "options": [
-          "ipotesi",
-          "campione",
-          "risultato",
-          "dimostrare"
+          "Hypothese",
+          "Stichprobe",
+          "Ergebnis",
+          "belegen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „campione“.",
+        "prompt": "Wähle „Stichprobe“.",
         "options": [
-          "campione",
-          "risultato",
-          "dimostrare",
-          "limite"
+          "Stichprobe",
+          "Ergebnis",
+          "belegen",
+          "Grenze"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „risultato“.",
+        "prompt": "Wähle „Ergebnis“.",
         "options": [
-          "risultato",
-          "dimostrare",
-          "limite",
-          "ipotesi"
+          "Ergebnis",
+          "belegen",
+          "Grenze",
+          "Hypothese"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „dimostrare“.",
+        "prompt": "Wähle „belegen“.",
         "options": [
-          "dimostrare",
-          "limite",
-          "ipotesi",
-          "campione"
+          "belegen",
+          "Grenze",
+          "Hypothese",
+          "Stichprobe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „limite“.",
+        "prompt": "Wähle „Grenze“.",
         "options": [
-          "limite",
-          "ipotesi",
-          "campione",
-          "risultato"
+          "Grenze",
+          "Hypothese",
+          "Stichprobe",
+          "Ergebnis"
         ]
       }
     ]
@@ -35662,172 +33341,40 @@
     "xpReward": 40,
     "orderIndex": 54,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "diritto",
-      "dovere",
-      "principio"
+      "Recht",
+      "Pflicht",
+      "Grundsatz"
     ],
     "vocabulary": [
       {
-        "word": "diritto",
+        "word": "Recht",
         "translation": "derecho",
-        "example": "Die Diskussion klärt die Rolle von diritto."
+        "example": "Die Diskussion klärt die Rolle von Recht."
       },
       {
-        "word": "dovere",
+        "word": "Pflicht",
         "translation": "deber",
-        "example": "Die Diskussion klärt die Rolle von dovere."
+        "example": "Die Diskussion klärt die Rolle von Pflicht."
       },
       {
-        "word": "principio",
+        "word": "Grundsatz",
         "translation": "principio",
-        "example": "Die Diskussion klärt die Rolle von principio."
+        "example": "Die Diskussion klärt die Rolle von Grundsatz."
       },
       {
-        "word": "tutelare",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von tutelare."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "responsabilità",
+        "word": "Verantwortung",
         "translation": "responsabilidad",
-        "example": "Die Diskussion klärt die Rolle von responsabilità."
-      },
-      {
-        "word": "die Haftung",
-        "translation": "responsabilidad legal",
-        "example": "Die Haftung des Unternehmens ist vertraglich geregelt."
-      },
-      {
-        "word": "die Pflicht",
-        "translation": "el deber",
-        "example": "Die Pflicht zur Aufklärung besteht unabhängig vom Vertrag."
-      },
-      {
-        "word": "die Klage",
-        "translation": "la demanda judicial",
-        "example": "Die Klage wurde vor dem Landgericht eingereicht."
-      },
-      {
-        "word": "der Tatbestand",
-        "translation": "hecho constitutivo",
-        "example": "Der Tatbestand erfüllt alle gesetzlichen Voraussetzungen."
-      },
-      {
-        "word": "die Rechtsgrundlage",
-        "translation": "base legal",
-        "example": "Die Rechtsgrundlage für die Maßnahme fehlt."
-      },
-      {
-        "word": "die Sanktion",
-        "translation": "la sanción",
-        "example": "Die Sanktion kann eine Geldbuße oder eine Freiheitsstrafe sein."
-      },
-      {
-        "word": "die Schadensersatzpflicht",
-        "translation": "obligación de indemnizar",
-        "example": "Die Schadensersatzpflicht ergibt sich aus dem Verschulden."
-      },
-      {
-        "word": "die Fürsorgepflicht",
-        "translation": "deber de cuidado",
-        "example": "Die Fürsorgepflicht des Arbeitgebers ist gesetzlich verankert."
-      },
-      {
-        "word": "die Gewährleistung",
-        "translation": "garantía legal",
-        "example": "Die Gewährleistung gilt in der Regel für zwei Jahre."
-      },
-      {
-        "word": "die Verjährung",
-        "translation": "prescripción",
-        "example": "Die Verjährung hindert die Durchsetzung der Ansprüche."
-      },
-      {
-        "word": "die Compliance",
-        "translation": "cumplimiento normativo",
-        "example": "Compliance ist für internationale Konzerne entscheidend."
-      },
-      {
-        "word": "die Haftpflichtversicherung",
-        "translation": "seguro de responsabilidad civil",
-        "example": "Die Haftpflichtversicherung deckt fremde Schäden ab."
-      },
-      {
-        "word": "die Zuständigkeit",
-        "translation": "competencia jurisdiccional",
-        "example": "Die Zuständigkeit des Gerichts ist vorab zu klären."
-      },
-      {
-        "word": "der Präzedenzfall",
-        "translation": "caso precedente",
-        "example": "Der Präzedenzfall beeinflusste die spätere Rechtsprechung."
-      },
-      {
-        "word": "die Rechtswirkung",
-        "translation": "efecto jurídico",
-        "example": "Die Rechtswirkung der Vereinbarung ist umstritten."
-      },
-      {
-        "word": "die Rechtswidrigkeit",
-        "translation": "ilegalidad",
-        "example": "Die Rechtswidrigkeit des Handelns steht zur Debatte."
-      },
-      {
-        "word": "die Rechtsfolge",
-        "translation": "consecuencia jurídica",
-        "example": "Die Rechtsfolge ist im Gesetz klar beschrieben."
-      },
-      {
-        "word": "die Legitimation",
-        "translation": "legitimación",
-        "example": "Die Legitimation des Klägers muss nachgewiesen werden."
-      },
-      {
-        "word": "Könnten Sie mir dabei helfen?",
-        "translation": "¿Podría ayudarme con esto?",
-        "example": "Könnten Sie mir dabei helfen, das Argument klar zu strukturieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach fehlt eine ausreichende Rechtsgrundlage.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme dem zu",
-        "translation": "Estoy de acuerdo con eso",
-        "example": "Ich stimme dem zu, weil die Beweise eindeutig sind.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Bedenken",
-        "translation": "Tengo dudas",
-        "example": "Ich habe Bedenken hinsichtlich der Haftung im konkreten Fall.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz nachfragen?",
-        "translation": "¿Puedo preguntar brevemente?",
-        "example": "Darf ich kurz nachfragen, welche Frist hier relevant ist?",
-        "category": "expression"
-      },
-      {
-        "word": "Aus diesem Grund",
-        "translation": "Por esta razón",
-        "example": "Aus diesem Grund sollten wir die Alternative prüfen.",
-        "category": "expression"
-      },
-      {
-        "word": "Vielen Dank für Ihre Unterstützung",
-        "translation": "Muchas gracias por su apoyo",
-        "example": "Vielen Dank für Ihre Unterstützung bei der Klärung der Rechtslage.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Verantwortung."
       }
     ],
     "dialogue": [],
@@ -35837,7 +33384,7 @@
       "grammarProfile": {
         "name": "Recht und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -35848,50 +33395,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „derecho“?",
         "options": [
-          "diritto",
-          "dovere",
-          "principio",
-          "tutelare"
+          "Recht",
+          "Pflicht",
+          "Grundsatz",
+          "schützen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „dovere“.",
+        "prompt": "Wähle „Pflicht“.",
         "options": [
-          "dovere",
-          "principio",
-          "tutelare",
-          "responsabilità"
+          "Pflicht",
+          "Grundsatz",
+          "schützen",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „principio“.",
+        "prompt": "Wähle „Grundsatz“.",
         "options": [
-          "principio",
-          "tutelare",
-          "responsabilità",
-          "diritto"
+          "Grundsatz",
+          "schützen",
+          "Verantwortung",
+          "Recht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „tutelare“.",
+        "prompt": "Wähle „schützen“.",
         "options": [
-          "tutelare",
-          "responsabilità",
-          "diritto",
-          "dovere"
+          "schützen",
+          "Verantwortung",
+          "Recht",
+          "Pflicht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „responsabilità“.",
+        "prompt": "Wähle „Verantwortung“.",
         "options": [
-          "responsabilità",
-          "diritto",
-          "dovere",
-          "principio"
+          "Verantwortung",
+          "Recht",
+          "Pflicht",
+          "Grundsatz"
         ]
       }
     ]
@@ -36586,45 +34133,45 @@
     "xpReward": 30,
     "orderIndex": 60,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "benessere",
-      "prevenzione",
-      "riposo"
+      "Wohlbefinden",
+      "Prävention",
+      "Erholung"
     ],
     "vocabulary": [
       {
-        "word": "benessere",
+        "word": "Wohlbefinden",
         "translation": "bienestar",
-        "example": "Die Diskussion klärt die Rolle von benessere."
+        "example": "Die Diskussion klärt die Rolle von Wohlbefinden."
       },
       {
-        "word": "prevenzione",
+        "word": "Prävention",
         "translation": "prevención",
-        "example": "Die Diskussion klärt die Rolle von prevenzione."
+        "example": "Die Diskussion klärt die Rolle von Prävention."
       },
       {
-        "word": "riposo",
+        "word": "Erholung",
         "translation": "descanso",
-        "example": "Die Diskussion klärt die Rolle von riposo."
+        "example": "Die Diskussion klärt die Rolle von Erholung."
       },
       {
-        "word": "equilibrio",
+        "word": "Gleichgewicht",
         "translation": "equilibrio",
-        "example": "Die Diskussion klärt die Rolle von equilibrio."
+        "example": "Die Diskussion klärt die Rolle von Gleichgewicht."
       },
       {
-        "word": "consiglio",
+        "word": "Ratschlag",
         "translation": "consejo",
-        "example": "Die Diskussion klärt die Rolle von consiglio."
+        "example": "Die Diskussion klärt die Rolle von Ratschlag."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Gesundheit und Wohlbefinden» untersucht die Gruppe benessere und prevenzione. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Gesundheit und Wohlbefinden» untersucht die Gruppe Wohlbefinden und Prävention. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -36634,7 +34181,7 @@
       "grammarProfile": {
         "name": "Gesundheit und Wohlbefinden",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -36645,10 +34192,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "benessere",
-          "riposo",
-          "equilibrio",
-          "consiglio"
+          "Wohlbefinden",
+          "Erholung",
+          "Gleichgewicht",
+          "Ratschlag"
         ]
       },
       {
@@ -36659,39 +34206,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-gesundheit-und-wohlbefinden-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-gesundheit-und-wohlbefinden-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-gesundheit-und-wohlbefinden-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -36707,45 +34221,45 @@
     "xpReward": 35,
     "orderIndex": 60,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "bilancio",
-      "risparmio",
-      "investimento"
+      "Haushalt",
+      "Ersparnis",
+      "Investition"
     ],
     "vocabulary": [
       {
-        "word": "bilancio",
+        "word": "Haushalt",
         "translation": "presupuesto",
-        "example": "Die Diskussion klärt die Rolle von bilancio."
+        "example": "Die Diskussion klärt die Rolle von Haushalt."
       },
       {
-        "word": "risparmio",
+        "word": "Ersparnis",
         "translation": "ahorro",
-        "example": "Die Diskussion klärt die Rolle von risparmio."
+        "example": "Die Diskussion klärt die Rolle von Ersparnis."
       },
       {
-        "word": "investimento",
+        "word": "Investition",
         "translation": "inversión",
-        "example": "Die Diskussion klärt die Rolle von investimento."
+        "example": "Die Diskussion klärt die Rolle von Investition."
       },
       {
-        "word": "variare",
+        "word": "schwanken",
         "translation": "variar",
-        "example": "Die Diskussion klärt die Rolle von variare."
+        "example": "Die Diskussion klärt die Rolle von schwanken."
       },
       {
-        "word": "sostenere",
+        "word": "tragen",
         "translation": "sostener",
-        "example": "Die Diskussion klärt die Rolle von sostenere."
+        "example": "Die Diskussion klärt die Rolle von tragen."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Alltagsökonomie» untersucht die Gruppe bilancio und risparmio. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Alltagsökonomie» untersucht die Gruppe Haushalt und Ersparnis. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -36755,7 +34269,7 @@
       "grammarProfile": {
         "name": "Alltagsökonomie",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -36766,10 +34280,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "bilancio",
-          "investimento",
-          "variare",
-          "sostenere"
+          "Haushalt",
+          "Investition",
+          "schwanken",
+          "tragen"
         ]
       },
       {
@@ -36780,39 +34294,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-alltagsokonomie-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-alltagsokonomie-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-alltagsokonomie-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "die",
-          "und",
-          "ein"
         ]
       }
     ]
@@ -36828,45 +34309,45 @@
     "xpReward": 40,
     "orderIndex": 60,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "disuguaglianza",
-      "reddito",
-      "indicatore"
+      "Ungleichheit",
+      "Einkommen",
+      "Indikator"
     ],
     "vocabulary": [
       {
-        "word": "disuguaglianza",
+        "word": "Ungleichheit",
         "translation": "desigualdad",
-        "example": "Die Diskussion klärt die Rolle von disuguaglianza."
+        "example": "Die Diskussion klärt die Rolle von Ungleichheit."
       },
       {
-        "word": "reddito",
+        "word": "Einkommen",
         "translation": "ingreso",
-        "example": "Die Diskussion klärt die Rolle von reddito."
+        "example": "Die Diskussion klärt die Rolle von Einkommen."
       },
       {
-        "word": "indicatore",
+        "word": "Indikator",
         "translation": "indicador",
-        "example": "Die Diskussion klärt die Rolle von indicatore."
+        "example": "Die Diskussion klärt die Rolle von Indikator."
       },
       {
-        "word": "distribuire",
+        "word": "verteilen",
         "translation": "distribuir",
-        "example": "Die Diskussion klärt die Rolle von distribuire."
+        "example": "Die Diskussion klärt die Rolle von verteilen."
       },
       {
-        "word": "intervenire",
+        "word": "eingreifen",
         "translation": "intervenir",
-        "example": "Die Diskussion klärt die Rolle von intervenire."
+        "example": "Die Diskussion klärt die Rolle von eingreifen."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Ökonomie und Ungleichheit» untersucht die Gruppe disuguaglianza und reddito. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Ökonomie und Ungleichheit» untersucht die Gruppe Ungleichheit und Einkommen. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -36876,7 +34357,7 @@
       "grammarProfile": {
         "name": "Ökonomie und Ungleichheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -36887,10 +34368,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "disuguaglianza",
-          "indicatore",
-          "distribuire",
-          "intervenire"
+          "Ungleichheit",
+          "Indikator",
+          "verteilen",
+          "eingreifen"
         ]
       },
       {
@@ -36901,39 +34382,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-okonomie-und-ungleichheit-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "reddito",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c2-c2-okonomie-und-ungleichheit-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-okonomie-und-ungleichheit-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -39041,50 +36489,50 @@
     "xpReward": 30,
     "orderIndex": 61,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "benessere",
-      "prevenzione",
-      "riposo"
+      "Wohlbefinden",
+      "Prävention",
+      "Erholung"
     ],
     "vocabulary": [
       {
-        "word": "benessere",
+        "word": "Wohlbefinden",
         "translation": "bienestar",
-        "example": "Die Diskussion klärt die Rolle von benessere."
+        "example": "Die Diskussion klärt die Rolle von Wohlbefinden."
       },
       {
-        "word": "prevenzione",
+        "word": "Prävention",
         "translation": "prevención",
-        "example": "Die Diskussion klärt die Rolle von prevenzione."
+        "example": "Die Diskussion klärt die Rolle von Prävention."
       },
       {
-        "word": "riposo",
+        "word": "Erholung",
         "translation": "descanso",
-        "example": "Die Diskussion klärt die Rolle von riposo."
+        "example": "Die Diskussion klärt die Rolle von Erholung."
       },
       {
-        "word": "equilibrio",
+        "word": "Gleichgewicht",
         "translation": "equilibrio",
-        "example": "Die Diskussion klärt die Rolle von equilibrio."
+        "example": "Die Diskussion klärt die Rolle von Gleichgewicht."
       },
       {
-        "word": "consiglio",
+        "word": "Ratschlag",
         "translation": "consejo",
-        "example": "Die Diskussion klärt die Rolle von consiglio."
+        "example": "Die Diskussion klärt die Rolle von Ratschlag."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „benessere“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -39093,7 +36541,7 @@
       "grammarProfile": {
         "name": "Gesundheit und Wohlbefinden",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -39102,7 +36550,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -39117,46 +36565,46 @@
     "xpReward": 35,
     "orderIndex": 61,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "bilancio",
-      "risparmio",
-      "investimento"
+      "Haushalt",
+      "Ersparnis",
+      "Investition"
     ],
     "vocabulary": [
       {
-        "word": "bilancio",
+        "word": "Haushalt",
         "translation": "presupuesto",
-        "example": "Die Diskussion klärt die Rolle von bilancio."
+        "example": "Die Diskussion klärt die Rolle von Haushalt."
       },
       {
-        "word": "risparmio",
+        "word": "Ersparnis",
         "translation": "ahorro",
-        "example": "Die Diskussion klärt die Rolle von risparmio."
+        "example": "Die Diskussion klärt die Rolle von Ersparnis."
       },
       {
-        "word": "investimento",
+        "word": "Investition",
         "translation": "inversión",
-        "example": "Die Diskussion klärt die Rolle von investimento."
+        "example": "Die Diskussion klärt die Rolle von Investition."
       },
       {
-        "word": "variare",
+        "word": "schwanken",
         "translation": "variar",
-        "example": "Die Diskussion klärt die Rolle von variare."
+        "example": "Die Diskussion klärt die Rolle von schwanken."
       },
       {
-        "word": "sostenere",
+        "word": "tragen",
         "translation": "sostener",
-        "example": "Die Diskussion klärt die Rolle von sostenere."
+        "example": "Die Diskussion klärt die Rolle von tragen."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -39169,7 +36617,7 @@
       "grammarProfile": {
         "name": "Alltagsökonomie",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -39178,7 +36626,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -39193,46 +36641,46 @@
     "xpReward": 40,
     "orderIndex": 61,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "disuguaglianza",
-      "reddito",
-      "indicatore"
+      "Ungleichheit",
+      "Einkommen",
+      "Indikator"
     ],
     "vocabulary": [
       {
-        "word": "disuguaglianza",
+        "word": "Ungleichheit",
         "translation": "desigualdad",
-        "example": "Die Diskussion klärt die Rolle von disuguaglianza."
+        "example": "Die Diskussion klärt die Rolle von Ungleichheit."
       },
       {
-        "word": "reddito",
+        "word": "Einkommen",
         "translation": "ingreso",
-        "example": "Die Diskussion klärt die Rolle von reddito."
+        "example": "Die Diskussion klärt die Rolle von Einkommen."
       },
       {
-        "word": "indicatore",
+        "word": "Indikator",
         "translation": "indicador",
-        "example": "Die Diskussion klärt die Rolle von indicatore."
+        "example": "Die Diskussion klärt die Rolle von Indikator."
       },
       {
-        "word": "distribuire",
+        "word": "verteilen",
         "translation": "distribuir",
-        "example": "Die Diskussion klärt die Rolle von distribuire."
+        "example": "Die Diskussion klärt die Rolle von verteilen."
       },
       {
-        "word": "intervenire",
+        "word": "eingreifen",
         "translation": "intervenir",
-        "example": "Die Diskussion klärt die Rolle von intervenire."
+        "example": "Die Diskussion klärt die Rolle von eingreifen."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -39245,7 +36693,7 @@
       "grammarProfile": {
         "name": "Ökonomie und Ungleichheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -39254,7 +36702,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -41769,40 +39217,40 @@
     "xpReward": 30,
     "orderIndex": 62,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "benessere",
-      "prevenzione",
-      "riposo"
+      "Wohlbefinden",
+      "Prävention",
+      "Erholung"
     ],
     "vocabulary": [
       {
-        "word": "benessere",
+        "word": "Wohlbefinden",
         "translation": "bienestar",
-        "example": "Die Diskussion klärt die Rolle von benessere."
+        "example": "Die Diskussion klärt die Rolle von Wohlbefinden."
       },
       {
-        "word": "prevenzione",
+        "word": "Prävention",
         "translation": "prevención",
-        "example": "Die Diskussion klärt die Rolle von prevenzione."
+        "example": "Die Diskussion klärt die Rolle von Prävention."
       },
       {
-        "word": "riposo",
+        "word": "Erholung",
         "translation": "descanso",
-        "example": "Die Diskussion klärt die Rolle von riposo."
+        "example": "Die Diskussion klärt die Rolle von Erholung."
       },
       {
-        "word": "equilibrio",
+        "word": "Gleichgewicht",
         "translation": "equilibrio",
-        "example": "Die Diskussion klärt die Rolle von equilibrio."
+        "example": "Die Diskussion klärt die Rolle von Gleichgewicht."
       },
       {
-        "word": "consiglio",
+        "word": "Ratschlag",
         "translation": "consejo",
-        "example": "Die Diskussion klärt die Rolle von consiglio."
+        "example": "Die Diskussion klärt die Rolle von Ratschlag."
       }
     ],
     "dialogue": [],
@@ -41812,7 +39260,7 @@
       "grammarProfile": {
         "name": "Gesundheit und Wohlbefinden",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -41821,7 +39269,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -41836,40 +39284,40 @@
     "xpReward": 35,
     "orderIndex": 62,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "bilancio",
-      "risparmio",
-      "investimento"
+      "Haushalt",
+      "Ersparnis",
+      "Investition"
     ],
     "vocabulary": [
       {
-        "word": "bilancio",
+        "word": "Haushalt",
         "translation": "presupuesto",
-        "example": "Die Diskussion klärt die Rolle von bilancio."
+        "example": "Die Diskussion klärt die Rolle von Haushalt."
       },
       {
-        "word": "risparmio",
+        "word": "Ersparnis",
         "translation": "ahorro",
-        "example": "Die Diskussion klärt die Rolle von risparmio."
+        "example": "Die Diskussion klärt die Rolle von Ersparnis."
       },
       {
-        "word": "investimento",
+        "word": "Investition",
         "translation": "inversión",
-        "example": "Die Diskussion klärt die Rolle von investimento."
+        "example": "Die Diskussion klärt die Rolle von Investition."
       },
       {
-        "word": "variare",
+        "word": "schwanken",
         "translation": "variar",
-        "example": "Die Diskussion klärt die Rolle von variare."
+        "example": "Die Diskussion klärt die Rolle von schwanken."
       },
       {
-        "word": "sostenere",
+        "word": "tragen",
         "translation": "sostener",
-        "example": "Die Diskussion klärt die Rolle von sostenere."
+        "example": "Die Diskussion klärt die Rolle von tragen."
       }
     ],
     "dialogue": [],
@@ -41879,7 +39327,7 @@
       "grammarProfile": {
         "name": "Alltagsökonomie",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -41888,7 +39336,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -41903,40 +39351,40 @@
     "xpReward": 40,
     "orderIndex": 62,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "disuguaglianza",
-      "reddito",
-      "indicatore"
+      "Ungleichheit",
+      "Einkommen",
+      "Indikator"
     ],
     "vocabulary": [
       {
-        "word": "disuguaglianza",
+        "word": "Ungleichheit",
         "translation": "desigualdad",
-        "example": "Die Diskussion klärt die Rolle von disuguaglianza."
+        "example": "Die Diskussion klärt die Rolle von Ungleichheit."
       },
       {
-        "word": "reddito",
+        "word": "Einkommen",
         "translation": "ingreso",
-        "example": "Die Diskussion klärt die Rolle von reddito."
+        "example": "Die Diskussion klärt die Rolle von Einkommen."
       },
       {
-        "word": "indicatore",
+        "word": "Indikator",
         "translation": "indicador",
-        "example": "Die Diskussion klärt die Rolle von indicatore."
+        "example": "Die Diskussion klärt die Rolle von Indikator."
       },
       {
-        "word": "distribuire",
+        "word": "verteilen",
         "translation": "distribuir",
-        "example": "Die Diskussion klärt die Rolle von distribuire."
+        "example": "Die Diskussion klärt die Rolle von verteilen."
       },
       {
-        "word": "intervenire",
+        "word": "eingreifen",
         "translation": "intervenir",
-        "example": "Die Diskussion klärt die Rolle von intervenire."
+        "example": "Die Diskussion klärt die Rolle von eingreifen."
       }
     ],
     "dialogue": [],
@@ -41946,7 +39394,7 @@
       "grammarProfile": {
         "name": "Ökonomie und Ungleichheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -41955,7 +39403,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -41970,40 +39418,40 @@
     "xpReward": 30,
     "orderIndex": 63,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "benessere",
-      "prevenzione",
-      "riposo"
+      "Wohlbefinden",
+      "Prävention",
+      "Erholung"
     ],
     "vocabulary": [
       {
-        "word": "benessere",
+        "word": "Wohlbefinden",
         "translation": "bienestar",
-        "example": "Die Diskussion klärt die Rolle von benessere."
+        "example": "Die Diskussion klärt die Rolle von Wohlbefinden."
       },
       {
-        "word": "prevenzione",
+        "word": "Prävention",
         "translation": "prevención",
-        "example": "Die Diskussion klärt die Rolle von prevenzione."
+        "example": "Die Diskussion klärt die Rolle von Prävention."
       },
       {
-        "word": "riposo",
+        "word": "Erholung",
         "translation": "descanso",
-        "example": "Die Diskussion klärt die Rolle von riposo."
+        "example": "Die Diskussion klärt die Rolle von Erholung."
       },
       {
-        "word": "equilibrio",
+        "word": "Gleichgewicht",
         "translation": "equilibrio",
-        "example": "Die Diskussion klärt die Rolle von equilibrio."
+        "example": "Die Diskussion klärt die Rolle von Gleichgewicht."
       },
       {
-        "word": "consiglio",
+        "word": "Ratschlag",
         "translation": "consejo",
-        "example": "Die Diskussion klärt die Rolle von consiglio."
+        "example": "Die Diskussion klärt die Rolle von Ratschlag."
       }
     ],
     "dialogue": [],
@@ -42013,7 +39461,7 @@
       "grammarProfile": {
         "name": "Gesundheit und Wohlbefinden",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -42022,52 +39470,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu benessere. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Wohlbefinden. (1)",
         "options": [
-          "benessere",
-          "prevenzione",
-          "riposo",
-          "equilibrio"
+          "Wohlbefinden",
+          "Prävention",
+          "Erholung",
+          "Gleichgewicht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu benessere. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Wohlbefinden. (2)",
         "options": [
-          "prevenzione",
-          "riposo",
-          "equilibrio",
-          "consiglio"
+          "Prävention",
+          "Erholung",
+          "Gleichgewicht",
+          "Ratschlag"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu benessere. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Wohlbefinden. (3)",
         "options": [
-          "riposo",
-          "equilibrio",
-          "consiglio",
-          "benessere"
+          "Erholung",
+          "Gleichgewicht",
+          "Ratschlag",
+          "Wohlbefinden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu benessere. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Wohlbefinden. (4)",
         "options": [
-          "equilibrio",
-          "consiglio",
-          "benessere",
-          "prevenzione"
+          "Gleichgewicht",
+          "Ratschlag",
+          "Wohlbefinden",
+          "Prävention"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu benessere. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Wohlbefinden. (5)",
         "options": [
-          "consiglio",
-          "benessere",
-          "prevenzione",
-          "riposo"
+          "Ratschlag",
+          "Wohlbefinden",
+          "Prävention",
+          "Erholung"
         ]
       }
     ]
@@ -42083,40 +39531,40 @@
     "xpReward": 35,
     "orderIndex": 63,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "bilancio",
-      "risparmio",
-      "investimento"
+      "Haushalt",
+      "Ersparnis",
+      "Investition"
     ],
     "vocabulary": [
       {
-        "word": "bilancio",
+        "word": "Haushalt",
         "translation": "presupuesto",
-        "example": "Die Diskussion klärt die Rolle von bilancio."
+        "example": "Die Diskussion klärt die Rolle von Haushalt."
       },
       {
-        "word": "risparmio",
+        "word": "Ersparnis",
         "translation": "ahorro",
-        "example": "Die Diskussion klärt die Rolle von risparmio."
+        "example": "Die Diskussion klärt die Rolle von Ersparnis."
       },
       {
-        "word": "investimento",
+        "word": "Investition",
         "translation": "inversión",
-        "example": "Die Diskussion klärt die Rolle von investimento."
+        "example": "Die Diskussion klärt die Rolle von Investition."
       },
       {
-        "word": "variare",
+        "word": "schwanken",
         "translation": "variar",
-        "example": "Die Diskussion klärt die Rolle von variare."
+        "example": "Die Diskussion klärt die Rolle von schwanken."
       },
       {
-        "word": "sostenere",
+        "word": "tragen",
         "translation": "sostener",
-        "example": "Die Diskussion klärt die Rolle von sostenere."
+        "example": "Die Diskussion klärt die Rolle von tragen."
       }
     ],
     "dialogue": [],
@@ -42126,7 +39574,7 @@
       "grammarProfile": {
         "name": "Alltagsökonomie",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -42135,52 +39583,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu bilancio. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Haushalt. (1)",
         "options": [
-          "bilancio",
-          "risparmio",
-          "investimento",
-          "variare"
+          "Haushalt",
+          "Ersparnis",
+          "Investition",
+          "schwanken"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu bilancio. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Haushalt. (2)",
         "options": [
-          "risparmio",
-          "investimento",
-          "variare",
-          "sostenere"
+          "Ersparnis",
+          "Investition",
+          "schwanken",
+          "tragen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu bilancio. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Haushalt. (3)",
         "options": [
-          "investimento",
-          "variare",
-          "sostenere",
-          "bilancio"
+          "Investition",
+          "schwanken",
+          "tragen",
+          "Haushalt"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu bilancio. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Haushalt. (4)",
         "options": [
-          "variare",
-          "sostenere",
-          "bilancio",
-          "risparmio"
+          "schwanken",
+          "tragen",
+          "Haushalt",
+          "Ersparnis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu bilancio. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Haushalt. (5)",
         "options": [
-          "sostenere",
-          "bilancio",
-          "risparmio",
-          "investimento"
+          "tragen",
+          "Haushalt",
+          "Ersparnis",
+          "Investition"
         ]
       }
     ]
@@ -42196,40 +39644,40 @@
     "xpReward": 40,
     "orderIndex": 63,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "disuguaglianza",
-      "reddito",
-      "indicatore"
+      "Ungleichheit",
+      "Einkommen",
+      "Indikator"
     ],
     "vocabulary": [
       {
-        "word": "disuguaglianza",
+        "word": "Ungleichheit",
         "translation": "desigualdad",
-        "example": "Die Diskussion klärt die Rolle von disuguaglianza."
+        "example": "Die Diskussion klärt die Rolle von Ungleichheit."
       },
       {
-        "word": "reddito",
+        "word": "Einkommen",
         "translation": "ingreso",
-        "example": "Die Diskussion klärt die Rolle von reddito."
+        "example": "Die Diskussion klärt die Rolle von Einkommen."
       },
       {
-        "word": "indicatore",
+        "word": "Indikator",
         "translation": "indicador",
-        "example": "Die Diskussion klärt die Rolle von indicatore."
+        "example": "Die Diskussion klärt die Rolle von Indikator."
       },
       {
-        "word": "distribuire",
+        "word": "verteilen",
         "translation": "distribuir",
-        "example": "Die Diskussion klärt die Rolle von distribuire."
+        "example": "Die Diskussion klärt die Rolle von verteilen."
       },
       {
-        "word": "intervenire",
+        "word": "eingreifen",
         "translation": "intervenir",
-        "example": "Die Diskussion klärt die Rolle von intervenire."
+        "example": "Die Diskussion klärt die Rolle von eingreifen."
       }
     ],
     "dialogue": [],
@@ -42239,7 +39687,7 @@
       "grammarProfile": {
         "name": "Ökonomie und Ungleichheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -42248,52 +39696,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu disuguaglianza. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Ungleichheit. (1)",
         "options": [
-          "disuguaglianza",
-          "reddito",
-          "indicatore",
-          "distribuire"
+          "Ungleichheit",
+          "Einkommen",
+          "Indikator",
+          "verteilen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu disuguaglianza. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Ungleichheit. (2)",
         "options": [
-          "reddito",
-          "indicatore",
-          "distribuire",
-          "intervenire"
+          "Einkommen",
+          "Indikator",
+          "verteilen",
+          "eingreifen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu disuguaglianza. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Ungleichheit. (3)",
         "options": [
-          "indicatore",
-          "distribuire",
-          "intervenire",
-          "disuguaglianza"
+          "Indikator",
+          "verteilen",
+          "eingreifen",
+          "Ungleichheit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu disuguaglianza. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Ungleichheit. (4)",
         "options": [
-          "distribuire",
-          "intervenire",
-          "disuguaglianza",
-          "reddito"
+          "verteilen",
+          "eingreifen",
+          "Ungleichheit",
+          "Einkommen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu disuguaglianza. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Ungleichheit. (5)",
         "options": [
-          "intervenire",
-          "disuguaglianza",
-          "reddito",
-          "indicatore"
+          "eingreifen",
+          "Ungleichheit",
+          "Einkommen",
+          "Indikator"
         ]
       }
     ]
@@ -42309,169 +39757,40 @@
     "xpReward": 30,
     "orderIndex": 64,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "benessere",
-      "prevenzione",
-      "riposo"
+      "Wohlbefinden",
+      "Prävention",
+      "Erholung"
     ],
     "vocabulary": [
       {
-        "word": "benessere",
+        "word": "Wohlbefinden",
         "translation": "bienestar",
-        "example": "Die Diskussion klärt die Rolle von benessere."
+        "example": "Die Diskussion klärt die Rolle von Wohlbefinden."
       },
       {
-        "word": "prevenzione",
+        "word": "Prävention",
         "translation": "prevención",
-        "example": "Die Diskussion klärt die Rolle von prevenzione."
+        "example": "Die Diskussion klärt die Rolle von Prävention."
       },
       {
-        "word": "riposo",
+        "word": "Erholung",
         "translation": "descanso",
-        "example": "Die Diskussion klärt die Rolle von riposo."
+        "example": "Die Diskussion klärt die Rolle von Erholung."
       },
       {
-        "word": "equilibrio",
+        "word": "Gleichgewicht",
         "translation": "equilibrio",
-        "example": "Die Diskussion klärt die Rolle von equilibrio."
+        "example": "Die Diskussion klärt die Rolle von Gleichgewicht."
       },
       {
-        "word": "consiglio",
+        "word": "Ratschlag",
         "translation": "consejo",
-        "example": "Die Diskussion klärt die Rolle von consiglio."
-      },
-      {
-        "word": "die Gesundheit",
-        "translation": "la salud",
-        "example": "Die Gesundheit sollte immer Priorität haben."
-      },
-      {
-        "word": "das Wohlbefinden",
-        "translation": "el bienestar",
-        "example": "Regelmäßige Bewegung fördert das Wohlbefinden."
-      },
-      {
-        "word": "der Stress",
-        "translation": "el estrés",
-        "example": "Zu viel Stress kann das Immunsystem schwächen."
-      },
-      {
-        "word": "die Prävention",
-        "translation": "la prevención",
-        "example": "Prävention ist oft kostengünstiger als Behandlung."
-      },
-      {
-        "word": "die Erholung",
-        "translation": "el descanso",
-        "example": "Nach dem Urlaub brauche ich mehr Erholung."
-      },
-      {
-        "word": "das Gleichgewicht",
-        "translation": "el equilibrio",
-        "example": "Ein gutes Gleichgewicht zwischen Arbeit und Freizeit ist wichtig."
-      },
-      {
-        "word": "die Ernährung",
-        "translation": "la alimentación",
-        "example": "Eine ausgewogene Ernährung unterstützt die Gesundheit."
-      },
-      {
-        "word": "die Bewegung",
-        "translation": "la actividad física",
-        "example": "Tägliche Bewegung verbessert die körperliche Fitness."
-      },
-      {
-        "word": "die Schlafqualität",
-        "translation": "la calidad del sueño",
-        "example": "Die Schlafqualität beeinflusst die Konzentration am Tag."
-      },
-      {
-        "word": "sich erholen",
-        "translation": "recuperarse",
-        "example": "Ich erhole mich nach der Arbeit beim Spaziergang."
-      },
-      {
-        "word": "entspannen",
-        "translation": "relajarse",
-        "example": "Am Abend entspanne ich mich mit Musik."
-      },
-      {
-        "word": "gesundheitsbewusst",
-        "translation": "consciente de la salud",
-        "example": "Immer mehr Menschen werden gesundheitsbewusster."
-      },
-      {
-        "word": "die Therapie",
-        "translation": "la terapia",
-        "example": "Die Therapie hat ihr geholfen, schmerzfrei zu leben."
-      },
-      {
-        "word": "die Nebenwirkung",
-        "translation": "el efecto secundario",
-        "example": "Bei dem Medikament traten wenige Nebenwirkungen auf."
-      },
-      {
-        "word": "die Vorsichtsmaßnahme",
-        "translation": "la medida de precaución",
-        "example": "Händewaschen ist eine einfache Vorsichtsmaßnahme."
-      },
-      {
-        "word": "das Immunsystem",
-        "translation": "el sistema inmunológico",
-        "example": "Das Immunsystem schützt vor Infektionen."
-      },
-      {
-        "word": "die Belastung",
-        "translation": "la carga",
-        "example": "Hohe Arbeitsbelastung führt oft zu Erschöpfung."
-      },
-      {
-        "word": "die Selbstfürsorge",
-        "translation": "el autocuidado",
-        "example": "Selbstfürsorge beinhaltet regelmäßige Pausen und gesunde Ernährung."
-      },
-      {
-        "word": "das Risiko",
-        "translation": "el riesgo",
-        "example": "Gute Hygiene reduziert das Risiko von Infektionen."
-      },
-      {
-        "word": "die Motivation",
-        "translation": "la motivación",
-        "example": "Motivation ist wichtig, um regelmäßig Sport zu treiben."
-      },
-      {
-        "word": "nachhaltig",
-        "translation": "sostenible",
-        "example": "Nachhaltige Gewohnheiten verbessern langfristig das Wohlbefinden."
-      },
-      {
-        "word": "Könnten Sie mir bitte helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir bitte helfen, einen Termin beim Hausarzt zu vereinbaren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollte Prävention stärker gefördert werden.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo con eso.",
-        "example": "Da stimme ich zu, ausreichend Schlaf ist entscheidend.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher, ob dieses Supplement nötig ist.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Ratschlag."
       }
     ],
     "dialogue": [],
@@ -42481,7 +39800,7 @@
       "grammarProfile": {
         "name": "Gesundheit und Wohlbefinden",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -42492,50 +39811,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „bienestar“?",
         "options": [
-          "benessere",
-          "prevenzione",
-          "riposo",
-          "equilibrio"
+          "Wohlbefinden",
+          "Prävention",
+          "Erholung",
+          "Gleichgewicht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „prevenzione“.",
+        "prompt": "Wähle „Prävention“.",
         "options": [
-          "prevenzione",
-          "riposo",
-          "equilibrio",
-          "consiglio"
+          "Prävention",
+          "Erholung",
+          "Gleichgewicht",
+          "Ratschlag"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „riposo“.",
+        "prompt": "Wähle „Erholung“.",
         "options": [
-          "riposo",
-          "equilibrio",
-          "consiglio",
-          "benessere"
+          "Erholung",
+          "Gleichgewicht",
+          "Ratschlag",
+          "Wohlbefinden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „equilibrio“.",
+        "prompt": "Wähle „Gleichgewicht“.",
         "options": [
-          "equilibrio",
-          "consiglio",
-          "benessere",
-          "prevenzione"
+          "Gleichgewicht",
+          "Ratschlag",
+          "Wohlbefinden",
+          "Prävention"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „consiglio“.",
+        "prompt": "Wähle „Ratschlag“.",
         "options": [
-          "consiglio",
-          "benessere",
-          "prevenzione",
-          "riposo"
+          "Ratschlag",
+          "Wohlbefinden",
+          "Prävention",
+          "Erholung"
         ]
       }
     ]
@@ -42551,170 +39870,40 @@
     "xpReward": 35,
     "orderIndex": 64,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "bilancio",
-      "risparmio",
-      "investimento"
+      "Haushalt",
+      "Ersparnis",
+      "Investition"
     ],
     "vocabulary": [
       {
-        "word": "bilancio",
+        "word": "Haushalt",
         "translation": "presupuesto",
-        "example": "Die Diskussion klärt die Rolle von bilancio."
+        "example": "Die Diskussion klärt die Rolle von Haushalt."
       },
       {
-        "word": "risparmio",
+        "word": "Ersparnis",
         "translation": "ahorro",
-        "example": "Die Diskussion klärt die Rolle von risparmio."
+        "example": "Die Diskussion klärt die Rolle von Ersparnis."
       },
       {
-        "word": "investimento",
+        "word": "Investition",
         "translation": "inversión",
-        "example": "Die Diskussion klärt die Rolle von investimento."
+        "example": "Die Diskussion klärt die Rolle von Investition."
       },
       {
-        "word": "variare",
+        "word": "schwanken",
         "translation": "variar",
-        "example": "Die Diskussion klärt die Rolle von variare."
+        "example": "Die Diskussion klärt die Rolle von schwanken."
       },
       {
-        "word": "sostenere",
+        "word": "tragen",
         "translation": "sostener",
-        "example": "Die Diskussion klärt die Rolle von sostenere."
-      },
-      {
-        "word": "die Inflation",
-        "translation": "la inflación",
-        "example": "Die Inflation erhöht die Preise für Lebensmittel."
-      },
-      {
-        "word": "der Haushalt",
-        "translation": "el presupuesto del hogar",
-        "example": "Der Haushalt muss die Ausgaben im Blick behalten."
-      },
-      {
-        "word": "die Ausgaben",
-        "translation": "los gastos",
-        "example": "Die Ausgaben sind diesen Monat unerwartet gestiegen."
-      },
-      {
-        "word": "die Einnahmen",
-        "translation": "los ingresos",
-        "example": "Die Einnahmen reichen nicht aus, um die Rechnung zu bezahlen."
-      },
-      {
-        "word": "die Rücklage",
-        "translation": "la reserva de ahorro",
-        "example": "Wir legen eine Rücklage für Notfälle an."
-      },
-      {
-        "word": "sparen",
-        "translation": "ahorrar",
-        "example": "Man sollte frühzeitig für die Rente sparen."
-      },
-      {
-        "word": "investieren",
-        "translation": "invertir",
-        "example": "Sie plant, langfristig in grüne Fonds zu investieren."
-      },
-      {
-        "word": "die Rendite",
-        "translation": "la rentabilidad",
-        "example": "Die erwartete Rendite liegt bei fünf Prozent."
-      },
-      {
-        "word": "der Zinssatz",
-        "translation": "la tasa de interés",
-        "example": "Ein hoher Zinssatz verteuert den Kredit."
-      },
-      {
-        "word": "die Liquidität",
-        "translation": "la liquidez",
-        "example": "Unternehmen müssen ihre Liquidität sichern."
-      },
-      {
-        "word": "die Verschuldung",
-        "translation": "el endeudamiento",
-        "example": "Die Verschuldung des Haushalts ist gesunken."
-      },
-      {
-        "word": "die Tilgung",
-        "translation": "la amortización / el pago de la deuda",
-        "example": "Die Tilgung des Kredits erfolgt monatlich."
-      },
-      {
-        "word": "die Diversifikation",
-        "translation": "la diversificación",
-        "example": "Eine Diversifikation reduziert das Risiko im Portfolio."
-      },
-      {
-        "word": "die Opportunitätskosten",
-        "translation": "el costo de oportunidad",
-        "example": "Die Opportunitätskosten sollten bei jeder Wahl abgewogen werden."
-      },
-      {
-        "word": "die Effizienz",
-        "translation": "la eficiencia",
-        "example": "Effizienzsteigerungen senken langfristig die Kosten."
-      },
-      {
-        "word": "die Nachhaltigkeit",
-        "translation": "la sostenibilidad",
-        "example": "Nachhaltigkeit beeinflusst zunehmend Konsumentscheidungen."
-      },
-      {
-        "word": "die Subvention",
-        "translation": "la subvención",
-        "example": "Die Subvention soll erneuerbare Energien fördern."
-      },
-      {
-        "word": "die Steuerlast",
-        "translation": "la carga impositiva",
-        "example": "Eine hohe Steuerlast schmälert das verfügbare Einkommen."
-      },
-      {
-        "word": "das Budget",
-        "translation": "el presupuesto",
-        "example": "Das Budget für das Projekt ist begrenzt."
-      },
-      {
-        "word": "die Kosten-Nutzen-Analyse",
-        "translation": "el análisis costo-beneficio",
-        "example": "Vor großen Ausgaben führen wir eine Kosten-Nutzen-Analyse durch."
-      },
-      {
-        "word": "Könnten Sie mir dabei helfen?",
-        "translation": "¿Podría ayudarme con esto?",
-        "example": "Könnten Sie mir dabei helfen, das Budget zu überprüfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollten wir zuerst die Fixkosten senken.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich ganz Ihrer Meinung.",
-        "translation": "Estoy totalmente de acuerdo con usted.",
-        "example": "Da bin ich ganz Ihrer Meinung; das ist eine nachhaltige Lösung.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz nachfragen?",
-        "translation": "¿Puedo preguntar brevemente?",
-        "example": "Darf ich kurz nachfragen, wie Sie die Rendite berechnet haben?",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie das bitte erläutern?",
-        "translation": "¿Podría explicarlo, por favor?",
-        "example": "Könnten Sie das bitte erläutern, damit alle den Plan verstehen?",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von tragen."
       }
     ],
     "dialogue": [],
@@ -42724,7 +39913,7 @@
       "grammarProfile": {
         "name": "Alltagsökonomie",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -42735,50 +39924,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „presupuesto“?",
         "options": [
-          "bilancio",
-          "risparmio",
-          "investimento",
-          "variare"
+          "Haushalt",
+          "Ersparnis",
+          "Investition",
+          "schwanken"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „risparmio“.",
+        "prompt": "Wähle „Ersparnis“.",
         "options": [
-          "risparmio",
-          "investimento",
-          "variare",
-          "sostenere"
+          "Ersparnis",
+          "Investition",
+          "schwanken",
+          "tragen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „investimento“.",
+        "prompt": "Wähle „Investition“.",
         "options": [
-          "investimento",
-          "variare",
-          "sostenere",
-          "bilancio"
+          "Investition",
+          "schwanken",
+          "tragen",
+          "Haushalt"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „variare“.",
+        "prompt": "Wähle „schwanken“.",
         "options": [
-          "variare",
-          "sostenere",
-          "bilancio",
-          "risparmio"
+          "schwanken",
+          "tragen",
+          "Haushalt",
+          "Ersparnis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „sostenere“.",
+        "prompt": "Wähle „tragen“.",
         "options": [
-          "sostenere",
-          "bilancio",
-          "risparmio",
-          "investimento"
+          "tragen",
+          "Haushalt",
+          "Ersparnis",
+          "Investition"
         ]
       }
     ]
@@ -42794,170 +39983,40 @@
     "xpReward": 40,
     "orderIndex": 64,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "disuguaglianza",
-      "reddito",
-      "indicatore"
+      "Ungleichheit",
+      "Einkommen",
+      "Indikator"
     ],
     "vocabulary": [
       {
-        "word": "disuguaglianza",
+        "word": "Ungleichheit",
         "translation": "desigualdad",
-        "example": "Die Diskussion klärt die Rolle von disuguaglianza."
+        "example": "Die Diskussion klärt die Rolle von Ungleichheit."
       },
       {
-        "word": "reddito",
+        "word": "Einkommen",
         "translation": "ingreso",
-        "example": "Die Diskussion klärt die Rolle von reddito."
+        "example": "Die Diskussion klärt die Rolle von Einkommen."
       },
       {
-        "word": "indicatore",
+        "word": "Indikator",
         "translation": "indicador",
-        "example": "Die Diskussion klärt die Rolle von indicatore."
+        "example": "Die Diskussion klärt die Rolle von Indikator."
       },
       {
-        "word": "distribuire",
+        "word": "verteilen",
         "translation": "distribuir",
-        "example": "Die Diskussion klärt die Rolle von distribuire."
+        "example": "Die Diskussion klärt die Rolle von verteilen."
       },
       {
-        "word": "intervenire",
+        "word": "eingreifen",
         "translation": "intervenir",
-        "example": "Die Diskussion klärt die Rolle von intervenire."
-      },
-      {
-        "word": "die Einkommensungleichheit",
-        "translation": "la desigualdad de ingresos",
-        "example": "Die Einkommensungleichheit verschärft soziale Spannungen."
-      },
-      {
-        "word": "die Umverteilung",
-        "translation": "la redistribución",
-        "example": "Eine progressive Steuerpolitik fördert die Umverteilung von Vermögen."
-      },
-      {
-        "word": "das Bruttoinlandsprodukt (BIP)",
-        "translation": "el producto interno bruto (PIB)",
-        "example": "Das BIP stieg im letzten Quartal um 1,2 Prozent."
-      },
-      {
-        "word": "der Mindestlohn",
-        "translation": "el salario mínimo",
-        "example": "Der Mindestlohn soll Armut und prekäre Beschäftigung reduzieren."
-      },
-      {
-        "word": "die Steuerprogression",
-        "translation": "la progresividad fiscal",
-        "example": "Die Steuerprogression sorgt dafür, dass höhere Einkommen stärker belastet werden."
-      },
-      {
-        "word": "die Vermögenssteuer",
-        "translation": "el impuesto al patrimonio",
-        "example": "Eine Vermögenssteuer kann zur Finanzierung sozialer Leistungen beitragen."
-      },
-      {
-        "word": "die Sozialleistung",
-        "translation": "la prestación social",
-        "example": "Die Sozialleistungen wurden zur Stabilisierung der Kaufkraft erhöht."
-      },
-      {
-        "word": "die Staatsverschuldung",
-        "translation": "la deuda pública",
-        "example": "Die Staatsverschuldung stieg infolge umfangreicher Konjunkturpakete."
-      },
-      {
-        "word": "die Fiskalpolitik",
-        "translation": "la política fiscal",
-        "example": "Die Fiskalpolitik zielt auf Investitionen und Beschäftigungsförderung."
-      },
-      {
-        "word": "die Geldpolitik",
-        "translation": "la política monetaria",
-        "example": "Die Geldpolitik der Zentralbank beeinflusst Zinssätze und Inflation."
-      },
-      {
-        "word": "das Marktversagen",
-        "translation": "el fallo del mercado",
-        "example": "Umweltverschmutzung ist ein klassisches Beispiel für Marktversagen."
-      },
-      {
-        "word": "die Allokation",
-        "translation": "la asignación (de recursos)",
-        "example": "Effiziente Allokation der Ressourcen ist für Wachstum entscheidend."
-      },
-      {
-        "word": "die Chancengleichheit",
-        "translation": "la igualdad de oportunidades",
-        "example": "Chancengleichheit beginnt mit Zugang zu hochwertiger Bildung."
-      },
-      {
-        "word": "die soziale Mobilität",
-        "translation": "la movilidad social",
-        "example": "Hohe soziale Mobilität erlaubt Aufstieg unabhängig von der Herkunft."
-      },
-      {
-        "word": "die Verteilungsgerechtigkeit",
-        "translation": "la justicia distributiva",
-        "example": "Die Debatte dreht sich oft um Verteilungsgerechtigkeit und Effizienz."
-      },
-      {
-        "word": "der Wohlstand",
-        "translation": "la prosperidad",
-        "example": "Längerfristiges Wachstum soll den allgemeinen Wohlstand erhöhen."
-      },
-      {
-        "word": "die Armutsquote",
-        "translation": "la tasa de pobreza",
-        "example": "Die Armutsquote sank nach den Reformen leicht."
-      },
-      {
-        "word": "die Lohnlücke",
-        "translation": "la brecha salarial",
-        "example": "Die Lohnlücke zwischen Geschlechtern bleibt in vielen Branchen bestehen."
-      },
-      {
-        "word": "die Externalität",
-        "translation": "la externalidad",
-        "example": "Negative Externalitäten wie Luftverschmutzung erfordern Regulierung."
-      },
-      {
-        "word": "die Skaleneffekte",
-        "translation": "las economías de escala",
-        "example": "Skaleneffekte senken die Stückkosten großer Hersteller."
-      },
-      {
-        "word": "Könnten Sie das erläutern?",
-        "translation": "¿Podría explicar eso?",
-        "example": "Könnten Sie das erläutern?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach ist das nicht ausreichend.",
-        "translation": "En mi opinión, eso no es suficiente.",
-        "example": "Meiner Ansicht nach ist das nicht ausreichend.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme dem grundsätzlich zu.",
-        "translation": "Estoy de acuerdo en principio.",
-        "example": "Ich stimme dem grundsätzlich zu.",
-        "category": "expression"
-      },
-      {
-        "word": "Daran habe ich Zweifel.",
-        "translation": "Tengo dudas al respecto.",
-        "example": "Daran habe ich Zweifel.",
-        "category": "expression"
-      },
-      {
-        "word": "Vielen Dank für Ihre Einschätzung.",
-        "translation": "Muchas gracias por su valoración.",
-        "example": "Vielen Dank für Ihre Einschätzung.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von eingreifen."
       }
     ],
     "dialogue": [],
@@ -42967,7 +40026,7 @@
       "grammarProfile": {
         "name": "Ökonomie und Ungleichheit",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -42978,50 +40037,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „desigualdad“?",
         "options": [
-          "disuguaglianza",
-          "reddito",
-          "indicatore",
-          "distribuire"
+          "Ungleichheit",
+          "Einkommen",
+          "Indikator",
+          "verteilen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „reddito“.",
+        "prompt": "Wähle „Einkommen“.",
         "options": [
-          "reddito",
-          "indicatore",
-          "distribuire",
-          "intervenire"
+          "Einkommen",
+          "Indikator",
+          "verteilen",
+          "eingreifen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „indicatore“.",
+        "prompt": "Wähle „Indikator“.",
         "options": [
-          "indicatore",
-          "distribuire",
-          "intervenire",
-          "disuguaglianza"
+          "Indikator",
+          "verteilen",
+          "eingreifen",
+          "Ungleichheit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „distribuire“.",
+        "prompt": "Wähle „verteilen“.",
         "options": [
-          "distribuire",
-          "intervenire",
-          "disuguaglianza",
-          "reddito"
+          "verteilen",
+          "eingreifen",
+          "Ungleichheit",
+          "Einkommen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „intervenire“.",
+        "prompt": "Wähle „eingreifen“.",
         "options": [
-          "intervenire",
-          "disuguaglianza",
-          "reddito",
-          "indicatore"
+          "eingreifen",
+          "Ungleichheit",
+          "Einkommen",
+          "Indikator"
         ]
       }
     ]
@@ -43716,45 +40775,45 @@
     "xpReward": 30,
     "orderIndex": 70,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "tradizione",
-      "appartenenza",
-      "prospettiva"
+      "Tradition",
+      "Zugehörigkeit",
+      "Perspektive"
     ],
     "vocabulary": [
       {
-        "word": "tradizione",
+        "word": "Tradition",
         "translation": "tradición",
-        "example": "Die Diskussion klärt die Rolle von tradizione."
+        "example": "Die Diskussion klärt die Rolle von Tradition."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       },
       {
-        "word": "prospettiva",
+        "word": "Perspektive",
         "translation": "perspectiva",
-        "example": "Die Diskussion klärt die Rolle von prospettiva."
+        "example": "Die Diskussion klärt die Rolle von Perspektive."
       },
       {
-        "word": "valorizzare",
+        "word": "würdigen",
         "translation": "poner en valor",
-        "example": "Die Diskussion klärt die Rolle von valorizzare."
+        "example": "Die Diskussion klärt die Rolle von würdigen."
       },
       {
-        "word": "dialogo",
+        "word": "Dialog",
         "translation": "diálogo",
-        "example": "Die Diskussion klärt die Rolle von dialogo."
+        "example": "Die Diskussion klärt die Rolle von Dialog."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Kultur und Identität» untersucht die Gruppe tradizione und appartenenza. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Kultur und Identität» untersucht die Gruppe Tradition und Zugehörigkeit. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -43764,7 +40823,7 @@
       "grammarProfile": {
         "name": "Kultur und Identität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -43775,10 +40834,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "tradizione",
-          "prospettiva",
-          "valorizzare",
-          "dialogo"
+          "Tradition",
+          "Perspektive",
+          "würdigen",
+          "Dialog"
         ]
       },
       {
@@ -43789,39 +40848,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-kultur-und-identitat-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-kultur-und-identitat-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-kultur-und-identitat-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -43837,45 +40863,45 @@
     "xpReward": 35,
     "orderIndex": 70,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "memoria",
-      "patrimonio",
-      "trasformazione"
+      "Erinnerung",
+      "Kulturerbe",
+      "Wandel"
     ],
     "vocabulary": [
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "patrimonio",
+        "word": "Kulturerbe",
         "translation": "patrimonio",
-        "example": "Die Diskussion klärt die Rolle von patrimonio."
+        "example": "Die Diskussion klärt die Rolle von Kulturerbe."
       },
       {
-        "word": "trasformazione",
+        "word": "Wandel",
         "translation": "transformación",
-        "example": "Die Diskussion klärt die Rolle von trasformazione."
+        "example": "Die Diskussion klärt die Rolle von Wandel."
       },
       {
-        "word": "preservare",
+        "word": "bewahren",
         "translation": "preservar",
-        "example": "Die Diskussion klärt die Rolle von preservare."
+        "example": "Die Diskussion klärt die Rolle von bewahren."
       },
       {
-        "word": "radice",
+        "word": "Wurzel",
         "translation": "raíz",
-        "example": "Die Diskussion klärt die Rolle von radice."
+        "example": "Die Diskussion klärt die Rolle von Wurzel."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Orte und Erinnerung» untersucht die Gruppe memoria und patrimonio. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Orte und Erinnerung» untersucht die Gruppe Erinnerung und Kulturerbe. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -43885,7 +40911,7 @@
       "grammarProfile": {
         "name": "Orte und Erinnerung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -43896,10 +40922,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "memoria",
-          "trasformazione",
-          "preservare",
-          "radice"
+          "Erinnerung",
+          "Wandel",
+          "bewahren",
+          "Wurzel"
         ]
       },
       {
@@ -43910,39 +40936,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-orte-und-erinnerung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "memoria",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c1-c1-orte-und-erinnerung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Orte",
-          "Jede",
-          "soll",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-orte-und-erinnerung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -43958,45 +40951,45 @@
     "xpReward": 40,
     "orderIndex": 70,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "scenario",
-      "risorsa",
-      "mitigare"
+      "Szenario",
+      "Ressource",
+      "abmildern"
     ],
     "vocabulary": [
       {
-        "word": "scenario",
+        "word": "Szenario",
         "translation": "escenario",
-        "example": "Die Diskussion klärt die Rolle von scenario."
+        "example": "Die Diskussion klärt die Rolle von Szenario."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "mitigare",
+        "word": "abmildern",
         "translation": "mitigar",
-        "example": "Die Diskussion klärt die Rolle von mitigare."
+        "example": "Die Diskussion klärt die Rolle von abmildern."
       },
       {
-        "word": "adattamento",
+        "word": "Anpassung",
         "translation": "adaptación",
-        "example": "Die Diskussion klärt die Rolle von adattamento."
+        "example": "Die Diskussion klärt die Rolle von Anpassung."
       },
       {
-        "word": "interdipendenza",
+        "word": "Wechselwirkung",
         "translation": "interdependencia",
-        "example": "Die Diskussion klärt die Rolle von interdipendenza."
+        "example": "Die Diskussion klärt die Rolle von Wechselwirkung."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Umwelt und Zukunft» untersucht die Gruppe scenario und risorsa. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Umwelt und Zukunft» untersucht die Gruppe Szenario und Ressource. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -44006,7 +40999,7 @@
       "grammarProfile": {
         "name": "Umwelt und Zukunft",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -44017,10 +41010,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "scenario",
-          "mitigare",
-          "adattamento",
-          "interdipendenza"
+          "Szenario",
+          "abmildern",
+          "Anpassung",
+          "Wechselwirkung"
         ]
       },
       {
@@ -44031,39 +41024,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-umwelt-und-zukunft-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "Zukunft",
-          "risorsa",
-          "Antwort",
-          "einzige"
-        ]
-      },
-      {
-        "id": "german-c2-c2-umwelt-und-zukunft-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-umwelt-und-zukunft-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -46171,50 +43131,50 @@
     "xpReward": 30,
     "orderIndex": 71,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "tradizione",
-      "appartenenza",
-      "prospettiva"
+      "Tradition",
+      "Zugehörigkeit",
+      "Perspektive"
     ],
     "vocabulary": [
       {
-        "word": "tradizione",
+        "word": "Tradition",
         "translation": "tradición",
-        "example": "Die Diskussion klärt die Rolle von tradizione."
+        "example": "Die Diskussion klärt die Rolle von Tradition."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       },
       {
-        "word": "prospettiva",
+        "word": "Perspektive",
         "translation": "perspectiva",
-        "example": "Die Diskussion klärt die Rolle von prospettiva."
+        "example": "Die Diskussion klärt die Rolle von Perspektive."
       },
       {
-        "word": "valorizzare",
+        "word": "würdigen",
         "translation": "poner en valor",
-        "example": "Die Diskussion klärt die Rolle von valorizzare."
+        "example": "Die Diskussion klärt die Rolle von würdigen."
       },
       {
-        "word": "dialogo",
+        "word": "Dialog",
         "translation": "diálogo",
-        "example": "Die Diskussion klärt die Rolle von dialogo."
+        "example": "Die Diskussion klärt die Rolle von Dialog."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „tradizione“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -46223,7 +43183,7 @@
       "grammarProfile": {
         "name": "Kultur und Identität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -46232,7 +43192,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -46247,46 +43207,46 @@
     "xpReward": 35,
     "orderIndex": 71,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "memoria",
-      "patrimonio",
-      "trasformazione"
+      "Erinnerung",
+      "Kulturerbe",
+      "Wandel"
     ],
     "vocabulary": [
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "patrimonio",
+        "word": "Kulturerbe",
         "translation": "patrimonio",
-        "example": "Die Diskussion klärt die Rolle von patrimonio."
+        "example": "Die Diskussion klärt die Rolle von Kulturerbe."
       },
       {
-        "word": "trasformazione",
+        "word": "Wandel",
         "translation": "transformación",
-        "example": "Die Diskussion klärt die Rolle von trasformazione."
+        "example": "Die Diskussion klärt die Rolle von Wandel."
       },
       {
-        "word": "preservare",
+        "word": "bewahren",
         "translation": "preservar",
-        "example": "Die Diskussion klärt die Rolle von preservare."
+        "example": "Die Diskussion klärt die Rolle von bewahren."
       },
       {
-        "word": "radice",
+        "word": "Wurzel",
         "translation": "raíz",
-        "example": "Die Diskussion klärt die Rolle von radice."
+        "example": "Die Diskussion klärt die Rolle von Wurzel."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -46299,7 +43259,7 @@
       "grammarProfile": {
         "name": "Orte und Erinnerung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -46308,7 +43268,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -46323,46 +43283,46 @@
     "xpReward": 40,
     "orderIndex": 71,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "scenario",
-      "risorsa",
-      "mitigare"
+      "Szenario",
+      "Ressource",
+      "abmildern"
     ],
     "vocabulary": [
       {
-        "word": "scenario",
+        "word": "Szenario",
         "translation": "escenario",
-        "example": "Die Diskussion klärt die Rolle von scenario."
+        "example": "Die Diskussion klärt die Rolle von Szenario."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "mitigare",
+        "word": "abmildern",
         "translation": "mitigar",
-        "example": "Die Diskussion klärt die Rolle von mitigare."
+        "example": "Die Diskussion klärt die Rolle von abmildern."
       },
       {
-        "word": "adattamento",
+        "word": "Anpassung",
         "translation": "adaptación",
-        "example": "Die Diskussion klärt die Rolle von adattamento."
+        "example": "Die Diskussion klärt die Rolle von Anpassung."
       },
       {
-        "word": "interdipendenza",
+        "word": "Wechselwirkung",
         "translation": "interdependencia",
-        "example": "Die Diskussion klärt die Rolle von interdipendenza."
+        "example": "Die Diskussion klärt die Rolle von Wechselwirkung."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -46375,7 +43335,7 @@
       "grammarProfile": {
         "name": "Umwelt und Zukunft",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -46384,7 +43344,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -48898,40 +45858,40 @@
     "xpReward": 30,
     "orderIndex": 72,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "tradizione",
-      "appartenenza",
-      "prospettiva"
+      "Tradition",
+      "Zugehörigkeit",
+      "Perspektive"
     ],
     "vocabulary": [
       {
-        "word": "tradizione",
+        "word": "Tradition",
         "translation": "tradición",
-        "example": "Die Diskussion klärt die Rolle von tradizione."
+        "example": "Die Diskussion klärt die Rolle von Tradition."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       },
       {
-        "word": "prospettiva",
+        "word": "Perspektive",
         "translation": "perspectiva",
-        "example": "Die Diskussion klärt die Rolle von prospettiva."
+        "example": "Die Diskussion klärt die Rolle von Perspektive."
       },
       {
-        "word": "valorizzare",
+        "word": "würdigen",
         "translation": "poner en valor",
-        "example": "Die Diskussion klärt die Rolle von valorizzare."
+        "example": "Die Diskussion klärt die Rolle von würdigen."
       },
       {
-        "word": "dialogo",
+        "word": "Dialog",
         "translation": "diálogo",
-        "example": "Die Diskussion klärt die Rolle von dialogo."
+        "example": "Die Diskussion klärt die Rolle von Dialog."
       }
     ],
     "dialogue": [],
@@ -48941,7 +45901,7 @@
       "grammarProfile": {
         "name": "Kultur und Identität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -48950,7 +45910,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -48965,40 +45925,40 @@
     "xpReward": 35,
     "orderIndex": 72,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "memoria",
-      "patrimonio",
-      "trasformazione"
+      "Erinnerung",
+      "Kulturerbe",
+      "Wandel"
     ],
     "vocabulary": [
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "patrimonio",
+        "word": "Kulturerbe",
         "translation": "patrimonio",
-        "example": "Die Diskussion klärt die Rolle von patrimonio."
+        "example": "Die Diskussion klärt die Rolle von Kulturerbe."
       },
       {
-        "word": "trasformazione",
+        "word": "Wandel",
         "translation": "transformación",
-        "example": "Die Diskussion klärt die Rolle von trasformazione."
+        "example": "Die Diskussion klärt die Rolle von Wandel."
       },
       {
-        "word": "preservare",
+        "word": "bewahren",
         "translation": "preservar",
-        "example": "Die Diskussion klärt die Rolle von preservare."
+        "example": "Die Diskussion klärt die Rolle von bewahren."
       },
       {
-        "word": "radice",
+        "word": "Wurzel",
         "translation": "raíz",
-        "example": "Die Diskussion klärt die Rolle von radice."
+        "example": "Die Diskussion klärt die Rolle von Wurzel."
       }
     ],
     "dialogue": [],
@@ -49008,7 +45968,7 @@
       "grammarProfile": {
         "name": "Orte und Erinnerung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -49017,7 +45977,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -49032,40 +45992,40 @@
     "xpReward": 40,
     "orderIndex": 72,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "scenario",
-      "risorsa",
-      "mitigare"
+      "Szenario",
+      "Ressource",
+      "abmildern"
     ],
     "vocabulary": [
       {
-        "word": "scenario",
+        "word": "Szenario",
         "translation": "escenario",
-        "example": "Die Diskussion klärt die Rolle von scenario."
+        "example": "Die Diskussion klärt die Rolle von Szenario."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "mitigare",
+        "word": "abmildern",
         "translation": "mitigar",
-        "example": "Die Diskussion klärt die Rolle von mitigare."
+        "example": "Die Diskussion klärt die Rolle von abmildern."
       },
       {
-        "word": "adattamento",
+        "word": "Anpassung",
         "translation": "adaptación",
-        "example": "Die Diskussion klärt die Rolle von adattamento."
+        "example": "Die Diskussion klärt die Rolle von Anpassung."
       },
       {
-        "word": "interdipendenza",
+        "word": "Wechselwirkung",
         "translation": "interdependencia",
-        "example": "Die Diskussion klärt die Rolle von interdipendenza."
+        "example": "Die Diskussion klärt die Rolle von Wechselwirkung."
       }
     ],
     "dialogue": [],
@@ -49075,7 +46035,7 @@
       "grammarProfile": {
         "name": "Umwelt und Zukunft",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -49084,7 +46044,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -49099,40 +46059,40 @@
     "xpReward": 30,
     "orderIndex": 73,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "tradizione",
-      "appartenenza",
-      "prospettiva"
+      "Tradition",
+      "Zugehörigkeit",
+      "Perspektive"
     ],
     "vocabulary": [
       {
-        "word": "tradizione",
+        "word": "Tradition",
         "translation": "tradición",
-        "example": "Die Diskussion klärt die Rolle von tradizione."
+        "example": "Die Diskussion klärt die Rolle von Tradition."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       },
       {
-        "word": "prospettiva",
+        "word": "Perspektive",
         "translation": "perspectiva",
-        "example": "Die Diskussion klärt die Rolle von prospettiva."
+        "example": "Die Diskussion klärt die Rolle von Perspektive."
       },
       {
-        "word": "valorizzare",
+        "word": "würdigen",
         "translation": "poner en valor",
-        "example": "Die Diskussion klärt die Rolle von valorizzare."
+        "example": "Die Diskussion klärt die Rolle von würdigen."
       },
       {
-        "word": "dialogo",
+        "word": "Dialog",
         "translation": "diálogo",
-        "example": "Die Diskussion klärt die Rolle von dialogo."
+        "example": "Die Diskussion klärt die Rolle von Dialog."
       }
     ],
     "dialogue": [],
@@ -49142,7 +46102,7 @@
       "grammarProfile": {
         "name": "Kultur und Identität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -49151,52 +46111,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tradizione. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Tradition. (1)",
         "options": [
-          "tradizione",
-          "appartenenza",
-          "prospettiva",
-          "valorizzare"
+          "Tradition",
+          "Zugehörigkeit",
+          "Perspektive",
+          "würdigen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tradizione. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Tradition. (2)",
         "options": [
-          "appartenenza",
-          "prospettiva",
-          "valorizzare",
-          "dialogo"
+          "Zugehörigkeit",
+          "Perspektive",
+          "würdigen",
+          "Dialog"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tradizione. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Tradition. (3)",
         "options": [
-          "prospettiva",
-          "valorizzare",
-          "dialogo",
-          "tradizione"
+          "Perspektive",
+          "würdigen",
+          "Dialog",
+          "Tradition"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tradizione. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Tradition. (4)",
         "options": [
-          "valorizzare",
-          "dialogo",
-          "tradizione",
-          "appartenenza"
+          "würdigen",
+          "Dialog",
+          "Tradition",
+          "Zugehörigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu tradizione. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Tradition. (5)",
         "options": [
-          "dialogo",
-          "tradizione",
-          "appartenenza",
-          "prospettiva"
+          "Dialog",
+          "Tradition",
+          "Zugehörigkeit",
+          "Perspektive"
         ]
       }
     ]
@@ -49212,40 +46172,40 @@
     "xpReward": 35,
     "orderIndex": 73,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "memoria",
-      "patrimonio",
-      "trasformazione"
+      "Erinnerung",
+      "Kulturerbe",
+      "Wandel"
     ],
     "vocabulary": [
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "patrimonio",
+        "word": "Kulturerbe",
         "translation": "patrimonio",
-        "example": "Die Diskussion klärt die Rolle von patrimonio."
+        "example": "Die Diskussion klärt die Rolle von Kulturerbe."
       },
       {
-        "word": "trasformazione",
+        "word": "Wandel",
         "translation": "transformación",
-        "example": "Die Diskussion klärt die Rolle von trasformazione."
+        "example": "Die Diskussion klärt die Rolle von Wandel."
       },
       {
-        "word": "preservare",
+        "word": "bewahren",
         "translation": "preservar",
-        "example": "Die Diskussion klärt die Rolle von preservare."
+        "example": "Die Diskussion klärt die Rolle von bewahren."
       },
       {
-        "word": "radice",
+        "word": "Wurzel",
         "translation": "raíz",
-        "example": "Die Diskussion klärt die Rolle von radice."
+        "example": "Die Diskussion klärt die Rolle von Wurzel."
       }
     ],
     "dialogue": [],
@@ -49255,7 +46215,7 @@
       "grammarProfile": {
         "name": "Orte und Erinnerung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -49264,52 +46224,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu memoria. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Erinnerung. (1)",
         "options": [
-          "memoria",
-          "patrimonio",
-          "trasformazione",
-          "preservare"
+          "Erinnerung",
+          "Kulturerbe",
+          "Wandel",
+          "bewahren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu memoria. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Erinnerung. (2)",
         "options": [
-          "patrimonio",
-          "trasformazione",
-          "preservare",
-          "radice"
+          "Kulturerbe",
+          "Wandel",
+          "bewahren",
+          "Wurzel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu memoria. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Erinnerung. (3)",
         "options": [
-          "trasformazione",
-          "preservare",
-          "radice",
-          "memoria"
+          "Wandel",
+          "bewahren",
+          "Wurzel",
+          "Erinnerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu memoria. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Erinnerung. (4)",
         "options": [
-          "preservare",
-          "radice",
-          "memoria",
-          "patrimonio"
+          "bewahren",
+          "Wurzel",
+          "Erinnerung",
+          "Kulturerbe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu memoria. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Erinnerung. (5)",
         "options": [
-          "radice",
-          "memoria",
-          "patrimonio",
-          "trasformazione"
+          "Wurzel",
+          "Erinnerung",
+          "Kulturerbe",
+          "Wandel"
         ]
       }
     ]
@@ -49325,40 +46285,40 @@
     "xpReward": 40,
     "orderIndex": 73,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "scenario",
-      "risorsa",
-      "mitigare"
+      "Szenario",
+      "Ressource",
+      "abmildern"
     ],
     "vocabulary": [
       {
-        "word": "scenario",
+        "word": "Szenario",
         "translation": "escenario",
-        "example": "Die Diskussion klärt die Rolle von scenario."
+        "example": "Die Diskussion klärt die Rolle von Szenario."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "mitigare",
+        "word": "abmildern",
         "translation": "mitigar",
-        "example": "Die Diskussion klärt die Rolle von mitigare."
+        "example": "Die Diskussion klärt die Rolle von abmildern."
       },
       {
-        "word": "adattamento",
+        "word": "Anpassung",
         "translation": "adaptación",
-        "example": "Die Diskussion klärt die Rolle von adattamento."
+        "example": "Die Diskussion klärt die Rolle von Anpassung."
       },
       {
-        "word": "interdipendenza",
+        "word": "Wechselwirkung",
         "translation": "interdependencia",
-        "example": "Die Diskussion klärt die Rolle von interdipendenza."
+        "example": "Die Diskussion klärt die Rolle von Wechselwirkung."
       }
     ],
     "dialogue": [],
@@ -49368,7 +46328,7 @@
       "grammarProfile": {
         "name": "Umwelt und Zukunft",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -49377,52 +46337,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scenario. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Szenario. (1)",
         "options": [
-          "scenario",
-          "risorsa",
-          "mitigare",
-          "adattamento"
+          "Szenario",
+          "Ressource",
+          "abmildern",
+          "Anpassung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scenario. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Szenario. (2)",
         "options": [
-          "risorsa",
-          "mitigare",
-          "adattamento",
-          "interdipendenza"
+          "Ressource",
+          "abmildern",
+          "Anpassung",
+          "Wechselwirkung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scenario. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Szenario. (3)",
         "options": [
-          "mitigare",
-          "adattamento",
-          "interdipendenza",
-          "scenario"
+          "abmildern",
+          "Anpassung",
+          "Wechselwirkung",
+          "Szenario"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scenario. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Szenario. (4)",
         "options": [
-          "adattamento",
-          "interdipendenza",
-          "scenario",
-          "risorsa"
+          "Anpassung",
+          "Wechselwirkung",
+          "Szenario",
+          "Ressource"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu scenario. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Szenario. (5)",
         "options": [
-          "interdipendenza",
-          "scenario",
-          "risorsa",
-          "mitigare"
+          "Wechselwirkung",
+          "Szenario",
+          "Ressource",
+          "abmildern"
         ]
       }
     ]
@@ -49438,170 +46398,40 @@
     "xpReward": 30,
     "orderIndex": 74,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "tradizione",
-      "appartenenza",
-      "prospettiva"
+      "Tradition",
+      "Zugehörigkeit",
+      "Perspektive"
     ],
     "vocabulary": [
       {
-        "word": "tradizione",
+        "word": "Tradition",
         "translation": "tradición",
-        "example": "Die Diskussion klärt die Rolle von tradizione."
+        "example": "Die Diskussion klärt die Rolle von Tradition."
       },
       {
-        "word": "appartenenza",
+        "word": "Zugehörigkeit",
         "translation": "pertenencia",
-        "example": "Die Diskussion klärt die Rolle von appartenenza."
+        "example": "Die Diskussion klärt die Rolle von Zugehörigkeit."
       },
       {
-        "word": "prospettiva",
+        "word": "Perspektive",
         "translation": "perspectiva",
-        "example": "Die Diskussion klärt die Rolle von prospettiva."
+        "example": "Die Diskussion klärt die Rolle von Perspektive."
       },
       {
-        "word": "valorizzare",
+        "word": "würdigen",
         "translation": "poner en valor",
-        "example": "Die Diskussion klärt die Rolle von valorizzare."
+        "example": "Die Diskussion klärt die Rolle von würdigen."
       },
       {
-        "word": "dialogo",
+        "word": "Dialog",
         "translation": "diálogo",
-        "example": "Die Diskussion klärt die Rolle von dialogo."
-      },
-      {
-        "word": "die Kultur",
-        "translation": "la cultura",
-        "example": "Die Kultur eines Landes beeinflusst seine Werte."
-      },
-      {
-        "word": "die Identität",
-        "translation": "la identidad",
-        "example": "Die Identität junger Menschen verändert sich durch Migration."
-      },
-      {
-        "word": "das Erbe",
-        "translation": "el legado",
-        "example": "Das kulturelle Erbe muss geschützt werden."
-      },
-      {
-        "word": "die Zugehörigkeit",
-        "translation": "el sentido de pertenencia",
-        "example": "Die Zugehörigkeit zu einer Gemeinschaft stärkt das Selbstwertgefühl."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Aus einer anderen Perspektive wirkt das Problem einfacher."
-      },
-      {
-        "word": "die Vielfalt",
-        "translation": "la diversidad",
-        "example": "Die Vielfalt der Traditionen bereichert das tägliche Leben."
-      },
-      {
-        "word": "die Integration",
-        "translation": "la integración",
-        "example": "Die Integration verlangt Geduld und Offenheit."
-      },
-      {
-        "word": "die Herkunft",
-        "translation": "el origen",
-        "example": "Die Herkunft prägt oft Sprache und Bräuche."
-      },
-      {
-        "word": "sich identifizieren mit",
-        "translation": "identificarse con",
-        "example": "Viele Menschen identifizieren sich mit mehreren Kulturen."
-      },
-      {
-        "word": "die Norm",
-        "translation": "la norma",
-        "example": "Normen können Verhalten und Erwartungen steuern."
-      },
-      {
-        "word": "der Wert",
-        "translation": "el valor",
-        "example": "Respekt ist ein zentraler Wert in der Gesellschaft."
-      },
-      {
-        "word": "anpassen",
-        "translation": "adaptarse",
-        "example": "Neuankömmlinge müssen sich an neue Regeln anpassen."
-      },
-      {
-        "word": "bewahren",
-        "translation": "conservar",
-        "example": "Wir sollten lokale Bräuche bewahren."
-      },
-      {
-        "word": "vermitteln",
-        "translation": "transmitir",
-        "example": "Schulen vermitteln oft kulturelles Wissen."
-      },
-      {
-        "word": "kritisch denken",
-        "translation": "pensar críticamente",
-        "example": "Es ist wichtig, kritisch zu denken, bevor man urteilt."
-      },
-      {
-        "word": "abwägen",
-        "translation": "sopesar",
-        "example": "Man muss Vor- und Nachteile sorgfältig abwägen."
-      },
-      {
-        "word": "die Debatte",
-        "translation": "el debate",
-        "example": "In der Debatte wurden mehrere Lösungen vorgeschlagen."
-      },
-      {
-        "word": "das Argument",
-        "translation": "el argumento",
-        "example": "Sein bestes Argument überzeugte das Publikum."
-      },
-      {
-        "word": "daher",
-        "translation": "por lo tanto",
-        "example": "Sie sprechen zwei Sprachen, daher verstehen sie verschiedene Perspektiven besser."
-      },
-      {
-        "word": "obwohl",
-        "translation": "aunque",
-        "example": "Obwohl die Meinungen unterschiedlich sind, bleibt der Respekt wichtig."
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "en mi opinión...",
-        "example": "Meiner Meinung nach fördert kultureller Austausch Verständnis.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen? Ich suche Informationen zur lokalen Kultur.",
-        "category": "expression"
-      },
-      {
-        "word": "Das stimmt",
-        "translation": "eso es cierto",
-        "example": "Das stimmt, gemeinsame Traditionen verbinden Menschen.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher",
-        "translation": "no estoy seguro",
-        "example": "Ich bin mir nicht sicher, ob diese Regel noch aktuell ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigen Sie",
-        "translation": "disculpe",
-        "example": "Entschuldigen Sie, dürfen wir eine Frage zur Ausstellung stellen?",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Dialog."
       }
     ],
     "dialogue": [],
@@ -49611,7 +46441,7 @@
       "grammarProfile": {
         "name": "Kultur und Identität",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -49622,50 +46452,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „tradición“?",
         "options": [
-          "tradizione",
-          "appartenenza",
-          "prospettiva",
-          "valorizzare"
+          "Tradition",
+          "Zugehörigkeit",
+          "Perspektive",
+          "würdigen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „appartenenza“.",
+        "prompt": "Wähle „Zugehörigkeit“.",
         "options": [
-          "appartenenza",
-          "prospettiva",
-          "valorizzare",
-          "dialogo"
+          "Zugehörigkeit",
+          "Perspektive",
+          "würdigen",
+          "Dialog"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „prospettiva“.",
+        "prompt": "Wähle „Perspektive“.",
         "options": [
-          "prospettiva",
-          "valorizzare",
-          "dialogo",
-          "tradizione"
+          "Perspektive",
+          "würdigen",
+          "Dialog",
+          "Tradition"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „valorizzare“.",
+        "prompt": "Wähle „würdigen“.",
         "options": [
-          "valorizzare",
-          "dialogo",
-          "tradizione",
-          "appartenenza"
+          "würdigen",
+          "Dialog",
+          "Tradition",
+          "Zugehörigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „dialogo“.",
+        "prompt": "Wähle „Dialog“.",
         "options": [
-          "dialogo",
-          "tradizione",
-          "appartenenza",
-          "prospettiva"
+          "Dialog",
+          "Tradition",
+          "Zugehörigkeit",
+          "Perspektive"
         ]
       }
     ]
@@ -49681,171 +46511,40 @@
     "xpReward": 35,
     "orderIndex": 74,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "memoria",
-      "patrimonio",
-      "trasformazione"
+      "Erinnerung",
+      "Kulturerbe",
+      "Wandel"
     ],
     "vocabulary": [
       {
-        "word": "memoria",
+        "word": "Erinnerung",
         "translation": "memoria",
-        "example": "Die Diskussion klärt die Rolle von memoria."
+        "example": "Die Diskussion klärt die Rolle von Erinnerung."
       },
       {
-        "word": "patrimonio",
+        "word": "Kulturerbe",
         "translation": "patrimonio",
-        "example": "Die Diskussion klärt die Rolle von patrimonio."
+        "example": "Die Diskussion klärt die Rolle von Kulturerbe."
       },
       {
-        "word": "trasformazione",
+        "word": "Wandel",
         "translation": "transformación",
-        "example": "Die Diskussion klärt die Rolle von trasformazione."
-      },
-      {
-        "word": "preservare",
-        "translation": "preservar",
-        "example": "Die Diskussion klärt die Rolle von preservare."
-      },
-      {
-        "word": "radice",
-        "translation": "raíz",
-        "example": "Die Diskussion klärt die Rolle von radice."
-      },
-      {
-        "word": "der Erinnerungsort",
-        "translation": "lugar de memoria",
-        "example": "Der Erinnerungsort verknüpft Geschichte und Gegenwart."
-      },
-      {
-        "word": "das Denkmal",
-        "translation": "monumento",
-        "example": "Das Denkmal erinnert an die Gefallenen."
-      },
-      {
-        "word": "die Gedenkstätte",
-        "translation": "sitio de memoria",
-        "example": "Die Gedenkstätte fördert die Auseinandersetzung mit der Vergangenheit."
-      },
-      {
-        "word": "das Mahnmal",
-        "translation": "monumento recordatorio",
-        "example": "Das Mahnmal mahnt zur Wachsamkeit gegen das Vergessen."
-      },
-      {
-        "word": "die Erinnerungskultur",
-        "translation": "cultura de la memoria",
-        "example": "Die Erinnerungskultur prägt den öffentlichen Diskurs."
-      },
-      {
-        "word": "das kollektive Gedächtnis",
-        "translation": "memoria colectiva",
-        "example": "Das kollektive Gedächtnis beeinflusst politische Entscheidungen."
-      },
-      {
-        "word": "die Überlieferung",
-        "translation": "transmisión",
-        "example": "Die Überlieferung trägt lokale Geschichten weiter."
+        "example": "Die Diskussion klärt die Rolle von Wandel."
       },
       {
         "word": "bewahren",
-        "translation": "preservar, conservar",
-        "example": "Wir müssen das historische Stadtbild bewahren."
+        "translation": "preservar",
+        "example": "Die Diskussion klärt die Rolle von bewahren."
       },
       {
-        "word": "restaurieren",
-        "translation": "restaurar",
-        "example": "Fachleute restaurieren die beschädigte Fassade."
-      },
-      {
-        "word": "die Restaurierung",
-        "translation": "restauración",
-        "example": "Die Restaurierung dauerte mehrere Jahre."
-      },
-      {
-        "word": "die Spur",
-        "translation": "rastro, vestigio",
-        "example": "Es sind noch Spuren der ursprünglichen Bebauung sichtbar."
-      },
-      {
-        "word": "die Identitätsbildung",
-        "translation": "formación de identidad",
-        "example": "Die Identitätsbildung einer Gemeinschaft ist komplex."
-      },
-      {
-        "word": "die Vergangenheitsbewältigung",
-        "translation": "superación del pasado",
-        "example": "Die Vergangenheitsbewältigung erfordert Offenheit."
-      },
-      {
-        "word": "die Kontinuität",
-        "translation": "continuidad",
-        "example": "Die Kontinuität in der Pflege historischer Orte ist wichtig."
-      },
-      {
-        "word": "die Diskontinuität",
-        "translation": "discontinuidad",
-        "example": "Die Diskontinuität der Nutzung veränderte das Stadtbild."
-      },
-      {
-        "word": "die Topographie",
-        "translation": "topografía",
-        "example": "Die Topographie der Stadt erklärt viele Erinnerungsmuster."
-      },
-      {
-        "word": "der Kontext",
-        "translation": "contexto",
-        "example": "Im historischen Kontext gewinnt der Ort an Bedeutung."
-      },
-      {
-        "word": "die Quellenkritik",
-        "translation": "crítica de fuentes",
-        "example": "Quellenkritik ist für verlässliche Interpretationen unerlässlich."
-      },
-      {
-        "word": "Könnten Sie mir bei der Quellenrecherche helfen?",
-        "translation": "¿Podría ayudarme con la búsqueda de fuentes?",
-        "example": "Könnten Sie mir bei der Quellenrecherche helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach sollten wir das Denkmal erhalten.",
-        "translation": "En mi opinión deberíamos conservar el monumento.",
-        "example": "Meiner Meinung nach sollten wir das Denkmal erhalten.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich ganz Ihrer Meinung.",
-        "translation": "Estoy totalmente de acuerdo con usted.",
-        "example": "Da bin ich ganz Ihrer Meinung.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Bedenken bezüglich der Umgestaltung.",
-        "translation": "Tengo reservas respecto a la remodelación.",
-        "example": "Ich habe Bedenken bezüglich der Umgestaltung.",
-        "category": "expression"
-      },
-      {
-        "word": "Würden Sie bitte Rücksicht nehmen?",
-        "translation": "¿Podría por favor mostrar consideración?",
-        "example": "Würden Sie bitte Rücksicht nehmen?",
-        "category": "expression"
-      },
-      {
-        "word": "Aufgrund der historischen Bedeutung ist Vorsicht geboten.",
-        "translation": "Debido a la importancia histórica se requiere precaución.",
-        "example": "Aufgrund der historischen Bedeutung ist Vorsicht geboten.",
-        "category": "expression"
-      },
-      {
-        "word": "die Erinnerungspraxis",
-        "translation": "prácticas de la memoria",
-        "example": "Die Erinnerungspraxis variiert je nach Generation."
+        "word": "Wurzel",
+        "translation": "raíz",
+        "example": "Die Diskussion klärt die Rolle von Wurzel."
       }
     ],
     "dialogue": [],
@@ -49855,7 +46554,7 @@
       "grammarProfile": {
         "name": "Orte und Erinnerung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -49866,50 +46565,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „memoria“?",
         "options": [
-          "memoria",
-          "patrimonio",
-          "trasformazione",
-          "preservare"
+          "Erinnerung",
+          "Kulturerbe",
+          "Wandel",
+          "bewahren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „patrimonio“.",
+        "prompt": "Wähle „Kulturerbe“.",
         "options": [
-          "patrimonio",
-          "trasformazione",
-          "preservare",
-          "radice"
+          "Kulturerbe",
+          "Wandel",
+          "bewahren",
+          "Wurzel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „trasformazione“.",
+        "prompt": "Wähle „Wandel“.",
         "options": [
-          "trasformazione",
-          "preservare",
-          "radice",
-          "memoria"
+          "Wandel",
+          "bewahren",
+          "Wurzel",
+          "Erinnerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „preservare“.",
+        "prompt": "Wähle „bewahren“.",
         "options": [
-          "preservare",
-          "radice",
-          "memoria",
-          "patrimonio"
+          "bewahren",
+          "Wurzel",
+          "Erinnerung",
+          "Kulturerbe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „radice“.",
+        "prompt": "Wähle „Wurzel“.",
         "options": [
-          "radice",
-          "memoria",
-          "patrimonio",
-          "trasformazione"
+          "Wurzel",
+          "Erinnerung",
+          "Kulturerbe",
+          "Wandel"
         ]
       }
     ]
@@ -49925,171 +46624,40 @@
     "xpReward": 40,
     "orderIndex": 74,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "scenario",
-      "risorsa",
-      "mitigare"
+      "Szenario",
+      "Ressource",
+      "abmildern"
     ],
     "vocabulary": [
       {
-        "word": "scenario",
+        "word": "Szenario",
         "translation": "escenario",
-        "example": "Die Diskussion klärt die Rolle von scenario."
+        "example": "Die Diskussion klärt die Rolle von Szenario."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
-      },
-      {
-        "word": "mitigare",
-        "translation": "mitigar",
-        "example": "Die Diskussion klärt die Rolle von mitigare."
-      },
-      {
-        "word": "adattamento",
-        "translation": "adaptación",
-        "example": "Die Diskussion klärt die Rolle von adattamento."
-      },
-      {
-        "word": "interdipendenza",
-        "translation": "interdependencia",
-        "example": "Die Diskussion klärt die Rolle von interdipendenza."
-      },
-      {
-        "word": "die Nachhaltigkeit",
-        "translation": "sostenibilidad",
-        "example": "Die Nachhaltigkeit muss in allen Politikbereichen verankert werden."
-      },
-      {
-        "word": "die Resilienz",
-        "translation": "resiliencia",
-        "example": "Die Resilienz von Ökosystemen ist zentral für die Anpassung an Extreme."
-      },
-      {
-        "word": "das Emissionsbudget",
-        "translation": "presupuesto de emisiones",
-        "example": "Das Emissionsbudget für die nächste Dekade ist begrenzt und muss gerecht verteilt werden."
-      },
-      {
-        "word": "die Dekarbonisierung",
-        "translation": "descarbonización",
-        "example": "Die Dekarbonisierung der Industrie erfordert technologische und politische Maßnahmen."
-      },
-      {
-        "word": "die Kreislaufwirtschaft",
-        "translation": "economía circular",
-        "example": "Die Kreislaufwirtschaft reduziert Abfall und schont Ressourcen."
-      },
-      {
-        "word": "die Biodiversität",
-        "translation": "biodiversidad",
-        "example": "Der Verlust der Biodiversität gefährdet Nahrungssysteme und Ökosystemfunktionen."
-      },
-      {
-        "word": "die Ökosystemdienstleistung",
-        "translation": "servicio ecosistémico",
-        "example": "Wälder leisten wichtige Ökosystemdienstleistungen wie Klimaregulation und Wasserspeicherung."
-      },
-      {
-        "word": "emittieren",
-        "translation": "emitir",
-        "example": "Viele Verkehrssektoren emittieren weiterhin große Mengen CO2."
-      },
-      {
-        "word": "kompensieren",
-        "translation": "compensar",
-        "example": "Unternehmen kompensieren unvermeidbare Emissionen durch Aufforstungsprojekte."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
         "word": "abmildern",
-        "translation": "mitigar, atenuar",
-        "example": "Gezielte Infrastrukturinvestitionen können die Folgen extremer Wetterereignisse abmildern."
+        "translation": "mitigar",
+        "example": "Die Diskussion klärt die Rolle von abmildern."
       },
       {
-        "word": "die Anpassungsstrategie",
-        "translation": "estrategia de adaptación",
-        "example": "Die Anpassungsstrategie berücksichtigt vulnerable Bevölkerungsgruppen und Infrastrukturen."
+        "word": "Anpassung",
+        "translation": "adaptación",
+        "example": "Die Diskussion klärt die Rolle von Anpassung."
       },
       {
-        "word": "vorausschauend",
-        "translation": "previsor, con visión de futuro",
-        "example": "Ein vorausschauender Plan bezieht Klimaprojektionen systematisch ein."
-      },
-      {
-        "word": "die Energiewende",
-        "translation": "transición energética",
-        "example": "Die Energiewende erfordert den Ausbau erneuerbarer Energien und Speichertechnologien."
-      },
-      {
-        "word": "die Ressourcenallokation",
-        "translation": "asignación de recursos",
-        "example": "Eine transparente Ressourcenallokation stärkt die Effizienz von Klimaschutzmaßnahmen."
-      },
-      {
-        "word": "die Umweltbilanz",
-        "translation": "balance ambiental",
-        "example": "Die Umweltbilanz des Projekts wurde von unabhängigen Gutachtern geprüft."
-      },
-      {
-        "word": "die Anreizstruktur",
-        "translation": "estructura de incentivos",
-        "example": "Eine geeignete Anreizstruktur kann nachhaltige Innovationen fördern."
-      },
-      {
-        "word": "antizipieren",
-        "translation": "anticipar",
-        "example": "Politiken müssen mögliche Risiken frühzeitig antizipieren, um wirksam zu sein."
-      },
-      {
-        "word": "die Vulnerabilität",
-        "translation": "vulnerabilidad",
-        "example": "Die Vulnerabilität ländlicher Gemeinden steigt mit zunehmender Trockenheit."
-      },
-      {
-        "word": "präventiv",
-        "translation": "preventivo",
-        "example": "Präventive Maßnahmen reduzieren langfristig Kosten und Schäden."
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, die Emissionsdaten für das Projekt zu analysieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Ansicht nach sind integrierte Konzepte für eine nachhaltige Entwicklung unerlässlich.",
-        "category": "expression"
-      },
-      {
-        "word": "Dem stimme ich zu",
-        "translation": "Estoy de acuerdo con eso",
-        "example": "Dem stimme ich zu; nur so lassen sich langfristige Ziele erreichen.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bezweifle, dass...",
-        "translation": "Dudo que...",
-        "example": "Ich bezweifle, dass kurzfristige Maßnahmen allein den Temperaturanstieg begrenzen werden.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz etwas anmerken?",
-        "translation": "¿Puedo señalar algo brevemente?",
-        "example": "Darf ich kurz etwas anmerken? Die Daten deuten auf alternative Prioritäten hin.",
-        "category": "expression"
-      },
-      {
-        "word": "Infolgedessen",
-        "translation": "Como consecuencia",
-        "example": "Infolgedessen stiegen die Kosten für Reparaturen erheblich.",
-        "category": "expression"
+        "word": "Wechselwirkung",
+        "translation": "interdependencia",
+        "example": "Die Diskussion klärt die Rolle von Wechselwirkung."
       }
     ],
     "dialogue": [],
@@ -50099,7 +46667,7 @@
       "grammarProfile": {
         "name": "Umwelt und Zukunft",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -50110,50 +46678,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „escenario“?",
         "options": [
-          "scenario",
-          "risorsa",
-          "mitigare",
-          "adattamento"
+          "Szenario",
+          "Ressource",
+          "abmildern",
+          "Anpassung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „risorsa“.",
+        "prompt": "Wähle „Ressource“.",
         "options": [
-          "risorsa",
-          "mitigare",
-          "adattamento",
-          "interdipendenza"
+          "Ressource",
+          "abmildern",
+          "Anpassung",
+          "Wechselwirkung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „mitigare“.",
+        "prompt": "Wähle „abmildern“.",
         "options": [
-          "mitigare",
-          "adattamento",
-          "interdipendenza",
-          "scenario"
+          "abmildern",
+          "Anpassung",
+          "Wechselwirkung",
+          "Szenario"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „adattamento“.",
+        "prompt": "Wähle „Anpassung“.",
         "options": [
-          "adattamento",
-          "interdipendenza",
-          "scenario",
-          "risorsa"
+          "Anpassung",
+          "Wechselwirkung",
+          "Szenario",
+          "Ressource"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „interdipendenza“.",
+        "prompt": "Wähle „Wechselwirkung“.",
         "options": [
-          "interdipendenza",
-          "scenario",
-          "risorsa",
-          "mitigare"
+          "Wechselwirkung",
+          "Szenario",
+          "Ressource",
+          "abmildern"
         ]
       }
     ]
@@ -50848,45 +47416,45 @@
     "xpReward": 30,
     "orderIndex": 80,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "dispositivo",
-      "dati",
-      "proteggere"
+      "Gerät",
+      "Daten",
+      "schützen"
     ],
     "vocabulary": [
       {
-        "word": "dispositivo",
+        "word": "Gerät",
         "translation": "dispositivo",
-        "example": "Die Diskussion klärt die Rolle von dispositivo."
+        "example": "Die Diskussion klärt die Rolle von Gerät."
       },
       {
-        "word": "dati",
+        "word": "Daten",
         "translation": "datos",
-        "example": "Die Diskussion klärt die Rolle von dati."
+        "example": "Die Diskussion klärt die Rolle von Daten."
       },
       {
-        "word": "proteggere",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von proteggere."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "consenso",
+        "word": "Einwilligung",
         "translation": "consentimiento",
-        "example": "Die Diskussion klärt die Rolle von consenso."
+        "example": "Die Diskussion klärt die Rolle von Einwilligung."
       },
       {
-        "word": "rischio",
+        "word": "Risiko",
         "translation": "riesgo",
-        "example": "Die Diskussion klärt die Rolle von rischio."
+        "example": "Die Diskussion klärt die Rolle von Risiko."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Technik und Datenschutz» untersucht die Gruppe dispositivo und dati. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Technik und Datenschutz» untersucht die Gruppe Gerät und Daten. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -50896,7 +47464,7 @@
       "grammarProfile": {
         "name": "Technik und Datenschutz",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -50907,10 +47475,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "dispositivo",
-          "proteggere",
-          "consenso",
-          "rischio"
+          "Gerät",
+          "schützen",
+          "Einwilligung",
+          "Risiko"
         ]
       },
       {
@@ -50921,39 +47489,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-technik-und-datenschutz-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "Technik",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-b2-b2-technik-und-datenschutz-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "dati",
-          "Jede",
-          "soll",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-technik-und-datenschutz-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -50969,45 +47504,45 @@
     "xpReward": 35,
     "orderIndex": 80,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "registro",
-      "destinatario",
-      "intenzione"
+      "Register",
+      "Adressat",
+      "Absicht"
     ],
     "vocabulary": [
       {
-        "word": "registro",
+        "word": "Register",
         "translation": "registro",
-        "example": "Die Diskussion klärt die Rolle von registro."
+        "example": "Die Diskussion klärt die Rolle von Register."
       },
       {
-        "word": "destinatario",
+        "word": "Adressat",
         "translation": "destinatario",
-        "example": "Die Diskussion klärt die Rolle von destinatario."
+        "example": "Die Diskussion klärt die Rolle von Adressat."
       },
       {
-        "word": "intenzione",
+        "word": "Absicht",
         "translation": "intención",
-        "example": "Die Diskussion klärt die Rolle von intenzione."
+        "example": "Die Diskussion klärt die Rolle von Absicht."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "implicito",
+        "word": "implizit",
         "translation": "implícito",
-        "example": "Die Diskussion klärt die Rolle von implicito."
+        "example": "Die Diskussion klärt die Rolle von implizit."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Kommunikation und Register» untersucht die Gruppe registro und destinatario. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Kommunikation und Register» untersucht die Gruppe Register und Adressat. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -51017,7 +47552,7 @@
       "grammarProfile": {
         "name": "Kommunikation und Register",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -51028,10 +47563,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "registro",
-          "intenzione",
-          "formulare",
-          "implicito"
+          "Register",
+          "Absicht",
+          "formulieren",
+          "implizit"
         ]
       },
       {
@@ -51042,39 +47577,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-kommunikation-und-register-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-kommunikation-und-register-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-kommunikation-und-register-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -51090,45 +47592,45 @@
     "xpReward": 40,
     "orderIndex": 80,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "cornice",
-      "narrazione",
-      "selezionare"
+      "Rahmen",
+      "Erzählung",
+      "auswählen"
     ],
     "vocabulary": [
       {
-        "word": "cornice",
+        "word": "Rahmen",
         "translation": "marco",
-        "example": "Die Diskussion klärt die Rolle von cornice."
+        "example": "Die Diskussion klärt die Rolle von Rahmen."
       },
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narrativa",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "selezionare",
+        "word": "auswählen",
         "translation": "seleccionar",
-        "example": "Die Diskussion klärt die Rolle von selezionare."
+        "example": "Die Diskussion klärt die Rolle von auswählen."
       },
       {
-        "word": "visibilità",
+        "word": "Sichtbarkeit",
         "translation": "visibilidad",
-        "example": "Die Diskussion klärt die Rolle von visibilità."
+        "example": "Die Diskussion klärt die Rolle von Sichtbarkeit."
       },
       {
-        "word": "interpretare",
+        "word": "deuten",
         "translation": "interpretar",
-        "example": "Die Diskussion klärt die Rolle von interpretare."
+        "example": "Die Diskussion klärt die Rolle von deuten."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Medien und Diskurs» untersucht die Gruppe cornice und narrazione. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Medien und Diskurs» untersucht die Gruppe Rahmen und Erzählung. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -51138,7 +47640,7 @@
       "grammarProfile": {
         "name": "Medien und Diskurs",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -51149,10 +47651,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "cornice",
-          "selezionare",
-          "visibilità",
-          "interpretare"
+          "Rahmen",
+          "auswählen",
+          "Sichtbarkeit",
+          "deuten"
         ]
       },
       {
@@ -51163,39 +47665,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-medien-und-diskurs-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "Diskurs",
-          "cornice",
-          "Antwort",
-          "einzige"
-        ]
-      },
-      {
-        "id": "german-c2-c2-medien-und-diskurs-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-medien-und-diskurs-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -53303,50 +49772,50 @@
     "xpReward": 30,
     "orderIndex": 81,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "dispositivo",
-      "dati",
-      "proteggere"
+      "Gerät",
+      "Daten",
+      "schützen"
     ],
     "vocabulary": [
       {
-        "word": "dispositivo",
+        "word": "Gerät",
         "translation": "dispositivo",
-        "example": "Die Diskussion klärt die Rolle von dispositivo."
+        "example": "Die Diskussion klärt die Rolle von Gerät."
       },
       {
-        "word": "dati",
+        "word": "Daten",
         "translation": "datos",
-        "example": "Die Diskussion klärt die Rolle von dati."
+        "example": "Die Diskussion klärt die Rolle von Daten."
       },
       {
-        "word": "proteggere",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von proteggere."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "consenso",
+        "word": "Einwilligung",
         "translation": "consentimiento",
-        "example": "Die Diskussion klärt die Rolle von consenso."
+        "example": "Die Diskussion klärt die Rolle von Einwilligung."
       },
       {
-        "word": "rischio",
+        "word": "Risiko",
         "translation": "riesgo",
-        "example": "Die Diskussion klärt die Rolle von rischio."
+        "example": "Die Diskussion klärt die Rolle von Risiko."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „dispositivo“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -53355,7 +49824,7 @@
       "grammarProfile": {
         "name": "Technik und Datenschutz",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -53364,7 +49833,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "prompt": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -53379,46 +49848,46 @@
     "xpReward": 35,
     "orderIndex": 81,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "registro",
-      "destinatario",
-      "intenzione"
+      "Register",
+      "Adressat",
+      "Absicht"
     ],
     "vocabulary": [
       {
-        "word": "registro",
+        "word": "Register",
         "translation": "registro",
-        "example": "Die Diskussion klärt die Rolle von registro."
+        "example": "Die Diskussion klärt die Rolle von Register."
       },
       {
-        "word": "destinatario",
+        "word": "Adressat",
         "translation": "destinatario",
-        "example": "Die Diskussion klärt die Rolle von destinatario."
+        "example": "Die Diskussion klärt die Rolle von Adressat."
       },
       {
-        "word": "intenzione",
+        "word": "Absicht",
         "translation": "intención",
-        "example": "Die Diskussion klärt die Rolle von intenzione."
+        "example": "Die Diskussion klärt die Rolle von Absicht."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "implicito",
+        "word": "implizit",
         "translation": "implícito",
-        "example": "Die Diskussion klärt die Rolle von implicito."
+        "example": "Die Diskussion klärt die Rolle von implizit."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "line": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -53431,7 +49900,7 @@
       "grammarProfile": {
         "name": "Kommunikation und Register",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -53440,7 +49909,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "prompt": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -53455,46 +49924,46 @@
     "xpReward": 40,
     "orderIndex": 81,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "cornice",
-      "narrazione",
-      "selezionare"
+      "Rahmen",
+      "Erzählung",
+      "auswählen"
     ],
     "vocabulary": [
       {
-        "word": "cornice",
+        "word": "Rahmen",
         "translation": "marco",
-        "example": "Die Diskussion klärt die Rolle von cornice."
+        "example": "Die Diskussion klärt die Rolle von Rahmen."
       },
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narrativa",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "selezionare",
+        "word": "auswählen",
         "translation": "seleccionar",
-        "example": "Die Diskussion klärt die Rolle von selezionare."
+        "example": "Die Diskussion klärt die Rolle von auswählen."
       },
       {
-        "word": "visibilità",
+        "word": "Sichtbarkeit",
         "translation": "visibilidad",
-        "example": "Die Diskussion klärt die Rolle von visibilità."
+        "example": "Die Diskussion klärt die Rolle von Sichtbarkeit."
       },
       {
-        "word": "interpretare",
+        "word": "deuten",
         "translation": "interpretar",
-        "example": "Die Diskussion klärt die Rolle von interpretare."
+        "example": "Die Diskussion klärt die Rolle von deuten."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "line": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -53507,7 +49976,7 @@
       "grammarProfile": {
         "name": "Medien und Diskurs",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -53516,7 +49985,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "prompt": "Sprich eine Minute lang: bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -56030,40 +52499,40 @@
     "xpReward": 30,
     "orderIndex": 82,
     "estimatedMinutes": 20,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "dispositivo",
-      "dati",
-      "proteggere"
+      "Gerät",
+      "Daten",
+      "schützen"
     ],
     "vocabulary": [
       {
-        "word": "dispositivo",
+        "word": "Gerät",
         "translation": "dispositivo",
-        "example": "Die Diskussion klärt die Rolle von dispositivo."
+        "example": "Die Diskussion klärt die Rolle von Gerät."
       },
       {
-        "word": "dati",
+        "word": "Daten",
         "translation": "datos",
-        "example": "Die Diskussion klärt die Rolle von dati."
+        "example": "Die Diskussion klärt die Rolle von Daten."
       },
       {
-        "word": "proteggere",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von proteggere."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "consenso",
+        "word": "Einwilligung",
         "translation": "consentimiento",
-        "example": "Die Diskussion klärt die Rolle von consenso."
+        "example": "Die Diskussion klärt die Rolle von Einwilligung."
       },
       {
-        "word": "rischio",
+        "word": "Risiko",
         "translation": "riesgo",
-        "example": "Die Diskussion klärt die Rolle von rischio."
+        "example": "Die Diskussion klärt die Rolle von Risiko."
       }
     ],
     "dialogue": [],
@@ -56073,7 +52542,7 @@
       "grammarProfile": {
         "name": "Technik und Datenschutz",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -56082,7 +52551,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um bewerten um Perspektive com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -56097,40 +52566,40 @@
     "xpReward": 35,
     "orderIndex": 82,
     "estimatedMinutes": 20,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "registro",
-      "destinatario",
-      "intenzione"
+      "Register",
+      "Adressat",
+      "Absicht"
     ],
     "vocabulary": [
       {
-        "word": "registro",
+        "word": "Register",
         "translation": "registro",
-        "example": "Die Diskussion klärt die Rolle von registro."
+        "example": "Die Diskussion klärt die Rolle von Register."
       },
       {
-        "word": "destinatario",
+        "word": "Adressat",
         "translation": "destinatario",
-        "example": "Die Diskussion klärt die Rolle von destinatario."
+        "example": "Die Diskussion klärt die Rolle von Adressat."
       },
       {
-        "word": "intenzione",
+        "word": "Absicht",
         "translation": "intención",
-        "example": "Die Diskussion klärt die Rolle von intenzione."
+        "example": "Die Diskussion klärt die Rolle von Absicht."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "implicito",
+        "word": "implizit",
         "translation": "implícito",
-        "example": "Die Diskussion klärt die Rolle von implicito."
+        "example": "Die Diskussion klärt die Rolle von implizit."
       }
     ],
     "dialogue": [],
@@ -56140,7 +52609,7 @@
       "grammarProfile": {
         "name": "Kommunikation und Register",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -56149,7 +52618,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um bewerten um Perspektive com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -56164,40 +52633,40 @@
     "xpReward": 40,
     "orderIndex": 82,
     "estimatedMinutes": 20,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "cornice",
-      "narrazione",
-      "selezionare"
+      "Rahmen",
+      "Erzählung",
+      "auswählen"
     ],
     "vocabulary": [
       {
-        "word": "cornice",
+        "word": "Rahmen",
         "translation": "marco",
-        "example": "Die Diskussion klärt die Rolle von cornice."
+        "example": "Die Diskussion klärt die Rolle von Rahmen."
       },
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narrativa",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "selezionare",
+        "word": "auswählen",
         "translation": "seleccionar",
-        "example": "Die Diskussion klärt die Rolle von selezionare."
+        "example": "Die Diskussion klärt die Rolle von auswählen."
       },
       {
-        "word": "visibilità",
+        "word": "Sichtbarkeit",
         "translation": "visibilidad",
-        "example": "Die Diskussion klärt die Rolle von visibilità."
+        "example": "Die Diskussion klärt die Rolle von Sichtbarkeit."
       },
       {
-        "word": "interpretare",
+        "word": "deuten",
         "translation": "interpretar",
-        "example": "Die Diskussion klärt die Rolle von interpretare."
+        "example": "Die Diskussion klärt die Rolle von deuten."
       }
     ],
     "dialogue": [],
@@ -56207,7 +52676,7 @@
       "grammarProfile": {
         "name": "Medien und Diskurs",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -56216,7 +52685,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um bewerten um Perspektive com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um bewerten ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -56231,40 +52700,40 @@
     "xpReward": 30,
     "orderIndex": 83,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "dispositivo",
-      "dati",
-      "proteggere"
+      "Gerät",
+      "Daten",
+      "schützen"
     ],
     "vocabulary": [
       {
-        "word": "dispositivo",
+        "word": "Gerät",
         "translation": "dispositivo",
-        "example": "Die Diskussion klärt die Rolle von dispositivo."
+        "example": "Die Diskussion klärt die Rolle von Gerät."
       },
       {
-        "word": "dati",
+        "word": "Daten",
         "translation": "datos",
-        "example": "Die Diskussion klärt die Rolle von dati."
+        "example": "Die Diskussion klärt die Rolle von Daten."
       },
       {
-        "word": "proteggere",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von proteggere."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "consenso",
+        "word": "Einwilligung",
         "translation": "consentimiento",
-        "example": "Die Diskussion klärt die Rolle von consenso."
+        "example": "Die Diskussion klärt die Rolle von Einwilligung."
       },
       {
-        "word": "rischio",
+        "word": "Risiko",
         "translation": "riesgo",
-        "example": "Die Diskussion klärt die Rolle von rischio."
+        "example": "Die Diskussion klärt die Rolle von Risiko."
       }
     ],
     "dialogue": [],
@@ -56274,7 +52743,7 @@
       "grammarProfile": {
         "name": "Technik und Datenschutz",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -56283,52 +52752,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dispositivo. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Gerät. (1)",
         "options": [
-          "dispositivo",
-          "dati",
-          "proteggere",
-          "consenso"
+          "Gerät",
+          "Daten",
+          "schützen",
+          "Einwilligung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dispositivo. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Gerät. (2)",
         "options": [
-          "dati",
-          "proteggere",
-          "consenso",
-          "rischio"
+          "Daten",
+          "schützen",
+          "Einwilligung",
+          "Risiko"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dispositivo. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Gerät. (3)",
         "options": [
-          "proteggere",
-          "consenso",
-          "rischio",
-          "dispositivo"
+          "schützen",
+          "Einwilligung",
+          "Risiko",
+          "Gerät"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dispositivo. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Gerät. (4)",
         "options": [
-          "consenso",
-          "rischio",
-          "dispositivo",
-          "dati"
+          "Einwilligung",
+          "Risiko",
+          "Gerät",
+          "Daten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu dispositivo. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Gerät. (5)",
         "options": [
-          "rischio",
-          "dispositivo",
-          "dati",
-          "proteggere"
+          "Risiko",
+          "Gerät",
+          "Daten",
+          "schützen"
         ]
       }
     ]
@@ -56344,40 +52813,40 @@
     "xpReward": 35,
     "orderIndex": 83,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "registro",
-      "destinatario",
-      "intenzione"
+      "Register",
+      "Adressat",
+      "Absicht"
     ],
     "vocabulary": [
       {
-        "word": "registro",
+        "word": "Register",
         "translation": "registro",
-        "example": "Die Diskussion klärt die Rolle von registro."
+        "example": "Die Diskussion klärt die Rolle von Register."
       },
       {
-        "word": "destinatario",
+        "word": "Adressat",
         "translation": "destinatario",
-        "example": "Die Diskussion klärt die Rolle von destinatario."
+        "example": "Die Diskussion klärt die Rolle von Adressat."
       },
       {
-        "word": "intenzione",
+        "word": "Absicht",
         "translation": "intención",
-        "example": "Die Diskussion klärt die Rolle von intenzione."
+        "example": "Die Diskussion klärt die Rolle von Absicht."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "implicito",
+        "word": "implizit",
         "translation": "implícito",
-        "example": "Die Diskussion klärt die Rolle von implicito."
+        "example": "Die Diskussion klärt die Rolle von implizit."
       }
     ],
     "dialogue": [],
@@ -56387,7 +52856,7 @@
       "grammarProfile": {
         "name": "Kommunikation und Register",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -56396,52 +52865,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu registro. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Register. (1)",
         "options": [
-          "registro",
-          "destinatario",
-          "intenzione",
-          "formulare"
+          "Register",
+          "Adressat",
+          "Absicht",
+          "formulieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu registro. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Register. (2)",
         "options": [
-          "destinatario",
-          "intenzione",
-          "formulare",
-          "implicito"
+          "Adressat",
+          "Absicht",
+          "formulieren",
+          "implizit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu registro. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Register. (3)",
         "options": [
-          "intenzione",
-          "formulare",
-          "implicito",
-          "registro"
+          "Absicht",
+          "formulieren",
+          "implizit",
+          "Register"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu registro. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Register. (4)",
         "options": [
-          "formulare",
-          "implicito",
-          "registro",
-          "destinatario"
+          "formulieren",
+          "implizit",
+          "Register",
+          "Adressat"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu registro. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Register. (5)",
         "options": [
-          "implicito",
-          "registro",
-          "destinatario",
-          "intenzione"
+          "implizit",
+          "Register",
+          "Adressat",
+          "Absicht"
         ]
       }
     ]
@@ -56457,40 +52926,40 @@
     "xpReward": 40,
     "orderIndex": 83,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "cornice",
-      "narrazione",
-      "selezionare"
+      "Rahmen",
+      "Erzählung",
+      "auswählen"
     ],
     "vocabulary": [
       {
-        "word": "cornice",
+        "word": "Rahmen",
         "translation": "marco",
-        "example": "Die Diskussion klärt die Rolle von cornice."
+        "example": "Die Diskussion klärt die Rolle von Rahmen."
       },
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narrativa",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "selezionare",
+        "word": "auswählen",
         "translation": "seleccionar",
-        "example": "Die Diskussion klärt die Rolle von selezionare."
+        "example": "Die Diskussion klärt die Rolle von auswählen."
       },
       {
-        "word": "visibilità",
+        "word": "Sichtbarkeit",
         "translation": "visibilidad",
-        "example": "Die Diskussion klärt die Rolle von visibilità."
+        "example": "Die Diskussion klärt die Rolle von Sichtbarkeit."
       },
       {
-        "word": "interpretare",
+        "word": "deuten",
         "translation": "interpretar",
-        "example": "Die Diskussion klärt die Rolle von interpretare."
+        "example": "Die Diskussion klärt die Rolle von deuten."
       }
     ],
     "dialogue": [],
@@ -56500,7 +52969,7 @@
       "grammarProfile": {
         "name": "Medien und Diskurs",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -56509,52 +52978,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu cornice. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Rahmen. (1)",
         "options": [
-          "cornice",
-          "narrazione",
-          "selezionare",
-          "visibilità"
+          "Rahmen",
+          "Erzählung",
+          "auswählen",
+          "Sichtbarkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu cornice. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Rahmen. (2)",
         "options": [
-          "narrazione",
-          "selezionare",
-          "visibilità",
-          "interpretare"
+          "Erzählung",
+          "auswählen",
+          "Sichtbarkeit",
+          "deuten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu cornice. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Rahmen. (3)",
         "options": [
-          "selezionare",
-          "visibilità",
-          "interpretare",
-          "cornice"
+          "auswählen",
+          "Sichtbarkeit",
+          "deuten",
+          "Rahmen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu cornice. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Rahmen. (4)",
         "options": [
-          "visibilità",
-          "interpretare",
-          "cornice",
-          "narrazione"
+          "Sichtbarkeit",
+          "deuten",
+          "Rahmen",
+          "Erzählung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu cornice. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Rahmen. (5)",
         "options": [
-          "interpretare",
-          "cornice",
-          "narrazione",
-          "selezionare"
+          "deuten",
+          "Rahmen",
+          "Erzählung",
+          "auswählen"
         ]
       }
     ]
@@ -56570,169 +53039,40 @@
     "xpReward": 30,
     "orderIndex": 84,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "dispositivo",
-      "dati",
-      "proteggere"
+      "Gerät",
+      "Daten",
+      "schützen"
     ],
     "vocabulary": [
       {
-        "word": "dispositivo",
+        "word": "Gerät",
         "translation": "dispositivo",
-        "example": "Die Diskussion klärt die Rolle von dispositivo."
+        "example": "Die Diskussion klärt die Rolle von Gerät."
       },
       {
-        "word": "dati",
+        "word": "Daten",
         "translation": "datos",
-        "example": "Die Diskussion klärt die Rolle von dati."
+        "example": "Die Diskussion klärt die Rolle von Daten."
       },
       {
-        "word": "proteggere",
+        "word": "schützen",
         "translation": "proteger",
-        "example": "Die Diskussion klärt die Rolle von proteggere."
+        "example": "Die Diskussion klärt die Rolle von schützen."
       },
       {
-        "word": "consenso",
+        "word": "Einwilligung",
         "translation": "consentimiento",
-        "example": "Die Diskussion klärt die Rolle von consenso."
+        "example": "Die Diskussion klärt die Rolle von Einwilligung."
       },
       {
-        "word": "rischio",
+        "word": "Risiko",
         "translation": "riesgo",
-        "example": "Die Diskussion klärt die Rolle von rischio."
-      },
-      {
-        "word": "die Privatsphäre",
-        "translation": "la privacidad",
-        "example": "Die Privatsphäre der Nutzer muss geschützt werden."
-      },
-      {
-        "word": "der Datenschutz",
-        "translation": "la protección de datos",
-        "example": "Der Datenschutz ist in diesem Unternehmen wichtig."
-      },
-      {
-        "word": "das Passwort",
-        "translation": "la contraseña",
-        "example": "Ändern Sie das Passwort regelmäßig."
-      },
-      {
-        "word": "die Verschlüsselung",
-        "translation": "el cifrado",
-        "example": "Die Verschlüsselung schützt sensible Informationen."
-      },
-      {
-        "word": "verschlüsseln",
-        "translation": "cifrar",
-        "example": "Wir müssen die Dateien verschlüsseln."
-      },
-      {
-        "word": "die Authentifizierung",
-        "translation": "la autenticación",
-        "example": "Die Authentifizierung erfolgt per Zwei-Faktor."
-      },
-      {
-        "word": "die Firewall",
-        "translation": "el cortafuegos",
-        "example": "Die Firewall blockiert unerwünschten Zugriff."
-      },
-      {
-        "word": "das Sicherheitsupdate",
-        "translation": "la actualización de seguridad",
-        "example": "Installieren Sie das Sicherheitsupdate sofort."
-      },
-      {
-        "word": "der Algorithmus",
-        "translation": "el algoritmo",
-        "example": "Der Algorithmus entscheidet über die Empfehlung."
-      },
-      {
-        "word": "die Überwachung",
-        "translation": "la vigilancia",
-        "example": "Die Überwachung darf nicht die Privatsphäre verletzen."
-      },
-      {
-        "word": "die Einwilligung",
-        "translation": "el consentimiento",
-        "example": "Die Einwilligung muss informiert und freiwillig sein."
-      },
-      {
-        "word": "speichern",
-        "translation": "almacenar",
-        "example": "Wir speichern die Daten lokal und in der Cloud."
-      },
-      {
-        "word": "die Cloud",
-        "translation": "la nube",
-        "example": "Viele Unternehmen nutzen die Cloud für Backups."
-      },
-      {
-        "word": "das Datenleck",
-        "translation": "la fuga de datos",
-        "example": "Bei einem Datenleck informieren wir sofort die Betroffenen."
-      },
-      {
-        "word": "anonymisieren",
-        "translation": "anonimizar",
-        "example": "Bitte anonymisieren Sie die persönlichen Angaben."
-      },
-      {
-        "word": "die Transparenz",
-        "translation": "la transparencia",
-        "example": "Transparenz schafft Vertrauen bei den Nutzern."
-      },
-      {
-        "word": "überwachen",
-        "translation": "vigilar",
-        "example": "Die Firma überwacht den Netzwerkverkehr."
-      },
-      {
-        "word": "das Nutzerprofil",
-        "translation": "el perfil de usuario",
-        "example": "Das Nutzerprofil enthält Präferenzen und Einstellungen."
-      },
-      {
-        "word": "die Datenverarbeitung",
-        "translation": "el procesamiento de datos",
-        "example": "Die Datenverarbeitung erfolgt automatisiert."
-      },
-      {
-        "word": "die Richtlinie",
-        "translation": "la política de empresa / la normativa",
-        "example": "Die Richtlinie regelt den Umgang mit Daten."
-      },
-      {
-        "word": "das Einverständnis widerrufen",
-        "translation": "revocar el consentimiento",
-        "example": "Betroffene können das Einverständnis jederzeit widerrufen."
-      },
-      {
-        "word": "Könnten Sie mir bitte helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir bitte helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach ist Datenschutz prioritär.",
-        "translation": "En mi opinión, la protección de datos es prioritaria.",
-        "example": "Meiner Meinung nach ist Datenschutz prioritär.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich Ihnen zu.",
-        "translation": "Estoy de acuerdo con usted.",
-        "example": "Da stimme ich Ihnen zu.",
-        "category": "expression"
-      },
-      {
-        "word": "Haben Sie das überprüft?",
-        "translation": "¿Lo ha verificado?",
-        "example": "Haben Sie das überprüft?",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Risiko."
       }
     ],
     "dialogue": [],
@@ -56742,7 +53082,7 @@
       "grammarProfile": {
         "name": "Technik und Datenschutz",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -56753,50 +53093,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „dispositivo“?",
         "options": [
-          "dispositivo",
-          "dati",
-          "proteggere",
-          "consenso"
+          "Gerät",
+          "Daten",
+          "schützen",
+          "Einwilligung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „dati“.",
+        "prompt": "Wähle „Daten“.",
         "options": [
-          "dati",
-          "proteggere",
-          "consenso",
-          "rischio"
+          "Daten",
+          "schützen",
+          "Einwilligung",
+          "Risiko"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „proteggere“.",
+        "prompt": "Wähle „schützen“.",
         "options": [
-          "proteggere",
-          "consenso",
-          "rischio",
-          "dispositivo"
+          "schützen",
+          "Einwilligung",
+          "Risiko",
+          "Gerät"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „consenso“.",
+        "prompt": "Wähle „Einwilligung“.",
         "options": [
-          "consenso",
-          "rischio",
-          "dispositivo",
-          "dati"
+          "Einwilligung",
+          "Risiko",
+          "Gerät",
+          "Daten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „rischio“.",
+        "prompt": "Wähle „Risiko“.",
         "options": [
-          "rischio",
-          "dispositivo",
-          "dati",
-          "proteggere"
+          "Risiko",
+          "Gerät",
+          "Daten",
+          "schützen"
         ]
       }
     ]
@@ -56812,170 +53152,40 @@
     "xpReward": 35,
     "orderIndex": 84,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "registro",
-      "destinatario",
-      "intenzione"
+      "Register",
+      "Adressat",
+      "Absicht"
     ],
     "vocabulary": [
       {
-        "word": "registro",
+        "word": "Register",
         "translation": "registro",
-        "example": "Die Diskussion klärt die Rolle von registro."
+        "example": "Die Diskussion klärt die Rolle von Register."
       },
       {
-        "word": "destinatario",
+        "word": "Adressat",
         "translation": "destinatario",
-        "example": "Die Diskussion klärt die Rolle von destinatario."
+        "example": "Die Diskussion klärt die Rolle von Adressat."
       },
       {
-        "word": "intenzione",
+        "word": "Absicht",
         "translation": "intención",
-        "example": "Die Diskussion klärt die Rolle von intenzione."
+        "example": "Die Diskussion klärt die Rolle von Absicht."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
-      },
-      {
-        "word": "implicito",
-        "translation": "implícito",
-        "example": "Die Diskussion klärt die Rolle von implicito."
-      },
-      {
-        "word": "das Register",
-        "translation": "el registro (lingüístico)",
-        "example": "Das Register dieser Rede ist sehr formell."
-      },
-      {
-        "word": "der Tonfall",
-        "translation": "el tono (de voz)",
-        "example": "Ihr Tonfall verrät Unmut."
-      },
-      {
-        "word": "die Zielgruppe",
-        "translation": "el público objetivo",
-        "example": "Die Zielgruppe der Kampagne sind junge Erwachsene."
-      },
-      {
-        "word": "die Höflichkeitsform",
-        "translation": "la forma de cortesía",
-        "example": "In offiziellen Schreiben verwende ich die Höflichkeitsform."
-      },
-      {
-        "word": "die Umgangssprache",
-        "translation": "el lenguaje coloquial",
-        "example": "In der Umgangssprache werden viele Ausdrücke verkürzt."
-      },
-      {
-        "word": "argumentieren",
-        "translation": "argumentar",
-        "example": "Er kann seine Position klar und logisch argumentieren."
-      },
-      {
-        "word": "die Begründung",
-        "translation": "la justificación",
-        "example": "Bitte geben Sie eine präzise Begründung an."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Wir sollten die Perspektive der Betroffenen berücksichtigen."
-      },
-      {
-        "word": "kritisch",
-        "translation": "crítico/a",
-        "example": "Sie analysierte den Text sehr kritisch."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Für diese These fehlt die empirische Evidenz."
-      },
-      {
-        "word": "die Schlussfolgerung",
-        "translation": "la conclusión",
-        "example": "Aus den Ergebnissen ziehe ich folgende Schlussfolgerung."
-      },
-      {
-        "word": "widerlegen",
-        "translation": "refutar",
-        "example": "Er konnte das Gegenargument überzeugend widerlegen."
-      },
-      {
-        "word": "überzeugen",
-        "translation": "convencer",
-        "example": "Ihre Ausführungen haben mich überzeugt."
-      },
-      {
-        "word": "die Relevanz",
-        "translation": "la relevancia",
-        "example": "Die Relevanz dieses Beispiels ist nicht zu unterschätzen."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
         "word": "implizit",
-        "translation": "implícito/a",
-        "example": "Viele Aussagen enthalten nur implizite Annahmen."
-      },
-      {
-        "word": "kontextualisieren",
-        "translation": "contextualizar",
-        "example": "Wir müssen die These im historischen Kontext kontextualisieren."
-      },
-      {
-        "word": "präzisieren",
-        "translation": "precisar, especificar",
-        "example": "Könnten Sie Ihre Aussage bitte präzisieren?"
-      },
-      {
-        "word": "die Nuance",
-        "translation": "el matiz",
-        "example": "Die Nuance in seiner Formulierung ist entscheidend."
-      },
-      {
-        "word": "der Diskurs",
-        "translation": "el discurso (debate intelectual)",
-        "example": "Im wissenschaftlichen Diskurs gelten strenge Kriterien."
-      },
-      {
-        "word": "die Adressatenorientierung",
-        "translation": "la orientación al destinatario",
-        "example": "Gute Texte zeigen klare Adressatenorientierung."
-      },
-      {
-        "word": "Könnten Sie mir bitte helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir bitte helfen, die Argumente zu strukturieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach berücksichtigt die Analyse alle relevanten Faktoren.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich ganz Ihrer Meinung.",
-        "translation": "Estoy totalmente de acuerdo con usted.",
-        "example": "Da bin ich ganz Ihrer Meinung: Eine klare Struktur ist zentral.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Zweifel, ob...",
-        "translation": "Dudo si...",
-        "example": "Ich habe Zweifel, ob die Stichprobe repräsentativ ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Vielen Dank im Voraus.",
-        "translation": "Muchas gracias de antemano.",
-        "example": "Vielen Dank im Voraus für Ihre kritische Rückmeldung.",
-        "category": "expression"
+        "translation": "implícito",
+        "example": "Die Diskussion klärt die Rolle von implizit."
       }
     ],
     "dialogue": [],
@@ -56985,7 +53195,7 @@
       "grammarProfile": {
         "name": "Kommunikation und Register",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -56996,50 +53206,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „registro“?",
         "options": [
-          "registro",
-          "destinatario",
-          "intenzione",
-          "formulare"
+          "Register",
+          "Adressat",
+          "Absicht",
+          "formulieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „destinatario“.",
+        "prompt": "Wähle „Adressat“.",
         "options": [
-          "destinatario",
-          "intenzione",
-          "formulare",
-          "implicito"
+          "Adressat",
+          "Absicht",
+          "formulieren",
+          "implizit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „intenzione“.",
+        "prompt": "Wähle „Absicht“.",
         "options": [
-          "intenzione",
-          "formulare",
-          "implicito",
-          "registro"
+          "Absicht",
+          "formulieren",
+          "implizit",
+          "Register"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „formulare“.",
+        "prompt": "Wähle „formulieren“.",
         "options": [
-          "formulare",
-          "implicito",
-          "registro",
-          "destinatario"
+          "formulieren",
+          "implizit",
+          "Register",
+          "Adressat"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „implicito“.",
+        "prompt": "Wähle „implizit“.",
         "options": [
-          "implicito",
-          "registro",
-          "destinatario",
-          "intenzione"
+          "implizit",
+          "Register",
+          "Adressat",
+          "Absicht"
         ]
       }
     ]
@@ -57055,171 +53265,40 @@
     "xpReward": 40,
     "orderIndex": 84,
     "estimatedMinutes": 15,
-    "description": "bewerten um Perspektive com argumentos claros",
-    "intro": "bewerten um Perspektive com argumentos claros",
-    "mission": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten ein Thema mit klaren Argumenten",
+    "intro": "bewerten ein Thema mit klaren Argumenten",
+    "mission": "bewerten ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "cornice",
-      "narrazione",
-      "selezionare"
+      "Rahmen",
+      "Erzählung",
+      "auswählen"
     ],
     "vocabulary": [
       {
-        "word": "cornice",
+        "word": "Rahmen",
         "translation": "marco",
-        "example": "Die Diskussion klärt die Rolle von cornice."
+        "example": "Die Diskussion klärt die Rolle von Rahmen."
       },
       {
-        "word": "narrazione",
+        "word": "Erzählung",
         "translation": "narrativa",
-        "example": "Die Diskussion klärt die Rolle von narrazione."
+        "example": "Die Diskussion klärt die Rolle von Erzählung."
       },
       {
-        "word": "selezionare",
+        "word": "auswählen",
         "translation": "seleccionar",
-        "example": "Die Diskussion klärt die Rolle von selezionare."
+        "example": "Die Diskussion klärt die Rolle von auswählen."
       },
       {
-        "word": "visibilità",
+        "word": "Sichtbarkeit",
         "translation": "visibilidad",
-        "example": "Die Diskussion klärt die Rolle von visibilità."
+        "example": "Die Diskussion klärt die Rolle von Sichtbarkeit."
       },
       {
-        "word": "interpretare",
+        "word": "deuten",
         "translation": "interpretar",
-        "example": "Die Diskussion klärt die Rolle von interpretare."
-      },
-      {
-        "word": "die Einordnung",
-        "translation": "la clasificación / contextualización",
-        "example": "Die Einordnung der Studie beeinflusst die öffentliche Debatte."
-      },
-      {
-        "word": "die Quellenkritik",
-        "translation": "el análisis crítico de las fuentes",
-        "example": "Die Quellenkritik gehört zur journalistischen Sorgfaltspflicht."
-      },
-      {
-        "word": "die Glaubwürdigkeit",
-        "translation": "la credibilidad",
-        "example": "Die Glaubwürdigkeit des Autors ist umstritten."
-      },
-      {
-        "word": "die Verzerrung",
-        "translation": "la distorsión",
-        "example": "Die Verzerrung der Daten verfälscht das Ergebnis."
-      },
-      {
-        "word": "das Framing",
-        "translation": "el encuadre (framing)",
-        "example": "Das Framing der Meldung lenkt die öffentliche Aufmerksamkeit."
-      },
-      {
-        "word": "die Polarisierung",
-        "translation": "la polarización",
-        "example": "Die Polarisierung erschwert einen sachlichen Austausch."
-      },
-      {
-        "word": "die Transparenz",
-        "translation": "la transparencia",
-        "example": "Die Transparenz der Methodik ist entscheidend für die Bewertung."
-      },
-      {
-        "word": "die Nachvollziehbarkeit",
-        "translation": "la comprensibilidad / posibilidad de seguimiento",
-        "example": "Die Nachvollziehbarkeit der Argumente erhöht die Überzeugungskraft."
-      },
-      {
-        "word": "die Ambiguität",
-        "translation": "la ambigüedad",
-        "example": "Die Ambiguität des Begriffs führt zu Missverständnissen."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Die Evidenz stützt die zentrale These der Untersuchung."
-      },
-      {
-        "word": "die Methodik",
-        "translation": "la metodología",
-        "example": "Die Methodik der Untersuchung sollte klar dokumentiert werden."
-      },
-      {
-        "word": "die Rhetorik",
-        "translation": "la retórica",
-        "example": "Die Rhetorik des Kommentars wirkt zum Teil manipulativ."
-      },
-      {
-        "word": "die Subtilität",
-        "translation": "la sutileza",
-        "example": "Die Subtilität seiner Formulierungen ist für den Diskurs wichtig."
-      },
-      {
-        "word": "die Rezeption",
-        "translation": "la recepción",
-        "example": "Die Rezeption des Artikels variierte stark zwischen den Zielgruppen."
-      },
-      {
-        "word": "die Legitimität",
-        "translation": "la legitimidad",
-        "example": "Die Legitimität der Quelle muss kritisch geprüft werden."
-      },
-      {
-        "word": "die Zuverlässigkeit",
-        "translation": "la fiabilidad",
-        "example": "Die Zuverlässigkeit der Daten ist für unsere Bewertung zentral."
-      },
-      {
-        "word": "bewerten",
-        "translation": "evaluar",
-        "example": "Wir müssen die Quellen sorgfältig bewerten, bevor wir urteilen."
-      },
-      {
-        "word": "hinterfragen",
-        "translation": "cuestionar (críticamente)",
-        "example": "Man sollte gängige Annahmen konsequent hinterfragen."
-      },
-      {
-        "word": "abwägen",
-        "translation": "sopesar",
-        "example": "Beim Diskurs muss man Chancen und Risiken abwägen."
-      },
-      {
-        "word": "Könnten Sie mir dabei helfen?",
-        "translation": "¿Podría ayudarme con esto?",
-        "example": "Könnten Sie mir dabei helfen, die Quelle zu prüfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Ansicht nach fehlen belastbare Belege für diese Behauptung.",
-        "category": "expression"
-      },
-      {
-        "word": "Dem kann ich zustimmen.",
-        "translation": "Estoy de acuerdo con eso.",
-        "example": "Dem kann ich zustimmen; das Argument ist gut begründet.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe da meine Zweifel.",
-        "translation": "Tengo mis dudas al respecto.",
-        "example": "Ich habe da meine Zweifel, ob die Studie repräsentativ ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz etwas anmerken?",
-        "translation": "¿Puedo comentar algo brevemente?",
-        "example": "Darf ich kurz etwas anmerken? Die Argumentation übersieht einen wichtigen Punkt.",
-        "category": "expression"
-      },
-      {
-        "word": "Das ist die Folge davon, dass...",
-        "translation": "Eso es la consecuencia de que...",
-        "example": "Das ist die Folge davon, dass Informationen selektiv präsentiert wurden.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von deuten."
       }
     ],
     "dialogue": [],
@@ -57229,7 +53308,7 @@
       "grammarProfile": {
         "name": "Medien und Diskurs",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "bewerten um Perspektive com argumentos claros",
+        "function": "bewerten ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -57240,50 +53319,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „marco“?",
         "options": [
-          "cornice",
-          "narrazione",
-          "selezionare",
-          "visibilità"
+          "Rahmen",
+          "Erzählung",
+          "auswählen",
+          "Sichtbarkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „narrazione“.",
+        "prompt": "Wähle „Erzählung“.",
         "options": [
-          "narrazione",
-          "selezionare",
-          "visibilità",
-          "interpretare"
+          "Erzählung",
+          "auswählen",
+          "Sichtbarkeit",
+          "deuten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „selezionare“.",
+        "prompt": "Wähle „auswählen“.",
         "options": [
-          "selezionare",
-          "visibilità",
-          "interpretare",
-          "cornice"
+          "auswählen",
+          "Sichtbarkeit",
+          "deuten",
+          "Rahmen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „visibilità“.",
+        "prompt": "Wähle „Sichtbarkeit“.",
         "options": [
-          "visibilità",
-          "interpretare",
-          "cornice",
-          "narrazione"
+          "Sichtbarkeit",
+          "deuten",
+          "Rahmen",
+          "Erzählung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „interpretare“.",
+        "prompt": "Wähle „deuten“.",
         "options": [
-          "interpretare",
-          "cornice",
-          "narrazione",
-          "selezionare"
+          "deuten",
+          "Rahmen",
+          "Erzählung",
+          "auswählen"
         ]
       }
     ]
@@ -57978,45 +54057,45 @@
     "xpReward": 30,
     "orderIndex": 90,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "itinerario",
-      "alloggio",
-      "imprevisto"
+      "Reiseplan",
+      "Unterkunft",
+      "Zwischenfall"
     ],
     "vocabulary": [
       {
-        "word": "itinerario",
+        "word": "Reiseplan",
         "translation": "itinerario",
-        "example": "Die Diskussion klärt die Rolle von itinerario."
+        "example": "Die Diskussion klärt die Rolle von Reiseplan."
       },
       {
-        "word": "alloggio",
+        "word": "Unterkunft",
         "translation": "alojamiento",
-        "example": "Die Diskussion klärt die Rolle von alloggio."
+        "example": "Die Diskussion klärt die Rolle von Unterkunft."
       },
       {
-        "word": "imprevisto",
+        "word": "Zwischenfall",
         "translation": "imprevisto",
-        "example": "Die Diskussion klärt die Rolle von imprevisto."
+        "example": "Die Diskussion klärt die Rolle von Zwischenfall."
       },
       {
-        "word": "consigliare",
+        "word": "empfehlen",
         "translation": "aconsejar",
-        "example": "Die Diskussion klärt die Rolle von consigliare."
+        "example": "Die Diskussion klärt die Rolle von empfehlen."
       },
       {
-        "word": "rispettare",
+        "word": "respektieren",
         "translation": "respetar",
-        "example": "Die Diskussion klärt die Rolle von rispettare."
+        "example": "Die Diskussion klärt die Rolle von respektieren."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Bewusst reisen» untersucht die Gruppe itinerario und alloggio. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Bewusst reisen» untersucht die Gruppe Reiseplan und Unterkunft. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -58026,7 +54105,7 @@
       "grammarProfile": {
         "name": "Bewusst reisen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -58037,10 +54116,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "itinerario",
-          "imprevisto",
-          "consigliare",
-          "rispettare"
+          "Reiseplan",
+          "Zwischenfall",
+          "empfehlen",
+          "respektieren"
         ]
       },
       {
@@ -58051,39 +54130,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-bewusst-reisen-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "Bewusst",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-b2-b2-bewusst-reisen-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-bewusst-reisen-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "die",
-          "und",
-          "ein"
         ]
       }
     ]
@@ -58099,45 +54145,45 @@
     "xpReward": 35,
     "orderIndex": 90,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "fenomeno",
-      "evidenza",
-      "modello"
+      "Phänomen",
+      "Beleg",
+      "Modell"
     ],
     "vocabulary": [
       {
-        "word": "fenomeno",
+        "word": "Phänomen",
         "translation": "fenómeno",
-        "example": "Die Diskussion klärt die Rolle von fenomeno."
+        "example": "Die Diskussion klärt die Rolle von Phänomen."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "modello",
+        "word": "Modell",
         "translation": "modelo",
-        "example": "Die Diskussion klärt die Rolle von modello."
+        "example": "Die Diskussion klärt die Rolle von Modell."
       },
       {
-        "word": "divulgare",
+        "word": "vermitteln",
         "translation": "divulgar",
-        "example": "Die Diskussion klärt die Rolle von divulgare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       },
       {
-        "word": "precisione",
+        "word": "Genauigkeit",
         "translation": "precisión",
-        "example": "Die Diskussion klärt die Rolle von precisione."
+        "example": "Die Diskussion klärt die Rolle von Genauigkeit."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Wissenschaft und Vermittlung» untersucht die Gruppe fenomeno und evidenza. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Wissenschaft und Vermittlung» untersucht die Gruppe Phänomen und Beleg. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -58147,7 +54193,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Vermittlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -58158,10 +54204,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "fenomeno",
-          "modello",
-          "divulgare",
-          "precisione"
+          "Phänomen",
+          "Modell",
+          "vermitteln",
+          "Genauigkeit"
         ]
       },
       {
@@ -58172,39 +54218,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-wissenschaft-und-vermittlung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-wissenschaft-und-vermittlung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-wissenschaft-und-vermittlung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -58220,45 +54233,45 @@
     "xpReward": 40,
     "orderIndex": 90,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "metodo",
-      "limite",
-      "replicare"
+      "Methode",
+      "Grenze",
+      "replizieren"
     ],
     "vocabulary": [
       {
-        "word": "metodo",
+        "word": "Methode",
         "translation": "método",
-        "example": "Die Diskussion klärt die Rolle von metodo."
+        "example": "Die Diskussion klärt die Rolle von Methode."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       },
       {
-        "word": "replicare",
+        "word": "replizieren",
         "translation": "replicar",
-        "example": "Die Diskussion klärt die Rolle von replicare."
+        "example": "Die Diskussion klärt die Rolle von replizieren."
       },
       {
-        "word": "implicazione",
+        "word": "Folgerung",
         "translation": "implicación",
-        "example": "Die Diskussion klärt die Rolle von implicazione."
+        "example": "Die Diskussion klärt die Rolle von Folgerung."
       },
       {
-        "word": "rigore",
+        "word": "Strenge",
         "translation": "rigor",
-        "example": "Die Diskussion klärt die Rolle von rigore."
+        "example": "Die Diskussion klärt die Rolle von Strenge."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Wissenschaft und Verantwortung» untersucht die Gruppe metodo und limite. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Wissenschaft und Verantwortung» untersucht die Gruppe Methode und Grenze. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -58268,7 +54281,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -58279,10 +54292,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "metodo",
-          "replicare",
-          "implicazione",
-          "rigore"
+          "Methode",
+          "replizieren",
+          "Folgerung",
+          "Strenge"
         ]
       },
       {
@@ -58293,39 +54306,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-wissenschaft-und-verantwortung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-wissenschaft-und-verantwortung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-wissenschaft-und-verantwortung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -60433,50 +56413,50 @@
     "xpReward": 30,
     "orderIndex": 91,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "itinerario",
-      "alloggio",
-      "imprevisto"
+      "Reiseplan",
+      "Unterkunft",
+      "Zwischenfall"
     ],
     "vocabulary": [
       {
-        "word": "itinerario",
+        "word": "Reiseplan",
         "translation": "itinerario",
-        "example": "Die Diskussion klärt die Rolle von itinerario."
+        "example": "Die Diskussion klärt die Rolle von Reiseplan."
       },
       {
-        "word": "alloggio",
+        "word": "Unterkunft",
         "translation": "alojamiento",
-        "example": "Die Diskussion klärt die Rolle von alloggio."
+        "example": "Die Diskussion klärt die Rolle von Unterkunft."
       },
       {
-        "word": "imprevisto",
+        "word": "Zwischenfall",
         "translation": "imprevisto",
-        "example": "Die Diskussion klärt die Rolle von imprevisto."
+        "example": "Die Diskussion klärt die Rolle von Zwischenfall."
       },
       {
-        "word": "consigliare",
+        "word": "empfehlen",
         "translation": "aconsejar",
-        "example": "Die Diskussion klärt die Rolle von consigliare."
+        "example": "Die Diskussion klärt die Rolle von empfehlen."
       },
       {
-        "word": "rispettare",
+        "word": "respektieren",
         "translation": "respetar",
-        "example": "Die Diskussion klärt die Rolle von rispettare."
+        "example": "Die Diskussion klärt die Rolle von respektieren."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „itinerario“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -60485,7 +56465,7 @@
       "grammarProfile": {
         "name": "Bewusst reisen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -60494,7 +56474,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -60509,46 +56489,46 @@
     "xpReward": 35,
     "orderIndex": 91,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "fenomeno",
-      "evidenza",
-      "modello"
+      "Phänomen",
+      "Beleg",
+      "Modell"
     ],
     "vocabulary": [
       {
-        "word": "fenomeno",
+        "word": "Phänomen",
         "translation": "fenómeno",
-        "example": "Die Diskussion klärt die Rolle von fenomeno."
+        "example": "Die Diskussion klärt die Rolle von Phänomen."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "modello",
+        "word": "Modell",
         "translation": "modelo",
-        "example": "Die Diskussion klärt die Rolle von modello."
+        "example": "Die Diskussion klärt die Rolle von Modell."
       },
       {
-        "word": "divulgare",
+        "word": "vermitteln",
         "translation": "divulgar",
-        "example": "Die Diskussion klärt die Rolle von divulgare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       },
       {
-        "word": "precisione",
+        "word": "Genauigkeit",
         "translation": "precisión",
-        "example": "Die Diskussion klärt die Rolle von precisione."
+        "example": "Die Diskussion klärt die Rolle von Genauigkeit."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "line": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -60561,7 +56541,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Vermittlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -60570,7 +56550,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -60585,46 +56565,46 @@
     "xpReward": 40,
     "orderIndex": 91,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "metodo",
-      "limite",
-      "replicare"
+      "Methode",
+      "Grenze",
+      "replizieren"
     ],
     "vocabulary": [
       {
-        "word": "metodo",
+        "word": "Methode",
         "translation": "método",
-        "example": "Die Diskussion klärt die Rolle von metodo."
+        "example": "Die Diskussion klärt die Rolle von Methode."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       },
       {
-        "word": "replicare",
+        "word": "replizieren",
         "translation": "replicar",
-        "example": "Die Diskussion klärt die Rolle von replicare."
+        "example": "Die Diskussion klärt die Rolle von replizieren."
       },
       {
-        "word": "implicazione",
+        "word": "Folgerung",
         "translation": "implicación",
-        "example": "Die Diskussion klärt die Rolle von implicazione."
+        "example": "Die Diskussion klärt die Rolle von Folgerung."
       },
       {
-        "word": "rigore",
+        "word": "Strenge",
         "translation": "rigor",
-        "example": "Die Diskussion klärt die Rolle von rigore."
+        "example": "Die Diskussion klärt die Rolle von Strenge."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "line": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -60637,7 +56617,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -60646,7 +56626,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -63163,40 +59143,40 @@
     "xpReward": 30,
     "orderIndex": 92,
     "estimatedMinutes": 20,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "itinerario",
-      "alloggio",
-      "imprevisto"
+      "Reiseplan",
+      "Unterkunft",
+      "Zwischenfall"
     ],
     "vocabulary": [
       {
-        "word": "itinerario",
+        "word": "Reiseplan",
         "translation": "itinerario",
-        "example": "Die Diskussion klärt die Rolle von itinerario."
+        "example": "Die Diskussion klärt die Rolle von Reiseplan."
       },
       {
-        "word": "alloggio",
+        "word": "Unterkunft",
         "translation": "alojamiento",
-        "example": "Die Diskussion klärt die Rolle von alloggio."
+        "example": "Die Diskussion klärt die Rolle von Unterkunft."
       },
       {
-        "word": "imprevisto",
+        "word": "Zwischenfall",
         "translation": "imprevisto",
-        "example": "Die Diskussion klärt die Rolle von imprevisto."
+        "example": "Die Diskussion klärt die Rolle von Zwischenfall."
       },
       {
-        "word": "consigliare",
+        "word": "empfehlen",
         "translation": "aconsejar",
-        "example": "Die Diskussion klärt die Rolle von consigliare."
+        "example": "Die Diskussion klärt die Rolle von empfehlen."
       },
       {
-        "word": "rispettare",
+        "word": "respektieren",
         "translation": "respetar",
-        "example": "Die Diskussion klärt die Rolle von rispettare."
+        "example": "Die Diskussion klärt die Rolle von respektieren."
       }
     ],
     "dialogue": [],
@@ -63206,7 +59186,7 @@
       "grammarProfile": {
         "name": "Bewusst reisen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -63215,7 +59195,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um begründen um Beispiel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -63230,40 +59210,40 @@
     "xpReward": 35,
     "orderIndex": 92,
     "estimatedMinutes": 20,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "fenomeno",
-      "evidenza",
-      "modello"
+      "Phänomen",
+      "Beleg",
+      "Modell"
     ],
     "vocabulary": [
       {
-        "word": "fenomeno",
+        "word": "Phänomen",
         "translation": "fenómeno",
-        "example": "Die Diskussion klärt die Rolle von fenomeno."
+        "example": "Die Diskussion klärt die Rolle von Phänomen."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "modello",
+        "word": "Modell",
         "translation": "modelo",
-        "example": "Die Diskussion klärt die Rolle von modello."
+        "example": "Die Diskussion klärt die Rolle von Modell."
       },
       {
-        "word": "divulgare",
+        "word": "vermitteln",
         "translation": "divulgar",
-        "example": "Die Diskussion klärt die Rolle von divulgare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       },
       {
-        "word": "precisione",
+        "word": "Genauigkeit",
         "translation": "precisión",
-        "example": "Die Diskussion klärt die Rolle von precisione."
+        "example": "Die Diskussion klärt die Rolle von Genauigkeit."
       }
     ],
     "dialogue": [],
@@ -63273,7 +59253,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Vermittlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -63282,7 +59262,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um begründen um Beispiel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -63297,40 +59277,40 @@
     "xpReward": 40,
     "orderIndex": 92,
     "estimatedMinutes": 20,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "metodo",
-      "limite",
-      "replicare"
+      "Methode",
+      "Grenze",
+      "replizieren"
     ],
     "vocabulary": [
       {
-        "word": "metodo",
+        "word": "Methode",
         "translation": "método",
-        "example": "Die Diskussion klärt die Rolle von metodo."
+        "example": "Die Diskussion klärt die Rolle von Methode."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       },
       {
-        "word": "replicare",
+        "word": "replizieren",
         "translation": "replicar",
-        "example": "Die Diskussion klärt die Rolle von replicare."
+        "example": "Die Diskussion klärt die Rolle von replizieren."
       },
       {
-        "word": "implicazione",
+        "word": "Folgerung",
         "translation": "implicación",
-        "example": "Die Diskussion klärt die Rolle von implicazione."
+        "example": "Die Diskussion klärt die Rolle von Folgerung."
       },
       {
-        "word": "rigore",
+        "word": "Strenge",
         "translation": "rigor",
-        "example": "Die Diskussion klärt die Rolle von rigore."
+        "example": "Die Diskussion klärt die Rolle von Strenge."
       }
     ],
     "dialogue": [],
@@ -63340,7 +59320,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -63349,7 +59329,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um begründen um Beispiel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um begründen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -63364,40 +59344,40 @@
     "xpReward": 30,
     "orderIndex": 93,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "itinerario",
-      "alloggio",
-      "imprevisto"
+      "Reiseplan",
+      "Unterkunft",
+      "Zwischenfall"
     ],
     "vocabulary": [
       {
-        "word": "itinerario",
+        "word": "Reiseplan",
         "translation": "itinerario",
-        "example": "Die Diskussion klärt die Rolle von itinerario."
+        "example": "Die Diskussion klärt die Rolle von Reiseplan."
       },
       {
-        "word": "alloggio",
+        "word": "Unterkunft",
         "translation": "alojamiento",
-        "example": "Die Diskussion klärt die Rolle von alloggio."
+        "example": "Die Diskussion klärt die Rolle von Unterkunft."
       },
       {
-        "word": "imprevisto",
+        "word": "Zwischenfall",
         "translation": "imprevisto",
-        "example": "Die Diskussion klärt die Rolle von imprevisto."
+        "example": "Die Diskussion klärt die Rolle von Zwischenfall."
       },
       {
-        "word": "consigliare",
+        "word": "empfehlen",
         "translation": "aconsejar",
-        "example": "Die Diskussion klärt die Rolle von consigliare."
+        "example": "Die Diskussion klärt die Rolle von empfehlen."
       },
       {
-        "word": "rispettare",
+        "word": "respektieren",
         "translation": "respetar",
-        "example": "Die Diskussion klärt die Rolle von rispettare."
+        "example": "Die Diskussion klärt die Rolle von respektieren."
       }
     ],
     "dialogue": [],
@@ -63407,7 +59387,7 @@
       "grammarProfile": {
         "name": "Bewusst reisen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -63416,52 +59396,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu itinerario. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Reiseplan. (1)",
         "options": [
-          "itinerario",
-          "alloggio",
-          "imprevisto",
-          "consigliare"
+          "Reiseplan",
+          "Unterkunft",
+          "Zwischenfall",
+          "empfehlen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu itinerario. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Reiseplan. (2)",
         "options": [
-          "alloggio",
-          "imprevisto",
-          "consigliare",
-          "rispettare"
+          "Unterkunft",
+          "Zwischenfall",
+          "empfehlen",
+          "respektieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu itinerario. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Reiseplan. (3)",
         "options": [
-          "imprevisto",
-          "consigliare",
-          "rispettare",
-          "itinerario"
+          "Zwischenfall",
+          "empfehlen",
+          "respektieren",
+          "Reiseplan"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu itinerario. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Reiseplan. (4)",
         "options": [
-          "consigliare",
-          "rispettare",
-          "itinerario",
-          "alloggio"
+          "empfehlen",
+          "respektieren",
+          "Reiseplan",
+          "Unterkunft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu itinerario. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Reiseplan. (5)",
         "options": [
-          "rispettare",
-          "itinerario",
-          "alloggio",
-          "imprevisto"
+          "respektieren",
+          "Reiseplan",
+          "Unterkunft",
+          "Zwischenfall"
         ]
       }
     ]
@@ -63477,40 +59457,40 @@
     "xpReward": 35,
     "orderIndex": 93,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "fenomeno",
-      "evidenza",
-      "modello"
+      "Phänomen",
+      "Beleg",
+      "Modell"
     ],
     "vocabulary": [
       {
-        "word": "fenomeno",
+        "word": "Phänomen",
         "translation": "fenómeno",
-        "example": "Die Diskussion klärt die Rolle von fenomeno."
+        "example": "Die Diskussion klärt die Rolle von Phänomen."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "modello",
+        "word": "Modell",
         "translation": "modelo",
-        "example": "Die Diskussion klärt die Rolle von modello."
+        "example": "Die Diskussion klärt die Rolle von Modell."
       },
       {
-        "word": "divulgare",
+        "word": "vermitteln",
         "translation": "divulgar",
-        "example": "Die Diskussion klärt die Rolle von divulgare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       },
       {
-        "word": "precisione",
+        "word": "Genauigkeit",
         "translation": "precisión",
-        "example": "Die Diskussion klärt die Rolle von precisione."
+        "example": "Die Diskussion klärt die Rolle von Genauigkeit."
       }
     ],
     "dialogue": [],
@@ -63520,7 +59500,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Vermittlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -63529,52 +59509,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fenomeno. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Phänomen. (1)",
         "options": [
-          "fenomeno",
-          "evidenza",
-          "modello",
-          "divulgare"
+          "Phänomen",
+          "Beleg",
+          "Modell",
+          "vermitteln"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fenomeno. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Phänomen. (2)",
         "options": [
-          "evidenza",
-          "modello",
-          "divulgare",
-          "precisione"
+          "Beleg",
+          "Modell",
+          "vermitteln",
+          "Genauigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fenomeno. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Phänomen. (3)",
         "options": [
-          "modello",
-          "divulgare",
-          "precisione",
-          "fenomeno"
+          "Modell",
+          "vermitteln",
+          "Genauigkeit",
+          "Phänomen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fenomeno. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Phänomen. (4)",
         "options": [
-          "divulgare",
-          "precisione",
-          "fenomeno",
-          "evidenza"
+          "vermitteln",
+          "Genauigkeit",
+          "Phänomen",
+          "Beleg"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu fenomeno. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Phänomen. (5)",
         "options": [
-          "precisione",
-          "fenomeno",
-          "evidenza",
-          "modello"
+          "Genauigkeit",
+          "Phänomen",
+          "Beleg",
+          "Modell"
         ]
       }
     ]
@@ -63590,40 +59570,40 @@
     "xpReward": 40,
     "orderIndex": 93,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "metodo",
-      "limite",
-      "replicare"
+      "Methode",
+      "Grenze",
+      "replizieren"
     ],
     "vocabulary": [
       {
-        "word": "metodo",
+        "word": "Methode",
         "translation": "método",
-        "example": "Die Diskussion klärt die Rolle von metodo."
+        "example": "Die Diskussion klärt die Rolle von Methode."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       },
       {
-        "word": "replicare",
+        "word": "replizieren",
         "translation": "replicar",
-        "example": "Die Diskussion klärt die Rolle von replicare."
+        "example": "Die Diskussion klärt die Rolle von replizieren."
       },
       {
-        "word": "implicazione",
+        "word": "Folgerung",
         "translation": "implicación",
-        "example": "Die Diskussion klärt die Rolle von implicazione."
+        "example": "Die Diskussion klärt die Rolle von Folgerung."
       },
       {
-        "word": "rigore",
+        "word": "Strenge",
         "translation": "rigor",
-        "example": "Die Diskussion klärt die Rolle von rigore."
+        "example": "Die Diskussion klärt die Rolle von Strenge."
       }
     ],
     "dialogue": [],
@@ -63633,7 +59613,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -63642,52 +59622,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu metodo. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Methode. (1)",
         "options": [
-          "metodo",
-          "limite",
-          "replicare",
-          "implicazione"
+          "Methode",
+          "Grenze",
+          "replizieren",
+          "Folgerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu metodo. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Methode. (2)",
         "options": [
-          "limite",
-          "replicare",
-          "implicazione",
-          "rigore"
+          "Grenze",
+          "replizieren",
+          "Folgerung",
+          "Strenge"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu metodo. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Methode. (3)",
         "options": [
-          "replicare",
-          "implicazione",
-          "rigore",
-          "metodo"
+          "replizieren",
+          "Folgerung",
+          "Strenge",
+          "Methode"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu metodo. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Methode. (4)",
         "options": [
-          "implicazione",
-          "rigore",
-          "metodo",
-          "limite"
+          "Folgerung",
+          "Strenge",
+          "Methode",
+          "Grenze"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu metodo. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Methode. (5)",
         "options": [
-          "rigore",
-          "metodo",
-          "limite",
-          "replicare"
+          "Strenge",
+          "Methode",
+          "Grenze",
+          "replizieren"
         ]
       }
     ]
@@ -63703,171 +59683,40 @@
     "xpReward": 30,
     "orderIndex": 94,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "itinerario",
-      "alloggio",
-      "imprevisto"
+      "Reiseplan",
+      "Unterkunft",
+      "Zwischenfall"
     ],
     "vocabulary": [
       {
-        "word": "itinerario",
+        "word": "Reiseplan",
         "translation": "itinerario",
-        "example": "Die Diskussion klärt die Rolle von itinerario."
+        "example": "Die Diskussion klärt die Rolle von Reiseplan."
       },
       {
-        "word": "alloggio",
+        "word": "Unterkunft",
         "translation": "alojamiento",
-        "example": "Die Diskussion klärt die Rolle von alloggio."
+        "example": "Die Diskussion klärt die Rolle von Unterkunft."
       },
       {
-        "word": "imprevisto",
+        "word": "Zwischenfall",
         "translation": "imprevisto",
-        "example": "Die Diskussion klärt die Rolle von imprevisto."
+        "example": "Die Diskussion klärt die Rolle von Zwischenfall."
       },
       {
-        "word": "consigliare",
+        "word": "empfehlen",
         "translation": "aconsejar",
-        "example": "Die Diskussion klärt die Rolle von consigliare."
+        "example": "Die Diskussion klärt die Rolle von empfehlen."
       },
       {
-        "word": "rispettare",
+        "word": "respektieren",
         "translation": "respetar",
-        "example": "Die Diskussion klärt die Rolle von rispettare."
-      },
-      {
-        "word": "nachhaltig",
-        "translation": "sostenible",
-        "example": "Ich bevorzuge nachhaltig geplante Reisen."
-      },
-      {
-        "word": "der Umweltschutz",
-        "translation": "la protección del medio ambiente",
-        "example": "Der Umweltschutz sollte bei allen Aktivitäten berücksichtigt werden."
-      },
-      {
-        "word": "die CO2-Bilanz",
-        "translation": "la huella de CO2",
-        "example": "Wir sollten die CO2-Bilanz unserer Reise berechnen."
-      },
-      {
-        "word": "die Anreise",
-        "translation": "el traslado hasta el destino",
-        "example": "Die Anreise mit dem Zug ist umweltfreundlicher."
-      },
-      {
-        "word": "die Abreise",
-        "translation": "la partida",
-        "example": "Die Abreise ist für Sonntagmorgen geplant."
-      },
-      {
-        "word": "die Reiseroute",
-        "translation": "la ruta de viaje / el itinerario",
-        "example": "Die Reiseroute lässt sich bei Bedarf anpassen."
-      },
-      {
-        "word": "das Reiseziel",
-        "translation": "el destino de viaje",
-        "example": "Unser Reiseziel liegt an der Nordseeküste."
-      },
-      {
-        "word": "die Sehenswürdigkeit",
-        "translation": "el lugar de interés turístico",
-        "example": "Diese Sehenswürdigkeit zieht jedes Jahr viele Besucher an."
-      },
-      {
-        "word": "der Aufenthalt",
-        "translation": "la estancia",
-        "example": "Der Aufenthalt umfasst vier Nächte in der Hauptstadt."
-      },
-      {
-        "word": "die Verpflegung",
-        "translation": "la alimentación / comidas incluidas",
-        "example": "Die Verpflegung während der Tour ist regional und saisonal."
-      },
-      {
-        "word": "die Reiseversicherung",
-        "translation": "el seguro de viaje",
-        "example": "Eine Reiseversicherung deckt unerwartete Kosten ab."
-      },
-      {
-        "word": "die Reservierung",
-        "translation": "la reserva",
-        "example": "Die Reservierung für das Hotel muss bestätigt werden."
-      },
-      {
-        "word": "pauschal",
-        "translation": "todo incluido / paquete",
-        "example": "Viele buchen eine pauschale Reise für einfachere Planung."
-      },
-      {
-        "word": "flexibel",
-        "translation": "flexible",
-        "example": "Bei schlechtem Wetter bleiben flexible Pläne hilfreich."
-      },
-      {
-        "word": "die Verantwortung",
-        "translation": "la responsabilidad",
-        "example": "Jeder Reisende trägt Verantwortung für lokale Gemeinden."
-      },
-      {
-        "word": "begründen",
-        "translation": "justificar / fundamentar",
-        "example": "Bitte begründen Sie Ihre Wahl kurz und klar."
-      },
-      {
-        "word": "abwägen",
-        "translation": "sopesar / ponderar",
-        "example": "Man muss Vor- und Nachteile sorgfältig abwägen."
-      },
-      {
-        "word": "die Sicherheit",
-        "translation": "la seguridad",
-        "example": "Die Sicherheit der Teilnehmer hat oberste Priorität."
-      },
-      {
-        "word": "die Erfahrung",
-        "translation": "la experiencia",
-        "example": "Die Reise bot viele neue kulturelle Erfahrungen."
-      },
-      {
-        "word": "Könnten Sie mir bitte helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir bitte helfen, die beste Verbindung zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach ist nachhaltiges Reisen langfristig besser.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Da stimme ich zu, weil das lokale Angebot fair ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin mir nicht sicher, ob das Wetter bleibt.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigen Sie bitte, haben Sie einen Moment?",
-        "translation": "Disculpe, ¿tiene un momento, por favor?",
-        "example": "Entschuldigen Sie bitte, haben Sie einen Moment für eine Frage?",
-        "category": "expression"
-      },
-      {
-        "word": "Aus diesem Grund...",
-        "translation": "Por esta razón...",
-        "example": "Aus diesem Grund wählen viele Reisende öffentliche Verkehrsmittel.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von respektieren."
       }
     ],
     "dialogue": [],
@@ -63877,7 +59726,7 @@
       "grammarProfile": {
         "name": "Bewusst reisen",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -63888,50 +59737,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „itinerario“?",
         "options": [
-          "itinerario",
-          "alloggio",
-          "imprevisto",
-          "consigliare"
+          "Reiseplan",
+          "Unterkunft",
+          "Zwischenfall",
+          "empfehlen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „alloggio“.",
+        "prompt": "Wähle „Unterkunft“.",
         "options": [
-          "alloggio",
-          "imprevisto",
-          "consigliare",
-          "rispettare"
+          "Unterkunft",
+          "Zwischenfall",
+          "empfehlen",
+          "respektieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „imprevisto“.",
+        "prompt": "Wähle „Zwischenfall“.",
         "options": [
-          "imprevisto",
-          "consigliare",
-          "rispettare",
-          "itinerario"
+          "Zwischenfall",
+          "empfehlen",
+          "respektieren",
+          "Reiseplan"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „consigliare“.",
+        "prompt": "Wähle „empfehlen“.",
         "options": [
-          "consigliare",
-          "rispettare",
-          "itinerario",
-          "alloggio"
+          "empfehlen",
+          "respektieren",
+          "Reiseplan",
+          "Unterkunft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „rispettare“.",
+        "prompt": "Wähle „respektieren“.",
         "options": [
-          "rispettare",
-          "itinerario",
-          "alloggio",
-          "imprevisto"
+          "respektieren",
+          "Reiseplan",
+          "Unterkunft",
+          "Zwischenfall"
         ]
       }
     ]
@@ -63947,169 +59796,40 @@
     "xpReward": 35,
     "orderIndex": 94,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "fenomeno",
-      "evidenza",
-      "modello"
+      "Phänomen",
+      "Beleg",
+      "Modell"
     ],
     "vocabulary": [
       {
-        "word": "fenomeno",
+        "word": "Phänomen",
         "translation": "fenómeno",
-        "example": "Die Diskussion klärt die Rolle von fenomeno."
+        "example": "Die Diskussion klärt die Rolle von Phänomen."
       },
       {
-        "word": "evidenza",
+        "word": "Beleg",
         "translation": "evidencia",
-        "example": "Die Diskussion klärt die Rolle von evidenza."
+        "example": "Die Diskussion klärt die Rolle von Beleg."
       },
       {
-        "word": "modello",
+        "word": "Modell",
         "translation": "modelo",
-        "example": "Die Diskussion klärt die Rolle von modello."
+        "example": "Die Diskussion klärt die Rolle von Modell."
       },
       {
-        "word": "divulgare",
+        "word": "vermitteln",
         "translation": "divulgar",
-        "example": "Die Diskussion klärt die Rolle von divulgare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       },
       {
-        "word": "precisione",
+        "word": "Genauigkeit",
         "translation": "precisión",
-        "example": "Die Diskussion klärt die Rolle von precisione."
-      },
-      {
-        "word": "die Hypothese",
-        "translation": "la hipótesis",
-        "example": "Die Hypothese erklärt das beobachtete Muster."
-      },
-      {
-        "word": "das Experiment",
-        "translation": "el experimento",
-        "example": "Das Experiment wurde unter kontrollierten Bedingungen durchgeführt."
-      },
-      {
-        "word": "die Methode",
-        "translation": "el método",
-        "example": "Die Methode wurde im Artikel ausführlich beschrieben."
-      },
-      {
-        "word": "die Begründung",
-        "translation": "la justificación",
-        "example": "Die Begründung für die These ist überzeugend."
-      },
-      {
-        "word": "die Argumentation",
-        "translation": "la argumentación",
-        "example": "Die Argumentation folgt einer klaren Struktur."
-      },
-      {
-        "word": "nachvollziehbar",
-        "translation": "comprensible",
-        "example": "Seine Schlussfolgerung ist nachvollziehbar."
-      },
-      {
-        "word": "der Gegenbeweis",
-        "translation": "la refutación",
-        "example": "Der Gegenbeweis widerlegt die ursprüngliche Annahme."
-      },
-      {
-        "word": "validieren",
-        "translation": "validar",
-        "example": "Die Ergebnisse müssen durch weitere Studien validiert werden."
-      },
-      {
-        "word": "die Reproduzierbarkeit",
-        "translation": "la reproducibilidad",
-        "example": "Die Reproduzierbarkeit der Messungen ist gesichert."
-      },
-      {
-        "word": "die These",
-        "translation": "la tesis",
-        "example": "Die These stützt sich auf empirische Daten."
-      },
-      {
-        "word": "präzisieren",
-        "translation": "precisar",
-        "example": "Könnten Sie Ihre Aussage präzisieren?"
-      },
-      {
-        "word": "plausibel",
-        "translation": "plausible",
-        "example": "Diese Erklärung wirkt plausibel."
-      },
-      {
-        "word": "der Kontext",
-        "translation": "el contexto",
-        "example": "Im Kontext der Studie verändert sich die Interpretation."
-      },
-      {
-        "word": "die Korrelation",
-        "translation": "la correlación",
-        "example": "Zwischen beiden Variablen besteht eine Korrelation."
-      },
-      {
-        "word": "die Kausalität",
-        "translation": "la causalidad",
-        "example": "Kausalität kann nicht allein aus Korrelationen gefolgert werden."
-      },
-      {
-        "word": "das Protokoll",
-        "translation": "el protocolo",
-        "example": "Das Protokoll dokumentiert alle Versuchsschritte."
-      },
-      {
-        "word": "transparent",
-        "translation": "transparente",
-        "example": "Transparente Methoden stärken das Vertrauen in die Ergebnisse."
-      },
-      {
-        "word": "die Fragestellung",
-        "translation": "la pregunta de investigación",
-        "example": "Die Fragestellung bestimmt das Forschungsdesign."
-      },
-      {
-        "word": "widersprechen",
-        "translation": "contradecir",
-        "example": "Neue Daten widersprechen der bisherigen Interpretation."
-      },
-      {
-        "word": "die Stichprobe",
-        "translation": "la muestra (estadística)",
-        "example": "Die Stichprobe umfasste 500 Teilnehmende."
-      },
-      {
-        "word": "das Fazit",
-        "translation": "la conclusión",
-        "example": "Das Fazit der Studie ist zurückhaltend formuliert."
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach sind die Schlussfolgerungen gut begründet.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, die Daten zu interpretieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu",
-        "translation": "estoy de acuerdo",
-        "example": "Ich stimme zu: weitere Untersuchungen sind nötig.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Zweifel",
-        "translation": "tengo dudas",
-        "example": "Ich habe Zweifel an der Verallgemeinerbarkeit der Ergebnisse.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Genauigkeit."
       }
     ],
     "dialogue": [],
@@ -64119,7 +59839,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Vermittlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -64130,50 +59850,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „fenómeno“?",
         "options": [
-          "fenomeno",
-          "evidenza",
-          "modello",
-          "divulgare"
+          "Phänomen",
+          "Beleg",
+          "Modell",
+          "vermitteln"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „evidenza“.",
+        "prompt": "Wähle „Beleg“.",
         "options": [
-          "evidenza",
-          "modello",
-          "divulgare",
-          "precisione"
+          "Beleg",
+          "Modell",
+          "vermitteln",
+          "Genauigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „modello“.",
+        "prompt": "Wähle „Modell“.",
         "options": [
-          "modello",
-          "divulgare",
-          "precisione",
-          "fenomeno"
+          "Modell",
+          "vermitteln",
+          "Genauigkeit",
+          "Phänomen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „divulgare“.",
+        "prompt": "Wähle „vermitteln“.",
         "options": [
-          "divulgare",
-          "precisione",
-          "fenomeno",
-          "evidenza"
+          "vermitteln",
+          "Genauigkeit",
+          "Phänomen",
+          "Beleg"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „precisione“.",
+        "prompt": "Wähle „Genauigkeit“.",
         "options": [
-          "precisione",
-          "fenomeno",
-          "evidenza",
-          "modello"
+          "Genauigkeit",
+          "Phänomen",
+          "Beleg",
+          "Modell"
         ]
       }
     ]
@@ -64189,169 +59909,40 @@
     "xpReward": 40,
     "orderIndex": 94,
     "estimatedMinutes": 15,
-    "description": "begründen um Beispiel com argumentos claros",
-    "intro": "begründen um Beispiel com argumentos claros",
-    "mission": "begründen um Beispiel com argumentos claros",
+    "description": "begründen ein Thema mit klaren Argumenten",
+    "intro": "begründen ein Thema mit klaren Argumenten",
+    "mission": "begründen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "metodo",
-      "limite",
-      "replicare"
+      "Methode",
+      "Grenze",
+      "replizieren"
     ],
     "vocabulary": [
       {
-        "word": "metodo",
+        "word": "Methode",
         "translation": "método",
-        "example": "Die Diskussion klärt die Rolle von metodo."
+        "example": "Die Diskussion klärt die Rolle von Methode."
       },
       {
-        "word": "limite",
+        "word": "Grenze",
         "translation": "límite",
-        "example": "Die Diskussion klärt die Rolle von limite."
+        "example": "Die Diskussion klärt die Rolle von Grenze."
       },
       {
-        "word": "replicare",
+        "word": "replizieren",
         "translation": "replicar",
-        "example": "Die Diskussion klärt die Rolle von replicare."
+        "example": "Die Diskussion klärt die Rolle von replizieren."
       },
       {
-        "word": "implicazione",
+        "word": "Folgerung",
         "translation": "implicación",
-        "example": "Die Diskussion klärt die Rolle von implicazione."
+        "example": "Die Diskussion klärt die Rolle von Folgerung."
       },
       {
-        "word": "rigore",
+        "word": "Strenge",
         "translation": "rigor",
-        "example": "Die Diskussion klärt die Rolle von rigore."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "evidencia",
-        "example": "Die Evidenz stützt die Schlussfolgerung."
-      },
-      {
-        "word": "die Hypothese",
-        "translation": "hipótesis",
-        "example": "Die Hypothese wurde experimentell überprüft."
-      },
-      {
-        "word": "die Kausalität",
-        "translation": "causalidad",
-        "example": "Die Studie versucht, Kausalität nachzuweisen."
-      },
-      {
-        "word": "die Validität",
-        "translation": "validez",
-        "example": "Die Validität der Messungen ist entscheidend."
-      },
-      {
-        "word": "die Reliabilität",
-        "translation": "fiabilidad",
-        "example": "Die Reliabilität der Ergebnisse muss gesichert sein."
-      },
-      {
-        "word": "die Reproduzierbarkeit",
-        "translation": "reproducibilidad",
-        "example": "Die Reproduzierbarkeit erhöht das Vertrauen in die Ergebnisse."
-      },
-      {
-        "word": "die Falsifizierbarkeit",
-        "translation": "falsificabilidad",
-        "example": "Falsifizierbarkeit ist ein Kriterium wissenschaftlicher Theorien."
-      },
-      {
-        "word": "die Stichprobe",
-        "translation": "muestra",
-        "example": "Die Stichprobe war statistisch repräsentativ."
-      },
-      {
-        "word": "die Signifikanz",
-        "translation": "significancia",
-        "example": "Die Signifikanz war p < 0,05."
-      },
-      {
-        "word": "die Operationalisierung",
-        "translation": "operacionalización",
-        "example": "Die Operationalisierung der Variablen ist klar beschrieben."
-      },
-      {
-        "word": "das Peer-Review",
-        "translation": "revisión por pares",
-        "example": "Die Arbeit wurde einem Peer-Review unterzogen."
-      },
-      {
-        "word": "der Interessenkonflikt",
-        "translation": "conflicto de interés",
-        "example": "Ein offener Interessenkonflikt kann die Forschung verzerren."
-      },
-      {
-        "word": "die Transparenz",
-        "translation": "transparencia",
-        "example": "Transparenz in der Methodik ist unerlässlich."
-      },
-      {
-        "word": "die Methodik",
-        "translation": "metodología",
-        "example": "Die Methodik umfasst qualitative und quantitative Ansätze."
-      },
-      {
-        "word": "die Ethik",
-        "translation": "ética",
-        "example": "Die Ethikkommission genehmigte das Forschungsdesign."
-      },
-      {
-        "word": "die Verantwortlichkeit",
-        "translation": "responsabilidad",
-        "example": "Die Verantwortlichkeit liegt beim leitenden Forscher."
-      },
-      {
-        "word": "die Folgenabschätzung",
-        "translation": "evaluación de consecuencias",
-        "example": "Eine Folgenabschätzung klärt mögliche Risiken."
-      },
-      {
-        "word": "die Datensicherheit",
-        "translation": "seguridad de datos",
-        "example": "Die Datensicherheit wurde durch Verschlüsselung gewährleistet."
-      },
-      {
-        "word": "die Plausibilität",
-        "translation": "plausibilidad",
-        "example": "Die Plausibilität der Ergebnisse überzeugt mich."
-      },
-      {
-        "word": "die Robustheit",
-        "translation": "robustez",
-        "example": "Die Robustheit der Analyse wurde durch Sensitivitätsprüfungen gezeigt."
-      },
-      {
-        "word": "die Interdisziplinarität",
-        "translation": "interdisciplinariedad",
-        "example": "Interdisziplinarität fördert innovative Ansätze."
-      },
-      {
-        "word": "Könnten Sie das bitte begründen?",
-        "translation": "¿Podría justificar eso, por favor?",
-        "example": "Könnten Sie das bitte begründen, damit wir die Argumente prüfen können?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Ansicht nach sind die Daten unvollständig.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme dem zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme dem zu, weil die Methodik stringent ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Daran habe ich Zweifel.",
-        "translation": "Tengo dudas al respecto.",
-        "example": "Daran habe ich Zweifel, solange die Stichprobe klein bleibt.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Strenge."
       }
     ],
     "dialogue": [],
@@ -64361,7 +59952,7 @@
       "grammarProfile": {
         "name": "Wissenschaft und Verantwortung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "begründen um Beispiel com argumentos claros",
+        "function": "begründen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -64372,50 +59963,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „método“?",
         "options": [
-          "metodo",
-          "limite",
-          "replicare",
-          "implicazione"
+          "Methode",
+          "Grenze",
+          "replizieren",
+          "Folgerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „limite“.",
+        "prompt": "Wähle „Grenze“.",
         "options": [
-          "limite",
-          "replicare",
-          "implicazione",
-          "rigore"
+          "Grenze",
+          "replizieren",
+          "Folgerung",
+          "Strenge"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „replicare“.",
+        "prompt": "Wähle „replizieren“.",
         "options": [
-          "replicare",
-          "implicazione",
-          "rigore",
-          "metodo"
+          "replizieren",
+          "Folgerung",
+          "Strenge",
+          "Methode"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „implicazione“.",
+        "prompt": "Wähle „Folgerung“.",
         "options": [
-          "implicazione",
-          "rigore",
-          "metodo",
-          "limite"
+          "Folgerung",
+          "Strenge",
+          "Methode",
+          "Grenze"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „rigore“.",
+        "prompt": "Wähle „Strenge“.",
         "options": [
-          "rigore",
-          "metodo",
-          "limite",
-          "replicare"
+          "Strenge",
+          "Methode",
+          "Grenze",
+          "replizieren"
         ]
       }
     ]
@@ -65110,45 +60701,45 @@
     "xpReward": 30,
     "orderIndex": 100,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "equivoco",
-      "ascoltare",
-      "chiarire"
+      "Missverständnis",
+      "zuhören",
+      "klären"
     ],
     "vocabulary": [
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "ascoltare",
+        "word": "zuhören",
         "translation": "escuchar",
-        "example": "Die Diskussion klärt die Rolle von ascoltare."
+        "example": "Die Diskussion klärt die Rolle von zuhören."
       },
       {
-        "word": "chiarire",
+        "word": "klären",
         "translation": "aclarar",
-        "example": "Die Diskussion klärt die Rolle von chiarire."
+        "example": "Die Diskussion klärt die Rolle von klären."
       },
       {
-        "word": "accordo",
+        "word": "Vereinbarung",
         "translation": "acuerdo",
-        "example": "Die Diskussion klärt die Rolle von accordo."
+        "example": "Die Diskussion klärt die Rolle von Vereinbarung."
       },
       {
-        "word": "mediare",
+        "word": "vermitteln",
         "translation": "mediar",
-        "example": "Die Diskussion klärt die Rolle von mediare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Beziehungen und Vermittlung» untersucht die Gruppe equivoco und ascoltare. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Beziehungen und Vermittlung» untersucht die Gruppe Missverständnis und zuhören. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -65158,7 +60749,7 @@
       "grammarProfile": {
         "name": "Beziehungen und Vermittlung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -65169,10 +60760,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "equivoco",
-          "chiarire",
-          "accordo",
-          "mediare"
+          "Missverständnis",
+          "klären",
+          "Vereinbarung",
+          "vermitteln"
         ]
       },
       {
@@ -65183,39 +60774,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-beziehungen-und-vermittlung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-beziehungen-und-vermittlung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-beziehungen-und-vermittlung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -65231,45 +60789,45 @@
     "xpReward": 35,
     "orderIndex": 100,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "interesse",
-      "compromesso",
-      "vincolo"
+      "Interesse",
+      "Kompromiss",
+      "Vorgabe"
     ],
     "vocabulary": [
       {
-        "word": "interesse",
+        "word": "Interesse",
         "translation": "interés",
-        "example": "Die Diskussion klärt die Rolle von interesse."
+        "example": "Die Diskussion klärt die Rolle von Interesse."
       },
       {
-        "word": "compromesso",
+        "word": "Kompromiss",
         "translation": "compromiso",
-        "example": "Die Diskussion klärt die Rolle von compromesso."
+        "example": "Die Diskussion klärt die Rolle von Kompromiss."
       },
       {
-        "word": "vincolo",
+        "word": "Vorgabe",
         "translation": "restricción",
-        "example": "Die Diskussion klärt die Rolle von vincolo."
+        "example": "Die Diskussion klärt die Rolle von Vorgabe."
       },
       {
-        "word": "conciliare",
+        "word": "vereinbaren",
         "translation": "conciliar",
-        "example": "Die Diskussion klärt die Rolle von conciliare."
+        "example": "Die Diskussion klärt die Rolle von vereinbaren."
       },
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Konflikt und Verhandlung» untersucht die Gruppe interesse und compromesso. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Konflikt und Verhandlung» untersucht die Gruppe Interesse und Kompromiss. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -65279,7 +60837,7 @@
       "grammarProfile": {
         "name": "Konflikt und Verhandlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -65290,10 +60848,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "interesse",
-          "vincolo",
-          "conciliare",
-          "mediazione"
+          "Interesse",
+          "Vorgabe",
+          "vereinbaren",
+          "Vermittlung"
         ]
       },
       {
@@ -65304,39 +60862,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-konflikt-und-verhandlung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-konflikt-und-verhandlung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-konflikt-und-verhandlung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -65352,45 +60877,45 @@
     "xpReward": 40,
     "orderIndex": 100,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "concetto",
-      "paradosso",
-      "argomentare"
+      "Begriff",
+      "Paradox",
+      "argumentieren"
     ],
     "vocabulary": [
       {
-        "word": "concetto",
+        "word": "Begriff",
         "translation": "concepto",
-        "example": "Die Diskussion klärt die Rolle von concetto."
+        "example": "Die Diskussion klärt die Rolle von Begriff."
       },
       {
-        "word": "paradosso",
+        "word": "Paradox",
         "translation": "paradoja",
-        "example": "Die Diskussion klärt die Rolle von paradosso."
+        "example": "Die Diskussion klärt die Rolle von Paradox."
       },
       {
-        "word": "argomentare",
+        "word": "argumentieren",
         "translation": "argumentar",
-        "example": "Die Diskussion klärt die Rolle von argomentare."
+        "example": "Die Diskussion klärt die Rolle von argumentieren."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "coerente",
+        "word": "stimmig",
         "translation": "coherente",
-        "example": "Die Diskussion klärt die Rolle von coerente."
+        "example": "Die Diskussion klärt die Rolle von stimmig."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Alltagsphilosophie» untersucht die Gruppe concetto und paradosso. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Alltagsphilosophie» untersucht die Gruppe Begriff und Paradox. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -65400,7 +60925,7 @@
       "grammarProfile": {
         "name": "Alltagsphilosophie",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -65411,10 +60936,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "concetto",
-          "argomentare",
-          "premessa",
-          "coerente"
+          "Begriff",
+          "argumentieren",
+          "Prämisse",
+          "stimmig"
         ]
       },
       {
@@ -65425,39 +60950,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-alltagsphilosophie-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-alltagsphilosophie-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-alltagsphilosophie-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "die",
-          "und",
-          "ein"
         ]
       }
     ]
@@ -67565,50 +63057,50 @@
     "xpReward": 30,
     "orderIndex": 101,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "equivoco",
-      "ascoltare",
-      "chiarire"
+      "Missverständnis",
+      "zuhören",
+      "klären"
     ],
     "vocabulary": [
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "ascoltare",
+        "word": "zuhören",
         "translation": "escuchar",
-        "example": "Die Diskussion klärt die Rolle von ascoltare."
+        "example": "Die Diskussion klärt die Rolle von zuhören."
       },
       {
-        "word": "chiarire",
+        "word": "klären",
         "translation": "aclarar",
-        "example": "Die Diskussion klärt die Rolle von chiarire."
+        "example": "Die Diskussion klärt die Rolle von klären."
       },
       {
-        "word": "accordo",
+        "word": "Vereinbarung",
         "translation": "acuerdo",
-        "example": "Die Diskussion klärt die Rolle von accordo."
+        "example": "Die Diskussion klärt die Rolle von Vereinbarung."
       },
       {
-        "word": "mediare",
+        "word": "vermitteln",
         "translation": "mediar",
-        "example": "Die Diskussion klärt die Rolle von mediare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „equivoco“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -67617,7 +63109,7 @@
       "grammarProfile": {
         "name": "Beziehungen und Vermittlung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -67626,7 +63118,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -67641,46 +63133,46 @@
     "xpReward": 35,
     "orderIndex": 101,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "interesse",
-      "compromesso",
-      "vincolo"
+      "Interesse",
+      "Kompromiss",
+      "Vorgabe"
     ],
     "vocabulary": [
       {
-        "word": "interesse",
+        "word": "Interesse",
         "translation": "interés",
-        "example": "Die Diskussion klärt die Rolle von interesse."
+        "example": "Die Diskussion klärt die Rolle von Interesse."
       },
       {
-        "word": "compromesso",
+        "word": "Kompromiss",
         "translation": "compromiso",
-        "example": "Die Diskussion klärt die Rolle von compromesso."
+        "example": "Die Diskussion klärt die Rolle von Kompromiss."
       },
       {
-        "word": "vincolo",
+        "word": "Vorgabe",
         "translation": "restricción",
-        "example": "Die Diskussion klärt die Rolle von vincolo."
+        "example": "Die Diskussion klärt die Rolle von Vorgabe."
       },
       {
-        "word": "conciliare",
+        "word": "vereinbaren",
         "translation": "conciliar",
-        "example": "Die Diskussion klärt die Rolle von conciliare."
+        "example": "Die Diskussion klärt die Rolle von vereinbaren."
       },
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "line": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -67693,7 +63185,7 @@
       "grammarProfile": {
         "name": "Konflikt und Verhandlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -67702,7 +63194,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -67717,46 +63209,46 @@
     "xpReward": 40,
     "orderIndex": 101,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "concetto",
-      "paradosso",
-      "argomentare"
+      "Begriff",
+      "Paradox",
+      "argumentieren"
     ],
     "vocabulary": [
       {
-        "word": "concetto",
+        "word": "Begriff",
         "translation": "concepto",
-        "example": "Die Diskussion klärt die Rolle von concetto."
+        "example": "Die Diskussion klärt die Rolle von Begriff."
       },
       {
-        "word": "paradosso",
+        "word": "Paradox",
         "translation": "paradoja",
-        "example": "Die Diskussion klärt die Rolle von paradosso."
+        "example": "Die Diskussion klärt die Rolle von Paradox."
       },
       {
-        "word": "argomentare",
+        "word": "argumentieren",
         "translation": "argumentar",
-        "example": "Die Diskussion klärt die Rolle von argomentare."
+        "example": "Die Diskussion klärt die Rolle von argumentieren."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "coerente",
+        "word": "stimmig",
         "translation": "coherente",
-        "example": "Die Diskussion klärt die Rolle von coerente."
+        "example": "Die Diskussion klärt die Rolle von stimmig."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "line": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -67769,7 +63261,7 @@
       "grammarProfile": {
         "name": "Alltagsphilosophie",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -67778,7 +63270,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Sprich eine Minute lang: zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -70292,40 +65784,40 @@
     "xpReward": 30,
     "orderIndex": 102,
     "estimatedMinutes": 20,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "equivoco",
-      "ascoltare",
-      "chiarire"
+      "Missverständnis",
+      "zuhören",
+      "klären"
     ],
     "vocabulary": [
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "ascoltare",
+        "word": "zuhören",
         "translation": "escuchar",
-        "example": "Die Diskussion klärt die Rolle von ascoltare."
+        "example": "Die Diskussion klärt die Rolle von zuhören."
       },
       {
-        "word": "chiarire",
+        "word": "klären",
         "translation": "aclarar",
-        "example": "Die Diskussion klärt die Rolle von chiarire."
+        "example": "Die Diskussion klärt die Rolle von klären."
       },
       {
-        "word": "accordo",
+        "word": "Vereinbarung",
         "translation": "acuerdo",
-        "example": "Die Diskussion klärt die Rolle von accordo."
+        "example": "Die Diskussion klärt die Rolle von Vereinbarung."
       },
       {
-        "word": "mediare",
+        "word": "vermitteln",
         "translation": "mediar",
-        "example": "Die Diskussion klärt die Rolle von mediare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       }
     ],
     "dialogue": [],
@@ -70335,7 +65827,7 @@
       "grammarProfile": {
         "name": "Beziehungen und Vermittlung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -70344,7 +65836,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -70359,40 +65851,40 @@
     "xpReward": 35,
     "orderIndex": 102,
     "estimatedMinutes": 20,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "interesse",
-      "compromesso",
-      "vincolo"
+      "Interesse",
+      "Kompromiss",
+      "Vorgabe"
     ],
     "vocabulary": [
       {
-        "word": "interesse",
+        "word": "Interesse",
         "translation": "interés",
-        "example": "Die Diskussion klärt die Rolle von interesse."
+        "example": "Die Diskussion klärt die Rolle von Interesse."
       },
       {
-        "word": "compromesso",
+        "word": "Kompromiss",
         "translation": "compromiso",
-        "example": "Die Diskussion klärt die Rolle von compromesso."
+        "example": "Die Diskussion klärt die Rolle von Kompromiss."
       },
       {
-        "word": "vincolo",
+        "word": "Vorgabe",
         "translation": "restricción",
-        "example": "Die Diskussion klärt die Rolle von vincolo."
+        "example": "Die Diskussion klärt die Rolle von Vorgabe."
       },
       {
-        "word": "conciliare",
+        "word": "vereinbaren",
         "translation": "conciliar",
-        "example": "Die Diskussion klärt die Rolle von conciliare."
+        "example": "Die Diskussion klärt die Rolle von vereinbaren."
       },
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       }
     ],
     "dialogue": [],
@@ -70402,7 +65894,7 @@
       "grammarProfile": {
         "name": "Konflikt und Verhandlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -70411,7 +65903,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -70426,40 +65918,40 @@
     "xpReward": 40,
     "orderIndex": 102,
     "estimatedMinutes": 20,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "concetto",
-      "paradosso",
-      "argomentare"
+      "Begriff",
+      "Paradox",
+      "argumentieren"
     ],
     "vocabulary": [
       {
-        "word": "concetto",
+        "word": "Begriff",
         "translation": "concepto",
-        "example": "Die Diskussion klärt die Rolle von concetto."
+        "example": "Die Diskussion klärt die Rolle von Begriff."
       },
       {
-        "word": "paradosso",
+        "word": "Paradox",
         "translation": "paradoja",
-        "example": "Die Diskussion klärt die Rolle von paradosso."
+        "example": "Die Diskussion klärt die Rolle von Paradox."
       },
       {
-        "word": "argomentare",
+        "word": "argumentieren",
         "translation": "argumentar",
-        "example": "Die Diskussion klärt die Rolle von argomentare."
+        "example": "Die Diskussion klärt die Rolle von argumentieren."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "coerente",
+        "word": "stimmig",
         "translation": "coherente",
-        "example": "Die Diskussion klärt die Rolle von coerente."
+        "example": "Die Diskussion klärt die Rolle von stimmig."
       }
     ],
     "dialogue": [],
@@ -70469,7 +65961,7 @@
       "grammarProfile": {
         "name": "Alltagsphilosophie",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -70478,7 +65970,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen um Zusammenhang com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um zusammenfassen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -70493,40 +65985,40 @@
     "xpReward": 30,
     "orderIndex": 103,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "equivoco",
-      "ascoltare",
-      "chiarire"
+      "Missverständnis",
+      "zuhören",
+      "klären"
     ],
     "vocabulary": [
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "ascoltare",
+        "word": "zuhören",
         "translation": "escuchar",
-        "example": "Die Diskussion klärt die Rolle von ascoltare."
+        "example": "Die Diskussion klärt die Rolle von zuhören."
       },
       {
-        "word": "chiarire",
+        "word": "klären",
         "translation": "aclarar",
-        "example": "Die Diskussion klärt die Rolle von chiarire."
+        "example": "Die Diskussion klärt die Rolle von klären."
       },
       {
-        "word": "accordo",
+        "word": "Vereinbarung",
         "translation": "acuerdo",
-        "example": "Die Diskussion klärt die Rolle von accordo."
+        "example": "Die Diskussion klärt die Rolle von Vereinbarung."
       },
       {
-        "word": "mediare",
+        "word": "vermitteln",
         "translation": "mediar",
-        "example": "Die Diskussion klärt die Rolle von mediare."
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       }
     ],
     "dialogue": [],
@@ -70536,7 +66028,7 @@
       "grammarProfile": {
         "name": "Beziehungen und Vermittlung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -70545,52 +66037,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu equivoco. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Missverständnis. (1)",
         "options": [
-          "equivoco",
-          "ascoltare",
-          "chiarire",
-          "accordo"
+          "Missverständnis",
+          "zuhören",
+          "klären",
+          "Vereinbarung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu equivoco. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Missverständnis. (2)",
         "options": [
-          "ascoltare",
-          "chiarire",
-          "accordo",
-          "mediare"
+          "zuhören",
+          "klären",
+          "Vereinbarung",
+          "vermitteln"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu equivoco. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Missverständnis. (3)",
         "options": [
-          "chiarire",
-          "accordo",
-          "mediare",
-          "equivoco"
+          "klären",
+          "Vereinbarung",
+          "vermitteln",
+          "Missverständnis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu equivoco. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Missverständnis. (4)",
         "options": [
-          "accordo",
-          "mediare",
-          "equivoco",
-          "ascoltare"
+          "Vereinbarung",
+          "vermitteln",
+          "Missverständnis",
+          "zuhören"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu equivoco. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Missverständnis. (5)",
         "options": [
-          "mediare",
-          "equivoco",
-          "ascoltare",
-          "chiarire"
+          "vermitteln",
+          "Missverständnis",
+          "zuhören",
+          "klären"
         ]
       }
     ]
@@ -70606,40 +66098,40 @@
     "xpReward": 35,
     "orderIndex": 103,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "interesse",
-      "compromesso",
-      "vincolo"
+      "Interesse",
+      "Kompromiss",
+      "Vorgabe"
     ],
     "vocabulary": [
       {
-        "word": "interesse",
+        "word": "Interesse",
         "translation": "interés",
-        "example": "Die Diskussion klärt die Rolle von interesse."
+        "example": "Die Diskussion klärt die Rolle von Interesse."
       },
       {
-        "word": "compromesso",
+        "word": "Kompromiss",
         "translation": "compromiso",
-        "example": "Die Diskussion klärt die Rolle von compromesso."
+        "example": "Die Diskussion klärt die Rolle von Kompromiss."
       },
       {
-        "word": "vincolo",
+        "word": "Vorgabe",
         "translation": "restricción",
-        "example": "Die Diskussion klärt die Rolle von vincolo."
+        "example": "Die Diskussion klärt die Rolle von Vorgabe."
       },
       {
-        "word": "conciliare",
+        "word": "vereinbaren",
         "translation": "conciliar",
-        "example": "Die Diskussion klärt die Rolle von conciliare."
+        "example": "Die Diskussion klärt die Rolle von vereinbaren."
       },
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       }
     ],
     "dialogue": [],
@@ -70649,7 +66141,7 @@
       "grammarProfile": {
         "name": "Konflikt und Verhandlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -70658,52 +66150,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu interesse. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Interesse. (1)",
         "options": [
-          "interesse",
-          "compromesso",
-          "vincolo",
-          "conciliare"
+          "Interesse",
+          "Kompromiss",
+          "Vorgabe",
+          "vereinbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu interesse. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Interesse. (2)",
         "options": [
-          "compromesso",
-          "vincolo",
-          "conciliare",
-          "mediazione"
+          "Kompromiss",
+          "Vorgabe",
+          "vereinbaren",
+          "Vermittlung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu interesse. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Interesse. (3)",
         "options": [
-          "vincolo",
-          "conciliare",
-          "mediazione",
-          "interesse"
+          "Vorgabe",
+          "vereinbaren",
+          "Vermittlung",
+          "Interesse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu interesse. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Interesse. (4)",
         "options": [
-          "conciliare",
-          "mediazione",
-          "interesse",
-          "compromesso"
+          "vereinbaren",
+          "Vermittlung",
+          "Interesse",
+          "Kompromiss"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu interesse. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Interesse. (5)",
         "options": [
-          "mediazione",
-          "interesse",
-          "compromesso",
-          "vincolo"
+          "Vermittlung",
+          "Interesse",
+          "Kompromiss",
+          "Vorgabe"
         ]
       }
     ]
@@ -70719,40 +66211,40 @@
     "xpReward": 40,
     "orderIndex": 103,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "concetto",
-      "paradosso",
-      "argomentare"
+      "Begriff",
+      "Paradox",
+      "argumentieren"
     ],
     "vocabulary": [
       {
-        "word": "concetto",
+        "word": "Begriff",
         "translation": "concepto",
-        "example": "Die Diskussion klärt die Rolle von concetto."
+        "example": "Die Diskussion klärt die Rolle von Begriff."
       },
       {
-        "word": "paradosso",
+        "word": "Paradox",
         "translation": "paradoja",
-        "example": "Die Diskussion klärt die Rolle von paradosso."
+        "example": "Die Diskussion klärt die Rolle von Paradox."
       },
       {
-        "word": "argomentare",
+        "word": "argumentieren",
         "translation": "argumentar",
-        "example": "Die Diskussion klärt die Rolle von argomentare."
+        "example": "Die Diskussion klärt die Rolle von argumentieren."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "coerente",
+        "word": "stimmig",
         "translation": "coherente",
-        "example": "Die Diskussion klärt die Rolle von coerente."
+        "example": "Die Diskussion klärt die Rolle von stimmig."
       }
     ],
     "dialogue": [],
@@ -70762,7 +66254,7 @@
       "grammarProfile": {
         "name": "Alltagsphilosophie",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -70771,52 +66263,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu concetto. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Begriff. (1)",
         "options": [
-          "concetto",
-          "paradosso",
-          "argomentare",
-          "premessa"
+          "Begriff",
+          "Paradox",
+          "argumentieren",
+          "Prämisse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu concetto. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Begriff. (2)",
         "options": [
-          "paradosso",
-          "argomentare",
-          "premessa",
-          "coerente"
+          "Paradox",
+          "argumentieren",
+          "Prämisse",
+          "stimmig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu concetto. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Begriff. (3)",
         "options": [
-          "argomentare",
-          "premessa",
-          "coerente",
-          "concetto"
+          "argumentieren",
+          "Prämisse",
+          "stimmig",
+          "Begriff"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu concetto. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Begriff. (4)",
         "options": [
-          "premessa",
-          "coerente",
-          "concetto",
-          "paradosso"
+          "Prämisse",
+          "stimmig",
+          "Begriff",
+          "Paradox"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu concetto. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Begriff. (5)",
         "options": [
-          "coerente",
-          "concetto",
-          "paradosso",
-          "argomentare"
+          "stimmig",
+          "Begriff",
+          "Paradox",
+          "argumentieren"
         ]
       }
     ]
@@ -70832,171 +66324,40 @@
     "xpReward": 30,
     "orderIndex": 104,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "equivoco",
-      "ascoltare",
-      "chiarire"
+      "Missverständnis",
+      "zuhören",
+      "klären"
     ],
     "vocabulary": [
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "ascoltare",
+        "word": "zuhören",
         "translation": "escuchar",
-        "example": "Die Diskussion klärt die Rolle von ascoltare."
+        "example": "Die Diskussion klärt die Rolle von zuhören."
       },
       {
-        "word": "chiarire",
+        "word": "klären",
         "translation": "aclarar",
-        "example": "Die Diskussion klärt die Rolle von chiarire."
+        "example": "Die Diskussion klärt die Rolle von klären."
       },
       {
-        "word": "accordo",
+        "word": "Vereinbarung",
         "translation": "acuerdo",
-        "example": "Die Diskussion klärt die Rolle von accordo."
+        "example": "Die Diskussion klärt die Rolle von Vereinbarung."
       },
       {
-        "word": "mediare",
+        "word": "vermitteln",
         "translation": "mediar",
-        "example": "Die Diskussion klärt die Rolle von mediare."
-      },
-      {
-        "word": "zusammenfassen",
-        "translation": "resumir",
-        "example": "Kannst du das Ergebnis kurz zusammenfassen?"
-      },
-      {
-        "word": "die Zusammenfassung",
-        "translation": "el resumen",
-        "example": "Die Zusammenfassung enthält die wichtigsten Punkte."
-      },
-      {
-        "word": "der Zusammenhang",
-        "translation": "la relación / el contexto",
-        "example": "Der Zusammenhang zwischen Ursache und Wirkung ist wichtig."
-      },
-      {
-        "word": "die Argumentation",
-        "translation": "la argumentación",
-        "example": "Eine klare Argumentation stärkt die Präsentation."
-      },
-      {
-        "word": "das Argument",
-        "translation": "el argumento",
-        "example": "Sein Argument überzeugte die Mehrheit."
-      },
-      {
-        "word": "die These",
-        "translation": "la tesis",
-        "example": "Die These muss sorgfältig begründet werden."
-      },
-      {
-        "word": "die Begründung",
-        "translation": "la justificación",
-        "example": "Bitte geben Sie eine kurze Begründung an."
-      },
-      {
-        "word": "der Einwand",
-        "translation": "la objeción",
-        "example": "Es gab einen Einwand gegen den Vorschlag."
-      },
-      {
-        "word": "entkräften",
-        "translation": "refutar / debilitar (un argumento)",
-        "example": "Sie konnte den Einwand schnell entkräften."
-      },
-      {
-        "word": "schlüssig",
-        "translation": "concluyente / coherente",
-        "example": "Das Ergebnis ist schlüssig erklärt worden."
-      },
-      {
-        "word": "prägnant",
-        "translation": "conciso",
-        "example": "Eine prägnante Formulierung wirkt überzeugend."
-      },
-      {
-        "word": "verdeutlichen",
-        "translation": "aclarar / ilustrar",
-        "example": "Ein Beispiel kann den Punkt verdeutlichen."
-      },
-      {
-        "word": "hervorheben",
-        "translation": "destacar",
-        "example": "Ich möchte die wichtigsten Aspekte hervorheben."
-      },
-      {
-        "word": "die Schlussfolgerung",
-        "translation": "la conclusión",
-        "example": "Aus den Daten zog sie eine klare Schlussfolgerung."
-      },
-      {
-        "word": "die Relevanz",
-        "translation": "la relevancia",
-        "example": "Die Relevanz dieses Arguments ist offensichtlich."
-      },
-      {
-        "word": "belegen",
-        "translation": "respaldar / demostrar",
-        "example": "Können Sie die Behauptung mit Quellen belegen?"
-      },
-      {
-        "word": "kompromissfähig",
-        "translation": "dispuesto a llegar a un compromiso",
-        "example": "In Verhandlungen sollte man kompromissfähig bleiben."
-      },
-      {
-        "word": "der Konsens",
-        "translation": "el consenso",
-        "example": "Am Ende wurde ein Konsens gefunden."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Berücksichtigen Sie auch die Perspektive der anderen."
-      },
-      {
-        "word": "Könnten Sie mir bitte helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir bitte helfen, das Dokument zu verstehen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach sollten wir die Reihenfolge ändern.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich einverstanden",
-        "translation": "estoy de acuerdo",
-        "example": "Da bin ich einverstanden; das ist ein guter Kompromiss.",
-        "category": "expression"
-      },
-      {
-        "word": "Daran habe ich Zweifel",
-        "translation": "tengo dudas sobre eso",
-        "example": "Daran habe ich Zweifel, weil die Daten unvollständig sind.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz etwas hinzufügen?",
-        "translation": "¿Puedo agregar algo brevemente?",
-        "example": "Darf ich kurz etwas hinzufügen, bevor wir abstimmen?",
-        "category": "expression"
-      },
-      {
-        "word": "Aus diesem Grund",
-        "translation": "por esta razón",
-        "example": "Aus diesem Grund schlage ich eine Änderung vor.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von vermitteln."
       }
     ],
     "dialogue": [],
@@ -71006,7 +66367,7 @@
       "grammarProfile": {
         "name": "Beziehungen und Vermittlung",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -71017,50 +66378,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „malentendido“?",
         "options": [
-          "equivoco",
-          "ascoltare",
-          "chiarire",
-          "accordo"
+          "Missverständnis",
+          "zuhören",
+          "klären",
+          "Vereinbarung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „ascoltare“.",
+        "prompt": "Wähle „zuhören“.",
         "options": [
-          "ascoltare",
-          "chiarire",
-          "accordo",
-          "mediare"
+          "zuhören",
+          "klären",
+          "Vereinbarung",
+          "vermitteln"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „chiarire“.",
+        "prompt": "Wähle „klären“.",
         "options": [
-          "chiarire",
-          "accordo",
-          "mediare",
-          "equivoco"
+          "klären",
+          "Vereinbarung",
+          "vermitteln",
+          "Missverständnis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „accordo“.",
+        "prompt": "Wähle „Vereinbarung“.",
         "options": [
-          "accordo",
-          "mediare",
-          "equivoco",
-          "ascoltare"
+          "Vereinbarung",
+          "vermitteln",
+          "Missverständnis",
+          "zuhören"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „mediare“.",
+        "prompt": "Wähle „vermitteln“.",
         "options": [
-          "mediare",
-          "equivoco",
-          "ascoltare",
-          "chiarire"
+          "vermitteln",
+          "Missverständnis",
+          "zuhören",
+          "klären"
         ]
       }
     ]
@@ -71076,169 +66437,40 @@
     "xpReward": 35,
     "orderIndex": 104,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "interesse",
-      "compromesso",
-      "vincolo"
+      "Interesse",
+      "Kompromiss",
+      "Vorgabe"
     ],
     "vocabulary": [
       {
-        "word": "interesse",
+        "word": "Interesse",
         "translation": "interés",
-        "example": "Die Diskussion klärt die Rolle von interesse."
+        "example": "Die Diskussion klärt die Rolle von Interesse."
       },
       {
-        "word": "compromesso",
+        "word": "Kompromiss",
         "translation": "compromiso",
-        "example": "Die Diskussion klärt die Rolle von compromesso."
+        "example": "Die Diskussion klärt die Rolle von Kompromiss."
       },
       {
-        "word": "vincolo",
+        "word": "Vorgabe",
         "translation": "restricción",
-        "example": "Die Diskussion klärt die Rolle von vincolo."
+        "example": "Die Diskussion klärt die Rolle von Vorgabe."
       },
       {
-        "word": "conciliare",
+        "word": "vereinbaren",
         "translation": "conciliar",
-        "example": "Die Diskussion klärt die Rolle von conciliare."
+        "example": "Die Diskussion klärt die Rolle von vereinbaren."
       },
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
-      },
-      {
-        "word": "der Konsens",
-        "translation": "consenso",
-        "example": "Wir sollten einen Konsens finden, bevor wir fortfahren."
-      },
-      {
-        "word": "der Kompromiss",
-        "translation": "compromiso",
-        "example": "Ein Kompromiss erfordert Zugeständnisse von beiden Seiten."
-      },
-      {
-        "word": "die Verhandlungsstrategie",
-        "translation": "estrategia de negociación",
-        "example": "Die Verhandlungsstrategie muss flexibel sein."
-      },
-      {
-        "word": "die Eskalation",
-        "translation": "escalada",
-        "example": "Die Eskalation des Streits gefährdet die Zusammenarbeit."
-      },
-      {
-        "word": "die Schlichtung",
-        "translation": "conciliación",
-        "example": "Eine Schlichtung kann den Konflikt entschärfen."
-      },
-      {
-        "word": "das Gegenargument",
-        "translation": "contraargumento",
-        "example": "Sein Gegenargument war gut begründet."
-      },
-      {
-        "word": "die Präzisierung",
-        "translation": "aclaración",
-        "example": "Eine Präzisierung der Forderungen ist nötig."
-      },
-      {
-        "word": "die Sachlichkeit",
-        "translation": "objetividad",
-        "example": "Sachlichkeit hilft, Eskalationen zu vermeiden."
-      },
-      {
-        "word": "die Position",
-        "translation": "posición",
-        "example": "Jede Partei verteidigt ihre Position hartnäckig."
-      },
-      {
-        "word": "klarstellen",
-        "translation": "aclarar",
-        "example": "Ich möchte kurz die Fakten klarstellen."
-      },
-      {
-        "word": "überbrücken",
-        "translation": "superar (diferencias)",
-        "example": "Wir müssen die Differenzen überbrücken."
-      },
-      {
-        "word": "der Einwand",
-        "translation": "objeción",
-        "example": "Ihr Einwand wurde im Protokoll notiert."
-      },
-      {
-        "word": "nachgeben",
-        "translation": "ceder",
-        "example": "Er war nicht bereit, nachzugeben."
-      },
-      {
-        "word": "sich durchsetzen",
-        "translation": "imponerse; hacerse valer",
-        "example": "Letzten Endes setzte sich die stärkere Argumentation durch."
-      },
-      {
-        "word": "zusammenfassen",
-        "translation": "resumir",
-        "example": "Fassen Sie bitte zum Schluss die wichtigsten Punkte zusammen."
-      },
-      {
-        "word": "die Schlussfolgerung",
-        "translation": "conclusión",
-        "example": "Aus diesen Fakten ziehe ich die Schlussfolgerung, dass wir nachverhandeln müssen."
-      },
-      {
-        "word": "die Begründung",
-        "translation": "justificación",
-        "example": "Die Begründung für den Vorschlag war überzeugend."
-      },
-      {
-        "word": "aufgrund",
-        "translation": "debido a",
-        "example": "Aufgrund neuer Informationen muss das Angebot überarbeitet werden."
-      },
-      {
-        "word": "infolgedessen",
-        "translation": "por consiguiente",
-        "example": "Infolgedessen wurden zusätzliche Verhandlungen nötig."
-      },
-      {
-        "word": "strittig",
-        "translation": "controvertido; en disputa",
-        "example": "Der Punkt ist rechtlich strittig."
-      },
-      {
-        "word": "differenzieren",
-        "translation": "diferenciar; matizar",
-        "example": "Man muss zwischen Absicht und Folge differenzieren."
-      },
-      {
-        "word": "Ich habe Bedenken",
-        "translation": "Tengo reservas / tengo dudas",
-        "example": "Ich habe Bedenken hinsichtlich der vorgeschlagenen Frist.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie mir kurz helfen?",
-        "translation": "¿Podría ayudarme un momento?",
-        "example": "Könnten Sie mir kurz helfen, dieses Argument zu prüfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach überwiegen die Vorteile.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich Ihnen zu.",
-        "translation": "Estoy de acuerdo con usted.",
-        "example": "Da stimme ich Ihnen zu; das ist ein wichtiger Punkt.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       }
     ],
     "dialogue": [],
@@ -71248,7 +66480,7 @@
       "grammarProfile": {
         "name": "Konflikt und Verhandlung",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -71259,50 +66491,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „interés“?",
         "options": [
-          "interesse",
-          "compromesso",
-          "vincolo",
-          "conciliare"
+          "Interesse",
+          "Kompromiss",
+          "Vorgabe",
+          "vereinbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „compromesso“.",
+        "prompt": "Wähle „Kompromiss“.",
         "options": [
-          "compromesso",
-          "vincolo",
-          "conciliare",
-          "mediazione"
+          "Kompromiss",
+          "Vorgabe",
+          "vereinbaren",
+          "Vermittlung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „vincolo“.",
+        "prompt": "Wähle „Vorgabe“.",
         "options": [
-          "vincolo",
-          "conciliare",
-          "mediazione",
-          "interesse"
+          "Vorgabe",
+          "vereinbaren",
+          "Vermittlung",
+          "Interesse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „conciliare“.",
+        "prompt": "Wähle „vereinbaren“.",
         "options": [
-          "conciliare",
-          "mediazione",
-          "interesse",
-          "compromesso"
+          "vereinbaren",
+          "Vermittlung",
+          "Interesse",
+          "Kompromiss"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „mediazione“.",
+        "prompt": "Wähle „Vermittlung“.",
         "options": [
-          "mediazione",
-          "interesse",
-          "compromesso",
-          "vincolo"
+          "Vermittlung",
+          "Interesse",
+          "Kompromiss",
+          "Vorgabe"
         ]
       }
     ]
@@ -71318,172 +66550,40 @@
     "xpReward": 40,
     "orderIndex": 104,
     "estimatedMinutes": 15,
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
-    "intro": "zusammenfassen um Zusammenhang com argumentos claros",
-    "mission": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
+    "intro": "zusammenfassen ein Thema mit klaren Argumenten",
+    "mission": "zusammenfassen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "concetto",
-      "paradosso",
-      "argomentare"
+      "Begriff",
+      "Paradox",
+      "argumentieren"
     ],
     "vocabulary": [
       {
-        "word": "concetto",
+        "word": "Begriff",
         "translation": "concepto",
-        "example": "Die Diskussion klärt die Rolle von concetto."
+        "example": "Die Diskussion klärt die Rolle von Begriff."
       },
       {
-        "word": "paradosso",
+        "word": "Paradox",
         "translation": "paradoja",
-        "example": "Die Diskussion klärt die Rolle von paradosso."
+        "example": "Die Diskussion klärt die Rolle von Paradox."
       },
       {
-        "word": "argomentare",
+        "word": "argumentieren",
         "translation": "argumentar",
-        "example": "Die Diskussion klärt die Rolle von argomentare."
+        "example": "Die Diskussion klärt die Rolle von argumentieren."
       },
       {
-        "word": "premessa",
+        "word": "Prämisse",
         "translation": "premisa",
-        "example": "Die Diskussion klärt die Rolle von premessa."
+        "example": "Die Diskussion klärt die Rolle von Prämisse."
       },
       {
-        "word": "coerente",
+        "word": "stimmig",
         "translation": "coherente",
-        "example": "Die Diskussion klärt die Rolle von coerente."
-      },
-      {
-        "word": "die Zusammenfassung",
-        "translation": "el resumen",
-        "example": "Die Zusammenfassung betont die wichtigsten Argumente."
-      },
-      {
-        "word": "die Schlussfolgerung",
-        "translation": "la conclusión",
-        "example": "Die Schlussfolgerung folgt logisch aus den Prämissen."
-      },
-      {
-        "word": "die These",
-        "translation": "la tesis",
-        "example": "Die These lautet, dass Sprache Denken formt."
-      },
-      {
-        "word": "die Antithese",
-        "translation": "la antítesis",
-        "example": "Die Antithese konfrontiert die ursprüngliche These."
-      },
-      {
-        "word": "die Prämisse",
-        "translation": "la premisa",
-        "example": "Diese Prämisse muss überprüft werden."
-      },
-      {
-        "word": "der Grundsatz",
-        "translation": "el principio",
-        "example": "Ein zentraler Grundsatz ist die Nachvollziehbarkeit."
-      },
-      {
-        "word": "die Kohärenz",
-        "translation": "la coherencia",
-        "example": "Die Kohärenz der Argumente überzeugt mich."
-      },
-      {
-        "word": "die Argumentationsstruktur",
-        "translation": "la estructura argumentativa",
-        "example": "Die Argumentationsstruktur ist klar und logisch."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Die Evidenz stützt die vorgebrachten Behauptungen."
-      },
-      {
-        "word": "die Widerlegung",
-        "translation": "la refutación",
-        "example": "Die Widerlegung war sorgfältig begründet."
-      },
-      {
-        "word": "das Argument",
-        "translation": "el argumento",
-        "example": "Dieses Argument ist schwer zu widerlegen."
-      },
-      {
-        "word": "die Relevanz",
-        "translation": "la relevancia",
-        "example": "Die Relevanz dieses Punktes lässt sich nicht leugnen."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Aus meiner Perspektive ist das Problem komplex."
-      },
-      {
-        "word": "das Fazit",
-        "translation": "la conclusión final",
-        "example": "Das Fazit fasst die Diskussion knapp zusammen."
-      },
-      {
-        "word": "die Präzision",
-        "translation": "la precisión",
-        "example": "Die Präzision in der Formulierung ist entscheidend."
-      },
-      {
-        "word": "die Nuance",
-        "translation": "el matiz",
-        "example": "Eine kleine Nuance verändert die Bedeutung."
-      },
-      {
-        "word": "der Einwand",
-        "translation": "la objeción",
-        "example": "Ein häufiger Einwand betrifft die Datenbasis."
-      },
-      {
-        "word": "der Beleg",
-        "translation": "la prueba",
-        "example": "Der Beleg wurde transparent dargelegt."
-      },
-      {
-        "word": "Könnten Sie mir kurz helfen?",
-        "translation": "¿Podría ayudarme un momento?",
-        "example": "Könnten Sie mir kurz helfen, die Schlussfolgerung klarer zu formulieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Ansicht nach fehlt hier eine prägnante Schlussfolgerung.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "estoy de acuerdo",
-        "example": "Da stimme ich zu, das Argument ist überzeugend.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz nachfragen?",
-        "translation": "¿Puedo preguntar rápidamente?",
-        "example": "Darf ich kurz nachfragen, auf welche Evidenz Sie sich beziehen?",
-        "category": "expression"
-      },
-      {
-        "word": "Aus diesem Grund",
-        "translation": "por esta razón",
-        "example": "Aus diesem Grund sollten wir die Prämissen genauer prüfen.",
-        "category": "expression"
-      },
-      {
-        "word": "Im Großen und Ganzen",
-        "translation": "en líneas generales",
-        "example": "Im Großen und Ganzen ist die Argumentation stimmig.",
-        "category": "expression"
-      },
-      {
-        "word": "Wie würden Sie das kurz zusammenfassen?",
-        "translation": "¿Cómo lo resumiría brevemente?",
-        "example": "Wie würden Sie das kurz zusammenfassen?",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von stimmig."
       }
     ],
     "dialogue": [],
@@ -71493,7 +66593,7 @@
       "grammarProfile": {
         "name": "Alltagsphilosophie",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "zusammenfassen um Zusammenhang com argumentos claros",
+        "function": "zusammenfassen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -71504,50 +66604,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „concepto“?",
         "options": [
-          "concetto",
-          "paradosso",
-          "argomentare",
-          "premessa"
+          "Begriff",
+          "Paradox",
+          "argumentieren",
+          "Prämisse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „paradosso“.",
+        "prompt": "Wähle „Paradox“.",
         "options": [
-          "paradosso",
-          "argomentare",
-          "premessa",
-          "coerente"
+          "Paradox",
+          "argumentieren",
+          "Prämisse",
+          "stimmig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „argomentare“.",
+        "prompt": "Wähle „argumentieren“.",
         "options": [
-          "argomentare",
-          "premessa",
-          "coerente",
-          "concetto"
+          "argumentieren",
+          "Prämisse",
+          "stimmig",
+          "Begriff"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „premessa“.",
+        "prompt": "Wähle „Prämisse“.",
         "options": [
-          "premessa",
-          "coerente",
-          "concetto",
-          "paradosso"
+          "Prämisse",
+          "stimmig",
+          "Begriff",
+          "Paradox"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „coerente“.",
+        "prompt": "Wähle „stimmig“.",
         "options": [
-          "coerente",
-          "concetto",
-          "paradosso",
-          "argomentare"
+          "stimmig",
+          "Begriff",
+          "Paradox",
+          "argumentieren"
         ]
       }
     ]
@@ -72242,45 +67342,45 @@
     "xpReward": 30,
     "orderIndex": 110,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "iniziativa",
-      "quartiere",
-      "partecipare"
+      "Initiative",
+      "Stadtteil",
+      "teilnehmen"
     ],
     "vocabulary": [
       {
-        "word": "iniziativa",
+        "word": "Initiative",
         "translation": "iniciativa",
-        "example": "Die Diskussion klärt die Rolle von iniziativa."
+        "example": "Die Diskussion klärt die Rolle von Initiative."
       },
       {
-        "word": "quartiere",
+        "word": "Stadtteil",
         "translation": "barrio",
-        "example": "Die Diskussion klärt die Rolle von quartiere."
+        "example": "Die Diskussion klärt die Rolle von Stadtteil."
       },
       {
-        "word": "partecipare",
+        "word": "teilnehmen",
         "translation": "participar",
-        "example": "Die Diskussion klärt die Rolle von partecipare."
+        "example": "Die Diskussion klärt die Rolle von teilnehmen."
       },
       {
-        "word": "proposta",
+        "word": "Vorschlag",
         "translation": "propuesta",
-        "example": "Die Diskussion klärt die Rolle von proposta."
+        "example": "Die Diskussion klärt die Rolle von Vorschlag."
       },
       {
-        "word": "beneficio",
+        "word": "Vorteil",
         "translation": "beneficio",
-        "example": "Die Diskussion klärt die Rolle von beneficio."
+        "example": "Die Diskussion klärt die Rolle von Vorteil."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Aktive Bürgerschaft» untersucht die Gruppe iniziativa und quartiere. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Aktive Bürgerschaft» untersucht die Gruppe Initiative und Stadtteil. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -72290,7 +67390,7 @@
       "grammarProfile": {
         "name": "Aktive Bürgerschaft",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -72301,10 +67401,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "iniziativa",
-          "partecipare",
-          "proposta",
-          "beneficio"
+          "Initiative",
+          "teilnehmen",
+          "Vorschlag",
+          "Vorteil"
         ]
       },
       {
@@ -72315,39 +67415,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-aktive-burgerschaft-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-aktive-burgerschaft-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-aktive-burgerschaft-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "die",
-          "und",
-          "ein"
         ]
       }
     ]
@@ -72363,45 +67430,45 @@
     "xpReward": 35,
     "orderIndex": 110,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "narratore",
-      "tono",
-      "metafora"
+      "Erzähler",
+      "Ton",
+      "Metapher"
     ],
     "vocabulary": [
       {
-        "word": "narratore",
+        "word": "Erzähler",
         "translation": "narrador",
-        "example": "Die Diskussion klärt die Rolle von narratore."
+        "example": "Die Diskussion klärt die Rolle von Erzähler."
       },
       {
-        "word": "tono",
+        "word": "Ton",
         "translation": "tono",
-        "example": "Die Diskussion klärt die Rolle von tono."
+        "example": "Die Diskussion klärt die Rolle von Ton."
       },
       {
-        "word": "metafora",
+        "word": "Metapher",
         "translation": "metáfora",
-        "example": "Die Diskussion klärt die Rolle von metafora."
+        "example": "Die Diskussion klärt die Rolle von Metapher."
       },
       {
-        "word": "suggerire",
+        "word": "andeuten",
         "translation": "sugerir",
-        "example": "Die Diskussion klärt die Rolle von suggerire."
+        "example": "Die Diskussion klärt die Rolle von andeuten."
       },
       {
-        "word": "ambiguità",
+        "word": "Mehrdeutigkeit",
         "translation": "ambigüedad",
-        "example": "Die Diskussion klärt die Rolle von ambiguità."
+        "example": "Die Diskussion klärt die Rolle von Mehrdeutigkeit."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Literatur und Stimme» untersucht die Gruppe narratore und tono. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Literatur und Stimme» untersucht die Gruppe Erzähler und Ton. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -72411,7 +67478,7 @@
       "grammarProfile": {
         "name": "Literatur und Stimme",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -72422,10 +67489,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "narratore",
-          "metafora",
-          "suggerire",
-          "ambiguità"
+          "Erzähler",
+          "Metapher",
+          "andeuten",
+          "Mehrdeutigkeit"
         ]
       },
       {
@@ -72436,39 +67503,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-literatur-und-stimme-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-literatur-und-stimme-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "tono",
-          "Jede",
-          "soll",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-literatur-und-stimme-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -72484,45 +67518,45 @@
     "xpReward": 40,
     "orderIndex": 110,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "mediazione",
-      "contesto",
-      "equivoco"
+      "Vermittlung",
+      "Kontext",
+      "Missverständnis"
     ],
     "vocabulary": [
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       },
       {
-        "word": "contesto",
+        "word": "Kontext",
         "translation": "contexto",
-        "example": "Die Diskussion klärt die Rolle von contesto."
+        "example": "Die Diskussion klärt die Rolle von Kontext."
       },
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "riconoscere",
+        "word": "anerkennen",
         "translation": "reconocer",
-        "example": "Die Diskussion klärt die Rolle von riconoscere."
+        "example": "Die Diskussion klärt die Rolle von anerkennen."
       },
       {
-        "word": "reciprocità",
+        "word": "Gegenseitigkeit",
         "translation": "reciprocidad",
-        "example": "Die Diskussion klärt die Rolle von reciprocità."
+        "example": "Die Diskussion klärt die Rolle von Gegenseitigkeit."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Interkulturelle Vermittlung» untersucht die Gruppe mediazione und contesto. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Interkulturelle Vermittlung» untersucht die Gruppe Vermittlung und Kontext. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -72532,7 +67566,7 @@
       "grammarProfile": {
         "name": "Interkulturelle Vermittlung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -72543,10 +67577,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "mediazione",
-          "equivoco",
-          "riconoscere",
-          "reciprocità"
+          "Vermittlung",
+          "Missverständnis",
+          "anerkennen",
+          "Gegenseitigkeit"
         ]
       },
       {
@@ -72557,39 +67591,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-interkulturelle-vermittlung-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-interkulturelle-vermittlung-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-interkulturelle-vermittlung-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "die",
-          "und",
-          "ein"
         ]
       }
     ]
@@ -74697,50 +69698,50 @@
     "xpReward": 30,
     "orderIndex": 111,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "iniziativa",
-      "quartiere",
-      "partecipare"
+      "Initiative",
+      "Stadtteil",
+      "teilnehmen"
     ],
     "vocabulary": [
       {
-        "word": "iniziativa",
+        "word": "Initiative",
         "translation": "iniciativa",
-        "example": "Die Diskussion klärt die Rolle von iniziativa."
+        "example": "Die Diskussion klärt die Rolle von Initiative."
       },
       {
-        "word": "quartiere",
+        "word": "Stadtteil",
         "translation": "barrio",
-        "example": "Die Diskussion klärt die Rolle von quartiere."
+        "example": "Die Diskussion klärt die Rolle von Stadtteil."
       },
       {
-        "word": "partecipare",
+        "word": "teilnehmen",
         "translation": "participar",
-        "example": "Die Diskussion klärt die Rolle von partecipare."
+        "example": "Die Diskussion klärt die Rolle von teilnehmen."
       },
       {
-        "word": "proposta",
+        "word": "Vorschlag",
         "translation": "propuesta",
-        "example": "Die Diskussion klärt die Rolle von proposta."
+        "example": "Die Diskussion klärt die Rolle von Vorschlag."
       },
       {
-        "word": "beneficio",
+        "word": "Vorteil",
         "translation": "beneficio",
-        "example": "Die Diskussion klärt die Rolle von beneficio."
+        "example": "Die Diskussion klärt die Rolle von Vorteil."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „iniziativa“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -74749,7 +69750,7 @@
       "grammarProfile": {
         "name": "Aktive Bürgerschaft",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -74758,7 +69759,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -74773,46 +69774,46 @@
     "xpReward": 35,
     "orderIndex": 111,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "narratore",
-      "tono",
-      "metafora"
+      "Erzähler",
+      "Ton",
+      "Metapher"
     ],
     "vocabulary": [
       {
-        "word": "narratore",
+        "word": "Erzähler",
         "translation": "narrador",
-        "example": "Die Diskussion klärt die Rolle von narratore."
+        "example": "Die Diskussion klärt die Rolle von Erzähler."
       },
       {
-        "word": "tono",
+        "word": "Ton",
         "translation": "tono",
-        "example": "Die Diskussion klärt die Rolle von tono."
+        "example": "Die Diskussion klärt die Rolle von Ton."
       },
       {
-        "word": "metafora",
+        "word": "Metapher",
         "translation": "metáfora",
-        "example": "Die Diskussion klärt die Rolle von metafora."
+        "example": "Die Diskussion klärt die Rolle von Metapher."
       },
       {
-        "word": "suggerire",
+        "word": "andeuten",
         "translation": "sugerir",
-        "example": "Die Diskussion klärt die Rolle von suggerire."
+        "example": "Die Diskussion klärt die Rolle von andeuten."
       },
       {
-        "word": "ambiguità",
+        "word": "Mehrdeutigkeit",
         "translation": "ambigüedad",
-        "example": "Die Diskussion klärt die Rolle von ambiguità."
+        "example": "Die Diskussion klärt die Rolle von Mehrdeutigkeit."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -74825,7 +69826,7 @@
       "grammarProfile": {
         "name": "Literatur und Stimme",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -74834,7 +69835,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -74849,46 +69850,46 @@
     "xpReward": 40,
     "orderIndex": 111,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "mediazione",
-      "contesto",
-      "equivoco"
+      "Vermittlung",
+      "Kontext",
+      "Missverständnis"
     ],
     "vocabulary": [
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       },
       {
-        "word": "contesto",
+        "word": "Kontext",
         "translation": "contexto",
-        "example": "Die Diskussion klärt die Rolle von contesto."
+        "example": "Die Diskussion klärt die Rolle von Kontext."
       },
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "riconoscere",
+        "word": "anerkennen",
         "translation": "reconocer",
-        "example": "Die Diskussion klärt die Rolle von riconoscere."
+        "example": "Die Diskussion klärt die Rolle von anerkennen."
       },
       {
-        "word": "reciprocità",
+        "word": "Gegenseitigkeit",
         "translation": "reciprocidad",
-        "example": "Die Diskussion klärt die Rolle von reciprocità."
+        "example": "Die Diskussion klärt die Rolle von Gegenseitigkeit."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "line": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -74901,7 +69902,7 @@
       "grammarProfile": {
         "name": "Interkulturelle Vermittlung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -74910,7 +69911,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "prompt": "Sprich eine Minute lang: erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -77427,40 +72428,40 @@
     "xpReward": 30,
     "orderIndex": 112,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "iniziativa",
-      "quartiere",
-      "partecipare"
+      "Initiative",
+      "Stadtteil",
+      "teilnehmen"
     ],
     "vocabulary": [
       {
-        "word": "iniziativa",
+        "word": "Initiative",
         "translation": "iniciativa",
-        "example": "Die Diskussion klärt die Rolle von iniziativa."
+        "example": "Die Diskussion klärt die Rolle von Initiative."
       },
       {
-        "word": "quartiere",
+        "word": "Stadtteil",
         "translation": "barrio",
-        "example": "Die Diskussion klärt die Rolle von quartiere."
+        "example": "Die Diskussion klärt die Rolle von Stadtteil."
       },
       {
-        "word": "partecipare",
+        "word": "teilnehmen",
         "translation": "participar",
-        "example": "Die Diskussion klärt die Rolle von partecipare."
+        "example": "Die Diskussion klärt die Rolle von teilnehmen."
       },
       {
-        "word": "proposta",
+        "word": "Vorschlag",
         "translation": "propuesta",
-        "example": "Die Diskussion klärt die Rolle von proposta."
+        "example": "Die Diskussion klärt die Rolle von Vorschlag."
       },
       {
-        "word": "beneficio",
+        "word": "Vorteil",
         "translation": "beneficio",
-        "example": "Die Diskussion klärt die Rolle von beneficio."
+        "example": "Die Diskussion klärt die Rolle von Vorteil."
       }
     ],
     "dialogue": [],
@@ -77470,7 +72471,7 @@
       "grammarProfile": {
         "name": "Aktive Bürgerschaft",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -77479,7 +72480,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -77494,40 +72495,40 @@
     "xpReward": 35,
     "orderIndex": 112,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "narratore",
-      "tono",
-      "metafora"
+      "Erzähler",
+      "Ton",
+      "Metapher"
     ],
     "vocabulary": [
       {
-        "word": "narratore",
+        "word": "Erzähler",
         "translation": "narrador",
-        "example": "Die Diskussion klärt die Rolle von narratore."
+        "example": "Die Diskussion klärt die Rolle von Erzähler."
       },
       {
-        "word": "tono",
+        "word": "Ton",
         "translation": "tono",
-        "example": "Die Diskussion klärt die Rolle von tono."
+        "example": "Die Diskussion klärt die Rolle von Ton."
       },
       {
-        "word": "metafora",
+        "word": "Metapher",
         "translation": "metáfora",
-        "example": "Die Diskussion klärt die Rolle von metafora."
+        "example": "Die Diskussion klärt die Rolle von Metapher."
       },
       {
-        "word": "suggerire",
+        "word": "andeuten",
         "translation": "sugerir",
-        "example": "Die Diskussion klärt die Rolle von suggerire."
+        "example": "Die Diskussion klärt die Rolle von andeuten."
       },
       {
-        "word": "ambiguità",
+        "word": "Mehrdeutigkeit",
         "translation": "ambigüedad",
-        "example": "Die Diskussion klärt die Rolle von ambiguità."
+        "example": "Die Diskussion klärt die Rolle von Mehrdeutigkeit."
       }
     ],
     "dialogue": [],
@@ -77537,7 +72538,7 @@
       "grammarProfile": {
         "name": "Literatur und Stimme",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -77546,7 +72547,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -77561,40 +72562,40 @@
     "xpReward": 40,
     "orderIndex": 112,
     "estimatedMinutes": 20,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "mediazione",
-      "contesto",
-      "equivoco"
+      "Vermittlung",
+      "Kontext",
+      "Missverständnis"
     ],
     "vocabulary": [
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       },
       {
-        "word": "contesto",
+        "word": "Kontext",
         "translation": "contexto",
-        "example": "Die Diskussion klärt die Rolle von contesto."
+        "example": "Die Diskussion klärt die Rolle von Kontext."
       },
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "riconoscere",
+        "word": "anerkennen",
         "translation": "reconocer",
-        "example": "Die Diskussion klärt die Rolle von riconoscere."
+        "example": "Die Diskussion klärt die Rolle von anerkennen."
       },
       {
-        "word": "reciprocità",
+        "word": "Gegenseitigkeit",
         "translation": "reciprocidad",
-        "example": "Die Diskussion klärt die Rolle von reciprocità."
+        "example": "Die Diskussion klärt die Rolle von Gegenseitigkeit."
       }
     ],
     "dialogue": [],
@@ -77604,7 +72605,7 @@
       "grammarProfile": {
         "name": "Interkulturelle Vermittlung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -77613,7 +72614,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um erläutern um Ziel com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um erläutern ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -77628,40 +72629,40 @@
     "xpReward": 30,
     "orderIndex": 113,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "iniziativa",
-      "quartiere",
-      "partecipare"
+      "Initiative",
+      "Stadtteil",
+      "teilnehmen"
     ],
     "vocabulary": [
       {
-        "word": "iniziativa",
+        "word": "Initiative",
         "translation": "iniciativa",
-        "example": "Die Diskussion klärt die Rolle von iniziativa."
+        "example": "Die Diskussion klärt die Rolle von Initiative."
       },
       {
-        "word": "quartiere",
+        "word": "Stadtteil",
         "translation": "barrio",
-        "example": "Die Diskussion klärt die Rolle von quartiere."
+        "example": "Die Diskussion klärt die Rolle von Stadtteil."
       },
       {
-        "word": "partecipare",
+        "word": "teilnehmen",
         "translation": "participar",
-        "example": "Die Diskussion klärt die Rolle von partecipare."
+        "example": "Die Diskussion klärt die Rolle von teilnehmen."
       },
       {
-        "word": "proposta",
+        "word": "Vorschlag",
         "translation": "propuesta",
-        "example": "Die Diskussion klärt die Rolle von proposta."
+        "example": "Die Diskussion klärt die Rolle von Vorschlag."
       },
       {
-        "word": "beneficio",
+        "word": "Vorteil",
         "translation": "beneficio",
-        "example": "Die Diskussion klärt die Rolle von beneficio."
+        "example": "Die Diskussion klärt die Rolle von Vorteil."
       }
     ],
     "dialogue": [],
@@ -77671,7 +72672,7 @@
       "grammarProfile": {
         "name": "Aktive Bürgerschaft",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -77680,52 +72681,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu iniziativa. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Initiative. (1)",
         "options": [
-          "iniziativa",
-          "quartiere",
-          "partecipare",
-          "proposta"
+          "Initiative",
+          "Stadtteil",
+          "teilnehmen",
+          "Vorschlag"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu iniziativa. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Initiative. (2)",
         "options": [
-          "quartiere",
-          "partecipare",
-          "proposta",
-          "beneficio"
+          "Stadtteil",
+          "teilnehmen",
+          "Vorschlag",
+          "Vorteil"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu iniziativa. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Initiative. (3)",
         "options": [
-          "partecipare",
-          "proposta",
-          "beneficio",
-          "iniziativa"
+          "teilnehmen",
+          "Vorschlag",
+          "Vorteil",
+          "Initiative"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu iniziativa. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Initiative. (4)",
         "options": [
-          "proposta",
-          "beneficio",
-          "iniziativa",
-          "quartiere"
+          "Vorschlag",
+          "Vorteil",
+          "Initiative",
+          "Stadtteil"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu iniziativa. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Initiative. (5)",
         "options": [
-          "beneficio",
-          "iniziativa",
-          "quartiere",
-          "partecipare"
+          "Vorteil",
+          "Initiative",
+          "Stadtteil",
+          "teilnehmen"
         ]
       }
     ]
@@ -77741,40 +72742,40 @@
     "xpReward": 35,
     "orderIndex": 113,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "narratore",
-      "tono",
-      "metafora"
+      "Erzähler",
+      "Ton",
+      "Metapher"
     ],
     "vocabulary": [
       {
-        "word": "narratore",
+        "word": "Erzähler",
         "translation": "narrador",
-        "example": "Die Diskussion klärt die Rolle von narratore."
+        "example": "Die Diskussion klärt die Rolle von Erzähler."
       },
       {
-        "word": "tono",
+        "word": "Ton",
         "translation": "tono",
-        "example": "Die Diskussion klärt die Rolle von tono."
+        "example": "Die Diskussion klärt die Rolle von Ton."
       },
       {
-        "word": "metafora",
+        "word": "Metapher",
         "translation": "metáfora",
-        "example": "Die Diskussion klärt die Rolle von metafora."
+        "example": "Die Diskussion klärt die Rolle von Metapher."
       },
       {
-        "word": "suggerire",
+        "word": "andeuten",
         "translation": "sugerir",
-        "example": "Die Diskussion klärt die Rolle von suggerire."
+        "example": "Die Diskussion klärt die Rolle von andeuten."
       },
       {
-        "word": "ambiguità",
+        "word": "Mehrdeutigkeit",
         "translation": "ambigüedad",
-        "example": "Die Diskussion klärt die Rolle von ambiguità."
+        "example": "Die Diskussion klärt die Rolle von Mehrdeutigkeit."
       }
     ],
     "dialogue": [],
@@ -77784,7 +72785,7 @@
       "grammarProfile": {
         "name": "Literatur und Stimme",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -77793,52 +72794,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narratore. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzähler. (1)",
         "options": [
-          "narratore",
-          "tono",
-          "metafora",
-          "suggerire"
+          "Erzähler",
+          "Ton",
+          "Metapher",
+          "andeuten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narratore. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzähler. (2)",
         "options": [
-          "tono",
-          "metafora",
-          "suggerire",
-          "ambiguità"
+          "Ton",
+          "Metapher",
+          "andeuten",
+          "Mehrdeutigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narratore. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzähler. (3)",
         "options": [
-          "metafora",
-          "suggerire",
-          "ambiguità",
-          "narratore"
+          "Metapher",
+          "andeuten",
+          "Mehrdeutigkeit",
+          "Erzähler"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narratore. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzähler. (4)",
         "options": [
-          "suggerire",
-          "ambiguità",
-          "narratore",
-          "tono"
+          "andeuten",
+          "Mehrdeutigkeit",
+          "Erzähler",
+          "Ton"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu narratore. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Erzähler. (5)",
         "options": [
-          "ambiguità",
-          "narratore",
-          "tono",
-          "metafora"
+          "Mehrdeutigkeit",
+          "Erzähler",
+          "Ton",
+          "Metapher"
         ]
       }
     ]
@@ -77854,40 +72855,40 @@
     "xpReward": 40,
     "orderIndex": 113,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "mediazione",
-      "contesto",
-      "equivoco"
+      "Vermittlung",
+      "Kontext",
+      "Missverständnis"
     ],
     "vocabulary": [
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       },
       {
-        "word": "contesto",
+        "word": "Kontext",
         "translation": "contexto",
-        "example": "Die Diskussion klärt die Rolle von contesto."
+        "example": "Die Diskussion klärt die Rolle von Kontext."
       },
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "riconoscere",
+        "word": "anerkennen",
         "translation": "reconocer",
-        "example": "Die Diskussion klärt die Rolle von riconoscere."
+        "example": "Die Diskussion klärt die Rolle von anerkennen."
       },
       {
-        "word": "reciprocità",
+        "word": "Gegenseitigkeit",
         "translation": "reciprocidad",
-        "example": "Die Diskussion klärt die Rolle von reciprocità."
+        "example": "Die Diskussion klärt die Rolle von Gegenseitigkeit."
       }
     ],
     "dialogue": [],
@@ -77897,7 +72898,7 @@
       "grammarProfile": {
         "name": "Interkulturelle Vermittlung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -77906,52 +72907,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu mediazione. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Vermittlung. (1)",
         "options": [
-          "mediazione",
-          "contesto",
-          "equivoco",
-          "riconoscere"
+          "Vermittlung",
+          "Kontext",
+          "Missverständnis",
+          "anerkennen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu mediazione. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Vermittlung. (2)",
         "options": [
-          "contesto",
-          "equivoco",
-          "riconoscere",
-          "reciprocità"
+          "Kontext",
+          "Missverständnis",
+          "anerkennen",
+          "Gegenseitigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu mediazione. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Vermittlung. (3)",
         "options": [
-          "equivoco",
-          "riconoscere",
-          "reciprocità",
-          "mediazione"
+          "Missverständnis",
+          "anerkennen",
+          "Gegenseitigkeit",
+          "Vermittlung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu mediazione. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Vermittlung. (4)",
         "options": [
-          "riconoscere",
-          "reciprocità",
-          "mediazione",
-          "contesto"
+          "anerkennen",
+          "Gegenseitigkeit",
+          "Vermittlung",
+          "Kontext"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu mediazione. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Vermittlung. (5)",
         "options": [
-          "reciprocità",
-          "mediazione",
-          "contesto",
-          "equivoco"
+          "Gegenseitigkeit",
+          "Vermittlung",
+          "Kontext",
+          "Missverständnis"
         ]
       }
     ]
@@ -77967,169 +72968,40 @@
     "xpReward": 30,
     "orderIndex": 114,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "iniziativa",
-      "quartiere",
-      "partecipare"
+      "Initiative",
+      "Stadtteil",
+      "teilnehmen"
     ],
     "vocabulary": [
       {
-        "word": "iniziativa",
+        "word": "Initiative",
         "translation": "iniciativa",
-        "example": "Die Diskussion klärt die Rolle von iniziativa."
+        "example": "Die Diskussion klärt die Rolle von Initiative."
       },
       {
-        "word": "quartiere",
+        "word": "Stadtteil",
         "translation": "barrio",
-        "example": "Die Diskussion klärt die Rolle von quartiere."
+        "example": "Die Diskussion klärt die Rolle von Stadtteil."
       },
       {
-        "word": "partecipare",
+        "word": "teilnehmen",
         "translation": "participar",
-        "example": "Die Diskussion klärt die Rolle von partecipare."
+        "example": "Die Diskussion klärt die Rolle von teilnehmen."
       },
       {
-        "word": "proposta",
+        "word": "Vorschlag",
         "translation": "propuesta",
-        "example": "Die Diskussion klärt die Rolle von proposta."
+        "example": "Die Diskussion klärt die Rolle von Vorschlag."
       },
       {
-        "word": "beneficio",
+        "word": "Vorteil",
         "translation": "beneficio",
-        "example": "Die Diskussion klärt die Rolle von beneficio."
-      },
-      {
-        "word": "die Bürgerschaft",
-        "translation": "la ciudadanía",
-        "example": "Die Bürgerschaft forderte mehr Mitbestimmung."
-      },
-      {
-        "word": "das Engagement",
-        "translation": "el compromiso (participación)",
-        "example": "Das Engagement vieler Freiwilliger beeindruckt die Gemeinde."
-      },
-      {
-        "word": "die Beteiligung",
-        "translation": "la participación",
-        "example": "Die Beteiligung an der öffentlichen Debatte war hoch."
-      },
-      {
-        "word": "sich engagieren",
-        "translation": "comprometerse/participar activamente",
-        "example": "Viele Anwohner engagieren sich für bessere Verkehrsregeln."
-      },
-      {
-        "word": "die Mitbestimmung",
-        "translation": "la co-decisión/la participación en decisiones",
-        "example": "Die Mitbestimmung der Bürger verbessert die Entscheidungen."
-      },
-      {
-        "word": "das Gemeinwohl",
-        "translation": "el bien común",
-        "example": "Das Gemeinwohl sollte bei allen Maßnahmen berücksichtigt werden."
-      },
-      {
-        "word": "die Initiative",
-        "translation": "la iniciativa",
-        "example": "Die Initiative zur Begrünung des Viertels fand breite Unterstützung."
-      },
-      {
-        "word": "der Vorschlag",
-        "translation": "la propuesta",
-        "example": "Ihr Vorschlag wurde auf der Sitzung diskutiert."
-      },
-      {
-        "word": "die Beratung",
-        "translation": "la consulta/el asesoramiento",
-        "example": "In der Beratung wurden mehrere Alternativen geprüft."
-      },
-      {
-        "word": "die Abstimmung",
-        "translation": "la votación",
-        "example": "Die Abstimmung zeigt die Prioritäten der Gemeinschaft."
-      },
-      {
-        "word": "das Recht",
-        "translation": "el derecho",
-        "example": "Jeder hat das Recht, seine Meinung zu äußern."
-      },
-      {
-        "word": "die Verantwortung",
-        "translation": "la responsabilidad",
-        "example": "Die Verantwortung für das Projekt teilen mehrere Organisationen."
-      },
-      {
-        "word": "die Anhörung",
-        "translation": "la audiencia pública",
-        "example": "Die Anhörung fand gestern im Rathaus statt."
-      },
-      {
-        "word": "der Kompromiss",
-        "translation": "el compromiso/consenso",
-        "example": "Ein Kompromiss half, den Streit zu beenden."
-      },
-      {
-        "word": "die Petition",
-        "translation": "la petición",
-        "example": "Die Petition sammelte innerhalb einer Woche viele Unterschriften."
-      },
-      {
-        "word": "die Lobbyarbeit",
-        "translation": "el cabildeo",
-        "example": "Transparente Lobbyarbeit ist für demokratische Prozesse wichtig."
-      },
-      {
-        "word": "die Transparenz",
-        "translation": "la transparencia",
-        "example": "Mehr Transparenz schafft Vertrauen zwischen Verwaltung und Bürgern."
-      },
-      {
-        "word": "die Nachhaltigkeit",
-        "translation": "la sostenibilidad",
-        "example": "Nachhaltigkeit spielt bei städtischen Projekten eine zentrale Rolle."
-      },
-      {
-        "word": "die Ressource",
-        "translation": "el recurso",
-        "example": "Zeit und Geld sind begrenzte Ressourcen für die Initiative."
-      },
-      {
-        "word": "das Netzwerk",
-        "translation": "la red",
-        "example": "Das Netzwerk verbindet lokale Initiativen und Vereine."
-      },
-      {
-        "word": "die Kooperation",
-        "translation": "la cooperación",
-        "example": "Eine Kooperation mit Schulen stärkt Bildungsprojekte."
-      },
-      {
-        "word": "Könnten Sie mir bitte helfen?",
-        "translation": "¿Podría ayudarme, por favor?",
-        "example": "Könnten Sie mir bitte helfen, die Petition zu unterschreiben?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach sollten wir zuerst die Fakten klären.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu, das ist ein sinnvoller Vorschlag.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin mir nicht sicher, ob diese Maßnahme ausreicht.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Vorteil."
       }
     ],
     "dialogue": [],
@@ -78139,7 +73011,7 @@
       "grammarProfile": {
         "name": "Aktive Bürgerschaft",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -78150,50 +73022,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „iniciativa“?",
         "options": [
-          "iniziativa",
-          "quartiere",
-          "partecipare",
-          "proposta"
+          "Initiative",
+          "Stadtteil",
+          "teilnehmen",
+          "Vorschlag"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „quartiere“.",
+        "prompt": "Wähle „Stadtteil“.",
         "options": [
-          "quartiere",
-          "partecipare",
-          "proposta",
-          "beneficio"
+          "Stadtteil",
+          "teilnehmen",
+          "Vorschlag",
+          "Vorteil"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „partecipare“.",
+        "prompt": "Wähle „teilnehmen“.",
         "options": [
-          "partecipare",
-          "proposta",
-          "beneficio",
-          "iniziativa"
+          "teilnehmen",
+          "Vorschlag",
+          "Vorteil",
+          "Initiative"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „proposta“.",
+        "prompt": "Wähle „Vorschlag“.",
         "options": [
-          "proposta",
-          "beneficio",
-          "iniziativa",
-          "quartiere"
+          "Vorschlag",
+          "Vorteil",
+          "Initiative",
+          "Stadtteil"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „beneficio“.",
+        "prompt": "Wähle „Vorteil“.",
         "options": [
-          "beneficio",
-          "iniziativa",
-          "quartiere",
-          "partecipare"
+          "Vorteil",
+          "Initiative",
+          "Stadtteil",
+          "teilnehmen"
         ]
       }
     ]
@@ -78209,169 +73081,40 @@
     "xpReward": 35,
     "orderIndex": 114,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "narratore",
-      "tono",
-      "metafora"
+      "Erzähler",
+      "Ton",
+      "Metapher"
     ],
     "vocabulary": [
       {
-        "word": "narratore",
+        "word": "Erzähler",
         "translation": "narrador",
-        "example": "Die Diskussion klärt die Rolle von narratore."
+        "example": "Die Diskussion klärt die Rolle von Erzähler."
       },
       {
-        "word": "tono",
+        "word": "Ton",
         "translation": "tono",
-        "example": "Die Diskussion klärt die Rolle von tono."
+        "example": "Die Diskussion klärt die Rolle von Ton."
       },
       {
-        "word": "metafora",
+        "word": "Metapher",
         "translation": "metáfora",
-        "example": "Die Diskussion klärt die Rolle von metafora."
+        "example": "Die Diskussion klärt die Rolle von Metapher."
       },
       {
-        "word": "suggerire",
+        "word": "andeuten",
         "translation": "sugerir",
-        "example": "Die Diskussion klärt die Rolle von suggerire."
+        "example": "Die Diskussion klärt die Rolle von andeuten."
       },
       {
-        "word": "ambiguità",
+        "word": "Mehrdeutigkeit",
         "translation": "ambigüedad",
-        "example": "Die Diskussion klärt die Rolle von ambiguità."
-      },
-      {
-        "word": "der Erzähler",
-        "translation": "el narrador",
-        "example": "Der Erzähler kommentiert das Geschehen."
-      },
-      {
-        "word": "die Stimme",
-        "translation": "la voz",
-        "example": "Die Stimme der Protagonistin prägt den Ton des Textes."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Die Perspektive wechselt zwischen erster und dritter Person."
-      },
-      {
-        "word": "die Erzählung",
-        "translation": "la narración",
-        "example": "Die Erzählung folgt keiner linearen Chronologie."
-      },
-      {
-        "word": "das Stilmittel",
-        "translation": "el recurso estilístico",
-        "example": "Das Stilmittel der Wiederholung erzeugt einen Rhythmus."
-      },
-      {
-        "word": "die Ironie",
-        "translation": "la ironía",
-        "example": "Die Ironie wird sehr subtil eingesetzt."
-      },
-      {
-        "word": "das Motiv",
-        "translation": "el motivo (literario)",
-        "example": "Das Motiv der Einsamkeit zieht sich durch den Roman."
-      },
-      {
-        "word": "die Figur",
-        "translation": "el personaje",
-        "example": "Die Figur bleibt ambivalent und vielschichtig."
-      },
-      {
-        "word": "die Prosa",
-        "translation": "la prosa",
-        "example": "Die Prosa wirkt knapp und präzise."
-      },
-      {
-        "word": "die Lyrik",
-        "translation": "la lírica",
-        "example": "In der Lyrik spielt Klang oft eine zentrale Rolle."
-      },
-      {
-        "word": "die Dramaturgie",
-        "translation": "la dramaturgia",
-        "example": "Die Dramaturgie des Stücks steigert die Spannung."
-      },
-      {
-        "word": "die These",
-        "translation": "la tesis",
-        "example": "Die These des Essays ist klar formuliert."
-      },
-      {
-        "word": "die Argumentation",
-        "translation": "la argumentación",
-        "example": "Die Argumentation stützt sich auf solide Belege."
-      },
-      {
-        "word": "begründen",
-        "translation": "fundamentar, justificar",
-        "example": "Kannst du deine Interpretation kurz begründen?"
-      },
-      {
-        "word": "plausibel",
-        "translation": "plausible",
-        "example": "Seine Schlussfolgerung erscheint plausibel."
-      },
-      {
-        "word": "die Kohärenz",
-        "translation": "la coherencia",
-        "example": "Die Kohärenz des Textes überzeugt nicht in allen Abschnitten."
-      },
-      {
-        "word": "die Kontinuität",
-        "translation": "la continuidad",
-        "example": "Die Kontinuität der Handlung wurde bewusst unterbrochen."
-      },
-      {
-        "word": "die Ambivalenz",
-        "translation": "la ambivalencia",
-        "example": "Die Ambivalenz der Hauptfigur verleiht dem Roman Tiefe."
-      },
-      {
-        "word": "die Rhetorik",
-        "translation": "la retórica",
-        "example": "Die Rhetorik des Vortrags ist prägnant."
-      },
-      {
-        "word": "die Fokalisierung",
-        "translation": "la focalización (punto de vista)",
-        "example": "Die Fokalisierung verschiebt sich im zweiten Kapitel."
-      },
-      {
-        "word": "hervorheben",
-        "translation": "resaltar",
-        "example": "Der Autor hebt das zentrale Motiv im ersten Abschnitt hervor."
-      },
-      {
-        "word": "Könnten Sie mir kurz helfen?",
-        "translation": "¿Podría ayudarme brevemente?",
-        "example": "Könnten Sie mir kurz helfen, dieses Zitat zu interpretieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach fehlt ein klares Gegenargument.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo con eso.",
-        "example": "Da stimme ich zu; das Argument ist gut begründet.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Zweifel, ob...",
-        "translation": "Dudo que...",
-        "example": "Ich habe Zweifel, ob diese Interpretation alle Belege berücksichtigt.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Mehrdeutigkeit."
       }
     ],
     "dialogue": [],
@@ -78381,7 +73124,7 @@
       "grammarProfile": {
         "name": "Literatur und Stimme",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -78392,50 +73135,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „narrador“?",
         "options": [
-          "narratore",
-          "tono",
-          "metafora",
-          "suggerire"
+          "Erzähler",
+          "Ton",
+          "Metapher",
+          "andeuten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „tono“.",
+        "prompt": "Wähle „Ton“.",
         "options": [
-          "tono",
-          "metafora",
-          "suggerire",
-          "ambiguità"
+          "Ton",
+          "Metapher",
+          "andeuten",
+          "Mehrdeutigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „metafora“.",
+        "prompt": "Wähle „Metapher“.",
         "options": [
-          "metafora",
-          "suggerire",
-          "ambiguità",
-          "narratore"
+          "Metapher",
+          "andeuten",
+          "Mehrdeutigkeit",
+          "Erzähler"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „suggerire“.",
+        "prompt": "Wähle „andeuten“.",
         "options": [
-          "suggerire",
-          "ambiguità",
-          "narratore",
-          "tono"
+          "andeuten",
+          "Mehrdeutigkeit",
+          "Erzähler",
+          "Ton"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „ambiguità“.",
+        "prompt": "Wähle „Mehrdeutigkeit“.",
         "options": [
-          "ambiguità",
-          "narratore",
-          "tono",
-          "metafora"
+          "Mehrdeutigkeit",
+          "Erzähler",
+          "Ton",
+          "Metapher"
         ]
       }
     ]
@@ -78451,170 +73194,40 @@
     "xpReward": 40,
     "orderIndex": 114,
     "estimatedMinutes": 15,
-    "description": "erläutern um Ziel com argumentos claros",
-    "intro": "erläutern um Ziel com argumentos claros",
-    "mission": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern ein Thema mit klaren Argumenten",
+    "intro": "erläutern ein Thema mit klaren Argumenten",
+    "mission": "erläutern ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "mediazione",
-      "contesto",
-      "equivoco"
+      "Vermittlung",
+      "Kontext",
+      "Missverständnis"
     ],
     "vocabulary": [
       {
-        "word": "mediazione",
+        "word": "Vermittlung",
         "translation": "mediación",
-        "example": "Die Diskussion klärt die Rolle von mediazione."
+        "example": "Die Diskussion klärt die Rolle von Vermittlung."
       },
       {
-        "word": "contesto",
+        "word": "Kontext",
         "translation": "contexto",
-        "example": "Die Diskussion klärt die Rolle von contesto."
+        "example": "Die Diskussion klärt die Rolle von Kontext."
       },
       {
-        "word": "equivoco",
+        "word": "Missverständnis",
         "translation": "malentendido",
-        "example": "Die Diskussion klärt die Rolle von equivoco."
+        "example": "Die Diskussion klärt die Rolle von Missverständnis."
       },
       {
-        "word": "riconoscere",
+        "word": "anerkennen",
         "translation": "reconocer",
-        "example": "Die Diskussion klärt die Rolle von riconoscere."
+        "example": "Die Diskussion klärt die Rolle von anerkennen."
       },
       {
-        "word": "reciprocità",
+        "word": "Gegenseitigkeit",
         "translation": "reciprocidad",
-        "example": "Die Diskussion klärt die Rolle von reciprocità."
-      },
-      {
-        "word": "die Perspektivübernahme",
-        "translation": "adopción de perspectivas",
-        "example": "Die Perspektivübernahme erleichtert das Verständnis kultureller Unterschiede."
-      },
-      {
-        "word": "die Interkulturalität",
-        "translation": "interculturalidad",
-        "example": "Interkulturalität prägt moderne Arbeitsumfelder."
-      },
-      {
-        "word": "die kulturelle Sensibilität",
-        "translation": "sensibilidad cultural",
-        "example": "Die kulturelle Sensibilität hilft, unbeabsichtigte Beleidigungen zu vermeiden."
-      },
-      {
-        "word": "die implizite Bedeutung",
-        "translation": "significado implícito",
-        "example": "Die implizite Bedeutung kann in anderen Kulturen anders wahrgenommen werden."
-      },
-      {
-        "word": "das nonverbale Signal",
-        "translation": "señal no verbal",
-        "example": "Das nonverbale Signal verrät oft mehr als Worte."
-      },
-      {
-        "word": "die kontrastive Analyse",
-        "translation": "análisis contrastivo",
-        "example": "Die kontrastive Analyse zeigt Unterschiede in Redewendungen."
-      },
-      {
-        "word": "die kommunikative Kompetenz",
-        "translation": "competencia comunicativa",
-        "example": "Die kommunikative Kompetenz ist für Verhandlungen entscheidend."
-      },
-      {
-        "word": "der interkulturelle Dialog",
-        "translation": "diálogo intercultural",
-        "example": "Der interkulturelle Dialog fördert gegenseitiges Verständnis."
-      },
-      {
-        "word": "die Missverständnisprävention",
-        "translation": "prevención de malentendidos",
-        "example": "Missverständnisprävention erfordert klare Begriffserklärungen."
-      },
-      {
-        "word": "kontextualisieren",
-        "translation": "contextualizar",
-        "example": "Man muss Beispiele kontextualisieren, um Missverständnisse zu vermeiden."
-      },
-      {
-        "word": "erläutern",
-        "translation": "explicar, aclarar",
-        "example": "Bitte erläutern Sie Ihr Ziel mit konkreten Argumenten."
-      },
-      {
-        "word": "die Argumentationsstruktur",
-        "translation": "estructura argumentativa",
-        "example": "Eine klare Argumentationsstruktur stärkt die Überzeugungskraft."
-      },
-      {
-        "word": "die rhetorischen Mittel",
-        "translation": "recursos retóricos",
-        "example": "Die rhetorischen Mittel müssen kultursensibel gewählt werden."
-      },
-      {
-        "word": "die Anpassungsfähigkeit",
-        "translation": "capacidad de adaptación",
-        "example": "Anpassungsfähigkeit ist für interkulturelle Vermittlung unerlässlich."
-      },
-      {
-        "word": "das konsequente Nachfragen",
-        "translation": "búsqueda constante de aclaraciones",
-        "example": "Konsequentes Nachfragen klärt implizite Annahmen."
-      },
-      {
-        "word": "die Rückmeldung",
-        "translation": "retroalimentación",
-        "example": "Die Rückmeldung half, kulturelle Missverständnisse zu erkennen."
-      },
-      {
-        "word": "das Stereotyp",
-        "translation": "estereotipo",
-        "example": "Es ist wichtig, das Stereotyp nicht zu reproduzieren."
-      },
-      {
-        "word": "feinfühlig",
-        "translation": "sensible, con tacto",
-        "example": "Feinfühliges Verhalten verbessert die Gesprächsatmosphäre."
-      },
-      {
-        "word": "die Konventionen",
-        "translation": "convenciones",
-        "example": "Die Konventionen im Geschäftsleben variieren stark zwischen Kulturen."
-      },
-      {
-        "word": "zweckgerichtet",
-        "translation": "orientado al objetivo",
-        "example": "Eine zweckgerichtete Argumentation überzeugt oft schneller."
-      },
-      {
-        "word": "Könnten Sie mir kurz helfen?",
-        "translation": "¿Podría ayudarme un momento?",
-        "example": "Könnten Sie mir kurz helfen, die Bedeutung dieses Beispiels zu erläutern?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach sollten wir kulturelle Hintergründe erläutern.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme dem zu",
-        "translation": "Estoy de acuerdo",
-        "example": "Ich stimme dem zu, weil gemeinsame Normen Vertrauen schaffen.",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich kurz nachfragen?",
-        "translation": "¿Puedo preguntar brevemente?",
-        "example": "Darf ich kurz nachfragen, wie diese Geste interpretiert wird?",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie das bitte näher erläutern?",
-        "translation": "¿Podría explicar eso con más detalle, por favor?",
-        "example": "Könnten Sie das bitte näher erläutern, damit alle Teilnehmenden folgen können?",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Gegenseitigkeit."
       }
     ],
     "dialogue": [],
@@ -78624,7 +73237,7 @@
       "grammarProfile": {
         "name": "Interkulturelle Vermittlung",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "erläutern um Ziel com argumentos claros",
+        "function": "erläutern ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -78635,50 +73248,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „mediación“?",
         "options": [
-          "mediazione",
-          "contesto",
-          "equivoco",
-          "riconoscere"
+          "Vermittlung",
+          "Kontext",
+          "Missverständnis",
+          "anerkennen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „contesto“.",
+        "prompt": "Wähle „Kontext“.",
         "options": [
-          "contesto",
-          "equivoco",
-          "riconoscere",
-          "reciprocità"
+          "Kontext",
+          "Missverständnis",
+          "anerkennen",
+          "Gegenseitigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „equivoco“.",
+        "prompt": "Wähle „Missverständnis“.",
         "options": [
-          "equivoco",
-          "riconoscere",
-          "reciprocità",
-          "mediazione"
+          "Missverständnis",
+          "anerkennen",
+          "Gegenseitigkeit",
+          "Vermittlung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „riconoscere“.",
+        "prompt": "Wähle „anerkennen“.",
         "options": [
-          "riconoscere",
-          "reciprocità",
-          "mediazione",
-          "contesto"
+          "anerkennen",
+          "Gegenseitigkeit",
+          "Vermittlung",
+          "Kontext"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „reciprocità“.",
+        "prompt": "Wähle „Gegenseitigkeit“.",
         "options": [
-          "reciprocità",
-          "mediazione",
-          "contesto",
-          "equivoco"
+          "Gegenseitigkeit",
+          "Vermittlung",
+          "Kontext",
+          "Missverständnis"
         ]
       }
     ]
@@ -79373,45 +73986,45 @@
     "xpReward": 30,
     "orderIndex": 120,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "traguardo",
-      "ostacolo",
-      "percorso"
+      "Ziel",
+      "Hindernis",
+      "Weg"
     ],
     "vocabulary": [
       {
-        "word": "traguardo",
+        "word": "Ziel",
         "translation": "meta",
-        "example": "Die Diskussion klärt die Rolle von traguardo."
+        "example": "Die Diskussion klärt die Rolle von Ziel."
       },
       {
-        "word": "ostacolo",
+        "word": "Hindernis",
         "translation": "obstáculo",
-        "example": "Die Diskussion klärt die Rolle von ostacolo."
+        "example": "Die Diskussion klärt die Rolle von Hindernis."
       },
       {
-        "word": "percorso",
+        "word": "Weg",
         "translation": "recorrido",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Weg."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "raggiungere",
+        "word": "erreichen",
         "translation": "alcanzar",
-        "example": "Die Diskussion klärt die Rolle von raggiungere."
+        "example": "Die Diskussion klärt die Rolle von erreichen."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Bilanz und Perspektiven» untersucht die Gruppe traguardo und ostacolo. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Bilanz und Perspektiven» untersucht die Gruppe Ziel und Hindernis. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -79421,7 +74034,7 @@
       "grammarProfile": {
         "name": "Bilanz und Perspektiven",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -79432,10 +74045,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "traguardo",
-          "percorso",
-          "priorità",
-          "raggiungere"
+          "Ziel",
+          "Weg",
+          "Priorität",
+          "erreichen"
         ]
       },
       {
@@ -79446,39 +74059,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-bilanz-und-perspektiven-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "einzige",
-          "sondern",
-          "Antwort",
-          "Grenzen"
-        ]
-      },
-      {
-        "id": "german-b2-b2-bilanz-und-perspektiven-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-b2-b2-bilanz-und-perspektiven-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -79494,45 +74074,45 @@
     "xpReward": 35,
     "orderIndex": 120,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "visione",
-      "strategia",
-      "risorsa"
+      "Vision",
+      "Strategie",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "visione",
+        "word": "Vision",
         "translation": "visión",
-        "example": "Die Diskussion klärt die Rolle von visione."
+        "example": "Die Diskussion klärt die Rolle von Vision."
       },
       {
-        "word": "strategia",
+        "word": "Strategie",
         "translation": "estrategia",
-        "example": "Die Diskussion klärt die Rolle von strategia."
+        "example": "Die Diskussion klärt die Rolle von Strategie."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "realizzare",
+        "word": "verwirklichen",
         "translation": "realizar",
-        "example": "Die Diskussion klärt die Rolle von realizzare."
+        "example": "Die Diskussion klärt die Rolle von verwirklichen."
       },
       {
-        "word": "coerenza",
+        "word": "Stimmigkeit",
         "translation": "coherencia",
-        "example": "Die Diskussion klärt die Rolle von coerenza."
+        "example": "Die Diskussion klärt die Rolle von Stimmigkeit."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Persönliches Projekt» untersucht die Gruppe visione und strategia. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Persönliches Projekt» untersucht die Gruppe Vision und Strategie. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -79542,7 +74122,7 @@
       "grammarProfile": {
         "name": "Persönliches Projekt",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -79553,10 +74133,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "visione",
-          "risorsa",
-          "realizzare",
-          "coerenza"
+          "Vision",
+          "Ressource",
+          "verwirklichen",
+          "Stimmigkeit"
         ]
       },
       {
@@ -79567,39 +74147,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c1-c1-personliches-projekt-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "Projekt",
-          "visione",
-          "Antwort",
-          "einzige"
-        ]
-      },
-      {
-        "id": "german-c1-c1-personliches-projekt-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c1-c1-personliches-projekt-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "die",
-          "und",
-          "ein"
         ]
       }
     ]
@@ -79615,45 +74162,45 @@
     "xpReward": 40,
     "orderIndex": 120,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "sintesi",
-      "fonte",
-      "priorità"
+      "Synthese",
+      "Quelle",
+      "Priorität"
     ],
     "vocabulary": [
       {
-        "word": "sintesi",
+        "word": "Synthese",
         "translation": "síntesis",
-        "example": "Die Diskussion klärt die Rolle von sintesi."
+        "example": "Die Diskussion klärt die Rolle von Synthese."
       },
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "realizzabile",
+        "word": "umsetzbar",
         "translation": "realizable",
-        "example": "Die Diskussion klärt die Rolle von realizzabile."
+        "example": "Die Diskussion klärt die Rolle von umsetzbar."
       }
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Modul «Synthese und Vorschlag» untersucht die Gruppe sintesi und fonte. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
+      "text": "Im Modul «Synthese und Vorschlag» untersucht die Gruppe Synthese und Quelle. Jede Person bringt ein konkretes Beispiel ein, vergleicht Perspektiven und begründet die eigene Position. Die Diskussion sucht keine einzige Antwort, sondern verbindet Folgen, Grenzen und mögliche Lösungen.\n\nAm Ende formuliert die Gruppe eine gemeinsame Zusammenfassung. Der Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.",
       "questions": [
         "Lies den Text und erkenne These, Argumente und Beispiel."
       ]
@@ -79663,7 +74210,7 @@
       "grammarProfile": {
         "name": "Synthese und Vorschlag",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -79674,10 +74221,10 @@
         "type": "mcq",
         "prompt": "Lies den Text und erkenne These, Argumente und Beispiel.",
         "options": [
-          "sintesi",
-          "priorità",
-          "formulare",
-          "realizzabile"
+          "Synthese",
+          "Priorität",
+          "formulieren",
+          "umsetzbar"
         ]
       },
       {
@@ -79688,39 +74235,6 @@
           "Alle neuen Wörter wiederholen",
           "Jeden Vergleich vermeiden",
           "Ohne Begründung wählen"
-        ]
-      },
-      {
-        "id": "german-c2-c2-synthese-und-vorschlag-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
-        "options": [
-          "sintesi",
-          "einzige",
-          "Antwort",
-          "sondern"
-        ]
-      },
-      {
-        "id": "german-c2-c2-synthese-und-vorschlag-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
-        "options": [
-          "Jede",
-          "soll",
-          "klar",
-          "Ende"
-        ]
-      },
-      {
-        "id": "german-c2-c2-synthese-und-vorschlag-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
-        "options": [
-          "Der",
-          "und",
-          "die",
-          "ein"
         ]
       }
     ]
@@ -81828,50 +76342,50 @@
     "xpReward": 30,
     "orderIndex": 121,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "traguardo",
-      "ostacolo",
-      "percorso"
+      "Ziel",
+      "Hindernis",
+      "Weg"
     ],
     "vocabulary": [
       {
-        "word": "traguardo",
+        "word": "Ziel",
         "translation": "meta",
-        "example": "Die Diskussion klärt die Rolle von traguardo."
+        "example": "Die Diskussion klärt die Rolle von Ziel."
       },
       {
-        "word": "ostacolo",
+        "word": "Hindernis",
         "translation": "obstáculo",
-        "example": "Die Diskussion klärt die Rolle von ostacolo."
+        "example": "Die Diskussion klärt die Rolle von Hindernis."
       },
       {
-        "word": "percorso",
+        "word": "Weg",
         "translation": "recorrido",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Weg."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "raggiungere",
+        "word": "erreichen",
         "translation": "alcanzar",
-        "example": "Die Diskussion klärt die Rolle von raggiungere."
+        "example": "Die Diskussion klärt die Rolle von erreichen."
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „traguardo“. Kannst du mir helfen?"
+        "speaker": "Tutor",
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
-        "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "speaker": "Student",
+        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
       }
     ],
     "reading": null,
@@ -81880,7 +76394,7 @@
       "grammarProfile": {
         "name": "Bilanz und Perspektiven",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -81889,7 +76403,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -81904,46 +76418,46 @@
     "xpReward": 35,
     "orderIndex": 121,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "visione",
-      "strategia",
-      "risorsa"
+      "Vision",
+      "Strategie",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "visione",
+        "word": "Vision",
         "translation": "visión",
-        "example": "Die Diskussion klärt die Rolle von visione."
+        "example": "Die Diskussion klärt die Rolle von Vision."
       },
       {
-        "word": "strategia",
+        "word": "Strategie",
         "translation": "estrategia",
-        "example": "Die Diskussion klärt die Rolle von strategia."
+        "example": "Die Diskussion klärt die Rolle von Strategie."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "realizzare",
+        "word": "verwirklichen",
         "translation": "realizar",
-        "example": "Die Diskussion klärt die Rolle von realizzare."
+        "example": "Die Diskussion klärt die Rolle von verwirklichen."
       },
       {
-        "word": "coerenza",
+        "word": "Stimmigkeit",
         "translation": "coherencia",
-        "example": "Die Diskussion klärt die Rolle von coerenza."
+        "example": "Die Diskussion klärt die Rolle von Stimmigkeit."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -81956,7 +76470,7 @@
       "grammarProfile": {
         "name": "Persönliches Projekt",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -81965,7 +76479,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -81980,46 +76494,46 @@
     "xpReward": 40,
     "orderIndex": 121,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "sintesi",
-      "fonte",
-      "priorità"
+      "Synthese",
+      "Quelle",
+      "Priorität"
     ],
     "vocabulary": [
       {
-        "word": "sintesi",
+        "word": "Synthese",
         "translation": "síntesis",
-        "example": "Die Diskussion klärt die Rolle von sintesi."
+        "example": "Die Diskussion klärt die Rolle von Synthese."
       },
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "realizzabile",
+        "word": "umsetzbar",
         "translation": "realizable",
-        "example": "Die Diskussion klärt die Rolle von realizzabile."
+        "example": "Die Diskussion klärt die Rolle von umsetzbar."
       }
     ],
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "line": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       },
       {
         "speaker": "Student",
@@ -82032,7 +76546,7 @@
       "grammarProfile": {
         "name": "Synthese und Vorschlag",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -82041,7 +76555,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "prompt": "Sprich eine Minute lang: vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -84553,40 +79067,40 @@
     "xpReward": 30,
     "orderIndex": 122,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "traguardo",
-      "ostacolo",
-      "percorso"
+      "Ziel",
+      "Hindernis",
+      "Weg"
     ],
     "vocabulary": [
       {
-        "word": "traguardo",
+        "word": "Ziel",
         "translation": "meta",
-        "example": "Die Diskussion klärt die Rolle von traguardo."
+        "example": "Die Diskussion klärt die Rolle von Ziel."
       },
       {
-        "word": "ostacolo",
+        "word": "Hindernis",
         "translation": "obstáculo",
-        "example": "Die Diskussion klärt die Rolle von ostacolo."
+        "example": "Die Diskussion klärt die Rolle von Hindernis."
       },
       {
-        "word": "percorso",
+        "word": "Weg",
         "translation": "recorrido",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Weg."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "raggiungere",
+        "word": "erreichen",
         "translation": "alcanzar",
-        "example": "Die Diskussion klärt die Rolle von raggiungere."
+        "example": "Die Diskussion klärt die Rolle von erreichen."
       }
     ],
     "dialogue": [],
@@ -84596,7 +79110,7 @@
       "grammarProfile": {
         "name": "Bilanz und Perspektiven",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -84605,7 +79119,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -84620,40 +79134,40 @@
     "xpReward": 35,
     "orderIndex": 122,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "visione",
-      "strategia",
-      "risorsa"
+      "Vision",
+      "Strategie",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "visione",
+        "word": "Vision",
         "translation": "visión",
-        "example": "Die Diskussion klärt die Rolle von visione."
+        "example": "Die Diskussion klärt die Rolle von Vision."
       },
       {
-        "word": "strategia",
+        "word": "Strategie",
         "translation": "estrategia",
-        "example": "Die Diskussion klärt die Rolle von strategia."
+        "example": "Die Diskussion klärt die Rolle von Strategie."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "realizzare",
+        "word": "verwirklichen",
         "translation": "realizar",
-        "example": "Die Diskussion klärt die Rolle von realizzare."
+        "example": "Die Diskussion klärt die Rolle von verwirklichen."
       },
       {
-        "word": "coerenza",
+        "word": "Stimmigkeit",
         "translation": "coherencia",
-        "example": "Die Diskussion klärt die Rolle von coerenza."
+        "example": "Die Diskussion klärt die Rolle von Stimmigkeit."
       }
     ],
     "dialogue": [],
@@ -84663,7 +79177,7 @@
       "grammarProfile": {
         "name": "Persönliches Projekt",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -84672,7 +79186,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -84687,40 +79201,40 @@
     "xpReward": 40,
     "orderIndex": 122,
     "estimatedMinutes": 20,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "sintesi",
-      "fonte",
-      "priorità"
+      "Synthese",
+      "Quelle",
+      "Priorität"
     ],
     "vocabulary": [
       {
-        "word": "sintesi",
+        "word": "Synthese",
         "translation": "síntesis",
-        "example": "Die Diskussion klärt die Rolle von sintesi."
+        "example": "Die Diskussion klärt die Rolle von Synthese."
       },
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "realizzabile",
+        "word": "umsetzbar",
         "translation": "realizable",
-        "example": "Die Diskussion klärt die Rolle von realizzabile."
+        "example": "Die Diskussion klärt die Rolle von umsetzbar."
       }
     ],
     "dialogue": [],
@@ -84730,7 +79244,7 @@
       "grammarProfile": {
         "name": "Synthese und Vorschlag",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -84739,7 +79253,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Schreibe 120–160 Wörter, um vergleichen um Lösung com argumentos claros."
+        "prompt": "Schreibe 120–160 Wörter, um vergleichen ein Thema mit klaren Argumenten."
       }
     ]
   },
@@ -84754,40 +79268,40 @@
     "xpReward": 30,
     "orderIndex": 123,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "traguardo",
-      "ostacolo",
-      "percorso"
+      "Ziel",
+      "Hindernis",
+      "Weg"
     ],
     "vocabulary": [
       {
-        "word": "traguardo",
+        "word": "Ziel",
         "translation": "meta",
-        "example": "Die Diskussion klärt die Rolle von traguardo."
+        "example": "Die Diskussion klärt die Rolle von Ziel."
       },
       {
-        "word": "ostacolo",
+        "word": "Hindernis",
         "translation": "obstáculo",
-        "example": "Die Diskussion klärt die Rolle von ostacolo."
+        "example": "Die Diskussion klärt die Rolle von Hindernis."
       },
       {
-        "word": "percorso",
+        "word": "Weg",
         "translation": "recorrido",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Weg."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "raggiungere",
+        "word": "erreichen",
         "translation": "alcanzar",
-        "example": "Die Diskussion klärt die Rolle von raggiungere."
+        "example": "Die Diskussion klärt die Rolle von erreichen."
       }
     ],
     "dialogue": [],
@@ -84797,7 +79311,7 @@
       "grammarProfile": {
         "name": "Bilanz und Perspektiven",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -84806,52 +79320,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu traguardo. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Ziel. (1)",
         "options": [
-          "traguardo",
-          "ostacolo",
-          "percorso",
-          "priorità"
+          "Ziel",
+          "Hindernis",
+          "Weg",
+          "Priorität"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu traguardo. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Ziel. (2)",
         "options": [
-          "ostacolo",
-          "percorso",
-          "priorità",
-          "raggiungere"
+          "Hindernis",
+          "Weg",
+          "Priorität",
+          "erreichen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu traguardo. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Ziel. (3)",
         "options": [
-          "percorso",
-          "priorità",
-          "raggiungere",
-          "traguardo"
+          "Weg",
+          "Priorität",
+          "erreichen",
+          "Ziel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu traguardo. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Ziel. (4)",
         "options": [
-          "priorità",
-          "raggiungere",
-          "traguardo",
-          "ostacolo"
+          "Priorität",
+          "erreichen",
+          "Ziel",
+          "Hindernis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu traguardo. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Ziel. (5)",
         "options": [
-          "raggiungere",
-          "traguardo",
-          "ostacolo",
-          "percorso"
+          "erreichen",
+          "Ziel",
+          "Hindernis",
+          "Weg"
         ]
       }
     ]
@@ -84867,40 +79381,40 @@
     "xpReward": 35,
     "orderIndex": 123,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "visione",
-      "strategia",
-      "risorsa"
+      "Vision",
+      "Strategie",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "visione",
+        "word": "Vision",
         "translation": "visión",
-        "example": "Die Diskussion klärt die Rolle von visione."
+        "example": "Die Diskussion klärt die Rolle von Vision."
       },
       {
-        "word": "strategia",
+        "word": "Strategie",
         "translation": "estrategia",
-        "example": "Die Diskussion klärt die Rolle von strategia."
+        "example": "Die Diskussion klärt die Rolle von Strategie."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "realizzare",
+        "word": "verwirklichen",
         "translation": "realizar",
-        "example": "Die Diskussion klärt die Rolle von realizzare."
+        "example": "Die Diskussion klärt die Rolle von verwirklichen."
       },
       {
-        "word": "coerenza",
+        "word": "Stimmigkeit",
         "translation": "coherencia",
-        "example": "Die Diskussion klärt die Rolle von coerenza."
+        "example": "Die Diskussion klärt die Rolle von Stimmigkeit."
       }
     ],
     "dialogue": [],
@@ -84910,7 +79424,7 @@
       "grammarProfile": {
         "name": "Persönliches Projekt",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -84919,52 +79433,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu visione. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Vision. (1)",
         "options": [
-          "visione",
-          "strategia",
-          "risorsa",
-          "realizzare"
+          "Vision",
+          "Strategie",
+          "Ressource",
+          "verwirklichen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu visione. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Vision. (2)",
         "options": [
-          "strategia",
-          "risorsa",
-          "realizzare",
-          "coerenza"
+          "Strategie",
+          "Ressource",
+          "verwirklichen",
+          "Stimmigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu visione. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Vision. (3)",
         "options": [
-          "risorsa",
-          "realizzare",
-          "coerenza",
-          "visione"
+          "Ressource",
+          "verwirklichen",
+          "Stimmigkeit",
+          "Vision"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu visione. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Vision. (4)",
         "options": [
-          "realizzare",
-          "coerenza",
-          "visione",
-          "strategia"
+          "verwirklichen",
+          "Stimmigkeit",
+          "Vision",
+          "Strategie"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu visione. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Vision. (5)",
         "options": [
-          "coerenza",
-          "visione",
-          "strategia",
-          "risorsa"
+          "Stimmigkeit",
+          "Vision",
+          "Strategie",
+          "Ressource"
         ]
       }
     ]
@@ -84980,40 +79494,40 @@
     "xpReward": 40,
     "orderIndex": 123,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "sintesi",
-      "fonte",
-      "priorità"
+      "Synthese",
+      "Quelle",
+      "Priorität"
     ],
     "vocabulary": [
       {
-        "word": "sintesi",
+        "word": "Synthese",
         "translation": "síntesis",
-        "example": "Die Diskussion klärt die Rolle von sintesi."
+        "example": "Die Diskussion klärt die Rolle von Synthese."
       },
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "formulare",
+        "word": "formulieren",
         "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "realizzabile",
+        "word": "umsetzbar",
         "translation": "realizable",
-        "example": "Die Diskussion klärt die Rolle von realizzabile."
+        "example": "Die Diskussion klärt die Rolle von umsetzbar."
       }
     ],
     "dialogue": [],
@@ -85023,7 +79537,7 @@
       "grammarProfile": {
         "name": "Synthese und Vorschlag",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -85032,52 +79546,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu sintesi. (1)",
+        "prompt": "Wähle die präziseste Formulierung zu Synthese. (1)",
         "options": [
-          "sintesi",
-          "fonte",
-          "priorità",
-          "formulare"
+          "Synthese",
+          "Quelle",
+          "Priorität",
+          "formulieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu sintesi. (2)",
+        "prompt": "Wähle die präziseste Formulierung zu Synthese. (2)",
         "options": [
-          "fonte",
-          "priorità",
-          "formulare",
-          "realizzabile"
+          "Quelle",
+          "Priorität",
+          "formulieren",
+          "umsetzbar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu sintesi. (3)",
+        "prompt": "Wähle die präziseste Formulierung zu Synthese. (3)",
         "options": [
-          "priorità",
-          "formulare",
-          "realizzabile",
-          "sintesi"
+          "Priorität",
+          "formulieren",
+          "umsetzbar",
+          "Synthese"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu sintesi. (4)",
+        "prompt": "Wähle die präziseste Formulierung zu Synthese. (4)",
         "options": [
-          "formulare",
-          "realizzabile",
-          "sintesi",
-          "fonte"
+          "formulieren",
+          "umsetzbar",
+          "Synthese",
+          "Quelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle die präziseste Formulierung zu sintesi. (5)",
+        "prompt": "Wähle die präziseste Formulierung zu Synthese. (5)",
         "options": [
-          "realizzabile",
-          "sintesi",
-          "fonte",
-          "priorità"
+          "umsetzbar",
+          "Synthese",
+          "Quelle",
+          "Priorität"
         ]
       }
     ]
@@ -85093,171 +79607,40 @@
     "xpReward": 30,
     "orderIndex": 124,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Konnektoren, Konjunktiv, Register und Argumentation.",
     "phrases": [
-      "traguardo",
-      "ostacolo",
-      "percorso"
+      "Ziel",
+      "Hindernis",
+      "Weg"
     ],
     "vocabulary": [
       {
-        "word": "traguardo",
+        "word": "Ziel",
         "translation": "meta",
-        "example": "Die Diskussion klärt die Rolle von traguardo."
+        "example": "Die Diskussion klärt die Rolle von Ziel."
       },
       {
-        "word": "ostacolo",
+        "word": "Hindernis",
         "translation": "obstáculo",
-        "example": "Die Diskussion klärt die Rolle von ostacolo."
+        "example": "Die Diskussion klärt die Rolle von Hindernis."
       },
       {
-        "word": "percorso",
+        "word": "Weg",
         "translation": "recorrido",
-        "example": "Die Diskussion klärt die Rolle von percorso."
+        "example": "Die Diskussion klärt die Rolle von Weg."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
-        "word": "raggiungere",
+        "word": "erreichen",
         "translation": "alcanzar",
-        "example": "Die Diskussion klärt die Rolle von raggiungere."
-      },
-      {
-        "word": "die Bilanz",
-        "translation": "balance, resultado final",
-        "example": "Die Bilanz zeigt unsere Stärken und Schwächen."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "perspectiva",
-        "example": "Aus einer anderen Perspektive wirkt die Lösung einfacher."
-      },
-      {
-        "word": "der Vergleich",
-        "translation": "comparación",
-        "example": "Ein direkter Vergleich hilft bei der Entscheidung."
-      },
-      {
-        "word": "vergleichen",
-        "translation": "comparar",
-        "example": "Wir müssen die Optionen sorgfältig vergleichen."
-      },
-      {
-        "word": "die Lösung",
-        "translation": "solución",
-        "example": "Die Lösung berücksichtigt verschiedene Argumente."
-      },
-      {
-        "word": "das Argument",
-        "translation": "argumento",
-        "example": "Sein wichtigstes Argument ist die Kostenersparnis."
-      },
-      {
-        "word": "die Argumentation",
-        "translation": "argumentación",
-        "example": "Ihre Argumentation war klar und sachlich."
-      },
-      {
-        "word": "überzeugend",
-        "translation": "convincente",
-        "example": "Ihre Belege sind sehr überzeugend."
-      },
-      {
-        "word": "abwägen",
-        "translation": "sopesar / ponderar",
-        "example": "Wir müssen die Vor- und Nachteile abwägen."
-      },
-      {
-        "word": "die Priorität",
-        "translation": "prioridad",
-        "example": "Die Priorität liegt auf der langfristigen Lösung."
-      },
-      {
-        "word": "der Kompromiss",
-        "translation": "compromiso (solución intermedia)",
-        "example": "Ein Kompromiss kann beide Seiten zufriedenstellen."
-      },
-      {
-        "word": "die Chance",
-        "translation": "oportunidad",
-        "example": "Diese Veränderung bietet neue Chancen."
-      },
-      {
-        "word": "das Risiko",
-        "translation": "riesgo",
-        "example": "Das Risiko sollte realistisch eingeschätzt werden."
-      },
-      {
-        "word": "nachhaltig",
-        "translation": "sostenible / duradero",
-        "example": "Wir brauchen eine nachhaltige Strategie."
-      },
-      {
-        "word": "zeitnah",
-        "translation": "lo antes posible / a la brevedad",
-        "example": "Wir sollten zeitnah eine Entscheidung treffen."
-      },
-      {
-        "word": "detailliert",
-        "translation": "detallado",
-        "example": "Bitte liefern Sie einen detaillierten Plan."
-      },
-      {
-        "word": "der Nachweis",
-        "translation": "evidencia, prueba",
-        "example": "Der Nachweis der Wirksamkeit ist überzeugend."
-      },
-      {
-        "word": "die Ursache",
-        "translation": "causa",
-        "example": "Die Ursache des Problems ist noch unklar."
-      },
-      {
-        "word": "die Folge",
-        "translation": "consecuencia",
-        "example": "Als Folge entstanden zusätzliche Kosten."
-      },
-      {
-        "word": "Könntest du mir dabei helfen?",
-        "translation": "¿Podrías ayudarme con esto?",
-        "example": "Könntest du mir dabei helfen, die Bilanz zu prüfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach ist dieser Plan besser.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich anderer Meinung",
-        "translation": "Estoy en desacuerdo",
-        "example": "Da bin ich anderer Meinung; das Risiko ist größer.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher, ob ...",
-        "translation": "No estoy seguro si ...",
-        "example": "Ich bin mir nicht sicher, ob das Budget ausreicht.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, könnten Sie das wiederholen?",
-        "translation": "Disculpe, ¿podría repetir eso?",
-        "example": "Entschuldigung, könnten Sie das wiederholen? Ich habe den letzten Punkt nicht verstanden.",
-        "category": "expression"
-      },
-      {
-        "word": "Aus diesem Grund",
-        "translation": "Por esa razón / Por ello",
-        "example": "Aus diesem Grund schlage ich den Kompromiss vor.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von erreichen."
       }
     ],
     "dialogue": [],
@@ -85267,7 +79650,7 @@
       "grammarProfile": {
         "name": "Bilanz und Perspektiven",
         "definition": "Konnektoren, Konjunktiv, Register und Argumentation.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -85278,50 +79661,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „meta“?",
         "options": [
-          "traguardo",
-          "ostacolo",
-          "percorso",
-          "priorità"
+          "Ziel",
+          "Hindernis",
+          "Weg",
+          "Priorität"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „ostacolo“.",
+        "prompt": "Wähle „Hindernis“.",
         "options": [
-          "ostacolo",
-          "percorso",
-          "priorità",
-          "raggiungere"
+          "Hindernis",
+          "Weg",
+          "Priorität",
+          "erreichen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „percorso“.",
+        "prompt": "Wähle „Weg“.",
         "options": [
-          "percorso",
-          "priorità",
-          "raggiungere",
-          "traguardo"
+          "Weg",
+          "Priorität",
+          "erreichen",
+          "Ziel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „priorità“.",
+        "prompt": "Wähle „Priorität“.",
         "options": [
-          "priorità",
-          "raggiungere",
-          "traguardo",
-          "ostacolo"
+          "Priorität",
+          "erreichen",
+          "Ziel",
+          "Hindernis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „raggiungere“.",
+        "prompt": "Wähle „erreichen“.",
         "options": [
-          "raggiungere",
-          "traguardo",
-          "ostacolo",
-          "percorso"
+          "erreichen",
+          "Ziel",
+          "Hindernis",
+          "Weg"
         ]
       }
     ]
@@ -85337,171 +79720,40 @@
     "xpReward": 35,
     "orderIndex": 124,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
     "phrases": [
-      "visione",
-      "strategia",
-      "risorsa"
+      "Vision",
+      "Strategie",
+      "Ressource"
     ],
     "vocabulary": [
       {
-        "word": "visione",
+        "word": "Vision",
         "translation": "visión",
-        "example": "Die Diskussion klärt die Rolle von visione."
+        "example": "Die Diskussion klärt die Rolle von Vision."
       },
       {
-        "word": "strategia",
+        "word": "Strategie",
         "translation": "estrategia",
-        "example": "Die Diskussion klärt die Rolle von strategia."
+        "example": "Die Diskussion klärt die Rolle von Strategie."
       },
       {
-        "word": "risorsa",
+        "word": "Ressource",
         "translation": "recurso",
-        "example": "Die Diskussion klärt die Rolle von risorsa."
+        "example": "Die Diskussion klärt die Rolle von Ressource."
       },
       {
-        "word": "realizzare",
+        "word": "verwirklichen",
         "translation": "realizar",
-        "example": "Die Diskussion klärt die Rolle von realizzare."
+        "example": "Die Diskussion klärt die Rolle von verwirklichen."
       },
       {
-        "word": "coerenza",
+        "word": "Stimmigkeit",
         "translation": "coherencia",
-        "example": "Die Diskussion klärt die Rolle von coerenza."
-      },
-      {
-        "word": "vergleichen",
-        "translation": "comparar",
-        "example": "Wir vergleichen die Optionen anhand klarer Kriterien."
-      },
-      {
-        "word": "der Vergleich",
-        "translation": "la comparación",
-        "example": "Der Vergleich zeigt deutliche Vor- und Nachteile."
-      },
-      {
-        "word": "das Pro und Kontra",
-        "translation": "pros y contras",
-        "example": "Das Pro und Kontra hilft bei der Entscheidungsfindung."
-      },
-      {
-        "word": "das Argument",
-        "translation": "el argumento",
-        "example": "Sein Argument stützte sich auf aktuelle Studien."
-      },
-      {
-        "word": "das Gegenargument",
-        "translation": "la contraargumentación",
-        "example": "Als Gegenargument nannte sie die hohen Kosten."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Die Evidenz belegt, dass die Lösung funktioniert."
-      },
-      {
-        "word": "die Plausibilität",
-        "translation": "la plausibilidad",
-        "example": "Die Plausibilität der These ist schwer zu widerlegen."
-      },
-      {
-        "word": "priorisieren",
-        "translation": "priorizar",
-        "example": "Wir müssen die Aufgaben nach Dringlichkeit priorisieren."
-      },
-      {
-        "word": "die Priorität",
-        "translation": "la prioridad",
-        "example": "Die Priorität liegt auf der nachhaltigen Umsetzung."
-      },
-      {
-        "word": "die Interessengruppe",
-        "translation": "el grupo de interés",
-        "example": "Mehrere Interessengruppen wurden zu der Diskussion eingeladen."
-      },
-      {
-        "word": "die Konsequenz",
-        "translation": "la consecuencia",
-        "example": "Eine Konsequenz der Wahl wäre ein reduziertes Budget."
-      },
-      {
-        "word": "die Ursache",
-        "translation": "la causa",
-        "example": "Die Analyse identifizierte die Hauptursache des Problems."
-      },
-      {
-        "word": "ableiten",
-        "translation": "deducir",
-        "example": "Aus den Daten lassen sich klare Schlüsse ableiten."
-      },
-      {
-        "word": "begründen",
-        "translation": "justificar",
-        "example": "Bitte begründen Sie Ihre Empfehlung kurz."
-      },
-      {
-        "word": "fundiert",
-        "translation": "bien fundamentado",
-        "example": "Ihre Analyse ist sachlich und fundiert."
-      },
-      {
-        "word": "überzeugend",
-        "translation": "convincente",
-        "example": "Er legte überzeugend dar, warum diese Lösung sinnvoll ist."
-      },
-      {
-        "word": "die Alternative",
-        "translation": "la alternativa",
-        "example": "Wir sollten mindestens eine realistische Alternative prüfen."
-      },
-      {
-        "word": "die Machbarkeit",
-        "translation": "la viabilidad",
-        "example": "Die Machbarkeit des Plans wurde geprüft."
-      },
-      {
-        "word": "die Ressource",
-        "translation": "el recurso",
-        "example": "Die Ressource Zeit steht nur begrenzt zur Verfügung."
-      },
-      {
-        "word": "Könnten Sie mir kurz helfen?",
-        "translation": "¿Podría ayudarme brevemente?",
-        "example": "Könnten Sie mir kurz helfen, diese Prioritätenliste zu ordnen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Ansicht nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Ansicht nach ist die zweite Option langfristig vorteilhafter.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich ganz Ihrer Meinung.",
-        "translation": "Estoy totalmente de acuerdo con usted.",
-        "example": "Da bin ich ganz Ihrer Meinung; das sollten wir umsetzen.",
-        "category": "expression"
-      },
-      {
-        "word": "Daran habe ich Zweifel.",
-        "translation": "Tengo dudas sobre eso.",
-        "example": "Daran habe ich Zweifel, denn die Daten sind unvollständig.",
-        "category": "expression"
-      },
-      {
-        "word": "Wäre es in Ordnung, wenn...",
-        "translation": "¿Estaría bien si...?",
-        "example": "Wäre es in Ordnung, wenn wir die Deadline um eine Woche verschieben?",
-        "category": "expression"
-      },
-      {
-        "word": "Aus diesem Grund",
-        "translation": "por esta razón",
-        "example": "Aus diesem Grund empfehle ich die Alternative B.",
-        "category": "expression"
+        "example": "Die Diskussion klärt die Rolle von Stimmigkeit."
       }
     ],
     "dialogue": [],
@@ -85511,7 +79763,7 @@
       "grammarProfile": {
         "name": "Persönliches Projekt",
         "definition": "Nuancen, Kohärenz, indirekte Rede und formelles Register.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -85522,50 +79774,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „visión“?",
         "options": [
-          "visione",
-          "strategia",
-          "risorsa",
-          "realizzare"
+          "Vision",
+          "Strategie",
+          "Ressource",
+          "verwirklichen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „strategia“.",
+        "prompt": "Wähle „Strategie“.",
         "options": [
-          "strategia",
-          "risorsa",
-          "realizzare",
-          "coerenza"
+          "Strategie",
+          "Ressource",
+          "verwirklichen",
+          "Stimmigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „risorsa“.",
+        "prompt": "Wähle „Ressource“.",
         "options": [
-          "risorsa",
-          "realizzare",
-          "coerenza",
-          "visione"
+          "Ressource",
+          "verwirklichen",
+          "Stimmigkeit",
+          "Vision"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „realizzare“.",
+        "prompt": "Wähle „verwirklichen“.",
         "options": [
-          "realizzare",
-          "coerenza",
-          "visione",
-          "strategia"
+          "verwirklichen",
+          "Stimmigkeit",
+          "Vision",
+          "Strategie"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „coerenza“.",
+        "prompt": "Wähle „Stimmigkeit“.",
         "options": [
-          "coerenza",
-          "visione",
-          "strategia",
-          "risorsa"
+          "Stimmigkeit",
+          "Vision",
+          "Strategie",
+          "Ressource"
         ]
       }
     ]
@@ -85581,171 +79833,40 @@
     "xpReward": 40,
     "orderIndex": 124,
     "estimatedMinutes": 15,
-    "description": "vergleichen um Lösung com argumentos claros",
-    "intro": "vergleichen um Lösung com argumentos claros",
-    "mission": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
+    "intro": "vergleichen ein Thema mit klaren Argumenten",
+    "mission": "vergleichen ein Thema mit klaren Argumenten",
     "grammar": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
     "phrases": [
-      "sintesi",
-      "fonte",
-      "priorità"
+      "Synthese",
+      "Quelle",
+      "Priorität"
     ],
     "vocabulary": [
       {
-        "word": "sintesi",
+        "word": "Synthese",
         "translation": "síntesis",
-        "example": "Die Diskussion klärt die Rolle von sintesi."
+        "example": "Die Diskussion klärt die Rolle von Synthese."
       },
       {
-        "word": "fonte",
+        "word": "Quelle",
         "translation": "fuente",
-        "example": "Die Diskussion klärt die Rolle von fonte."
+        "example": "Die Diskussion klärt die Rolle von Quelle."
       },
       {
-        "word": "priorità",
+        "word": "Priorität",
         "translation": "prioridad",
-        "example": "Die Diskussion klärt die Rolle von priorità."
-      },
-      {
-        "word": "formulare",
-        "translation": "formular",
-        "example": "Die Diskussion klärt die Rolle von formulare."
-      },
-      {
-        "word": "realizzabile",
-        "translation": "realizable",
-        "example": "Die Diskussion klärt die Rolle von realizzabile."
-      },
-      {
-        "word": "die Synthese",
-        "translation": "la síntesis",
-        "example": "Die Synthese der Argumente führt zu einem klaren Plan."
-      },
-      {
-        "word": "die Quelle",
-        "translation": "la fuente",
-        "example": "Bitte überprüfe die Quelle der Daten."
-      },
-      {
-        "word": "die Priorität",
-        "translation": "la prioridad",
-        "example": "Diese Aufgabe hat höchste Priorität."
+        "example": "Die Diskussion klärt die Rolle von Priorität."
       },
       {
         "word": "formulieren",
-        "translation": "formular; expresar",
-        "example": "Formulieren Sie einen präzisen Vorschlag."
+        "translation": "formular",
+        "example": "Die Diskussion klärt die Rolle von formulieren."
       },
       {
-        "word": "realisierbar",
-        "translation": "realizable; factible",
-        "example": "Ist dieser Plan realisierbar?"
-      },
-      {
-        "word": "abwägen",
-        "translation": "sopesar; ponderar",
-        "example": "Wir müssen Vor- und Nachteile sorgfältig abwägen."
-      },
-      {
-        "word": "der Kompromiss",
-        "translation": "el compromiso; acuerdo intermedio",
-        "example": "Ein Kompromiss könnte beide Interessen berücksichtigen."
-      },
-      {
-        "word": "die Konsistenz",
-        "translation": "la consistencia",
-        "example": "Achte auf die Konsistenz deiner Argumentation."
-      },
-      {
-        "word": "nachvollziehbar",
-        "translation": "comprensible; lógico",
-        "example": "Deine Schlussfolgerung ist nachvollziehbar."
-      },
-      {
-        "word": "konkretisieren",
-        "translation": "concretar; especificar",
-        "example": "Könnten Sie die Maßnahmen konkretisieren?"
-      },
-      {
-        "word": "begründet",
-        "translation": "fundado; justificado",
-        "example": "Sein Einwand ist gut begründet."
-      },
-      {
-        "word": "der Vorschlag",
-        "translation": "la propuesta",
-        "example": "Der Vorschlag enthält fünf konkrete Schritte."
-      },
-      {
-        "word": "die Alternative",
-        "translation": "la alternativa",
-        "example": "Wir sollten zumindest eine praktikable Alternative prüfen."
-      },
-      {
-        "word": "gegenüberstellen",
-        "translation": "contrastar; comparar",
-        "example": "Stellen Sie die Optionen gegenüber."
-      },
-      {
-        "word": "gewichten",
-        "translation": "ponderar; asignar peso",
-        "example": "Wir müssen die Kriterien nach Wichtigkeit gewichten."
-      },
-      {
-        "word": "die Evidenz",
-        "translation": "la evidencia",
-        "example": "Die Evidenz stützt die vorgeschlagene Maßnahme."
-      },
-      {
-        "word": "prägnant",
-        "translation": "conciso",
-        "example": "Formulieren Sie ein prägnantes Fazit."
-      },
-      {
-        "word": "Könnten Sie mir dabei helfen?",
-        "translation": "¿Podría ayudarme con esto?",
-        "example": "Könnten Sie mir dabei helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollten wir zuerst die Daten analysieren.",
-        "category": "expression"
-      },
-      {
-        "word": "Dem stimme ich zu.",
-        "translation": "Estoy de acuerdo con eso.",
-        "example": "Dem stimme ich zu; das ist sachlich begründet.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe Bedenken bezüglich...",
-        "translation": "Tengo dudas respecto a...",
-        "example": "Ich habe Bedenken bezüglich der Kosten.",
-        "category": "expression"
-      },
-      {
-        "word": "Aufgrund von...",
-        "translation": "Debido a...",
-        "example": "Aufgrund von Zeitmangel schlage ich eine Priorisierung vor.",
-        "category": "expression"
-      },
-      {
-        "word": "Daraus folgt, dass...",
-        "translation": "De ello se sigue que...",
-        "example": "Daraus folgt, dass wir den Zeitplan anpassen müssen.",
-        "category": "expression"
-      },
-      {
-        "word": "die Umsetzbarkeit",
-        "translation": "la viabilidad; factibilidad de implementación",
-        "example": "Die Umsetzbarkeit hängt vom Budget ab."
-      },
-      {
-        "word": "die Stakeholder",
-        "translation": "las partes interesadas",
-        "example": "Die Stakeholder müssen frühzeitig informiert werden."
+        "word": "umsetzbar",
+        "translation": "realizable",
+        "example": "Die Diskussion klärt die Rolle von umsetzbar."
       }
     ],
     "dialogue": [],
@@ -85755,7 +79876,7 @@
       "grammarProfile": {
         "name": "Synthese und Vorschlag",
         "definition": "Stilistische Präzision, Implizites, Rhetorik und Umformulierung.",
-        "function": "vergleichen um Lösung com argumentos claros",
+        "function": "vergleichen ein Thema mit klaren Argumenten",
         "examples": []
       },
       "grammarTest": null,
@@ -85766,50 +79887,50 @@
         "type": "mcq",
         "prompt": "Welches Wort bedeutet „síntesis“?",
         "options": [
-          "sintesi",
-          "fonte",
-          "priorità",
-          "formulare"
+          "Synthese",
+          "Quelle",
+          "Priorität",
+          "formulieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „fonte“.",
+        "prompt": "Wähle „Quelle“.",
         "options": [
-          "fonte",
-          "priorità",
-          "formulare",
-          "realizzabile"
+          "Quelle",
+          "Priorität",
+          "formulieren",
+          "umsetzbar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „priorità“.",
+        "prompt": "Wähle „Priorität“.",
         "options": [
-          "priorità",
-          "formulare",
-          "realizzabile",
-          "sintesi"
+          "Priorität",
+          "formulieren",
+          "umsetzbar",
+          "Synthese"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „formulare“.",
+        "prompt": "Wähle „formulieren“.",
         "options": [
-          "formulare",
-          "realizzabile",
-          "sintesi",
-          "fonte"
+          "formulieren",
+          "umsetzbar",
+          "Synthese",
+          "Quelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Wähle „realizzabile“.",
+        "prompt": "Wähle „umsetzbar“.",
         "options": [
-          "realizzabile",
-          "sintesi",
-          "fonte",
-          "priorità"
+          "umsetzbar",
+          "Synthese",
+          "Quelle",
+          "Priorität"
         ]
       }
     ]
@@ -86435,13 +80556,13 @@
     "slug": "b2-projekte-und-verantwortung",
     "level": "B2",
     "title": "Projekte und Verantwortung",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 1,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86450,11 +80571,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "scadenza",
-        "incarico",
-        "risorsa",
-        "coordinare",
-        "valutare"
+        "Frist",
+        "Aufgabe",
+        "Ressource",
+        "koordinieren",
+        "bewerten"
       ],
       "scenario": "Projekte und Verantwortung"
     }
@@ -86464,13 +80585,13 @@
     "slug": "c1-offentliche-argumentation",
     "level": "C1",
     "title": "Öffentliche Argumentation",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 1,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86479,11 +80600,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "tesi",
-        "obiezione",
-        "evidenza",
-        "confutare",
-        "sfumatura"
+        "These",
+        "Einwand",
+        "Beleg",
+        "widerlegen",
+        "Nuance"
       ],
       "scenario": "Öffentliche Argumentation"
     }
@@ -86493,13 +80614,13 @@
     "slug": "c2-sprache-und-uberzeugung",
     "level": "C2",
     "title": "Sprache und Überzeugung",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 1,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86508,11 +80629,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "retorica",
-        "premessa",
-        "inferenza",
-        "attenuare",
-        "persuasivo"
+        "Rhetorik",
+        "Prämisse",
+        "Schlussfolgerung",
+        "abschwächen",
+        "überzeugend"
       ],
       "scenario": "Sprache und Überzeugung"
     }
@@ -86609,13 +80730,13 @@
     "slug": "b2-stadt-und-mobilitat",
     "level": "B2",
     "title": "Stadt und Mobilität",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 2,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86624,11 +80745,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "percorso",
-        "traffico",
-        "abbonamento",
-        "accessibile",
-        "ridurre"
+        "Strecke",
+        "Verkehr",
+        "Fahrkarte",
+        "barrierefrei",
+        "verringern"
       ],
       "scenario": "Stadt und Mobilität"
     }
@@ -86638,13 +80759,13 @@
     "slug": "c1-innovation-und-gesellschaft",
     "level": "C1",
     "title": "Innovation und Gesellschaft",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 2,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86653,11 +80774,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "innovazione",
-        "accesso",
-        "divario",
-        "regolare",
-        "conseguenza"
+        "Innovation",
+        "Zugang",
+        "Kluft",
+        "regulieren",
+        "Folge"
       ],
       "scenario": "Innovation und Gesellschaft"
     }
@@ -86667,13 +80788,13 @@
     "slug": "c2-offentliche-politik",
     "level": "C2",
     "title": "Öffentliche Politik",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 2,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86682,11 +80803,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "politica",
-        "impatto",
-        "criterio",
-        "attuare",
-        "monitorare"
+        "Politik",
+        "Auswirkung",
+        "Kriterium",
+        "umsetzen",
+        "beobachten"
       ],
       "scenario": "Öffentliche Politik"
     }
@@ -86783,13 +80904,13 @@
     "slug": "b2-arbeit-und-kompetenzen",
     "level": "B2",
     "title": "Arbeit und Kompetenzen",
-    "titleEs": "bewerten um Perspektive com argumentos claros",
-    "description": "bewerten um Perspektive com argumentos claros",
+    "titleEs": "bewerten ein Thema mit klaren Argumenten",
+    "description": "bewerten ein Thema mit klaren Argumenten",
     "order": 3,
     "unitOverview": {
-      "objective": "bewerten um Perspektive com argumentos claros",
+      "objective": "bewerten ein Thema mit klaren Argumenten",
       "outcomes": [
-        "bewerten um Perspektive com argumentos claros",
+        "bewerten ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86798,11 +80919,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "colloquio",
-        "esperienza",
-        "candidatura",
-        "affidabile",
-        "migliorare"
+        "Vorstellungsgespräch",
+        "Erfahrung",
+        "Bewerbung",
+        "zuverlässig",
+        "verbessern"
       ],
       "scenario": "Arbeit und Kompetenzen"
     }
@@ -86812,13 +80933,13 @@
     "slug": "c1-ethik-und-entscheidungen",
     "level": "C1",
     "title": "Ethik und Entscheidungen",
-    "titleEs": "bewerten um Perspektive com argumentos claros",
-    "description": "bewerten um Perspektive com argumentos claros",
+    "titleEs": "bewerten ein Thema mit klaren Argumenten",
+    "description": "bewerten ein Thema mit klaren Argumenten",
     "order": 3,
     "unitOverview": {
-      "objective": "bewerten um Perspektive com argumentos claros",
+      "objective": "bewerten ein Thema mit klaren Argumenten",
       "outcomes": [
-        "bewerten um Perspektive com argumentos claros",
+        "bewerten ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86827,11 +80948,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "dilemma",
-        "principio",
-        "responsabilità",
-        "giustificare",
-        "equità"
+        "Dilemma",
+        "Grundsatz",
+        "Verantwortung",
+        "begründen",
+        "Gerechtigkeit"
       ],
       "scenario": "Ethik und Entscheidungen"
     }
@@ -86841,13 +80962,13 @@
     "slug": "c2-wissen-und-unsicherheit",
     "level": "C2",
     "title": "Wissen und Unsicherheit",
-    "titleEs": "bewerten um Perspektive com argumentos claros",
-    "description": "bewerten um Perspektive com argumentos claros",
+    "titleEs": "bewerten ein Thema mit klaren Argumenten",
+    "description": "bewerten ein Thema mit klaren Argumenten",
     "order": 3,
     "unitOverview": {
-      "objective": "bewerten um Perspektive com argumentos claros",
+      "objective": "bewerten ein Thema mit klaren Argumenten",
       "outcomes": [
-        "bewerten um Perspektive com argumentos claros",
+        "bewerten ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86856,11 +80977,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "ipotesi",
-        "probabilità",
-        "evidenza",
-        "presumere",
-        "cautela"
+        "Hypothese",
+        "Wahrscheinlichkeit",
+        "Beleg",
+        "annehmen",
+        "Vorsicht"
       ],
       "scenario": "Wissen und Unsicherheit"
     }
@@ -86957,13 +81078,13 @@
     "slug": "b2-umwelt-und-konsum",
     "level": "B2",
     "title": "Umwelt und Konsum",
-    "titleEs": "begründen um Beispiel com argumentos claros",
-    "description": "begründen um Beispiel com argumentos claros",
+    "titleEs": "begründen ein Thema mit klaren Argumenten",
+    "description": "begründen ein Thema mit klaren Argumenten",
     "order": 4,
     "unitOverview": {
-      "objective": "begründen um Beispiel com argumentos claros",
+      "objective": "begründen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "begründen um Beispiel com argumentos claros",
+        "begründen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -86972,11 +81093,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "impatto",
-        "raccolta",
-        "spreco",
-        "sostenibile",
-        "abitudine"
+        "Auswirkung",
+        "Sammlung",
+        "Verschwendung",
+        "nachhaltig",
+        "Gewohnheit"
       ],
       "scenario": "Umwelt und Konsum"
     }
@@ -86986,13 +81107,13 @@
     "slug": "c1-kunst-und-interpretation",
     "level": "C1",
     "title": "Kunst und Interpretation",
-    "titleEs": "begründen um Beispiel com argumentos claros",
-    "description": "begründen um Beispiel com argumentos claros",
+    "titleEs": "begründen ein Thema mit klaren Argumenten",
+    "description": "begründen ein Thema mit klaren Argumenten",
     "order": 4,
     "unitOverview": {
-      "objective": "begründen um Beispiel com argumentos claros",
+      "objective": "begründen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "begründen um Beispiel com argumentos claros",
+        "begründen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87001,11 +81122,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "opera",
-        "linguaggio",
-        "interpretazione",
-        "evocare",
-        "contrasto"
+        "Werk",
+        "Sprache",
+        "Deutung",
+        "hervorrufen",
+        "Kontrast"
       ],
       "scenario": "Kunst und Interpretation"
     }
@@ -87015,13 +81136,13 @@
     "slug": "c2-erzahlung-und-identitat",
     "level": "C2",
     "title": "Erzählung und Identität",
-    "titleEs": "begründen um Beispiel com argumentos claros",
-    "description": "begründen um Beispiel com argumentos claros",
+    "titleEs": "begründen ein Thema mit klaren Argumenten",
+    "description": "begründen ein Thema mit klaren Argumenten",
     "order": 4,
     "unitOverview": {
-      "objective": "begründen um Beispiel com argumentos claros",
+      "objective": "begründen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "begründen um Beispiel com argumentos claros",
+        "begründen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87030,11 +81151,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "narrazione",
-        "memoria",
-        "voce",
-        "rielaborare",
-        "appartenenza"
+        "Erzählung",
+        "Erinnerung",
+        "Stimme",
+        "neu deuten",
+        "Zugehörigkeit"
       ],
       "scenario": "Erzählung und Identität"
     }
@@ -87131,13 +81252,13 @@
     "slug": "b2-medien-und-information",
     "level": "B2",
     "title": "Medien und Information",
-    "titleEs": "zusammenfassen um Zusammenhang com argumentos claros",
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "titleEs": "zusammenfassen ein Thema mit klaren Argumenten",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
     "order": 5,
     "unitOverview": {
-      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "objective": "zusammenfassen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "zusammenfassen um Zusammenhang com argumentos claros",
+        "zusammenfassen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87146,11 +81267,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "fonte",
-        "notizia",
-        "verificare",
-        "affidabilità",
-        "pregiudizio"
+        "Quelle",
+        "Nachricht",
+        "überprüfen",
+        "Glaubwürdigkeit",
+        "Vorurteil"
       ],
       "scenario": "Medien und Information"
     }
@@ -87160,13 +81281,13 @@
     "slug": "c1-forschung-und-methode",
     "level": "C1",
     "title": "Forschung und Methode",
-    "titleEs": "zusammenfassen um Zusammenhang com argumentos claros",
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "titleEs": "zusammenfassen ein Thema mit klaren Argumenten",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
     "order": 5,
     "unitOverview": {
-      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "objective": "zusammenfassen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "zusammenfassen um Zusammenhang com argumentos claros",
+        "zusammenfassen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87175,11 +81296,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "ipotesi",
-        "campione",
-        "risultato",
-        "dimostrare",
-        "limite"
+        "Hypothese",
+        "Stichprobe",
+        "Ergebnis",
+        "belegen",
+        "Grenze"
       ],
       "scenario": "Forschung und Methode"
     }
@@ -87189,13 +81310,13 @@
     "slug": "c2-recht-und-verantwortung",
     "level": "C2",
     "title": "Recht und Verantwortung",
-    "titleEs": "zusammenfassen um Zusammenhang com argumentos claros",
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "titleEs": "zusammenfassen ein Thema mit klaren Argumenten",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
     "order": 5,
     "unitOverview": {
-      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "objective": "zusammenfassen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "zusammenfassen um Zusammenhang com argumentos claros",
+        "zusammenfassen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87204,11 +81325,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "diritto",
-        "dovere",
-        "principio",
-        "tutelare",
-        "responsabilità"
+        "Recht",
+        "Pflicht",
+        "Grundsatz",
+        "schützen",
+        "Verantwortung"
       ],
       "scenario": "Recht und Verantwortung"
     }
@@ -87305,13 +81426,13 @@
     "slug": "b2-gesundheit-und-wohlbefinden",
     "level": "B2",
     "title": "Gesundheit und Wohlbefinden",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 6,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87320,11 +81441,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "benessere",
-        "prevenzione",
-        "riposo",
-        "equilibrio",
-        "consiglio"
+        "Wohlbefinden",
+        "Prävention",
+        "Erholung",
+        "Gleichgewicht",
+        "Ratschlag"
       ],
       "scenario": "Gesundheit und Wohlbefinden"
     }
@@ -87334,13 +81455,13 @@
     "slug": "c1-alltagsokonomie",
     "level": "C1",
     "title": "Alltagsökonomie",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 6,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87349,11 +81470,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "bilancio",
-        "risparmio",
-        "investimento",
-        "variare",
-        "sostenere"
+        "Haushalt",
+        "Ersparnis",
+        "Investition",
+        "schwanken",
+        "tragen"
       ],
       "scenario": "Alltagsökonomie"
     }
@@ -87363,13 +81484,13 @@
     "slug": "c2-okonomie-und-ungleichheit",
     "level": "C2",
     "title": "Ökonomie und Ungleichheit",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 6,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87378,11 +81499,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "disuguaglianza",
-        "reddito",
-        "indicatore",
-        "distribuire",
-        "intervenire"
+        "Ungleichheit",
+        "Einkommen",
+        "Indikator",
+        "verteilen",
+        "eingreifen"
       ],
       "scenario": "Ökonomie und Ungleichheit"
     }
@@ -87479,13 +81600,13 @@
     "slug": "b2-kultur-und-identitat",
     "level": "B2",
     "title": "Kultur und Identität",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 7,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87494,11 +81615,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "tradizione",
-        "appartenenza",
-        "prospettiva",
-        "valorizzare",
-        "dialogo"
+        "Tradition",
+        "Zugehörigkeit",
+        "Perspektive",
+        "würdigen",
+        "Dialog"
       ],
       "scenario": "Kultur und Identität"
     }
@@ -87508,13 +81629,13 @@
     "slug": "c1-orte-und-erinnerung",
     "level": "C1",
     "title": "Orte und Erinnerung",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 7,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87523,11 +81644,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "memoria",
-        "patrimonio",
-        "trasformazione",
-        "preservare",
-        "radice"
+        "Erinnerung",
+        "Kulturerbe",
+        "Wandel",
+        "bewahren",
+        "Wurzel"
       ],
       "scenario": "Orte und Erinnerung"
     }
@@ -87537,13 +81658,13 @@
     "slug": "c2-umwelt-und-zukunft",
     "level": "C2",
     "title": "Umwelt und Zukunft",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 7,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87552,11 +81673,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "scenario",
-        "risorsa",
-        "mitigare",
-        "adattamento",
-        "interdipendenza"
+        "Szenario",
+        "Ressource",
+        "abmildern",
+        "Anpassung",
+        "Wechselwirkung"
       ],
       "scenario": "Umwelt und Zukunft"
     }
@@ -87653,13 +81774,13 @@
     "slug": "b2-technik-und-datenschutz",
     "level": "B2",
     "title": "Technik und Datenschutz",
-    "titleEs": "bewerten um Perspektive com argumentos claros",
-    "description": "bewerten um Perspektive com argumentos claros",
+    "titleEs": "bewerten ein Thema mit klaren Argumenten",
+    "description": "bewerten ein Thema mit klaren Argumenten",
     "order": 8,
     "unitOverview": {
-      "objective": "bewerten um Perspektive com argumentos claros",
+      "objective": "bewerten ein Thema mit klaren Argumenten",
       "outcomes": [
-        "bewerten um Perspektive com argumentos claros",
+        "bewerten ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87668,11 +81789,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "dispositivo",
-        "dati",
-        "proteggere",
-        "consenso",
-        "rischio"
+        "Gerät",
+        "Daten",
+        "schützen",
+        "Einwilligung",
+        "Risiko"
       ],
       "scenario": "Technik und Datenschutz"
     }
@@ -87682,13 +81803,13 @@
     "slug": "c1-kommunikation-und-register",
     "level": "C1",
     "title": "Kommunikation und Register",
-    "titleEs": "bewerten um Perspektive com argumentos claros",
-    "description": "bewerten um Perspektive com argumentos claros",
+    "titleEs": "bewerten ein Thema mit klaren Argumenten",
+    "description": "bewerten ein Thema mit klaren Argumenten",
     "order": 8,
     "unitOverview": {
-      "objective": "bewerten um Perspektive com argumentos claros",
+      "objective": "bewerten ein Thema mit klaren Argumenten",
       "outcomes": [
-        "bewerten um Perspektive com argumentos claros",
+        "bewerten ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87697,11 +81818,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "registro",
-        "destinatario",
-        "intenzione",
-        "formulare",
-        "implicito"
+        "Register",
+        "Adressat",
+        "Absicht",
+        "formulieren",
+        "implizit"
       ],
       "scenario": "Kommunikation und Register"
     }
@@ -87711,13 +81832,13 @@
     "slug": "c2-medien-und-diskurs",
     "level": "C2",
     "title": "Medien und Diskurs",
-    "titleEs": "bewerten um Perspektive com argumentos claros",
-    "description": "bewerten um Perspektive com argumentos claros",
+    "titleEs": "bewerten ein Thema mit klaren Argumenten",
+    "description": "bewerten ein Thema mit klaren Argumenten",
     "order": 8,
     "unitOverview": {
-      "objective": "bewerten um Perspektive com argumentos claros",
+      "objective": "bewerten ein Thema mit klaren Argumenten",
       "outcomes": [
-        "bewerten um Perspektive com argumentos claros",
+        "bewerten ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87726,11 +81847,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "cornice",
-        "narrazione",
-        "selezionare",
-        "visibilità",
-        "interpretare"
+        "Rahmen",
+        "Erzählung",
+        "auswählen",
+        "Sichtbarkeit",
+        "deuten"
       ],
       "scenario": "Medien und Diskurs"
     }
@@ -87827,13 +81948,13 @@
     "slug": "b2-bewusst-reisen",
     "level": "B2",
     "title": "Bewusst reisen",
-    "titleEs": "begründen um Beispiel com argumentos claros",
-    "description": "begründen um Beispiel com argumentos claros",
+    "titleEs": "begründen ein Thema mit klaren Argumenten",
+    "description": "begründen ein Thema mit klaren Argumenten",
     "order": 9,
     "unitOverview": {
-      "objective": "begründen um Beispiel com argumentos claros",
+      "objective": "begründen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "begründen um Beispiel com argumentos claros",
+        "begründen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87842,11 +81963,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "itinerario",
-        "alloggio",
-        "imprevisto",
-        "consigliare",
-        "rispettare"
+        "Reiseplan",
+        "Unterkunft",
+        "Zwischenfall",
+        "empfehlen",
+        "respektieren"
       ],
       "scenario": "Bewusst reisen"
     }
@@ -87856,13 +81977,13 @@
     "slug": "c1-wissenschaft-und-vermittlung",
     "level": "C1",
     "title": "Wissenschaft und Vermittlung",
-    "titleEs": "begründen um Beispiel com argumentos claros",
-    "description": "begründen um Beispiel com argumentos claros",
+    "titleEs": "begründen ein Thema mit klaren Argumenten",
+    "description": "begründen ein Thema mit klaren Argumenten",
     "order": 9,
     "unitOverview": {
-      "objective": "begründen um Beispiel com argumentos claros",
+      "objective": "begründen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "begründen um Beispiel com argumentos claros",
+        "begründen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87871,11 +81992,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "fenomeno",
-        "evidenza",
-        "modello",
-        "divulgare",
-        "precisione"
+        "Phänomen",
+        "Beleg",
+        "Modell",
+        "vermitteln",
+        "Genauigkeit"
       ],
       "scenario": "Wissenschaft und Vermittlung"
     }
@@ -87885,13 +82006,13 @@
     "slug": "c2-wissenschaft-und-verantwortung",
     "level": "C2",
     "title": "Wissenschaft und Verantwortung",
-    "titleEs": "begründen um Beispiel com argumentos claros",
-    "description": "begründen um Beispiel com argumentos claros",
+    "titleEs": "begründen ein Thema mit klaren Argumenten",
+    "description": "begründen ein Thema mit klaren Argumenten",
     "order": 9,
     "unitOverview": {
-      "objective": "begründen um Beispiel com argumentos claros",
+      "objective": "begründen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "begründen um Beispiel com argumentos claros",
+        "begründen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -87900,11 +82021,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "metodo",
-        "limite",
-        "replicare",
-        "implicazione",
-        "rigore"
+        "Methode",
+        "Grenze",
+        "replizieren",
+        "Folgerung",
+        "Strenge"
       ],
       "scenario": "Wissenschaft und Verantwortung"
     }
@@ -88001,13 +82122,13 @@
     "slug": "b2-beziehungen-und-vermittlung",
     "level": "B2",
     "title": "Beziehungen und Vermittlung",
-    "titleEs": "zusammenfassen um Zusammenhang com argumentos claros",
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "titleEs": "zusammenfassen ein Thema mit klaren Argumenten",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
     "order": 10,
     "unitOverview": {
-      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "objective": "zusammenfassen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "zusammenfassen um Zusammenhang com argumentos claros",
+        "zusammenfassen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88016,11 +82137,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "equivoco",
-        "ascoltare",
-        "chiarire",
-        "accordo",
-        "mediare"
+        "Missverständnis",
+        "zuhören",
+        "klären",
+        "Vereinbarung",
+        "vermitteln"
       ],
       "scenario": "Beziehungen und Vermittlung"
     }
@@ -88030,13 +82151,13 @@
     "slug": "c1-konflikt-und-verhandlung",
     "level": "C1",
     "title": "Konflikt und Verhandlung",
-    "titleEs": "zusammenfassen um Zusammenhang com argumentos claros",
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "titleEs": "zusammenfassen ein Thema mit klaren Argumenten",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
     "order": 10,
     "unitOverview": {
-      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "objective": "zusammenfassen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "zusammenfassen um Zusammenhang com argumentos claros",
+        "zusammenfassen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88045,11 +82166,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "interesse",
-        "compromesso",
-        "vincolo",
-        "conciliare",
-        "mediazione"
+        "Interesse",
+        "Kompromiss",
+        "Vorgabe",
+        "vereinbaren",
+        "Vermittlung"
       ],
       "scenario": "Konflikt und Verhandlung"
     }
@@ -88059,13 +82180,13 @@
     "slug": "c2-alltagsphilosophie",
     "level": "C2",
     "title": "Alltagsphilosophie",
-    "titleEs": "zusammenfassen um Zusammenhang com argumentos claros",
-    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "titleEs": "zusammenfassen ein Thema mit klaren Argumenten",
+    "description": "zusammenfassen ein Thema mit klaren Argumenten",
     "order": 10,
     "unitOverview": {
-      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "objective": "zusammenfassen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "zusammenfassen um Zusammenhang com argumentos claros",
+        "zusammenfassen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88074,11 +82195,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "concetto",
-        "paradosso",
-        "argomentare",
-        "premessa",
-        "coerente"
+        "Begriff",
+        "Paradox",
+        "argumentieren",
+        "Prämisse",
+        "stimmig"
       ],
       "scenario": "Alltagsphilosophie"
     }
@@ -88175,13 +82296,13 @@
     "slug": "b2-aktive-burgerschaft",
     "level": "B2",
     "title": "Aktive Bürgerschaft",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 11,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88190,11 +82311,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "iniziativa",
-        "quartiere",
-        "partecipare",
-        "proposta",
-        "beneficio"
+        "Initiative",
+        "Stadtteil",
+        "teilnehmen",
+        "Vorschlag",
+        "Vorteil"
       ],
       "scenario": "Aktive Bürgerschaft"
     }
@@ -88204,13 +82325,13 @@
     "slug": "c1-literatur-und-stimme",
     "level": "C1",
     "title": "Literatur und Stimme",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 11,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88219,11 +82340,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "narratore",
-        "tono",
-        "metafora",
-        "suggerire",
-        "ambiguità"
+        "Erzähler",
+        "Ton",
+        "Metapher",
+        "andeuten",
+        "Mehrdeutigkeit"
       ],
       "scenario": "Literatur und Stimme"
     }
@@ -88233,13 +82354,13 @@
     "slug": "c2-interkulturelle-vermittlung",
     "level": "C2",
     "title": "Interkulturelle Vermittlung",
-    "titleEs": "erläutern um Ziel com argumentos claros",
-    "description": "erläutern um Ziel com argumentos claros",
+    "titleEs": "erläutern ein Thema mit klaren Argumenten",
+    "description": "erläutern ein Thema mit klaren Argumenten",
     "order": 11,
     "unitOverview": {
-      "objective": "erläutern um Ziel com argumentos claros",
+      "objective": "erläutern ein Thema mit klaren Argumenten",
       "outcomes": [
-        "erläutern um Ziel com argumentos claros",
+        "erläutern ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88248,11 +82369,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "mediazione",
-        "contesto",
-        "equivoco",
-        "riconoscere",
-        "reciprocità"
+        "Vermittlung",
+        "Kontext",
+        "Missverständnis",
+        "anerkennen",
+        "Gegenseitigkeit"
       ],
       "scenario": "Interkulturelle Vermittlung"
     }
@@ -88349,13 +82470,13 @@
     "slug": "b2-bilanz-und-perspektiven",
     "level": "B2",
     "title": "Bilanz und Perspektiven",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 12,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88364,11 +82485,11 @@
         "Konnektoren, Konjunktiv, Register und Argumentation."
       ],
       "vocabulary": [
-        "traguardo",
-        "ostacolo",
-        "percorso",
-        "priorità",
-        "raggiungere"
+        "Ziel",
+        "Hindernis",
+        "Weg",
+        "Priorität",
+        "erreichen"
       ],
       "scenario": "Bilanz und Perspektiven"
     }
@@ -88378,13 +82499,13 @@
     "slug": "c1-personliches-projekt",
     "level": "C1",
     "title": "Persönliches Projekt",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 12,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88393,11 +82514,11 @@
         "Nuancen, Kohärenz, indirekte Rede und formelles Register."
       ],
       "vocabulary": [
-        "visione",
-        "strategia",
-        "risorsa",
-        "realizzare",
-        "coerenza"
+        "Vision",
+        "Strategie",
+        "Ressource",
+        "verwirklichen",
+        "Stimmigkeit"
       ],
       "scenario": "Persönliches Projekt"
     }
@@ -88407,13 +82528,13 @@
     "slug": "c2-synthese-und-vorschlag",
     "level": "C2",
     "title": "Synthese und Vorschlag",
-    "titleEs": "vergleichen um Lösung com argumentos claros",
-    "description": "vergleichen um Lösung com argumentos claros",
+    "titleEs": "vergleichen ein Thema mit klaren Argumenten",
+    "description": "vergleichen ein Thema mit klaren Argumenten",
     "order": 12,
     "unitOverview": {
-      "objective": "vergleichen um Lösung com argumentos claros",
+      "objective": "vergleichen ein Thema mit klaren Argumenten",
       "outcomes": [
-        "vergleichen um Lösung com argumentos claros",
+        "vergleichen ein Thema mit klaren Argumenten",
         "comprender argumentos",
         "usar vocabulario específico",
         "expresar una propuesta propia"
@@ -88422,11 +82543,11 @@
         "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
       ],
       "vocabulary": [
-        "sintesi",
-        "fonte",
-        "priorità",
-        "formulare",
-        "realizzabile"
+        "Synthese",
+        "Quelle",
+        "Priorität",
+        "formulieren",
+        "umsetzbar"
       ],
       "scenario": "Synthese und Vorschlag"
     }

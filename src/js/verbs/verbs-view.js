@@ -404,7 +404,68 @@
     ['The organisation must {verb} its response with care and transparency.', 'A responsible leader knows when to {verb} a difficult situation.']
   ];
 
+  // Imported Portuguese frequency rows do not carry usable example sentences.
+  // Give every level its own communicative setting instead of repeating one
+  // generic "meeting" sentence through the whole catalogue. Existing curated
+  // examples remain first; these complete the missing practice contexts.
+  const PORTUGUESE_PRACTICE_FRAMES = {
+    A1: [
+      ['Hoje eu quero {verb} com calma.', 'Você pode {verb} comigo depois da aula?', 'Eu não vou {verb} agora.'],
+      ['De manhã, preciso {verb} antes de sair.', 'Quando você costuma {verb}?', 'Não queremos {verb} sem ajuda.'],
+      ['No bairro, podemos {verb} juntos.', 'Você consegue {verb} hoje?', 'Eu prefiro não {verb} tão tarde.']
+    ],
+    A2: [
+      ['Ontem consegui {verb} antes de voltar para casa.', 'Quando foi a última vez que você precisou {verb}?', 'Não conseguimos {verb} a tempo.'],
+      ['No fim de semana, vamos {verb} com os amigos.', 'Você já tentou {verb} de outra maneira?', 'Eu não queria {verb} sem avisar.'],
+      ['Depois do curso, pude {verb} com mais segurança.', 'Como você aprendeu a {verb}?', 'Ainda não sei {verb} muito bem.']
+    ],
+    B1: [
+      ['Na minha opinião, precisamos {verb} essa questão com cuidado.', 'Como podemos {verb} sem perder o foco?', 'Não devemos {verb} sem considerar as consequências.'],
+      ['O grupo decidiu {verb} uma solução mais clara.', 'Por que vale a pena {verb} neste momento?', 'Não é fácil {verb} quando há opiniões diferentes.'],
+      ['Para resolver o problema, tentamos {verb} passo a passo.', 'O que mudaria se conseguíssemos {verb}?', 'Não podemos simplesmente {verb} e ignorar o restante.']
+    ],
+    B2: [
+      ['A equipe precisa {verb} alternativas antes da reunião.', 'Que critérios ajudam a {verb} essa proposta?', 'Não convém {verb} sem dados suficientes.'],
+      ['O projeto procura {verb} resultados que beneficiem a comunidade.', 'Como a organização pretende {verb} esse desafio?', 'Não seria responsável {verb} sem ouvir as pessoas envolvidas.'],
+      ['Durante o debate, foi necessário {verb} posições diferentes.', 'Até que ponto podemos {verb} essa estratégia?', 'Não devemos {verb} o impacto a longo prazo.']
+    ],
+    C1: [
+      ['É essencial {verb} as informações antes de propor mudanças.', 'Como poderíamos {verb} essa medida com maior precisão?', 'Não basta {verb} o problema de forma superficial.'],
+      ['A análise procura {verb} as relações entre os diferentes fatores.', 'Que evidências permitem {verb} essa conclusão?', 'Não convém {verb} uma hipótese sem justificativa.'],
+      ['O relatório recomenda {verb} os efeitos da decisão no médio prazo.', 'De que modo a instituição pode {verb} essa iniciativa?', 'Não podemos {verb} o contexto em que a medida surgiu.']
+    ],
+    C2: [
+      ['O relatório permite {verb} as implicações da medida com rigor.', 'Em que condições seria possível {verb} essa política?', 'Não se deve {verb} uma conclusão sem evidências sólidas.'],
+      ['A pesquisa busca {verb} tendências que não aparecem à primeira vista.', 'Como o argumento consegue {verb} perspectivas aparentemente opostas?', 'Não é prudente {verb} dados complexos de maneira isolada.'],
+      ['A proposta tenta {verb} eficiência, equidade e viabilidade.', 'Que consequências pode {verb} uma mudança desse alcance?', 'Não podemos {verb} o debate a uma única variável.']
+    ]
+  };
+
+  function stableVerbIndex(raw, size) {
+    const source = `${raw.id || ''}:${raw.infinitive || ''}:${raw.rank || ''}`;
+    return [...source].reduce((total, char) => total + char.charCodeAt(0), 0) % size;
+  }
+
+  function portuguesePracticeExamples(raw) {
+    const authored = raw.examples || {};
+    const existing = [authored.affirmative, authored.interrogative, authored.negative]
+      .map((text) => String(text || '').trim())
+      .filter((text, index, list) => text && list.indexOf(text) === index);
+    const frames = PORTUGUESE_PRACTICE_FRAMES[raw.level] || PORTUGUESE_PRACTICE_FRAMES.B1;
+    const verb = String(raw.infinitive || '').trim();
+    const generated = frames[stableVerbIndex(raw, frames.length)].map((frame) =>
+      frame.replace('{verb}', verb)
+    );
+    const examples = [...existing, ...generated.filter((text) => !existing.includes(text))].slice(0, 3);
+    return {
+      affirmative: examples[0] || '',
+      interrogative: examples[1] || '',
+      negative: examples[2] || ''
+    };
+  }
+
   function displayExamples(raw) {
+    if (raw.language === 'portuguese') return portuguesePracticeExamples(raw);
     return raw.language === 'english' && VARIED_ENGLISH_EXAMPLES[raw.infinitive]
       ? {
           affirmative: VARIED_ENGLISH_EXAMPLES[raw.infinitive][0],
@@ -493,7 +554,7 @@
               </div>`
             : ''
         }
-        <button type="button" class="verb-catalogue-conjugate verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver conjugación de ${escapeHtml(item.targetWord)}">Ver conjugación <span aria-hidden="true">→</span></button>
+        <button type="button" class="verb-catalogue-conjugate verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver conjugación de ${escapeHtml(item.targetWord)}">Ver conjugación <span aria-hidden="true">↑</span></button>
       </article>`;
   }
 
@@ -956,10 +1017,9 @@
   }
 
   // Opens Conjugador on a specific verb without losing the Verbos tab's
-  // current search/filter/sort/scroll state (spec: "no recargar la página",
-  // "conservar el contexto") - just flips which .skill-panel is .active,
-  // same mechanism activateSkillTab() (script.js) already uses for a plain
-  // tab click, then re-renders Conjugador's own content for this verb id.
+  // current search/filter/sort state. The selected verb is positioned at the
+  // top of the viewport, so the learner lands on its name and key forms—not
+  // halfway through the conjugation table.
   function openConjugatorForVerb(verbId) {
     closeVerbDetail();
     const tabsRoot = document.getElementById('verbsTabs');
@@ -968,7 +1028,10 @@
       activateSkillTab(conjugatorTabBtn, { scroll: false });
     }
     renderVerbsConjugator(verbId);
-    tabsRoot?.querySelector('.skill-panel[data-skill="conjugator"]')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const selectedCard = document.querySelector('#verbsConjugatorContent .verb-conjugation-card');
+    window.requestAnimationFrame(() => {
+      selectedCard?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   }
 
   // ---------------------------------------------------------------------

@@ -88,6 +88,65 @@ const localized = {
   }
 };
 
+/* Portuguese and German previously inherited the Italian word list for every
+   upper-level unit. Titles were translated, but learners then encountered
+   Italian vocabulary inside Portuguese and German routes. Keep the shared
+   CEFR sequence while authoring the lexical layer in the target language. */
+const nativeVocabulary = {
+  portuguese: {
+    B2: [
+      'prazo|tarefa|recurso|coordenar|avaliar', 'trajeto|trânsito|passe|acessível|reduzir',
+      'entrevista|experiência|candidatura|confiável|aperfeiçoar', 'impacto|coleta|desperdício|sustentável|hábito',
+      'fonte|notícia|verificar|credibilidade|viés', 'bem-estar|prevenção|descanso|equilíbrio|conselho',
+      'tradição|pertencimento|perspectiva|valorizar|diálogo', 'dispositivo|dados|proteger|consentimento|risco',
+      'roteiro|hospedagem|imprevisto|recomendar|respeitar', 'mal-entendido|escutar|esclarecer|acordo|mediar',
+      'iniciativa|bairro|participar|proposta|benefício', 'meta|obstáculo|trajetória|prioridade|alcançar'
+    ],
+    C1: [
+      'tese|objeção|evidência|refutar|nuance', 'inovação|acesso|desigualdade|regular|consequência',
+      'dilema|princípio|responsabilidade|justificar|equidade', 'obra|linguagem|interpretação|evocar|contraste',
+      'hipótese|amostra|resultado|demonstrar|limite', 'orçamento|poupança|investimento|variar|sustentar',
+      'memória|patrimônio|transformação|preservar|raiz', 'registro|destinatário|intenção|formular|implícito',
+      'fenômeno|evidência|modelo|divulgar|precisão', 'interesse|compromisso|restrição|conciliar|mediação',
+      'narrador|tom|metáfora|sugerir|ambiguidade', 'visão|estratégia|recurso|realizar|coerência'
+    ],
+    C2: [
+      'retórica|premissa|inferência|atenuar|persuasivo', 'política|impacto|critério|implementar|monitorar',
+      'hipótese|probabilidade|evidência|presumir|cautela', 'narrativa|memória|voz|reelaborar|pertencimento',
+      'direito|dever|princípio|resguardar|responsabilidade', 'desigualdade|renda|indicador|distribuir|intervir',
+      'cenário|recurso|mitigar|adaptação|interdependência', 'enquadramento|narrativa|selecionar|visibilidade|interpretar',
+      'método|limite|replicar|implicação|rigor', 'conceito|paradoxo|argumentar|premissa|coerente',
+      'mediação|contexto|mal-entendido|reconhecer|reciprocidade', 'síntese|fonte|prioridade|formular|viável'
+    ]
+  },
+  german: {
+    B2: [
+      'Frist|Aufgabe|Ressource|koordinieren|bewerten', 'Strecke|Verkehr|Fahrkarte|barrierefrei|verringern',
+      'Vorstellungsgespräch|Erfahrung|Bewerbung|zuverlässig|verbessern', 'Auswirkung|Sammlung|Verschwendung|nachhaltig|Gewohnheit',
+      'Quelle|Nachricht|überprüfen|Glaubwürdigkeit|Vorurteil', 'Wohlbefinden|Prävention|Erholung|Gleichgewicht|Ratschlag',
+      'Tradition|Zugehörigkeit|Perspektive|würdigen|Dialog', 'Gerät|Daten|schützen|Einwilligung|Risiko',
+      'Reiseplan|Unterkunft|Zwischenfall|empfehlen|respektieren', 'Missverständnis|zuhören|klären|Vereinbarung|vermitteln',
+      'Initiative|Stadtteil|teilnehmen|Vorschlag|Vorteil', 'Ziel|Hindernis|Weg|Priorität|erreichen'
+    ],
+    C1: [
+      'These|Einwand|Beleg|widerlegen|Nuance', 'Innovation|Zugang|Kluft|regulieren|Folge',
+      'Dilemma|Grundsatz|Verantwortung|begründen|Gerechtigkeit', 'Werk|Sprache|Deutung|hervorrufen|Kontrast',
+      'Hypothese|Stichprobe|Ergebnis|belegen|Grenze', 'Haushalt|Ersparnis|Investition|schwanken|tragen',
+      'Erinnerung|Kulturerbe|Wandel|bewahren|Wurzel', 'Register|Adressat|Absicht|formulieren|implizit',
+      'Phänomen|Beleg|Modell|vermitteln|Genauigkeit', 'Interesse|Kompromiss|Vorgabe|vereinbaren|Vermittlung',
+      'Erzähler|Ton|Metapher|andeuten|Mehrdeutigkeit', 'Vision|Strategie|Ressource|verwirklichen|Stimmigkeit'
+    ],
+    C2: [
+      'Rhetorik|Prämisse|Schlussfolgerung|abschwächen|überzeugend', 'Politik|Auswirkung|Kriterium|umsetzen|beobachten',
+      'Hypothese|Wahrscheinlichkeit|Beleg|annehmen|Vorsicht', 'Erzählung|Erinnerung|Stimme|neu deuten|Zugehörigkeit',
+      'Recht|Pflicht|Grundsatz|schützen|Verantwortung', 'Ungleichheit|Einkommen|Indikator|verteilen|eingreifen',
+      'Szenario|Ressource|abmildern|Anpassung|Wechselwirkung', 'Rahmen|Erzählung|auswählen|Sichtbarkeit|deuten',
+      'Methode|Grenze|replizieren|Folgerung|Strenge', 'Begriff|Paradox|argumentieren|Prämisse|stimmig',
+      'Vermittlung|Kontext|Missverständnis|anerkennen|Gegenseitigkeit', 'Synthese|Quelle|Priorität|formulieren|umsetzbar'
+    ]
+  }
+};
+
 function slugify(value) {
   return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
@@ -95,9 +154,11 @@ function localizedTheme(language, level, index) {
   if (language === 'italian') return packs.italian.themes[level][index];
   const italian = packs.italian.themes[level][index];
   const title = localized[language][level][index];
-  const noun = language === 'german' ? ['Ziel', 'Lösung', 'Perspektive', 'Beispiel', 'Zusammenhang'][index % 5] : ['objetivo', 'solução', 'perspectiva', 'exemplo', 'contexto'][index % 5];
   const verb = language === 'german' ? ['erläutern', 'vergleichen', 'bewerten', 'begründen', 'zusammenfassen'][index % 5] : ['explicar', 'comparar', 'avaliar', 'justificar', 'resumir'][index % 5];
-  return [`${level.toLowerCase()}-${slugify(title)}`, title, `${verb} um ${noun} com argumentos claros`, italian[3], italian[4]];
+  const objective = language === 'german'
+    ? `${verb} ein Thema mit klaren Argumenten`
+    : `${verb} um tema com argumentos claros`;
+  return [`${level.toLowerCase()}-${slugify(title)}`, title, objective, nativeVocabulary[language][level][index].split('|'), italian[4]];
 }
 function l2(language, variants) { return variants[language]; }
 function grammarInL2(language, level) {

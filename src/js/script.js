@@ -21293,6 +21293,17 @@ if (menuToggle && siteMenu) {
 let desktopActivityFocusEnabled =
   sessionStorage.getItem('andergo-desktop-activity-view') !== 'normal';
 
+function syncActivityFullscreenLabels() {
+  const isFullscreen = Boolean(document.fullscreenElement);
+  document.querySelectorAll('.activity-fullscreen-toggle').forEach((button) => {
+    button.setAttribute('aria-pressed', String(isFullscreen));
+    const label = button.querySelector('[data-fullscreen-label]');
+    if (label) label.textContent = isFullscreen ? 'Salir de pantalla completa' : 'Pantalla completa';
+  });
+}
+
+document.addEventListener('fullscreenchange', syncActivityFullscreenLabels);
+
 function syncMobileActivityFocus(viewId) {
   const mobile = window.matchMedia('(max-width: 640px)').matches;
   const isSkillActivity = SKILL_VIEWS.includes(viewId) && Boolean(learningPathState.activeSlug);
@@ -21300,11 +21311,12 @@ function syncMobileActivityFocus(viewId) {
     viewId === 'verbs' &&
     learningPathState.skillEntryContext === 'route' &&
     window.location.hash.includes('/practice');
-  const isActivity = isSkillActivity || isVerbActivity;
+  const isTestActivity = viewId === 'tests' && lessonTestState.questions.length > 0;
+  const isActivity = isSkillActivity || isVerbActivity || isTestActivity;
   const mobileEnabled = mobile && isActivity;
   const desktopEnabled = !mobile && isActivity && desktopActivityFocusEnabled;
   const activeSection = isActivity
-    ? document.getElementById(isVerbActivity ? 'verbs' : viewId)
+    ? document.getElementById(isVerbActivity ? 'verbs' : isTestActivity ? 'tests' : viewId)
     : null;
 
   document.body.classList.toggle('mobile-activity-mode', mobileEnabled);
@@ -21334,6 +21346,9 @@ function syncMobileActivityFocus(viewId) {
     topbar.innerHTML = `
       <span class="mobile-activity-topbar-title"></span>
       <span class="activity-focus-actions">
+        <button type="button" class="activity-fullscreen-toggle" aria-label="Abrir pantalla completa" aria-pressed="false">
+          <span aria-hidden="true">⛶</span> <span data-fullscreen-label>Pantalla completa</span>
+        </button>
         <button type="button" class="activity-focus-toggle" aria-label="Cambiar vista de la actividad">
           <span aria-hidden="true">↙</span> <span data-focus-label>Vista normal</span>
         </button>
@@ -21344,8 +21359,27 @@ function syncMobileActivityFocus(viewId) {
     `;
     activeSection.prepend(topbar);
     topbar.querySelector('.mobile-activity-exit')?.addEventListener('click', () => {
+      if (isTestActivity) {
+        lessonTestState.questions = [];
+        lessonTestState.result = null;
+        syncMobileActivityFocus('tests');
+        loadTestsView();
+        return;
+      }
       if (viewId === 'reading') readingSpeechPlayer.teardown();
       returnToCurrentLearningRoute();
+    });
+    topbar.querySelector('.activity-fullscreen-toggle')?.addEventListener('click', async () => {
+      try {
+        if (document.fullscreenElement) await document.exitFullscreen?.();
+        else {
+          if (!activeSection.requestFullscreen) throw new Error('Fullscreen unavailable');
+          await activeSection.requestFullscreen();
+        }
+      } catch {
+        showHomeToast('Tu navegador no pudo abrir la pantalla completa.');
+      }
+      syncActivityFullscreenLabels();
     });
     topbar.querySelector('.activity-focus-toggle')?.addEventListener('click', () => {
       desktopActivityFocusEnabled = !desktopActivityFocusEnabled;
@@ -21362,7 +21396,9 @@ function syncMobileActivityFocus(viewId) {
     const lesson = learningPathState.lessons.find(
       (item) => item.slug === learningPathState.activeSlug
     );
-    title.textContent = isVerbActivity
+    title.textContent = isTestActivity
+      ? `ANDERGO · Tests · ${testLanguageLabel(lessonTestState.language)} ${lessonTestState.level}`
+      : isVerbActivity
       ? 'ANDERGO · Verbos'
       : `ANDERGO · ${getSkillLabel(viewId)}${lesson?.title ? ` · ${lesson.title}` : ''}`;
   }
@@ -21373,6 +21409,7 @@ function syncMobileActivityFocus(viewId) {
     focusToggle.setAttribute('aria-pressed', String(desktopEnabled));
     focusToggle.hidden = mobile;
   }
+  syncActivityFullscreenLabels();
 }
 
 const mobileActivityMedia = window.matchMedia('(max-width: 640px)');
@@ -21588,6 +21625,7 @@ function renderLessonTest() {
   stage
     .querySelector('[data-test-action="word"]')
     ?.addEventListener('click', downloadLessonTestWord);
+  syncMobileActivityFocus('tests');
 }
 
 function playTestFeedbackSound(correct) {
@@ -21910,13 +21948,45 @@ async function printLessonTest() {
     paper.querySelector('.tests-print-answer-key')?.remove();
   };
   window.addEventListener('afterprint', cleanup, { once: true });
-  window.print();
+  // Let the browser apply the print-only visibility rules before it captures
+  // the page. Without these two frames Chromium can snapshot the old hidden
+  // activity shell and produce blank PDF pages.
+  requestAnimationFrame(() => requestAnimationFrame(() => window.print()));
+}
+
+function buildLessonTestWordDocument() {
+  const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
+  const questions = Array.isArray(lessonTestState.questions) ? lessonTestState.questions : [];
+  if (!unit || !questions.length) return '';
+  const questionRows = questions
+    .map(
+      (question, index) => `
+        <section class="question">
+          <h2>${index + 1}. ${escapeHtml(question.prompt)}</h2>
+          <ol type="a">${(question.options || [])
+            .map((option) => `<li>${escapeHtml(option)}</li>`)
+            .join('')}</ol>
+        </section>`
+    )
+    .join('');
+  return `<!doctype html><html><head><meta charset="utf-8"><style>
+    body{font-family:Arial,sans-serif;color:#10203c;margin:2cm;line-height:1.45}
+    h1{margin:0;color:#1d4ed8;font-size:24pt} .meta{margin:6px 0 24px;color:#53627d}
+    .question{margin:16px 0;padding:12px 14px;border:1px solid #cbd5e1;break-inside:avoid}
+    h2{margin:0 0 9px;font-size:12pt} ol{margin:0;padding-left:26px} li{margin:6px 0}
+  </style></head><body>
+    <h1>ANDERGO · ${escapeHtml(testLanguageLabel(lessonTestState.language))}</h1>
+    <p class="meta">${escapeHtml(lessonTestState.level)} · ${escapeHtml(unit.grammarTitle || unit.title || 'Test de la unidad')} · ${questions.length} preguntas</p>
+    ${questionRows}
+  </body></html>`;
 }
 
 function downloadLessonTestWord() {
-  const paper = document.getElementById('lessonTestPaper');
-  if (!paper) return;
-  const html = `<!doctype html><html><head><meta charset="utf-8"><style>body{font-family:Arial;color:#10203c;margin:2cm}h1{color:#2563eb}fieldset{margin:18px 0;padding:14px;border:1px solid #cbd5e1}label{display:block;margin:8px 0}.tests-result{margin-top:24px;font-size:18px}</style></head><body><h1>ANDERGO · ${lessonTestState.language === 'french' ? 'Test de français' : 'English Test'}</h1>${paper.innerHTML}</body></html>`;
+  const html = buildLessonTestWordDocument();
+  if (!html) {
+    showHomeToast('Primero inicia un test para descargarlo.');
+    return;
+  }
   const url = URL.createObjectURL(
     new Blob(['\ufeff', html], { type: 'application/msword;charset=utf-8' })
   );

@@ -6378,6 +6378,24 @@ footer small {
   }
 }
 
+/* On wide screens the main destinations should begin near the brand, rather
+   than floating in the visual centre of a very wide header. This also gives
+   the links a slightly more legible presentation for classroom displays. */
+@media (min-width: 1281px) {
+  .navbar {
+    justify-content: flex-start;
+  }
+
+  .navbar .menu {
+    margin-right: auto;
+    font-size: 0.9rem;
+  }
+
+  .nav-actions {
+    margin-left: 1.15rem;
+  }
+}
+
 .global-language-controls {
   padding: 0.45rem clamp(24px, 5vw, 88px);
   background: rgba(248, 251, 255, 0.94);
@@ -18748,6 +18766,7 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 
 /* Conjugador (Fase 3 pilot) */
 .verb-conjugation-card {
+  scroll-margin-top: 1.25rem;
   border: 1px solid var(--line);
   border-radius: 20px;
   padding: 1.5rem;
@@ -25925,6 +25944,7 @@ body {
   }
 
   .activity-focus-toggle,
+  .activity-fullscreen-toggle,
   .mobile-activity-exit {
     display: inline-flex;
     align-items: center;
@@ -25944,6 +25964,7 @@ body {
   }
 
   .activity-focus-toggle:hover,
+  .activity-fullscreen-toggle:hover,
   .mobile-activity-exit:hover {
     border-color: rgba(37, 99, 235, 0.42);
     color: var(--blue);
@@ -26074,6 +26095,15 @@ body {
     margin-left: auto;
   }
 
+  .desktop-activity-focus-section.tests-section > .section-heading {
+    display: none;
+  }
+
+  .desktop-activity-focus-section.tests-section > .tests-shell {
+    width: min(1760px, 100%);
+    margin: 0 auto;
+  }
+
   body.desktop-activity-mode .tutor-fab {
     z-index: 360;
   }
@@ -26156,6 +26186,29 @@ body {
     touch-action: manipulation;
   }
 
+  .activity-fullscreen-toggle {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    min-height: 40px;
+    padding: 0.45rem 0.65rem;
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--navy-2);
+    font: inherit;
+    font-size: 0.72rem;
+    font-weight: 850;
+    box-shadow: 0 5px 14px rgba(30, 64, 175, 0.09);
+    cursor: pointer;
+  }
+
+  .activity-fullscreen-toggle [data-fullscreen-label] {
+    display: none;
+  }
+
   .mobile-activity-exit > span {
     color: var(--blue);
     font-size: 1.1rem;
@@ -26189,6 +26242,15 @@ body {
 
   .mobile-activity-focus-section .unit-activity-footer {
     margin-bottom: max(0.4rem, env(safe-area-inset-bottom));
+  }
+
+  .mobile-activity-focus-section.tests-section > .section-heading {
+    display: none;
+  }
+
+  .mobile-activity-focus-section.tests-section > .tests-shell {
+    width: calc(100% - 1.4rem);
+    margin: 0.7rem auto;
   }
 
   body.mobile-activity-mode .tutor-fab {
@@ -26303,8 +26365,8 @@ body {
   display: grid;
   /* Keep the choices easy to scan, while giving the exam itself the widest
      possible reading area on desktop. */
-  grid-template-columns: minmax(218px, 242px) minmax(0, 1fr);
-  gap: 1.1rem;
+  grid-template-columns: minmax(178px, 204px) minmax(0, 1fr);
+  gap: 0.8rem;
   width: min(1640px, calc(100% - 2rem));
   margin: 0 auto;
 }
@@ -26320,8 +26382,8 @@ body {
 .tests-sidebar {
   align-self: start;
   display: grid;
-  gap: 0.9rem;
-  padding: 1rem;
+  gap: 0.6rem;
+  padding: 0.75rem;
   position: sticky;
   top: 96px;
 }
@@ -26338,8 +26400,8 @@ body {
 }
 
 .tests-sidebar h3 {
-  margin: -0.35rem 0 0;
-  font-size: 1.35rem;
+  margin: -0.2rem 0 0;
+  font-size: 1.08rem;
 }
 .tests-sidebar label {
   display: grid;
@@ -26350,10 +26412,10 @@ body {
 }
 .tests-sidebar select {
   width: 100%;
-  min-height: 48px;
-  padding: 0 0.8rem;
+  min-height: 40px;
+  padding: 0 0.62rem;
   border: 1px solid #cfe0fb;
-  border-radius: 13px;
+  border-radius: 10px;
   background: #f9fbff;
   color: var(--navy-2);
   font: inherit;
@@ -26361,8 +26423,8 @@ body {
 .tests-spec {
   display: grid;
   gap: 0.24rem;
-  padding: 0.8rem;
-  border-radius: 14px;
+  padding: 0.6rem;
+  border-radius: 11px;
   background: #eff6ff;
   color: var(--muted);
   font-size: 0.75rem;
@@ -26752,6 +26814,24 @@ body {
   body.printing-tests .tests-stage,
   body.printing-tests #lessonTestPaper {
     display: block !important;
+    visibility: visible !important;
+  }
+  body.printing-tests #lessonTestPaper * {
+    visibility: visible !important;
+  }
+  body.printing-tests .desktop-activity-focus-section,
+  body.printing-tests .mobile-activity-focus-section {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    background: #fff !important;
+  }
+  body.printing-tests .mobile-activity-topbar {
+    display: none !important;
   }
   body.printing-tests .section-heading,
   body.printing-tests .tests-sidebar,
