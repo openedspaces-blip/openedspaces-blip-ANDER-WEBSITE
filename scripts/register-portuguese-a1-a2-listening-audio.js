@@ -25,7 +25,9 @@ async function findAudioObject(client, level, unitNumber) {
   const { data, error } = await client.storage.from(BUCKET).list(prefix, { limit: 100 });
   if (error) throw error;
   const file = (data || []).find(
-    (entry) => /\.mp3$/i.test(entry.name) && Number(entry.metadata?.size || 0) > 0
+    (entry) =>
+      Number(entry.metadata?.size || 0) > 0 &&
+      (/\.mp3$/i.test(entry.name) || /^audio\//i.test(entry.metadata?.mimetype || ''))
   );
   return file ? `${prefix}/${file.name}` : null;
 }
