@@ -27458,6 +27458,96 @@ body {
   display: grid;
   gap: 1rem;
 }
+.games-daily-mission {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.85fr) minmax(0, 2.15fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 1.15rem;
+  border: 1px solid #c7ddff;
+  border-radius: 22px;
+  background: linear-gradient(118deg, #eef5ff, #f6f1ff 52%, #edfbf5);
+}
+.games-mission-intro {
+  display: grid;
+  gap: 0.22rem;
+}
+.games-mission-intro > span,
+.games-completion-kicker {
+  color: var(--blue);
+  font-size: 0.77rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.games-mission-intro strong {
+  color: var(--ink);
+  font-size: 1rem;
+}
+.games-mission-intro small {
+  color: var(--muted);
+  font-weight: 750;
+}
+.games-mission-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+.games-mission-step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.1rem 0.48rem;
+  align-items: center;
+  min-height: 62px;
+  padding: 0.65rem;
+  text-align: left;
+  border: 1px solid #d8e4f7;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--ink);
+}
+.games-mission-step b {
+  grid-row: 1 / span 2;
+  display: grid;
+  width: 1.7rem;
+  height: 1.7rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #e8f0ff;
+  color: var(--blue);
+  font-size: 0.78rem;
+}
+.games-mission-step span { font-size: 0.82rem; font-weight: 850; }
+.games-mission-step small { color: var(--muted); font-size: 0.7rem; font-weight: 750; }
+.games-mission-step.is-active { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
+.games-mission-step.is-complete { border-color: #9fdfc7; background: #effcf5; }
+.games-mission-step.is-complete b { background: #d9f7e8; color: #16855b; }
+.games-completion-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #b9e8d0;
+  border-radius: 16px;
+  background: linear-gradient(110deg, #effcf5, #f8fffb);
+}
+.games-completion-card > div:first-child { display: grid; gap: 0.25rem; }
+.games-completion-card strong { color: #126b49; }
+.games-completion-card small { color: #4d6b60; }
+.games-completion-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: flex-end; }
+.games-audio-sprint { display: grid; gap: 0.85rem; }
+.games-audio-prompt { display: grid; justify-items: start; gap: 0.45rem; padding: 1rem; border-radius: 16px; background: #f1f6ff; }
+.games-audio-prompt span { color: var(--blue); font-weight: 850; }
+.games-audio-prompt small { color: var(--muted); }
+.games-audio-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.65rem; }
+.games-audio-option { min-height: 58px; padding: 0.7rem; border: 1px solid #d5e1f4; border-radius: 13px; background: #fff; color: var(--ink); font-weight: 800; }
+.games-audio-option:hover { border-color: var(--blue); background: #f4f8ff; }
+.games-audio-option.is-correct { border-color: #40b77a; background: #e8faef; color: #167244; }
+.games-audio-option.is-wrong { border-color: #ec8585; background: #fff2f2; color: #ad3838; }
+.games-audio-result { display: grid; justify-items: center; gap: 0.4rem; padding: 1.6rem 1rem; text-align: center; border-radius: 16px; background: #f1f7ff; }
+.games-audio-result > span { font-size: 2rem; }
 .games-topbar,
 .games-board,
 .games-game-card,
@@ -30784,18 +30874,21 @@ body {
    logout controls continue to reserve the far right edge. */
 @media (min-width: 1541px) {
   .navbar:has(.user-chip:not([hidden])) {
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    justify-content: normal;
   }
 
   .navbar:has(.user-chip:not([hidden])) .menu {
-    margin-right: 0;
-    /* The brand and account controls retain their columns, so shift only
-       the route strip into the otherwise empty middle corridor. */
-    transform: translateX(clamp(-5rem, -4vw, -3.25rem));
+    min-width: 0;
+    margin: 0;
+    justify-content: center;
+    transform: none;
   }
 
   .navbar:has(.user-chip:not([hidden])) .nav-actions {
-    margin-left: auto;
+    margin-left: 0;
   }
 }
 

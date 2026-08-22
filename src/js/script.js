@@ -24368,7 +24368,11 @@ function renderAudioSprintGame(content, words) {
           setGamesFeedback('¡Correcto! Esa es la palabra que escuchaste.', 'is-correct');
         } else {
           recordGamesReviewWord(item);
-          content.querySelector(`[data-audio-term="${CSS.escape(item.term)}"]`)?.classList.add('is-correct');
+          content.querySelectorAll('[data-audio-term]').forEach((option) => {
+            if (normalizeGameText(option.dataset.audioTerm) === normalizeGameText(item.term)) {
+              option.classList.add('is-correct');
+            }
+          });
           setGamesFeedback(`La respuesta era «${item.translation}». La verás de nuevo en tu repaso.`, 'is-wrong');
         }
         setGamesRoundProgress(questionIndex + 1, questions.length);
