@@ -66,16 +66,21 @@
     <a class="skip-link" href="#content" data-i18n="skipLink">Saltar al contenido</a>
 
     <header class="navbar">
-      <a class="brand" href="/" aria-label="ANDERGO - Ir al inicio">
-        <span class="brand-logo-symbol" role="img" aria-label="Símbolo de ANDERGO"></span>
-        <div class="brand-name">
-          <div class="brand-heading" role="presentation">
-            <strong class="brand-product-name">ANDERGO</strong>
-            <span class="brand-academy-name">Language Academy</span>
+      <div class="brand-cluster">
+        <a class="brand" href="/" aria-label="ANDERGO - Ir al inicio">
+          <span class="brand-logo-symbol" role="img" aria-label="Símbolo de ANDERGO"></span>
+          <div class="brand-name">
+            <div class="brand-heading" role="presentation">
+              <strong class="brand-product-name">ANDERGO</strong>
+              <span class="brand-academy-name">Language Academy</span>
+            </div>
+            <p>Lecciones, práctica guiada y progreso real.</p>
           </div>
-          <p>Lecciones, práctica guiada y progreso real.</p>
-        </div>
-      </a>
+        </a>
+        <button type="button" class="global-search-trigger" id="globalSearchTrigger" aria-haspopup="true" aria-controls="globalSearchPanel" aria-expanded="false">
+          <span aria-hidden="true">⌕</span><span>Buscar en ANDERGO</span>
+        </button>
+      </div>
 
       <nav class="mobile-header-tabs" aria-label="Acceso principal de aprendizaje">
         <a class="nav-learn-cta" href="#learn" aria-label="Abrir mi ruta de aprendizaje"><span aria-hidden="true">📘</span><strong>Aprender</strong><small>Ruta de aprendizaje</small></a>
@@ -135,17 +140,11 @@
       </nav>
 
       <div class="nav-actions">
-        <button type="button" class="global-search-trigger" id="globalSearchTrigger" aria-haspopup="dialog" aria-controls="globalSearchPanel">
-          <span aria-hidden="true">⌕</span><span>Buscar</span>
-        </button>
         <span class="user-chip" hidden></span>
         <a class="login" href="#" data-action="open-auth" data-panel="login" data-i18n="loginBtn">Iniciar sesión</a>
         <button class="logout-btn" type="button" hidden data-i18n="logoutBtn">Cerrar sesión</button>
       </div>
-    </header>
-
-    <section class="global-search-panel" id="globalSearchPanel" role="dialog" aria-modal="true" aria-labelledby="globalSearchTitle" hidden>
-      <div class="global-search-backdrop" data-global-search-close></div>
+      <section class="global-search-panel" id="globalSearchPanel" role="region" aria-labelledby="globalSearchTitle" hidden>
       <div class="global-search-dialog">
         <div class="global-search-heading">
           <div>
@@ -162,6 +161,7 @@
         <div class="global-search-results" id="globalSearchResults" aria-live="polite"></div>
       </div>
     </section>
+    </header>
 
     <main id="content">
       <section class="hero">

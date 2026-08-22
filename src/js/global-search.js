@@ -98,20 +98,37 @@
     const needle = normalize(query);
     if (needle.length < 2) return [];
     const words = needle.split(/\s+/).filter(Boolean);
-    const guides = guideEntries.filter((entry) => entry.terms.some((term) => normalize(term).includes(needle) || needle.includes(normalize(term))));
+    const guides = guideEntries
+      .filter((entry) => entry.terms.some((term) => normalize(term) === needle))
+      .map((entry) => ({ ...entry, score: 220 }));
     const found = curriculumEntries()
       .map((entry) => {
         const title = normalize(entry.title);
         const searchable = normalize(`${entry.search} ${entry.title} ${entry.detail}`);
         const matches = words.filter((word) => searchable.includes(word)).length;
-        if (!matches) return null;
-        const score = (title === needle ? 100 : title.includes(needle) ? 70 : 0) + matches * 10 + (entry.kind === 'Vocabulario' ? 5 : 0);
+        // A multi-word search must match every word. It prevents broad
+        // results such as "Past Simple" when the learner searched for
+        // "past participle".
+        if (matches !== words.length) return null;
+        const score =
+          (title === needle ? 200 : title.includes(needle) ? 140 : searchable.includes(needle) ? 100 : 0) +
+          matches * 15 +
+          (entry.kind === 'Vocabulario' ? 8 : 0);
         return { ...entry, score };
       })
       .filter(Boolean)
+      .filter((entry, index, entries) =>
+        entries.findIndex(
+          (candidate) =>
+            candidate.kind === entry.kind &&
+            candidate.language === entry.language &&
+            candidate.level === entry.level &&
+            normalize(candidate.title) === normalize(entry.title)
+        ) === index
+      );
+    return [...guides, ...found]
       .sort((a, b) => b.score - a.score)
-      .slice(0, 12);
-    return [...guides, ...found].slice(0, 12);
+      .slice(0, 8);
   }
 
   function render(query) {
@@ -135,7 +152,7 @@
   async function openSearch() {
     lastFocused = document.activeElement;
     panel.hidden = false;
-    document.body.classList.add('global-search-open');
+    trigger.setAttribute('aria-expanded', 'true');
     hint.textContent = 'Preparando la biblioteca local de Andergo…';
     render('');
     input.focus();
@@ -151,7 +168,7 @@
 
   function closeSearch() {
     panel.hidden = true;
-    document.body.classList.remove('global-search-open');
+    trigger.setAttribute('aria-expanded', 'false');
     lastFocused?.focus?.();
   }
 
@@ -173,6 +190,9 @@
     }
   });
   input.addEventListener('input', () => render(input.value));
+  document.addEventListener('pointerdown', (event) => {
+    if (!panel.hidden && !panel.contains(event.target) && !trigger.contains(event.target)) closeSearch();
+  });
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && !panel.hidden) closeSearch();
     if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
