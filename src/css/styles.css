@@ -34037,6 +34037,55 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-word-audio-btn {
   margin-left: auto;
 }
+
+/* Vocabulary catalogue: the lesson already identifies the level, so cards
+   reserve their first line for the useful association: word + pronunciation. */
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front {
+  gap: 0.36rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 0.34rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target {
+  flex: 0 1 auto;
+  width: auto;
+  max-width: calc(100% - 2rem);
+  margin: 0;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-word-audio-btn {
+  width: 1.62rem;
+  height: 1.62rem;
+  flex: 0 0 1.62rem;
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-support {
+  display: block;
+  margin: -0.08rem 0 0;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-target-row {
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 0.38rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-target {
+  flex: 1 1 auto;
+  max-width: none;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-word-audio-btn {
+  margin: 0;
+}
 .tests-section-label {
   margin: 0.4rem 0 -0.35rem;
   color: #245fc8;

@@ -847,11 +847,14 @@ function renderAuthState() {
     trigger.hidden = isSignedIn;
   });
 
+  // The learning navigation is part of ANDERGO's public storefront too.
+  // Visitors see the same destinations as a learner; activation is gated
+  // below and opens the sign-in dialog rather than exposing protected views.
   document.querySelectorAll('.nav-group-visitor').forEach((group) => {
-    group.hidden = isSignedIn;
+    group.hidden = true;
   });
   document.querySelectorAll('.nav-group-member').forEach((group) => {
-    group.hidden = !isSignedIn;
+    group.hidden = false;
   });
   document.querySelectorAll('.teacher-only-nav').forEach((link) => {
     link.hidden = !isSignedIn || !['teacher', 'ceo'].includes(authStatus.entitlements?.role);
@@ -6125,10 +6128,14 @@ function openVocabularyFromMainNav() {
 // The Reading library is intentionally separate from the guided route. It
 // lets learners choose a language, level and unit, while each unit remains a
 // single access product: its three readings always open or lock together.
+const READING_LIBRARY_LANGUAGES = Object.freeze([
+  'english', 'spanish', 'french', 'italian', 'portuguese', 'german'
+]);
+
 function getReadingLibraryFreeCopy(level) {
   return String(level || '').toUpperCase() === 'A1'
-    ? 'Free incluye las unidades 1–4 de A1 (sus tres lecturas).'
-    : 'Free incluye las unidades 1–3 de este nivel (sus tres lecturas).';
+    ? 'Free incluye las unidades 1–3 de A1 (sus tres lecturas).'
+    : 'Free incluye las unidades 1–2 de este nivel (sus tres lecturas).';
 }
 
 function renderReadingLibrary() {
@@ -6152,8 +6159,7 @@ function renderReadingLibrary() {
   const readings = getSkillActivities('reading').sort(
     (a, b) => Number(a.unitOrder || 0) - Number(b.unitOrder || 0)
   );
-  const languageOptions = Object.keys(languageDisplayNames)
-    .filter((key) => key !== 'ai')
+  const languageOptions = READING_LIBRARY_LANGUAGES
     .map(
       (key) =>
         `<option value="${escapeHtml(key)}" ${key === language ? 'selected' : ''}>${escapeHtml(languageDisplayNames[key])}</option>`
@@ -12212,6 +12218,68 @@ const READING_CULTURAL_CALENDAR = Object.freeze({
   }
 });
 
+// Every unit has one main reading and two companion readings. The companion
+// programme rotates real celebrations, public memories and everyday customs
+// of the target-language community; authored variants, when supplied in the
+// lesson data, always take precedence over these programme texts.
+const READING_COMPANION_PROGRAMME = Object.freeze({
+  english: [
+    ['Thanksgiving and community', 'Thanksgiving is observed in November in the United States. Families often share a meal, but many communities also organise food collections and volunteer work. The date can be a starting point for talking about gratitude, history and different family traditions.'],
+    ['St Patrick’s Day', 'St Patrick’s Day is celebrated on 17 March in Ireland and in many communities around the world. Music, parades and the colour green are familiar symbols, while the day also invites learners to discover Irish history and culture.'],
+    ['Guy Fawkes Night', 'On 5 November, many people in the United Kingdom remember Guy Fawkes Night with lights and fireworks. It is a useful example of how a historical event can become a modern community tradition.']
+  ],
+  spanish: [
+    ['Carnaval dominicano', 'El Carnaval dominicano reúne música, comparsas y personajes como el Diablo Cojuelo. Se celebra especialmente en febrero y conecta la fiesta con la memoria, la creatividad y la identidad de cada comunidad.'],
+    ['Día de la Independencia', 'El 27 de febrero la República Dominicana conmemora su independencia. Los actos escolares, la bandera y las historias familiares ayudan a relacionar una efeméride con la ciudadanía y la vida cotidiana.'],
+    ['Noche de San Juan', 'En muchas comunidades hispanas, la noche de San Juan se vive con música, reuniones y ritos junto al agua. Las costumbres cambian según el lugar, pero la celebración conserva un fuerte sentido de encuentro.']
+  ],
+  french: [
+    ['La Fête de la Musique', 'Le 21 juin, la Fête de la Musique transforme souvent les rues et les places en scènes ouvertes. Des musiciens amateurs et professionnels y partagent des styles très différents avec le public.'],
+    ['Le 14 juillet', 'Le 14 juillet est la fête nationale française. Les défilés et les feux d’artifice rappellent l’histoire civique du pays, mais la journée est aussi un moment de rencontre dans les villes et les villages.'],
+    ['La Chandeleur', 'À la Chandeleur, le 2 février, beaucoup de familles préparent des crêpes. Cette coutume simple permet de parler de cuisine, de gestes transmis et de la place des traditions dans la vie quotidienne.']
+  ],
+  italian: [
+    ['La Festa della Repubblica', 'Il 2 giugno l’Italia celebra la Festa della Repubblica. La ricorrenza ricorda il referendum del 1946 e collega una giornata pubblica alla partecipazione, alla storia e alla vita civica.'],
+    ['Il Carnevale di Venezia', 'Il Carnevale di Venezia è conosciuto per le maschere e i costumi. Dietro le immagini famose ci sono artigiani, spettacoli e una lunga tradizione che dà vita alla città durante l’inverno.'],
+    ['Ferragosto', 'Ferragosto, il 15 agosto, è per molte famiglie italiane un momento di riposo e di viaggio. Le abitudini cambiano da regione a regione, ma il pranzo insieme resta un simbolo importante.']
+  ],
+  portuguese: [
+    ['Festa Junina', 'As festas juninas reúnem música, comidas típicas e danças em muitas cidades brasileiras. Elas mostram como uma tradição pode criar encontro entre gerações, escolas e bairros.'],
+    ['Dia da Consciência Negra', 'No dia 20 de novembro, o Brasil reconhece o Dia da Consciência Negra. A data valoriza as contribuições afro-brasileiras e convida a conhecer histórias, artistas e comunidades.'],
+    ['Carnaval e comunidade', 'O Carnaval brasileiro é conhecido pela música e pelos desfiles, mas também inclui blocos de bairro e iniciativas comunitárias. Cada cidade cria maneiras próprias de celebrar e participar.']
+  ],
+  german: [
+    ['Tag der Deutschen Einheit', 'Am 3. Oktober erinnert der Tag der Deutschen Einheit an die Wiedervereinigung Deutschlands. Die Feier verbindet Geschichte, Erinnerung und die Frage, wie Menschen heute zusammenleben.'],
+    ['Karneval', 'Karneval wird in verschiedenen Regionen Deutschlands auf unterschiedliche Weise gefeiert. Kostüme, Musik und Umzüge schaffen eine festliche Atmosphäre und zeigen lokale Eigenarten.'],
+    ['Weihnachtsmärkte', 'In der Adventszeit besuchen viele Menschen Weihnachtsmärkte. Dort treffen sich Handwerk, Essen, Musik und alte Gewohnheiten; zugleich hat jede Stadt ihre eigenen kleinen Traditionen.']
+  ]
+});
+
+function buildProgrammeReadingVariants(lesson) {
+  const language = learningPathState.language || lesson.language || 'english';
+  const programme = READING_COMPANION_PROGRAMME[language] || READING_COMPANION_PROGRAMME.english;
+  const unitOrder = Number(lesson.unitOrder || Math.floor(Number(lesson.orderIndex || 10) / 10) || 1);
+  const [culturalTitle, culturalText] = programme[(Math.max(1, unitOrder) - 1) % programme.length];
+  const topic = String(lesson.title || lesson.description || 'the unit topic').replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '');
+  const practiceCopy = {
+    english: `In this practical reading, a small group uses ${topic} in a real situation. They compare two ideas, ask respectful questions and agree on one useful next step. The example shows that language learning is not only about remembering words: it is also about listening carefully and participating in a community.`,
+    spanish: `En esta lectura práctica, un pequeño grupo usa ${topic} en una situación real. Comparan dos ideas, hacen preguntas respetuosas y acuerdan un siguiente paso útil. El ejemplo muestra que aprender una lengua también es escuchar y participar en comunidad.`,
+    french: `Dans cette lecture pratique, un petit groupe utilise ${topic} dans une situation réelle. Les participants comparent deux idées, posent des questions respectueuses et choisissent une prochaine étape utile. Apprendre une langue, c’est aussi écouter et participer.`,
+    italian: `In questa lettura pratica, un piccolo gruppo usa ${topic} in una situazione reale. I partecipanti confrontano due idee, fanno domande rispettose e scelgono un passo utile. Imparare una lingua significa anche ascoltare e partecipare.`,
+    portuguese: `Nesta leitura prática, um pequeno grupo usa ${topic} em uma situação real. As pessoas comparam duas ideias, fazem perguntas respeitosas e escolhem um próximo passo útil. Aprender uma língua também é escutar e participar.`,
+    german: `In dieser praktischen Lektüre nutzt eine kleine Gruppe ${topic} in einer echten Situation. Die Teilnehmenden vergleichen zwei Ideen, stellen respektvolle Fragen und wählen einen sinnvollen nächsten Schritt. Eine Sprache zu lernen heißt auch zuzuhören und mitzumachen.`
+  };
+  const labels = {
+    english: ['Culture & memory', 'Real-life practice'], spanish: ['Cultura y efeméride', 'Aplicación práctica'],
+    french: ['Culture et mémoire', 'Application pratique'], italian: ['Cultura e memoria', 'Applicazione pratica'],
+    portuguese: ['Cultura e memória', 'Aplicação prática'], german: ['Kultur und Erinnerung', 'Praktische Anwendung']
+  }[language] || ['Culture & memory', 'Real-life practice'];
+  return [
+    { id: 'cultural-reading', label: `${labels[0]} · ${culturalTitle}`, title: culturalTitle, description: 'Fiesta, tradición o efeméride vinculada a la lengua.', text: culturalText, exercises: [] },
+    { id: 'practice-reading', label: `${labels[1]} · ${topic}`, title: topic, description: 'Una situación cotidiana para aplicar el tema de la unidad.', text: practiceCopy[language] || practiceCopy.english, exercises: [] }
+  ];
+}
+
 function renderReadingCulturalContextHtml(lesson) {
   const context = READING_CULTURAL_CALENDAR[lesson?.slug];
   if (!context) return '';
@@ -12240,7 +12308,7 @@ function getReadingTopicChoices(lesson) {
     text: primaryText,
     exercises: lesson.exercises || []
   };
-  const variants = authored.map((variant, index) => ({
+  const variants = (authored.length ? authored : buildProgrammeReadingVariants(lesson)).map((variant, index) => ({
     ...variant,
     id: variant.id || `reading-variant-${index + 1}`,
     label: variant.label || variant.title || `Lectura ${index + 2}`,
@@ -17297,19 +17365,16 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
           <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
-          <div class="vocab-card-front-top">
-            <span class="vocab-card-level-badge">${escapeHtml(item.level || learningPathState.level)}</span>
-            ${
-              canSpeak
-                ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
-                : ''
-            }
-          </div>
           <div class="vocab-card-word-block">
             <div class="vocab-card-target-row">
               <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
-              ${frontSupportHtml}
+              ${
+                canSpeak
+                  ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
+                  : ''
+              }
             </div>
+            ${frontSupportHtml}
             ${
               item.phonetic
                 ? `<div class="vocab-card-pronunciation"><p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p></div>`
@@ -20526,10 +20591,10 @@ function getLocalFallbackLessons(language, level) {
       .map((unit) => [unit.id || unit.slug, Number(unit.order) || 1])
   );
   // Free access is intentionally governed by unit, never by individual
-  // activities: A1 includes units 1–4 and A2–C2 include units 1–3.
+  // activities: A1 includes units 1–3 and A2–C2 include units 1–2.
   // This mirrors lib/accessPolicyService.js, which remains the enforcement
   // source for server-loaded lessons.
-  const freeUnitLimit = level === 'A1' ? 4 : 3;
+  const freeUnitLimit = level === 'A1' ? 3 : 2;
   return (
     lessons
       .filter((lesson) => lesson.level === level)
@@ -21084,6 +21149,22 @@ authTriggers.forEach((trigger) => {
     openModal(trigger.dataset.panel);
   });
 });
+
+// Keep all main tabs visible before sign-in. Capture the interaction before
+// the hash router sees it so a visitor gets one clear login request instead
+// of a partial page that cannot load their protected learning data.
+siteMenu?.addEventListener(
+  'click',
+  (event) => {
+    if (authStatus.session?.access_token) return;
+    const target = event.target.closest('.nav-group-member a, .nav-group-member summary');
+    if (!target) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    openModal('login', { message: 'Inicia sesión para abrir esta sección.' });
+  },
+  true
+);
 
 authTabs.forEach((tab) => {
   tab.addEventListener('click', () => openModal(tab.dataset.form));
