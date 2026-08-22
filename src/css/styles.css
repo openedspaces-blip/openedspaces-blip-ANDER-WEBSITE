@@ -825,6 +825,16 @@ a:focus-visible {
   display: none;
 }
 
+/* Keep every primary member destination at the same readable type scale as
+   the highlighted Aprender action; the colour and fill remain its only
+   visual distinction. */
+@media (min-width: 1281px) {
+  .navbar .nav-group-member > a,
+  .navbar .nav-group-member > .nav-more summary {
+    font-size: 0.98rem;
+  }
+}
+
 .menu .nav-learn-cta:hover,
 .menu .nav-learn-cta:focus-visible,
 .menu .nav-learn-cta.active {
