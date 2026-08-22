@@ -1555,19 +1555,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
               }
             ]
           },
@@ -1578,19 +1578,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
-              },
-              {
-                "id": "o2",
                 "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -1601,19 +1601,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
-              },
-              {
-                "id": "o3",
                 "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -1624,19 +1624,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -1649,40 +1649,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “No tema Trabalho e planos um…”",
         "options": [
-          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "Ninguém conta a própria experiência.",
           "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Depois, o grupo resume as ideias mais importantes.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -2662,11 +2662,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Olá!"
+                "text": "Meu nome é Ana e eu sou de Portugal."
               },
               {
                 "id": "o2",
-                "text": "Meu nome é Ana e eu sou de Portugal."
+                "text": "Olá!"
               },
               {
                 "id": "o3",
@@ -2689,11 +2689,11 @@
               },
               {
                 "id": "o2",
-                "text": "Eu digo: “Sim, por favor.”"
+                "text": "Meu nome é Ana e eu sou de Portugal."
               },
               {
                 "id": "o3",
-                "text": "Meu nome é Ana e eu sou de Portugal."
+                "text": "Eu digo: “Sim, por favor.”"
               },
               {
                 "id": "o4",
@@ -2716,11 +2716,11 @@
               },
               {
                 "id": "o3",
-                "text": "Depois de deixar as malas no hotel, eu ligo para minha família."
+                "text": "Hoje chego ao Brasil pela primeira vez."
               },
               {
                 "id": "o4",
-                "text": "Hoje chego ao Brasil pela primeira vez."
+                "text": "Depois de deixar as malas no hotel, eu ligo para minha família."
               }
             ]
           },
@@ -2731,19 +2731,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Olá!"
+                "text": "Eu digo: “Sim, por favor."
               },
               {
                 "id": "o2",
-                "text": "Meu nome é Ana e eu sou de Portugal."
+                "text": "Olá!"
               },
               {
                 "id": "o3",
-                "text": "Hoje chego ao Brasil pela primeira vez."
+                "text": "Meu nome é Ana e eu sou de Portugal."
               },
               {
                 "id": "o4",
-                "text": "Eu digo: “Sim, por favor."
+                "text": "Hoje chego ao Brasil pela primeira vez."
               }
             ]
           }
@@ -2792,8 +2792,8 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Olá…”",
         "options": [
-          "Olá!",
           "Meu nome é Ana e eu sou de Portugal.",
+          "Olá!",
           "Hoje chego ao Brasil pela primeira vez.",
           "No aeroporto, um motorista pergunta: “Você vai para o hotel?”"
         ]
@@ -2803,8 +2803,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Eu digo Sim…”",
         "options": [
           "Olá!",
-          "Eu digo: “Sim, por favor.”",
           "Meu nome é Ana e eu sou de Portugal.",
+          "Eu digo: “Sim, por favor.”",
           "Hoje chego ao Brasil pela primeira vez."
         ]
       },
@@ -2814,18 +2814,18 @@
         "options": [
           "Olá!",
           "Meu nome é Ana e eu sou de Portugal.",
-          "Depois de deixar as malas no hotel, eu ligo para minha família.",
-          "Hoje chego ao Brasil pela primeira vez."
+          "Hoje chego ao Brasil pela primeira vez.",
+          "Depois de deixar as malas no hotel, eu ligo para minha família."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Eu digo Sim…”",
         "options": [
+          "Eu digo: “Sim, por favor.",
           "Olá!",
           "Meu nome é Ana e eu sou de Portugal.",
-          "Hoje chego ao Brasil pela primeira vez.",
-          "Eu digo: “Sim, por favor."
+          "Hoje chego ao Brasil pela primeira vez."
         ]
       }
     ]
@@ -2866,15 +2866,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
-              },
-              {
-                "id": "o2",
                 "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "No caminho, escuto um podcast em português para aprender palavras novas."
+              },
+              {
+                "id": "o3",
+                "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
               },
               {
                 "id": "o4",
@@ -2893,15 +2893,15 @@
               },
               {
                 "id": "o2",
-                "text": "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
-              },
-              {
-                "id": "o3",
                 "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "No caminho, escuto um podcast em português para aprender palavras novas."
+              },
+              {
+                "id": "o4",
+                "text": "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
               }
             ]
           },
@@ -2912,15 +2912,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
+                "text": "No fim da tarde, passo no mercado ou na academia antes de voltar."
               },
               {
                 "id": "o2",
-                "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
+                "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
               },
               {
                 "id": "o3",
-                "text": "No fim da tarde, passo no mercado ou na academia antes de voltar."
+                "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
               },
               {
                 "id": "o4",
@@ -2939,15 +2939,15 @@
               },
               {
                 "id": "o2",
-                "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
+                "text": "Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui."
               },
               {
                 "id": "o3",
-                "text": "No caminho, escuto um podcast em português para aprender palavras novas."
+                "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
               },
               {
                 "id": "o4",
-                "text": "Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui."
+                "text": "No caminho, escuto um podcast em português para aprender palavras novas."
               }
             ]
           }
@@ -2990,9 +2990,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Moro em Belo Horizonte há…”",
         "options": [
-          "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
           "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho.",
           "No caminho, escuto um podcast em português para aprender palavras novas.",
+          "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
           "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
         ]
       },
@@ -3001,18 +3001,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Na hora do almoço normalmente…”",
         "options": [
           "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
-          "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório.",
           "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho.",
-          "No caminho, escuto um podcast em português para aprender palavras novas."
+          "No caminho, escuto um podcast em português para aprender palavras novas.",
+          "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “No fim da tarde passo…”",
         "options": [
+          "No fim da tarde, passo no mercado ou na academia antes de voltar.",
           "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
           "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho.",
-          "No fim da tarde, passo no mercado ou na academia antes de voltar.",
           "No caminho, escuto um podcast em português para aprender palavras novas."
         ]
       },
@@ -3021,9 +3021,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Ainda descubro lugares novos mas…”",
         "options": [
           "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
+          "Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui.",
           "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho.",
-          "No caminho, escuto um podcast em português para aprender palavras novas.",
-          "Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui."
+          "No caminho, escuto um podcast em português para aprender palavras novas."
         ]
       }
     ]
@@ -6170,19 +6170,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
               }
             ]
           },
@@ -6193,19 +6193,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
-              },
-              {
-                "id": "o2",
                 "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -6216,19 +6216,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
-              },
-              {
-                "id": "o3",
                 "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -6239,19 +6239,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -6264,40 +6264,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “No tema Viagens com respeito um…”",
         "options": [
-          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "Ninguém conta a própria experiência.",
           "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Depois, o grupo resume as ideias mais importantes.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -7277,15 +7277,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "De manhã, eu vou à padaria perto da minha casa."
-              },
-              {
-                "id": "o2",
                 "text": "A atendente diz: “Bom dia!”"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Eu peço um café com leite e um pão de queijo."
+              },
+              {
+                "id": "o3",
+                "text": "De manhã, eu vou à padaria perto da minha casa."
               },
               {
                 "id": "o4",
@@ -7304,15 +7304,15 @@
               },
               {
                 "id": "o2",
-                "text": "A padaria está cheia, mas as pessoas são simpáticas."
-              },
-              {
-                "id": "o3",
                 "text": "A atendente diz: “Bom dia!”"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Eu peço um café com leite e um pão de queijo."
+              },
+              {
+                "id": "o4",
+                "text": "A padaria está cheia, mas as pessoas são simpáticas."
               }
             ]
           },
@@ -7323,15 +7323,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "De manhã, eu vou à padaria perto da minha casa."
+                "text": "Antes de sair, eu compro uma garrafa de água para o caminho."
               },
               {
                 "id": "o2",
-                "text": "A atendente diz: “Bom dia!”"
+                "text": "De manhã, eu vou à padaria perto da minha casa."
               },
               {
                 "id": "o3",
-                "text": "Antes de sair, eu compro uma garrafa de água para o caminho."
+                "text": "A atendente diz: “Bom dia!”"
               },
               {
                 "id": "o4",
@@ -7350,15 +7350,15 @@
               },
               {
                 "id": "o2",
-                "text": "A atendente diz: “Bom dia!”"
+                "text": "A atendente diz: “Bom dia!"
               },
               {
                 "id": "o3",
-                "text": "Eu peço um café com leite e um pão de queijo."
+                "text": "A atendente diz: “Bom dia!”"
               },
               {
                 "id": "o4",
-                "text": "A atendente diz: “Bom dia!"
+                "text": "Eu peço um café com leite e um pão de queijo."
               }
             ]
           }
@@ -7401,9 +7401,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “De manhã eu vou…”",
         "options": [
-          "De manhã, eu vou à padaria perto da minha casa.",
           "A atendente diz: “Bom dia!”",
           "Eu peço um café com leite e um pão de queijo.",
+          "De manhã, eu vou à padaria perto da minha casa.",
           "A padaria está cheia, mas as pessoas são simpáticas."
         ]
       },
@@ -7412,18 +7412,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “A padaria está…”",
         "options": [
           "De manhã, eu vou à padaria perto da minha casa.",
-          "A padaria está cheia, mas as pessoas são simpáticas.",
           "A atendente diz: “Bom dia!”",
-          "Eu peço um café com leite e um pão de queijo."
+          "Eu peço um café com leite e um pão de queijo.",
+          "A padaria está cheia, mas as pessoas são simpáticas."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Antes de sair eu…”",
         "options": [
+          "Antes de sair, eu compro uma garrafa de água para o caminho.",
           "De manhã, eu vou à padaria perto da minha casa.",
           "A atendente diz: “Bom dia!”",
-          "Antes de sair, eu compro uma garrafa de água para o caminho.",
           "Eu peço um café com leite e um pão de queijo."
         ]
       },
@@ -7432,9 +7432,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “A atendente diz…”",
         "options": [
           "De manhã, eu vou à padaria perto da minha casa.",
+          "A atendente diz: “Bom dia!",
           "A atendente diz: “Bom dia!”",
-          "Eu peço um café com leite e um pão de queijo.",
-          "A atendente diz: “Bom dia!"
+          "Eu peço um café com leite e um pão de queijo."
         ]
       }
     ]
@@ -7475,11 +7475,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No último feriado, passei três dias em Salvador com meu irmão."
+                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
               },
               {
                 "id": "o2",
-                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
+                "text": "No último feriado, passei três dias em Salvador com meu irmão."
               },
               {
                 "id": "o3",
@@ -7502,11 +7502,11 @@
               },
               {
                 "id": "o2",
-                "text": "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez."
+                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
               },
               {
                 "id": "o3",
-                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
+                "text": "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez."
               },
               {
                 "id": "o4",
@@ -7529,11 +7529,11 @@
               },
               {
                 "id": "o3",
-                "text": "À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade."
+                "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
               },
               {
                 "id": "o4",
-                "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
+                "text": "À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade."
               }
             ]
           },
@@ -7544,19 +7544,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No último feriado, passei três dias em Salvador com meu irmão."
+                "text": "Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular."
               },
               {
                 "id": "o2",
-                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
+                "text": "No último feriado, passei três dias em Salvador com meu irmão."
               },
               {
                 "id": "o3",
-                "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
+                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
               },
               {
                 "id": "o4",
-                "text": "Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular."
+                "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
               }
             ]
           }
@@ -7599,8 +7599,8 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “No último feriado passei…”",
         "options": [
-          "No último feriado, passei três dias em Salvador com meu irmão.",
           "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico.",
+          "No último feriado, passei três dias em Salvador com meu irmão.",
           "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas.",
           "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez."
         ]
@@ -7610,8 +7610,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Depois almoçamos em um…”",
         "options": [
           "No último feriado, passei três dias em Salvador com meu irmão.",
-          "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez.",
           "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico.",
+          "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez.",
           "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
         ]
       },
@@ -7621,18 +7621,18 @@
         "options": [
           "No último feriado, passei três dias em Salvador com meu irmão.",
           "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico.",
-          "À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade.",
-          "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
+          "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas.",
+          "À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Fizemos uma lista de lugares que…”",
         "options": [
+          "Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular.",
           "No último feriado, passei três dias em Salvador com meu irmão.",
           "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico.",
-          "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas.",
-          "Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular."
+          "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
         ]
       }
     ]
@@ -10783,15 +10783,15 @@
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -10802,7 +10802,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
@@ -10810,11 +10810,11 @@
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -10825,11 +10825,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
@@ -10837,7 +10837,7 @@
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -10848,15 +10848,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
@@ -10874,38 +10874,38 @@
         "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “No tema Saúde e equilíbrio um…”",
         "options": [
           "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Ninguém conta a própria experiência.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
           "Depois, o grupo resume as ideias mais importantes."
         ]
       }
@@ -11886,15 +11886,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No domingo, minha família almoça junta."
-              },
-              {
-                "id": "o2",
                 "text": "Minha mãe faz arroz, feijão, frango e salada."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Meu pai prepara o suco."
+              },
+              {
+                "id": "o3",
+                "text": "No domingo, minha família almoça junta."
               },
               {
                 "id": "o4",
@@ -11913,15 +11913,15 @@
               },
               {
                 "id": "o2",
-                "text": "Minha irmã traz uma sobremesa pequena."
-              },
-              {
-                "id": "o3",
                 "text": "Minha mãe faz arroz, feijão, frango e salada."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Meu pai prepara o suco."
+              },
+              {
+                "id": "o4",
+                "text": "Minha irmã traz uma sobremesa pequena."
               }
             ]
           },
@@ -11932,15 +11932,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No domingo, minha família almoça junta."
+                "text": "Eu gosto desses domingos em família."
               },
               {
                 "id": "o2",
-                "text": "Minha mãe faz arroz, feijão, frango e salada."
+                "text": "No domingo, minha família almoça junta."
               },
               {
                 "id": "o3",
-                "text": "Eu gosto desses domingos em família."
+                "text": "Minha mãe faz arroz, feijão, frango e salada."
               },
               {
                 "id": "o4",
@@ -11959,15 +11959,15 @@
               },
               {
                 "id": "o2",
-                "text": "Minha mãe faz arroz, feijão, frango e salada."
+                "text": "É um momento simples, mas muito importante para todos."
               },
               {
                 "id": "o3",
-                "text": "Meu pai prepara o suco."
+                "text": "Minha mãe faz arroz, feijão, frango e salada."
               },
               {
                 "id": "o4",
-                "text": "É um momento simples, mas muito importante para todos."
+                "text": "Meu pai prepara o suco."
               }
             ]
           }
@@ -12013,9 +12013,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “No domingo minha…”",
         "options": [
-          "No domingo, minha família almoça junta.",
           "Minha mãe faz arroz, feijão, frango e salada.",
           "Meu pai prepara o suco.",
+          "No domingo, minha família almoça junta.",
           "Minha irmã traz uma sobremesa pequena."
         ]
       },
@@ -12024,18 +12024,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Minha irmã traz…”",
         "options": [
           "No domingo, minha família almoça junta.",
-          "Minha irmã traz uma sobremesa pequena.",
           "Minha mãe faz arroz, feijão, frango e salada.",
-          "Meu pai prepara o suco."
+          "Meu pai prepara o suco.",
+          "Minha irmã traz uma sobremesa pequena."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Eu gosto desses…”",
         "options": [
+          "Eu gosto desses domingos em família.",
           "No domingo, minha família almoça junta.",
           "Minha mãe faz arroz, feijão, frango e salada.",
-          "Eu gosto desses domingos em família.",
           "Meu pai prepara o suco."
         ]
       },
@@ -12044,9 +12044,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “É um momento…”",
         "options": [
           "No domingo, minha família almoça junta.",
+          "É um momento simples, mas muito importante para todos.",
           "Minha mãe faz arroz, feijão, frango e salada.",
-          "Meu pai prepara o suco.",
-          "É um momento simples, mas muito importante para todos."
+          "Meu pai prepara o suco."
         ]
       }
     ]
@@ -12087,15 +12087,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
-              },
-              {
-                "id": "o2",
                 "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
+              },
+              {
+                "id": "o3",
+                "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
               },
               {
                 "id": "o4",
@@ -12114,15 +12114,15 @@
               },
               {
                 "id": "o2",
-                "text": "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
-              },
-              {
-                "id": "o3",
                 "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
+              },
+              {
+                "id": "o4",
+                "text": "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
               }
             ]
           },
@@ -12133,15 +12133,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
+                "text": "Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais."
               },
               {
                 "id": "o2",
-                "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
+                "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
               },
               {
                 "id": "o3",
-                "text": "Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais."
+                "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
               },
               {
                 "id": "o4",
@@ -12160,15 +12160,15 @@
               },
               {
                 "id": "o2",
-                "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
+                "text": "Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
+                "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
               },
               {
                 "id": "o4",
-                "text": "Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias."
+                "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
               }
             ]
           }
@@ -12211,9 +12211,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Minha avó sempre fazia…”",
         "options": [
-          "Minha avó sempre fazia bolo de milho quando a família se reunia.",
           "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela.",
           "Primeiro, misturamos milho, leite, açúcar e ovos.",
+          "Minha avó sempre fazia bolo de milho quando a família se reunia.",
           "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
         ]
       },
@@ -12222,18 +12222,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Depois colocamos a massa em…”",
         "options": [
           "Minha avó sempre fazia bolo de milho quando a família se reunia.",
-          "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha.",
           "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela.",
-          "Primeiro, misturamos milho, leite, açúcar e ovos."
+          "Primeiro, misturamos milho, leite, açúcar e ovos.",
+          "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Hoje moro longe da minha…”",
         "options": [
+          "Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais.",
           "Minha avó sempre fazia bolo de milho quando a família se reunia.",
           "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela.",
-          "Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais.",
           "Primeiro, misturamos milho, leite, açúcar e ovos."
         ]
       },
@@ -12242,9 +12242,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Eles quiseram provar o bolo…”",
         "options": [
           "Minha avó sempre fazia bolo de milho quando a família se reunia.",
+          "Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias.",
           "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela.",
-          "Primeiro, misturamos milho, leite, açúcar e ovos.",
-          "Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias."
+          "Primeiro, misturamos milho, leite, açúcar e ovos."
         ]
       }
     ]
@@ -15397,15 +15397,15 @@
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -15416,7 +15416,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
@@ -15424,11 +15424,11 @@
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -15439,11 +15439,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
@@ -15451,7 +15451,7 @@
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -15462,15 +15462,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
@@ -15488,38 +15488,38 @@
         "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “No tema Cultura e informação um…”",
         "options": [
           "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Ninguém conta a própria experiência.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
           "Depois, o grupo resume as ideias mais importantes."
         ]
       }
@@ -16500,15 +16500,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Toda terça-feira tem uma feira no meu bairro."
-              },
-              {
-                "id": "o2",
                 "text": "Eu compro bananas, tomates, pão e flores."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Os vendedores falam alto e chamam os clientes."
+              },
+              {
+                "id": "o3",
+                "text": "Toda terça-feira tem uma feira no meu bairro."
               },
               {
                 "id": "o4",
@@ -16527,15 +16527,15 @@
               },
               {
                 "id": "o2",
-                "text": "Os vendedores falam alto e chamam os clientes."
-              },
-              {
-                "id": "o3",
                 "text": "Eu compro bananas, tomates, pão e flores."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Uma mulher vende frutas muito doces."
+              },
+              {
+                "id": "o4",
+                "text": "Os vendedores falam alto e chamam os clientes."
               }
             ]
           },
@@ -16546,15 +16546,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Toda terça-feira tem uma feira no meu bairro."
+                "text": "A feira é colorida, animada e sempre tem muitas pessoas."
               },
               {
                 "id": "o2",
-                "text": "Eu compro bananas, tomates, pão e flores."
+                "text": "Toda terça-feira tem uma feira no meu bairro."
               },
               {
                 "id": "o3",
-                "text": "A feira é colorida, animada e sempre tem muitas pessoas."
+                "text": "Eu compro bananas, tomates, pão e flores."
               },
               {
                 "id": "o4",
@@ -16573,15 +16573,15 @@
               },
               {
                 "id": "o2",
-                "text": "Eu compro bananas, tomates, pão e flores."
+                "text": "Nós preparamos o suco juntas e guardamos as flores em um vaso na sala."
               },
               {
                 "id": "o3",
-                "text": "Os vendedores falam alto e chamam os clientes."
+                "text": "Eu compro bananas, tomates, pão e flores."
               },
               {
                 "id": "o4",
-                "text": "Nós preparamos o suco juntas e guardamos as flores em um vaso na sala."
+                "text": "Os vendedores falam alto e chamam os clientes."
               }
             ]
           }
@@ -16621,9 +16621,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Toda terça-feira tem…”",
         "options": [
-          "Toda terça-feira tem uma feira no meu bairro.",
           "Eu compro bananas, tomates, pão e flores.",
           "Os vendedores falam alto e chamam os clientes.",
+          "Toda terça-feira tem uma feira no meu bairro.",
           "Uma mulher vende frutas muito doces."
         ]
       },
@@ -16632,18 +16632,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Os vendedores falam…”",
         "options": [
           "Toda terça-feira tem uma feira no meu bairro.",
-          "Os vendedores falam alto e chamam os clientes.",
           "Eu compro bananas, tomates, pão e flores.",
-          "Uma mulher vende frutas muito doces."
+          "Uma mulher vende frutas muito doces.",
+          "Os vendedores falam alto e chamam os clientes."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “A feira é colorida…”",
         "options": [
+          "A feira é colorida, animada e sempre tem muitas pessoas.",
           "Toda terça-feira tem uma feira no meu bairro.",
           "Eu compro bananas, tomates, pão e flores.",
-          "A feira é colorida, animada e sempre tem muitas pessoas.",
           "Os vendedores falam alto e chamam os clientes."
         ]
       },
@@ -16652,9 +16652,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Nós preparamos o suco juntas…”",
         "options": [
           "Toda terça-feira tem uma feira no meu bairro.",
+          "Nós preparamos o suco juntas e guardamos as flores em um vaso na sala.",
           "Eu compro bananas, tomates, pão e flores.",
-          "Os vendedores falam alto e chamam os clientes.",
-          "Nós preparamos o suco juntas e guardamos as flores em um vaso na sala."
+          "Os vendedores falam alto e chamam os clientes."
         ]
       }
     ]
@@ -20004,19 +20004,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -20027,19 +20027,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -20050,19 +20050,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               }
             ]
           },
@@ -20073,19 +20073,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -20098,40 +20098,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “No tema Ambiente no bairro um…”",
         "options": [
+          "Ninguém conta a própria experiência.",
           "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Depois, o grupo resume as ideias mais importantes.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -24617,15 +24617,15 @@
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -24636,7 +24636,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
@@ -24644,11 +24644,11 @@
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -24659,11 +24659,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
@@ -24671,7 +24671,7 @@
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -24682,15 +24682,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
@@ -24708,38 +24708,38 @@
         "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “No tema Histórias e memórias um…”",
         "options": [
           "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Ninguém conta a própria experiência.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
           "Depois, o grupo resume as ideias mais importantes."
         ]
       }
@@ -25720,15 +25720,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Eu estudo português em uma escola pequena."
-              },
-              {
-                "id": "o2",
                 "text": "Minha professora se chama Carla e fala devagar."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Na minha turma há alunos de vários países."
+              },
+              {
+                "id": "o3",
+                "text": "Eu estudo português em uma escola pequena."
               },
               {
                 "id": "o4",
@@ -25747,15 +25747,15 @@
               },
               {
                 "id": "o2",
-                "text": "Minha melhor amiga é a Yuki."
-              },
-              {
-                "id": "o3",
                 "text": "Minha professora se chama Carla e fala devagar."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Na minha turma há alunos de vários países."
+              },
+              {
+                "id": "o4",
+                "text": "Minha melhor amiga é a Yuki."
               }
             ]
           },
@@ -25766,15 +25766,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Eu estudo português em uma escola pequena."
+                "text": "Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes."
               },
               {
                 "id": "o2",
-                "text": "Minha professora se chama Carla e fala devagar."
+                "text": "Eu estudo português em uma escola pequena."
               },
               {
                 "id": "o3",
-                "text": "Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes."
+                "text": "Minha professora se chama Carla e fala devagar."
               },
               {
                 "id": "o4",
@@ -25793,15 +25793,15 @@
               },
               {
                 "id": "o2",
-                "text": "Minha professora se chama Carla e fala devagar."
+                "text": "Assim, aprendemos com mais confiança."
               },
               {
                 "id": "o3",
-                "text": "Na minha turma há alunos de vários países."
+                "text": "Minha professora se chama Carla e fala devagar."
               },
               {
                 "id": "o4",
-                "text": "Assim, aprendemos com mais confiança."
+                "text": "Na minha turma há alunos de vários países."
               }
             ]
           }
@@ -25844,9 +25844,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Eu estudo português…”",
         "options": [
-          "Eu estudo português em uma escola pequena.",
           "Minha professora se chama Carla e fala devagar.",
           "Na minha turma há alunos de vários países.",
+          "Eu estudo português em uma escola pequena.",
           "Minha melhor amiga é a Yuki."
         ]
       },
@@ -25855,18 +25855,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Minha melhor amiga…”",
         "options": [
           "Eu estudo português em uma escola pequena.",
-          "Minha melhor amiga é a Yuki.",
           "Minha professora se chama Carla e fala devagar.",
-          "Na minha turma há alunos de vários países."
+          "Na minha turma há alunos de vários países.",
+          "Minha melhor amiga é a Yuki."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Eu gosto da escola porque…”",
         "options": [
+          "Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes.",
           "Eu estudo português em uma escola pequena.",
           "Minha professora se chama Carla e fala devagar.",
-          "Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes.",
           "Na minha turma há alunos de vários países."
         ]
       },
@@ -25875,9 +25875,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Assim aprendemos com…”",
         "options": [
           "Eu estudo português em uma escola pequena.",
+          "Assim, aprendemos com mais confiança.",
           "Minha professora se chama Carla e fala devagar.",
-          "Na minha turma há alunos de vários países.",
-          "Assim, aprendemos com mais confiança."
+          "Na minha turma há alunos de vários países."
         ]
       }
     ]
@@ -25918,19 +25918,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
-              },
-              {
-                "id": "o2",
                 "text": "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Não quero fazer um roteiro correndo de um ponto turístico para outro."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais."
+              },
+              {
+                "id": "o4",
+                "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
               }
             ]
           },
@@ -25941,11 +25941,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
+                "text": "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais."
               },
               {
                 "id": "o2",
-                "text": "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais."
+                "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
               },
               {
                 "id": "o3",
@@ -25968,11 +25968,11 @@
               },
               {
                 "id": "o2",
-                "text": "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado."
+                "text": "Quando viajamos, usamos ruas, praias e serviços que pertencem a outras pessoas."
               },
               {
                 "id": "o3",
-                "text": "Quando viajamos, usamos ruas, praias e serviços que pertencem a outras pessoas."
+                "text": "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado."
               },
               {
                 "id": "o4",
@@ -25995,11 +25995,11 @@
               },
               {
                 "id": "o3",
-                "text": "Não quero fazer um roteiro correndo de um ponto turístico para outro."
+                "text": "Assim, minha visita será mais respeitosa e mais interessante para mim."
               },
               {
                 "id": "o4",
-                "text": "Assim, minha visita será mais respeitosa e mais interessante para mim."
+                "text": "Não quero fazer um roteiro correndo de um ponto turístico para outro."
               }
             ]
           }
@@ -26042,18 +26042,18 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Nas próximas férias quero conhecer…”",
         "options": [
-          "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais.",
           "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
           "Não quero fazer um roteiro correndo de um ponto turístico para outro.",
-          "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais."
+          "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais.",
+          "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Prefiro passar mais tempo no…”",
         "options": [
-          "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais.",
           "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais.",
+          "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais.",
           "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
           "Não quero fazer um roteiro correndo de um ponto turístico para outro."
         ]
@@ -26063,8 +26063,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Quando viajamos usamos ruas…”",
         "options": [
           "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais.",
-          "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
           "Quando viajamos, usamos ruas, praias e serviços que pertencem a outras pessoas.",
+          "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
           "Não quero fazer um roteiro correndo de um ponto turístico para outro."
         ]
       },
@@ -26074,8 +26074,8 @@
         "options": [
           "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais.",
           "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
-          "Não quero fazer um roteiro correndo de um ponto turístico para outro.",
-          "Assim, minha visita será mais respeitosa e mais interessante para mim."
+          "Assim, minha visita será mais respeitosa e mais interessante para mim.",
+          "Não quero fazer um roteiro correndo de um ponto turístico para outro."
         ]
       }
     ]
@@ -29224,19 +29224,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
               }
             ]
           },
@@ -29247,19 +29247,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
-              },
-              {
-                "id": "o2",
                 "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -29270,19 +29270,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
-              },
-              {
-                "id": "o3",
                 "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -29293,19 +29293,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -29318,40 +29318,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “No tema Projeto coletivo um…”",
         "options": [
-          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "Ninguém conta a própria experiência.",
           "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Depois, o grupo resume as ideias mais importantes.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -30331,19 +30331,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Eu moro em um apartamento pequeno, mas confortável."
-              },
-              {
-                "id": "o2",
                 "text": "Tem uma sala, uma cozinha, um quarto e uma varanda."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Meu vizinho se chama Paulo."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Ele tem um cachorro muito alegre."
+              },
+              {
+                "id": "o4",
+                "text": "Eu moro em um apartamento pequeno, mas confortável."
               }
             ]
           },
@@ -30354,11 +30354,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Eu moro em um apartamento pequeno, mas confortável."
+                "text": "Ele tem um cachorro muito alegre."
               },
               {
                 "id": "o2",
-                "text": "Ele tem um cachorro muito alegre."
+                "text": "Eu moro em um apartamento pequeno, mas confortável."
               },
               {
                 "id": "o3",
@@ -30381,11 +30381,11 @@
               },
               {
                 "id": "o2",
-                "text": "Tem uma sala, uma cozinha, um quarto e uma varanda."
+                "text": "A rua é tranquila e tem uma farmácia, um mercado e uma praça perto daqui."
               },
               {
                 "id": "o3",
-                "text": "A rua é tranquila e tem uma farmácia, um mercado e uma praça perto daqui."
+                "text": "Tem uma sala, uma cozinha, um quarto e uma varanda."
               },
               {
                 "id": "o4",
@@ -30408,11 +30408,11 @@
               },
               {
                 "id": "o3",
-                "text": "Meu vizinho se chama Paulo."
+                "text": "Conheço outros vizinhos e pratico português enquanto conversamos."
               },
               {
                 "id": "o4",
-                "text": "Conheço outros vizinhos e pratico português enquanto conversamos."
+                "text": "Meu vizinho se chama Paulo."
               }
             ]
           }
@@ -30455,18 +30455,18 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Eu moro em…”",
         "options": [
-          "Eu moro em um apartamento pequeno, mas confortável.",
           "Tem uma sala, uma cozinha, um quarto e uma varanda.",
           "Meu vizinho se chama Paulo.",
-          "Ele tem um cachorro muito alegre."
+          "Ele tem um cachorro muito alegre.",
+          "Eu moro em um apartamento pequeno, mas confortável."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Ele tem um…”",
         "options": [
-          "Eu moro em um apartamento pequeno, mas confortável.",
           "Ele tem um cachorro muito alegre.",
+          "Eu moro em um apartamento pequeno, mas confortável.",
           "Tem uma sala, uma cozinha, um quarto e uma varanda.",
           "Meu vizinho se chama Paulo."
         ]
@@ -30476,8 +30476,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “A rua é tranquila e…”",
         "options": [
           "Eu moro em um apartamento pequeno, mas confortável.",
-          "Tem uma sala, uma cozinha, um quarto e uma varanda.",
           "A rua é tranquila e tem uma farmácia, um mercado e uma praça perto daqui.",
+          "Tem uma sala, uma cozinha, um quarto e uma varanda.",
           "Meu vizinho se chama Paulo."
         ]
       },
@@ -30487,8 +30487,8 @@
         "options": [
           "Eu moro em um apartamento pequeno, mas confortável.",
           "Tem uma sala, uma cozinha, um quarto e uma varanda.",
-          "Meu vizinho se chama Paulo.",
-          "Conheço outros vizinhos e pratico português enquanto conversamos."
+          "Conheço outros vizinhos e pratico português enquanto conversamos.",
+          "Meu vizinho se chama Paulo."
         ]
       }
     ]
@@ -30529,11 +30529,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
+                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
               },
               {
                 "id": "o2",
-                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
+                "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
               },
               {
                 "id": "o3",
@@ -30556,11 +30556,11 @@
               },
               {
                 "id": "o2",
-                "text": "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos."
+                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
               },
               {
                 "id": "o3",
-                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
+                "text": "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos."
               },
               {
                 "id": "o4",
@@ -30583,11 +30583,11 @@
               },
               {
                 "id": "o3",
-                "text": "Para mim, o lazer não é perder tempo."
+                "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
               },
               {
                 "id": "o4",
-                "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
+                "text": "Para mim, o lazer não é perder tempo."
               }
             ]
           },
@@ -30598,19 +30598,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
+                "text": "O importante é não passar todo o tempo livre preocupado com tarefas."
               },
               {
                 "id": "o2",
-                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
+                "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
               },
               {
                 "id": "o3",
-                "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
+                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
               },
               {
                 "id": "o4",
-                "text": "O importante é não passar todo o tempo livre preocupado com tarefas."
+                "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
               }
             ]
           }
@@ -30656,8 +30656,8 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Depois de uma semana de…”",
         "options": [
-          "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
           "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro.",
+          "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
           "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas.",
           "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos."
         ]
@@ -30667,8 +30667,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Aos domingos quando o tempo está…”",
         "options": [
           "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
-          "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos.",
           "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro.",
+          "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos.",
           "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
         ]
       },
@@ -30678,18 +30678,18 @@
         "options": [
           "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
           "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro.",
-          "Para mim, o lazer não é perder tempo.",
-          "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
+          "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas.",
+          "Para mim, o lazer não é perder tempo."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “O importante é não…”",
         "options": [
+          "O importante é não passar todo o tempo livre preocupado com tarefas.",
           "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
           "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro.",
-          "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas.",
-          "O importante é não passar todo o tempo livre preocupado com tarefas."
+          "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
         ]
       }
     ]
@@ -33838,19 +33838,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -33861,19 +33861,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -33884,19 +33884,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               }
             ]
           },
@@ -33907,19 +33907,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -33932,40 +33932,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “No tema Tecnologia no dia a…”",
         "options": [
+          "Ninguém conta a própria experiência.",
           "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Depois, o grupo resume as ideias mais importantes.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -34945,19 +34945,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje faz sol no Recife, mas ontem choveu muito."
-              },
-              {
-                "id": "o2",
                 "text": "De manhã, o céu está azul e faz calor."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Eu uso uma camiseta leve e levo água na bolsa."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "À tarde, talvez chova de novo, então também levo um guarda-chuva."
+              },
+              {
+                "id": "o4",
+                "text": "Hoje faz sol no Recife, mas ontem choveu muito."
               }
             ]
           },
@@ -34968,11 +34968,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje faz sol no Recife, mas ontem choveu muito."
+                "text": "Eu uso uma camiseta leve e levo água na bolsa."
               },
               {
                 "id": "o2",
-                "text": "Eu uso uma camiseta leve e levo água na bolsa."
+                "text": "Hoje faz sol no Recife, mas ontem choveu muito."
               },
               {
                 "id": "o3",
@@ -34995,11 +34995,11 @@
               },
               {
                 "id": "o2",
-                "text": "De manhã, o céu está azul e faz calor."
+                "text": "Quando a chuva começa, entro em uma cafeteria perto da praia."
               },
               {
                 "id": "o3",
-                "text": "Quando a chuva começa, entro em uma cafeteria perto da praia."
+                "text": "De manhã, o céu está azul e faz calor."
               },
               {
                 "id": "o4",
@@ -35022,11 +35022,11 @@
               },
               {
                 "id": "o3",
-                "text": "Eu uso uma camiseta leve e levo água na bolsa."
+                "text": "Depois, o sol volta e eu continuo meu passeio."
               },
               {
                 "id": "o4",
-                "text": "Depois, o sol volta e eu continuo meu passeio."
+                "text": "Eu uso uma camiseta leve e levo água na bolsa."
               }
             ]
           }
@@ -35066,18 +35066,18 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Hoje faz sol…”",
         "options": [
-          "Hoje faz sol no Recife, mas ontem choveu muito.",
           "De manhã, o céu está azul e faz calor.",
           "Eu uso uma camiseta leve e levo água na bolsa.",
-          "À tarde, talvez chova de novo, então também levo um guarda-chuva."
+          "À tarde, talvez chova de novo, então também levo um guarda-chuva.",
+          "Hoje faz sol no Recife, mas ontem choveu muito."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Eu uso uma camiseta…”",
         "options": [
-          "Hoje faz sol no Recife, mas ontem choveu muito.",
           "Eu uso uma camiseta leve e levo água na bolsa.",
+          "Hoje faz sol no Recife, mas ontem choveu muito.",
           "De manhã, o céu está azul e faz calor.",
           "À tarde, talvez chova de novo, então também levo um guarda-chuva."
         ]
@@ -35087,8 +35087,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Quando a chuva começa…”",
         "options": [
           "Hoje faz sol no Recife, mas ontem choveu muito.",
-          "De manhã, o céu está azul e faz calor.",
           "Quando a chuva começa, entro em uma cafeteria perto da praia.",
+          "De manhã, o céu está azul e faz calor.",
           "Eu uso uma camiseta leve e levo água na bolsa."
         ]
       },
@@ -35098,8 +35098,8 @@
         "options": [
           "Hoje faz sol no Recife, mas ontem choveu muito.",
           "De manhã, o céu está azul e faz calor.",
-          "Eu uso uma camiseta leve e levo água na bolsa.",
-          "Depois, o sol volta e eu continuo meu passeio."
+          "Depois, o sol volta e eu continuo meu passeio.",
+          "Eu uso uma camiseta leve e levo água na bolsa."
         ]
       }
     ]
@@ -35140,19 +35140,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
-              },
-              {
-                "id": "o2",
                 "text": "Primeiro pensei que fosse apenas cansaço, mas a dor continuou."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar."
+              },
+              {
+                "id": "o4",
+                "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
               }
             ]
           },
@@ -35163,11 +35163,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
+                "text": "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar."
               },
               {
                 "id": "o2",
-                "text": "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar."
+                "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
               },
               {
                 "id": "o3",
@@ -35190,11 +35190,11 @@
               },
               {
                 "id": "o2",
-                "text": "Primeiro pensei que fosse apenas cansaço, mas a dor continuou."
+                "text": "Porém, aos poucos, percebi que tenho mais energia durante o dia."
               },
               {
                 "id": "o3",
-                "text": "Porém, aos poucos, percebi que tenho mais energia durante o dia."
+                "text": "Primeiro pensei que fosse apenas cansaço, mas a dor continuou."
               },
               {
                 "id": "o4",
@@ -35217,11 +35217,11 @@
               },
               {
                 "id": "o3",
-                "text": "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
+                "text": "São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina."
               },
               {
                 "id": "o4",
-                "text": "São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina."
+                "text": "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
               }
             ]
           }
@@ -35264,18 +35264,18 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Há algumas semanas comecei…”",
         "options": [
-          "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho.",
           "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
           "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves.",
-          "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar."
+          "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar.",
+          "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Também comecei a dormir melhor…”",
         "options": [
-          "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho.",
           "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar.",
+          "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho.",
           "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
           "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
         ]
@@ -35285,8 +35285,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Porém aos poucos percebi…”",
         "options": [
           "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho.",
-          "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
           "Porém, aos poucos, percebi que tenho mais energia durante o dia.",
+          "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
           "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
         ]
       },
@@ -35296,8 +35296,8 @@
         "options": [
           "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho.",
           "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
-          "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves.",
-          "São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina."
+          "São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina.",
+          "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
         ]
       }
     ]
@@ -38447,19 +38447,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -38470,19 +38470,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -38493,19 +38493,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               }
             ]
           },
@@ -38516,19 +38516,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -38541,40 +38541,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “No tema Cidade e mobilidade um…”",
         "options": [
+          "Ninguém conta a própria experiência.",
           "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Depois, o grupo resume as ideias mais importantes.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -39749,15 +39749,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
-              },
-              {
-                "id": "o2",
                 "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
+              },
+              {
+                "id": "o3",
+                "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
               },
               {
                 "id": "o4",
@@ -39776,15 +39776,15 @@
               },
               {
                 "id": "o2",
-                "text": "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
-              },
-              {
-                "id": "o3",
                 "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
+              },
+              {
+                "id": "o4",
+                "text": "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
               }
             ]
           },
@@ -39795,15 +39795,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
+                "text": "Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa."
               },
               {
                 "id": "o2",
-                "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
+                "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
               },
               {
                 "id": "o3",
-                "text": "Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa."
+                "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
               },
               {
                 "id": "o4",
@@ -39822,15 +39822,15 @@
               },
               {
                 "id": "o2",
-                "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
+                "text": "Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias."
               },
               {
                 "id": "o3",
-                "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
+                "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
               },
               {
                 "id": "o4",
-                "text": "Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias."
+                "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
               }
             ]
           }
@@ -39873,9 +39873,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Meu vizinho nasceu no interior…”",
         "options": [
-          "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
           "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina.",
           "Durante muitos anos, voltou à cidade natal apenas nas férias.",
+          "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
           "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
         ]
       },
@@ -39884,18 +39884,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Hoje ele diz que tem duas casas…”",
         "options": [
           "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
-          "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó.",
           "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina.",
-          "Durante muitos anos, voltou à cidade natal apenas nas férias."
+          "Durante muitos anos, voltou à cidade natal apenas nas férias.",
+          "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Ouvir essa história me fez pensar…”",
         "options": [
+          "Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa.",
           "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
           "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina.",
-          "Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa.",
           "Durante muitos anos, voltou à cidade natal apenas nas férias."
         ]
       },
@@ -39904,9 +39904,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Ele quer que eles conheçam…”",
         "options": [
           "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
+          "Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias.",
           "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina.",
-          "Durante muitos anos, voltou à cidade natal apenas nas férias.",
-          "Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias."
+          "Durante muitos anos, voltou à cidade natal apenas nas férias."
         ]
       }
     ]
@@ -43055,19 +43055,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -43078,19 +43078,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               }
             ]
           },
@@ -43101,19 +43101,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
-              },
-              {
-                "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
-              },
-              {
-                "id": "o3",
                 "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -43124,19 +43124,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -43149,40 +43149,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “No tema Planos para o futuro…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
           "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "Depois, o grupo resume as ideias mais importantes.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -44162,19 +44162,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Eu vou de ônibus para o trabalho todos os dias."
-              },
-              {
-                "id": "o2",
                 "text": "A parada fica perto da minha casa."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Quando o ônibus chega, eu entro e pago a passagem."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Às vezes encontro uma colega e nós conversamos."
+              },
+              {
+                "id": "o4",
+                "text": "Eu vou de ônibus para o trabalho todos os dias."
               }
             ]
           },
@@ -44185,11 +44185,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Eu vou de ônibus para o trabalho todos os dias."
+                "text": "Quando o ônibus chega, eu entro e pago a passagem."
               },
               {
                 "id": "o2",
-                "text": "Quando o ônibus chega, eu entro e pago a passagem."
+                "text": "Eu vou de ônibus para o trabalho todos os dias."
               },
               {
                 "id": "o3",
@@ -44212,11 +44212,11 @@
               },
               {
                 "id": "o2",
-                "text": "A parada fica perto da minha casa."
+                "text": "O trânsito é lento pela manhã, mas eu gosto de olhar as ruas e as pessoas pela janela."
               },
               {
                 "id": "o3",
-                "text": "O trânsito é lento pela manhã, mas eu gosto de olhar as ruas e as pessoas pela janela."
+                "text": "A parada fica perto da minha casa."
               },
               {
                 "id": "o4",
@@ -44239,11 +44239,11 @@
               },
               {
                 "id": "o3",
-                "text": "Quando o ônibus chega, eu entro e pago a passagem."
+                "text": "Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar."
               },
               {
                 "id": "o4",
-                "text": "Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar."
+                "text": "Quando o ônibus chega, eu entro e pago a passagem."
               }
             ]
           }
@@ -44280,18 +44280,18 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Eu vou de ônibus…”",
         "options": [
-          "Eu vou de ônibus para o trabalho todos os dias.",
           "A parada fica perto da minha casa.",
           "Quando o ônibus chega, eu entro e pago a passagem.",
-          "Às vezes encontro uma colega e nós conversamos."
+          "Às vezes encontro uma colega e nós conversamos.",
+          "Eu vou de ônibus para o trabalho todos os dias."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Quando o ônibus chega…”",
         "options": [
-          "Eu vou de ônibus para o trabalho todos os dias.",
           "Quando o ônibus chega, eu entro e pago a passagem.",
+          "Eu vou de ônibus para o trabalho todos os dias.",
           "A parada fica perto da minha casa.",
           "Às vezes encontro uma colega e nós conversamos."
         ]
@@ -44301,8 +44301,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “O trânsito é lento pela manhã…”",
         "options": [
           "Eu vou de ônibus para o trabalho todos os dias.",
-          "A parada fica perto da minha casa.",
           "O trânsito é lento pela manhã, mas eu gosto de olhar as ruas e as pessoas pela janela.",
+          "A parada fica perto da minha casa.",
           "Quando o ônibus chega, eu entro e pago a passagem."
         ]
       },
@@ -44312,8 +44312,8 @@
         "options": [
           "Eu vou de ônibus para o trabalho todos os dias.",
           "A parada fica perto da minha casa.",
-          "Quando o ônibus chega, eu entro e pago a passagem.",
-          "Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar."
+          "Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar.",
+          "Quando o ônibus chega, eu entro e pago a passagem."
         ]
       }
     ]
@@ -44354,15 +44354,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
-              },
-              {
-                "id": "o2",
                 "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Depois fizeram uma campanha de doação no bairro."
+              },
+              {
+                "id": "o3",
+                "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
               },
               {
                 "id": "o4",
@@ -44381,15 +44381,15 @@
               },
               {
                 "id": "o2",
-                "text": "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
-              },
-              {
-                "id": "o3",
                 "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Depois fizeram uma campanha de doação no bairro."
+              },
+              {
+                "id": "o4",
+                "text": "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
               }
             ]
           },
@@ -44400,15 +44400,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
+                "text": "O melhor resultado não foi apenas ter mais livros."
               },
               {
                 "id": "o2",
-                "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
+                "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
               },
               {
                 "id": "o3",
-                "text": "O melhor resultado não foi apenas ter mais livros."
+                "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
               },
               {
                 "id": "o4",
@@ -44427,15 +44427,15 @@
               },
               {
                 "id": "o2",
-                "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
+                "text": "Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas."
               },
               {
                 "id": "o3",
-                "text": "Depois fizeram uma campanha de doação no bairro."
+                "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
               },
               {
                 "id": "o4",
-                "text": "Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas."
+                "text": "Depois fizeram uma campanha de doação no bairro."
               }
             ]
           }
@@ -44478,9 +44478,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Na escola do meu sobrinho…”",
         "options": [
-          "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
           "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores.",
           "Depois fizeram uma campanha de doação no bairro.",
+          "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
           "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
         ]
       },
@@ -44489,18 +44489,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Alguns alunos criaram cartazes outros falaram…”",
         "options": [
           "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
-          "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos.",
           "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores.",
-          "Depois fizeram uma campanha de doação no bairro."
+          "Depois fizeram uma campanha de doação no bairro.",
+          "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “O melhor resultado…”",
         "options": [
+          "O melhor resultado não foi apenas ter mais livros.",
           "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
           "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores.",
-          "O melhor resultado não foi apenas ter mais livros.",
           "Depois fizeram uma campanha de doação no bairro."
         ]
       },
@@ -44509,9 +44509,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Cada um escolheu um livro…”",
         "options": [
           "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
+          "Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas.",
           "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores.",
-          "Depois fizeram uma campanha de doação no bairro.",
-          "Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas."
+          "Depois fizeram uma campanha de doação no bairro."
         ]
       }
     ]
@@ -47660,19 +47660,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -47683,19 +47683,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -47706,19 +47706,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               }
             ]
           },
@@ -47729,19 +47729,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -47754,40 +47754,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “No tema Relações e comunicação um…”",
         "options": [
+          "Ninguém conta a própria experiência.",
           "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Depois, o grupo resume as ideias mais importantes.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -48767,15 +48767,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje vou experimentar uma comida brasileira nova."
-              },
-              {
-                "id": "o2",
                 "text": "No restaurante, peço moqueca com arroz e salada."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "O prato tem peixe, tomate, cebola e leite de coco."
+              },
+              {
+                "id": "o3",
+                "text": "Hoje vou experimentar uma comida brasileira nova."
               },
               {
                 "id": "o4",
@@ -48794,15 +48794,15 @@
               },
               {
                 "id": "o2",
-                "text": "O cheiro é muito bom."
-              },
-              {
-                "id": "o3",
                 "text": "No restaurante, peço moqueca com arroz e salada."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "O prato tem peixe, tomate, cebola e leite de coco."
+              },
+              {
+                "id": "o4",
+                "text": "O cheiro é muito bom."
               }
             ]
           },
@@ -48813,15 +48813,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje vou experimentar uma comida brasileira nova."
+                "text": "A comida é diferente da comida da minha casa, mas eu gosto muito."
               },
               {
                 "id": "o2",
-                "text": "No restaurante, peço moqueca com arroz e salada."
+                "text": "Hoje vou experimentar uma comida brasileira nova."
               },
               {
                 "id": "o3",
-                "text": "A comida é diferente da comida da minha casa, mas eu gosto muito."
+                "text": "No restaurante, peço moqueca com arroz e salada."
               },
               {
                 "id": "o4",
@@ -48840,15 +48840,15 @@
               },
               {
                 "id": "o2",
-                "text": "No restaurante, peço moqueca com arroz e salada."
+                "text": "Quero voltar a esse restaurante com meus amigos."
               },
               {
                 "id": "o3",
-                "text": "O prato tem peixe, tomate, cebola e leite de coco."
+                "text": "No restaurante, peço moqueca com arroz e salada."
               },
               {
                 "id": "o4",
-                "text": "Quero voltar a esse restaurante com meus amigos."
+                "text": "O prato tem peixe, tomate, cebola e leite de coco."
               }
             ]
           }
@@ -48891,9 +48891,9 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Hoje vou experimentar…”",
         "options": [
-          "Hoje vou experimentar uma comida brasileira nova.",
           "No restaurante, peço moqueca com arroz e salada.",
           "O prato tem peixe, tomate, cebola e leite de coco.",
+          "Hoje vou experimentar uma comida brasileira nova.",
           "O cheiro é muito bom."
         ]
       },
@@ -48902,18 +48902,18 @@
         "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “O cheiro é…”",
         "options": [
           "Hoje vou experimentar uma comida brasileira nova.",
-          "O cheiro é muito bom.",
           "No restaurante, peço moqueca com arroz e salada.",
-          "O prato tem peixe, tomate, cebola e leite de coco."
+          "O prato tem peixe, tomate, cebola e leite de coco.",
+          "O cheiro é muito bom."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “A comida é diferente da…”",
         "options": [
+          "A comida é diferente da comida da minha casa, mas eu gosto muito.",
           "Hoje vou experimentar uma comida brasileira nova.",
           "No restaurante, peço moqueca com arroz e salada.",
-          "A comida é diferente da comida da minha casa, mas eu gosto muito.",
           "O prato tem peixe, tomate, cebola e leite de coco."
         ]
       },
@@ -48922,9 +48922,9 @@
         "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Quero voltar a…”",
         "options": [
           "Hoje vou experimentar uma comida brasileira nova.",
+          "Quero voltar a esse restaurante com meus amigos.",
           "No restaurante, peço moqueca com arroz e salada.",
-          "O prato tem peixe, tomate, cebola e leite de coco.",
-          "Quero voltar a esse restaurante com meus amigos."
+          "O prato tem peixe, tomate, cebola e leite de coco."
         ]
       }
     ]
@@ -52273,19 +52273,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "A conversa termina sem uma proposta."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
               }
             ]
           },
@@ -52296,19 +52296,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
-              },
-              {
-                "id": "o2",
                 "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -52319,19 +52319,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
-              },
-              {
-                "id": "o3",
                 "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           },
@@ -52342,19 +52342,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+                "text": "Ninguém conta a própria experiência."
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "O grupo decide não colaborar."
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "A conversa termina sem uma proposta."
               }
             ]
           }
@@ -52367,40 +52367,40 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “No tema Cidadania e participação um…”",
         "options": [
-          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
           "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "Ninguém conta a própria experiência.",
           "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Depois o grupo…”",
         "options": [
-          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Depois, o grupo resume as ideias mais importantes.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -53584,19 +53584,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
-              },
-              {
-                "id": "o2",
                 "text": "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém."
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "A professora começou explicando os ingredientes e dividiu a turma em grupos."
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita."
+              },
+              {
+                "id": "o4",
+                "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
               }
             ]
           },
@@ -53607,11 +53607,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
+                "text": "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita."
               },
               {
                 "id": "o2",
-                "text": "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita."
+                "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
               },
               {
                 "id": "o3",
@@ -53634,11 +53634,11 @@
               },
               {
                 "id": "o2",
-                "text": "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém."
+                "text": "No fim, todos jantamos juntos e trocamos contatos."
               },
               {
                 "id": "o3",
-                "text": "No fim, todos jantamos juntos e trocamos contatos."
+                "text": "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém."
               },
               {
                 "id": "o4",
@@ -53661,11 +53661,11 @@
               },
               {
                 "id": "o3",
-                "text": "A professora começou explicando os ingredientes e dividiu a turma em grupos."
+                "text": "Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros."
               },
               {
                 "id": "o4",
-                "text": "Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros."
+                "text": "A professora começou explicando os ingredientes e dividiu a turma em grupos."
               }
             ]
           }
@@ -53708,18 +53708,18 @@
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “No ano passado participei de…”",
         "options": [
-          "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países.",
           "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
           "A professora começou explicando os ingredientes e dividiu a turma em grupos.",
-          "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita."
+          "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita.",
+          "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Meu grupo preparou uma moqueca de…”",
         "options": [
-          "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países.",
           "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita.",
+          "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países.",
           "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
           "A professora começou explicando os ingredientes e dividiu a turma em grupos."
         ]
@@ -53729,8 +53729,8 @@
         "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “No fim todos…”",
         "options": [
           "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países.",
-          "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
           "No fim, todos jantamos juntos e trocamos contatos.",
+          "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
           "A professora começou explicando os ingredientes e dividiu a turma em grupos."
         ]
       },
@@ -53740,8 +53740,8 @@
         "options": [
           "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países.",
           "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
-          "A professora começou explicando os ingredientes e dividiu a turma em grupos.",
-          "Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros."
+          "Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros.",
+          "A professora começou explicando os ingredientes e dividiu a turma em grupos."
         ]
       }
     ]

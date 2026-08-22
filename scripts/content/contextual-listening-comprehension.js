@@ -165,12 +165,54 @@ function selectEnglishComprehensionLines(lines) {
   return [first, ...middleChoices.slice(0, 2), last];
 }
 
-function buildStatementOptions(line, lines, questionIndex) {
+const SHORT_AUDIO_DISTRACTORS = Object.freeze({
+  italian: [
+    'Nessuno racconta la propria esperienza.',
+    'Il gruppo decide di non collaborare.',
+    'La conversazione termina senza una proposta.'
+  ],
+  portuguese: [
+    'Ninguém conta a própria experiência.',
+    'O grupo decide não colaborar.',
+    'A conversa termina sem uma proposta.'
+  ],
+  german: [
+    'Niemand erzählt von einer eigenen Erfahrung.',
+    'Die Gruppe entscheidet sich gegen Zusammenarbeit.',
+    'Das Gespräch endet ohne einen Vorschlag.'
+  ]
+});
+
+function buildStatementOptions(line, lines, questionIndex, language) {
+  // Four-sentence prototype audios used to put the exact same four lines
+  // under every question. Keep the answer grounded in the recording, but
+  // use plausible, explicitly absent statements as distractors so each item
+  // assesses one detail rather than asking the learner to re-read a grid.
+  if (lines.length <= 4 && SHORT_AUDIO_DISTRACTORS[language]) {
+    return arrangeWithCorrectAt(
+      SHORT_AUDIO_DISTRACTORS[language],
+      cleanText(line),
+      questionIndex
+    );
+  }
   const alternatives = uniqueTexts(lines.filter((candidate) => candidate !== line)).slice(0, 3);
   if (alternatives.length < 3) {
     throw new Error('No se pudieron crear opciones de comprensión auditiva.');
   }
   return arrangeWithCorrectAt(alternatives, cleanText(line), questionIndex);
+}
+
+function germanL1ListeningHint(questionIndex) {
+  return [
+    'Pista en español: identifica el tema y las palabras clave que se mencionan.',
+    'Pista en español: escucha qué hacen o proponen las personas.',
+    'Pista en español: localiza el motivo de la decisión o la idea principal.',
+    'Pista en español: presta atención al cierre y al resultado de la conversación.'
+  ][questionIndex] || '';
+}
+
+function stableOptionOffset(value) {
+  return Array.from(String(value || '')).reduce((total, char) => total + char.charCodeAt(0), 0) % 4;
 }
 
 function buildDetailComprehensionBank(row, lines) {
@@ -185,14 +227,19 @@ function buildDetailComprehensionBank(row, lines) {
     id: `${row.slug}-listening-comprehension`,
     passingScore: 70,
     questions: selected.map((line, questionIndex) => {
-      const optionTexts = buildStatementOptions(line, lines, questionIndex);
+      // The answer must not fall into A-B-C-D order in every lesson. A stable
+      // slug offset keeps the bank deterministic for server grading while
+      // distributing positions across the catalogue.
+      const correctIndex = (questionIndex + stableOptionOffset(row.slug)) % 4;
+      const optionTexts = buildStatementOptions(line, lines, correctIndex, language);
       return {
         id: `q${questionIndex + 1}`,
         type: 'mcq',
         prompt: detailPrompt(language, detailCue(line), title),
         options: optionTexts.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
-        correctOptionId: `o${questionIndex + 1}`,
+        correctOptionId: `o${correctIndex + 1}`,
         evidence: line,
+        ...(language === 'german' ? { l1Hint: germanL1ListeningHint(questionIndex) } : {}),
         explanation: language === 'spanish' ? `El audio dice: “${line}”` : `The audio states: “${line}”`
       };
     })

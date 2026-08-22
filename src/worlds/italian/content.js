@@ -1740,19 +1740,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -1763,19 +1763,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               }
             ]
           },
@@ -1786,19 +1786,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
-              },
-              {
-                "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
-              },
-              {
-                "id": "o3",
                 "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -1809,19 +1809,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Poi il gruppo riassume le idee più importanti."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -1834,40 +1834,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Nel tema Lavoro e obiettivi un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Poi il gruppo riassume le idee più importanti.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -2778,19 +2778,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao, come stai?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ciao."
+                "text": "Ciao, come stai?"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -2801,19 +2801,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao, come stai?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ciao."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo di ciao."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -2824,19 +2824,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao, come stai?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ciao."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Mi piace imparare con la comunità."
               }
             ]
           },
@@ -2847,19 +2847,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao, come stai?"
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ciao."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -2872,40 +2872,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Ciao come stai…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Ciao, come stai?",
-          "Parliamo di ciao.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Parliamo di ciao…”",
         "options": [
-          "Ciao, come stai?",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Parliamo di ciao.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Ciao, come stai?",
-          "Parliamo di ciao.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Ciao, come stai?",
-          "Parliamo di ciao.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -2967,19 +2967,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Di solito prendo l’autobus."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di quartiere."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Di solito prendo l’autobus."
               }
             ]
           },
@@ -2990,19 +2990,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Di solito prendo l’autobus."
-              },
-              {
-                "id": "o2",
                 "text": "Parliamo di quartiere."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -3013,19 +3013,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Di solito prendo l’autobus."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di quartiere."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -3036,19 +3036,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Di solito prendo l’autobus."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di quartiere."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -3061,40 +3061,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Di solito prendo…”",
         "options": [
-          "Di solito prendo l’autobus.",
-          "Parliamo di quartiere.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Di solito prendo l’autobus."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Parliamo di quartiere…”",
         "options": [
-          "Di solito prendo l’autobus.",
           "Parliamo di quartiere.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Di solito prendo l’autobus.",
-          "Parliamo di quartiere.",
+          "Nessuno racconta la propria esperienza.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Di solito prendo l’autobus.",
-          "Parliamo di quartiere.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Facciamo pratica insieme domani.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -7146,15 +7146,15 @@
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -7165,7 +7165,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -7173,11 +7173,11 @@
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -7188,11 +7188,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -7200,7 +7200,7 @@
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -7211,15 +7211,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -7237,38 +7237,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Nel tema Viaggi consapevoli un…”",
         "options": [
           "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
+          "Nessuno racconta la propria esperienza.",
           "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Poi il gruppo riassume le idee più importanti."
         ]
       }
@@ -8180,19 +8180,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Un caffè, per favore."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di caffè."
+                "text": "Un caffè, per favore."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -8203,19 +8203,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Un caffè, per favore."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di caffè."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo di caffè."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -8226,19 +8226,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Un caffè, per favore."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di caffè."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Mi piace imparare con la comunità."
               }
             ]
           },
@@ -8249,19 +8249,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Un caffè, per favore."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di caffè."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -8274,40 +8274,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Un caffè per…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Un caffè, per favore.",
-          "Parliamo di caffè.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Parliamo di caffè…”",
         "options": [
-          "Un caffè, per favore.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Parliamo di caffè.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Un caffè, per favore.",
-          "Parliamo di caffè.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Un caffè, per favore.",
-          "Parliamo di caffè.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -8373,15 +8373,15 @@
               },
               {
                 "id": "o2",
-                "text": "Parliamo di museo."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -8392,7 +8392,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei visitare il museo."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -8400,11 +8400,11 @@
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -8415,11 +8415,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei visitare il museo."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di museo."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -8427,7 +8427,7 @@
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -8438,15 +8438,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei visitare il museo."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di museo."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -8464,38 +8464,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Vorrei visitare il…”",
         "options": [
           "Vorrei visitare il museo.",
-          "Parliamo di museo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Parliamo di museo…”",
         "options": [
-          "Vorrei visitare il museo.",
+          "Nessuno racconta la propria esperienza.",
           "Parliamo di museo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Vorrei visitare il museo.",
-          "Parliamo di museo.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Vorrei visitare il museo.",
-          "Parliamo di museo.",
-          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Facciamo pratica insieme domani."
         ]
       }
@@ -12544,19 +12544,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -12567,19 +12567,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               }
             ]
           },
@@ -12590,19 +12590,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
-              },
-              {
-                "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
-              },
-              {
-                "id": "o3",
                 "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -12613,19 +12613,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Poi il gruppo riassume le idee più importanti."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -12638,40 +12638,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Nel tema Salute e benessere un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Poi il gruppo riassume le idee più importanti.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -13582,19 +13582,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ceniamo insieme."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Ceniamo insieme."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -13605,19 +13605,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ceniamo insieme."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo di famiglia."
               }
             ]
           },
@@ -13628,19 +13628,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ceniamo insieme."
-              },
-              {
-                "id": "o2",
-                "text": "Parliamo di famiglia."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -13651,19 +13651,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ceniamo insieme."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -13676,40 +13676,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Ceniamo insieme…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Ceniamo insieme.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Parliamo di famiglia…”",
         "options": [
-          "Ceniamo insieme.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di famiglia."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Ceniamo insieme.",
-          "Parliamo di famiglia.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Ceniamo insieme.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -13771,19 +13771,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Prima taglio le verdure."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricetta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Prima taglio le verdure."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -13794,19 +13794,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Prima taglio le verdure."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricetta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo di ricetta."
               }
             ]
           },
@@ -13817,19 +13817,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Prima taglio le verdure."
-              },
-              {
-                "id": "o2",
-                "text": "Parliamo di ricetta."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -13840,19 +13840,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Prima taglio le verdure."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricetta."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -13865,40 +13865,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Prima taglio le…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Prima taglio le verdure.",
-          "Parliamo di ricetta.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Parliamo di ricetta…”",
         "options": [
-          "Prima taglio le verdure.",
-          "Parliamo di ricetta.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di ricetta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Prima taglio le verdure.",
-          "Parliamo di ricetta.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Prima taglio le verdure.",
-          "Parliamo di ricetta.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -17952,15 +17952,15 @@
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -17971,7 +17971,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -17979,11 +17979,11 @@
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -17994,11 +17994,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -18006,7 +18006,7 @@
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -18017,15 +18017,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -18043,38 +18043,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Nel tema Cultura e media un…”",
         "options": [
           "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
+          "Nessuno racconta la propria esperienza.",
           "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Poi il gruppo riassume le idee più importanti."
         ]
       }
@@ -18986,19 +18986,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto costa un chilo?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pomodoro."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Quanto costa un chilo?"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -19009,19 +19009,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto costa un chilo?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pomodoro."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo di pomodoro."
               }
             ]
           },
@@ -19032,19 +19032,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto costa un chilo?"
-              },
-              {
-                "id": "o2",
-                "text": "Parliamo di pomodoro."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -19055,19 +19055,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto costa un chilo?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pomodoro."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -19080,40 +19080,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Quanto costa un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Quanto costa un chilo?",
-          "Parliamo di pomodoro.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Parliamo di pomodoro…”",
         "options": [
-          "Quanto costa un chilo?",
-          "Parliamo di pomodoro.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di pomodoro."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Quanto costa un chilo?",
-          "Parliamo di pomodoro.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Quanto costa un chilo?",
-          "Parliamo di pomodoro.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -19179,15 +19179,15 @@
               },
               {
                 "id": "o2",
-                "text": "Parliamo di collega."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -19198,7 +19198,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fare una pausa?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -19206,11 +19206,11 @@
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -19221,11 +19221,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fare una pausa?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di collega."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -19233,7 +19233,7 @@
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -19244,15 +19244,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fare una pausa?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di collega."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -19270,38 +19270,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Posso fare una…”",
         "options": [
           "Posso fare una pausa?",
-          "Parliamo di collega.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Parliamo di collega…”",
         "options": [
-          "Posso fare una pausa?",
+          "Nessuno racconta la propria esperienza.",
           "Parliamo di collega.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Posso fare una pausa?",
-          "Parliamo di collega.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Posso fare una pausa?",
-          "Parliamo di collega.",
-          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Facciamo pratica insieme domani."
         ]
       }
@@ -23351,19 +23351,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -23374,19 +23374,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -23397,19 +23397,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               }
             ]
           },
@@ -23420,19 +23420,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
+                "text": "Poi il gruppo riassume le idee più importanti."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -23445,40 +23445,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Nel tema Ambiente nel quartiere un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Poi il gruppo riassume le idee più importanti.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -24393,15 +24393,15 @@
               },
               {
                 "id": "o2",
-                "text": "Parliamo di strada."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -24412,7 +24412,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è la stazione?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -24420,11 +24420,11 @@
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -24435,11 +24435,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è la stazione?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di strada."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -24447,7 +24447,7 @@
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -24458,15 +24458,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è la stazione?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di strada."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -24484,38 +24484,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Dov’è la stazione…”",
         "options": [
           "Dov’è la stazione?",
-          "Parliamo di strada.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Parliamo di strada…”",
         "options": [
-          "Dov’è la stazione?",
+          "Nessuno racconta la propria esperienza.",
           "Parliamo di strada.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Dov’è la stazione?",
-          "Parliamo di strada.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Dov’è la stazione?",
-          "Parliamo di strada.",
-          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Facciamo pratica insieme domani."
         ]
       }
@@ -24582,15 +24582,15 @@
               },
               {
                 "id": "o2",
-                "text": "Parliamo di mostra."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -24601,7 +24601,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La mostra era interessante."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -24609,11 +24609,11 @@
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -24624,11 +24624,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La mostra era interessante."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di mostra."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -24636,7 +24636,7 @@
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -24647,15 +24647,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La mostra era interessante."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di mostra."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -24673,38 +24673,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “La mostra era…”",
         "options": [
           "La mostra era interessante.",
-          "Parliamo di mostra.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Parliamo di mostra…”",
         "options": [
-          "La mostra era interessante.",
+          "Nessuno racconta la propria esperienza.",
           "Parliamo di mostra.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Mi piace imparare…”",
         "options": [
-          "La mostra era interessante.",
-          "Parliamo di mostra.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "La mostra era interessante.",
-          "Parliamo di mostra.",
-          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Facciamo pratica insieme domani."
         ]
       }
@@ -28756,15 +28756,15 @@
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -28775,7 +28775,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -28783,11 +28783,11 @@
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -28798,11 +28798,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -28810,7 +28810,7 @@
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -28821,15 +28821,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -28847,38 +28847,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Nel tema Storie e memoria un…”",
         "options": [
           "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
+          "Nessuno racconta la propria esperienza.",
           "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Poi il gruppo riassume le idee più importanti."
         ]
       }
@@ -29790,19 +29790,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Che materia ti piace?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di scuola."
+                "text": "Che materia ti piace?"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -29813,19 +29813,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Che materia ti piace?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di scuola."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo di scuola."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -29836,19 +29836,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Che materia ti piace?"
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di scuola."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Mi piace imparare con la comunità."
               }
             ]
           },
@@ -29859,19 +29859,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Che materia ti piace?"
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di scuola."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -29884,40 +29884,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Che materia ti…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Che materia ti piace?",
-          "Parliamo di scuola.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Parliamo di scuola…”",
         "options": [
-          "Che materia ti piace?",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Parliamo di scuola.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Che materia ti piace?",
-          "Parliamo di scuola.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Che materia ti piace?",
-          "Parliamo di scuola.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -29979,19 +29979,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Non voglio disturbare i residenti."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di residente."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Non voglio disturbare i residenti."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -30002,19 +30002,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Non voglio disturbare i residenti."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di residente."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo di residente."
               }
             ]
           },
@@ -30025,19 +30025,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Non voglio disturbare i residenti."
-              },
-              {
-                "id": "o2",
-                "text": "Parliamo di residente."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -30048,19 +30048,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Non voglio disturbare i residenti."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di residente."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -30073,40 +30073,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Non voglio disturbare…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Non voglio disturbare i residenti.",
-          "Parliamo di residente.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Parliamo di residente…”",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "Parliamo di residente.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di residente."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "Parliamo di residente.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "Parliamo di residente.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -34154,19 +34154,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -34177,19 +34177,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -34200,19 +34200,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               }
             ]
           },
@@ -34223,19 +34223,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
+                "text": "Poi il gruppo riassume le idee più importanti."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -34248,40 +34248,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Nel tema Progetti di classe un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Poi il gruppo riassume le idee più importanti.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -35192,19 +35192,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La cucina è luminosa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di cucina."
+                "text": "La cucina è luminosa."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -35215,19 +35215,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La cucina è luminosa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di cucina."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo di cucina."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -35238,19 +35238,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La cucina è luminosa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di cucina."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Mi piace imparare con la comunità."
               }
             ]
           },
@@ -35261,19 +35261,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La cucina è luminosa."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di cucina."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -35286,40 +35286,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “La cucina è…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "La cucina è luminosa.",
-          "Parliamo di cucina.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Parliamo di cucina…”",
         "options": [
-          "La cucina è luminosa.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Parliamo di cucina.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Mi piace imparare…”",
         "options": [
-          "La cucina è luminosa.",
-          "Parliamo di cucina.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "La cucina è luminosa.",
-          "Parliamo di cucina.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -35381,19 +35381,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Da giovane giocavo spesso."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di nuoto."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Da giovane giocavo spesso."
               }
             ]
           },
@@ -35404,19 +35404,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Da giovane giocavo spesso."
-              },
-              {
-                "id": "o2",
                 "text": "Parliamo di nuoto."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -35427,19 +35427,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Da giovane giocavo spesso."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di nuoto."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -35450,19 +35450,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Da giovane giocavo spesso."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di nuoto."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -35475,40 +35475,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Da giovane giocavo…”",
         "options": [
-          "Da giovane giocavo spesso.",
-          "Parliamo di nuoto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Da giovane giocavo spesso."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Parliamo di nuoto…”",
         "options": [
-          "Da giovane giocavo spesso.",
           "Parliamo di nuoto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Da giovane giocavo spesso.",
-          "Parliamo di nuoto.",
+          "Nessuno racconta la propria esperienza.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Da giovane giocavo spesso.",
-          "Parliamo di nuoto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Facciamo pratica insieme domani.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -39556,19 +39556,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -39579,19 +39579,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               }
             ]
           },
@@ -39602,19 +39602,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
-              },
-              {
-                "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
-              },
-              {
-                "id": "o3",
                 "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -39625,19 +39625,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Poi il gruppo riassume le idee più importanti."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -39650,40 +39650,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Nel tema Tecnologia quotidiana un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Poi il gruppo riassume le idee più importanti.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -40594,19 +40594,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi fa caldo."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di sole."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Oggi fa caldo."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -40617,19 +40617,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi fa caldo."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di sole."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo di sole."
               }
             ]
           },
@@ -40640,19 +40640,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi fa caldo."
-              },
-              {
-                "id": "o2",
-                "text": "Parliamo di sole."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -40663,19 +40663,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi fa caldo."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di sole."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -40688,40 +40688,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Oggi fa caldo…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Oggi fa caldo.",
-          "Parliamo di sole.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Parliamo di sole…”",
         "options": [
-          "Oggi fa caldo.",
-          "Parliamo di sole.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di sole."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Oggi fa caldo.",
-          "Parliamo di sole.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Oggi fa caldo.",
-          "Parliamo di sole.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -40783,19 +40783,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Mi fa male la gola."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di farmacia."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Mi fa male la gola."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -40806,19 +40806,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Mi fa male la gola."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di farmacia."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo di farmacia."
               }
             ]
           },
@@ -40829,19 +40829,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Mi fa male la gola."
-              },
-              {
-                "id": "o2",
-                "text": "Parliamo di farmacia."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -40852,19 +40852,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Mi fa male la gola."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di farmacia."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -40877,40 +40877,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi fa male…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi fa male la gola.",
-          "Parliamo di farmacia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Parliamo di farmacia…”",
         "options": [
-          "Mi fa male la gola.",
-          "Parliamo di farmacia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di farmacia."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Mi fa male la gola.",
-          "Parliamo di farmacia.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Mi fa male la gola.",
-          "Parliamo di farmacia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -44958,19 +44958,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -44981,19 +44981,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               }
             ]
           },
@@ -45004,19 +45004,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
-              },
-              {
-                "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
-              },
-              {
-                "id": "o3",
                 "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -45027,19 +45027,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Poi il gruppo riassume le idee più importanti."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -45052,40 +45052,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Nel tema Città e mobilità un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Poi il gruppo riassume le idee più importanti.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -45996,19 +45996,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ci vediamo alla festa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di festa."
+                "text": "Ci vediamo alla festa."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -46019,19 +46019,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ci vediamo alla festa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di festa."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo di festa."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -46042,19 +46042,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ci vediamo alla festa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di festa."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Mi piace imparare con la comunità."
               }
             ]
           },
@@ -46065,19 +46065,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Ci vediamo alla festa."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di festa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -46090,40 +46090,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Ci vediamo alla…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Ci vediamo alla festa.",
-          "Parliamo di festa.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Parliamo di festa…”",
         "options": [
-          "Ci vediamo alla festa.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Parliamo di festa.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Ci vediamo alla festa.",
-          "Parliamo di festa.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Ci vediamo alla festa.",
-          "Parliamo di festa.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -46185,19 +46185,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La sua famiglia è arrivata anni fa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La sua famiglia è arrivata anni fa."
               }
             ]
           },
@@ -46208,19 +46208,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La sua famiglia è arrivata anni fa."
-              },
-              {
-                "id": "o2",
                 "text": "Parliamo di famiglia."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -46231,19 +46231,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La sua famiglia è arrivata anni fa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -46254,19 +46254,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La sua famiglia è arrivata anni fa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -46279,40 +46279,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “La sua famiglia…”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "La sua famiglia è arrivata anni fa."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Parliamo di famiglia…”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
           "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Mi piace imparare…”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "Parliamo di famiglia.",
+          "Nessuno racconta la propria esperienza.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Facciamo pratica insieme domani.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -50359,19 +50359,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -50382,19 +50382,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               }
             ]
           },
@@ -50405,19 +50405,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
-              },
-              {
-                "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
-              },
-              {
-                "id": "o3",
                 "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -50428,19 +50428,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Poi il gruppo riassume le idee più importanti."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -50453,40 +50453,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Nel tema Piani per il futuro…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Poi il gruppo riassume le idee più importanti.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -51401,15 +51401,15 @@
               },
               {
                 "id": "o2",
-                "text": "Parliamo di treno."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -51420,7 +51420,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Un biglietto per Firenze."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -51428,11 +51428,11 @@
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -51443,11 +51443,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Un biglietto per Firenze."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di treno."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -51455,7 +51455,7 @@
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -51466,15 +51466,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Un biglietto per Firenze."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di treno."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -51492,38 +51492,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Un biglietto per…”",
         "options": [
           "Un biglietto per Firenze.",
-          "Parliamo di treno.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Parliamo di treno…”",
         "options": [
-          "Un biglietto per Firenze.",
+          "Nessuno racconta la propria esperienza.",
           "Parliamo di treno.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Un biglietto per Firenze.",
-          "Parliamo di treno.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Un biglietto per Firenze.",
-          "Parliamo di treno.",
-          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Facciamo pratica insieme domani."
         ]
       }
@@ -51586,19 +51586,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Possiamo dividere i compiti."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di progetto."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Possiamo dividere i compiti."
               }
             ]
           },
@@ -51609,19 +51609,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Possiamo dividere i compiti."
-              },
-              {
-                "id": "o2",
                 "text": "Parliamo di progetto."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -51632,19 +51632,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Possiamo dividere i compiti."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di progetto."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -51655,19 +51655,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Possiamo dividere i compiti."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di progetto."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -51680,40 +51680,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Possiamo dividere i…”",
         "options": [
-          "Possiamo dividere i compiti.",
-          "Parliamo di progetto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Possiamo dividere i compiti."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Parliamo di progetto…”",
         "options": [
-          "Possiamo dividere i compiti.",
           "Parliamo di progetto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Possiamo dividere i compiti.",
-          "Parliamo di progetto.",
+          "Nessuno racconta la propria esperienza.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Possiamo dividere i compiti.",
-          "Parliamo di progetto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Facciamo pratica insieme domani.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -55762,19 +55762,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -55785,19 +55785,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -55808,19 +55808,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               }
             ]
           },
@@ -55831,19 +55831,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
+                "text": "Poi il gruppo riassume le idee più importanti."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -55856,40 +55856,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Nel tema Relazioni e comunicazione un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Poi il gruppo riassume le idee più importanti.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -56804,15 +56804,15 @@
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pane."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -56823,7 +56823,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Mi piace questa zuppa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -56831,11 +56831,11 @@
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -56846,11 +56846,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Mi piace questa zuppa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pane."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -56858,7 +56858,7 @@
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -56869,15 +56869,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Mi piace questa zuppa."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pane."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -56895,38 +56895,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace questa…”",
         "options": [
           "Mi piace questa zuppa.",
-          "Parliamo di pane.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Parliamo di pane…”",
         "options": [
-          "Mi piace questa zuppa.",
+          "Nessuno racconta la propria esperienza.",
           "Parliamo di pane.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Mi piace questa zuppa.",
-          "Parliamo di pane.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Mi piace questa zuppa.",
-          "Parliamo di pane.",
-          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Facciamo pratica insieme domani."
         ]
       }
@@ -56989,19 +56989,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei usare meno plastica."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di rifiuti."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Vorrei usare meno plastica."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -57012,19 +57012,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei usare meno plastica."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di rifiuti."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo di rifiuti."
               }
             ]
           },
@@ -57035,19 +57035,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei usare meno plastica."
-              },
-              {
-                "id": "o2",
-                "text": "Parliamo di rifiuti."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -57058,19 +57058,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei usare meno plastica."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di rifiuti."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -57083,40 +57083,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Vorrei usare meno…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Vorrei usare meno plastica.",
-          "Parliamo di rifiuti.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Parliamo di rifiuti…”",
         "options": [
-          "Vorrei usare meno plastica.",
-          "Parliamo di rifiuti.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di rifiuti."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Vorrei usare meno plastica.",
-          "Parliamo di rifiuti.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Vorrei usare meno plastica.",
-          "Parliamo di rifiuti.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -61169,15 +61169,15 @@
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -61188,7 +61188,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -61196,11 +61196,11 @@
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -61211,11 +61211,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -61223,7 +61223,7 @@
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -61234,15 +61234,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -61260,38 +61260,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Nel tema Cittadinanza e partecipazione un…”",
         "options": [
           "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
+          "Nessuno racconta la propria esperienza.",
           "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Poi il gruppo…”",
         "options": [
-          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Poi il gruppo riassume le idee più importanti."
         ]
       }
@@ -62203,19 +62203,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi ho imparato molto."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di oggi."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Oggi ho imparato molto."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -62226,19 +62226,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi ho imparato molto."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di oggi."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo di oggi."
               }
             ]
           },
@@ -62249,19 +62249,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi ho imparato molto."
-              },
-              {
-                "id": "o2",
-                "text": "Parliamo di oggi."
-              },
-              {
-                "id": "o3",
                 "text": "Mi piace imparare con la comunità."
               },
               {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -62272,19 +62272,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi ho imparato molto."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di oggi."
+                "text": "Facciamo pratica insieme domani."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           }
@@ -62297,40 +62297,40 @@
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Oggi ho imparato…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Oggi ho imparato molto.",
-          "Parliamo di oggi.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Parliamo di oggi…”",
         "options": [
-          "Oggi ho imparato molto.",
-          "Parliamo di oggi.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di oggi."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Oggi ho imparato molto.",
-          "Parliamo di oggi.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Oggi ho imparato molto.",
-          "Parliamo di oggi.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -62396,15 +62396,15 @@
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricordo."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -62415,7 +62415,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "È stato un viaggio importante."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
@@ -62423,11 +62423,11 @@
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -62438,11 +62438,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "È stato un viaggio importante."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricordo."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
@@ -62450,7 +62450,7 @@
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "La conversazione termina senza una proposta."
               }
             ]
           },
@@ -62461,15 +62461,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "È stato un viaggio importante."
+                "text": "Nessuno racconta la propria esperienza."
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricordo."
+                "text": "Il gruppo decide di non collaborare."
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "La conversazione termina senza una proposta."
               },
               {
                 "id": "o4",
@@ -62487,38 +62487,38 @@
         "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “È stato un…”",
         "options": [
           "È stato un viaggio importante.",
-          "Parliamo di ricordo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Parliamo di ricordo…”",
         "options": [
-          "È stato un viaggio importante.",
+          "Nessuno racconta la propria esperienza.",
           "Parliamo di ricordo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Mi piace imparare…”",
         "options": [
-          "È stato un viaggio importante.",
-          "Parliamo di ricordo.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "La conversazione termina senza una proposta."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "È stato un viaggio importante.",
-          "Parliamo di ricordo.",
-          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
           "Facciamo pratica insieme domani."
         ]
       }

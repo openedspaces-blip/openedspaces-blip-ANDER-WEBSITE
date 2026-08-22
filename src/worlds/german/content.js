@@ -2699,22 +2699,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Begrüßung und Name: Wortschatz“? “Im Thema Begrüßung und Name spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
               }
             ]
           },
@@ -2722,22 +2723,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Begrüßung und Name: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
-              },
-              {
-                "id": "o2",
                 "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -2745,22 +2747,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Begrüßung und Name: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -2768,22 +2771,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Begrüßung und Name: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -2796,40 +2800,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Begrüßung und Name: Wortschatz“? “Im Thema Begrüßung und Name spricht…”",
         "options": [
-          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Begrüßung und Name: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Begrüßung und Name: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Begrüßung und Name: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -2919,22 +2923,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Alltag und Termine: Wortschatz“? “Im Thema Alltag und Termine spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
               }
             ]
           },
@@ -2942,22 +2947,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Alltag und Termine: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
-              },
-              {
-                "id": "o2",
                 "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -2965,22 +2971,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Alltag und Termine: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -2988,22 +2995,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Alltag und Termine: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -3016,40 +3024,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Alltag und Termine: Wortschatz“? “Im Thema Alltag und Termine spricht…”",
         "options": [
-          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Alltag und Termine: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Alltag und Termine: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Alltag und Termine: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -3139,22 +3147,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Ziele: Wortschatz“? “Im Thema Arbeit und Ziele spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -3162,22 +3171,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Ziele: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -3185,22 +3195,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Ziele: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -3208,22 +3219,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Ziele: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -3236,40 +3248,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Ziele: Wortschatz“? “Im Thema Arbeit und Ziele spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Ziele: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Ziele: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Ziele: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -9342,22 +9354,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Im Café: Wortschatz“? “Im Thema Im Café spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -9365,22 +9378,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Im Café: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -9388,22 +9402,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Im Café: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -9411,22 +9426,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Im Café: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -9439,40 +9455,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Im Café: Wortschatz“? “Im Thema Im Café spricht eine…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Im Café: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Im Café: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Im Café: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -9562,22 +9578,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnen und Nachbarschaft: Wortschatz“? “Im Thema Wohnen und Nachbarschaft spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -9585,22 +9602,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnen und Nachbarschaft: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -9608,22 +9626,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnen und Nachbarschaft: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               }
             ]
           },
@@ -9631,22 +9650,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnen und Nachbarschaft: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -9659,40 +9679,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnen und Nachbarschaft: Wortschatz“? “Im Thema Wohnen und Nachbarschaft spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnen und Nachbarschaft: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnen und Nachbarschaft: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnen und Nachbarschaft: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -9782,22 +9802,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Bewusst reisen: Wortschatz“? “Im Thema Bewusst reisen spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -9805,22 +9826,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Bewusst reisen: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -9828,22 +9850,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Bewusst reisen: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               }
             ]
           },
@@ -9851,22 +9874,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Bewusst reisen: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -9879,40 +9903,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Bewusst reisen: Wortschatz“? “Im Thema Bewusst reisen spricht eine…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Bewusst reisen: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Bewusst reisen: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Bewusst reisen: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -15982,22 +16006,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Familie und Haus: Wortschatz“? “Im Thema Familie und Haus spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -16005,22 +16030,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Familie und Haus: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -16028,22 +16054,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Familie und Haus: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               }
             ]
           },
@@ -16051,22 +16078,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Familie und Haus: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -16079,40 +16107,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Familie und Haus: Wortschatz“? “Im Thema Familie und Haus spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Familie und Haus: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Familie und Haus: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Familie und Haus: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -16202,22 +16230,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit: Wortschatz“? “Im Thema Gesundheit spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -16225,22 +16254,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -16248,22 +16278,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               }
             ]
           },
@@ -16271,22 +16302,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -16299,40 +16331,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit: Wortschatz“? “Im Thema Gesundheit spricht eine…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -16422,6 +16454,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit und Balance: Wortschatz“? “Im Thema Gesundheit und Balance spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -16429,15 +16462,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -16445,10 +16478,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit und Balance: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -16456,11 +16490,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -16468,14 +16502,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit und Balance: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -16483,7 +16518,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -16491,18 +16526,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit und Balance: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -16520,38 +16556,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit und Balance: Wortschatz“? “Im Thema Gesundheit und Balance spricht…”",
         "options": [
           "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit und Balance: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit und Balance: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesundheit und Balance: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }
@@ -22622,22 +22658,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Einkaufen: Wortschatz“? “Im Thema Einkaufen spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -22645,22 +22682,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Einkaufen: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -22668,22 +22706,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Einkaufen: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -22691,22 +22730,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Einkaufen: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -22719,40 +22759,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Einkaufen: Wortschatz“? “Im Thema Einkaufen spricht eine…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Einkaufen: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Einkaufen: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Einkaufen: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -22842,22 +22882,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Beruf: Wortschatz“? “Im Thema Arbeit und Beruf spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -22865,22 +22906,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Beruf: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -22888,22 +22930,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Beruf: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               }
             ]
           },
@@ -22911,22 +22954,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Beruf: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -22939,40 +22983,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Beruf: Wortschatz“? “Im Thema Arbeit und Beruf spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Beruf: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Beruf: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Arbeit und Beruf: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -23062,22 +23106,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kultur und Medien: Wortschatz“? “Im Thema Kultur und Medien spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
               }
             ]
           },
@@ -23085,22 +23130,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kultur und Medien: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
-              },
-              {
-                "id": "o2",
                 "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -23108,22 +23154,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kultur und Medien: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -23131,22 +23178,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kultur und Medien: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -23159,40 +23207,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kultur und Medien: Wortschatz“? “Im Thema Kultur und Medien spricht…”",
         "options": [
-          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kultur und Medien: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kultur und Medien: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kultur und Medien: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -29261,6 +29309,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „In der Stadt: Wortschatz“? “Im Thema In der Stadt spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -29268,15 +29317,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -29284,10 +29333,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „In der Stadt: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -29295,11 +29345,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -29307,14 +29357,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „In der Stadt: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -29322,7 +29373,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -29330,18 +29381,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „In der Stadt: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -29359,38 +29411,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „In der Stadt: Wortschatz“? “Im Thema In der Stadt spricht…”",
         "options": [
           "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „In der Stadt: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „In der Stadt: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „In der Stadt: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }
@@ -29481,6 +29533,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Reisen und Erlebnisse: Wortschatz“? “Im Thema Reisen und Erlebnisse spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -29488,15 +29541,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -29504,10 +29557,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Reisen und Erlebnisse: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -29515,11 +29569,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -29527,14 +29581,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Reisen und Erlebnisse: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -29542,7 +29597,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -29550,18 +29605,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Reisen und Erlebnisse: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -29579,38 +29635,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Reisen und Erlebnisse: Wortschatz“? “Im Thema Reisen und Erlebnisse spricht…”",
         "options": [
           "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Reisen und Erlebnisse: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Reisen und Erlebnisse: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Reisen und Erlebnisse: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }
@@ -29701,22 +29757,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Umwelt im Viertel: Wortschatz“? “Im Thema Umwelt im Viertel spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -29724,22 +29781,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Umwelt im Viertel: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -29747,22 +29805,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Umwelt im Viertel: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -29770,22 +29829,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Umwelt im Viertel: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -29798,40 +29858,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Umwelt im Viertel: Wortschatz“? “Im Thema Umwelt im Viertel spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Umwelt im Viertel: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Umwelt im Viertel: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Umwelt im Viertel: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -35903,22 +35963,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Schule und Freunde: Wortschatz“? “Im Thema Schule und Freunde spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -35926,22 +35987,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Schule und Freunde: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -35949,22 +36011,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Schule und Freunde: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -35972,22 +36035,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Schule und Freunde: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -36000,40 +36064,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Schule und Freunde: Wortschatz“? “Im Thema Schule und Freunde spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Schule und Freunde: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Schule und Freunde: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Schule und Freunde: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -36123,22 +36187,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Essen und Kultur: Wortschatz“? “Im Thema Essen und Kultur spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
               }
             ]
           },
@@ -36146,22 +36211,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Essen und Kultur: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
-              },
-              {
-                "id": "o2",
                 "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -36169,22 +36235,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Essen und Kultur: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -36192,22 +36259,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Essen und Kultur: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -36220,40 +36288,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Essen und Kultur: Wortschatz“? “Im Thema Essen und Kultur spricht…”",
         "options": [
-          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Essen und Kultur: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Essen und Kultur: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Essen und Kultur: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -36343,22 +36411,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geschichten und Erinnerungen: Wortschatz“? “Im Thema Geschichten und Erinnerungen spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
               }
             ]
           },
@@ -36366,22 +36435,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geschichten und Erinnerungen: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
-              },
-              {
-                "id": "o2",
                 "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -36389,22 +36459,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geschichten und Erinnerungen: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -36412,22 +36483,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geschichten und Erinnerungen: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -36440,40 +36512,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geschichten und Erinnerungen: Wortschatz“? “Im Thema Geschichten und Erinnerungen spricht…”",
         "options": [
-          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geschichten und Erinnerungen: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geschichten und Erinnerungen: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geschichten und Erinnerungen: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -42545,22 +42617,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Zu Hause: Wortschatz“? “Im Thema Zu Hause spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -42568,22 +42641,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Zu Hause: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -42591,22 +42665,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Zu Hause: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -42614,22 +42689,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Zu Hause: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -42642,40 +42718,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Zu Hause: Wortschatz“? “Im Thema Zu Hause spricht eine…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Zu Hause: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Zu Hause: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Zu Hause: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -42765,22 +42841,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Natur und Umwelt: Wortschatz“? “Im Thema Natur und Umwelt spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -42788,22 +42865,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Natur und Umwelt: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -42811,22 +42889,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Natur und Umwelt: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -42834,22 +42913,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Natur und Umwelt: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -42862,40 +42942,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Natur und Umwelt: Wortschatz“? “Im Thema Natur und Umwelt spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Natur und Umwelt: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Natur und Umwelt: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Natur und Umwelt: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -42985,22 +43065,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gemeinschaftsprojekt: Wortschatz“? “Im Thema Gemeinschaftsprojekt spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -43008,22 +43089,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gemeinschaftsprojekt: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -43031,22 +43113,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gemeinschaftsprojekt: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               }
             ]
           },
@@ -43054,22 +43137,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gemeinschaftsprojekt: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -43082,40 +43166,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gemeinschaftsprojekt: Wortschatz“? “Im Thema Gemeinschaftsprojekt spricht eine…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gemeinschaftsprojekt: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gemeinschaftsprojekt: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gemeinschaftsprojekt: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -49186,6 +49270,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wetter und Jahreszeiten: Wortschatz“? “Im Thema Wetter und Jahreszeiten spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -49193,15 +49278,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -49209,10 +49294,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wetter und Jahreszeiten: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -49220,11 +49306,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -49232,14 +49318,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wetter und Jahreszeiten: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -49247,7 +49334,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -49255,18 +49342,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wetter und Jahreszeiten: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -49284,38 +49372,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wetter und Jahreszeiten: Wortschatz“? “Im Thema Wetter und Jahreszeiten spricht…”",
         "options": [
           "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wetter und Jahreszeiten: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wetter und Jahreszeiten: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wetter und Jahreszeiten: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }
@@ -49406,22 +49494,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Medien und Kommunikation: Wortschatz“? “Im Thema Medien und Kommunikation spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -49429,22 +49518,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Medien und Kommunikation: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -49452,22 +49542,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Medien und Kommunikation: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -49475,22 +49566,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Medien und Kommunikation: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -49503,40 +49595,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Medien und Kommunikation: Wortschatz“? “Im Thema Medien und Kommunikation spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Medien und Kommunikation: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Medien und Kommunikation: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Medien und Kommunikation: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -49626,6 +49718,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Technik im Alltag: Wortschatz“? “Im Thema Technik im Alltag spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -49633,15 +49726,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -49649,10 +49742,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Technik im Alltag: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -49660,11 +49754,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -49672,14 +49766,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Technik im Alltag: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -49687,7 +49782,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -49695,18 +49790,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Technik im Alltag: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -49724,38 +49820,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Technik im Alltag: Wortschatz“? “Im Thema Technik im Alltag spricht…”",
         "options": [
           "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Technik im Alltag: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Technik im Alltag: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Technik im Alltag: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }
@@ -55827,22 +55923,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Freizeit: Wortschatz“? “Im Thema Freizeit spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -55850,22 +55947,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Freizeit: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -55873,22 +55971,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Freizeit: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -55896,22 +55995,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Freizeit: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -55924,40 +56024,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Freizeit: Wortschatz“? “Im Thema Freizeit spricht eine…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Freizeit: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Freizeit: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Freizeit: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -56047,22 +56147,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Lernen und Ziele: Wortschatz“? “Im Thema Lernen und Ziele spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
               }
             ]
           },
@@ -56070,22 +56171,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Lernen und Ziele: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
-              },
-              {
-                "id": "o2",
                 "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -56093,22 +56195,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Lernen und Ziele: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -56116,22 +56219,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Lernen und Ziele: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -56144,40 +56248,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Lernen und Ziele: Wortschatz“? “Im Thema Lernen und Ziele spricht…”",
         "options": [
-          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Lernen und Ziele: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Lernen und Ziele: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Lernen und Ziele: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -56267,22 +56371,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Mobilität: Wortschatz“? “Im Thema Stadt und Mobilität spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
               }
             ]
           },
@@ -56290,22 +56395,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Mobilität: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
-              },
-              {
-                "id": "o2",
                 "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -56313,22 +56419,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Mobilität: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -56336,22 +56443,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Mobilität: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -56364,40 +56472,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Mobilität: Wortschatz“? “Im Thema Stadt und Mobilität spricht…”",
         "options": [
-          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Mobilität: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Mobilität: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Mobilität: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -62471,6 +62579,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Unterwegs: Wortschatz“? “Im Thema Unterwegs spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -62478,15 +62587,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -62494,10 +62603,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Unterwegs: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -62505,11 +62615,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -62517,14 +62627,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Unterwegs: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -62532,7 +62643,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -62540,18 +62651,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Unterwegs: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -62569,38 +62681,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Unterwegs: Wortschatz“? “Im Thema Unterwegs spricht eine…”",
         "options": [
           "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Unterwegs: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Unterwegs: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Unterwegs: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }
@@ -62691,22 +62803,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Service: Wortschatz“? “Im Thema Stadt und Service spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
               }
             ]
           },
@@ -62714,22 +62827,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Service: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
-              },
-              {
-                "id": "o2",
                 "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -62737,22 +62851,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Service: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -62760,22 +62875,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Service: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -62788,40 +62904,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Service: Wortschatz“? “Im Thema Stadt und Service spricht…”",
         "options": [
-          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Service: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Service: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Stadt und Service: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -62911,22 +63027,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Pläne für die Zukunft: Wortschatz“? “Im Thema Pläne für die Zukunft…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -62934,22 +63051,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Pläne für die Zukunft: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -62957,22 +63075,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Pläne für die Zukunft: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -62980,22 +63099,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Pläne für die Zukunft: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -63008,40 +63128,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Pläne für die Zukunft: Wortschatz“? “Im Thema Pläne für die Zukunft…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Pläne für die Zukunft: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Pläne für die Zukunft: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Pläne für die Zukunft: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -69112,22 +69232,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kleidung und Farben: Wortschatz“? “Im Thema Kleidung und Farben spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -69135,22 +69256,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kleidung und Farben: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -69158,22 +69280,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kleidung und Farben: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -69181,22 +69304,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kleidung und Farben: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -69209,40 +69333,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kleidung und Farben: Wortschatz“? “Im Thema Kleidung und Farben spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kleidung und Farben: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kleidung und Farben: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Kleidung und Farben: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -69332,22 +69456,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Feste und Traditionen: Wortschatz“? “Im Thema Feste und Traditionen spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -69355,22 +69480,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Feste und Traditionen: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -69378,22 +69504,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Feste und Traditionen: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -69401,22 +69528,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Feste und Traditionen: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -69429,40 +69557,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Feste und Traditionen: Wortschatz“? “Im Thema Feste und Traditionen spricht…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Feste und Traditionen: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Feste und Traditionen: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Feste und Traditionen: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -69552,6 +69680,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Beziehungen und Kommunikation: Wortschatz“? “Im Thema Beziehungen und Kommunikation spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -69559,15 +69688,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -69575,10 +69704,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Beziehungen und Kommunikation: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -69586,11 +69716,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -69598,14 +69728,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Beziehungen und Kommunikation: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -69613,7 +69744,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -69621,18 +69752,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Beziehungen und Kommunikation: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -69650,38 +69782,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Beziehungen und Kommunikation: Wortschatz“? “Im Thema Beziehungen und Kommunikation spricht…”",
         "options": [
           "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Beziehungen und Kommunikation: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Beziehungen und Kommunikation: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Beziehungen und Kommunikation: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }
@@ -75756,6 +75888,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geburtstag und Einladung: Wortschatz“? “Im Thema Geburtstag und Einladung spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -75763,15 +75896,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -75779,10 +75912,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geburtstag und Einladung: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -75790,11 +75924,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -75802,14 +75936,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geburtstag und Einladung: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -75817,7 +75952,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -75825,18 +75960,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geburtstag und Einladung: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -75854,38 +75990,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geburtstag und Einladung: Wortschatz“? “Im Thema Geburtstag und Einladung spricht…”",
         "options": [
           "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geburtstag und Einladung: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geburtstag und Einladung: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Geburtstag und Einladung: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }
@@ -75976,22 +76112,23 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnungssuche: Wortschatz“? “Im Thema Wohnungssuche spricht eine…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -75999,22 +76136,23 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnungssuche: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
               }
             ]
           },
@@ -76022,22 +76160,23 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnungssuche: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
-              },
-              {
-                "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
-              },
-              {
-                "id": "o3",
                 "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
               },
               {
+                "id": "o2",
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
+              },
+              {
+                "id": "o3",
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
+              },
+              {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -76045,22 +76184,23 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnungssuche: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           }
@@ -76073,40 +76213,40 @@
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnungssuche: Wortschatz“? “Im Thema Wohnungssuche spricht eine…”",
         "options": [
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnungssuche: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnungssuche: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Wohnungssuche: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       }
     ]
@@ -76196,6 +76336,7 @@
             "id": "q1",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesellschaft und Mitwirkung: Wortschatz“? “Im Thema Gesellschaft und Mitwirkung spricht…”",
+            "l1Hint": "Pista en español: identifica el tema y las palabras clave que se mencionan.",
             "options": [
               {
                 "id": "o1",
@@ -76203,15 +76344,15 @@
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -76219,10 +76360,11 @@
             "id": "q2",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesellschaft und Mitwirkung: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
+            "l1Hint": "Pista en español: escucha qué hacen o proponen las personas.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
@@ -76230,11 +76372,11 @@
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -76242,14 +76384,15 @@
             "id": "q3",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesellschaft und Mitwirkung: Wortschatz“? “Am Ende entscheiden sie sich…”",
+            "l1Hint": "Pista en español: localiza el motivo de la decisión o la idea principal.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
@@ -76257,7 +76400,7 @@
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               }
             ]
           },
@@ -76265,18 +76408,19 @@
             "id": "q4",
             "type": "mcq",
             "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesellschaft und Mitwirkung: Wortschatz“? “Danach fasst die…”",
+            "l1Hint": "Pista en español: presta atención al cierre y al resultado de la conversación.",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+                "text": "Niemand erzählt von einer eigenen Erfahrung."
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Die Gruppe entscheidet sich gegen Zusammenarbeit."
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Das Gespräch endet ohne einen Vorschlag."
               },
               {
                 "id": "o4",
@@ -76294,38 +76438,38 @@
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesellschaft und Mitwirkung: Wortschatz“? “Im Thema Gesellschaft und Mitwirkung spricht…”",
         "options": [
           "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesellschaft und Mitwirkung: Wortschatz“? “Jede Person erzählt von einer Erfahrung…”",
         "options": [
-          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
           "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesellschaft und Mitwirkung: Wortschatz“? “Am Ende entscheiden sie sich…”",
         "options": [
-          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
           "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Das Gespräch endet ohne einen Vorschlag."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Welche Aussage vervollständigt diesen Moment aus dem Audio „Gesellschaft und Mitwirkung: Wortschatz“? “Danach fasst die…”",
         "options": [
-          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Niemand erzählt von einer eigenen Erfahrung.",
+          "Die Gruppe entscheidet sich gegen Zusammenarbeit.",
+          "Das Gespräch endet ohne einen Vorschlag.",
           "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
         ]
       }

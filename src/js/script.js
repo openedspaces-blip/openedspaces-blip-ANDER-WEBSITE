@@ -16770,6 +16770,7 @@ function renderListeningComprehensionQuestionHtml(lesson, bank, runtime) {
           <span class="listening-comp-question-number">${index + 1}</span>
           <div class="listening-comp-question-content">
             <p class="grammar-test-question-prompt">${escapeHtml(question.prompt)}</p>
+            ${question.l1Hint ? `<p class="listening-comp-l1-hint">${escapeHtml(question.l1Hint)}</p>` : ''}
             ${renderGrammarTestQuestionBodyHtml(question, runtime)}
           </div>
         </article>

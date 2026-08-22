@@ -4,8 +4,27 @@ require('dotenv').config();
 const { Client } = require('pg');
 const seedLessons = require('../lib/seed-lessons.json');
 
+const languageFilter = new Set(
+  (process.argv.find((arg) => arg.startsWith('--languages=')) || '')
+    .replace('--languages=', '')
+    .split(',')
+    .filter(Boolean)
+);
+const levelFilter = new Set(
+  (process.argv.find((arg) => arg.startsWith('--levels=')) || '')
+    .replace('--levels=', '')
+    .split(',')
+    .filter(Boolean)
+);
+
 const selected = seedLessons
-  .filter((row) => row.skill === 'listening' && row.unit_slug)
+  .filter(
+    (row) =>
+      row.skill === 'listening' &&
+      row.unit_slug &&
+      (!languageFilter.size || languageFilter.has(row.target_language)) &&
+      (!levelFilter.size || levelFilter.has(row.level))
+  )
   .map((row) => ({
     slug: row.slug,
     bank: row.content_json?.extra?.listeningComprehension,
@@ -13,9 +32,11 @@ const selected = seedLessons
   }));
 
 function validate() {
-  if (selected.length !== 212) {
+  const expectedCount = languageFilter.size || levelFilter.size ? null : 212;
+  if (expectedCount && selected.length !== expectedCount) {
     throw new Error(`Se esperaban 212 listenings de ruta; se encontraron ${selected.length}.`);
   }
+  if (!selected.length) throw new Error('No hay listenings que coincidan con el filtro solicitado.');
   for (const row of selected) {
     if (row.bank?.questions?.length !== 4) {
       throw new Error(`${row.slug}: debe contener exactamente cuatro preguntas.`);

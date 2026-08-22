@@ -34100,6 +34100,17 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-word-audio-btn {
   margin: 0;
 }
+
+.listening-comp-l1-hint {
+  margin: -0.12rem 0 0.62rem;
+  padding: 0.46rem 0.62rem;
+  border-left: 3px solid #38bdf8;
+  border-radius: 0 0.55rem 0.55rem 0;
+  background: #eff8ff;
+  color: #35506f;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
 .tests-section-label {
   margin: 0.4rem 0 -0.35rem;
   color: #245fc8;
