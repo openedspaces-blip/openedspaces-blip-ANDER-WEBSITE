@@ -2681,7 +2681,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Eu digo Sim…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “No aeroporto um motorista…”",
             "options": [
               {
                 "id": "o1",
@@ -2693,7 +2693,7 @@
               },
               {
                 "id": "o3",
-                "text": "Eu digo: “Sim, por favor.”"
+                "text": "No aeroporto, um motorista pergunta: “Você vai para o hotel?”"
               },
               {
                 "id": "o4",
@@ -2704,7 +2704,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Depois de deixar as…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Amanhã quero conhecer…”",
             "options": [
               {
                 "id": "o1",
@@ -2720,18 +2720,18 @@
               },
               {
                 "id": "o4",
-                "text": "Depois de deixar as malas no hotel, eu ligo para minha família."
+                "text": "Amanhã quero conhecer a cidade e provar comida brasileira."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Eu digo Sim…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “À noite descanso um pouco…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Eu digo: “Sim, por favor."
+                "text": "À noite, descanso um pouco e olho a cidade pela janela do quarto."
               },
               {
                 "id": "o2",
@@ -2800,29 +2800,29 @@
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Eu digo Sim…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “No aeroporto um motorista…”",
         "options": [
           "Olá!",
           "Meu nome é Ana e eu sou de Portugal.",
-          "Eu digo: “Sim, por favor.”",
+          "No aeroporto, um motorista pergunta: “Você vai para o hotel?”",
           "Hoje chego ao Brasil pela primeira vez."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Depois de deixar as…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Amanhã quero conhecer…”",
         "options": [
           "Olá!",
           "Meu nome é Ana e eu sou de Portugal.",
           "Hoje chego ao Brasil pela primeira vez.",
-          "Depois de deixar as malas no hotel, eu ligo para minha família."
+          "Amanhã quero conhecer a cidade e provar comida brasileira."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Eu digo Sim…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “À noite descanso um pouco…”",
         "options": [
-          "Eu digo: “Sim, por favor.",
+          "À noite, descanso um pouco e olho a cidade pela janela do quarto.",
           "Olá!",
           "Meu nome é Ana e eu sou de Portugal.",
           "Hoje chego ao Brasil pela primeira vez."
@@ -7319,11 +7319,11 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Antes de sair eu…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “É um começo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Antes de sair, eu compro uma garrafa de água para o caminho."
+                "text": "É um começo de dia muito agradável."
               },
               {
                 "id": "o2",
@@ -7342,7 +7342,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “A atendente diz…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Está tudo ótimo…”",
             "options": [
               {
                 "id": "o1",
@@ -7350,7 +7350,7 @@
               },
               {
                 "id": "o2",
-                "text": "A atendente diz: “Bom dia!"
+                "text": "Está tudo ótimo.”"
               },
               {
                 "id": "o3",
@@ -7419,9 +7419,9 @@
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Antes de sair eu…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “É um começo…”",
         "options": [
-          "Antes de sair, eu compro uma garrafa de água para o caminho.",
+          "É um começo de dia muito agradável.",
           "De manhã, eu vou à padaria perto da minha casa.",
           "A atendente diz: “Bom dia!”",
           "Eu peço um café com leite e um pão de queijo."
@@ -7429,10 +7429,10 @@
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “A atendente diz…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Está tudo ótimo…”",
         "options": [
           "De manhã, eu vou à padaria perto da minha casa.",
-          "A atendente diz: “Bom dia!",
+          "Está tudo ótimo.”",
           "A atendente diz: “Bom dia!”",
           "Eu peço um café com leite e um pão de queijo."
         ]

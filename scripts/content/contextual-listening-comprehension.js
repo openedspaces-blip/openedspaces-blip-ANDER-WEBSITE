@@ -21,8 +21,14 @@ function uniqueTexts(values) {
   const seen = new Set();
   return values.filter((value) => {
     const text = cleanText(value);
-    const key = text.toLocaleLowerCase();
-    if (!text || seen.has(key)) return false;
+    const key = normalizeTranscriptEvidence(text);
+    // Some recordings contain a full quoted sentence as well as a segment
+    // split immediately before its closing quote. Treat that truncated piece
+    // as the same evidence, otherwise it can become a duplicate question.
+    const isTruncatedDuplicate =
+      lexicalTokens(key).length >= 3 &&
+      [...seen].some((existing) => existing.includes(key));
+    if (!text || seen.has(key) || isTruncatedDuplicate) return false;
     seen.add(key);
     return true;
   });
