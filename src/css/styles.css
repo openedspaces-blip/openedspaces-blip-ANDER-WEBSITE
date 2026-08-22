@@ -28420,6 +28420,15 @@ body {
   cursor: default;
 }
 @media (max-width: 720px) {
+  .games-daily-mission { grid-template-columns: 1fr; padding: 0.85rem; }
+  .games-mission-steps { gap: 0.42rem; }
+  .games-mission-step { min-height: 68px; padding: 0.48rem; }
+  .games-mission-step span { font-size: 0.72rem; }
+  .games-mission-step small { font-size: 0.63rem; }
+  .games-completion-card { align-items: stretch; flex-direction: column; }
+  .games-completion-actions { justify-content: stretch; }
+  .games-completion-actions button { flex: 1 1 100%; }
+  .games-audio-options { grid-template-columns: 1fr; }
   .games-topbar {
     align-items: flex-start;
     flex-direction: column;
