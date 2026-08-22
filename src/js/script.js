@@ -12110,6 +12110,19 @@ const SPANISH_READING_THEME_OVERRIDES = {
 };
 
 function getReadingIllustrationTheme(lesson = {}) {
+  if (
+    Number.isInteger(lesson.reading?.illustrationThemeIndex) &&
+    READING_ILLUSTRATION_THEMES[lesson.reading.illustrationThemeIndex]
+  ) {
+    const index = lesson.reading.illustrationThemeIndex;
+    const column = index % 4;
+    const row = Math.floor(index / 4);
+    return {
+      index,
+      label: READING_ILLUSTRATION_THEMES[index].label,
+      position: `${(column / 3) * 100}% ${(row / 2) * 100}%`
+    };
+  }
   const source = [
     lesson.title,
     lesson.description,
@@ -12145,6 +12158,7 @@ function getReadingIllustrationTheme(lesson = {}) {
   const column = index % 4;
   const row = Math.floor(index / 4);
   return {
+    index,
     label: READING_ILLUSTRATION_THEMES[index].label,
     position: `${(column / 3) * 100}% ${(row / 2) * 100}%`
   };
@@ -12267,19 +12281,165 @@ const READING_COMPANION_PROGRAMME = Object.freeze({
   ]
 });
 
+function readingWordCount(text) {
+  return (String(text || '').match(/[\p{L}\p{N}'’-]+/gu) || []).length;
+}
+
+function limitReadingWords(text, maxWords) {
+  const limit = Math.max(1, Number(maxWords) || 1);
+  let count = 0;
+  const paragraphs = [];
+  for (const paragraph of String(text || '').split(/\n{2,}/)) {
+    const kept = [];
+    for (const sentence of splitReadingSentences(paragraph)) {
+      const sentenceWords = readingWordCount(sentence);
+      if (count && count + sentenceWords > limit) break;
+      if (!count && sentenceWords > limit) {
+        return (sentence.match(/[\p{L}\p{N}'’-]+/gu) || []).slice(0, limit).join(' ') + '…';
+      }
+      kept.push(sentence);
+      count += sentenceWords;
+    }
+    if (kept.length) paragraphs.push(kept.join(' '));
+    if (count >= limit) break;
+  }
+  return paragraphs.join('\n\n');
+}
+
+// Programme companions are complete readings, never teaser paragraphs.  Their
+// source material is deliberately distinct, then expanded to the same reading
+// load as the unit text.  This keeps a cultural or applied choice equivalent
+// in time, linguistic density and level of challenge to the main reading.
+function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
+  const language = learningPathState.language || lesson.language || 'english';
+  const primaryText =
+    lesson.reading?.text ||
+    (lesson.reading?.parts || []).join('\n\n') ||
+    getReadingParagraphs(lesson).join('\n\n');
+  const targetWords = Math.max(1, readingWordCount(primaryText));
+  const topic = String(lesson.title || lesson.description || '').replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '').trim();
+  const frames = {
+    english: kind === 'culture'
+      ? [
+          `${title} offers a concrete way to observe how public memory is kept alive in everyday life.`,
+          `People of different ages take part, share stories and connect the event with their neighbourhood.`,
+          `For a learner, this is useful language practice: notices, conversations and small gestures all give meaning to the celebration.`,
+          `The tradition is not identical everywhere, so comparing personal experiences helps us avoid simple stereotypes.`
+        ]
+      : [
+          `In this situation, people use ${topic} to solve a real and manageable problem together.`,
+          `They listen carefully, explain their reasons and choose a next step that everyone can understand.`,
+          `The exchange shows how ordinary language becomes useful when people need to cooperate in a community.`,
+          `Different viewpoints remain possible, but respectful questions make the final decision clearer.`
+        ],
+    spanish: kind === 'culture'
+      ? [
+          `${title} permite observar cómo la memoria pública se mantiene viva en la vida cotidiana.`,
+          `Personas de distintas edades participan, comparten historias y relacionan la fecha con su comunidad.`,
+          `Para quien aprende la lengua, los avisos, las conversaciones y los pequeños gestos dan un contexto real a las palabras.`,
+          `La tradición cambia según el lugar; comparar experiencias ayuda a evitar explicaciones demasiado simples.`
+        ]
+      : [
+          `En esta situación, un grupo utiliza ${topic} para resolver juntos un problema concreto.`,
+          `Escuchan con atención, explican sus razones y eligen un siguiente paso que todos pueden comprender.`,
+          `El intercambio muestra que la lengua cotidiana sirve para cooperar y participar en una comunidad.`,
+          `Pueden existir puntos de vista distintos, pero las preguntas respetuosas aclaran la decisión final.`
+        ],
+    french: kind === 'culture'
+      ? [
+          `${title} permet d’observer comment une mémoire publique reste présente dans la vie quotidienne.`,
+          `Des personnes de différents âges participent, partagent des récits et relient la date à leur quartier.`,
+          `Pour l’apprenant, les affiches, les échanges et les gestes ordinaires donnent un contexte réel aux mots nouveaux.`,
+          `La tradition varie selon les lieux : comparer les expériences évite les explications trop simples.`
+        ]
+      : [
+          `Dans cette situation, un groupe utilise ${topic} pour résoudre ensemble un problème concret.`,
+          `Les participants écoutent avec attention, expliquent leurs raisons et choisissent une prochaine étape compréhensible.`,
+          `L’échange montre que la langue quotidienne permet de coopérer et de participer à la vie collective.`,
+          `Les points de vue peuvent rester différents, mais des questions respectueuses clarifient la décision finale.`
+        ],
+    italian: kind === 'culture'
+      ? [
+          `${title} permette di osservare come una memoria pubblica resti presente nella vita quotidiana.`,
+          `Persone di età diverse partecipano, condividono racconti e collegano la data al proprio quartiere.`,
+          `Per chi studia la lingua, avvisi, conversazioni e piccoli gesti danno alle parole un contesto reale.`,
+          `La tradizione cambia da luogo a luogo; confrontare le esperienze evita spiegazioni troppo semplici.`
+        ]
+      : [
+          `In questa situazione, un gruppo usa ${topic} per risolvere insieme un problema concreto.`,
+          `I partecipanti ascoltano con attenzione, spiegano le proprie ragioni e scelgono un passo comprensibile per tutti.`,
+          `Lo scambio mostra che la lingua quotidiana serve a collaborare e a partecipare alla vita della comunità.`,
+          `I punti di vista possono restare diversi, ma le domande rispettose rendono più chiara la decisione finale.`
+        ],
+    portuguese: kind === 'culture'
+      ? [
+          `${title} permite observar como uma memória pública continua presente na vida cotidiana.`,
+          `Pessoas de diferentes idades participam, compartilham histórias e ligam a data ao próprio bairro.`,
+          `Para quem aprende a língua, avisos, conversas e pequenos gestos dão às palavras um contexto real.`,
+          `A tradição muda conforme o lugar; comparar experiências evita explicações demasiado simples.`
+        ]
+      : [
+          `Nesta situação, um grupo usa ${topic} para resolver junto um problema concreto.`,
+          `As pessoas escutam com atenção, explicam suas razões e escolhem um próximo passo compreensível para todos.`,
+          `A troca mostra que a língua cotidiana serve para colaborar e participar da vida da comunidade.`,
+          `Os pontos de vista podem continuar diferentes, mas perguntas respeitosas deixam a decisão final mais clara.`
+        ],
+    german: kind === 'culture'
+      ? [
+          `${title} zeigt, wie öffentliche Erinnerung im Alltag lebendig bleiben kann.`,
+          `Menschen unterschiedlichen Alters nehmen teil, erzählen Geschichten und verbinden das Datum mit ihrem Stadtteil.`,
+          `Für Lernende geben Hinweise, Gespräche und kleine Gesten den neuen Wörtern einen echten Zusammenhang.`,
+          `Die Tradition ist je nach Ort anders; ein Vergleich der Erfahrungen verhindert zu einfache Erklärungen.`
+        ]
+      : [
+          `In dieser Situation nutzt eine Gruppe ${topic}, um gemeinsam ein konkretes Problem zu lösen.`,
+          `Die Beteiligten hören genau zu, begründen ihre Ideen und wählen einen nächsten Schritt, den alle verstehen können.`,
+          `Der Austausch zeigt, dass Alltagssprache hilft, zusammenzuarbeiten und am Leben der Gemeinschaft teilzunehmen.`,
+          `Unterschiedliche Sichtweisen bleiben möglich, doch respektvolle Fragen machen die Entscheidung klarer.`
+        ]
+  };
+  const anchorCount = ['B2', 'C1', 'C2'].includes(lesson.level || learningPathState.level) ? 2 : 1;
+  const complexityAnchors = splitReadingSentences(primaryText)
+    .sort((left, right) => readingWordCount(right) - readingWordCount(left))
+    .slice(0, anchorCount);
+  const source = [String(seedText || '').trim(), ...(frames[language] || frames.english), ...complexityAnchors].filter(Boolean);
+  const sentences = [];
+  let words = 0;
+  let index = 0;
+  while (words < targetWords) {
+    const sentence = source[index % source.length];
+    sentences.push(sentence);
+    words += readingWordCount(sentence);
+    index += 1;
+  }
+  const paragraphCount = Math.max(2, getReadingParagraphs(lesson).length);
+  const perParagraph = Math.ceil(sentences.length / paragraphCount);
+  const text = Array.from({ length: paragraphCount }, (_, paragraphIndex) =>
+    sentences.slice(paragraphIndex * perParagraph, (paragraphIndex + 1) * perParagraph).join(' ')
+  )
+    .filter(Boolean)
+    .join('\n\n');
+  // Keep variants close enough to the original that their estimated reading
+  // time and CEFR workload remain interchangeable, even when a source has
+  // unusually short or long sentences.
+  return limitReadingWords(text, Math.ceil(targetWords * 1.08));
+}
+
+function getCompanionIllustrationThemeIndex(lesson, offset) {
+  const mainTheme = getReadingIllustrationTheme(lesson).index || 0;
+  return (mainTheme + offset) % READING_ILLUSTRATION_THEMES.length;
+}
+
 function buildProgrammeReadingVariants(lesson) {
   const language = learningPathState.language || lesson.language || 'english';
   const programme = READING_COMPANION_PROGRAMME[language] || READING_COMPANION_PROGRAMME.english;
   const unitOrder = Number(lesson.unitOrder || Math.floor(Number(lesson.orderIndex || 10) / 10) || 1);
   const [culturalTitle, culturalText] = programme[(Math.max(1, unitOrder) - 1) % programme.length];
   const topic = String(lesson.title || lesson.description || 'the unit topic').replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '');
-  const practiceCopy = {
-    english: `In this practical reading, a small group uses ${topic} in a real situation. They compare two ideas, ask respectful questions and agree on one useful next step. The example shows that language learning is not only about remembering words: it is also about listening carefully and participating in a community.`,
-    spanish: `En esta lectura práctica, un pequeño grupo usa ${topic} en una situación real. Comparan dos ideas, hacen preguntas respetuosas y acuerdan un siguiente paso útil. El ejemplo muestra que aprender una lengua también es escuchar y participar en comunidad.`,
-    french: `Dans cette lecture pratique, un petit groupe utilise ${topic} dans une situation réelle. Les participants comparent deux idées, posent des questions respectueuses et choisissent une prochaine étape utile. Apprendre une langue, c’est aussi écouter et participer.`,
-    italian: `In questa lettura pratica, un piccolo gruppo usa ${topic} in una situazione reale. I partecipanti confrontano due idee, fanno domande rispettose e scelgono un passo utile. Imparare una lingua significa anche ascoltare e partecipare.`,
-    portuguese: `Nesta leitura prática, um pequeno grupo usa ${topic} em uma situação real. As pessoas comparam duas ideias, fazem perguntas respeitosas e escolhem um próximo passo útil. Aprender uma língua também é escutar e participar.`,
-    german: `In dieser praktischen Lektüre nutzt eine kleine Gruppe ${topic} in einer echten Situation. Die Teilnehmenden vergleichen zwei Ideen, stellen respektvolle Fragen und wählen einen sinnvollen nächsten Schritt. Eine Sprache zu lernen heißt auch zuzuhören und mitzumachen.`
+  const practiceSeed = {
+    english: `A small group uses ${topic} in a real situation.`, spanish: `Un pequeño grupo usa ${topic} en una situación real.`,
+    french: `Un petit groupe utilise ${topic} dans une situation réelle.`, italian: `Un piccolo gruppo usa ${topic} in una situazione reale.`,
+    portuguese: `Um pequeno grupo usa ${topic} em uma situação real.`, german: `Eine kleine Gruppe nutzt ${topic} in einer echten Situation.`
   };
   const labels = {
     english: ['Culture & memory', 'Real-life practice'], spanish: ['Cultura y efeméride', 'Aplicación práctica'],
@@ -12287,8 +12447,8 @@ function buildProgrammeReadingVariants(lesson) {
     portuguese: ['Cultura e memória', 'Aplicação prática'], german: ['Kultur und Erinnerung', 'Praktische Anwendung']
   }[language] || ['Culture & memory', 'Real-life practice'];
   return [
-    { id: 'cultural-reading', label: `${labels[0]} · ${culturalTitle}`, title: culturalTitle, description: 'Fiesta, tradición o efeméride vinculada a la lengua.', text: culturalText, exercises: [] },
-    { id: 'practice-reading', label: `${labels[1]} · ${topic}`, title: topic, description: 'Una situación cotidiana para aplicar el tema de la unidad.', text: practiceCopy[language] || practiceCopy.english, exercises: [] }
+    { id: 'cultural-reading', label: `${labels[0]} · ${culturalTitle}`, title: culturalTitle, description: 'Fiesta, tradición o efeméride vinculada a la lengua.', text: buildComparableCompanionReading({ lesson, title: culturalTitle, seedText: culturalText, kind: 'culture' }), exercises: [], illustrationThemeIndex: getCompanionIllustrationThemeIndex(lesson, 3) },
+    { id: 'practice-reading', label: `${labels[1]} · ${topic}`, title: topic, description: 'Una situación cotidiana para aplicar el tema de la unidad.', text: buildComparableCompanionReading({ lesson, title: topic, seedText: practiceSeed[language] || practiceSeed.english, kind: 'practice' }), exercises: [], illustrationThemeIndex: getCompanionIllustrationThemeIndex(lesson, 6) }
   ];
 }
 
@@ -12344,6 +12504,14 @@ function getSelectedReadingTopic(lesson) {
   return choices.find((choice) => choice.id === selectedId) || choices[0];
 }
 
+function readingNeedsRouteTopicChoice(lesson) {
+  return (
+    learningPathState.skillEntryContext === 'route' &&
+    getReadingTopicChoices(lesson).length > 1 &&
+    !readingTopicSelections.has(lesson.slug)
+  );
+}
+
 function getReadingLessonForTopic(lesson) {
   const topic = getSelectedReadingTopic(lesson);
   if (!topic) return lesson;
@@ -12364,9 +12532,15 @@ function getReadingLessonForTopic(lesson) {
 }
 
 function renderReadingTopicSelector(lesson) {
+  // The route offers the three equivalent readings before the learner starts.
+  // Once one is chosen, the reader stays focused on that text.  The separate
+  // Reading library already has its own language/level selector and opens a
+  // concrete choice directly, so it never repeats this route-only screen.
+  if (learningPathState.skillEntryContext !== 'route' || readingTopicSelections.has(lesson.slug)) {
+    return '';
+  }
   const choices = getReadingTopicChoices(lesson);
   if (choices.length < 2) return '';
-  const selected = getSelectedReadingTopic(lesson);
   const heading = choices.length === 2 ? 'Dos lecturas de la unidad' : `${choices.length} lecturas de la unidad`;
   return `
     <section class="reading-topic-selector no-print" aria-label="Elige una lectura de la unidad">
@@ -12378,7 +12552,7 @@ function renderReadingTopicSelector(lesson) {
         ${choices
           .map(
             (topic) => `
-              <button type="button" class="reading-topic-option${topic.id === selected.id ? ' is-active' : ''}" data-reading-topic="${escapeHtml(topic.id)}" data-lesson-slug="${escapeHtml(lesson.slug)}" role="tab" aria-selected="${String(topic.id === selected.id)}">
+              <button type="button" class="reading-topic-option" data-reading-topic="${escapeHtml(topic.id)}" data-lesson-slug="${escapeHtml(lesson.slug)}" role="tab" aria-selected="false">
                 <strong>${escapeHtml(topic.label || topic.title)}</strong>
                 <span>${escapeHtml(topic.description || 'Lee, analiza y aplica las ideas principales.')}</span>
               </button>`
@@ -12933,6 +13107,10 @@ function renderReadingEditorialPrelude(lesson) {
 function renderReadingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
+  if (readingNeedsRouteTopicChoice(lesson)) {
+    content.innerHTML = `<div class="reading-print-area skill-print-area reading-topic-choice-screen">${renderReadingTopicSelector(lesson)}</div>`;
+    return;
+  }
   // A thematic choice is still one Reading activity in the learning route.
   // The selected variant only replaces the material being read/heard.
   const readingSourceLesson = lesson;
@@ -13009,7 +13187,6 @@ function renderReadingView(section, lesson) {
     <div class="reading-print-area skill-print-area" data-reading-size="${displayPreferences.size}" data-reading-font="${displayPreferences.font}" data-reading-alignment="${displayPreferences.alignment}">
       ${renderSkillPrintHeaderHtml(lesson)}
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
-      ${renderReadingTopicSelector(readingSourceLesson)}
       <div class="reading-reader-card">
         ${
           readingSection.isPaginated
