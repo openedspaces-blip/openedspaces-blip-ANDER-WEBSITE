@@ -3759,6 +3759,32 @@ a:focus-visible {
   flex-wrap: wrap;
 }
 
+/* Keep the action bars deliberate when a label changes to “Traduciendo…”.
+   A flexible row could leave the Stop control stranded on a third line in
+   the source panel.  These compact grids keep related actions aligned. */
+.translator-field--input .translator-field-actions {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.translator-field--output .translator-field-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.translator-field-actions > button {
+  min-width: 0;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .translator-field--input .translator-field-actions,
+  .translator-field--output .translator-field-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .translator-field-actions .secondary-btn,
 .translator-field-actions .primary-btn,
 .translator-field-actions .translator-dictate-btn,
