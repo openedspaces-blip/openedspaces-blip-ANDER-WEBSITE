@@ -74,15 +74,16 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 - Las lecciones se leen primero de Supabase (`lessons` con `target_language`); si no hay filas para ese idioma/nivel, se usa el contenido local en `lib/lessonsData.js` como respaldo, para que la ruta de aprendizaje nunca aparezca vacía en un proyecto recién clonado.
 - **No hay integración de pagos real todavía.** Se agregó `profiles.access_tier` para poder marcar manualmente a un usuario como premium desde el dashboard de Supabase mientras tanto.
 
-## Despliegue en Render
+## Despliegue en Vercel
 
-- La producción se despliega únicamente mediante el servicio `andergo-web` definido en `render.yaml`.
-- **Build Command:** `npm install && npm run build`
-- **Start Command:** `npm start`
-- **Health Check:** `/api/health`
+- La producción se despliega únicamente en Vercel, con la configuración de `vercel.json`.
+- **Framework Preset:** `Other`
+- **Build Command:** `npm run build`
+- **Output Directory:** `public`
+- La función serverless `api/index.js` atiende todas las rutas `/api/*`.
 - `npm run build` (`scripts/build-static.js`) valida `index.html`, `src/css/styles.css`, `src/js/script.js` y `src/worlds/*/content.js`, y los espeja dentro de `public/`. `public/` está en `.gitignore`: se regenera en cada build, nunca se commitea.
-- El servidor Express de `lib/server.js` sirve `public/` y las rutas de la API desde el mismo servicio web.
-- Configura las variables de entorno en Render, **no** subas `.env` real:
+- La regla SPA de `vercel.json` solo redirige rutas sin extensión a `index.html`, para no romper archivos estáticos.
+- Configura las variables de entorno en Vercel, **no** subas `.env` real:
   - `SUPABASE_URL`
   - `SUPABASE_ANON_KEY` (o `SUPABASE_KEY` como alias)
   - `SUPABASE_SERVICE_ROLE_KEY`
