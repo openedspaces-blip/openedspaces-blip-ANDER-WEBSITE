@@ -481,8 +481,9 @@
             <div class="verb-catalogue-word">
               <strong>${escapeHtml(item.targetWord)}</strong>
             </div>
+            ${audioButton}
             <span>${escapeHtml(sourceVerb)}</span>
-            ${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}${audioButton}
+            ${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}
           </div>
         </div>
         ${

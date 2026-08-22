@@ -12169,10 +12169,10 @@ function renderReadingIllustrationHtml(lesson) {
   `;
 }
 
-// A reading can now offer several thematic routes without changing the lesson
-// URL or its progress. Content authors may provide reading.variants with their
-// own text/questions; older lessons receive three useful, full-length lenses
-// over the existing article until their bespoke variants are authored.
+// A Reading activity may offer several real texts without changing the lesson
+// URL or its progress. Variants must be authored under `reading.variants`;
+// another skill's Listening, Speaking, or Writing material is never a
+// substitute for a reading text.
 const readingTopicSelections = new Map();
 
 // Cultural readings need more than an attractive title: the commemorative
@@ -12228,79 +12228,33 @@ function getReadingTopicChoices(lesson) {
   const authored = Array.isArray(lesson.reading?.variants)
     ? lesson.reading.variants.filter((variant) => variant && (variant.text || variant.parts))
     : [];
-  if (authored.length >= 3) return authored.slice(0, 3);
-  // A unit exposes three independent reading materials. Older authored
-  // units stored the complementary material under their sibling activities
-  // (Listening and Speaking/Writing) instead of `reading.variants`.
-  // Surface them here as actual texts, never as artificial slices of the
-  // same article or the old Context / Development / Analysis tabs.
-  const activities = getUnitActivities(lesson.unitId || lesson.unitSlug || '');
-  const asText = (activity) => {
-    if (!activity) return '';
-    const reading = activity.reading || {};
-    const candidates = [
-      reading.text,
-      ...(reading.parts || []),
-      activity.mainTranscript,
-      activity.transcript,
-      ...(activity.transcriptSegments || []).map((segment) => segment?.text),
-      ...(activity.dialogue || []).map((line) => line?.line || line?.text),
-      ...(activity.phrases || []).map((phrase) =>
-        typeof phrase === 'string' ? phrase : phrase?.text || phrase?.expression || ''
-      )
-    ]
-      .map((value) => String(value || '').trim())
-      .filter(Boolean);
-    return candidates.join('\n\n');
+  const primaryText =
+    lesson.reading?.text ||
+    (lesson.reading?.parts || []).join('\n\n') ||
+    getReadingParagraphs(lesson).join('\n\n');
+  const primary = {
+    id: 'main-reading',
+    label: `Lectura principal · ${lesson.title}`,
+    title: lesson.title,
+    description: lesson.description,
+    text: primaryText,
+    exercises: lesson.exercises || []
   };
-  const primaryText = asText(lesson) || getReadingParagraphs(lesson).join('\n\n');
-  const companions = activities
-    .filter((activity) => activity?.slug !== lesson.slug && ['listening', 'speaking', 'writing'].includes(activity?.skill))
-    .map((activity) => ({ activity, text: asText(activity) }))
-    .filter(({ text }) => text.length >= 24);
-  const listening = companions.find(({ activity }) => activity.skill === 'listening') || companions[0];
-  const practical =
-    companions.find(({ activity }) => ['speaking', 'writing'].includes(activity.skill)) ||
-    companions.find(({ activity }) => activity !== listening?.activity) ||
-    null;
-  const makeTopic = (id, position, source, fallbackText, description) => {
-    const title = source?.activity?.title || lesson.title;
-    return {
-      id,
-      // The selector must announce the real title of every alternative,
-      // rather than hiding it behind a generic content type.
-      label: `Lectura ${position} · ${title}`,
-      title,
-      description: source?.activity?.description || description,
-      text: source?.text || fallbackText,
-    // Use the companion material's own checks when it has them; never grade
-    // it with questions authored for the main article.
-      exercises: source?.activity?.exercises || []
-    };
-  };
-  return [
-    {
-      id: 'main-reading',
-      label: `Lectura 1 · ${lesson.title}`,
-      title: lesson.title,
-      description: lesson.description,
-      text: primaryText
-    },
-    makeTopic(
-      'conversation-reading',
-      2,
-      listening,
-      primaryText,
-      'Lee una conversación vinculada al tema de la unidad.'
-    ),
-    makeTopic(
-      'practical-reading',
-      3,
-      practical,
-      primaryText,
-      'Lee un texto práctico para aplicar el tema de la unidad.'
-    )
-  ].filter((topic, index, list) => topic.text && (index === 0 || !list.slice(0, index).some((previous) => previous.text === topic.text)));
+  const variants = authored.map((variant, index) => ({
+    ...variant,
+    id: variant.id || `reading-variant-${index + 1}`,
+    label: variant.label || variant.title || `Lectura ${index + 2}`,
+    title: variant.title || lesson.title,
+    description: variant.description || '',
+    // A variant must bring its own exercises. Falling back to the main
+    // reading's questions would grade a different text and is misleading.
+    exercises: Array.isArray(variant.exercises) ? variant.exercises : []
+  }));
+  return [primary, ...variants].filter(
+    (topic, index, list) =>
+      topic.text &&
+      (index === 0 || !list.slice(0, index).some((previous) => previous.text === topic.text))
+  );
 }
 
 function getSelectedReadingTopic(lesson) {
@@ -12333,11 +12287,12 @@ function renderReadingTopicSelector(lesson) {
   const choices = getReadingTopicChoices(lesson);
   if (choices.length < 2) return '';
   const selected = getSelectedReadingTopic(lesson);
+  const heading = choices.length === 2 ? 'Dos lecturas de la unidad' : `${choices.length} lecturas de la unidad`;
   return `
     <section class="reading-topic-selector no-print" aria-label="Elige una lectura de la unidad">
       <div class="reading-topic-selector-heading">
         <span>ELIGE UNA LECTURA</span>
-        <strong>Tres lecturas de la unidad</strong>
+        <strong>${escapeHtml(heading)}</strong>
       </div>
       <div class="reading-topic-options" role="tablist" aria-label="Temáticas de Reading">
         ${choices
@@ -12900,7 +12855,8 @@ function renderReadingView(section, lesson) {
   if (!content) return;
   // A thematic choice is still one Reading activity in the learning route.
   // The selected variant only replaces the material being read/heard.
-  lesson = getReadingLessonForTopic(lesson);
+  const readingSourceLesson = lesson;
+  lesson = getReadingLessonForTopic(readingSourceLesson);
   const { total, attempted } = getExerciseProgress(lesson);
   const pct = total ? Math.round((attempted / total) * 100) : 0;
   const allParagraphs = getReadingParagraphs(lesson);
@@ -12973,6 +12929,7 @@ function renderReadingView(section, lesson) {
     <div class="reading-print-area skill-print-area" data-reading-size="${displayPreferences.size}" data-reading-font="${displayPreferences.font}" data-reading-alignment="${displayPreferences.alignment}">
       ${renderSkillPrintHeaderHtml(lesson)}
       <div class="reading-progress-bar no-print" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
+      ${renderReadingTopicSelector(readingSourceLesson)}
       <div class="reading-reader-card">
         ${
           readingSection.isPaginated
@@ -12987,7 +12944,6 @@ function renderReadingView(section, lesson) {
             : ''
         }
         ${audioPlayerHtml}
-        ${renderReadingTopicSelector(lesson)}
         <div class="reading-display-controls no-print" aria-label="${french ? 'Réglages de lecture' : 'Ajustes de lectura'}">
           <span class="reading-display-label">${french ? 'Taille du texte' : 'Tamaño del texto'}</span>
           <div class="reading-size-controls" role="group" aria-label="${french ? 'Taille du texte' : 'Tamaño del texto'}">
@@ -14872,6 +14828,9 @@ function renderSpeakingCorrectorHtml(idPrefix = 'corrector') {
             <option value="english">🇺🇸 English</option>
             <option value="spanish">🇪🇸 Español</option>
             <option value="french">🇫🇷 Français</option>
+            <option value="italian">🇮🇹 Italiano</option>
+            <option value="portuguese">🇧🇷 Português</option>
+            <option value="german">🇩🇪 Deutsch</option>
           </select>
         </label>
       </div>
@@ -14879,18 +14838,17 @@ function renderSpeakingCorrectorHtml(idPrefix = 'corrector') {
         <div class="translator-field">
           <label for="correctorInput">Tu texto</label>
           <div class="translator-input-wrap corrector-input-wrap">
-            <textarea id="correctorInput" class="tutor-input" rows="6" maxlength="1000" placeholder="Escribe el texto que quieres corregir…" role="combobox" aria-expanded="false" aria-controls="correctorSuggestions" aria-autocomplete="list"></textarea>
-            <ul id="correctorSuggestions" class="translator-suggestions corrector-suggestions" role="listbox" aria-label="Sugerencias de escritura" hidden></ul>
+            <textarea id="correctorInput" class="tutor-input" rows="6" maxlength="1000" placeholder="Escribe el texto que quieres corregir…"></textarea>
           </div>
           <p class="translator-char-count" id="correctorCharCount" aria-live="polite">0 / 1000</p>
           <div class="translator-field-actions corrector-input-actions">
             <button type="button" class="secondary-btn" id="correctorClearBtn">Limpiar</button>
             <button type="button" class="secondary-btn" id="correctorTalkBtn" aria-label="Hablar el texto para corregir">🎙 Hablar</button>
             <div class="corrector-submit-stack">
-              <button type="button" class="primary-btn" id="correctorSubmitBtn">Corregir →</button>
-              <span class="translator-status" id="correctorStatus" role="status" aria-live="polite">Listo</span>
+              <button type="button" class="primary-btn" id="correctorSubmitBtn">Revisar texto →</button>
             </div>
           </div>
+          <span class="translator-status corrector-status" id="correctorStatus" role="status" aria-live="polite">Listo</span>
         </div>
         <div class="translator-field">
           <span class="corrector-result-label">Resultado</span>
@@ -17339,16 +17297,18 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
           <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
-          <span class="vocab-card-level-badge">${escapeHtml(item.level || learningPathState.level)}</span>
+          <div class="vocab-card-front-top">
+            <span class="vocab-card-level-badge">${escapeHtml(item.level || learningPathState.level)}</span>
+            ${
+              canSpeak
+                ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
+                : ''
+            }
+          </div>
           <div class="vocab-card-word-block">
             <div class="vocab-card-target-row">
               <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
               ${frontSupportHtml}
-              ${
-                canSpeak
-                  ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
-                  : ''
-              }
             </div>
             ${
               item.phonetic
@@ -28886,10 +28846,9 @@ function setupCorrector(idPrefix = 'corrector') {
     setResultActionsEnabled(false);
   };
 
-  // The Corrector shares the translator's local prediction engine: it offers
-  // word completions, spelling fixes and a likely next word without sending a
-  // request on every keystroke. The full correction still happens only after
-  // the learner chooses Corregir (or finishes dictating).
+  // The Corrector deliberately does not predict words or punctuation while
+  // the learner writes. It must never insert question or exclamation marks;
+  // punctuation belongs to the learner and is reviewed only on request.
   const hideSuggestions = () => {
     suggestionItems = [];
     activeSuggestionIndex = -1;
@@ -28969,39 +28928,10 @@ function setupCorrector(idPrefix = 'corrector') {
     input.focus();
   };
 
-  const scheduleSuggestions = () => {
-    window.clearTimeout(suggestionsDebounceId);
-    const engine = window.AndergoTranslatorPredictive;
-    const language = langSelect?.value || 'english';
-    if (!['english', 'spanish', 'french'].includes(language)) {
-      hideSuggestions();
-      return;
-    }
-    suggestionsDebounceId = window.setTimeout(() => {
-      const caret = input.selectionStart ?? input.value.length;
-      const before = input.value.slice(0, caret);
-      const wordSuggestions = engine?.getSuggestions(language, before).slice(0, 3) || [];
-      const trimmed = before.trimEnd();
-      const canPunctuate = /[\p{L}\p{N}\)]$/u.test(trimmed) && !/[.!?,:;…]$/.test(trimmed);
-      const punctuation = canPunctuate
-        ? (language === 'spanish'
-            ? ['.', ',', ':', ';', '…', '¿…?', '¡…!']
-            : ['.', ',', ':', ';', '…', '?', '!']
-          ).map((text) => ({ type: 'punctuation', text }))
-        : [];
-      renderSuggestions([...wordSuggestions, ...punctuation]);
-    }, 180);
-  };
+  const scheduleSuggestions = hideSuggestions;
 
   input.addEventListener('input', updateCharCount);
   input.addEventListener('input', scheduleSuggestions);
-  input.addEventListener('blur', () => window.setTimeout(hideSuggestions, 100));
-  suggestionsList?.addEventListener('mousedown', (event) => {
-    const item = event.target.closest('.translator-suggestion-item');
-    if (!item) return;
-    event.preventDefault();
-    acceptSuggestion(Number(item.dataset.index));
-  });
   updateCharCount();
 
   // A new language or a freshly-edited text invalidates whatever correction
@@ -29038,18 +28968,31 @@ function setupCorrector(idPrefix = 'corrector') {
           originalText: text,
           correctedText: data.correctedText || '',
           explanation: data.explanation || '',
-          changes: data.changes || []
+          changes: data.changes || [],
+          alternatives: data.alternatives || []
         };
+        const isUnchanged = lastCorrection.correctedText.trim() === text.trim();
+        const alternativesHtml = lastCorrection.alternatives.length
+          ? `<section class="corrector-alternatives" aria-label="Otras formas de decirlo">
+              <span class="corrector-result-label">También podrías decir…</span>
+              ${lastCorrection.alternatives.map((alternative, index) => `
+                <article class="corrector-alternative">
+                  <div><strong>${escapeHtml(alternative.label)}</strong><p>${escapeHtml(alternative.text)}</p>${alternative.reason ? `<small>${escapeHtml(alternative.reason)}</small>` : ''}</div>
+                  <button type="button" class="secondary-btn corrector-use-alternative" data-corrector-alternative="${index}">Usar</button>
+                </article>`).join('')}
+            </section>`
+          : '';
         output.innerHTML = `
           <div class="corrector-original">
             <span class="corrector-result-label">Original</span>
             <p>${escapeHtml(text)}</p>
           </div>
           <div class="corrector-corrected">
-            <span class="corrector-result-label">Corrección</span>
+            <span class="corrector-result-label">${isUnchanged ? 'Está bien dicho' : 'Corrección'}</span>
             <p>${renderCorrectorHighlighted(lastCorrection.correctedText, lastCorrection.changes)}</p>
           </div>
           ${lastCorrection.explanation ? `<p class="corrector-explanation">${escapeHtml(lastCorrection.explanation)}</p>` : ''}
+          ${alternativesHtml}
         `;
         setResultActionsEnabled(true);
         if (speakResult && lastCorrection.correctedText) {
@@ -29142,6 +29085,17 @@ function setupCorrector(idPrefix = 'corrector') {
     } catch {
       showHomeToast('No se pudo copiar la corrección.');
     }
+  });
+
+  output.addEventListener('click', (event) => {
+    const button = event.target.closest('.corrector-use-alternative');
+    const alternative = lastCorrection?.alternatives?.[Number(button?.dataset.correctorAlternative)];
+    if (!alternative?.text) return;
+    input.value = alternative.text;
+    updateCharCount();
+    resetOutput();
+    setStatus('Alternativa aplicada. Puedes revisarla o corregirla de nuevo.', 'is-success');
+    input.focus();
   });
 
   listenBtn?.addEventListener('click', () => {
