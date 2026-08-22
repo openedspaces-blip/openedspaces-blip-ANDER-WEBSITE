@@ -3374,6 +3374,25 @@ a:focus-visible {
   backdrop-filter: blur(12px);
 }
 
+.hero-buttons .hero-search-trigger {
+  min-height: 48px;
+  padding: 0.78rem 1.1rem;
+  border-color: rgba(70, 52, 157, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #37306d;
+  font-size: 0.92rem;
+  box-shadow: 0 10px 22px rgba(54, 45, 110, 0.08);
+  backdrop-filter: blur(12px);
+}
+
+.hero-buttons .hero-search-trigger:hover,
+.hero-buttons .hero-search-trigger:focus-visible {
+  border-color: rgba(70, 52, 157, 0.42);
+  background: rgba(255, 255, 255, 0.96);
+  color: #37306d;
+}
+
 .hero .quick-stats div {
   border: 1px solid rgba(255, 255, 255, 0.78);
   background: rgba(255, 255, 255, 0.68);
@@ -5655,6 +5674,7 @@ footer small {
   }
 
   .hero-buttons a,
+  .hero-buttons .hero-search-trigger,
   .payment-actions a,
   .nav-actions a {
     width: 100%;
@@ -25724,8 +25744,8 @@ body {
 
   .menu a,
   .nav-more summary {
-    min-height: 40px;
-    padding: 0.62rem 0.82rem;
+    min-height: 44px;
+    padding: 0.68rem 0.96rem;
     border-radius: 999px;
     transition:
       color 160ms ease,
@@ -30999,6 +31019,51 @@ body {
   flex-wrap: wrap;
 }
 
+/* One predictable reading line on every vocabulary card: L2 term, IPA,
+   bridge-language meaning, then the pronunciation control.  Keeping the
+   control last prevents it from splitting the word from its support text. */
+.skill-view-section[data-skill='vocabulary'] .vocab-card-target-row,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.42rem;
+  flex-wrap: wrap;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-card-target-row .vocab-card-target,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target {
+  flex: 0 1 auto;
+  width: auto;
+  max-width: 100%;
+  margin: 0;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-card-target-row .vocab-card-phonetic {
+  flex: 0 1 auto;
+  max-width: 34%;
+  padding: 0;
+  background: transparent;
+  font-size: 0.76rem;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-card-target-row .vocab-card-front-support {
+  flex: 0 1 auto;
+  width: auto;
+  max-width: 36%;
+  margin: 0;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-card-target-row .vocab-card-word-audio-btn,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn {
+  order: 4;
+  margin-left: auto;
+}
+
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target {
   flex: 0 1 auto;
   width: calc(100% - 2.2rem);
@@ -31106,12 +31171,12 @@ body {
 
   .navbar:has(.user-chip:not([hidden])) .menu a,
   .navbar:has(.user-chip:not([hidden])) .nav-more summary {
-    min-height: 36px;
-    padding: 0.45rem clamp(0.42rem, 0.58vw, 0.66rem);
+    min-height: 42px;
+    padding: 0.54rem clamp(0.58rem, 0.76vw, 0.86rem);
   }
 
   .navbar:has(.user-chip:not([hidden])) .menu .nav-learn-cta {
-    padding: 0.42rem clamp(0.58rem, 0.72vw, 0.78rem);
+    padding: 0.5rem clamp(0.7rem, 0.9vw, 1rem);
   }
 
   .navbar:has(.user-chip:not([hidden])) .nav-actions {
@@ -31165,8 +31230,21 @@ body {
   .navbar:has(.user-chip:not([hidden])) .menu {
     min-width: 0;
     margin: 0;
+    gap: 0.16rem;
+    padding: 0.18rem;
     justify-content: center;
     transform: none;
+    font-size: 0.94rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu a,
+  .navbar:has(.user-chip:not([hidden])) .nav-more summary {
+    min-height: 38px;
+    padding: 0.42rem 0.64rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu .nav-learn-cta {
+    padding-inline: 0.78rem;
   }
 
   .navbar:has(.user-chip:not([hidden])) .nav-actions {
@@ -34324,6 +34402,47 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   margin: 0;
 }
 
+/* Final catalogue safeguard: a card may wrap between pieces of information,
+   never inside a target word. The L1 meaning consumes the flexible space and
+   leaves the speaker as the last control in the row. */
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target {
+  flex: 0 1 auto;
+  min-width: max-content;
+  max-width: 46%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 24%;
+  white-space: nowrap;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support {
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn {
+  flex: 0 0 1.62rem;
+  margin-left: 0;
+}
+
 .listening-comp-l1-hint {
   margin: -0.12rem 0 0.62rem;
   padding: 0.46rem 0.62rem;
@@ -34663,4 +34782,60 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   color: #3366c7;
   font-size: .66rem;
   font-weight: 760;
+}
+
+/* Route lesson actions are orientation controls, not a cluster of equally
+   weighted CTAs. Anchor the return link on the left, keep the lesson setting
+   in the visual centre, and leave the Tutor at the right edge. */
+.skill-view-section.is-route-activity .skill-view-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  width: 100%;
+  flex: 1 1 100%;
+  gap: 0.7rem;
+  margin-left: 0;
+}
+
+.skill-view-section.is-route-activity .skill-view-actions .back-to-route-btn {
+  grid-column: 1;
+  justify-self: start;
+  min-height: 37px;
+  padding: 0.42rem 0.72rem;
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.58);
+  color: #1f5fd5;
+  font-size: 0.8rem;
+  font-weight: 780;
+}
+
+.skill-view-section.is-route-activity .skill-view-actions .change-combination-btn {
+  grid-column: 2;
+  justify-self: center;
+  white-space: nowrap;
+}
+
+.skill-view-section.is-route-activity .skill-view-actions .open-tutor-btn {
+  grid-column: 3;
+  justify-self: end;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .skill-view-section.is-route-activity .skill-view-actions {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 0.22rem;
+  }
+
+  .skill-view-section.is-route-activity .skill-view-actions .secondary-btn {
+    min-height: 34px;
+    padding: 0.3rem 0.34rem;
+    font-size: 0.66rem;
+  }
+
+  .skill-view-section.is-route-activity .skill-view-actions .back-to-route-btn {
+    padding-inline: 0.48rem;
+    font-size: 0.7rem;
+  }
 }

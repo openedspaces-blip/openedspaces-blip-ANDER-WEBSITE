@@ -72,7 +72,14 @@
   function curriculumEntries() {
     const worlds = { ...(window.ANDERGO_LANGUAGE_WORLDS?.lessons || {}), ...localLessons };
     return Object.entries(worlds).flatMap(([language, lessons]) => (lessons || []).flatMap((lesson) => {
-      const meta = { language, level: lesson.level || '', lesson, route: `#${lesson.skill || 'learn'}` };
+      const meta = {
+        language,
+        level: lesson.level || '',
+        lesson,
+        lessonSlug: lesson.slug || '',
+        unitId: lesson.unitId || lesson.unitSlug || '',
+        skill: lesson.skill || 'learn'
+      };
       const vocabulary = (lesson.vocabulary || []).map((item) => ({
         ...meta,
         kind: 'Vocabulario',
@@ -142,7 +149,7 @@
       return;
     }
     results.innerHTML = entries.map((entry) => `
-      <button type="button" class="global-search-result" data-search-route="${escape(entry.route)}">
+      <button type="button" class="global-search-result" data-search-language="${escape(entry.language || '')}" data-search-level="${escape(entry.level || '')}" data-search-lesson="${escape(entry.lessonSlug || '')}" data-search-unit="${escape(entry.unitId || '')}" data-search-skill="${escape(entry.skill || '')}">
         <span class="global-search-result-meta">${escape(entry.kind)}${entry.language ? ` · ${escape(languageLabels[entry.language] || entry.language)}${entry.level ? ` ${escape(entry.level)}` : ''}` : ''}</span>
         <strong>${escape(entry.title)}</strong>
         <small>${escape(entry.detail || 'Abrir este contenido en Andergo.')}</small>
@@ -183,9 +190,19 @@
       input.focus();
       return;
     }
-    const result = event.target.closest('[data-search-route]');
+    const result = event.target.closest('[data-search-lesson]');
     if (result) {
-      window.location.hash = result.dataset.searchRoute;
+      window.dispatchEvent(
+        new CustomEvent('andergo:open-search-result', {
+          detail: {
+            language: result.dataset.searchLanguage,
+            level: result.dataset.searchLevel,
+            lessonSlug: result.dataset.searchLesson,
+            unitId: result.dataset.searchUnit,
+            skill: result.dataset.searchSkill
+          }
+        })
+      );
       closeSearch();
     }
   });

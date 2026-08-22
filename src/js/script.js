@@ -6127,6 +6127,36 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
   renderSkillView(skill);
 }
 
+// Global search carries the learner to the exact lesson where a term was
+// found. The regular route loader remains the authority for unit locks, so a
+// Premium member opens the result directly while a Free account is shown the
+// existing upgrade path before protected content can render.
+window.addEventListener('andergo:open-search-result', async (event) => {
+  const { language, level, lessonSlug, unitId, skill } = event.detail || {};
+  if (!language || !level || !lessonSlug) return;
+
+  try {
+    await loadLearningPath({
+      language,
+      level,
+      restoreUnitId: unitId,
+      restoreSlug: lessonSlug
+    });
+    const lesson = learningPathState.lessons.find((item) => item.slug === lessonSlug);
+    if (!lesson) {
+      showHomeToast('Ese contenido no está disponible en esta ruta todavía.');
+      return;
+    }
+    if (lesson.locked) {
+      handleHomeAction('upgrade');
+      return;
+    }
+    openUnitSequenceStep(skill || lesson.skill, lesson.slug);
+  } catch {
+    showHomeToast('No pudimos abrir este resultado. Inténtalo de nuevo.');
+  }
+});
+
 // The skill tabs at the top of a route used to be plain hash links. That
 // changed the visible tab without choosing the equivalent activity in the
 // current unit, so a page could show Reading as active while its mission and
@@ -12267,7 +12297,15 @@ function getReadingIllustrationTheme(lesson = {}) {
 // selected from its own title and text: a unit can include unrelated reading
 // scenarios, so reusing the unit artwork would create misleading images.
 function resolveReadingIllustration(lesson) {
-  const chosen = lesson.reading?.illustration?.src
+  // A selected companion deliberately owns the `illustration` field, even
+  // when it is null.  In that case we must use its themed artwork instead of
+  // falling back to the main unit image, which would make three different
+  // readings look like the same story.
+  const hasOwnReadingIllustration = Object.prototype.hasOwnProperty.call(
+    lesson.reading || {},
+    'illustration'
+  );
+  const chosen = hasOwnReadingIllustration
     ? lesson.reading.illustration
     : lesson.unitIllustration?.src
       ? lesson.unitIllustration
@@ -12463,12 +12501,7 @@ function limitReadingWords(text, maxWords) {
 // load as the unit text.  This keeps a cultural or applied choice equivalent
 // in time, linguistic density and level of challenge to the main reading.
 function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
-  const language = learningPathState.language || lesson.language || 'english';
-  const primaryText =
-    lesson.reading?.text ||
-    (lesson.reading?.parts || []).join('\n\n') ||
-    getReadingParagraphs(lesson).join('\n\n');
-  const targetWords = Math.max(1, readingWordCount(primaryText));
+  const language = lesson.language || learningPathState.language || 'english';
   const topic = String(lesson.title || lesson.description || '')
     .replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '')
     .trim();
@@ -12558,35 +12591,16 @@ function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
             `Unterschiedliche Sichtweisen bleiben möglich, doch respektvolle Fragen machen die Entscheidung klarer.`
           ]
   };
-  const anchorCount = ['B2', 'C1', 'C2'].includes(lesson.level || learningPathState.level) ? 2 : 1;
-  const complexityAnchors = splitReadingSentences(primaryText)
-    .sort((left, right) => readingWordCount(right) - readingWordCount(left))
-    .slice(0, anchorCount);
-  const source = [
-    String(seedText || '').trim(),
-    ...(frames[language] || frames.english),
-    ...complexityAnchors
-  ].filter(Boolean);
-  const sentences = [];
-  let words = 0;
-  let index = 0;
-  while (words < targetWords) {
-    const sentence = source[index % source.length];
-    sentences.push(sentence);
-    words += readingWordCount(sentence);
-    index += 1;
-  }
-  const paragraphCount = Math.max(2, getReadingParagraphs(lesson).length);
-  const perParagraph = Math.ceil(sentences.length / paragraphCount);
-  const text = Array.from({ length: paragraphCount }, (_, paragraphIndex) =>
-    sentences.slice(paragraphIndex * perParagraph, (paragraphIndex + 1) * perParagraph).join(' ')
-  )
+  // Never borrow sentences from the primary reading to pad this alternative.
+  // It makes two cards appear different while still rendering the same text.
+  // A focused, original text is pedagogically preferable to artificial
+  // repetition and remains appropriate for the selected CEFR level.
+  const sentences = [String(seedText || '').trim(), ...(frames[language] || frames.english)]
+    .filter(Boolean);
+  const midpoint = Math.ceil(sentences.length / 2);
+  return [sentences.slice(0, midpoint).join(' '), sentences.slice(midpoint).join(' ')]
     .filter(Boolean)
     .join('\n\n');
-  // Keep variants close enough to the original that their estimated reading
-  // time and CEFR workload remain interchangeable, even when a source has
-  // unusually short or long sentences.
-  return limitReadingWords(text, Math.ceil(targetWords * 1.08));
 }
 
 function getCompanionIllustrationThemeIndex({ lesson, kind, title, seedText }) {
@@ -12606,20 +12620,85 @@ function getCompanionIllustrationThemeIndex({ lesson, kind, title, seedText }) {
   if (has('thanksgiving', 'st patrick', 'guy fawkes', 'consciência negra', 'consciência negra'))
     return 6;
   if (kind === 'culture') return 7;
+  if (has('class', 'school', 'aula', 'classe', 'kurs', 'teacher', 'professor', 'insegnante'))
+    return 0;
+  if (has('name', 'nom', 'nombre', 'nome', 'name card', 'cartellino', 'namenskarte'))
+    return 5;
+  if (has('day', 'routine', 'daily', 'jour', 'giorno', 'dia', 'tag')) return 3;
   return getReadingIllustrationTheme(lesson).index || 0;
 }
 
 function buildProgrammeReadingVariants(lesson) {
-  const language = learningPathState.language || lesson.language || 'english';
-  const programme = READING_COMPANION_PROGRAMME[language] || READING_COMPANION_PROGRAMME.english;
+  const language = lesson.language || learningPathState.language || 'english';
+  const level = String(lesson.level || learningPathState.level || 'A1').toUpperCase();
   const unitOrder = Number(
     lesson.unitOrder || Math.floor(Number(lesson.orderIndex || 10) / 10) || 1
   );
-  const [culturalTitle, culturalText] = programme[(Math.max(1, unitOrder) - 1) % programme.length];
   const topic = String(lesson.title || lesson.description || 'the unit topic').replace(
     /\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i,
     ''
   );
+
+  // A1–A2 are concrete, everyday texts. Cultural history and public
+  // celebrations start at B1, where learners can read them with enough
+  // context instead of decoding a difficult vocabulary list.
+  if (level === 'A1' || level === 'A2') {
+    const firstA1 = level === 'A1' && unitOrder === 1;
+    const beginnerCopies = {
+      english: firstA1
+        ? ['Meet Ana and Leo', 'Ana is new in class. Ana says hello. Leo smiles and says hello too. Leo tells Ana his name. Mr. Green welcomes the class. Ana and Leo sit together. They spell their names. At the end, they say goodbye.', 'My name card', 'My name is Sam. I am in English class. I am happy today. My teacher is Mr. Green. My friend is Leo. We say hello, listen to the teacher, and learn new words.']
+        : ['A simple class story', `This is a short story about ${topic}. Two students talk, listen, and use the new words from class.`, 'A short message', `A student writes a short message about ${topic}. The message uses simple words from the unit.`],
+      spanish: firstA1
+        ? ['Ana y Leo se presentan', 'Ana es nueva en clase. Ana dice hola. Leo sonríe y también dice hola. Leo le dice su nombre a Ana. La profesora recibe a la clase. Ana y Leo se sientan juntos. Deletrean sus nombres. Al final, dicen adiós.', 'Mi tarjeta de nombre', 'Me llamo Sam. Estoy en clase de español. Hoy estoy feliz. Mi amigo es Leo. Decimos hola y aprendemos palabras nuevas.']
+        : ['Una historia de clase', `Este es un texto corto sobre ${topic}. Dos estudiantes hablan, escuchan y usan palabras nuevas de la clase.`, 'Un mensaje corto', `Un estudiante escribe un mensaje corto sobre ${topic}. El mensaje usa palabras simples de la unidad.`],
+      french: firstA1
+        ? ['Ana et Léo se présentent', 'Ana est nouvelle en classe. Ana dit bonjour. Léo sourit et dit bonjour aussi. Léo donne son prénom à Ana. Le professeur accueille la classe. Ana et Léo sont assis ensemble. Ils épellent leurs prénoms. À la fin, ils disent au revoir.', 'Ma carte de prénom', 'Je m’appelle Sam. Je suis en classe de français. Je suis content aujourd’hui. Mon ami est Léo. Nous disons bonjour et apprenons des mots nouveaux.']
+        : ['Une histoire de classe', `C’est un texte court sur ${topic}. Deux élèves parlent, écoutent et utilisent les nouveaux mots de la classe.`, 'Un petit message', `Un élève écrit un petit message sur ${topic}. Le message utilise les mots simples de l’unité.`],
+      italian: firstA1
+        ? ['Ana e Leo si presentano', 'Ana è nuova in classe. Ana dice ciao. Leo sorride e dice ciao anche lui. Leo dice il suo nome ad Ana. L’insegnante accoglie la classe. Ana e Leo sono seduti insieme. Fanno lo spelling dei loro nomi. Alla fine dicono arrivederci.', 'Il mio cartellino', 'Mi chiamo Sam. Sono in classe di italiano. Oggi sono felice. Il mio amico è Leo. Diciamo ciao e impariamo parole nuove.']
+        : ['Una storia di classe', `Questo è un testo breve su ${topic}. Due studenti parlano, ascoltano e usano le parole nuove della classe.`, 'Un messaggio breve', `Uno studente scrive un messaggio breve su ${topic}. Il messaggio usa parole semplici dell’unità.`],
+      portuguese: firstA1
+        ? ['Ana e Leo se apresentam', 'Ana é nova na turma. Ana diz olá. Leo sorri e também diz olá. Leo diz o seu nome para Ana. A professora recebe a turma. Ana e Leo sentam juntos. Eles soletram os nomes. No fim, eles dizem até logo.', 'Meu cartão de nome', 'Meu nome é Sam. Eu estou na aula de português. Estou feliz hoje. Meu amigo é Leo. Nós dizemos olá e aprendemos palavras novas.']
+        : ['Uma história da aula', `Este é um texto curto sobre ${topic}. Dois estudantes falam, escutam e usam as palavras novas da aula.`, 'Uma mensagem curta', `Um estudante escreve uma mensagem curta sobre ${topic}. A mensagem usa palavras simples da unidade.`],
+      german: firstA1
+        ? ['Ana und Leo stellen sich vor', 'Ana ist neu in der Klasse. Ana sagt Hallo. Leo lächelt und sagt auch Hallo. Leo sagt Ana seinen Namen. Der Lehrer begrüßt die Klasse. Ana und Leo sitzen zusammen. Sie buchstabieren ihre Namen. Am Ende sagen sie Tschüss.', 'Meine Namenskarte', 'Ich heiße Sam. Ich bin im Deutschkurs. Heute bin ich froh. Mein Freund ist Leo. Wir sagen Hallo und lernen neue Wörter.']
+        : ['Eine einfache Klassengeschichte', `Das ist ein kurzer Text über ${topic}. Zwei Schüler sprechen, hören zu und benutzen neue Wörter aus dem Kurs.`, 'Eine kurze Nachricht', `Ein Schüler schreibt eine kurze Nachricht über ${topic}. Die Nachricht benutzt einfache Wörter aus der Einheit.`]
+    };
+    const copy = beginnerCopies[language] || beginnerCopies.english;
+    return [
+      {
+        id: 'companion-story',
+        label: `Lectura 2 · ${copy[0]}`,
+        title: copy[0],
+        description: 'Texto breve y comprensible para este nivel.',
+        text: copy[1],
+        exercises: [],
+        illustrationThemeIndex: getCompanionIllustrationThemeIndex({
+          lesson,
+          kind: 'beginner',
+          title: copy[0],
+          seedText: copy[1]
+        })
+      },
+      {
+        id: 'companion-practice',
+        label: `Lectura 3 · ${copy[2]}`,
+        title: copy[2],
+        description: 'Situación cotidiana para practicar el tema.',
+        text: copy[3],
+        exercises: [],
+        illustrationThemeIndex: getCompanionIllustrationThemeIndex({
+          lesson,
+          kind: 'beginner',
+          title: copy[2],
+          seedText: copy[3]
+        })
+      }
+    ];
+  }
+
+  const programme = READING_COMPANION_PROGRAMME[language] || READING_COMPANION_PROGRAMME.english;
+  const [culturalTitle, culturalText] = programme[(Math.max(1, unitOrder) - 1) % programme.length];
   const practiceSeed = {
     english: `A small group uses ${topic} in a real situation.`,
     spanish: `Un pequeño grupo usa ${topic} en una situación real.`,
@@ -12745,7 +12824,14 @@ function getReadingLessonForTopic(lesson) {
   if (!topic) return lesson;
   const reading = {
     ...(lesson.reading || {}),
-    ...(topic || {})
+    ...(topic || {}),
+    // `parts` belongs to the primary text. Remove it for a chosen variant;
+    // otherwise getReadingParagraphs would render the main reading again.
+    parts: topic?.parts || undefined,
+    // Topic choices without a bespoke image must not inherit the primary
+    // reading's cover. resolveReadingIllustration then selects the topic's
+    // own themed artwork through illustrationThemeIndex.
+    illustration: topic?.id === 'main-reading' ? lesson.reading?.illustration : topic?.illustration || null
   };
   // Legacy lessons deliberately keep their complete original reading. The
   // topic changes the practical lens, while authored variants replace the
@@ -17847,17 +17933,17 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
             <div class="vocab-card-target-row">
               <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
               ${
+                item.phonetic
+                  ? `<span class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</span>`
+                  : ''
+              }
+              ${frontSupportHtml}
+              ${
                 canSpeak
                   ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
                   : ''
               }
             </div>
-            ${frontSupportHtml}
-            ${
-              item.phonetic
-                ? `<div class="vocab-card-pronunciation"><p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p></div>`
-                : ''
-            }
             ${
               conciseDefinition ||
               (item.learningMode === 'direct' && (item.simpleDefinition || item.definition))
@@ -21693,16 +21779,26 @@ function loadLearningPath(options = {}) {
 }
 
 async function performLearningPathLoad(options = {}) {
+  // Keep a stable identity for this request.  The Reading library can switch
+  // language while the preceding request is still fetching; without this
+  // snapshot, the late response replaced the newly selected language's
+  // lessons.  That produced, for example, English readings with Italian
+  // companion titles.
+  const requestedLanguage = options.language || learningPathState.language;
+  const requestedLevel = normalizeCourseLevel(
+    requestedLanguage,
+    options.level || learningPathState.level
+  );
+  const isCurrentRequest = () =>
+    learningPathState.language === requestedLanguage &&
+    learningPathState.level === requestedLevel;
   // Changing language or level always invalidates whatever reading is
   // currently attached to the audio player, even if the user isn't on
   // the Reading view right now - no reading audio should keep playing
   // in the background across a language/level switch.
   readingSpeechPlayer.teardown();
-  learningPathState.language = options.language || learningPathState.language;
-  learningPathState.level = normalizeCourseLevel(
-    learningPathState.language,
-    options.level || learningPathState.level
-  );
+  learningPathState.language = requestedLanguage;
+  learningPathState.level = requestedLevel;
   syncCourseLevelSelect(document.getElementById('pathLevelSelect'), learningPathState.language);
   syncLearningMode();
   applyInterfaceLanguage(learningPathState.bridgeLanguage);
@@ -21724,6 +21820,7 @@ async function performLearningPathLoad(options = {}) {
     // should not prevent an online learner from opening the route.
     console.warn(error.message);
   }
+  if (!isCurrentRequest()) return;
   learningPathState.units = getUnitsForLanguageLevel(
     learningPathState.language,
     learningPathState.level
@@ -21788,6 +21885,7 @@ async function performLearningPathLoad(options = {}) {
       headers: authHeaders()
     });
     const data = await response.json().catch(() => ({}));
+    if (!isCurrentRequest()) return;
     if (!response.ok) throw new Error(data.error || 'Could not load lessons');
 
     const loadedLessons = data.lessons?.length
@@ -21805,16 +21903,19 @@ async function performLearningPathLoad(options = {}) {
       .filter((lesson) => !learningPathState.units.length || lesson.unitId)
       .map((lesson) => (hasFullRouteAccess() ? { ...lesson, locked: false } : lesson));
     await loadUnitVerbProgress();
+    if (!isCurrentRequest()) return;
     applyLoadedSelection();
     updatePathLessonSelect(learningPathState.unitId || options.restoreUnitId);
     renderLearningPath();
   } catch (error) {
+    if (!isCurrentRequest()) return;
     console.warn('Could not load learning path from backend, using local content', error);
     learningPathState.lessons = getLocalFallbackLessons(
       learningPathState.language,
       learningPathState.level
     );
     await loadUnitVerbProgress();
+    if (!isCurrentRequest()) return;
     applyLoadedSelection();
     updatePathLessonSelect(learningPathState.unitId || options.restoreUnitId);
     renderLearningPath();
