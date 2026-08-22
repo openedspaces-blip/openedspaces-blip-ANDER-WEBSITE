@@ -5336,7 +5336,7 @@ footer small {
 /* Compact desktop: keep the complete member navigation on one slim row.
    This range commonly appears on laptops and on wide monitors using browser
    zoom, where the previous two-row header consumed too much reading space. */
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1180px) {
   .navbar {
     grid-template-columns: minmax(245px, 1fr) auto auto;
     grid-template-areas: 'brand menu actions';
