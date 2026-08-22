@@ -17985,8 +17985,7 @@ let vocabL1TranslationVisible = true;
 let vocabTranslationLessonSlug = '';
 const vocabularyCatalogueFilters = {
   search: '',
-  mastery: 'all',
-  category: 'all'
+  mastery: 'all'
 };
 const vocabL1TranslationCache = new Map();
 const vocabL1TranslationRequests = new Set();
@@ -18356,7 +18355,9 @@ function getUsefulVocabularyExpressions(lesson, cards) {
             .toLocaleLowerCase()
         ]
       : null;
-  if (a1Expressions?.length) return a1Expressions.map((text) => ({ text, explanation: '' }));
+  if (a1Expressions?.length) {
+    return a1Expressions.map(([text, translation]) => ({ text, translation, explanation: '' }));
+  }
   const unitKey = lesson.unitId || lesson.unitSlug || lesson.slug;
   const relatedLessons = (learningPathState.lessons || []).filter(
     (candidate) => (candidate.unitId || candidate.unitSlug || candidate.slug) === unitKey
@@ -18366,9 +18367,10 @@ function getUsefulVocabularyExpressions(lesson, cards) {
     .flatMap((candidate) => candidate.phrases || [])
     .map((phrase) =>
       typeof phrase === 'string'
-        ? { text: phrase, explanation: '' }
+        ? { text: phrase, translation: '', explanation: '' }
         : {
             text: phrase?.text || phrase?.expression || phrase?.phrase || '',
+            translation: phrase?.translation || phrase?.spanish || phrase?.meaning || '',
             explanation: phrase?.explanation || phrase?.meaning || phrase?.note || ''
           }
     )
@@ -18379,10 +18381,11 @@ function getUsefulVocabularyExpressions(lesson, cards) {
   // Their authored example sentences become the closing expressions. Use
   // those first, rather than the generated helper contexts on flashcards.
   const seen = new Set();
-  const examples = cards.map((card) => ({ text: card.example || '', explanation: '' }));
+  const examples = cards.map((card) => ({ text: card.example || '', translation: '', explanation: '' }));
   const contexts = cards.flatMap((card) =>
     (card.contexts || []).map((context) => ({
       text: context.targetText || '',
+      translation: context.supportText || '',
       explanation: context.supportText || ''
     }))
   );
@@ -18485,6 +18488,43 @@ const CURATED_VOCABULARY_BANKS = {
     ['Nationality', 'Nacionalidad', 'Presentación'],
     ['English', 'Inglés', 'Personas y aula']
   ]
+};
+
+// These are reviewed IPA forms for the foundational English greeting bank.
+// They stay in the vocabulary source instead of being guessed from spelling.
+// The same record can also carry short, natural contexts when an entry needs
+// more than the lesson's own example.
+const CURATED_ENGLISH_A1_VOCABULARY_DETAILS = {
+  hello: { phonetic: '/həˈloʊ/', contexts: ['Hello! Can I help you with something?', 'Hello, are you new here?'] },
+  hi: { phonetic: '/haɪ/', contexts: ['Hi, Maya! How are you today?', 'Hi! I am in your English class.'] },
+  'good morning': { phonetic: '/ɡʊd ˈmɔːrnɪŋ/', contexts: ['Good morning! Did you sleep well?', 'Good morning, the bus is here.'] },
+  'good afternoon': { phonetic: '/ɡʊd ˌæftərˈnuːn/', contexts: ['Good afternoon, Mr. Ruiz. How are you?', 'Good afternoon! Our class starts at two.'] },
+  'good evening': { phonetic: '/ɡʊd ˈiːvnɪŋ/', contexts: ['Good evening. Do you have a table for two?', 'Good evening, everyone. Welcome to the meeting.'] },
+  goodbye: { phonetic: '/ˌɡʊdˈbaɪ/', contexts: ['Goodbye, Ana. See you tomorrow!', 'I say goodbye before I leave the office.'] },
+  'see you later': { phonetic: '/siː juː ˈleɪtər/', contexts: ['I have class now. See you later!', 'See you later at the café after school.'] },
+  please: { phonetic: '/pliːz/' },
+  'thank you': { phonetic: '/θæŋk juː/' },
+  "you're welcome": { phonetic: '/jʊr ˈwelkəm/' },
+  'excuse me': { phonetic: '/ɪkˈskjuːz miː/' },
+  sorry: { phonetic: '/ˈsɑːri/' },
+  yes: { phonetic: '/jes/' },
+  no: { phonetic: '/noʊ/' },
+  name: { phonetic: '/neɪm/' },
+  'first name': { phonetic: '/fɝːst neɪm/' },
+  'last name': { phonetic: '/læst neɪm/' },
+  teacher: { phonetic: '/ˈtiːtʃər/' },
+  student: { phonetic: '/ˈstuːdənt/' },
+  class: { phonetic: '/klæs/' },
+  friend: { phonetic: '/frend/' },
+  new: { phonetic: '/nuː/' },
+  nice: { phonetic: '/naɪs/' },
+  meet: { phonetic: '/miːt/' },
+  'how are you?': { phonetic: '/haʊ ɑːr juː/' },
+  'where are you from?': { phonetic: '/wer ɑːr juː frʌm/' },
+  "i'm from…": { phonetic: '/aɪm frʌm/' },
+  country: { phonetic: '/ˈkʌntri/' },
+  nationality: { phonetic: '/ˌnæʃəˈnæləti/' },
+  english: { phonetic: '/ˈɪŋɡlɪʃ/' }
 };
 
 // A1 must never be padded with names or isolated fragments from a reading.
@@ -18759,39 +18799,39 @@ const CURATED_ENGLISH_A1_ADDITIONS = {
 
 const CURATED_ENGLISH_A1_EXPRESSIONS = {
   'greeting words': [
-    'Hello! Nice to meet you.',
-    'How are you today?',
-    'I am from the Dominican Republic.',
-    'Please, can you help me?',
-    'Thank you. You’re welcome.'
+    ['Hello! Nice to meet you.', '¡Hola! Mucho gusto.'],
+    ['How are you today?', '¿Cómo estás hoy?'],
+    ['I am from the Dominican Republic.', 'Soy de la República Dominicana.'],
+    ['Please, can you help me?', 'Por favor, ¿puedes ayudarme?'],
+    ['Thank you. You’re welcome.', 'Gracias. De nada.']
   ],
   'feelings and countries': [
-    'I am happy today.',
-    'I am from Santo Domingo.',
-    'How do you feel?',
-    'I speak Spanish and English.',
-    'Welcome to my country.'
+    ['I am happy today.', 'Estoy feliz hoy.'],
+    ['I am from Santo Domingo.', 'Soy de Santo Domingo.'],
+    ['How do you feel?', '¿Cómo te sientes?'],
+    ['I speak Spanish and English.', 'Hablo español e inglés.'],
+    ['Welcome to my country.', 'Bienvenido a mi país.']
   ],
   'family members': [
-    'This is my family.',
-    'She is my sister.',
-    'We live together.',
-    'I love my grandparents.',
-    'Do you have a pet?'
+    ['This is my family.', 'Esta es mi familia.'],
+    ['She is my sister.', 'Ella es mi hermana.'],
+    ['We live together.', 'Vivimos juntos.'],
+    ['I love my grandparents.', 'Amo a mis abuelos.'],
+    ['Do you have a pet?', '¿Tienes una mascota?']
   ],
   'school objects and subjects': [
-    'Open your book, please.',
-    'I have a new notebook.',
-    'What is your favorite subject?',
-    'Write the answer here.',
-    'Listen to the teacher.'
+    ['Open your book, please.', 'Abre tu libro, por favor.'],
+    ['I have a new notebook.', 'Tengo un cuaderno nuevo.'],
+    ['What is your favorite subject?', '¿Cuál es tu asignatura favorita?'],
+    ['Write the answer here.', 'Escribe la respuesta aquí.'],
+    ['Listen to the teacher.', 'Escucha al profesor.']
   ],
   'daily actions': [
-    'I wake up at seven.',
-    'I go to school every day.',
-    'I have dinner at home.',
-    'What time do you go to bed?',
-    'I usually study in the evening.'
+    ['I wake up at seven.', 'Me despierto a las siete.'],
+    ['I go to school every day.', 'Voy a la escuela todos los días.'],
+    ['I have dinner at home.', 'Ceno en casa.'],
+    ['What time do you go to bed?', '¿A qué hora te acuestas?'],
+    ['I usually study in the evening.', 'Normalmente estudio por la noche.']
   ]
 };
 
@@ -18818,16 +18858,24 @@ function getCuratedVocabularyBank(lesson) {
         ]
       : null);
   if (!entries) return null;
-  return entries.map(([word, translation, category]) => ({
-    word,
-    translation,
-    category,
-    source: 'authored-unit-vocabulary',
-    contexts: [
-      { targetText: `${word}${/[?.!]$/.test(word) ? '' : '.'}` },
-      { targetText: `Use “${word}” in a short conversation.` }
-    ]
-  }));
+  return entries.map(([word, translation, category]) => {
+    const detail =
+      lesson.level === 'A1' && learningPathState.language === 'english'
+        ? CURATED_ENGLISH_A1_VOCABULARY_DETAILS[String(word).trim().toLocaleLowerCase()] || {}
+        : {};
+    const practicalContexts = detail.contexts || getVocabularyExampleFallbacks(word, '', learningPathState.language);
+    return {
+      word,
+      translation,
+      category,
+      phonetic: detail.phonetic || '',
+      source: 'authored-unit-vocabulary',
+      // Never fall back to the repeated “Use X in a short conversation”
+      // template. An entry with no verified context stays concise instead of
+      // showing a fabricated sentence.
+      contexts: practicalContexts.map((targetText) => ({ targetText }))
+    };
+  });
 }
 
 function buildVocabularyUnitBank(lesson) {
@@ -18918,34 +18966,62 @@ function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
     </section>`;
 }
 
-function renderVocabularyCardsByCategory(cards, order, { canSpeak, isFrench }) {
-  const groups = new Map();
-  order.forEach((cardIndex) => {
-    const card = cards[cardIndex];
-    if (!card) return;
-    const category = String(card.category || 'Palabras clave').trim() || 'Palabras clave';
-    if (!groups.has(category)) groups.set(category, []);
-    groups.get(category).push(card);
-  });
-  return [...groups.entries()]
-    .map(
-      ([category, groupCards]) => `
-        <section class="vocab-category-group" aria-label="${escapeHtml(category)}">
-          <div class="vocab-category-group-heading">
-            <span>${escapeHtml(category)}</span>
-            <small>${groupCards.length} ${groupCards.length === 1 ? 'palabra' : 'palabras'}</small>
-          </div>
-          <div class="vocab-card-deck">
-            ${groupCards
-              .map((card) =>
-                renderVocabCardHtml(
-                  { ...card, _displayIndex: cards.indexOf(card) },
-                  { canSpeak, isFrench, showL1Translation: true }
-                )
-              )
-              .join('')}
-          </div>
-        </section>`
+function buildVocabularyExpressionCards(lesson, cards) {
+  const targetLanguage = learningPathState.language;
+  const level = lesson.level || learningPathState.level || '';
+  return getUsefulVocabularyExpressions(lesson, cards)
+    .map((expression, index) => {
+      const targetWord = String(expression.text || '').trim();
+      const translation = String(expression.translation || expression.explanation || '').trim();
+      if (!targetWord || !translation) return null;
+      return {
+        id: `${lesson.slug}-expression-${index}-${slugifyVocabWord(targetWord)}`,
+        targetWord,
+        translation,
+        example: '',
+        contexts: [],
+        phonetic: '',
+        audioText: targetWord,
+        category: 'expression',
+        masteryStatus: getStoredVocabMastery(`${lesson.slug}-expression-${index}-${slugifyVocabWord(targetWord)}`) || 'new',
+        level,
+        language: targetLanguage,
+        bridgeLanguage: 'spanish',
+        targetLanguage,
+        pronunciationLocale: getPronunciationLocale(targetLanguage),
+        pronunciationRate: getDefaultPronunciationRate(targetLanguage, level),
+        learningMode: 'bilingual',
+        isAdvancedDirect: false,
+        l1Translation: '',
+        definition: '',
+        simpleDefinition: '',
+        synonyms: [],
+        opposites: [],
+        usageNote: '',
+        image: '',
+        imageAlt: '',
+        isExpressionCard: true
+      };
+    })
+    .filter(Boolean);
+}
+
+function renderVocabularyCardDeck(cards, order, expressionCards, { canSpeak, isFrench }) {
+  const words = order
+    .map((cardIndex) => cards[cardIndex])
+    .filter(Boolean)
+    .map((card) => ({ ...card, _displayIndex: cards.indexOf(card) }));
+  const expressions = expressionCards.map((card, index) => ({
+    ...card,
+    _displayIndex: cards.length + index
+  }));
+  return [...words, ...expressions]
+    .map((card) =>
+      renderVocabCardHtml(card, {
+        canSpeak,
+        isFrench,
+        showL1Translation: true
+      })
     )
     .join('');
 }
@@ -19070,9 +19146,8 @@ function renderVocabularyView(section, lesson) {
   const catalogueTotal = cards.length;
   const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
   const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
-  const categories = [
-    ...new Set(cards.map((card) => String(card.category || '').trim()).filter(Boolean))
-  ];
+  const expressionCards = buildVocabularyExpressionCards(lesson, cards);
+  const catalogueCardCount = cards.length + expressionCards.length;
 
   content.innerHTML = `
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
@@ -19082,7 +19157,6 @@ function renderVocabularyView(section, lesson) {
       </div>
       <div class="vocab-catalogue-toolbar no-print">
         <label class="vocab-catalogue-search"><span>Buscar</span><input type="search" class="vocab-catalogue-search-input" value="${escapeHtml(vocabularyCatalogueFilters.search)}" placeholder="Buscar una palabra…" autocomplete="off"></label>
-        <label class="vocab-catalogue-category"><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
       </div>
       <div class="vocab-catalogue-filter-row no-print">
         <span class="vocab-catalogue-active-level">${catalogueContextLabel}: <strong>${escapeHtml(lesson.level)}</strong>${isRouteVocabulary ? '' : ' · Puedes cambiar idioma y nivel libremente.'}</span>
@@ -19100,7 +19174,7 @@ function renderVocabularyView(section, lesson) {
             .join('')}
         </div>
       </div>
-      <div class="vocab-catalogue-progress"><span><strong>${escapeHtml(lesson.level)}</strong> · ${masteryPercent}% dominado</span><div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${masteryPercent}"><i style="width:${masteryPercent}%"></i></div><small class="vocab-catalogue-visible-count">${cards.length} palabras</small></div>
+      <div class="vocab-catalogue-progress"><span><strong>${escapeHtml(lesson.level)}</strong> · ${masteryPercent}% dominado</span><div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${masteryPercent}"><i style="width:${masteryPercent}%"></i></div><small class="vocab-catalogue-visible-count">${catalogueCardCount} tarjetas</small></div>
     </section>
     <section class="saved-reading-vocabulary" aria-live="polite" hidden>
       <p class="skill-graph-empty">${french ? 'Chargement des mots enregistrés depuis Reading…' : 'Cargando palabras guardadas desde Reading…'}</p>
@@ -19116,9 +19190,8 @@ function renderVocabularyView(section, lesson) {
       }
     </div>
     <div class="vocab-catalogue-deck">
-      ${renderVocabularyCardsByCategory(cards, vocabCardOrder, { canSpeak, isFrench })}
+      ${renderVocabularyCardDeck(cards, vocabCardOrder, expressionCards, { canSpeak, isFrench })}
     </div>
-    ${renderUsefulVocabularyExpressionsHtml(lesson, cards)}
     <div class="skill-view-tutor-cta no-print">
       <button type="button" class="primary-btn vocab-practice-start-btn">${french ? 'Pratiquer' : 'Practicar'} ${getVocabularyPracticeCount(lesson.level)} ${french ? 'mots' : 'palabras'}</button>
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
@@ -19195,19 +19268,13 @@ function applyVocabularyCatalogueFilters(section) {
       vocabularyCatalogueFilters.mastery === 'all' ||
       mastery === vocabularyCatalogueFilters.mastery ||
       (vocabularyCatalogueFilters.mastery === 'practicing' && mastery === 'learning');
-    const matchesCategory =
-      vocabularyCatalogueFilters.category === 'all' ||
-      card.dataset.vocabCategory === vocabularyCatalogueFilters.category;
     const matchesSearch = !search || (card.dataset.vocabWord || '').includes(search);
-    const matches = matchesMastery && matchesCategory && matchesSearch;
+    const matches = matchesMastery && matchesSearch;
     card.hidden = !matches;
     if (matches) visible += 1;
   });
-  section.querySelectorAll('.vocab-category-group').forEach((group) => {
-    group.hidden = !group.querySelector('.vocab-card:not([hidden])');
-  });
   const counter = section.querySelector('.vocab-catalogue-visible-count');
-  if (counter) counter.textContent = `${visible} ${visible === 1 ? 'palabra' : 'palabras'}`;
+  if (counter) counter.textContent = `${visible} ${visible === 1 ? 'tarjeta' : 'tarjetas'}`;
   section.querySelectorAll('[data-vocab-mastery]').forEach((button) => {
     const active = button.dataset.vocabMastery === vocabularyCatalogueFilters.mastery;
     button.classList.toggle('is-active', active);
@@ -19334,12 +19401,6 @@ document.addEventListener('click', (event) => {
 document.addEventListener('input', (event) => {
   if (!event.target.matches('.vocab-catalogue-search-input')) return;
   vocabularyCatalogueFilters.search = event.target.value || '';
-  applyVocabularyCatalogueFilters(event.target.closest('.skill-view-section'));
-});
-
-document.addEventListener('change', (event) => {
-  if (!event.target.matches('.vocab-catalogue-category-filter')) return;
-  vocabularyCatalogueFilters.category = event.target.value || 'all';
   applyVocabularyCatalogueFilters(event.target.closest('.skill-view-section'));
 });
 
