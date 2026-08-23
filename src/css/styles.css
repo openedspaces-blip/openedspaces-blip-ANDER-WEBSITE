@@ -34877,6 +34877,28 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   white-space: nowrap;
 }
 
+/* Reading Library: a quiet bookshelf watermark gives the catalogue its own
+   place without competing with the titles, level controls or reading cards. */
+.reading-library-section {
+  background:
+    radial-gradient(circle at 86% 14%, rgba(27, 142, 220, 0.12), transparent 27%),
+    linear-gradient(135deg, #f5f8ff 0%, #fff 52%, #eef7ff 100%);
+}
+
+.reading-library-stage {
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='620' height='350' viewBox='0 0 620 350'%3E%3Cg fill='none' stroke='%232565d8' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.18'%3E%3Cpath d='M50 92h520M50 198h520M50 304h520'/%3E%3Cpath d='M78 90V34h35v56M124 90V22h46v68M182 90V42h30v48M223 90V16h52v74M287 90V34h37v56M336 90V25h48v65M398 90V44h31v46M440 90V18h55v72M508 90V39h34v51M93 196v-54h39v54M144 196v-69h51v69M207 196v-46h34v46M255 196v-61h45v61M314 196v-50h30v50M356 196v-73h57v73M428 196v-48h37v48M477 196v-65h46v65M93 302v-58h47v58M152 302v-44h32v44M196 302v-69h55v69M266 302v-54h40v54M320 302v-71h56v71M390 302v-49h34v49M436 302v-65h51v65M500 302v-52h35v52'/%3E%3Cpath d='M78 32c11-9 24-9 35 0M124 20c15-12 31-12 46 0M440 16c16-12 35-12 55 0M207 125c16-11 34-11 51 0M356 121c18-13 39-13 57 0M196 246c18-13 37-13 55 0M320 244c19-13 38-13 56 0'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat, repeat;
+  background-position: center, center 2.2rem;
+  background-size: auto, 620px 350px;
+}
+
+.reading-library-stage .reading-library-cards {
+  position: relative;
+}
+
 @media (max-width: 640px) {
   .skill-view-section.is-route-activity .skill-view-actions {
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
@@ -34893,4 +34915,319 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     padding-inline: 0.48rem;
     font-size: 0.7rem;
   }
+}
+
+/* Vocabulary catalogue: make the learning relationship scannable in one
+   compact card — L2 word, phonetics, L1 meaning and sound; then two usable
+   contexts. Three columns are retained wherever there is desktop/tablet room. */
+@media (min-width: 761px) {
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='A1'],
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='A2'],
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'],
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] {
+  height: auto;
+  min-height: 128px;
+  border-radius: 12px;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-front {
+  gap: 0.22rem;
+  padding: 0.42rem 0.48rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
+  display: grid;
+  grid-template-columns: minmax(0, max-content) minmax(0, 0.72fr) minmax(0, 1fr) 1.28rem;
+  align-items: center;
+  gap: 0.24rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-target,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-target {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  color: #132649;
+  font-size: 0.78rem;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-phonetic,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-phonetic {
+  min-width: 0;
+  max-width: none;
+  overflow: hidden;
+  color: #667794;
+  font-size: 0.56rem;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-front-support,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-front-support {
+  min-width: 0;
+  max-width: none;
+  margin: 0;
+  overflow: hidden;
+  color: #2563eb;
+  font-size: 0.62rem;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn {
+  width: 1.28rem;
+  height: 1.28rem;
+  min-height: 1.28rem;
+  margin: 0;
+  padding: 0;
+  font-size: 0.55rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-catalogue-examples {
+  gap: 0.14rem;
+  margin-top: 0.16rem;
+  padding-top: 0.26rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-catalogue-examples li,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-catalogue-examples li,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-catalogue-examples li {
+  grid-template-columns: 0.82rem minmax(0, 1fr);
+  gap: 0.22rem;
+  font-size: 0.56rem;
+  line-height: 1.18;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-catalogue-examples li > span,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-catalogue-examples li > span,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-catalogue-examples li > span {
+  width: 0.82rem;
+  height: 0.82rem;
+  font-size: 0.46rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-catalogue-example-audio {
+  width: 0.92rem;
+  height: 0.92rem;
+  margin-left: 0.12rem;
+  font-size: 0.44rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-footer {
+  margin-top: 0.18rem;
+  padding-top: 0.24rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-catalogue-actions {
+  gap: 0.2rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-catalogue-actions button {
+  height: 19px;
+  min-height: 19px;
+  padding: 0.06rem 0.24rem;
+  border-radius: 6px;
+  font-size: 0.48rem;
+}
+
+@media (max-width: 760px) {
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
+    grid-template-columns: minmax(0, max-content) minmax(0, 0.74fr) minmax(0, 1fr) 1.38rem;
+  }
+}
+
+/* Grammar overview: a short, predictable learning map before the exercise.
+   The topic is centred; every learner sees definition, use, examples and
+   the available interactive work without scanning a long introductory card. */
+.grammar-test-card .grammar-test-hero {
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.1rem 0;
+  text-align: center;
+}
+
+.grammar-test-card .grammar-test-hero-icon {
+  width: 2rem;
+  height: 2rem;
+  flex-basis: 2rem;
+  border-radius: 9px;
+  font-size: 0.92rem;
+}
+
+.grammar-test-card .grammar-test-hero h3 {
+  font-size: 1.02rem;
+}
+
+.grammar-test-card .grammar-test-hero > div > p:last-child {
+  display: none;
+}
+
+.grammar-lesson-block--overview {
+  display: grid;
+  gap: 0.52rem;
+  margin: 0.7rem 0;
+  padding: 0.78rem;
+  border-color: #dbe7fb;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #fbfdff, #f5f9ff);
+  box-shadow: none;
+}
+
+.grammar-overview-topic {
+  display: grid;
+  gap: 0.14rem;
+  text-align: center;
+}
+
+.grammar-overview-topic small,
+.grammar-overview-topic h4,
+.grammar-overview-core h5,
+.grammar-overview-core p,
+.grammar-overview-examples h5,
+.grammar-overview-examples p,
+.grammar-overview-exercises h5,
+.grammar-overview-exercises p {
+  margin: 0;
+}
+
+.grammar-overview-topic small {
+  color: #2563eb;
+  font-size: 0.56rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.grammar-overview-topic h4 {
+  color: #13264a;
+  font-size: clamp(1rem, 1.8vw, 1.28rem);
+  line-height: 1.12;
+}
+
+.grammar-overview-core {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.46rem;
+}
+
+.grammar-overview-core article,
+.grammar-overview-examples,
+.grammar-overview-exercises {
+  min-width: 0;
+  padding: 0.52rem 0.58rem;
+  border: 1px solid #e0eafb;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.grammar-overview-core h5,
+.grammar-overview-examples h5,
+.grammar-overview-exercises h5 {
+  margin-bottom: 0.23rem;
+  color: #2563eb;
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.grammar-overview-core p,
+.grammar-overview-exercises p {
+  color: #42536f;
+  font-size: 0.68rem;
+  line-height: 1.3;
+}
+
+.grammar-overview-pattern {
+  margin-top: 0.28rem !important;
+  color: #1e4f9f !important;
+  font-weight: 760;
+}
+
+.grammar-overview-examples ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.24rem 0.38rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.grammar-overview-examples li {
+  display: grid;
+  grid-template-columns: 0.8rem minmax(0, 1fr);
+  gap: 0.22rem;
+  align-items: start;
+  color: #31415c;
+  font-size: 0.6rem;
+  line-height: 1.22;
+}
+
+.grammar-overview-examples li > span {
+  display: grid;
+  width: 0.8rem;
+  height: 0.8rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #e8f1ff;
+  color: #2563eb;
+  font-size: 0.44rem;
+  font-weight: 900;
+}
+
+.grammar-overview-exercises {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.55rem;
+  border-color: #d6e6ff;
+  background: #edf5ff;
+}
+
+.grammar-overview-exercises > span {
+  flex: 0 0 auto;
+  color: #1f5ec7;
+  font-size: 0.66rem;
+  font-weight: 850;
+}
+
+.grammar-overview-forms {
+  color: #53647f;
+  font-size: 0.65rem;
+}
+
+.grammar-overview-forms summary {
+  cursor: pointer;
+  color: #3468bc;
+  font-weight: 800;
+}
+
+.grammar-overview-forms div {
+  display: grid;
+  gap: 0.28rem;
+  margin-top: 0.36rem;
+}
+
+.grammar-overview-forms p { margin: 0; }
+
+@media (max-width: 640px) {
+  .grammar-test-card .grammar-test-hero { justify-content: flex-start; text-align: left; }
+  .grammar-overview-core,
+  .grammar-overview-examples ol { grid-template-columns: 1fr; }
+  .grammar-overview-examples li { font-size: 0.68rem; }
 }

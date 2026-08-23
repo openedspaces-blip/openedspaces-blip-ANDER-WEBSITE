@@ -6252,11 +6252,55 @@ function getReadingLibraryFreeCopy(level) {
     : 'Free incluye las unidades 1–2 de este nivel (sus tres lecturas).';
 }
 
+const READING_LIBRARY_COPY = Object.freeze({
+  english: {
+    eyebrow: 'READING LIBRARY', choose: 'Choose your reading', language: 'Language', level: 'Level',
+    title: 'English Readings', intro: (count) => `Explore all ${count} readings at this level and open the one you want to practise.`,
+    available: (count) => `${count} readings available`, list: 'Complete level list in three columns.',
+    unit: 'Unit', open: 'Open reading →', free: (level) => `Free includes units 1–3 of ${level} (all three readings).`
+  },
+  spanish: {
+    eyebrow: 'BIBLIOTECA DE LECTURAS', choose: 'Elige tu lectura', language: 'Idioma', level: 'Nivel',
+    title: 'Lecturas en español', intro: (count) => `Explora las ${count} lecturas de este nivel y abre la que quieras practicar.`,
+    available: (count) => `${count} lecturas disponibles`, list: 'Lista completa del nivel en tres columnas.',
+    unit: 'Unidad', open: 'Abrir lectura →', free: (level) => `Free incluye las unidades 1–3 de ${level} (sus tres lecturas).`
+  },
+  french: {
+    eyebrow: 'BIBLIOTHÈQUE DE LECTURES', choose: 'Choisissez votre lecture', language: 'Langue', level: 'Niveau',
+    title: 'Lectures en français', intro: (count) => `Explorez les ${count} lectures de ce niveau et ouvrez celle que vous voulez pratiquer.`,
+    available: (count) => `${count} lectures disponibles`, list: 'Liste complète du niveau en trois colonnes.',
+    unit: 'Unité', open: 'Ouvrir la lecture →', free: (level) => `Free inclut les unités 1–3 de ${level} (les trois lectures).`
+  },
+  italian: {
+    eyebrow: 'BIBLIOTECA DI LETTURE', choose: 'Scegli la tua lettura', language: 'Lingua', level: 'Livello',
+    title: 'Letture in italiano', intro: (count) => `Esplora le ${count} letture di questo livello e apri quella che vuoi praticare.`,
+    available: (count) => `${count} letture disponibili`, list: 'Elenco completo del livello in tre colonne.',
+    unit: 'Unità', open: 'Apri lettura →', free: (level) => `Free include le unità 1–3 di ${level} (tutte e tre le letture).`
+  },
+  portuguese: {
+    eyebrow: 'BIBLIOTECA DE LEITURAS', choose: 'Escolha sua leitura', language: 'Idioma', level: 'Nível',
+    title: 'Leituras em português', intro: (count) => `Explore as ${count} leituras deste nível e abra a que quiser praticar.`,
+    available: (count) => `${count} leituras disponíveis`, list: 'Lista completa do nível em três colunas.',
+    unit: 'Unidade', open: 'Abrir leitura →', free: (level) => `Free inclui as unidades 1–3 de ${level} (as três leituras).`
+  },
+  german: {
+    eyebrow: 'LESEBIBLIOTHEK', choose: 'Wähle deinen Lesetext', language: 'Sprache', level: 'Niveau',
+    title: 'Lesetexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Lesetexte dieses Niveaus und öffne den Text, den du üben möchtest.`,
+    available: (count) => `${count} Lesetexte verfügbar`, list: 'Vollständige Niveauliste in drei Spalten.',
+    unit: 'Einheit', open: 'Lesetext öffnen →', free: (level) => `Free enthält die Einheiten 1–3 von ${level} (alle drei Lesetexte).`
+  }
+});
+
+function getReadingLibraryCopy(language) {
+  return READING_LIBRARY_COPY[language] || READING_LIBRARY_COPY.english;
+}
+
 function renderReadingLibrary() {
   const host = document.getElementById('readingLibraryContent');
   if (!host) return;
   const language = learningPathState.language;
   const level = learningPathState.level;
+  const copy = getReadingLibraryCopy(language);
   if (!learningPathState.lessons.length) {
     host.innerHTML = '<p class="skill-graph-empty">Preparando biblioteca de lecturas…</p>';
     loadLearningPath({ language, level })
@@ -6307,22 +6351,22 @@ function renderReadingLibrary() {
   host.innerHTML = `
     <div class="tests-shell reading-library-layout">
       <aside class="tests-sidebar reading-library-sidebar" aria-label="Seleccionar lecturas">
-        <span class="tests-eyebrow">Biblioteca de lecturas</span>
-        <h3>Elige tu lectura</h3>
-        <label>Idioma<select id="readingLibraryLanguage">${languageOptions}</select></label>
-        <label>Nivel<select id="readingLibraryLevel">${levelOptions}</select></label>
+        <span class="tests-eyebrow">${escapeHtml(copy.eyebrow)}</span>
+        <h3>${escapeHtml(copy.choose)}</h3>
+        <label>${escapeHtml(copy.language)}<select id="readingLibraryLanguage">${languageOptions}</select></label>
+        <label>${escapeHtml(copy.level)}<select id="readingLibraryLevel">${levelOptions}</select></label>
         <div class="tests-spec">
           <strong>${escapeHtml(languageDisplayNames[language])} · ${escapeHtml(level)}</strong>
-          <span>${readingEntries.length} lecturas disponibles</span>
-          <span>Lista completa del nivel en tres columnas.</span>
+          <span>${escapeHtml(copy.available(readingEntries.length))}</span>
+          <span>${escapeHtml(copy.list)}</span>
         </div>
-        <p class="reading-library-access-note">${escapeHtml(getReadingLibraryFreeCopy(level))}</p>
+        <p class="reading-library-access-note">${escapeHtml(copy.free(level))}</p>
       </aside>
       <article class="tests-stage reading-library-stage">
         <header class="reading-library-header">
-          <span class="reading-library-kicker">LECTURAS · ${escapeHtml(level)}</span>
-          <h2 tabindex="-1">Lecturas de ${escapeHtml(languageDisplayNames[language])}</h2>
-          <p>Explora las ${readingEntries.length} lecturas de este nivel y abre la que quieras practicar.</p>
+          <span class="reading-library-kicker">${escapeHtml(copy.eyebrow)} · ${escapeHtml(level)}</span>
+          <h2 tabindex="-1">${escapeHtml(copy.title)}</h2>
+          <p>${escapeHtml(copy.intro(readingEntries.length))}</p>
         </header>
         <div class="reading-library-cards reading-library-cards--catalog">
           ${readingEntries
@@ -6330,10 +6374,10 @@ function renderReadingLibrary() {
               ({ lesson, unit, unitOrder, topic, topicOrder, locked }) => `
                 <button type="button" class="reading-library-card${locked ? ' is-locked' : ''}" data-reading-library-lesson="${escapeHtml(lesson.slug)}" data-reading-library-topic="${escapeHtml(topic.id)}" ${locked ? 'aria-label="Lectura bloqueada: disponible en Premium"' : ''}>
                   <span class="reading-library-card-index">${unitOrder}.${topicOrder}</span>
-                  <small class="reading-library-card-unit">Unidad ${unitOrder} · ${escapeHtml(unit.title || lesson.title)}</small>
+                  <small class="reading-library-card-unit">${escapeHtml(copy.unit)} ${unitOrder} · ${escapeHtml(unit.title || lesson.title)}</small>
                   <strong>${escapeHtml((topic.label || `Lectura ${topicOrder}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
                   <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
-                  <em>${locked ? 'Desbloquear con Premium →' : 'Abrir lectura →'}</em>
+                  <em>${locked ? 'Premium →' : escapeHtml(copy.open)}</em>
                 </button>`
             )
             .join('')}
@@ -12503,9 +12547,90 @@ function limitReadingWords(text, maxWords) {
 // in time, linguistic density and level of challenge to the main reading.
 function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
   const language = lesson.language || learningPathState.language || 'english';
+  const level = String(lesson.level || learningPathState.level || 'A1').toUpperCase();
+  const primaryText =
+    lesson.reading?.text ||
+    (lesson.reading?.parts || []).join('\n\n') ||
+    lesson.description ||
+    '';
+  const targetWords = readingWordCount(primaryText);
   const topic = String(lesson.title || lesson.description || '')
     .replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '')
     .trim();
+  const beginnerFrames = {
+    english: [
+      'At the start of class, everyone writes a name on a small card.',
+      'The teacher reads the cards and says each name slowly.',
+      'Two students say hello and ask a simple question.',
+      'They listen carefully and repeat the new words together.',
+      'One student spells a name with the alphabet.',
+      'A classmate listens and says the letters again.',
+      'The teacher smiles and helps when a word is difficult.',
+      'During the break, the students talk and make a new friend.',
+      'Before they leave, they say goodbye to the class.',
+      'They feel ready to return and learn more tomorrow.'
+    ],
+    spanish: [
+      'Al inicio de la clase, todos escriben un nombre en una tarjeta pequeña.',
+      'La profesora lee las tarjetas y dice cada nombre despacio.',
+      'Dos estudiantes dicen hola y hacen una pregunta sencilla.',
+      'Escuchan con atención y repiten juntos las palabras nuevas.',
+      'Un estudiante deletrea un nombre con el alfabeto.',
+      'Un compañero escucha y repite las letras.',
+      'La profesora sonríe y ayuda cuando una palabra es difícil.',
+      'Durante el descanso, los estudiantes hablan y conocen a un amigo nuevo.',
+      'Antes de salir, dicen adiós a la clase.',
+      'Se sienten listos para volver y aprender más mañana.'
+    ],
+    french: [
+      'Au début du cours, tout le monde écrit un prénom sur une petite carte.',
+      'Le professeur lit les cartes et dit chaque prénom lentement.',
+      'Deux élèves disent bonjour et posent une question simple.',
+      'Ils écoutent attentivement et répètent ensemble les mots nouveaux.',
+      'Un élève épelle un prénom avec l’alphabet.',
+      'Un camarade écoute et répète les lettres.',
+      'Le professeur sourit et aide quand un mot est difficile.',
+      'Pendant la pause, les élèves parlent et rencontrent un nouvel ami.',
+      'Avant de partir, ils disent au revoir à la classe.',
+      'Ils sont prêts à revenir et à apprendre davantage demain.'
+    ],
+    italian: [
+      'All’inizio della lezione, tutti scrivono un nome su un piccolo cartellino.',
+      'L’insegnante legge i cartellini e dice ogni nome lentamente.',
+      'Due studenti dicono ciao e fanno una domanda semplice.',
+      'Ascoltano con attenzione e ripetono insieme le parole nuove.',
+      'Uno studente fa lo spelling di un nome con l’alfabeto.',
+      'Un compagno ascolta e ripete le lettere.',
+      'L’insegnante sorride e aiuta quando una parola è difficile.',
+      'Durante la pausa, gli studenti parlano e conoscono un nuovo amico.',
+      'Prima di uscire, salutano la classe.',
+      'Sono pronti a tornare e a imparare di più domani.'
+    ],
+    portuguese: [
+      'No início da aula, todos escrevem um nome em um pequeno cartão.',
+      'A professora lê os cartões e diz cada nome devagar.',
+      'Dois estudantes dizem olá e fazem uma pergunta simples.',
+      'Eles escutam com atenção e repetem juntos as palavras novas.',
+      'Um estudante soletra um nome com o alfabeto.',
+      'Um colega escuta e repete as letras.',
+      'A professora sorri e ajuda quando uma palavra é difícil.',
+      'No intervalo, os estudantes conversam e fazem um novo amigo.',
+      'Antes de sair, eles dizem até logo para a turma.',
+      'Eles estão prontos para voltar e aprender mais amanhã.'
+    ],
+    german: [
+      'Am Anfang des Kurses schreibt jeder einen Namen auf eine kleine Karte.',
+      'Die Lehrkraft liest die Karten und sagt jeden Namen langsam.',
+      'Zwei Lernende sagen Hallo und stellen eine einfache Frage.',
+      'Sie hören gut zu und wiederholen die neuen Wörter zusammen.',
+      'Ein Lernender buchstabiert einen Namen mit dem Alphabet.',
+      'Ein Mitschüler hört zu und wiederholt die Buchstaben.',
+      'Die Lehrkraft lächelt und hilft bei einem schwierigen Wort.',
+      'In der Pause sprechen die Lernenden und finden einen neuen Freund.',
+      'Bevor sie gehen, sagen sie der Klasse Tschüss.',
+      'Sie sind bereit, morgen wiederzukommen und mehr zu lernen.'
+    ]
+  };
   const frames = {
     english:
       kind === 'culture'
@@ -12596,12 +12721,19 @@ function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
   // It makes two cards appear different while still rendering the same text.
   // A focused, original text is pedagogically preferable to artificial
   // repetition and remains appropriate for the selected CEFR level.
-  const sentences = [String(seedText || '').trim(), ...(frames[language] || frames.english)]
+  const levelFrames =
+    level === 'A1' || level === 'A2'
+      ? beginnerFrames[language] || beginnerFrames.english
+      : frames[language] || frames.english;
+  const sentences = [String(seedText || '').trim(), ...levelFrames]
     .filter(Boolean);
   const midpoint = Math.ceil(sentences.length / 2);
-  return [sentences.slice(0, midpoint).join(' '), sentences.slice(midpoint).join(' ')]
+  const companion = [sentences.slice(0, midpoint).join(' '), sentences.slice(midpoint).join(' ')]
     .filter(Boolean)
     .join('\n\n');
+  // Keep alternatives within the workload of the main reading. The limit
+  // preserves sentence boundaries, so it never creates a clipped exercise.
+  return targetWords ? limitReadingWords(companion, targetWords) : companion;
 }
 
 function getCompanionIllustrationThemeIndex({ lesson, kind, title, seedText }) {
@@ -12639,6 +12771,45 @@ function buildProgrammeReadingVariants(lesson) {
     /\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i,
     ''
   );
+  const variantCopies = {
+    english: {
+      story: 'A complete class story with simple language.',
+      practice: 'An everyday text to practise the unit topic.',
+      culture: 'A cultural celebration, tradition or public memory.',
+      realLife: 'A practical situation connected to the unit topic.'
+    },
+    spanish: {
+      story: 'Una historia completa de clase con lenguaje sencillo.',
+      practice: 'Un texto cotidiano para practicar el tema de la unidad.',
+      culture: 'Una celebración, tradición o efeméride cultural.',
+      realLife: 'Una situación práctica vinculada al tema de la unidad.'
+    },
+    french: {
+      story: 'Une histoire complète de classe en langage simple.',
+      practice: 'Un texte quotidien pour pratiquer le thème de l’unité.',
+      culture: 'Une célébration, tradition ou mémoire culturelle.',
+      realLife: 'Une situation pratique liée au thème de l’unité.'
+    },
+    italian: {
+      story: 'Una storia completa di classe con linguaggio semplice.',
+      practice: 'Un testo quotidiano per praticare il tema dell’unità.',
+      culture: 'Una festa, tradizione o memoria culturale.',
+      realLife: 'Una situazione pratica legata al tema dell’unità.'
+    },
+    portuguese: {
+      story: 'Uma história completa de aula com linguagem simples.',
+      practice: 'Um texto cotidiano para praticar o tema da unidade.',
+      culture: 'Uma celebração, tradição ou memória cultural.',
+      realLife: 'Uma situação prática ligada ao tema da unidade.'
+    },
+    german: {
+      story: 'Eine vollständige Klassengeschichte in einfacher Sprache.',
+      practice: 'Ein Alltagstext zum Üben des Themas der Einheit.',
+      culture: 'Eine kulturelle Feier, Tradition oder Erinnerung.',
+      realLife: 'Eine praktische Situation zum Thema der Einheit.'
+    }
+  };
+  const variantTextCopy = variantCopies[language] || variantCopies.english;
 
   // A1–A2 are concrete, everyday texts. Cultural history and public
   // celebrations start at B1, where learners can read them with enough
@@ -12648,31 +12819,36 @@ function buildProgrammeReadingVariants(lesson) {
     const beginnerCopies = {
       english: firstA1
         ? ['Meet Ana and Leo', 'Ana is new in class. Ana says hello. Leo smiles and says hello too. Leo tells Ana his name. Mr. Green welcomes the class. Ana and Leo sit together. They spell their names. At the end, they say goodbye.', 'My name card', 'My name is Sam. I am in English class. I am happy today. My teacher is Mr. Green. My friend is Leo. We say hello, listen to the teacher, and learn new words.']
-        : ['A simple class story', `This is a short story about ${topic}. Two students talk, listen, and use the new words from class.`, 'A short message', `A student writes a short message about ${topic}. The message uses simple words from the unit.`],
+        : [`In class: ${topic}`, `This is a short story about ${topic}. Two students talk, listen, and use the new words from class.`, `A note about ${topic}`, `A student writes a short message about ${topic}. The message uses simple words from the unit.`],
       spanish: firstA1
         ? ['Ana y Leo se presentan', 'Ana es nueva en clase. Ana dice hola. Leo sonríe y también dice hola. Leo le dice su nombre a Ana. La profesora recibe a la clase. Ana y Leo se sientan juntos. Deletrean sus nombres. Al final, dicen adiós.', 'Mi tarjeta de nombre', 'Me llamo Sam. Estoy en clase de español. Hoy estoy feliz. Mi amigo es Leo. Decimos hola y aprendemos palabras nuevas.']
-        : ['Una historia de clase', `Este es un texto corto sobre ${topic}. Dos estudiantes hablan, escuchan y usan palabras nuevas de la clase.`, 'Un mensaje corto', `Un estudiante escribe un mensaje corto sobre ${topic}. El mensaje usa palabras simples de la unidad.`],
+        : [`En clase: ${topic}`, `Este es un texto corto sobre ${topic}. Dos estudiantes hablan, escuchan y usan palabras nuevas de la clase.`, `Una nota sobre ${topic}`, `Un estudiante escribe un mensaje corto sobre ${topic}. El mensaje usa palabras simples de la unidad.`],
       french: firstA1
         ? ['Ana et Léo se présentent', 'Ana est nouvelle en classe. Ana dit bonjour. Léo sourit et dit bonjour aussi. Léo donne son prénom à Ana. Le professeur accueille la classe. Ana et Léo sont assis ensemble. Ils épellent leurs prénoms. À la fin, ils disent au revoir.', 'Ma carte de prénom', 'Je m’appelle Sam. Je suis en classe de français. Je suis content aujourd’hui. Mon ami est Léo. Nous disons bonjour et apprenons des mots nouveaux.']
-        : ['Une histoire de classe', `C’est un texte court sur ${topic}. Deux élèves parlent, écoutent et utilisent les nouveaux mots de la classe.`, 'Un petit message', `Un élève écrit un petit message sur ${topic}. Le message utilise les mots simples de l’unité.`],
+        : [`En classe : ${topic}`, `C’est un texte court sur ${topic}. Deux élèves parlent, écoutent et utilisent les nouveaux mots de la classe.`, `Un mot sur ${topic}`, `Un élève écrit un petit message sur ${topic}. Le message utilise les mots simples de l’unité.`],
       italian: firstA1
         ? ['Ana e Leo si presentano', 'Ana è nuova in classe. Ana dice ciao. Leo sorride e dice ciao anche lui. Leo dice il suo nome ad Ana. L’insegnante accoglie la classe. Ana e Leo sono seduti insieme. Fanno lo spelling dei loro nomi. Alla fine dicono arrivederci.', 'Il mio cartellino', 'Mi chiamo Sam. Sono in classe di italiano. Oggi sono felice. Il mio amico è Leo. Diciamo ciao e impariamo parole nuove.']
-        : ['Una storia di classe', `Questo è un testo breve su ${topic}. Due studenti parlano, ascoltano e usano le parole nuove della classe.`, 'Un messaggio breve', `Uno studente scrive un messaggio breve su ${topic}. Il messaggio usa parole semplici dell’unità.`],
+        : [`In classe: ${topic}`, `Questo è un testo breve su ${topic}. Due studenti parlano, ascoltano e usano le parole nuove della classe.`, `Un messaggio su ${topic}`, `Uno studente scrive un messaggio breve su ${topic}. Il messaggio usa parole semplici dell’unità.`],
       portuguese: firstA1
         ? ['Ana e Leo se apresentam', 'Ana é nova na turma. Ana diz olá. Leo sorri e também diz olá. Leo diz o seu nome para Ana. A professora recebe a turma. Ana e Leo sentam juntos. Eles soletram os nomes. No fim, eles dizem até logo.', 'Meu cartão de nome', 'Meu nome é Sam. Eu estou na aula de português. Estou feliz hoje. Meu amigo é Leo. Nós dizemos olá e aprendemos palavras novas.']
-        : ['Uma história da aula', `Este é um texto curto sobre ${topic}. Dois estudantes falam, escutam e usam as palavras novas da aula.`, 'Uma mensagem curta', `Um estudante escreve uma mensagem curta sobre ${topic}. A mensagem usa palavras simples da unidade.`],
+        : [`Na aula: ${topic}`, `Este é um texto curto sobre ${topic}. Dois estudantes falam, escutam e usam as palavras novas da aula.`, `Uma mensagem sobre ${topic}`, `Um estudante escreve uma mensagem curta sobre ${topic}. A mensagem usa palavras simples da unidade.`],
       german: firstA1
         ? ['Ana und Leo stellen sich vor', 'Ana ist neu in der Klasse. Ana sagt Hallo. Leo lächelt und sagt auch Hallo. Leo sagt Ana seinen Namen. Der Lehrer begrüßt die Klasse. Ana und Leo sitzen zusammen. Sie buchstabieren ihre Namen. Am Ende sagen sie Tschüss.', 'Meine Namenskarte', 'Ich heiße Sam. Ich bin im Deutschkurs. Heute bin ich froh. Mein Freund ist Leo. Wir sagen Hallo und lernen neue Wörter.']
-        : ['Eine einfache Klassengeschichte', `Das ist ein kurzer Text über ${topic}. Zwei Schüler sprechen, hören zu und benutzen neue Wörter aus dem Kurs.`, 'Eine kurze Nachricht', `Ein Schüler schreibt eine kurze Nachricht über ${topic}. Die Nachricht benutzt einfache Wörter aus der Einheit.`]
+        : [`Im Kurs: ${topic}`, `Das ist ein kurzer Text über ${topic}. Zwei Schüler sprechen, hören zu und benutzen neue Wörter aus dem Kurs.`, `Eine Nachricht über ${topic}`, `Ein Schüler schreibt eine kurze Nachricht über ${topic}. Die Nachricht benutzt einfache Wörter aus der Einheit.`]
     };
     const copy = beginnerCopies[language] || beginnerCopies.english;
     return [
       {
         id: 'companion-story',
-        label: `Lectura 2 · ${copy[0]}`,
+        label: copy[0],
         title: copy[0],
-        description: 'Texto breve y comprensible para este nivel.',
-        text: copy[1],
+        description: variantTextCopy.story,
+        text: buildComparableCompanionReading({
+          lesson,
+          title: copy[0],
+          seedText: copy[1],
+          kind: 'beginner'
+        }),
         exercises: [],
         illustrationThemeIndex: getCompanionIllustrationThemeIndex({
           lesson,
@@ -12683,10 +12859,15 @@ function buildProgrammeReadingVariants(lesson) {
       },
       {
         id: 'companion-practice',
-        label: `Lectura 3 · ${copy[2]}`,
+        label: copy[2],
         title: copy[2],
-        description: 'Situación cotidiana para practicar el tema.',
-        text: copy[3],
+        description: variantTextCopy.practice,
+        text: buildComparableCompanionReading({
+          lesson,
+          title: copy[2],
+          seedText: copy[3],
+          kind: 'beginner'
+        }),
         exercises: [],
         illustrationThemeIndex: getCompanionIllustrationThemeIndex({
           lesson,
@@ -12700,6 +12881,19 @@ function buildProgrammeReadingVariants(lesson) {
 
   const programme = READING_COMPANION_PROGRAMME[language] || READING_COMPANION_PROGRAMME.english;
   const [culturalTitle, culturalText] = programme[(Math.max(1, unitOrder) - 1) % programme.length];
+  // The cultural programme can revisit a celebration across a long level,
+  // but never as the same story: every unit gives that event a distinct
+  // learning lens and a distinct title tied to its own topic.
+  const culturalContext = {
+    english: `In this unit, the event is explored through ${topic}.`,
+    spanish: `En esta unidad, el acontecimiento se explora a través de ${topic}.`,
+    french: `Dans cette unité, l’événement est exploré à travers ${topic}.`,
+    italian: `In questa unità, l’evento viene esplorato attraverso ${topic}.`,
+    portuguese: `Nesta unidade, o evento é explorado por meio de ${topic}.`,
+    german: `In dieser Einheit wird das Ereignis durch ${topic} betrachtet.`
+  };
+  const contextualCulturalTitle = `${culturalTitle} · ${topic}`;
+  const contextualCulturalText = `${culturalText} ${culturalContext[language] || culturalContext.english}`;
   const practiceSeed = {
     english: `A small group uses ${topic} in a real situation.`,
     spanish: `Un pequeño grupo usa ${topic} en una situación real.`,
@@ -12708,39 +12902,31 @@ function buildProgrammeReadingVariants(lesson) {
     portuguese: `Um pequeno grupo usa ${topic} em uma situação real.`,
     german: `Eine kleine Gruppe nutzt ${topic} in einer echten Situation.`
   };
-  const labels = {
-    english: ['Culture & memory', 'Real-life practice'],
-    spanish: ['Cultura y efeméride', 'Aplicación práctica'],
-    french: ['Culture et mémoire', 'Application pratique'],
-    italian: ['Cultura e memoria', 'Applicazione pratica'],
-    portuguese: ['Cultura e memória', 'Aplicação prática'],
-    german: ['Kultur und Erinnerung', 'Praktische Anwendung']
-  }[language] || ['Culture & memory', 'Real-life practice'];
   return [
     {
       id: 'cultural-reading',
-      label: `${labels[0]} · ${culturalTitle}`,
-      title: culturalTitle,
-      description: 'Fiesta, tradición o efeméride vinculada a la lengua.',
+      label: contextualCulturalTitle,
+      title: contextualCulturalTitle,
+      description: variantTextCopy.culture,
       text: buildComparableCompanionReading({
         lesson,
-        title: culturalTitle,
-        seedText: culturalText,
+        title: contextualCulturalTitle,
+        seedText: contextualCulturalText,
         kind: 'culture'
       }),
       exercises: [],
       illustrationThemeIndex: getCompanionIllustrationThemeIndex({
-        lesson,
-        kind: 'culture',
-        title: culturalTitle,
-        seedText: culturalText
+          lesson,
+          kind: 'culture',
+          title: contextualCulturalTitle,
+          seedText: contextualCulturalText
       })
     },
     {
       id: 'practice-reading',
-      label: `${labels[1]} · ${topic}`,
+      label: topic,
       title: topic,
-      description: 'Una situación cotidiana para aplicar el tema de la unidad.',
+      description: variantTextCopy.realLife,
       text: buildComparableCompanionReading({
         lesson,
         title: topic,
@@ -12780,7 +12966,7 @@ function getReadingTopicChoices(lesson) {
     getReadingParagraphs(lesson).join('\n\n');
   const primary = {
     id: 'main-reading',
-    label: `Lectura principal · ${lesson.title}`,
+    label: lesson.title,
     title: lesson.title,
     description: lesson.description,
     text: primaryText,
@@ -16581,6 +16767,7 @@ function renderGrammarLessonBlockHtml(lesson, { test = null } = {}) {
     lesson.description ||
     '';
   const structure = profile.structure || sectionBody('pattern') || '';
+  const use = profile.use || sectionBody('use', 'goal') || structure || lesson.mission || '';
   const examples = collectGrammarPracticalExamples(lesson);
   const forms = [
     profile.affirmative || sectionBody('affirmative'),
@@ -16588,22 +16775,36 @@ function renderGrammarLessonBlockHtml(lesson, { test = null } = {}) {
     profile.questions || sectionBody('questions')
   ].filter(Boolean);
 
+  const labels = {
+    english: { overview: 'GRAMMAR OVERVIEW', definition: 'Definition', use: 'Use', examples: 'Practical examples', exercises: 'Dynamic exercises', challenge: 'interactive exercises' },
+    spanish: { overview: 'VISTA GENERAL DE GRAMÁTICA', definition: 'Definición', use: 'Uso', examples: 'Ejemplos prácticos', exercises: 'Ejercicios dinámicos', challenge: 'ejercicios interactivos' },
+    french: { overview: 'APERÇU GRAMMATICAL', definition: 'Définition', use: 'Emploi', examples: 'Exemples pratiques', exercises: 'Exercices dynamiques', challenge: 'exercices interactifs' },
+    italian: { overview: 'PANORAMICA GRAMMATICALE', definition: 'Definizione', use: 'Uso', examples: 'Esempi pratici', exercises: 'Esercizi dinamici', challenge: 'esercizi interattivi' },
+    portuguese: { overview: 'VISÃO GERAL DA GRAMÁTICA', definition: 'Definição', use: 'Uso', examples: 'Exemplos práticos', exercises: 'Exercícios dinâmicos', challenge: 'exercícios interativos' },
+    german: { overview: 'GRAMMATIKÜBERBLICK', definition: 'Definition', use: 'Gebrauch', examples: 'Praktische Beispiele', exercises: 'Dynamische Übungen', challenge: 'interaktive Übungen' }
+  }[learningPathState.language] || null;
+  const copy = labels || { overview: 'GRAMMAR OVERVIEW', definition: 'Definition', use: 'Use', examples: 'Practical examples', exercises: 'Dynamic exercises', challenge: 'interactive exercises' };
+  const dynamicCount = test?.questions?.length || (lesson.exercises || []).filter((item) => item.type === 'mcq').length;
+
   return `
-    <section class="grammar-lesson-block" aria-label="${french ? 'Leçon avant les exercices' : 'Lección antes de los ejercicios'}">
-      <div class="grammar-lesson-block-heading">
-        <span aria-hidden="true">📘</span>
-        <div><small>${french ? 'D’abord, comprenez' : 'Primero, comprende'}</small><h4>${french ? 'La règle en contexte' : 'La regla en contexto'}</h4></div>
+    <section class="grammar-lesson-block grammar-lesson-block--overview" aria-label="${escapeHtml(copy.overview)}">
+      <header class="grammar-overview-topic">
+        <small>${escapeHtml(copy.overview)}</small>
+        <h4>${escapeHtml(lesson.title)}</h4>
+      </header>
+      <div class="grammar-overview-core">
+        <article><h5>${escapeHtml(copy.definition)}</h5><p>${escapeHtml(brief).replace(/\n/g, '<br>')}</p></article>
+        <article><h5>${escapeHtml(copy.use)}</h5><p>${escapeHtml(use).replace(/\n/g, '<br>')}</p>${structure && structure !== use ? `<p class="grammar-overview-pattern">${escapeHtml(structure).replace(/\n/g, '<br>')}</p>` : ''}</article>
       </div>
-      <div class="grammar-lesson-brief">
-        ${brief ? `<p>${escapeHtml(brief).replace(/\n/g, '<br>')}</p>` : ''}
-        ${structure ? `<p class="grammar-lesson-pattern"><strong>${french ? 'Structure' : 'Estructura'}:</strong> ${escapeHtml(structure).replace(/\n/g, '<br>')}</p>` : ''}
-      </div>
-      <div class="grammar-practical-examples">
-        <div><small>${french ? 'Observez puis répétez' : 'Observa y repite'}</small><h4>${french ? '6 exemples pratiques' : '6 ejemplos prácticos'}</h4></div>
-        <ol>${examples.map((example) => `<li><span aria-hidden="true">💬</span><p>${escapeHtml(example)}</p></li>`).join('')}</ol>
-      </div>
-      ${forms.length ? `<div class="grammar-lesson-forms">${forms.map((form) => `<p>${escapeHtml(form).replace(/\n/g, '<br>')}</p>`).join('')}</div>` : ''}
-      ${test ? `<div class="grammar-lesson-ready"><span>🎮 ${test.questions.length} ${french ? 'défis interactifs' : 'retos interactivos'}</span><span>🎯 ${french ? 'Objectif' : 'Meta'}: ${test.passingScore || 70}/100</span></div>` : ''}
+      <section class="grammar-overview-examples">
+        <h5>${escapeHtml(copy.examples)}</h5>
+        <ol>${examples.map((example, index) => `<li><span aria-hidden="true">${index + 1}</span><p>${escapeHtml(example)}</p></li>`).join('')}</ol>
+      </section>
+      <section class="grammar-overview-exercises">
+        <div><h5>${escapeHtml(copy.exercises)}</h5><p>${dynamicCount} ${escapeHtml(copy.challenge)}</p></div>
+        ${test ? `<span>🎯 ${test.passingScore || 70}/100</span>` : ''}
+      </section>
+      ${forms.length ? `<details class="grammar-overview-forms"><summary>${french ? 'Formes de la phrase' : 'Formas de la oración'}</summary><div>${forms.map((form) => `<p>${escapeHtml(form).replace(/\n/g, '<br>')}</p>`).join('')}</div></details>` : ''}
     </section>
   `;
 }
@@ -17833,7 +18034,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   const firstContext = item.contexts[0];
   const additionalContexts = item.contexts.slice(1);
   const catalogueExamplesHtml =
-    !useAdvancedDefinition && item.contexts.length
+    item.contexts.length
       ? `<ol class="vocab-card-catalogue-examples" aria-label="Ejemplos prácticos">
         ${item.contexts
           // Two practical examples preserve useful context without turning a
@@ -17945,8 +18146,9 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
               }
             </div>
             ${
-              conciseDefinition ||
-              (item.learningMode === 'direct' && (item.simpleDefinition || item.definition))
+              !item.contexts.length &&
+              (conciseDefinition ||
+                (item.learningMode === 'direct' && (item.simpleDefinition || item.definition)))
                 ? `<p class="vocab-card-catalogue-definition">${escapeHtml(conciseDefinition || item.simpleDefinition || item.definition)}</p>`
                 : ''
             }
