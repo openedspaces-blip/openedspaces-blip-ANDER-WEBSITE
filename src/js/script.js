@@ -767,7 +767,6 @@ async function loadCurrentSubscription({
     // used to protect lessons. Use it to hydrate the small client-side view
     // immediately: a route can render before /api/dashboard finishes, and a
     // Premium learner must never briefly see a false paywall in that gap.
-    const previousPremium = authStatus.entitlements?.isPremium;
     authStatus.entitlements = {
       ...(authStatus.entitlements || {}),
       role: latest.role || authStatus.entitlements?.role || 'student',
@@ -776,8 +775,10 @@ async function loadCurrentSubscription({
       hasFullAccess: Boolean(latest.isPremium)
     };
     renderAuthState();
-    if (previousPremium !== authStatus.entitlements.isPremium && learningPathState.lessons.length) {
+    if (learningPathState.lessons.length) {
+      learningPathState.lessons = applyClientLessonAccessPolicy(learningPathState.lessons);
       renderLearningPath();
+      if (getViewFromHash() === 'readings') renderReadingLibrary();
     }
     renderAccountPlanStatus(latest);
     if (latest.isPremium) {
@@ -803,6 +804,7 @@ function getDisplayName() {
 
 function renderAuthState() {
   const isSignedIn = Boolean(authStatus.session?.access_token);
+  document.body?.classList.toggle('is-signed-in', isSignedIn);
   const name = getDisplayName();
   if (userChip) {
     userChip.hidden = !isSignedIn;
@@ -1874,6 +1876,36 @@ function hasFullRouteAccess(entitlements = authStatus.entitlements) {
   return Boolean(entitlements?.hasFullAccess || entitlements?.isPremium);
 }
 
+// Keep the client view aligned with lib/accessPolicyService.js. Server-side
+// checks remain authoritative, but a stale lesson payload must never make a
+// Premium reading look or behave as if it were free.
+function freeUnitLimitForLevel(level) {
+  return String(level || '').trim().toUpperCase() === 'A1' ? 3 : 2;
+}
+
+function getLessonUnitOrder(lesson) {
+  const directOrder = Number(lesson?.unitOrder);
+  if (Number.isInteger(directOrder) && directOrder > 0) return directOrder;
+  const unit = learningPathState.units.find(
+    (candidate) => candidate.id === lesson?.unitId || candidate.slug === lesson?.unitId
+  );
+  const unitOrder = Number(unit?.order);
+  return Number.isInteger(unitOrder) && unitOrder > 0 ? unitOrder : Number.POSITIVE_INFINITY;
+}
+
+function applyClientLessonAccessPolicy(lessons) {
+  if (hasFullRouteAccess()) return (lessons || []).map((lesson) => ({ ...lesson, locked: false }));
+  return (lessons || []).map((lesson) => {
+    const isFree = getLessonUnitOrder(lesson) <= freeUnitLimitForLevel(lesson.level || learningPathState.level);
+    return {
+      ...lesson,
+      accessTier: isFree ? 'free' : 'premium',
+      isFree,
+      locked: !isFree
+    };
+  });
+}
+
 // title/message let a caller override the two spots worded around a usage
 // cap ("Has alcanzado el límite...") for cases that aren't a cap at all -
 // e.g. a Premium-only lesson a Free account just tapped into (see the
@@ -2438,21 +2470,18 @@ function renderDashboard(data) {
   // up for an account that already has one.
   closeUsernameOnboardingIfNowSatisfied(data.preferences);
   if (data.entitlements) {
-    const hadFullRouteAccess = hasFullRouteAccess();
     authStatus.entitlements = {
       ...data.entitlements,
       hasFullAccess: hasFullRouteAccess(data.entitlements)
     };
     renderAuthState();
-    // A route may have rendered while the dashboard request was still in
-    // flight. Remove entitlement-based locks as soon as Premium is confirmed,
-    // so the account chip and the available units cannot disagree.
-    if (!hadFullRouteAccess && hasFullRouteAccess() && learningPathState.lessons.length) {
-      learningPathState.lessons = learningPathState.lessons.map((lesson) => ({
-        ...lesson,
-        locked: false
-      }));
+    // A route can render before the entitlement response. Re-apply the same
+    // unit policy for both plans so Free cannot retain optimistic access and
+    // Premium immediately unlocks its complete route.
+    if (learningPathState.lessons.length) {
+      learningPathState.lessons = applyClientLessonAccessPolicy(learningPathState.lessons);
       renderLearningPath();
+      if (getViewFromHash() === 'readings') renderReadingLibrary();
     }
   }
   renderDashboardStats(data);
@@ -6376,6 +6405,32 @@ function getReadingLibraryCopy(language) {
   return READING_LIBRARY_COPY[language] || READING_LIBRARY_COPY.english;
 }
 
+function getReadingLibraryCardType(language, topicOrder) {
+  const types = {
+    english: ['Main reading', 'Cultural reading', 'Applied reading'],
+    spanish: ['Lectura principal', 'Lectura cultural', 'Lectura aplicada'],
+    french: ['Lecture principale', 'Lecture culturelle', 'Lecture appliquée'],
+    italian: ['Lettura principale', 'Lettura culturale', 'Lettura applicata'],
+    portuguese: ['Leitura principal', 'Leitura cultural', 'Leitura aplicada'],
+    german: ['Haupttext', 'Kultureller Text', 'Angewandter Text']
+  };
+  const choices = types[language] || types.english;
+  return choices[Math.max(0, Number(topicOrder || 1) - 1)] || choices[0];
+}
+
+function getReadingFreeAccessNote(language, level) {
+  const units = String(level).toUpperCase() === 'A1' ? '1–3' : '1–2';
+  const messages = {
+    english: `Free includes units ${units} of ${level} (all three readings in each unit).`,
+    spanish: `Free incluye las unidades ${units} de ${level} (sus tres lecturas por unidad).`,
+    french: `Free inclut les unités ${units} de ${level} (les trois lectures de chaque unité).`,
+    italian: `Free include le unità ${units} di ${level} (tutte e tre le letture di ogni unità).`,
+    portuguese: `Free inclui as unidades ${units} de ${level} (as três leituras de cada unidade).`,
+    german: `Free enthält die Einheiten ${units} von ${level} (alle drei Lesetexte jeder Einheit).`
+  };
+  return messages[language] || messages.english;
+}
+
 function renderReadingLibrary() {
   const host = document.getElementById('readingLibraryContent');
   if (!host) return;
@@ -6441,7 +6496,7 @@ function renderReadingLibrary() {
           <span>${escapeHtml(copy.available(readingEntries.length))}</span>
           <span>${escapeHtml(copy.list)}</span>
         </div>
-        <p class="reading-library-access-note">${escapeHtml(copy.free(level))}</p>
+        <p class="reading-library-access-note">${escapeHtml(getReadingFreeAccessNote(language, level))}</p>
       </aside>
       <article class="tests-stage reading-library-stage">
         <header class="reading-library-header">
@@ -6455,7 +6510,7 @@ function renderReadingLibrary() {
               ({ lesson, unit, unitOrder, topic, topicOrder, locked }) => `
                 <button type="button" class="reading-library-card${locked ? ' is-locked' : ''}" data-reading-library-lesson="${escapeHtml(lesson.slug)}" data-reading-library-topic="${escapeHtml(topic.id)}" ${locked ? 'aria-label="Lectura bloqueada: disponible en Premium"' : ''}>
                   <span class="reading-library-card-index">${unitOrder}.${topicOrder}</span>
-                  <small class="reading-library-card-unit">${escapeHtml(copy.unit)} ${unitOrder} · ${escapeHtml(unit.title || lesson.title)}</small>
+                  <small class="reading-library-card-unit">${escapeHtml(copy.unit)} ${unitOrder} · ${escapeHtml(getReadingLibraryCardType(language, topicOrder))}</small>
                   <strong>${escapeHtml((topic.label || `Lectura ${topicOrder}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
                   <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
                   <em class="library-card-status">${locked
@@ -10729,19 +10784,6 @@ function getSkillLabel(skill, language = learningPathState.language) {
 // language's course is open. Cheap full-DOM sweep, called on every
 // navigation (showView) and language switch (setTargetLanguage).
 function updateLevelTabLabels() {
-  // Reference tools are available from every learning tab, even though they
-  // are not a numbered unit activity.
-  document.querySelectorAll('.level-tabs').forEach((tabs) => {
-    ['adjectives', 'adverbs'].forEach((tool) => {
-      if (tabs.querySelector(`[data-tab="${tool}"]`)) return;
-      const link = document.createElement('a');
-      link.className = 'level-tab';
-      link.dataset.tab = tool;
-      link.href = `#${tool}`;
-      link.textContent = tool === 'adjectives' ? 'Adjetivos' : 'Adverbios';
-      tabs.append(link);
-    });
-  });
   const isRouteContext =
     learningPathState.skillEntryContext === 'route' &&
     Boolean(learningPathState.unitId) &&
@@ -13436,6 +13478,15 @@ function buildProgrammeReadingVariants(lesson) {
     portuguese: `Um pequeno grupo usa ${topic} em uma situação real.`,
     german: `Eine kleine Gruppe nutzt ${topic} in einer echten Situation.`
   };
+  const practiceTitle = {
+    english: `Using ${topic} in context`,
+    spanish: `Aplicar ${topic} en contexto`,
+    french: `Utiliser ${topic} en contexte`,
+    italian: `Usare ${topic} nel contesto`,
+    portuguese: `Usar ${topic} em contexto`,
+    german: `${topic} im Kontext verwenden`
+  };
+  const contextualPracticeTitle = practiceTitle[language] || practiceTitle.english;
   return [
     {
       id: 'cultural-reading',
@@ -13458,12 +13509,12 @@ function buildProgrammeReadingVariants(lesson) {
     },
     {
       id: 'practice-reading',
-      label: topic,
-      title: topic,
+      label: contextualPracticeTitle,
+      title: contextualPracticeTitle,
       description: variantTextCopy.realLife,
       text: buildComparableCompanionReading({
         lesson,
-        title: topic,
+        title: contextualPracticeTitle,
         seedText: practiceSeed[language] || practiceSeed.english,
         kind: 'practice'
       }),
@@ -13471,7 +13522,7 @@ function buildProgrammeReadingVariants(lesson) {
       illustrationThemeIndex: getCompanionIllustrationThemeIndex({
         lesson,
         kind: 'practice',
-        title: topic,
+        title: contextualPracticeTitle,
         seedText: practiceSeed[language] || practiceSeed.english
       })
     }
@@ -19620,55 +19671,37 @@ function getCuratedVocabularyBank(lesson) {
   });
 }
 
+function getVocabularySourceLesson(lesson) {
+  // The global entry point can start from any activity in a unit (including
+  // Listening). Its transcript vocabulary is useful for that activity, but
+  // must not become the level's main word list. Prefer the deliberately
+  // authored Vocabulary activity whenever it exists.
+  const unitLessons = getVocabularyUnitLessons(lesson);
+  return (
+    unitLessons.find(
+      (candidate) => candidate.skill === 'vocabulary' && Array.isArray(candidate.vocabulary) && candidate.vocabulary.length
+    ) || lesson
+  );
+}
+
 function buildVocabularyUnitBank(lesson) {
-  const curated = getCuratedVocabularyBank(lesson);
+  const sourceLesson = getVocabularySourceLesson(lesson);
+  const curated = getCuratedVocabularyBank(sourceLesson);
   if (curated) return curated;
-  const lessons = getVocabularyUnitLessons(lesson);
-  const corpus = getUnitVocabularyCorpus(lessons);
-  const sentences = corpus.match(/[^.!?]+[.!?]?/g) || [corpus];
   const seen = new Set();
   const bank = [];
   const add = (item) => {
     const word = String(item?.word || item?.targetWord || '').trim();
     const key = word.toLocaleLowerCase();
-    if (!word || seen.has(key) || isLikelyVocabularyProperName(word, corpus)) return;
+    if (!word || seen.has(key)) return;
     seen.add(key);
-    const example = String(item?.example || '').trim();
-    const contextualExample =
-      example ||
-      sentences.find((sentence) => sentence.toLocaleLowerCase().includes(key))?.trim() ||
-      '';
-    bank.push(contextualExample === example ? item : { ...item, example: contextualExample });
+    bank.push(item);
   };
 
-  // The catalogue quota represents *words*. Useful expressions are rendered
-  // separately below, so a sentence never consumes one of the 30 slots.
-  lessons.forEach((candidate) => (candidate.vocabulary || []).forEach(add));
-
-  // All levels follow the same 30-word contract.  Early A1/A2 units used
-  // to stop here, leaving visibly incomplete banks whenever the original
-  // authoring pass supplied fewer terms.  The remaining candidates come
-  // only from authored lesson support (definition, example, dialogue and
-  // unit metadata), never from the Reading passage.
-  const candidates = corpus.match(/[\p{L}][\p{L}'’-]{2,}/gu) || [];
-  const isAdvancedLevel = ['C1', 'C2'].includes(lesson.level || learningPathState.level || '');
-  const minimumContextWordLength = isAdvancedLevel ? 4 : 3;
-  candidates.forEach((word) => {
-    if (bank.length >= VOCABULARY_MINIMUM_PER_UNIT) return;
-    const key = word.toLocaleLowerCase();
-    if (word.length < minimumContextWordLength || VOCABULARY_STOP_WORDS.has(key) || seen.has(key))
-      return;
-    const example =
-      sentences.find((sentence) => sentence.toLocaleLowerCase().includes(key))?.trim() || '';
-    add({
-      word,
-      translation: '',
-      example,
-      category: 'Vocabulario en contexto',
-      source: 'unit-context'
-    });
-  });
-  return bank.slice(0, VOCABULARY_MINIMUM_PER_UNIT);
+  // A meaningful, shorter list is better than reaching an arbitrary quota
+  // with text fragments. Phrases are rendered separately as expressions.
+  (sourceLesson.vocabulary || []).forEach(add);
+  return bank;
 }
 
 function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
@@ -19894,7 +19927,7 @@ function renderVocabularyView(section, lesson) {
   content.innerHTML = `
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
       <div class="vocab-catalogue-heading">
-        <div><span>${isRouteVocabulary ? 'PASO 1 · VOCABULARY' : `VOCABULARY · ${escapeHtml(lesson.level)}`}</span><h3>Vocabulario de ${escapeHtml(lesson.title)}</h3></div>
+        <div><span>${isRouteVocabulary ? 'PASO 1 · VOCABULARY' : `VOCABULARY · ${escapeHtml(lesson.level)}`}</span><h3>${french ? 'Vocabulaire essentiel' : 'Vocabulario esencial'}</h3></div>
         <p><strong>${masteredCount}</strong> de ${catalogueTotal} palabras dominadas</p>
       </div>
       <div class="vocab-catalogue-toolbar no-print">
@@ -22318,7 +22351,7 @@ function getLocalFallbackLessons(language, level) {
   // activities: A1 includes units 1–3 and A2–C2 include units 1–2.
   // This mirrors lib/accessPolicyService.js, which remains the enforcement
   // source for server-loaded lessons.
-  const freeUnitLimit = level === 'A1' ? 3 : 2;
+  const freeUnitLimit = freeUnitLimitForLevel(level);
   return (
     lessons
       .filter((lesson) => lesson.level === level)
@@ -22333,14 +22366,7 @@ function getLocalFallbackLessons(language, level) {
           Math.max(1, Math.floor(Number(lesson.orderIndex || 0) / 10));
         const completed = Boolean(lesson.completed);
         const isFree = unitOrder <= freeUnitLimit;
-        // A signed-in learner's entitlements arrive asynchronously. Until the
-        // server answers, don't draw a false Premium lock over the optimistic
-        // route; server endpoints remain the real access enforcement. Guests
-        // still see the normal lock immediately.
-        const signedIn = Boolean(authStatus.session?.access_token);
-        const entitlementKnown = authStatus.entitlements !== null;
-        const shouldLock =
-          !isFree && !completed && (!signedIn || (entitlementKnown && !isPremiumUser()));
+        const shouldLock = !isFree && !hasFullRouteAccess();
         return {
           ...lesson,
           unitOrder,
@@ -22728,17 +22754,17 @@ async function performLearningPathLoad(options = {}) {
     const loadedLessons = data.lessons?.length
       ? data.lessons
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
-    learningPathState.lessons = applyCanonicalEnglishListeningContent(
-      hydrateMissingExerciseOptions(
-        loadedLessons,
+    learningPathState.lessons = applyClientLessonAccessPolicy(
+      applyCanonicalEnglishListeningContent(
+        hydrateMissingExerciseOptions(
+          loadedLessons,
+          learningPathState.language,
+          learningPathState.level
+        ),
         learningPathState.language,
         learningPathState.level
-      ),
-      learningPathState.language,
-      learningPathState.level
-    )
-      .filter((lesson) => !learningPathState.units.length || lesson.unitId)
-      .map((lesson) => (hasFullRouteAccess() ? { ...lesson, locked: false } : lesson));
+      ).filter((lesson) => !learningPathState.units.length || lesson.unitId)
+    );
     await loadUnitVerbProgress();
     if (!isCurrentRequest()) return;
     applyLoadedSelection();
@@ -22747,9 +22773,8 @@ async function performLearningPathLoad(options = {}) {
   } catch (error) {
     if (!isCurrentRequest()) return;
     console.warn('Could not load learning path from backend, using local content', error);
-    learningPathState.lessons = getLocalFallbackLessons(
-      learningPathState.language,
-      learningPathState.level
+    learningPathState.lessons = applyClientLessonAccessPolicy(
+      getLocalFallbackLessons(learningPathState.language, learningPathState.level)
     );
     await loadUnitVerbProgress();
     if (!isCurrentRequest()) return;
@@ -23361,20 +23386,22 @@ const TEST_LANGUAGE_LABELS = {
 };
 
 function getTestsUiCopy(language = lessonTestState.language) {
-  if (language !== 'english') {
-    return {
-      eyebrow: 'Tests', title: 'Demuestra lo que aprendiste', intro: 'Retos interactivos que ponen en práctica lo aprendido en cada nivel y lección.',
-      choose: 'Elige tu examen', language: 'Idioma', level: 'Nivel', unit: 'Unidad de examen', start: 'Comenzar test',
-      structure: '1–9 Gramática · 10–12 Vocabulario · 13–15 Verbos', feedback: 'Retroalimentación inmediata · Nota sobre 100'
-    };
-  }
-  const a1 = lessonTestState.level === 'A1';
-  return {
+  const standard = lessonTestState.level === 'A1'
+    ? '1–7 Grammar · 8–10 Vocabulary · 11–13 Verbs · 14–16 Adjectives'
+    : '1–7 Grammar · 8–10 Vocabulary · 11–12 Verbs · 13–14 Adjectives · 15–16 Adverbs';
+  const copies = {
+    english: {
     eyebrow: 'English Tests', title: 'Show what you have learned', intro: 'Interactive challenges that put each lesson and level into practice.',
     choose: 'Choose your test', language: 'Language', level: 'Level', unit: 'Test unit', start: 'Start test',
-    structure: a1 ? '1–7 Grammar · 8–10 Vocabulary · 11–13 Verbs · 14–16 Adjectives' : '1–7 Grammar · 8–10 Vocabulary · 11–12 Verbs · 13–14 Adjectives · 15–16 Adverbs',
+    structure: standard,
     feedback: 'Immediate feedback · Score out of 100'
+    },
+    french: { eyebrow: 'Tests de français', title: 'Montrez ce que vous avez appris', intro: 'Défis interactifs pour chaque leçon et niveau.', choose: 'Choisissez votre test', language: 'Langue', level: 'Niveau', unit: 'Unité du test', start: 'Commencer le test', structure: standard.replaceAll('Grammar','Grammaire').replaceAll('Vocabulary','Vocabulaire').replaceAll('Verbs','Verbes').replaceAll('Adjectives','Adjectifs').replaceAll('Adverbs','Adverbes'), feedback: 'Retour immédiat · Note sur 100' },
+    italian: { eyebrow: 'Test di italiano', title: 'Mostra ciò che hai imparato', intro: 'Sfide interattive per ogni lezione e livello.', choose: 'Scegli il test', language: 'Lingua', level: 'Livello', unit: 'Unità del test', start: 'Inizia il test', structure: standard.replaceAll('Grammar','Grammatica').replaceAll('Vocabulary','Vocabolario').replaceAll('Verbs','Verbi').replaceAll('Adjectives','Aggettivi').replaceAll('Adverbs','Avverbi'), feedback: 'Feedback immediato · Voto su 100' },
+    portuguese: { eyebrow: 'Testes de português', title: 'Mostre o que você aprendeu', intro: 'Desafios interativos para cada lição e nível.', choose: 'Escolha seu teste', language: 'Idioma', level: 'Nível', unit: 'Unidade do teste', start: 'Começar teste', structure: standard.replaceAll('Grammar','Gramática').replaceAll('Vocabulary','Vocabulário').replaceAll('Verbs','Verbos').replaceAll('Adjectives','Adjetivos').replaceAll('Adverbs','Advérbios'), feedback: 'Feedback imediato · Nota de 100' },
+    german: { eyebrow: 'Deutschtests', title: 'Zeige, was du gelernt hast', intro: 'Interaktive Übungen für jede Lektion und Stufe.', choose: 'Wähle deinen Test', language: 'Sprache', level: 'Niveau', unit: 'Testeinheit', start: 'Test starten', structure: standard.replaceAll('Grammar','Grammatik').replaceAll('Vocabulary','Wortschatz').replaceAll('Verbs','Verben').replaceAll('Adjectives','Adjektive').replaceAll('Adverbs','Adverbien'), feedback: 'Sofortiges Feedback · Note von 100' }
   };
+  return copies[language] || { eyebrow: 'Pruebas', title: 'Demuestra lo que aprendiste', intro: 'Retos interactivos para cada lección y nivel.', choose: 'Elige tu prueba', language: 'Idioma', level: 'Nivel', unit: 'Unidad de la prueba', start: 'Comenzar prueba', structure: standard.replaceAll('Grammar','Gramática').replaceAll('Vocabulary','Vocabulario').replaceAll('Verbs','Verbos').replaceAll('Adjectives','Adjetivos').replaceAll('Adverbs','Adverbios'), feedback: 'Retroalimentación inmediata · Nota sobre 100' };
 }
 
 function applyTestsUiCopy() {

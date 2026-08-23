@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ANDERGO Academia de Idiomas</title>
-    <meta name="description" content="Plataforma educativa para aprender idiomas con rutas CEFR de A1 a C2, lecciones estructuradas, evaluaciones, práctica de habilidades y seguimiento del progreso." />
+    <title>ANDERGO | Aprende idiomas online con rutas de A1 a C2</title>
+    <meta name="description" content="Aprende inglés, español, francés, italiano, portugués y alemán online con rutas por nivel, lecciones estructuradas, práctica de habilidades, evaluaciones y seguimiento del progreso." />
     <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#2468ee" />
     <link rel="canonical" href="https://andergo.online/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/favicon.svg" type="image/svg+xml" />
@@ -13,16 +14,16 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_DO" />
     <meta property="og:site_name" content="ANDERGO Language Academy" />
-    <meta property="og:title" content="Aprende idiomas con rutas A1–C2 | ANDERGO Academy" />
-    <meta property="og:description" content="Plataforma educativa con currículo estructurado, evaluaciones, práctica de habilidades y progreso para aprender idiomas desde A1 hasta C2." />
+    <meta property="og:title" content="Aprende idiomas online con rutas de A1 a C2 | ANDERGO" />
+    <meta property="og:description" content="Inglés, español, francés, italiano, portugués y alemán con currículo estructurado, práctica y progreso por nivel." />
     <meta property="og:url" content="https://andergo.online/" />
     <meta property="og:image" content="https://andergo.online/andergo-social.png" />
     <meta property="og:image:width" content="1731" />
     <meta property="og:image:height" content="909" />
     <meta property="og:image:alt" content="ANDERGO Language Academy: rutas estructuradas para aprender idiomas de A1 a C2" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Aprende idiomas con rutas A1–C2 | ANDERGO Academy" />
-    <meta name="twitter:description" content="Plataforma educativa con currículo estructurado, evaluaciones, práctica de habilidades y seguimiento del progreso." />
+    <meta name="twitter:title" content="Aprende idiomas online con rutas de A1 a C2 | ANDERGO" />
+    <meta name="twitter:description" content="Inglés, español, francés, italiano, portugués y alemán con práctica y progreso por nivel." />
     <meta name="twitter:image" content="https://andergo.online/andergo-social.png" />
     <meta name="twitter:image:alt" content="ANDERGO Language Academy: rutas estructuradas para aprender idiomas de A1 a C2" />
     <script type="application/ld+json">
@@ -30,25 +31,51 @@
         "@context": "https://schema.org",
         "@graph": [
           {
-            "@type": "Organization",
+            "@type": ["EducationalOrganization", "Organization"],
+            "@id": "https://andergo.online/#organization",
             "name": "ANDERGO Language Academy",
+            "alternateName": "ANDERGO",
+            "description": "ANDERGO es una plataforma educativa digital para aprender idiomas mediante rutas guiadas por nivel. No es la palabra inglesa 'undergo' ni un servicio médico.",
+            "disambiguatingDescription": "ANDERGO, pronunciado como nombre de marca, es una academia digital de idiomas con cursos de inglés, español, francés, italiano, portugués y alemán.",
             "url": "https://andergo.online/",
             "logo": "https://andergo.online/andergo-logo.png",
-            "email": "support@andergo.online"
+            "email": "support@andergo.online",
+            "areaServed": "Worldwide",
+            "knowsAbout": ["Aprendizaje de idiomas", "Inglés", "Francés", "Español", "Italiano", "Portugués", "Alemán", "Inteligencia artificial educativa"]
           },
           {
             "@type": "WebSite",
+            "@id": "https://andergo.online/#website",
             "name": "ANDERGO",
             "url": "https://andergo.online/",
             "description": "Plataforma educativa para aprender idiomas con rutas CEFR, lecciones estructuradas, práctica, evaluaciones y seguimiento del progreso.",
-            "inLanguage": "es"
+            "inLanguage": "es-DO",
+            "publisher": { "@id": "https://andergo.online/#organization" }
           },
           {
-            "@type": "EducationalOrganization",
-            "name": "ANDERGO Language Academy",
+            "@type": "WebPage",
+            "@id": "https://andergo.online/#webpage",
             "url": "https://andergo.online/",
-            "areaServed": "Worldwide",
-            "knowsAbout": ["Aprendizaje de idiomas", "Inglés", "Francés", "Español", "Inteligencia artificial educativa"]
+            "name": "ANDERGO Academia de Idiomas",
+            "description": "Aprende inglés, español, francés, italiano, portugués y alemán con rutas guiadas por nivel.",
+            "inLanguage": "es-DO",
+            "isPartOf": { "@id": "https://andergo.online/#website" },
+            "about": { "@id": "https://andergo.online/#organization" },
+            "mainEntity": { "@id": "https://andergo.online/#courses" }
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://andergo.online/#courses",
+            "name": "Cursos de idiomas online de ANDERGO",
+            "numberOfItems": 6,
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "item": { "@type": "Course", "name": "Curso de inglés online A1 a C2", "url": "https://andergo.online/aprender-ingles.html", "inLanguage": "en", "educationalLevel": "A1-C2", "provider": { "@id": "https://andergo.online/#organization" } } },
+              { "@type": "ListItem", "position": 2, "item": { "@type": "Course", "name": "Curso de español online A1 a C2", "url": "https://andergo.online/aprender-espanol.html", "inLanguage": "es", "educationalLevel": "A1-C2", "provider": { "@id": "https://andergo.online/#organization" } } },
+              { "@type": "ListItem", "position": 3, "item": { "@type": "Course", "name": "Curso de francés online A1 a C2", "url": "https://andergo.online/aprender-frances.html", "inLanguage": "fr", "educationalLevel": "A1-C2", "provider": { "@id": "https://andergo.online/#organization" } } },
+              { "@type": "ListItem", "position": 4, "item": { "@type": "Course", "name": "Curso de italiano online A1 a B1", "url": "https://andergo.online/aprender-italiano.html", "inLanguage": "it", "educationalLevel": "A1-B1", "provider": { "@id": "https://andergo.online/#organization" } } },
+              { "@type": "ListItem", "position": 5, "item": { "@type": "Course", "name": "Curso de portugués online A1 a B1", "url": "https://andergo.online/aprender-portugues.html", "inLanguage": "pt-BR", "educationalLevel": "A1-B1", "provider": { "@id": "https://andergo.online/#organization" } } },
+              { "@type": "ListItem", "position": 6, "item": { "@type": "Course", "name": "Curso de alemán online A1 a B1", "url": "https://andergo.online/aprender-aleman.html", "inLanguage": "de", "educationalLevel": "A1-B1", "provider": { "@id": "https://andergo.online/#organization" } } }
+            ]
           }
         ]
       }
@@ -83,6 +110,8 @@
         <a class="nav-learn-cta" href="#learn" aria-label="Abrir mi ruta de aprendizaje"><span aria-hidden="true">📘</span><strong>Aprender</strong><small>Ruta de aprendizaje</small></a>
         <a href="#tests"><span aria-hidden="true">✓</span>Tests</a>
         <a href="#verbs"><span aria-hidden="true">Aa</span>Verbos</a>
+        <a href="#adjectives"><span aria-hidden="true">A+</span>Adjetivos</a>
+        <a href="#adverbs"><span aria-hidden="true">↗</span>Adverbios</a>
         <a href="#infographics"><span aria-hidden="true">◉</span>Infografías</a>
         <a href="#games"><span aria-hidden="true">♟</span>Juegos</a>
         <a href="#tutor"><span aria-hidden="true">✦</span>Tutor</a>
@@ -117,6 +146,8 @@
           <a href="#readings">Lecturas</a>
           <a href="#listenings">Audios</a>
           <a href="#verbs" data-i18n="navVerbs">Verbos</a>
+          <a href="#adjectives">Adjetivos</a>
+          <a href="#adverbs">Adverbios</a>
           <a href="#tests">Pruebas</a>
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
           <details class="nav-more nav-explore">
@@ -2644,6 +2675,17 @@
             <a href="/terms.html">Términos y condiciones</a>
             <a href="/privacy.html">Política de privacidad</a>
             <a href="/refund-policy.html">Política de reembolso</a>
+          </div>
+          <div class="footer-links-col">
+            <h4>Cursos online</h4>
+            <a href="/sobre-andergo.html">Qué es ANDERGO</a>
+            <a href="/vocabulario-basico-idiomas.html">Vocabulario básico por idioma</a>
+            <a href="/aprender-ingles.html">Aprender inglés</a>
+            <a href="/aprender-espanol.html">Aprender español</a>
+            <a href="/aprender-frances.html">Aprender francés</a>
+            <a href="/aprender-italiano.html">Aprender italiano</a>
+            <a href="/aprender-portugues.html">Aprender portugués</a>
+            <a href="/aprender-aleman.html">Aprender alemán</a>
           </div>
         </nav>
       </div>

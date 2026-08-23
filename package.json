@@ -11,6 +11,7 @@
     "dev": "npm run build && node lib/server.js",
     "sync:worlds": "node scripts/sync-worlds-from-seed.js",
     "build": "node scripts/build-static.js",
+    "submit:indexnow": "node scripts/submit-indexnow.js",
     "test": "node --test server.test.js lib/welcomeEmailService.test.js",
     "db:setup": "node scripts/setup-database.js",
     "audit:curriculum": "node scripts/verify-curriculum-coverage.js",

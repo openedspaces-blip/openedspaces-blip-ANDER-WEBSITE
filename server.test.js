@@ -3913,19 +3913,16 @@ test('every published Test has one keyed answer and unambiguous vocabulary choic
       const units = testUnits.filter((unit) => unit.target_language === language && unit.level === level);
       for (const unit of units) {
           const questions = buildLanguageLessonTest(language, level, unit.slug);
-          const isEnglish = language === 'english';
-          assert.equal(questions.length, isEnglish ? 16 : 15, `${language}/${level}/${unit.slug} has the expected question count`);
+          assert.equal(questions.length, 16, `${language}/${level}/${unit.slug} has 16 questions`);
           assert.deepEqual(
             questions.map((question) => question.area),
-            isEnglish
-              ? [
-                  ...Array(7).fill('Grammar'),
-                  ...Array(3).fill('Vocabulary'),
-                  ...Array(level === 'A1' ? 3 : 2).fill('Verbs'),
-                  ...Array(level === 'A1' ? 3 : 2).fill('Adjectives'),
-                  ...(level === 'A1' ? [] : Array(2).fill('Adverbs'))
-                ]
-              : [...Array(9).fill('Grammar'), ...Array(3).fill('Vocabulary'), ...Array(3).fill('Verbs')],
+            [
+              ...Array(7).fill('Grammar'),
+              ...Array(3).fill('Vocabulary'),
+              ...Array(level === 'A1' ? 3 : 2).fill('Verbs'),
+              ...Array(level === 'A1' ? 3 : 2).fill('Adjectives'),
+              ...(level === 'A1' ? [] : Array(2).fill('Adverbs'))
+            ],
             `${language}/${level}/${unit.slug} keeps its assessment structure`
           );
           for (const question of questions) {

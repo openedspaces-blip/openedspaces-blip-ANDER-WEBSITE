@@ -20,6 +20,11 @@ const REQUIRED_FILES = [
   'aprender-ingles.html',
   'aprender-frances.html',
   'aprender-espanol.html',
+  'aprender-italiano.html',
+  'aprender-portugues.html',
+  'aprender-aleman.html',
+  'vocabulario-basico-idiomas.html',
+  'sobre-andergo.html',
   'verbos-ingles.html',
   'test-nivel-ingles.html',
   'src/css/styles.css',
@@ -46,6 +51,9 @@ const REQUIRED_FILES = [
   'favicon.svg',
   'andergo-social.png',
   'robots.txt',
+  'llms.txt',
+  '830147164463cf68f149cb4e21cfc9fd.txt',
+  'yandex_3e52e2813c3f3500.html',
   'sitemap.xml',
   'site.webmanifest'
 ];
