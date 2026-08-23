@@ -5151,7 +5151,7 @@ a:focus-visible {
 }
 
 footer {
-  padding: 64px 6% 48px;
+  padding: 34px 6% 24px;
   text-align: center;
   background:
     radial-gradient(circle at 15% 0%, rgba(37, 99, 235, 0.28), transparent 42%),
@@ -5177,10 +5177,10 @@ footer::before {
   display: grid;
   grid-template-columns: minmax(210px, 0.7fr) minmax(0, 2.3fr);
   align-items: start;
-  gap: clamp(36px, 6vw, 88px);
+  gap: clamp(26px, 4vw, 54px);
   text-align: left;
   max-width: 1240px;
-  margin: 0 auto 32px;
+  margin: 0 auto 18px;
 }
 
 .footer-brand {
@@ -5189,15 +5189,15 @@ footer::before {
 
 .footer-links {
   display: grid;
-  grid-template-columns: minmax(130px, 0.65fr) minmax(260px, 1.5fr) minmax(210px, 1fr);
-  gap: clamp(28px, 4vw, 64px);
+  grid-template-columns: minmax(105px, 0.75fr) minmax(190px, 1.25fr) minmax(155px, 0.9fr) minmax(160px, 1fr);
+  gap: clamp(18px, 2.5vw, 38px);
   align-items: start;
 }
 
 .footer-links-col {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
   min-width: 0;
 }
 
@@ -5206,7 +5206,7 @@ footer::before {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 4px;
+  margin: 0 0 2px;
 }
 
 .footer-links-col a {
@@ -5268,7 +5268,8 @@ footer strong {
 }
 
 footer p {
-  margin: 12px 0 20px;
+  margin: 8px 0 0;
+  font-size: 0.94rem;
   color: #cbd5e1;
 }
 
@@ -5276,7 +5277,7 @@ footer small {
   display: block;
   max-width: 1240px;
   margin: 0 auto;
-  padding-top: 18px;
+  padding-top: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: #94a3b8;
   text-align: center;
@@ -36464,11 +36465,11 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 
   body.is-signed-in .navbar .nav-group-member > a,
   body.is-signed-in .navbar .nav-group-member > .nav-more summary {
-    font-size: 0.88rem;
+    font-size: 0.82rem;
   }
 
   body.is-signed-in .navbar .menu {
-    gap: clamp(0.52rem, 0.72vw, 0.8rem);
+    gap: clamp(0.32rem, 0.48vw, 0.55rem);
   }
 
   body.is-signed-in .navbar .menu .nav-learn-cta {
