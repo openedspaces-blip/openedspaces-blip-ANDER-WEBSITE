@@ -12856,6 +12856,72 @@ function getCompanionIllustrationThemeIndex({ lesson, kind, title, seedText }) {
   return getReadingIllustrationTheme(lesson).index || 0;
 }
 
+function buildBeginnerReadingActivities(language, topic, unitOrder) {
+  // Alternate readings should teach learners how to decode the short texts
+  // they actually meet outside a course: notices, messages, cards and plans.
+  // Rotating these formats makes the catalogue varied while keeping A1–A2
+  // language concrete and predictable.
+  const activities = {
+    english: [
+      ['A short dialogue', 'Mia: Hello. I am Mia. What is your name?\nNoah: My name is Noah. Nice to meet you.\nMia: Nice to meet you too. Are you in this class?\nNoah: Yes. I am in room three.'],
+      ['My profile card', 'Name: Maya Brown\nCity: Bristol\nClass: English A1\nTeacher: Mr. Clark\nFavourite activity: reading\n\nMaya is new in class. Her partner reads the card and says hello.'],
+      ['A classroom notice', 'WELCOME TO OUR CLASS\n\n• Write your name on the card.\n• Sit with your partner.\n• Open your book on page six.\n• Ask the teacher when you need help.'],
+      ['Today’s timetable', 'MONDAY\n\n09:00 English class\n10:00 Break\n10:20 Reading time\n11:00 Goodbye\n\nSam has English at nine. He has a break at ten.'],
+      ['A text message', 'Hi Eva! I am at the library. Our class starts at four today. Please bring your blue notebook. See you there!\n— Tom'],
+      ['A simple checklist', 'BEFORE CLASS\n\n□ My book\n□ A pen\n□ My name card\n□ My homework\n\nLina has her book and pen. She needs her homework.']
+    ],
+    spanish: [
+      ['Un diálogo corto', 'Mía: Hola. Soy Mía. ¿Cómo te llamas?\nNoé: Me llamo Noé. Mucho gusto.\nMía: Mucho gusto. ¿Estás en esta clase?\nNoé: Sí. Estoy en el aula tres.'],
+      ['Mi ficha personal', 'Nombre: Maya Brown\nCiudad: Bristol\nClase: Español A1\nProfesor: Sr. Clark\nActividad favorita: leer\n\nMaya es nueva en clase. Su compañero lee la ficha y dice hola.'],
+      ['Un aviso de clase', 'BIENVENIDOS A LA CLASE\n\n• Escribe tu nombre en la tarjeta.\n• Siéntate con tu compañero.\n• Abre el libro en la página seis.\n• Pregunta al profesor si necesitas ayuda.'],
+      ['El horario de hoy', 'LUNES\n\n09:00 Clase de español\n10:00 Descanso\n10:20 Tiempo de lectura\n11:00 Adiós\n\nSam tiene español a las nueve. Tiene descanso a las diez.'],
+      ['Un mensaje de texto', '¡Hola, Eva! Estoy en la biblioteca. Nuestra clase empieza a las cuatro hoy. Por favor, trae tu cuaderno azul. ¡Nos vemos!\n— Tom'],
+      ['Una lista sencilla', 'ANTES DE CLASE\n\n□ Mi libro\n□ Un bolígrafo\n□ Mi tarjeta de nombre\n□ Mi tarea\n\nLina tiene su libro y su bolígrafo. Necesita su tarea.']
+    ],
+    french: [
+      ['Un court dialogue', 'Mia : Bonjour. Je suis Mia. Comment tu t’appelles ?\nNoah : Je m’appelle Noah. Enchanté.\nMia : Enchantée. Tu es dans cette classe ?\nNoah : Oui. Je suis dans la salle trois.'],
+      ['Ma fiche personnelle', 'Nom : Maya Brown\nVille : Bristol\nCours : Français A1\nProfesseur : M. Clark\nActivité préférée : lire\n\nMaya est nouvelle dans la classe. Son partenaire lit la fiche et dit bonjour.'],
+      ['Une annonce de classe', 'BIENVENUE DANS NOTRE CLASSE\n\n• Écris ton prénom sur la carte.\n• Assieds-toi avec ton partenaire.\n• Ouvre ton livre à la page six.\n• Demande de l’aide au professeur si nécessaire.'],
+      ['L’emploi du temps du jour', 'LUNDI\n\n09 h 00 Cours de français\n10 h 00 Pause\n10 h 20 Lecture\n11 h 00 Au revoir\n\nSam a français à neuf heures. Il a une pause à dix heures.'],
+      ['Un message', 'Salut Eva ! Je suis à la bibliothèque. Notre cours commence à quatre heures aujourd’hui. Apporte ton cahier bleu, s’il te plaît. À bientôt !\n— Tom'],
+      ['Une petite liste', 'AVANT LE COURS\n\n□ Mon livre\n□ Un stylo\n□ Ma carte de prénom\n□ Mes devoirs\n\nLina a son livre et son stylo. Il lui faut ses devoirs.']
+    ],
+    italian: [
+      ['Un breve dialogo', 'Mia: Ciao. Sono Mia. Come ti chiami?\nNoah: Mi chiamo Noah. Piacere.\nMia: Piacere. Sei in questa classe?\nNoah: Sì. Sono nell’aula tre.'],
+      ['La mia scheda', 'Nome: Maya Brown\nCittà: Bristol\nCorso: Italiano A1\nInsegnante: Sig. Clark\nAttività preferita: leggere\n\nMaya è nuova in classe. Il suo compagno legge la scheda e dice ciao.'],
+      ['Un avviso in classe', 'BENVENUTI IN CLASSE\n\n• Scrivi il tuo nome sul cartellino.\n• Siediti con il tuo compagno.\n• Apri il libro a pagina sei.\n• Chiedi aiuto all’insegnante se necessario.'],
+      ['L’orario di oggi', 'LUNEDÌ\n\n09:00 Corso di italiano\n10:00 Pausa\n10:20 Lettura\n11:00 Arrivederci\n\nSam ha italiano alle nove. Ha una pausa alle dieci.'],
+      ['Un messaggio', 'Ciao Eva! Sono in biblioteca. Il nostro corso inizia alle quattro oggi. Porta il tuo quaderno blu, per favore. A presto!\n— Tom'],
+      ['Una lista semplice', 'PRIMA DEL CORSO\n\n□ Il mio libro\n□ Una penna\n□ Il mio cartellino\n□ I miei compiti\n\nLina ha il libro e la penna. Le servono i compiti.']
+    ],
+    portuguese: [
+      ['Um diálogo curto', 'Mia: Olá. Eu sou Mia. Como você se chama?\nNoah: Eu me chamo Noah. Prazer.\nMia: Prazer. Você está nesta aula?\nNoah: Sim. Eu estou na sala três.'],
+      ['Minha ficha', 'Nome: Maya Brown\nCidade: Bristol\nCurso: Português A1\nProfessor: Sr. Clark\nAtividade favorita: ler\n\nMaya é nova na turma. Seu colega lê a ficha e diz olá.'],
+      ['Um aviso de aula', 'BEM-VINDOS À AULA\n\n• Escreva seu nome no cartão.\n• Sente-se com seu colega.\n• Abra o livro na página seis.\n• Peça ajuda ao professor quando precisar.'],
+      ['O horário de hoje', 'SEGUNDA-FEIRA\n\n09:00 Curso de português\n10:00 Pausa\n10:20 Leitura\n11:00 Até logo\n\nSam tem português às nove. Ele tem uma pausa às dez.'],
+      ['Uma mensagem', 'Oi, Eva! Estou na biblioteca. Nossa aula começa às quatro hoje. Por favor, traga seu caderno azul. Até já!\n— Tom'],
+      ['Uma lista simples', 'ANTES DA AULA\n\n□ Meu livro\n□ Uma caneta\n□ Meu cartão de nome\n□ Minha tarefa\n\nLina tem o livro e a caneta. Ela precisa da tarefa.']
+    ],
+    german: [
+      ['Ein kurzer Dialog', 'Mia: Hallo. Ich bin Mia. Wie heißt du?\nNoah: Ich heiße Noah. Freut mich.\nMia: Freut mich auch. Bist du in dieser Klasse?\nNoah: Ja. Ich bin in Raum drei.'],
+      ['Meine Karte', 'Name: Maya Brown\nStadt: Bristol\nKurs: Deutsch A1\nLehrer: Herr Clark\nLieblingsaktivität: lesen\n\nMaya ist neu im Kurs. Ihr Partner liest die Karte und sagt Hallo.'],
+      ['Ein Hinweis im Kurs', 'WILLKOMMEN IM KURS\n\n• Schreibe deinen Namen auf die Karte.\n• Setz dich zu deinem Partner.\n• Öffne dein Buch auf Seite sechs.\n• Frage den Lehrer, wenn du Hilfe brauchst.'],
+      ['Der Stundenplan heute', 'MONTAG\n\n09:00 Deutschkurs\n10:00 Pause\n10:20 Lesezeit\n11:00 Tschüss\n\nSam hat um neun Deutsch. Um zehn hat er Pause.'],
+      ['Eine Nachricht', 'Hallo Eva! Ich bin in der Bibliothek. Unser Kurs beginnt heute um vier. Bitte bring dein blaues Heft mit. Bis gleich!\n— Tom'],
+      ['Eine einfache Liste', 'VOR DEM KURS\n\n□ Mein Buch\n□ Ein Stift\n□ Meine Namenskarte\n□ Meine Hausaufgaben\n\nLina hat ihr Buch und ihren Stift. Sie braucht ihre Hausaufgaben.']
+    ]
+  };
+  const languageActivities = activities[language] || activities.english;
+  const firstIndex = ((Math.max(1, unitOrder) - 1) * 2) % languageActivities.length;
+  const selected = [languageActivities[firstIndex], languageActivities[(firstIndex + 1) % languageActivities.length]];
+  return selected.map(([format, text], index) => ({
+    title: `${format}: ${topic}`,
+    text,
+    format,
+    id: `beginner-${firstIndex + index + 1}`
+  }));
+}
+
 function buildProgrammeReadingVariants(lesson) {
   const language = lesson.language || learningPathState.language || 'english';
   const level = String(lesson.level || learningPathState.level || 'A1').toUpperCase();
@@ -12932,43 +12998,67 @@ function buildProgrammeReadingVariants(lesson) {
         : [`Im Kurs: ${topic}`, `Das ist ein kurzer Text über ${topic}. Zwei Schüler sprechen, hören zu und benutzen neue Wörter aus dem Kurs.`, `Eine Nachricht über ${topic}`, `Ein Schüler schreibt eine kurze Nachricht über ${topic}. Die Nachricht benutzt einfache Wörter aus der Einheit.`]
     };
     const copy = beginnerCopies[language] || beginnerCopies.english;
+    const generatedActivities = buildBeginnerReadingActivities(language, topic, unitOrder);
+    const practicalReadingDescription = {
+      english: 'A short, useful text for finding key details.',
+      spanish: 'Un texto breve y útil para encontrar datos importantes.',
+      french: 'Un texte court et utile pour repérer des informations importantes.',
+      italian: 'Un testo breve e utile per trovare informazioni importanti.',
+      portuguese: 'Um texto curto e útil para encontrar informações importantes.',
+      german: 'Ein kurzer, nützlicher Text zum Finden wichtiger Informationen.'
+    };
+    // The first unit keeps its welcoming, named story. Every later unit
+    // receives two different real-world reading formats instead of another
+    // generic story and note about the same topic.
+    const [storyTitle, storySeed, practiceTitle, practiceSeed] = firstA1
+      ? copy
+      : [
+          generatedActivities[0].title,
+          generatedActivities[0].text,
+          generatedActivities[1].title,
+          generatedActivities[1].text
+        ];
     return [
       {
-        id: 'companion-story',
-        label: copy[0],
-        title: copy[0],
-        description: variantTextCopy.story,
+        id: firstA1 ? 'companion-story' : generatedActivities[0].id,
+        label: storyTitle,
+        title: storyTitle,
+        description: firstA1
+          ? variantTextCopy.story
+          : practicalReadingDescription[language] || practicalReadingDescription.english,
         text: buildComparableCompanionReading({
           lesson,
-          title: copy[0],
-          seedText: copy[1],
+          title: storyTitle,
+          seedText: storySeed,
           kind: 'beginner'
         }),
         exercises: [],
         illustrationThemeIndex: getCompanionIllustrationThemeIndex({
           lesson,
           kind: 'beginner',
-          title: copy[0],
-          seedText: copy[1]
+          title: storyTitle,
+          seedText: storySeed
         })
       },
       {
-        id: 'companion-practice',
-        label: copy[2],
-        title: copy[2],
-        description: variantTextCopy.practice,
+        id: firstA1 ? 'companion-practice' : generatedActivities[1].id,
+        label: practiceTitle,
+        title: practiceTitle,
+        description: firstA1
+          ? variantTextCopy.practice
+          : practicalReadingDescription[language] || practicalReadingDescription.english,
         text: buildComparableCompanionReading({
           lesson,
-          title: copy[2],
-          seedText: copy[3],
+          title: practiceTitle,
+          seedText: practiceSeed,
           kind: 'beginner'
         }),
         exercises: [],
         illustrationThemeIndex: getCompanionIllustrationThemeIndex({
           lesson,
           kind: 'beginner',
-          title: copy[2],
-          seedText: copy[3]
+          title: practiceTitle,
+          seedText: practiceSeed
         })
       }
     ];
