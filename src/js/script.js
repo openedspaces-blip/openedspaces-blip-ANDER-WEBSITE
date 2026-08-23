@@ -1379,9 +1379,9 @@ const COURSE_LEVELS_BY_LANGUAGE = Object.freeze({
   english: ['PRE-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
   french: ['PRE-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
   spanish: ['PRE-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
-  italian: ['A1', 'A2', 'B1'],
-  portuguese: ['A1', 'A2', 'B1'],
-  german: ['A1', 'A2', 'B1']
+  italian: ['PRE-A1', 'A1', 'A2', 'B1'],
+  portuguese: ['PRE-A1', 'A1', 'A2', 'B1'],
+  german: ['PRE-A1', 'A1', 'A2', 'B1']
 });
 const COURSE_LEVEL_LABELS = Object.freeze({
   'PRE-A1': 'Pre-A1 · Primeros pasos',
@@ -5270,6 +5270,59 @@ const PRE_A1_SPANISH_VISUAL_COURSE = [
   }
 ];
 
+// The three later-added languages use the same first-steps sequence as the
+// original Pre-A1 courses.  Keeping a shared course shape makes the entry
+// level equally complete regardless of the learner's chosen language.
+function createEuropeanPreA1Course({ language, greeting, farewell, alphabet, numbers, calendar, colours, politeness, ready }) {
+  const topics = [
+    greeting,
+    farewell,
+    alphabet,
+    numbers,
+    calendar,
+    colours,
+    politeness,
+    ready
+  ];
+  return topics.map((topic, index) => ({ ...topic, id: topic.id, col: index % 4, row: Math.floor(index / 4), language }));
+}
+
+const PRE_A1_ITALIAN_VISUAL_COURSE = createEuropeanPreA1Course({
+  language: 'italian',
+  greeting: { id: 'greetings', icon: '👋', title: 'Ciao!', subtitle: 'Saluti · Saludos', goal: 'Saluda y di tu nombre.', grammar: 'Sono… / Mi chiamo…', words: [['ciao','hola'],['buongiorno','buenos días'],['buonasera','buenas tardes'],['benvenuto/a','bienvenido/a'],['nome','nombre'],['grazie','gracias']], phrases: ['Ciao! Mi chiamo Ana.', 'Buongiorno. Piacere!'], prompt: '¿Qué dices para saludar?', options: ['Arrivederci!', 'Ciao!', 'Dodici'], answer: 1 },
+  farewell: { id: 'farewells', icon: '👋', title: 'Arrivederci!', subtitle: 'Saluti finali · Despedidas', goal: 'Termina una conversación con cortesía.', grammar: 'A + momento', words: [['arrivederci','adiós'],['ciao','chao'],['a presto','hasta pronto'],['a domani','hasta mañana'],['buonanotte','buenas noches'],['grazie','gracias']], phrases: ['Arrivederci! A domani.', 'Ciao! A presto.'], prompt: '¿Cuál es una despedida?', options: ['Buongiorno!', 'Mi chiamo Leo.', 'A presto!'], answer: 2 },
+  alphabet: { id: 'alphabet', icon: '🔤', title: "L’alfabeto", subtitle: 'Lettere · Letras', goal: 'Reconoce el alfabeto y deletrea un nombre.', grammar: 'Come si scrive…?', words: [['A','a'],['B','bi'],['C','ci'],['D','di'],['E','e'],['F','effe'],['G','gi'],['H','acca'],['I','i'],['L','elle'],['M','emme'],['N','enne'],['O','o'],['P','pi'],['Q','cu'],['R','erre'],['S','esse'],['T','ti'],['U','u'],['V','vu'],['Z','zeta']], phrases: ['Come si scrive Ana?', 'A-N-A. Ana.'], prompt: '¿Qué opción contiene solo letras?', options: ['A, B, C', 'uno, due, tre', 'rosso, blu, verde'], answer: 0 },
+  numbers: { id: 'numbers', icon: '🔢', title: 'I numeri', subtitle: '1–20 · Números', goal: 'Reconoce números y dice una edad sencilla.', grammar: 'Ho + numero + anni.', words: [['uno','uno'],['due','dos'],['tre','tres'],['quattro','cuatro'],['cinque','cinco'],['dieci','diez'],['quindici','quince'],['venti','veinte']], phrases: ['Ho dieci anni.', 'Ho cinque matite.'], prompt: '¿Qué palabra es un número?', options: ['Lunedì', 'Giallo', 'Quindici'], answer: 2 },
+  calendar: { id: 'calendar', icon: '📅', title: 'Il calendario', subtitle: 'Giorni e mesi · Días y meses', goal: 'Reconoce los días y los meses del año.', grammar: 'Oggi è… / Il mio compleanno è a…', words: [['lunedì','lunes'],['martedì','martes'],['mercoledì','miércoles'],['giovedì','jueves'],['venerdì','viernes'],['sabato','sábado'],['domenica','domingo'],['gennaio','enero'],['febbraio','febrero'],['marzo','marzo'],['aprile','abril'],['maggio','mayo'],['giugno','junio'],['luglio','julio'],['agosto','agosto'],['settembre','septiembre'],['ottobre','octubre'],['novembre','noviembre'],['dicembre','diciembre']], phrases: ['Oggi è lunedì.', 'Il mio compleanno è a luglio.'], prompt: 'Completa: Oggi è ___.', options: ['Venerdì', 'Blu', 'Libro'], answer: 0 },
+  colours: { id: 'colours', icon: '🎨', title: 'I colori', subtitle: 'Colori · Colores', goal: 'Nombra colores de objetos cotidianos.', grammar: 'È… / Il ___ è…', words: [['rosso','rojo'],['blu','azul'],['giallo','amarillo'],['verde','verde'],['arancione','naranja'],['viola','morado'],['nero','negro'],['bianco','blanco']], phrases: ['È una mela rossa.', 'La borsa è blu.'], prompt: '¿Cuál opción es un color?', options: ['Professore', 'Verde', 'Sette'], answer: 1 },
+  politeness: { id: 'politeness', icon: '🤝', title: 'Per favore', subtitle: 'Cortesia · Politeness', goal: 'Usa expresiones de cortesía básicas.', grammar: 'Per favore / Grazie', words: [['per favore','por favor'],['grazie','gracias'],['prego','de nada'],['scusi','disculpe'],['mi dispiace','lo siento'],['permesso','con permiso']], phrases: ['Un’acqua, per favore.', 'Grazie mille! Prego.'], prompt: '¿Qué dices para pedir algo con cortesía?', options: ['Per favore', 'Arrivederci', 'Lunedì'], answer: 0 },
+  ready: { id: 'ready', icon: '🎉', title: 'Pronto per A1', subtitle: 'Ripasso · Repaso', goal: 'Haz una presentación muy corta.', grammar: 'Ciao + nome + emozione', words: [['ciao','hola'],['nome','nombre'],['amico/a','amigo/a'],['bene','bien'],['scuola','escuela'],['pronto/a','listo/a']], phrases: ['Ciao! Mi chiamo Mia.', 'Sono pronta per A1.'], prompt: 'Elige la mejor presentación.', options: ['Blu, dieci, lunedì.', 'Arrivederci, matita!', 'Ciao! Mi chiamo Mia.'], answer: 2 }
+});
+
+const PRE_A1_PORTUGUESE_VISUAL_COURSE = createEuropeanPreA1Course({
+  language: 'portuguese',
+  greeting: { id: 'greetings', icon: '👋', title: 'Olá!', subtitle: 'Saudações · Saludos', goal: 'Cumprimenta e diz o teu nome.', grammar: 'Sou… / Chamo-me…', words: [['olá','hola'],['bom dia','buenos días'],['boa tarde','buenas tardes'],['bem-vindo/a','bienvenido/a'],['nome','nombre'],['obrigado/a','gracias']], phrases: ['Olá! Chamo-me Ana.', 'Bom dia. Prazer!'], prompt: '¿Qué dices para saludar?', options: ['Adeus!', 'Olá!', 'Doze'], answer: 1 },
+  farewell: { id: 'farewells', icon: '👋', title: 'Até logo!', subtitle: 'Despedidas · Farewells', goal: 'Termina una conversación con cortesía.', grammar: 'Até + momento', words: [['adeus','adiós'],['tchau','chao'],['até logo','hasta luego'],['até amanhã','hasta mañana'],['boa noite','buenas noches'],['obrigado/a','gracias']], phrases: ['Até logo! Até amanhã.', 'Tchau!'], prompt: '¿Cuál es una despedida?', options: ['Bom dia!', 'Chamo-me Leo.', 'Até logo!'], answer: 2 },
+  alphabet: { id: 'alphabet', icon: '🔤', title: 'O alfabeto', subtitle: 'Letras · Letters', goal: 'Reconoce el alfabeto y deletrea un nombre.', grammar: 'Como se escreve…?', words: [['A','a'],['B','bê'],['C','cê'],['D','dê'],['E','e'],['F','efe'],['G','gê'],['H','agá'],['I','i'],['J','jota'],['L','ele'],['M','eme'],['N','ene'],['O','o'],['P','pê'],['Q','quê'],['R','erre'],['S','esse'],['T','tê'],['U','u'],['V','vê'],['Z','zê']], phrases: ['Como se escreve Ana?', 'A-N-A. Ana.'], prompt: '¿Qué opción contiene solo letras?', options: ['A, B, C', 'um, dois, três', 'vermelho, azul, verde'], answer: 0 },
+  numbers: { id: 'numbers', icon: '🔢', title: 'Os números', subtitle: '1–20 · Números', goal: 'Reconoce números y dice una edad sencilla.', grammar: 'Tenho + número + anos.', words: [['um','uno'],['dois','dos'],['três','tres'],['quatro','cuatro'],['cinco','cinco'],['dez','diez'],['quinze','quince'],['vinte','veinte']], phrases: ['Tenho dez anos.', 'Tenho cinco lápis.'], prompt: '¿Qué palabra es un número?', options: ['Segunda-feira', 'Amarelo', 'Quinze'], answer: 2 },
+  calendar: { id: 'calendar', icon: '📅', title: 'O calendário', subtitle: 'Dias e meses · Días y meses', goal: 'Reconoce los días y los meses del año.', grammar: 'Hoje é… / O meu aniversário é em…', words: [['segunda-feira','lunes'],['terça-feira','martes'],['quarta-feira','miércoles'],['quinta-feira','jueves'],['sexta-feira','viernes'],['sábado','sábado'],['domingo','domingo'],['janeiro','enero'],['fevereiro','febrero'],['março','marzo'],['abril','abril'],['maio','mayo'],['junho','junio'],['julho','julio'],['agosto','agosto'],['setembro','septiembre'],['outubro','octubre'],['novembro','noviembre'],['dezembro','diciembre']], phrases: ['Hoje é segunda-feira.', 'O meu aniversário é em julho.'], prompt: 'Completa: Hoje é ___.', options: ['Sexta-feira', 'Azul', 'Livro'], answer: 0 },
+  colours: { id: 'colours', icon: '🎨', title: 'As cores', subtitle: 'Cores · Colores', goal: 'Nombra colores de objetos cotidianos.', grammar: 'É… / O ___ é…', words: [['vermelho','rojo'],['azul','azul'],['amarelo','amarillo'],['verde','verde'],['laranja','naranja'],['roxo','morado'],['preto','negro'],['branco','blanco']], phrases: ['É uma maçã vermelha.', 'A bolsa é azul.'], prompt: '¿Cuál opción es un color?', options: ['Professor', 'Verde', 'Sete'], answer: 1 },
+  politeness: { id: 'politeness', icon: '🤝', title: 'Por favor', subtitle: 'Cortesia · Politeness', goal: 'Usa expresiones de cortesía básicas.', grammar: 'Por favor / Obrigado(a)', words: [['por favor','por favor'],['obrigado/a','gracias'],['de nada','de nada'],['com licença','disculpe'],['desculpe','lo siento'],['perdão','perdón']], phrases: ['Uma água, por favor.', 'Obrigado! De nada.'], prompt: '¿Qué dices para pedir algo con cortesía?', options: ['Por favor', 'Adeus', 'Segunda-feira'], answer: 0 },
+  ready: { id: 'ready', icon: '🎉', title: 'Pronto para A1', subtitle: 'Revisão · Repaso', goal: 'Haz una presentación muy corta.', grammar: 'Olá + nome + emoção', words: [['olá','hola'],['nome','nombre'],['amigo/a','amigo/a'],['bem','bien'],['escola','escuela'],['pronto/a','listo/a']], phrases: ['Olá! Chamo-me Mia.', 'Estou pronto para A1.'], prompt: 'Elige la mejor presentación.', options: ['Azul, dez, segunda-feira.', 'Adeus, lápis!', 'Olá! Chamo-me Mia.'], answer: 2 }
+});
+
+const PRE_A1_GERMAN_VISUAL_COURSE = createEuropeanPreA1Course({
+  language: 'german',
+  greeting: { id: 'greetings', icon: '👋', title: 'Hallo!', subtitle: 'Begrüßungen · Saludos', goal: 'Saluda y di tu nombre.', grammar: 'Ich bin… / Ich heiße…', words: [['hallo','hola'],['guten Morgen','buenos días'],['guten Tag','buenas tardes'],['willkommen','bienvenido/a'],['Name','nombre'],['danke','gracias']], phrases: ['Hallo! Ich heiße Ana.', 'Guten Morgen. Freut mich!'], prompt: '¿Qué dices para saludar?', options: ['Auf Wiedersehen!', 'Hallo!', 'Zwölf'], answer: 1 },
+  farewell: { id: 'farewells', icon: '👋', title: 'Auf Wiedersehen!', subtitle: 'Abschiede · Despedidas', goal: 'Termina una conversación con cortesía.', grammar: 'Bis + momento', words: [['auf Wiedersehen','adiós'],['tschüss','chao'],['bis später','hasta luego'],['bis morgen','hasta mañana'],['gute Nacht','buenas noches'],['danke','gracias']], phrases: ['Auf Wiedersehen! Bis morgen.', 'Tschüss! Bis später.'], prompt: '¿Cuál es una despedida?', options: ['Guten Morgen!', 'Ich heiße Leo.', 'Bis später!'], answer: 2 },
+  alphabet: { id: 'alphabet', icon: '🔤', title: 'Das Alphabet', subtitle: 'Buchstaben · Letras', goal: 'Reconoce el alfabeto y deletrea un nombre.', grammar: 'Wie schreibt man…?', words: [['A','a'],['B','be'],['C','ce'],['D','de'],['E','e'],['F','ef'],['G','ge'],['H','ha'],['I','i'],['J','jot'],['K','ka'],['L','el'],['M','em'],['N','en'],['O','o'],['P','pe'],['Q','ku'],['R','er'],['S','es'],['T','te'],['U','u'],['V','fau'],['W','we'],['X','iks'],['Y','üpsilon'],['Z','zett']], phrases: ['Wie schreibt man Ana?', 'A-N-A. Ana.'], prompt: '¿Qué opción contiene solo letras?', options: ['A, B, C', 'eins, zwei, drei', 'rot, blau, grün'], answer: 0 },
+  numbers: { id: 'numbers', icon: '🔢', title: 'Die Zahlen', subtitle: '1–20 · Números', goal: 'Reconoce números y dice una edad sencilla.', grammar: 'Ich bin + Zahl + Jahre alt.', words: [['eins','uno'],['zwei','dos'],['drei','tres'],['vier','cuatro'],['fünf','cinco'],['zehn','diez'],['fünfzehn','quince'],['zwanzig','veinte']], phrases: ['Ich bin zehn Jahre alt.', 'Ich habe fünf Stifte.'], prompt: '¿Qué palabra es un número?', options: ['Montag', 'Gelb', 'Fünfzehn'], answer: 2 },
+  calendar: { id: 'calendar', icon: '📅', title: 'Der Kalender', subtitle: 'Tage und Monate · Días y meses', goal: 'Reconoce los días y los meses del año.', grammar: 'Heute ist… / Mein Geburtstag ist im…', words: [['Montag','lunes'],['Dienstag','martes'],['Mittwoch','miércoles'],['Donnerstag','jueves'],['Freitag','viernes'],['Samstag','sábado'],['Sonntag','domingo'],['Januar','enero'],['Februar','febrero'],['März','marzo'],['April','abril'],['Mai','mayo'],['Juni','junio'],['Juli','julio'],['August','agosto'],['September','septiembre'],['Oktober','octubre'],['November','noviembre'],['Dezember','diciembre']], phrases: ['Heute ist Montag.', 'Mein Geburtstag ist im Juli.'], prompt: 'Completa: Heute ist ___.', options: ['Freitag', 'Blau', 'Buch'], answer: 0 },
+  colours: { id: 'colours', icon: '🎨', title: 'Die Farben', subtitle: 'Farben · Colores', goal: 'Nombra colores de objetos cotidianos.', grammar: 'Es ist… / Der ___ ist…', words: [['rot','rojo'],['blau','azul'],['gelb','amarillo'],['grün','verde'],['orange','naranja'],['lila','morado'],['schwarz','negro'],['weiß','blanco']], phrases: ['Das ist ein roter Apfel.', 'Die Tasche ist blau.'], prompt: '¿Cuál opción es un color?', options: ['Lehrer', 'Grün', 'Sieben'], answer: 1 },
+  politeness: { id: 'politeness', icon: '🤝', title: 'Bitte', subtitle: 'Höflichkeit · Politeness', goal: 'Usa expresiones de cortesía básicas.', grammar: 'Bitte / Danke', words: [['bitte','por favor'],['danke','gracias'],['gern geschehen','de nada'],['entschuldigung','disculpe'],['es tut mir leid','lo siento'],['verzeihung','perdón']], phrases: ['Wasser, bitte.', 'Danke! Gern geschehen.'], prompt: '¿Qué dices para pedir algo con cortesía?', options: ['Bitte', 'Tschüss', 'Montag'], answer: 0 },
+  ready: { id: 'ready', icon: '🎉', title: 'Bereit für A1', subtitle: 'Wiederholung · Repaso', goal: 'Haz una presentación muy corta.', grammar: 'Hallo + Name + Gefühl', words: [['hallo','hola'],['Name','nombre'],['Freund/in','amigo/a'],['gut','bien'],['Schule','escuela'],['bereit','listo/a']], phrases: ['Hallo! Ich heiße Mia.', 'Ich bin bereit für A1.'], prompt: 'Elige la mejor presentación.', options: ['Blau, zehn, Montag.', 'Tschüss, Stift!', 'Hallo! Ich heiße Mia.'], answer: 2 }
+});
+
 // Each topic includes a tiny, meaningful exchange. At Pre-A1 the aim is not
 // free conversation yet: learners first notice a useful pattern, hear it in
 // context and safely repeat it before answering the check question.
@@ -5501,13 +5554,36 @@ function isPreA1VisualCourse(
   language = learningPathState.language,
   level = learningPathState.level
 ) {
-  return ['english', 'french', 'spanish'].includes(language) && level === 'PRE-A1';
+  return ['english', 'french', 'spanish', 'italian', 'portuguese', 'german'].includes(language) && level === 'PRE-A1';
 }
 
 function getPreA1Course(language = learningPathState.language) {
   if (language === 'french') return PRE_A1_FRENCH_VISUAL_COURSE;
   if (language === 'spanish') return PRE_A1_SPANISH_VISUAL_COURSE;
+  if (language === 'italian') return PRE_A1_ITALIAN_VISUAL_COURSE;
+  if (language === 'portuguese') return PRE_A1_PORTUGUESE_VISUAL_COURSE;
+  if (language === 'german') return PRE_A1_GERMAN_VISUAL_COURSE;
   return PRE_A1_VISUAL_COURSE;
+}
+
+function getPreA1LanguageMeta(language = learningPathState.language) {
+  return {
+    english: { name: 'English', locale: 'en-US', title: 'Your visual English starter' },
+    french: { name: 'Français', locale: 'fr-FR', title: 'Tes premiers pas en français' },
+    spanish: { name: 'Español', locale: 'es-ES', title: 'Tus primeros pasos en español' },
+    italian: { name: 'Italiano', locale: 'it-IT', title: 'I tuoi primi passi in italiano' },
+    portuguese: { name: 'Português', locale: 'pt-BR', title: 'Os teus primeiros passos em português' },
+    german: { name: 'Deutsch', locale: 'de-DE', title: 'Deine ersten Schritte auf Deutsch' }
+  }[language] || { name: 'English', locale: 'en-US', title: 'Your visual English starter' };
+}
+
+function buildPreA1FallbackDialogue(topic) {
+  const [first = '', second = ''] = topic.phrases || [];
+  return [
+    ['Tutor', first],
+    ['Estudiante', second || first],
+    ['Tutor', '¡Muy bien!']
+  ].filter(([, line]) => line);
 }
 
 function getPreA1Progress(language = learningPathState.language) {
@@ -5549,6 +5625,7 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   const lessonOpen = Boolean(selectedTopicId);
   const course = getPreA1Course();
   const language = learningPathState.language;
+  const languageMeta = getPreA1LanguageMeta(language);
   const isFrenchPreA1 = language === 'french';
   const isSpanishPreA1 = language === 'spanish';
   const progress = getPreA1Progress(language);
@@ -5561,9 +5638,9 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     : isSpanishPreA1
       ? PRE_A1_SPANISH_MICRO_DIALOGUES
       : PRE_A1_MICRO_DIALOGUES;
-  const dialogue = dialogueMap[selected.id] || [];
+  const dialogue = dialogueMap[selected.id] || buildPreA1FallbackDialogue(selected);
   const isAlphabetTopic = ['abc', 'alphabet', 'abecedario'].includes(selected.id);
-  const isCalendarTopic = ['days', 'semaine', 'dias'].includes(selected.id);
+  const isCalendarTopic = ['days', 'semaine', 'dias', 'calendar'].includes(selected.id);
   const isColourTopic = ['colours', 'couleurs', 'colores'].includes(selected.id);
   const colourVisuals = ['🔴', '🔵', '🟡', '🟢', '🟠', '🟣', '🩷', '🟤', '⚪', '⚫', '⬜'];
   // Spanish and French use the same visual vocabulary as the English starter
@@ -5571,6 +5648,10 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   // keeps every language route equally pictorial without duplicating assets.
   const sharedVisualTopic =
     {
+      greetings: 'hello',
+      farewells: 'goodbye',
+      calendar: 'days',
+      politeness: 'hello',
       hola: 'hello',
       adios: 'goodbye',
       numeros: 'numbers',
@@ -5669,12 +5750,12 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   section.classList.toggle('pre-a1-lesson-open', lessonOpen);
   if (tabs) tabs.hidden = true;
   if (routeToggle) routeToggle.hidden = true;
-  const courseName = isFrenchPreA1 ? 'Français' : isSpanishPreA1 ? 'Español' : 'English';
+  const courseName = languageMeta.name;
   const heroTitle = isFrenchPreA1
     ? 'Commence par ce que tu peux voir.'
     : isSpanishPreA1
       ? 'Empieza por lo que puedes ver.'
-      : 'Start with what you can see.';
+      : languageMeta.title;
   if (context)
     context.innerHTML = `<span>${courseName}</span><i aria-hidden="true"></i><span>Pre-A1</span><i aria-hidden="true"></i><span>Visual starter</span>`;
 
@@ -5750,7 +5831,7 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
       if (!('speechSynthesis' in window)) return;
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(button.dataset.speech || '');
-      utterance.lang = isFrenchPreA1 ? 'fr-FR' : isSpanishPreA1 ? 'es-ES' : 'en-US';
+      utterance.lang = languageMeta.locale;
       utterance.rate = 0.82;
       button.classList.add('is-speaking');
       utterance.onend = utterance.onerror = () => button.classList.remove('is-speaking');
@@ -6257,37 +6338,37 @@ const READING_LIBRARY_COPY = Object.freeze({
     eyebrow: 'READING LIBRARY', choose: 'Choose your reading', language: 'Language', level: 'Level',
     title: 'English Readings', intro: (count) => `Explore all ${count} readings at this level and open the one you want to practise.`,
     available: (count) => `${count} readings available`, list: 'Complete level list in three columns.',
-    unit: 'Unit', open: 'Open reading →', free: (level) => `Free includes units 1–3 of ${level} (all three readings).`
+    unit: 'Unit', open: 'Open reading →', locked: 'Premium · locked', upgrade: 'Become Premium to unlock →', free: (level) => `Free includes units 1–3 of ${level} (all three readings).`
   },
   spanish: {
     eyebrow: 'BIBLIOTECA DE LECTURAS', choose: 'Elige tu lectura', language: 'Idioma', level: 'Nivel',
     title: 'Lecturas en español', intro: (count) => `Explora las ${count} lecturas de este nivel y abre la que quieras practicar.`,
     available: (count) => `${count} lecturas disponibles`, list: 'Lista completa del nivel en tres columnas.',
-    unit: 'Unidad', open: 'Abrir lectura →', free: (level) => `Free incluye las unidades 1–3 de ${level} (sus tres lecturas).`
+    unit: 'Unidad', open: 'Abrir lectura →', locked: 'Premium · bloqueado', upgrade: 'Hazte Premium para desbloquear →', free: (level) => `Free incluye las unidades 1–3 de ${level} (sus tres lecturas).`
   },
   french: {
     eyebrow: 'BIBLIOTHÈQUE DE LECTURES', choose: 'Choisissez votre lecture', language: 'Langue', level: 'Niveau',
     title: 'Lectures en français', intro: (count) => `Explorez les ${count} lectures de ce niveau et ouvrez celle que vous voulez pratiquer.`,
     available: (count) => `${count} lectures disponibles`, list: 'Liste complète du niveau en trois colonnes.',
-    unit: 'Unité', open: 'Ouvrir la lecture →', free: (level) => `Free inclut les unités 1–3 de ${level} (les trois lectures).`
+    unit: 'Unité', open: 'Ouvrir la lecture →', locked: 'Premium · verrouillé', upgrade: 'Passez à Premium pour débloquer →', free: (level) => `Free inclut les unités 1–3 de ${level} (les trois lectures).`
   },
   italian: {
     eyebrow: 'BIBLIOTECA DI LETTURE', choose: 'Scegli la tua lettura', language: 'Lingua', level: 'Livello',
     title: 'Letture in italiano', intro: (count) => `Esplora le ${count} letture di questo livello e apri quella che vuoi praticare.`,
     available: (count) => `${count} letture disponibili`, list: 'Elenco completo del livello in tre colonne.',
-    unit: 'Unità', open: 'Apri lettura →', free: (level) => `Free include le unità 1–3 di ${level} (tutte e tre le letture).`
+    unit: 'Unità', open: 'Apri lettura →', locked: 'Premium · bloccato', upgrade: 'Passa a Premium per sbloccare →', free: (level) => `Free include le unità 1–3 di ${level} (tutte e tre le letture).`
   },
   portuguese: {
     eyebrow: 'BIBLIOTECA DE LEITURAS', choose: 'Escolha sua leitura', language: 'Idioma', level: 'Nível',
     title: 'Leituras em português', intro: (count) => `Explore as ${count} leituras deste nível e abra a que quiser praticar.`,
     available: (count) => `${count} leituras disponíveis`, list: 'Lista completa do nível em três colunas.',
-    unit: 'Unidade', open: 'Abrir leitura →', free: (level) => `Free inclui as unidades 1–3 de ${level} (as três leituras).`
+    unit: 'Unidade', open: 'Abrir leitura →', locked: 'Premium · bloqueado', upgrade: 'Assine Premium para desbloquear →', free: (level) => `Free inclui as unidades 1–3 de ${level} (as três leituras).`
   },
   german: {
     eyebrow: 'LESEBIBLIOTHEK', choose: 'Wähle deinen Lesetext', language: 'Sprache', level: 'Niveau',
     title: 'Lesetexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Lesetexte dieses Niveaus und öffne den Text, den du üben möchtest.`,
     available: (count) => `${count} Lesetexte verfügbar`, list: 'Vollständige Niveauliste in drei Spalten.',
-    unit: 'Einheit', open: 'Lesetext öffnen →', free: (level) => `Free enthält die Einheiten 1–3 von ${level} (alle drei Lesetexte).`
+    unit: 'Einheit', open: 'Lesetext öffnen →', locked: 'Premium · gesperrt', upgrade: 'Mit Premium freischalten →', free: (level) => `Free enthält die Einheiten 1–3 von ${level} (alle drei Lesetexte).`
   }
 });
 
@@ -6377,7 +6458,9 @@ function renderReadingLibrary() {
                   <small class="reading-library-card-unit">${escapeHtml(copy.unit)} ${unitOrder} · ${escapeHtml(unit.title || lesson.title)}</small>
                   <strong>${escapeHtml((topic.label || `Lectura ${topicOrder}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
                   <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
-                  <em>${locked ? 'Premium →' : escapeHtml(copy.open)}</em>
+                  <em class="library-card-status">${locked
+                    ? `<span>🔒 ${escapeHtml(copy.locked)}</span><span class="library-premium-invite">${escapeHtml(copy.upgrade)}</span>`
+                    : escapeHtml(copy.open)}</em>
                 </button>`
             )
             .join('')}
@@ -6404,7 +6487,7 @@ function renderReadingLibrary() {
         openPaywallModal({
           title: 'Esta unidad de Lecturas es Premium.',
           message:
-            'Premium desbloquea las tres lecturas complementarias de esta unidad y el resto del nivel.'
+            'Hazte usuario Premium para desbloquear esta lectura, las tres lecturas de su unidad y el resto del nivel.'
         });
         return;
       }
@@ -6415,12 +6498,12 @@ function renderReadingLibrary() {
 }
 
 const LISTENING_LIBRARY_COPY = Object.freeze({
-  english: { eyebrow: 'LISTENING LIBRARY', choose: 'Choose your listening', language: 'Language', level: 'Level', title: 'English Listenings', intro: (count) => `Explore all ${count} listening activities at this level. Premium activities stay visible and are clearly locked.`, available: (count) => `${count} listenings available`, unit: 'Unit', open: 'Open listening →', locked: 'Premium · locked', free: (level) => `Free includes units 1–3 of ${level}.` },
-  spanish: { eyebrow: 'BIBLIOTECA DE AUDIOS', choose: 'Elige tu listening', language: 'Idioma', level: 'Nivel', title: 'Audios en español', intro: (count) => `Explora los ${count} listenings de este nivel. Las actividades Premium se muestran bloqueadas.`, available: (count) => `${count} listenings disponibles`, unit: 'Unidad', open: 'Abrir listening →', locked: 'Premium · bloqueado', free: (level) => `Free incluye las unidades 1–3 de ${level}.` },
-  french: { eyebrow: 'BIBLIOTHÈQUE D’ÉCOUTE', choose: 'Choisissez votre écoute', language: 'Langue', level: 'Niveau', title: 'Écoutes en français', intro: (count) => `Explorez les ${count} activités d’écoute de ce niveau. Les activités Premium restent visibles et verrouillées.`, available: (count) => `${count} écoutes disponibles`, unit: 'Unité', open: 'Ouvrir l’écoute →', locked: 'Premium · verrouillé', free: (level) => `Free inclut les unités 1–3 de ${level}.` },
-  italian: { eyebrow: 'BIBLIOTECA DI ASCOLTO', choose: 'Scegli il tuo ascolto', language: 'Lingua', level: 'Livello', title: 'Ascolti in italiano', intro: (count) => `Esplora le ${count} attività di ascolto di questo livello. Le attività Premium restano visibili e bloccate.`, available: (count) => `${count} ascolti disponibili`, unit: 'Unità', open: 'Apri ascolto →', locked: 'Premium · bloccato', free: (level) => `Free include le unità 1–3 di ${level}.` },
-  portuguese: { eyebrow: 'BIBLIOTECA DE ÁUDIOS', choose: 'Escolha seu listening', language: 'Idioma', level: 'Nível', title: 'Áudios em português', intro: (count) => `Explore as ${count} atividades de áudio deste nível. As atividades Premium ficam visíveis e bloqueadas.`, available: (count) => `${count} áudios disponíveis`, unit: 'Unidade', open: 'Abrir áudio →', locked: 'Premium · bloqueado', free: (level) => `Free inclui as unidades 1–3 de ${level}.` },
-  german: { eyebrow: 'HÖRBIBLIOTHEK', choose: 'Wähle deinen Hörtext', language: 'Sprache', level: 'Niveau', title: 'Hörtexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Höraktivitäten dieses Niveaus. Premium-Aktivitäten bleiben sichtbar und gesperrt.`, available: (count) => `${count} Hörtexte verfügbar`, unit: 'Einheit', open: 'Hörtext öffnen →', locked: 'Premium · gesperrt', free: (level) => `Free enthält die Einheiten 1–3 von ${level}.` }
+  english: { eyebrow: 'LISTENING LIBRARY', choose: 'Choose your listening', language: 'Language', level: 'Level', title: 'English Listenings', intro: (count) => `Explore all ${count} listening activities at this level. Premium activities stay visible and are clearly locked.`, available: (count) => `${count} listenings available`, unit: 'Unit', open: 'Open listening →', locked: 'Premium · locked', upgrade: 'Become Premium to unlock →', free: (level) => `Free includes units 1–3 of ${level}.` },
+  spanish: { eyebrow: 'BIBLIOTECA DE AUDIOS', choose: 'Elige tu listening', language: 'Idioma', level: 'Nivel', title: 'Audios en español', intro: (count) => `Explora los ${count} listenings de este nivel. Las actividades Premium se muestran bloqueadas.`, available: (count) => `${count} listenings disponibles`, unit: 'Unidad', open: 'Abrir listening →', locked: 'Premium · bloqueado', upgrade: 'Hazte Premium para desbloquear →', free: (level) => `Free incluye las unidades 1–3 de ${level}.` },
+  french: { eyebrow: 'BIBLIOTHÈQUE D’ÉCOUTE', choose: 'Choisissez votre écoute', language: 'Langue', level: 'Niveau', title: 'Écoutes en français', intro: (count) => `Explorez les ${count} activités d’écoute de ce niveau. Les activités Premium restent visibles et verrouillées.`, available: (count) => `${count} écoutes disponibles`, unit: 'Unité', open: 'Ouvrir l’écoute →', locked: 'Premium · verrouillé', upgrade: 'Passez à Premium pour débloquer →', free: (level) => `Free inclut les unités 1–3 de ${level}.` },
+  italian: { eyebrow: 'BIBLIOTECA DI ASCOLTO', choose: 'Scegli il tuo ascolto', language: 'Lingua', level: 'Livello', title: 'Ascolti in italiano', intro: (count) => `Esplora le ${count} attività di ascolto di questo livello. Le attività Premium restano visibili e bloccate.`, available: (count) => `${count} ascolti disponibili`, unit: 'Unità', open: 'Apri ascolto →', locked: 'Premium · bloccato', upgrade: 'Passa a Premium per sbloccare →', free: (level) => `Free include le unità 1–3 di ${level}.` },
+  portuguese: { eyebrow: 'BIBLIOTECA DE ÁUDIOS', choose: 'Escolha seu listening', language: 'Idioma', level: 'Nível', title: 'Áudios em português', intro: (count) => `Explore as ${count} atividades de áudio deste nível. As atividades Premium ficam visíveis e bloqueadas.`, available: (count) => `${count} áudios disponíveis`, unit: 'Unidade', open: 'Abrir áudio →', locked: 'Premium · bloqueado', upgrade: 'Assine Premium para desbloquear →', free: (level) => `Free inclui as unidades 1–3 de ${level}.` },
+  german: { eyebrow: 'HÖRBIBLIOTHEK', choose: 'Wähle deinen Hörtext', language: 'Sprache', level: 'Niveau', title: 'Hörtexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Höraktivitäten dieses Niveaus. Premium-Aktivitäten bleiben sichtbar und gesperrt.`, available: (count) => `${count} Hörtexte verfügbar`, unit: 'Einheit', open: 'Hörtext öffnen →', locked: 'Premium · gesperrt', upgrade: 'Mit Premium freischalten →', free: (level) => `Free enthält die Einheiten 1–3 von ${level}.` }
 });
 
 function renderListeningLibrary() {
@@ -6480,7 +6563,9 @@ function renderListeningLibrary() {
               <small>${escapeHtml(copy.unit)} ${escapeHtml(String(unit.order || index + 1))} · ${escapeHtml(unit.title || lesson.title)}</small>
               <strong>${escapeHtml(lesson.title)}</strong>
               <p>${escapeHtml(lesson.description || '')}</p>
-              <em>${locked ? `🔒 ${escapeHtml(copy.locked)}` : `🎧 ${escapeHtml(copy.open)}`}</em>
+              <em class="library-card-status">${locked
+                ? `<span>🔒 ${escapeHtml(copy.locked)}</span><span class="library-premium-invite">${escapeHtml(copy.upgrade)}</span>`
+                : `🎧 ${escapeHtml(copy.open)}`}</em>
             </button>`;
           }).join('') || '<p class="skill-graph-empty">No hay listenings disponibles para esta combinación todavía.</p>'}
         </div>
@@ -6501,7 +6586,7 @@ function renderListeningLibrary() {
       const lesson = learningPathState.lessons.find((item) => item.slug === button.dataset.listeningLibraryLesson);
       if (!lesson) return;
       if (lesson.locked && !isPremiumUser()) {
-        openPaywallModal({ title: 'Este listening es Premium.', message: 'Activa Premium para practicar todos los audios del nivel.' });
+        openPaywallModal({ title: 'Este listening es Premium.', message: 'Hazte usuario Premium para desbloquear este audio y todos los listenings del nivel.' });
         return;
       }
       openUnitSequenceStep('listening', lesson.slug, { entryContext: 'explore' });
