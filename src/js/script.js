@@ -10652,6 +10652,8 @@ const SKILL_LABELS = {
   writing: 'Writing',
   grammar: 'Grammar',
   vocabulary: 'Vocabulary',
+  adjectives: 'Adjetivos',
+  adverbs: 'Adverbios',
   verbs: 'Verbs',
   dialogue: 'Dialogues'
 };
@@ -10727,6 +10729,19 @@ function getSkillLabel(skill, language = learningPathState.language) {
 // language's course is open. Cheap full-DOM sweep, called on every
 // navigation (showView) and language switch (setTargetLanguage).
 function updateLevelTabLabels() {
+  // Reference tools are available from every learning tab, even though they
+  // are not a numbered unit activity.
+  document.querySelectorAll('.level-tabs').forEach((tabs) => {
+    ['adjectives', 'adverbs'].forEach((tool) => {
+      if (tabs.querySelector(`[data-tab="${tool}"]`)) return;
+      const link = document.createElement('a');
+      link.className = 'level-tab';
+      link.dataset.tab = tool;
+      link.href = `#${tool}`;
+      link.textContent = tool === 'adjectives' ? 'Adjetivos' : 'Adverbios';
+      tabs.append(link);
+    });
+  });
   const isRouteContext =
     learningPathState.skillEntryContext === 'route' &&
     Boolean(learningPathState.unitId) &&
@@ -11158,6 +11173,10 @@ function wireSkillLibrary(section, skill) {
 function renderSkillView(skill) {
   const section = document.getElementById(skill);
   if (!section) return;
+  if (skill === 'adjectives' || skill === 'adverbs') {
+    window.AndergoLexicon?.render(section, skill, learningPathState.language);
+    return;
+  }
   // Route activities already render the concise language/level/lesson bar
   // plus the current mission. Do not also show the generic three-pill
   // course header there; it remains available for the skill-library flow.
@@ -12721,6 +12740,195 @@ function limitReadingWords(text, maxWords) {
   return paragraphs.join('\n\n');
 }
 
+// Companion texts must be substantial enough for the CEFR level shown on
+// their card. A cultural alternative is not a preview: it needs enough
+// language for sustained reading, especially from B1 onward.
+function getCompanionReadingMinimumWords(level) {
+  const byLevel = { A1: 90, A2: 120, B1: 175, B2: 250, C1: 320, C2: 390 };
+  return byLevel[String(level || '').toUpperCase()] || 120;
+}
+
+function getCompanionReadingExtension(language, level) {
+  const intermediate = {
+    english: [
+      'The reader can connect this example with a familiar experience and explain one important detail.',
+      'A short comparison with another place or routine makes the topic more meaningful.',
+      'The final choice depends on clear information, respectful listening and a practical reason.'
+    ],
+    spanish: [
+      'El lector puede relacionar este ejemplo con una experiencia cercana y explicar un detalle importante.',
+      'Una comparación breve con otro lugar o rutina ayuda a comprender mejor el tema.',
+      'La decisión final depende de información clara, escucha respetuosa y una razón práctica.'
+    ],
+    french: [
+      'Le lecteur peut relier cet exemple à une expérience familière et expliquer un détail important.',
+      'Une brève comparaison avec un autre lieu ou une autre habitude donne plus de sens au sujet.',
+      'Le choix final dépend d’informations claires, d’une écoute respectueuse et d’une raison pratique.'
+    ],
+    italian: [
+      'Il lettore può collegare questo esempio a un’esperienza vicina e spiegare un dettaglio importante.',
+      'Un breve confronto con un altro luogo o una diversa abitudine rende il tema più significativo.',
+      'La scelta finale dipende da informazioni chiare, ascolto rispettoso e una ragione pratica.'
+    ],
+    portuguese: [
+      'O leitor pode relacionar este exemplo com uma experiência próxima e explicar um detalhe importante.',
+      'Uma comparação breve com outro lugar ou rotina torna o tema mais significativo.',
+      'A decisão final depende de informação clara, escuta respeitosa e uma razão prática.'
+    ],
+    german: [
+      'Die Leserin oder der Leser kann dieses Beispiel mit einer vertrauten Erfahrung verbinden und ein wichtiges Detail erklären.',
+      'Ein kurzer Vergleich mit einem anderen Ort oder einer anderen Gewohnheit macht das Thema verständlicher.',
+      'Die endgültige Entscheidung braucht klare Informationen, respektvolles Zuhören und einen praktischen Grund.'
+    ]
+  };
+  const advanced = {
+    english: [
+      'The account should not be treated as a fixed image of a whole community, because practices change across regions and generations.',
+      'Its value lies partly in the questions it raises about participation, memory and the meanings people attach to ordinary actions.',
+      'A careful reader notices both what is said directly and what remains assumed in the background.',
+      'Different participants may describe the same event in contrasting terms without making one account automatically false.',
+      'This is why context matters: a word, gesture or public custom can carry a meaning that is not visible at first glance.',
+      'Comparing sources helps separate a useful general pattern from an individual experience.',
+      'The discussion also invites learners to justify an opinion with an example instead of repeating a simple conclusion.',
+      'In a real conversation, that habit makes disagreement more precise and more respectful.',
+      'The topic therefore connects language learning with observation, evidence and responsible participation.',
+      'A final response can remain open while still stating clearly what the text makes most convincing.'
+    ],
+    spanish: [
+      'El relato no debe tomarse como una imagen fija de toda una comunidad, porque las prácticas cambian según la región y la generación.',
+      'Su valor está también en las preguntas que plantea sobre participación, memoria y los sentidos que las personas dan a acciones cotidianas.',
+      'Una lectura cuidadosa distingue entre lo que se afirma de forma directa y lo que queda supuesto en el fondo.',
+      'Distintos participantes pueden describir el mismo acontecimiento de manera diferente sin que una versión sea automáticamente falsa.',
+      'Por eso importa el contexto: una palabra, un gesto o una costumbre pública puede tener un sentido que no se ve a primera vista.',
+      'Comparar fuentes ayuda a separar un patrón general útil de una experiencia individual.',
+      'La discusión invita además a justificar una opinión con un ejemplo, en vez de repetir una conclusión sencilla.',
+      'En una conversación real, ese hábito vuelve el desacuerdo más preciso y respetuoso.',
+      'El tema une así el aprendizaje de la lengua con la observación, la evidencia y la participación responsable.',
+      'La respuesta final puede quedar abierta y, al mismo tiempo, expresar con claridad qué resulta más convincente en el texto.'
+    ],
+    french: [
+      'Le récit ne doit pas devenir une image figée de toute une communauté, car les pratiques changent selon les régions et les générations.',
+      'Sa valeur tient aussi aux questions qu’il pose sur la participation, la mémoire et le sens donné aux gestes ordinaires.',
+      'Une lecture attentive distingue ce qui est dit directement de ce qui reste implicite à l’arrière-plan.',
+      'Des participants différents peuvent décrire le même événement de façons contrastées sans qu’un récit soit automatiquement faux.',
+      'Le contexte compte donc : un mot, un geste ou une coutume publique peut avoir un sens qui n’apparaît pas au premier regard.',
+      'Comparer des sources aide à distinguer une tendance utile d’une expérience individuelle.',
+      'La discussion invite aussi à justifier une opinion par un exemple au lieu de répéter une conclusion simple.',
+      'Dans une conversation réelle, cette habitude rend le désaccord plus précis et plus respectueux.',
+      'Le sujet relie ainsi l’apprentissage de la langue à l’observation, aux preuves et à une participation responsable.',
+      'La réponse finale peut rester ouverte tout en disant clairement ce que le texte rend le plus convaincant.'
+    ],
+    italian: [
+      'Il racconto non deve diventare un’immagine fissa di un’intera comunità, perché le pratiche cambiano tra regioni e generazioni.',
+      'Il suo valore sta anche nelle domande che pone su partecipazione, memoria e significato dei gesti quotidiani.',
+      'Una lettura attenta distingue ciò che viene detto direttamente da ciò che rimane implicito sullo sfondo.',
+      'Partecipanti diversi possono descrivere lo stesso evento in modi contrastanti senza che un racconto sia automaticamente falso.',
+      'Per questo il contesto conta: una parola, un gesto o una consuetudine pubblica può avere un significato non visibile al primo sguardo.',
+      'Confrontare le fonti aiuta a distinguere una tendenza utile da un’esperienza individuale.',
+      'La discussione invita anche a giustificare un’opinione con un esempio invece di ripetere una conclusione semplice.',
+      'In una conversazione reale, questa abitudine rende il disaccordo più preciso e rispettoso.',
+      'Il tema collega quindi l’apprendimento linguistico all’osservazione, alle prove e a una partecipazione responsabile.',
+      'La risposta finale può restare aperta e dire con chiarezza che cosa risulta più convincente nel testo.'
+    ],
+    portuguese: [
+      'O relato não deve se tornar uma imagem fixa de toda uma comunidade, porque as práticas mudam entre regiões e gerações.',
+      'Seu valor também está nas perguntas que levanta sobre participação, memória e os sentidos dados a ações cotidianas.',
+      'Uma leitura atenta distingue o que é dito diretamente do que permanece implícito ao fundo.',
+      'Participantes diferentes podem descrever o mesmo acontecimento de maneiras contrastantes sem que um relato seja automaticamente falso.',
+      'Por isso, o contexto importa: uma palavra, um gesto ou um costume público pode ter um sentido que não aparece à primeira vista.',
+      'Comparar fontes ajuda a separar uma tendência útil de uma experiência individual.',
+      'A discussão também convida a justificar uma opinião com um exemplo, em vez de repetir uma conclusão simples.',
+      'Em uma conversa real, esse hábito torna a discordância mais precisa e respeitosa.',
+      'O tema liga assim a aprendizagem da língua à observação, às evidências e à participação responsável.',
+      'A resposta final pode permanecer aberta e ainda dizer com clareza o que o texto torna mais convincente.'
+    ],
+    german: [
+      'Der Bericht darf nicht als festes Bild einer ganzen Gemeinschaft gelten, denn Praktiken verändern sich zwischen Regionen und Generationen.',
+      'Sein Wert liegt auch in den Fragen nach Teilhabe, Erinnerung und den Bedeutungen, die Menschen alltäglichen Handlungen geben.',
+      'Eine aufmerksame Lektüre unterscheidet zwischen dem direkt Gesagten und dem, was im Hintergrund vorausgesetzt wird.',
+      'Verschiedene Beteiligte können dasselbe Ereignis unterschiedlich beschreiben, ohne dass ein Bericht deshalb automatisch falsch ist.',
+      'Deshalb ist der Kontext wichtig: Ein Wort, eine Geste oder ein öffentlicher Brauch kann eine Bedeutung haben, die zunächst nicht sichtbar ist.',
+      'Der Vergleich von Quellen hilft, ein nützliches allgemeines Muster von einer individuellen Erfahrung zu unterscheiden.',
+      'Die Diskussion lädt außerdem dazu ein, eine Meinung mit einem Beispiel zu begründen, statt nur eine einfache Schlussfolgerung zu wiederholen.',
+      'In einem echten Gespräch macht diese Gewohnheit Meinungsverschiedenheiten genauer und respektvoller.',
+      'Das Thema verbindet Sprachenlernen daher mit Beobachtung, Belegen und verantwortlicher Teilhabe.',
+      'Eine abschließende Antwort kann offen bleiben und dennoch klar sagen, was der Text am überzeugendsten macht.'
+    ]
+  };
+  const expert = {
+    english: [
+      'A stronger interpretation also considers which voices, interests or consequences receive less attention in the account.',
+      'That question does not cancel the main idea; it tests the limits of the evidence supporting it.',
+      'Learners can then compare plausible alternatives and explain why one conclusion is better supported than another.',
+      'Such reasoning avoids both an uncritical celebration of tradition and an equally simple dismissal of it.',
+      'The result is a more nuanced reading that remains connected to concrete language and lived experience.',
+      'It also leaves room for revision when new information changes the balance of the argument.'
+    ],
+    spanish: [
+      'Una interpretación más sólida considera también qué voces, intereses o consecuencias reciben menos atención en el relato.',
+      'Esa pregunta no elimina la idea principal; pone a prueba los límites de la evidencia que la sostiene.',
+      'Después, el alumnado puede comparar alternativas plausibles y explicar por qué una conclusión tiene mejor apoyo que otra.',
+      'Este razonamiento evita tanto una celebración acrítica de la tradición como un rechazo igualmente simple.',
+      'El resultado es una lectura más matizada, conectada con el lenguaje concreto y la experiencia vivida.',
+      'También deja espacio para revisar una conclusión cuando nueva información cambia el equilibrio del argumento.'
+    ],
+    french: [
+      'Une interprétation plus solide examine aussi les voix, les intérêts ou les conséquences qui reçoivent moins d’attention dans le récit.',
+      'Cette question n’annule pas l’idée principale : elle met à l’épreuve les limites des preuves qui la soutiennent.',
+      'Les apprenants peuvent ensuite comparer des alternatives plausibles et expliquer pourquoi une conclusion est mieux étayée qu’une autre.',
+      'Ce raisonnement évite à la fois une célébration non critique de la tradition et un rejet tout aussi simple.',
+      'Il produit une lecture plus nuancée, liée à une langue concrète et à l’expérience vécue.',
+      'Il laisse aussi place à une révision lorsque de nouvelles informations modifient l’équilibre de l’argument.'
+    ],
+    italian: [
+      'Un’interpretazione più solida considera anche quali voci, interessi o conseguenze ricevono meno attenzione nel racconto.',
+      'Questa domanda non cancella l’idea principale: mette alla prova i limiti delle prove che la sostengono.',
+      'Gli studenti possono poi confrontare alternative plausibili e spiegare perché una conclusione è meglio sostenuta di un’altra.',
+      'Questo ragionamento evita sia una celebrazione acritica della tradizione sia un rifiuto altrettanto semplice.',
+      'Il risultato è una lettura più sfumata, legata a una lingua concreta e all’esperienza vissuta.',
+      'Lascia anche spazio alla revisione quando nuove informazioni cambiano l’equilibrio dell’argomento.'
+    ],
+    portuguese: [
+      'Uma interpretação mais sólida também considera quais vozes, interesses ou consequências recebem menos atenção no relato.',
+      'Essa pergunta não elimina a ideia principal; ela testa os limites das evidências que a sustentam.',
+      'Os estudantes podem então comparar alternativas plausíveis e explicar por que uma conclusão tem melhor apoio do que outra.',
+      'Esse raciocínio evita tanto uma celebração acrítica da tradição quanto uma rejeição igualmente simples.',
+      'O resultado é uma leitura mais matizada, ligada à linguagem concreta e à experiência vivida.',
+      'Também deixa espaço para revisão quando novas informações mudam o equilíbrio do argumento.'
+    ],
+    german: [
+      'Eine stärkere Deutung berücksichtigt auch, welche Stimmen, Interessen oder Folgen im Bericht weniger Aufmerksamkeit erhalten.',
+      'Diese Frage hebt die Hauptidee nicht auf, sondern prüft die Grenzen der Belege, die sie stützen.',
+      'Lernende können anschließend plausible Alternativen vergleichen und erklären, warum eine Schlussfolgerung besser begründet ist als eine andere.',
+      'Dieses Vorgehen vermeidet sowohl eine unkritische Feier der Tradition als auch eine ebenso einfache Ablehnung.',
+      'Das Ergebnis ist eine differenziertere Lektüre, die mit konkreter Sprache und gelebter Erfahrung verbunden bleibt.',
+      'Sie lässt außerdem Raum für Korrekturen, wenn neue Informationen das Gleichgewicht des Arguments verändern.'
+    ]
+  };
+  const normalizedLevel = String(level || '').toUpperCase();
+  if (normalizedLevel === 'B1') return intermediate[language] || intermediate.english;
+  if (normalizedLevel === 'B2') return advanced[language] || advanced.english;
+  if (['C1', 'C2'].includes(normalizedLevel)) {
+    return [
+      ...(advanced[language] || advanced.english),
+      ...(expert[language] || expert.english)
+    ];
+  }
+  return [];
+}
+
+function getReadingDownloadNote(language) {
+  const notes = {
+    english: 'You can work freely on the questions or activities for this text. You may download them in Word or PDF.',
+    spanish: 'Puede trabajar libremente las preguntas o actividades de este texto. Puede descargarlas en Word o PDF.',
+    french: 'Vous pouvez travailler librement sur les questions ou activités de ce texte. Vous pouvez les télécharger en Word ou en PDF.',
+    italian: 'Puoi lavorare liberamente sulle domande o attività di questo testo. Puoi scaricarle in Word o PDF.',
+    portuguese: 'Você pode trabalhar livremente as perguntas ou atividades deste texto. Pode baixá-las em Word ou PDF.',
+    german: 'Sie können die Fragen oder Aktivitäten zu diesem Text frei bearbeiten. Sie können sie als Word- oder PDF-Datei herunterladen.'
+  };
+  return notes[language] || notes.english;
+}
+
 // Programme companions are complete readings, never teaser paragraphs.  Their
 // source material is deliberately distinct, then expanded to the same reading
 // load as the unit text.  This keeps a cultural or applied choice equivalent
@@ -12733,7 +12941,10 @@ function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
     (lesson.reading?.parts || []).join('\n\n') ||
     lesson.description ||
     '';
-  const targetWords = readingWordCount(primaryText);
+  const targetWords = Math.max(
+    readingWordCount(primaryText),
+    getCompanionReadingMinimumWords(level)
+  );
   const topic = String(lesson.title || lesson.description || '')
     .replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '')
     .trim();
@@ -12905,7 +13116,11 @@ function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
     level === 'A1' || level === 'A2'
       ? beginnerFrames[language] || beginnerFrames.english
       : frames[language] || frames.english;
-  const sentences = [String(seedText || '').trim(), ...levelFrames]
+  const sentences = [
+    String(seedText || '').trim(),
+    ...levelFrames,
+    ...getCompanionReadingExtension(language, level)
+  ]
     .filter(Boolean);
   const midpoint = Math.ceil(sentences.length / 2);
   const companion = [sentences.slice(0, midpoint).join(' '), sentences.slice(midpoint).join(' ')]
@@ -13210,19 +13425,9 @@ function buildProgrammeReadingVariants(lesson) {
 
   const programme = READING_COMPANION_PROGRAMME[language] || READING_COMPANION_PROGRAMME.english;
   const [culturalTitle, culturalText] = programme[(Math.max(1, unitOrder) - 1) % programme.length];
-  // The cultural programme can revisit a celebration across a long level,
-  // but never as the same story: every unit gives that event a distinct
-  // learning lens and a distinct title tied to its own topic.
-  const culturalContext = {
-    english: `In this unit, the event is explored through ${topic}.`,
-    spanish: `En esta unidad, el acontecimiento se explora a través de ${topic}.`,
-    french: `Dans cette unité, l’événement est exploré à travers ${topic}.`,
-    italian: `In questa unità, l’evento viene esplorato attraverso ${topic}.`,
-    portuguese: `Nesta unidade, o evento é explorado por meio de ${topic}.`,
-    german: `In dieser Einheit wird das Ereignis durch ${topic} betrachtet.`
-  };
-  const contextualCulturalTitle = `${culturalTitle} · ${topic}`;
-  const contextualCulturalText = `${culturalText} ${culturalContext[language] || culturalContext.english}`;
+  // A complementary cultural reading is a complete, autonomous text. Do not
+  // fuse it with the main unit topic: that promises a connection the text
+  // and image do not actually support.
   const practiceSeed = {
     english: `A small group uses ${topic} in a real situation.`,
     spanish: `Un pequeño grupo usa ${topic} en una situación real.`,
@@ -13234,21 +13439,21 @@ function buildProgrammeReadingVariants(lesson) {
   return [
     {
       id: 'cultural-reading',
-      label: contextualCulturalTitle,
-      title: contextualCulturalTitle,
+      label: culturalTitle,
+      title: culturalTitle,
       description: variantTextCopy.culture,
       text: buildComparableCompanionReading({
         lesson,
-        title: contextualCulturalTitle,
-        seedText: contextualCulturalText,
+        title: culturalTitle,
+        seedText: culturalText,
         kind: 'culture'
       }),
       exercises: [],
       illustrationThemeIndex: getCompanionIllustrationThemeIndex({
           lesson,
           kind: 'culture',
-          title: contextualCulturalTitle,
-          seedText: contextualCulturalText
+          title: culturalTitle,
+          seedText: culturalText
       })
     },
     {
@@ -13667,7 +13872,11 @@ function renderReadingComprehensionQuiz(lesson, entries) {
       const result = runtime.results[exerciseIndex] || null;
       const isChecking = Boolean(runtime.gradingItems?.[exerciseIndex]);
 
+      // Reading comprehension is deliberately a four-choice task. Course
+      // content is authored with A–D alternatives; cap any legacy outlier
+      // here so the visual pattern remains consistent and scannable.
       const optionsHtml = (item.options || [])
+        .slice(0, 4)
         .map((option, optionIndex) => {
           const key = optionKey(option, optionIndex);
           const letter = String.fromCharCode(65 + optionIndex);
@@ -13729,7 +13938,7 @@ function renderReadingComprehensionQuiz(lesson, entries) {
     <div class="reading-comp-quiz">
       <div class="reading-comp-quiz-header">
         <div>
-          <span class="reading-comp-kicker">${ui('Défi de compréhension', 'Desafio de compreensão', 'Reto de comprensión')}</span>
+          <span class="reading-comp-kicker">${ui('Défi de compréhension · A–D', 'Desafio de compreensão · A–D', 'Reto de comprensión · A–D')}</span>
           <strong>${answeredCount}/${total} ${ui('répondues', 'respondidas', 'respondidas')}</strong>
           <small class="reading-comp-mobile-hint">${ui('Répondez aux questions puis évaluez votre compréhension.', 'Responda às perguntas e depois avalie sua compreensão.', 'Responde las preguntas y luego evalúa tu comprensión.')}</small>
         </div>
@@ -14017,6 +14226,9 @@ function renderReadingView(section, lesson) {
   const referencesHtml = isFinalReadingSection
     ? renderReadingReferencesHtml(lesson.reading?.references)
     : '';
+  const readingDownloadNote = getReadingDownloadNote(
+    lesson.language || learningPathState.language || 'english'
+  );
   const french = isFrenchAdvancedImmersion();
 
   content.innerHTML = `
@@ -14068,6 +14280,11 @@ function renderReadingView(section, lesson) {
         ${culturalContextHtml}
         <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
         ${referencesHtml}
+        ${
+          isFinalReadingSection
+            ? `<p class="reading-download-note"><em>${escapeHtml(readingDownloadNote)}</em></p>`
+            : ''
+        }
         <p class="reading-selection-hint reading-selection-hint--footer no-print">
           <span aria-hidden="true">🌐</span>
           ${french ? 'Double-clic ou deux touchers : traduisez, écoutez, consultez ou enregistrez des mots (Premium). Surlignez une expression pour la traduire instantanément avec ANDERGO. Chaque leçon est alignée sur le CECRL.' : 'Doble clic o dos toques: traduce, escucha, consulta o guarda palabras (Premium). Sombrea una frase para traducirla al instante con ANDERGO. Cada lección ha sido nivelada según el MCERL (Marco Común Europeo de Referencia de las Lenguas).'}
@@ -14080,10 +14297,6 @@ function renderReadingView(section, lesson) {
         </div>
         <div class="reading-vocab-list" hidden>${vocabHtml}</div>
       </div>
-      <div class="reading-questions"${isFinalReadingSection ? '' : ' hidden'}>
-        <h4>${french ? 'Questions de compréhension' : 'Preguntas de comprensión'}</h4>
-        ${exercisesHtml}
-      </div>
       <div class="reading-print-answer-space skill-print-answer-space print-only">
         <h4>${french ? 'Vos réponses' : 'Tus respuestas'}</h4>
         <div class="reading-print-answer-lines"><div></div><div></div><div></div><div></div></div>
@@ -14092,8 +14305,6 @@ function renderReadingView(section, lesson) {
     <div class="skill-view-tutor-cta no-print">
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Explique-moi ce paragraphe' : 'Explícame este párrafo'} : ${escapeHtml(paragraphs[0] || lesson.title)}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(readingTranscript)}" data-tutor-vocabulary="${escapeHtml(readingVocabWords)}">${french ? 'Expliquer ce paragraphe' : 'Explicar este párrafo'}</button>
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Résume cette lecture en deux phrases.' : 'Resume esta lectura en un par de frases.'}" data-support-mode="explain" data-tutor-transcript="${escapeHtml(readingTranscript)}" data-tutor-vocabulary="${escapeHtml(readingVocabWords)}">${french ? 'Résumer avec le Tutor IA' : 'Resumir con Tutor IA'}</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Donne-moi un indice sans révéler la réponse.' : 'Dame una pista para responder las preguntas de comprensión, sin darme la respuesta.'}" data-support-mode="hint" data-tutor-transcript="${escapeHtml(readingTranscript)}">${french ? 'Demander un indice' : 'Pedir pista'}</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Crée une nouvelle question de compréhension sur ce texte.' : 'Crea otra pregunta de comprensión sobre este texto.'}" data-support-mode="practice" data-tutor-transcript="${escapeHtml(readingTranscript)}">${french ? 'Créer une autre question' : 'Crear otra pregunta'}</button>
       <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(readingTranscript)}" data-return-label="${french ? 'Retour à Reading' : 'Volver a Reading'}">${french ? 'Traduire ce texte' : 'Traducir este texto'}</button>
       <button type="button" class="secondary-btn open-phonetics-btn" data-phonetics-text="${escapeHtml(readingTranscript)}" data-return-label="${french ? 'Retour à Reading' : 'Volver a Reading'}">${french ? 'Voir la phonétique du texte' : 'Ver fonética del texto'}</button>
       <button type="button" class="secondary-btn reading-print-btn">${french ? 'Télécharger en PDF' : 'Descargar PDF'}</button>
@@ -19720,7 +19931,7 @@ function renderVocabularyView(section, lesson) {
           : ''
       }
     </div>
-    <div class="vocab-catalogue-deck">
+    <div class="vocab-card-deck vocab-catalogue-deck">
       ${renderVocabularyCardDeck(cards, vocabCardOrder, expressionCards, { canSpeak, isFrench })}
     </div>
     <div class="skill-view-tutor-cta no-print">
@@ -20244,6 +20455,7 @@ function buildListeningPlayerMarkup({ sourceLabel, title, hasSlowVariant }) {
           <button type="button" class="listening-ctrl-btn listening-fwd5-btn" aria-label="Avanzar 5 segundos" disabled>⏩ 5s</button>
           <button type="button" class="listening-ctrl-btn listening-repeat-btn" aria-label="Repetir audio" aria-pressed="false" disabled>🔁 Repetir</button>
           <button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar velocidad de audio: 1×" disabled>⏱ 1×</button>
+          <button type="button" class="listening-ctrl-btn listening-download-btn" aria-label="Descargar audio">⬇ Descargar</button>
         </div>
         <div class="listening-player-progress-row">
           <span class="listening-time-elapsed" aria-hidden="true">0:00</span>
@@ -20458,6 +20670,7 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   const fwd5Btn = content.querySelector('.listening-fwd5-btn');
   const repeatBtn = content.querySelector('.listening-repeat-btn');
   const speedBtn = content.querySelector('.listening-speed-btn');
+  const downloadBtn = content.querySelector('.listening-download-btn');
   const elapsedEl = content.querySelector('.listening-time-elapsed');
   const durationEl = content.querySelector('.listening-time-duration');
   const rangeEl = content.querySelector('.listening-progress-range');
@@ -20576,6 +20789,38 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
   speedBtn?.addEventListener('click', () => {
     const currentIndex = playbackRates.indexOf(runtime.playbackRate);
     applyPlaybackRate(playbackRates[(currentIndex + 1) % playbackRates.length]);
+  });
+  downloadBtn?.addEventListener('click', async () => {
+    if (!authStatus.session?.access_token) {
+      openModal('login', { message: 'Inicia sesión para descargar este audio con Premium.' });
+      return;
+    }
+    if (!isPremiumUser()) {
+      showHomeToast('Esta opción es solo para usuarios Premium.');
+      return;
+    }
+    const previousLabel = downloadBtn.textContent;
+    downloadBtn.disabled = true;
+    downloadBtn.textContent = 'Preparando…';
+    try {
+      const params = new URLSearchParams({
+        language: lesson.language || learningPathState.language || '',
+        level: lesson.level || learningPathState.level || '',
+        lessonSlug: lesson.slug || ''
+      });
+      if (lesson.id) params.set('lessonId', lesson.id);
+      const response = await fetch(`${backendBaseUrl}/api/listening/audio/download?${params}`, {
+        headers: authHeaders()
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok || !payload.url) throw new Error(payload.message || 'No pudimos preparar la descarga.');
+      window.location.assign(payload.url);
+    } catch (error) {
+      showHomeToast(error.message || 'No pudimos preparar la descarga.');
+    } finally {
+      downloadBtn.disabled = false;
+      downloadBtn.textContent = previousLabel;
+    }
   });
   rangeEl?.addEventListener('input', () => {
     if (Number.isFinite(audioEl.duration) && audioEl.duration > 0) {
@@ -22863,16 +23108,21 @@ if (menuToggle && siteMenu) {
   });
 }
 
-let desktopActivityFocusEnabled =
-  sessionStorage.getItem('andergo-desktop-activity-view') !== 'normal';
+// Activities use the browser's real full-screen mode.  Do not enter a
+// separate pseudo-focus mode by default: it duplicated controls and made a
+// simple classroom action look like a second navigation bar.
+let desktopActivityFocusEnabled = false;
 
 function syncActivityFullscreenLabels() {
   const isFullscreen = Boolean(document.fullscreenElement);
   document.querySelectorAll('.activity-fullscreen-toggle').forEach((button) => {
     button.setAttribute('aria-pressed', String(isFullscreen));
+    button.setAttribute(
+      'aria-label',
+      isFullscreen ? 'Salir de pantalla completa' : 'Abrir pantalla completa'
+    );
     const label = button.querySelector('[data-fullscreen-label]');
-    if (label)
-      label.textContent = isFullscreen ? 'Salir de pantalla completa' : 'Pantalla completa';
+    if (label) label.textContent = isFullscreen ? 'Salir' : 'Pantalla completa';
   });
 }
 
@@ -22923,26 +23173,9 @@ function syncMobileActivityFocus(viewId) {
         <button type="button" class="activity-fullscreen-toggle" aria-label="Abrir pantalla completa" aria-pressed="false">
           <span aria-hidden="true">⛶</span> <span data-fullscreen-label>Pantalla completa</span>
         </button>
-        <button type="button" class="activity-focus-toggle" aria-label="Cambiar vista de la actividad">
-          <span aria-hidden="true">↙</span> <span data-focus-label>Vista normal</span>
-        </button>
-        <button type="button" class="mobile-activity-exit" aria-label="Salir de la actividad">
-          <span aria-hidden="true">×</span> Salir
-        </button>
       </span>
     `;
     activeSection.prepend(topbar);
-    topbar.querySelector('.mobile-activity-exit')?.addEventListener('click', () => {
-      if (isTestActivity) {
-        lessonTestState.questions = [];
-        lessonTestState.result = null;
-        syncMobileActivityFocus('tests');
-        loadTestsView();
-        return;
-      }
-      if (viewId === 'reading') readingSpeechPlayer.teardown();
-      returnToCurrentLearningRoute();
-    });
     topbar.querySelector('.activity-fullscreen-toggle')?.addEventListener('click', async () => {
       try {
         if (document.fullscreenElement) await document.exitFullscreen?.();
@@ -22954,14 +23187,6 @@ function syncMobileActivityFocus(viewId) {
         showHomeToast('Tu navegador no pudo abrir la pantalla completa.');
       }
       syncActivityFullscreenLabels();
-    });
-    topbar.querySelector('.activity-focus-toggle')?.addEventListener('click', () => {
-      desktopActivityFocusEnabled = !desktopActivityFocusEnabled;
-      sessionStorage.setItem(
-        'andergo-desktop-activity-view',
-        desktopActivityFocusEnabled ? 'focus' : 'normal'
-      );
-      syncMobileActivityFocus(viewId);
     });
   }
 
@@ -22975,13 +23200,6 @@ function syncMobileActivityFocus(viewId) {
       : isVerbActivity
         ? 'ANDERGO · Verbos'
         : `ANDERGO · ${getSkillLabel(viewId)}${lesson?.title ? ` · ${lesson.title}` : ''}`;
-  }
-  const focusLabel = topbar.querySelector('[data-focus-label]');
-  if (focusLabel) focusLabel.textContent = desktopEnabled ? 'Vista normal' : 'Modo enfoque';
-  const focusToggle = topbar.querySelector('.activity-focus-toggle');
-  if (focusToggle) {
-    focusToggle.setAttribute('aria-pressed', String(desktopEnabled));
-    focusToggle.hidden = mobile;
   }
   syncActivityFullscreenLabels();
 }
@@ -23005,7 +23223,9 @@ const SKILL_VIEWS = [
   'reading',
   'writing',
   'grammar',
-  'vocabulary'
+  'vocabulary',
+  'adjectives',
+  'adverbs'
 ];
 
 const lessonTestState = {
@@ -23140,6 +23360,43 @@ const TEST_LANGUAGE_LABELS = {
   german: 'Deutsch'
 };
 
+function getTestsUiCopy(language = lessonTestState.language) {
+  if (language !== 'english') {
+    return {
+      eyebrow: 'Tests', title: 'Demuestra lo que aprendiste', intro: 'Retos interactivos que ponen en práctica lo aprendido en cada nivel y lección.',
+      choose: 'Elige tu examen', language: 'Idioma', level: 'Nivel', unit: 'Unidad de examen', start: 'Comenzar test',
+      structure: '1–9 Gramática · 10–12 Vocabulario · 13–15 Verbos', feedback: 'Retroalimentación inmediata · Nota sobre 100'
+    };
+  }
+  const a1 = lessonTestState.level === 'A1';
+  return {
+    eyebrow: 'English Tests', title: 'Show what you have learned', intro: 'Interactive challenges that put each lesson and level into practice.',
+    choose: 'Choose your test', language: 'Language', level: 'Level', unit: 'Test unit', start: 'Start test',
+    structure: a1 ? '1–7 Grammar · 8–10 Vocabulary · 11–13 Verbs · 14–16 Adjectives' : '1–7 Grammar · 8–10 Vocabulary · 11–12 Verbs · 13–14 Adjectives · 15–16 Adverbs',
+    feedback: 'Immediate feedback · Score out of 100'
+  };
+}
+
+function applyTestsUiCopy() {
+  const copy = getTestsUiCopy();
+  const values = {
+    testsSectionEyebrow: copy.eyebrow,
+    testsSectionTitle: copy.title,
+    testsSectionIntro: copy.intro,
+    testsSidebarTitle: copy.choose,
+    testLanguageLabel: copy.language,
+    testLevelLabel: copy.level,
+    testLessonLabel: copy.unit,
+    testQuestionStructure: copy.structure,
+    testFeedbackSpec: copy.feedback,
+    startLessonTestBtn: copy.start
+  };
+  Object.entries(values).forEach(([id, value]) => {
+    const element = document.getElementById(id);
+    if (element) element.textContent = value;
+  });
+}
+
 function testLanguageLabel(language) {
   return TEST_LANGUAGE_LABELS[language] || 'English';
 }
@@ -23157,11 +23414,12 @@ function renderLessonTest() {
   const stage = document.getElementById('testsStage');
   const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
   if (!stage || !unit) return;
+  const testUi = getTestsUiCopy();
   lessonTestState.questions = Array.isArray(unit.questions) ? unit.questions : [];
   lessonTestState.result = null;
   if (!lessonTestState.questions.length) {
     stage.innerHTML =
-      '<div class="tests-welcome"><h3>Este examen se está preparando</h3><p>La lección todavía no tiene suficientes preguntas publicadas.</p></div>';
+      `<div class="tests-welcome"><h3>${lessonTestState.language === 'english' ? 'This test is being prepared' : 'Este examen se está preparando'}</h3><p>${lessonTestState.language === 'english' ? 'This lesson does not have enough published questions yet.' : 'La lección todavía no tiene suficientes preguntas publicadas.'}</p></div>`;
     return;
   }
   const totalQuestions = lessonTestState.questions.length;
@@ -23186,14 +23444,14 @@ function renderLessonTest() {
     })
     .join('');
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
-    <header class="tests-paper-head"><div><span>${escapeHtml(testLanguageLabel(lessonTestState.language))} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} preguntas para completar a tu ritmo.</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
-    <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
-    <p class="tests-global-instruction">Elige en cada pregunta la opción que mejor complete o responda la situación.</p>
+    <header class="tests-paper-head"><div><span>${escapeHtml(testLanguageLabel(lessonTestState.language))} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} ${lessonTestState.language === 'english' ? 'questions to complete at your own pace.' : 'preguntas para completar a tu ritmo.'}</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>${lessonTestState.language === 'english' ? 'Practical examples' : 'Ejemplos prácticos'}</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>${lessonTestState.language === 'english' ? 'points' : 'puntos'}</small></strong></header>
+    <nav class="tests-challenge-map" aria-label="${lessonTestState.language === 'english' ? 'Challenge progress' : 'Progreso del reto'}">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="${lessonTestState.language === 'english' ? 'Go to question' : 'Ir a la pregunta'} ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} ${lessonTestState.language === 'english' ? 'answered' : 'respondidas'}</span></nav>
+    <p class="tests-global-instruction">${lessonTestState.language === 'english' ? 'Choose the option that best completes or answers each situation.' : 'Elige en cada pregunta la opción que mejor complete o responda la situación.'}</p>
     <form id="lessonTestForm" class="tests-question-list">${questionHtml}
-      <button type="submit" class="primary-btn tests-submit" disabled>Evaluar resultado total · 0/${lessonTestState.questions.length}</button>
+      <button type="submit" class="primary-btn tests-submit" disabled>${lessonTestState.language === 'english' ? 'Evaluate total result' : 'Evaluar resultado total'} · 0/${lessonTestState.questions.length}</button>
       <div class="tests-export-actions no-print" aria-label="Opciones de descarga del examen">
-        <button type="button" class="secondary-btn" data-test-action="pdf">Descargar PDF</button>
-        <button type="button" class="secondary-btn" data-test-action="word">Descargar Word</button>
+        <button type="button" class="secondary-btn" data-test-action="pdf">${lessonTestState.language === 'english' ? 'Download PDF' : 'Descargar PDF'}</button>
+        <button type="button" class="secondary-btn" data-test-action="word">${lessonTestState.language === 'english' ? 'Download Word' : 'Descargar Word'}</button>
       </div>
     </form></div>`;
   stage.querySelector('#lessonTestForm')?.addEventListener('submit', gradeLessonTest);
@@ -23599,10 +23857,11 @@ async function loadTestsView() {
   lessonTestState.unitId = '';
   lessonTestState.questions = [];
   lessonTestState.result = null;
+  applyTestsUiCopy();
   const requestId = ++testsLoadRequestId;
   const startButton = document.getElementById('startLessonTestBtn');
   const eyebrow = document.getElementById('testsLanguageEyebrow');
-  if (eyebrow) eyebrow.textContent = `Evaluación de ${testLanguageLabel(lessonTestState.language)}`;
+  if (eyebrow) eyebrow.textContent = lessonTestState.language === 'english' ? 'English assessment' : `Evaluación de ${testLanguageLabel(lessonTestState.language)}`;
   const questionCount = document.getElementById('testQuestionCount');
   const stage = document.getElementById('testsStage');
   lessonSelect.disabled = true;
@@ -23629,7 +23888,7 @@ async function loadTestsView() {
   lessonTestState.lessons = [];
   if (questionCount) {
     const total = lessonTestState.units[0]?.questionCount || 12;
-    questionCount.textContent = `${total} preguntas`;
+    questionCount.textContent = `${total} ${lessonTestState.language === 'english' ? 'questions' : 'preguntas'}`;
   }
   lessonSelect.innerHTML = lessonTestState.units
     .map(
@@ -23639,7 +23898,10 @@ async function loadTestsView() {
     .join('');
   lessonTestState.unitId = lessonSelect.value || lessonTestState.units[0]?.id || '';
   if (stage && !new URLSearchParams(window.location.search).get('testResult')) {
-    stage.innerHTML = `<div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Tests de ${testLanguageLabel(lessonTestState.language)} listos</h3><p>Selecciona una unidad y pulsa «Comenzar test». Cada examen tiene 9 preguntas de gramática, 3 de vocabulario y 3 de verbos.</p></div>`;
+    const englishStructure = lessonTestState.level === 'A1'
+      ? 'Each test has 7 grammar questions, 3 vocabulary questions, 3 verb questions and 3 adjective questions.'
+      : 'Each test has 7 grammar questions, 3 vocabulary questions, 2 verb questions, 2 adjective questions and 2 adverb questions.';
+    stage.innerHTML = `<div class="tests-welcome"><span aria-hidden="true">✓</span><h3>${lessonTestState.language === 'english' ? 'Your English tests are ready' : `Tests de ${testLanguageLabel(lessonTestState.language)} listos`}</h3><p>${lessonTestState.language === 'english' ? englishStructure : 'Selecciona una unidad y pulsa «Comenzar test». Cada examen tiene 9 preguntas de gramática, 3 de vocabulario y 3 de verbos.'}</p></div>`;
   }
   const shared = new URLSearchParams(window.location.search).get('testResult');
   if (shared) {
@@ -27277,6 +27539,8 @@ const VIEW_SECTIONS = {
   writing: ['#writing'],
   grammar: ['#grammar'],
   vocabulary: ['#vocabulary'],
+  adjectives: ['#adjectives'],
+  adverbs: ['#adverbs'],
   'teacher-curriculum': ['#teacherCurriculum'],
   'reset-password': ['#resetPasswordSection'],
   'email-confirmed': ['#emailConfirmedSection']
@@ -27309,6 +27573,8 @@ const VIEW_TITLE_SELECTORS = {
   writing: '#writing .level-tab[data-tab="writing"]',
   grammar: '#grammar .level-tab[data-tab="grammar"]',
   vocabulary: '#vocabulary .level-tab[data-tab="vocabulary"]',
+  adjectives: '#adjectives .level-tab[data-tab="adjectives"]',
+  adverbs: '#adverbs .level-tab[data-tab="adverbs"]',
   'teacher-curriculum': '#teacherCurriculum h2'
 };
 

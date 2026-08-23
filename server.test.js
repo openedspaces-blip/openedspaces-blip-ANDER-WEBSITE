@@ -3866,12 +3866,13 @@ test('Speaking Tutor accepts valid paraphrases and separates errors from optiona
   assert.match(service, /Do not compare against a hidden canonical sentence/);
 });
 
-test('lesson Tests assess general grammar, vocabulary and verbs without Reading-text recall', () => {
+test('lesson Tests assess grammar, vocabulary, verbs and lexical categories without Reading-text recall', () => {
   const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
   const client = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(server, /The test uses the CEFR word bank for this lesson topic/);
   assert.match(server, /never\s+\/\/\s*depends on remembering a Reading passage|never\s+depends on remembering a Reading passage/);
-  assert.match(server, /return \[\.\.\.grammarQuestions, \.\.\.vocabularyQuestions, \.\.\.verbQuestions\]/);
+  assert.match(server, /\.\.\.adjectiveQuestions/);
+  assert.match(server, /\.\.\.adverbQuestions/);
   assert.match(client, /function playTestFeedbackSound\(correct\)/);
   assert.match(client, /three-note success chime/);
   assert.match(client, /X\/error cue/);
@@ -3912,11 +3913,20 @@ test('every published Test has one keyed answer and unambiguous vocabulary choic
       const units = testUnits.filter((unit) => unit.target_language === language && unit.level === level);
       for (const unit of units) {
           const questions = buildLanguageLessonTest(language, level, unit.slug);
-          assert.equal(questions.length, 15, `${language}/${level}/${unit.slug} has 15 questions`);
+          const isEnglish = language === 'english';
+          assert.equal(questions.length, isEnglish ? 16 : 15, `${language}/${level}/${unit.slug} has the expected question count`);
           assert.deepEqual(
             questions.map((question) => question.area),
-            [...Array(9).fill('Grammar'), ...Array(3).fill('Vocabulary'), ...Array(3).fill('Verbs')],
-            `${language}/${level}/${unit.slug} keeps the 9/3/3 assessment structure`
+            isEnglish
+              ? [
+                  ...Array(7).fill('Grammar'),
+                  ...Array(3).fill('Vocabulary'),
+                  ...Array(level === 'A1' ? 3 : 2).fill('Verbs'),
+                  ...Array(level === 'A1' ? 3 : 2).fill('Adjectives'),
+                  ...(level === 'A1' ? [] : Array(2).fill('Adverbs'))
+                ]
+              : [...Array(9).fill('Grammar'), ...Array(3).fill('Vocabulary'), ...Array(3).fill('Verbs')],
+            `${language}/${level}/${unit.slug} keeps its assessment structure`
           );
           for (const question of questions) {
             assert.equal(question.options.length, 4, `${language}/${level}/${unit.slug}/${question.id} has four choices`);

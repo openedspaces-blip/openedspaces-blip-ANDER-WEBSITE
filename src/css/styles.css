@@ -10722,6 +10722,25 @@ footer small {
   font-style: italic;
 }
 
+/* The on-page reading ends with a quiet download note. Assessment items stay
+   in the Word/PDF handout so teachers can use them freely outside the reader. */
+.reading-download-note {
+  width: 100%;
+  max-width: 1120px;
+  margin: 1.45rem auto 0;
+  padding: 0.78rem 0.9rem;
+  border-left: 3px solid rgba(37, 99, 235, 0.45);
+  border-radius: 0 12px 12px 0;
+  background: rgba(239, 246, 255, 0.72);
+  color: #52647f;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.reading-download-note em {
+  font-style: italic;
+}
+
 .reading-text ::selection {
   background: rgba(37, 99, 235, 0.24);
   color: var(--navy-2);
@@ -30484,6 +30503,7 @@ body {
 }
 
 .vocab-catalogue-deck {
+  display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .vocab-catalogue-deck .vocab-card[hidden] {
@@ -35729,3 +35749,286 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     margin-top: 0.65rem;
   }
 }
+
+/* Final vocabulary lesson layout.  Earlier catalogue experiments left
+   competing grid and card-height rules; the result was a one-column list
+   with large empty cards.  Scope this to the actual Vocabulary route and
+   make its geometry explicit so all CEFR levels use the same stable grid. */
+#vocabulary .vocab-catalogue-deck {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 0.9rem !important;
+  align-items: stretch;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card,
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='A1'],
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='A2'],
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='B1'],
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='B2'] {
+  width: auto;
+  height: 184px !important;
+  min-height: 184px !important;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] {
+  height: 184px !important;
+  min-height: 184px !important;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] {
+  height: 212px !important;
+  min-height: 212px !important;
+}
+
+@media (max-width: 1080px) {
+  #vocabulary .vocab-catalogue-deck {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 680px) {
+  #vocabulary .vocab-catalogue-deck {
+    grid-template-columns: 1fr !important;
+  }
+
+  #vocabulary .vocab-catalogue-deck .vocab-card,
+  #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='A1'],
+  #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='A2'],
+  #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='B1'],
+  #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='B2'] {
+    height: 158px !important;
+    min-height: 158px !important;
+  }
+}
+
+/* One full-screen control per activity: a small corner icon before entering,
+   then a clear exit action while the activity owns the screen. */
+.activity-session-section {
+  position: relative;
+}
+
+.activity-session-section > .mobile-activity-topbar {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.55rem;
+  z-index: 260;
+  display: flex;
+  width: auto;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.activity-session-section > .mobile-activity-topbar-title {
+  display: none;
+}
+
+.activity-session-section .activity-focus-actions {
+  display: flex;
+  gap: 0;
+}
+
+.activity-session-section .activity-fullscreen-toggle {
+  display: inline-grid;
+  width: 2rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--navy-2);
+  font-size: 1rem;
+  line-height: 1;
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.1);
+}
+
+.activity-session-section .activity-fullscreen-toggle [data-fullscreen-label] {
+  display: none;
+}
+
+.activity-session-section:fullscreen > .mobile-activity-topbar {
+  position: fixed;
+  top: 0.85rem;
+  right: 0.85rem;
+  padding: 0.2rem;
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 8px 20px rgba(15, 35, 70, 0.18);
+}
+
+.activity-session-section:fullscreen .activity-fullscreen-toggle {
+  display: inline-flex;
+  width: auto;
+  min-width: 0;
+  height: 2.2rem;
+  padding: 0.42rem 0.7rem;
+  gap: 0.35rem;
+  border-color: transparent;
+  border-radius: 8px;
+  box-shadow: none;
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.activity-session-section:fullscreen .activity-fullscreen-toggle [data-fullscreen-label] {
+  display: inline;
+}
+
+/* Library activity headers use the same three-point navigation as route
+   activities: return, setting, and Tutor must not form a cluster on the
+   right edge. */
+@media (min-width: 641px) {
+  .skill-view-section:not(.is-route-activity) .skill-view-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    width: 100%;
+    flex: 1 1 100%;
+    gap: 0.7rem;
+    margin-left: 0;
+  }
+
+  .skill-view-section:not(.is-route-activity) .skill-view-actions .back-to-route-btn {
+    grid-column: 1;
+    justify-self: start;
+  }
+
+  .skill-view-section:not(.is-route-activity) .skill-view-actions .change-combination-btn {
+    grid-column: 2;
+    justify-self: center;
+    white-space: nowrap;
+  }
+
+  .skill-view-section:not(.is-route-activity) .skill-view-actions .open-tutor-btn {
+    grid-column: 3;
+    justify-self: end;
+    white-space: nowrap;
+  }
+}
+
+/* Tutor answers are the reading surface: give them the available width and
+   comfortable inner margins, while keeping the audio utilities secondary. */
+#tutor .tutor-message--tutor {
+  width: 100%;
+  max-width: none;
+  padding: clamp(1rem, 1.65vw, 1.3rem) clamp(1.15rem, 2vw, 1.55rem);
+  border-radius: 10px 22px 22px;
+}
+
+#tutor .tutor-message--tutor p {
+  font-size: clamp(0.96rem, 1.05vw, 1.06rem);
+  line-height: 1.62;
+}
+
+#tutor .tutor-voice-controls {
+  gap: 0.28rem;
+  margin-top: 0.45rem;
+  padding-top: 0.42rem;
+}
+
+#tutor .tutor-voice-btn,
+#tutor .tutor-voice-speed-btn {
+  min-height: 1.9rem;
+  padding: 0.2rem 0.48rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  line-height: 1;
+}
+
+#tutor .tutor-voice-speed-group {
+  gap: 0.2rem;
+}
+
+@media (max-width: 640px) {
+  #tutor .tutor-message--tutor {
+    padding: 0.82rem 0.9rem;
+  }
+
+  #tutor .tutor-message--tutor p {
+    font-size: 0.9rem;
+    line-height: 1.52;
+  }
+}
+
+/* Adjectives and adverbs reference catalogues */
+.lexicon-reference { max-width: 1160px; margin: 1.25rem auto 3rem; padding: clamp(1rem, 3vw, 2rem); border: 1px solid rgba(30, 64, 175, .14); border-radius: 20px; background: linear-gradient(145deg, #fff, #f4f8ff); box-shadow: 0 14px 36px rgba(30, 64, 175, .08); }
+.lexicon-reference-head { display: flex; align-items: start; justify-content: space-between; gap: 1rem; }
+.lexicon-reference-head span { color: var(--blue, #2563eb); font-size: .72rem; font-weight: 800; letter-spacing: .09em; }
+.lexicon-reference-head h2 { margin: .3rem 0 .45rem; color: var(--navy, #102a56); font-size: clamp(1.35rem, 3vw, 2rem); }
+.lexicon-reference-head p { max-width: 720px; margin: 0; color: #52627d; line-height: 1.55; }
+.lexicon-reference label { display: grid; gap: .35rem; color: #344665; font-size: .82rem; font-weight: 800; }
+.lexicon-reference select, .lexicon-reference input { min-height: 2.5rem; padding: .5rem .7rem; border: 1px solid #cbd7ee; border-radius: 9px; background: #fff; color: #182d54; font: inherit; }
+.lexicon-toolbar { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin: 1.35rem 0 .75rem; }
+.lexicon-toolbar input { width: min(320px, 72vw); }
+.lexicon-categories { display: flex; flex-wrap: wrap; gap: .4rem; }
+.lexicon-categories button { padding: .4rem .65rem; border: 1px solid #cad8f1; border-radius: 999px; background: #fff; color: #38517a; font: inherit; font-size: .78rem; font-weight: 750; cursor: pointer; text-transform: capitalize; }
+.lexicon-categories button.is-active { border-color: #2563eb; background: #2563eb; color: #fff; }
+.lexicon-count { margin: .5rem 0 .85rem; color: #52627d; font-size: .9rem; }
+.lexicon-count strong { color: #1d4ed8; }
+.lexicon-table-wrap { overflow-x: auto; border: 1px solid #d7e1f3; border-radius: 13px; background: #fff; }
+.lexicon-table { width: 100%; min-width: 700px; border-collapse: collapse; text-align: left; }
+.lexicon-table th { padding: .8rem .9rem; background: #eaf1ff; color: #23426f; font-size: .78rem; letter-spacing: .03em; text-transform: uppercase; }
+.lexicon-table td { padding: .78rem .9rem; border-top: 1px solid #e6edf8; color: #435575; }
+.lexicon-table tr:hover td { background: #f7faff; }
+.lexicon-table td:first-child { color: #132f5c; }
+.lexicon-category { display: inline-block; padding: .22rem .48rem; border-radius: 999px; background: #e8f0ff; color: #2555a0; font-size: .75rem; font-weight: 800; text-transform: capitalize; }
+@media (max-width: 680px) { .lexicon-reference-head, .lexicon-toolbar { flex-direction: column; align-items: stretch; } .lexicon-reference-head > label { width: 100%; } .lexicon-reference select { width: 100%; } }
+
+/* Compact reading layout: preserve the hierarchy without making the title,
+   controls and comprehension cards compete for vertical space. */
+#reading .reading-reader-card { padding: clamp(0.68rem, 1.2vw, 0.9rem); border-radius: 16px; }
+#reading .reading-display-controls { min-height: 30px; margin-bottom: 0.42rem; padding: 0.18rem 0.35rem; border-radius: 11px; }
+#reading .reading-hero--near-text { margin: 0.62rem 0 0.58rem; padding-bottom: 0.58rem; }
+#reading .reading-hero--near-text .reading-level-tag { margin: 0 0 0.22rem; font-size: 0.72rem; }
+#reading .reading-hero--near-text h3 { margin: 0; color: var(--navy-2); font-size: clamp(1.25rem, 2.4vw, 1.7rem); line-height: 1.16; }
+#reading .reading-hero--near-text .reading-description { margin-top: 0.3rem; font-size: 0.84rem; line-height: 1.38; }
+#reading .reading-text p { margin-bottom: 0.82rem; font-size: 1rem; line-height: 1.65; }
+#reading .reading-selection-hint--footer { margin-top: 0.85rem; padding: 0.48rem 0.62rem; font-size: 0.68rem; }
+#reading .reading-comp-quiz { gap: 0.6rem; margin-top: 0.5rem; }
+#reading .reading-comp-quiz-header { padding: 0.55rem 0.7rem; border-radius: 11px; }
+#reading .reading-comp-question-track { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }
+#reading .reading-comp-question { gap: 0.45rem; padding: 0.65rem; border-radius: 11px; }
+#reading .reading-comp-question-heading { gap: 0.42rem; }
+#reading .reading-comp-question-number { width: 1.4rem; height: 1.4rem; font-size: 0.68rem; }
+#reading .reading-comp-prompt { font-size: 0.84rem; line-height: 1.3; }
+#reading .reading-comp-options { gap: 0.32rem; }
+#reading .reading-comp-option { min-height: 2.25rem; gap: 0.36rem; padding: 0.35rem 0.45rem; border-radius: 8px; font-size: 0.75rem; line-height: 1.2; }
+#reading .reading-comp-option-letter { width: 1.22rem; height: 1.22rem; font-size: 0.65rem; }
+#reading .reading-comp-actions { margin-top: 0; }
+@media (max-width: 760px) { #reading .reading-comp-question-track { grid-template-columns: 1fr; } }
+
+/* Keep the learning references discoverable on desktop too.  The activity
+   tabs used to be hidden outside the Ruta view, which made Adjetivos and
+   Adverbios appear to be missing. */
+.skill-view-section > .level-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0 0 0.7rem;
+  padding: 0.34rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  border: 1px solid rgba(37, 99, 235, 0.14);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.skill-view-section > .level-tabs .level-tab {
+  flex: 0 0 auto;
+  min-height: 34px;
+  padding: 0.38rem 0.66rem;
+  border-color: transparent;
+  background: transparent;
+  font-size: 0.74rem;
+}
+.skill-view-section > .level-tabs .level-tab:hover { background: rgba(37, 99, 235, 0.08); }
+.skill-view-section > .level-tabs .level-tab.active,
+.skill-view-section > .level-tabs .level-tab[aria-current='page'] { background: var(--gradient-primary); color: #fff; }

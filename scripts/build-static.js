@@ -40,6 +40,7 @@ const REQUIRED_FILES = [
   'src/js/translator-languages.js',
   'src/js/translator-predictive.js',
   'src/js/global-search.js',
+  'src/js/lexicon-view.js',
   'src/js/app-install.js',
   'service-worker.js',
   'favicon.svg',

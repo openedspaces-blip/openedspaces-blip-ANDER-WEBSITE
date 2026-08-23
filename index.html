@@ -786,6 +786,19 @@
         </div>
       </section>
 
+      <section id="adjectives" class="section skill-view-section compact-hidden-section" aria-label="Adjetivos">
+        <nav class="level-tabs" aria-label="Secciones de aprendizaje">
+          <a href="#learn" class="level-tab" data-tab="learn">Ruta</a><a href="#reading" class="level-tab" data-tab="reading">Reading</a><a href="#listening" class="level-tab" data-tab="listening">Listening</a><a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a><a href="#writing" class="level-tab" data-tab="writing">Writing</a><a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a><a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a><a href="#adjectives" class="level-tab" data-tab="adjectives">Adjetivos</a><a href="#adverbs" class="level-tab" data-tab="adverbs">Adverbios</a>
+        </nav>
+        <div class="skill-view-content"></div>
+      </section>
+      <section id="adverbs" class="section skill-view-section compact-hidden-section" aria-label="Adverbios">
+        <nav class="level-tabs" aria-label="Secciones de aprendizaje">
+          <a href="#learn" class="level-tab" data-tab="learn">Ruta</a><a href="#reading" class="level-tab" data-tab="reading">Reading</a><a href="#listening" class="level-tab" data-tab="listening">Listening</a><a href="#speaking" class="level-tab" data-tab="speaking">Speaking</a><a href="#writing" class="level-tab" data-tab="writing">Writing</a><a href="#grammar" class="level-tab" data-tab="grammar">Grammar</a><a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a><a href="#adjectives" class="level-tab" data-tab="adjectives">Adjetivos</a><a href="#adverbs" class="level-tab" data-tab="adverbs">Adverbios</a>
+        </nav>
+        <div class="skill-view-content"></div>
+      </section>
+
       <section
         id="listening"
         class="section skill-view-section compact-hidden-section"
@@ -1007,15 +1020,15 @@
 
       <section id="tests" class="section tests-section compact-hidden-section" aria-label="Tests por idioma y nivel">
         <div class="section-heading section-heading-compact">
-          <span>Tests</span>
-          <h2 tabindex="-1">Demuestra lo que aprendiste</h2>
-          <p>Retos interactivos que ponen en práctica lo aprendido en cada nivel y lección.</p>
+          <span id="testsSectionEyebrow">Tests</span>
+          <h2 id="testsSectionTitle" tabindex="-1">Demuestra lo que aprendiste</h2>
+          <p id="testsSectionIntro">Retos interactivos que ponen en práctica lo aprendido en cada nivel y lección.</p>
         </div>
         <div class="tests-shell">
           <aside class="tests-sidebar">
             <span class="tests-eyebrow" id="testsLanguageEyebrow">English assessment</span>
-            <h3>Elige tu examen</h3>
-            <label for="testLanguageSelect">Idioma
+            <h3 id="testsSidebarTitle">Elige tu examen</h3>
+            <label for="testLanguageSelect"><span id="testLanguageLabel">Idioma</span>
               <select id="testLanguageSelect">
                 <option value="english">English</option>
                 <option value="french">Français</option>
@@ -1025,21 +1038,21 @@
                 <option value="german">Deutsch</option>
               </select>
             </label>
-            <label for="testLevelSelect">Nivel
+            <label for="testLevelSelect"><span id="testLevelLabel">Nivel</span>
               <select id="testLevelSelect">
                 <option value="A1">A1</option><option value="A2">A2</option>
                 <option value="B1">B1</option><option value="B2">B2</option>
                 <option value="C1">C1</option><option value="C2">C2</option>
               </select>
             </label>
-            <label for="testLessonSelect">Unidad de examen
+            <label for="testLessonSelect"><span id="testLessonLabel">Unidad de examen</span>
               <select id="testLessonSelect"><option>Cargando lecciones…</option></select>
             </label>
             <button type="button" class="primary-btn" id="startLessonTestBtn">Comenzar test</button>
-            <div class="tests-spec"><strong id="testQuestionCount">15 preguntas</strong><span>1–9 Gramática · 10–12 Vocabulario · 13–15 Verbos</span><span>Retroalimentación inmediata · Nota sobre 100</span></div>
+            <div class="tests-spec"><strong id="testQuestionCount">16 preguntas</strong><span id="testQuestionStructure">1–7 Gramática · 8–10 Vocabulario · 11–12 Verbos · 13–14 Adjetivos · 15–16 Adverbios</span><span id="testFeedbackSpec">Retroalimentación inmediata · Nota sobre 100</span></div>
           </aside>
           <article class="tests-stage" id="testsStage" aria-live="polite">
-            <div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Un examen a tu medida</h3><p>Selecciona un idioma, nivel y unidad. Evaluarás 9 preguntas de gramática, 3 de vocabulario y 3 de verbos.</p></div>
+            <div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Un examen a tu medida</h3><p>En inglés: 7 de gramática, 3 de vocabulario, 2 de verbos, 2 de adjetivos y, desde A2, 2 de adverbios.</p></div>
           </article>
         </div>
       </section>
@@ -2654,6 +2667,7 @@
     <script src="/src/js/app-install.js"></script>
     <script src="/src/js/global-search.js"></script>
     <!-- Verb data and its view are loaded when #verbs is opened. -->
+    <script src="/src/js/lexicon-view.js"></script>
     <script src="/src/js/script.js?v=20260805-games-upgrade"></script>
   </body>
 </html>
