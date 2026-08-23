@@ -12861,6 +12861,64 @@ function buildBeginnerReadingActivities(language, topic, unitOrder) {
   // they actually meet outside a course: notices, messages, cards and plans.
   // Rotating these formats makes the catalogue varied while keeping A1–A2
   // language concrete and predictable.
+  const themedEnglishA1 = [
+    [
+      ['The first day at Andergo', 'Ana is new at Andergo Language Academy. At the door, she meets Leo. “Hello, I am Ana,” she says. Leo smiles and says, “My name is Leo. Welcome to our class.” The teacher gives Ana a name card. Ana and Leo sit together and spell their names. At the end of the lesson, they say goodbye.'],
+      ['A new student profile', 'Name: Sam Green\nCity: Bristol\nClass: English A1\nTeacher: Mr. Clark\nFavourite activity: reading\n\nSam is new in the class. Ana reads the profile card. She says hello and asks Sam a simple question. Sam is happy to meet a new classmate.']
+    ],
+    [
+      ['Three things about Maya', 'Maya is twelve years old. She lives in Bristol with her mother. Her favourite colour is green, and she likes drawing after school. In English class, Maya writes three facts about herself on a small card. Her partner reads the card and says, “We both like drawing.”'],
+      ['My partner interview', 'Name: Omar\nAge: 13\nCity: Leeds\nFavourite food: pizza\nFavourite sport: football\n\nMaya asks Omar the questions. He answers slowly. Then Omar asks Maya the same questions. They learn new things about each other.']
+    ],
+    [
+      ['The photo on Leo’s phone', 'Leo shows Ana a photo on his phone. “This is my family,” he says. “This is my mother, my father, and my sister Sofia.” Ana points to a boy in the photo. Leo says, “That is my cousin Ben. He is ten.” Ana likes the photo because everyone is smiling.'],
+      ['Saturday with my cousin', 'On Saturday, Ben visits Leo’s home. They have breakfast with the family. Then they play a game in the living room. Leo’s sister makes juice for them. In the afternoon, Ben goes home and says, “Thank you. See you next week!”']
+    ],
+    [
+      ['The school noticeboard', 'WELCOME TO GREEN PARK SCHOOL\n\nEnglish class: Room 6\nLibrary: first floor\nLunch: 12:30\nFootball club: Tuesday\n\nAna looks at the noticeboard with Leo. They find their English room. The library is next to the office.'],
+      ['A map of our classroom', 'The teacher gives the class a small map. The door is near the board. The teacher’s desk is in front of the windows. Ana’s table is on the left. Leo’s table is on the right. Their books are under the table.']
+    ],
+    [
+      ['Sam’s busy Tuesday', 'Sam gets up at seven on Tuesday. He has breakfast with his mother and walks to school. At nine, he has English. After lunch, he does his homework in the library. In the evening, Sam calls his cousin and reads a book before bed.'],
+      ['The morning checklist', 'BEFORE SCHOOL\n\n□ Get up at seven\n□ Have breakfast\n□ Pack my English book\n□ Walk to the bus stop\n\nSam checks his list every morning. Today he has everything, so he is ready for school.']
+    ],
+    [
+      ['A birthday on the calendar', 'It is Monday, 14 May. Ana looks at the class calendar and sees Leo’s birthday on Friday. She writes “Buy a card” in her notebook. On Thursday, Ana and Sam make a small card after class. On Friday, the class sings Happy Birthday to Leo.'],
+      ['Our plan for the week', 'MONDAY: English homework\nTUESDAY: football club\nWEDNESDAY: visit Grandma\nTHURSDAY: buy a birthday card\nFRIDAY: Leo’s birthday\n\nAna reads the plan and knows what she needs to do each day.']
+    ],
+    [
+      ['Lunch at the school café', 'At lunch, Ana and Leo go to the school café. Ana wants a cheese sandwich and orange juice. Leo chooses rice, chicken, and water. The café worker says, “Here you are.” They sit at a small table and talk about their favourite food.'],
+      ['What is in our basket?', 'SHOPPING BASKET\n\n• six apples\n• bread\n• milk\n• cheese\n• two tomatoes\n\nLeo’s mother asks him to check the basket. They have fruit, bread, and milk, but they need eggs for dinner.']
+    ],
+    [
+      ['A room for rent', 'SMALL ROOM FOR RENT\n\nNear the town centre\nBed, desk, and window\nKitchen and bathroom in the flat\nBus stop: five minutes away\n\nMaya reads the notice with her mother. She likes the desk near the window and the bus stop near the flat.'],
+      ['Where is the blue key?', 'Leo cannot find the blue key. He looks on the table, under the chair, and next to the books. His sister says, “Look in your bag.” The key is in a small pocket of the bag. Leo says, “Thank you!”']
+    ],
+    [
+      ['Meet me at the library', 'Hi Ana! The library is on King Street. Walk past the bank and turn left at the supermarket. The library is between the café and the post office. I will wait at the front door at four o’clock.\n— Leo'],
+      ['The bus stop notice', 'BUS 12\n\nTown centre: 09:10\nLibrary: 09:18\nMuseum: 09:25\n\nAna wants to go to the museum. She gets on the bus at the library and arrives at 09:25.']
+    ],
+    [
+      ['Our Saturday plan', 'Leo sends Ana an invitation. “Would you like to come to the park on Saturday?” Ana writes back, “Yes, please. What time?” Leo says, “At ten. We can play football and have a picnic.” Ana is happy because the weather is warm.'],
+      ['A message from the film club', 'FILM CLUB\n\nSaturday, 3:00 p.m.\nRoom 4\nFilm: The Little Robot\nBring a friend!\n\nSam reads the message and asks Maya to come with him. They both like funny films.']
+    ],
+    [
+      ['A birthday gift for Ana', 'Ana’s birthday is tomorrow. Leo and Maya want to buy her a gift. Ana likes blue clothes and small bags. At the shop, they see a blue scarf for eight pounds. They buy the scarf and a card. “Ana will like this,” says Maya.'],
+      ['At the market', 'Customer: How much are these red T-shirts?\nSeller: They are ten pounds.\nCustomer: Do you have a small size?\nSeller: Yes, here you are.\nCustomer: Thank you. I like this one.\n\nThe customer buys one red T-shirt.']
+    ],
+    [
+      ['The weather for our trip', 'On Friday, the weather is sunny and warm. Ana and her family want to visit the coast. Her father checks the weather for Saturday. It is cloudy in the morning, but sunny after lunch. Ana packs a jacket, a T-shirt, and her camera.'],
+      ['At the train station', 'TRAIN TO BRIGHTON\n\nPlatform: 4\nDeparture: 10:15\nTickets: at the blue machine\nTravel time: 1 hour\n\nLeo and his mother arrive at the station at ten. They buy two tickets and walk to platform four.']
+    ]
+  ];
+  if (language === 'english' && themedEnglishA1[unitOrder - 1]) {
+    return themedEnglishA1[unitOrder - 1].map(([title, text], index) => ({
+      title,
+      text,
+      format: 'themed-story',
+      id: `themed-a1-${unitOrder}-${index + 1}`
+    }));
+  }
   const activities = {
     english: [
       ['A short dialogue', 'Mia: Hello. I am Mia. What is your name?\nNoah: My name is Noah. Nice to meet you.\nMia: Nice to meet you too. Are you in this class?\nNoah: Yes. I am in room three.'],
@@ -12999,6 +13057,7 @@ function buildProgrammeReadingVariants(lesson) {
     };
     const copy = beginnerCopies[language] || beginnerCopies.english;
     const generatedActivities = buildBeginnerReadingActivities(language, topic, unitOrder);
+    const useLegacyWelcomeActivities = firstA1 && generatedActivities[0]?.format !== 'themed-story';
     const practicalReadingDescription = {
       english: 'A short, useful text for finding key details.',
       spanish: 'Un texto breve y útil para encontrar datos importantes.',
@@ -13007,10 +13066,10 @@ function buildProgrammeReadingVariants(lesson) {
       portuguese: 'Um texto curto e útil para encontrar informações importantes.',
       german: 'Ein kurzer, nützlicher Text zum Finden wichtiger Informationen.'
     };
-    // The first unit keeps its welcoming, named story. Every later unit
-    // receives two different real-world reading formats instead of another
-    // generic story and note about the same topic.
-    const [storyTitle, storySeed, practiceTitle, practiceSeed] = firstA1
+    // The original welcome story remains for languages without a themed
+    // programme. Where the programme exists, every unit gets its own pair
+    // of connected, real-world readings.
+    const [storyTitle, storySeed, practiceTitle, practiceSeed] = useLegacyWelcomeActivities
       ? copy
       : [
           generatedActivities[0].title,
@@ -13020,10 +13079,10 @@ function buildProgrammeReadingVariants(lesson) {
         ];
     return [
       {
-        id: firstA1 ? 'companion-story' : generatedActivities[0].id,
+        id: useLegacyWelcomeActivities ? 'companion-story' : generatedActivities[0].id,
         label: storyTitle,
         title: storyTitle,
-        description: firstA1
+        description: useLegacyWelcomeActivities
           ? variantTextCopy.story
           : practicalReadingDescription[language] || practicalReadingDescription.english,
         text: buildComparableCompanionReading({
@@ -13041,10 +13100,10 @@ function buildProgrammeReadingVariants(lesson) {
         })
       },
       {
-        id: firstA1 ? 'companion-practice' : generatedActivities[1].id,
+        id: useLegacyWelcomeActivities ? 'companion-practice' : generatedActivities[1].id,
         label: practiceTitle,
         title: practiceTitle,
-        description: firstA1
+        description: useLegacyWelcomeActivities
           ? variantTextCopy.practice
           : practicalReadingDescription[language] || practicalReadingDescription.english,
         text: buildComparableCompanionReading({
