@@ -113,9 +113,12 @@
       ? `<button type="button" class="lexicon-more-btn" aria-expanded="false">Ver más</button><div class="lexicon-more-details" hidden><div class="lexicon-example"><dt>Ejemplo comparativo</dt><dd>${esc(adjectiveExamples[language](row)[0])}</dd></div><div class="lexicon-example"><dt>Ejemplo superlativo</dt><dd>${esc(adjectiveExamples[language](row)[1])}</dd></div><div class="lexicon-synonym-row"><span>Sinónimo: —</span><span>Antónimo: ${esc(row[4] || '—')}</span></div></div>`
       : '';
     const details = adjective
-      ? `<dl><div><dt>Significado</dt><dd>${esc(row[1])}</dd></div><div><dt>Comparativo</dt><dd>${esc(row[2])}</dd></div><div><dt>Superlativo</dt><dd>${esc(row[3])}</dd></div><div><dt>Antónimo</dt><dd>${esc(row[4] || '—')}</dd></div></dl>${adjectiveMore}`
+      ? `<dl><div><dt>Comparativo</dt><dd>${esc(row[2])}</dd></div><div><dt>Superlativo</dt><dd>${esc(row[3])}</dd></div><div><dt>Antónimo</dt><dd>${esc(row[4] || '—')}</dd></div></dl>${adjectiveMore}`
       : `<dl><div><dt>Significado</dt><dd>${esc(row[1])}</dd></div><div><dt>Tipo</dt><dd>${esc(row[2])}</dd></div><div class="lexicon-example"><dt>Ejemplo</dt><dd>${esc(example)}</dd></div></dl>`;
-    return `<article class="lexicon-flashcard" data-category="${adjective ? '' : esc(row[2])}" data-search="${esc(row.join(' ').toLowerCase())}" tabindex="0" role="button" aria-label="Ver detalles de ${esc(row[0])}"><div class="lexicon-flashcard-inner"><div class="lexicon-flashcard-face lexicon-flashcard-front"><span class="lexicon-flashcard-kicker">${adjective ? 'ADJETIVO' : esc(row[2]).toUpperCase()}</span><strong>${esc(row[0])}</strong><button type="button" class="lexicon-speak" data-speak="${esc(row[0])}" aria-label="Escuchar ${esc(row[0])}">🔊</button><small>Toca para ver detalles</small></div><div class="lexicon-flashcard-face lexicon-flashcard-back">${details}<small>Toca para volver</small></div></div></article>`;
+    const frontLead = adjective
+      ? `<strong>${esc(row[0])}</strong><span class="lexicon-card-translation">${esc(row[1])}</span>`
+      : `<span class="lexicon-flashcard-kicker">${esc(row[2]).toUpperCase()}</span><strong>${esc(row[0])}</strong>`;
+    return `<article class="lexicon-flashcard" data-category="${adjective ? '' : esc(row[2])}" data-search="${esc(row.join(' ').toLowerCase())}" tabindex="0" role="button" aria-label="Ver detalles de ${esc(row[0])}"><div class="lexicon-flashcard-inner"><div class="lexicon-flashcard-face lexicon-flashcard-front">${frontLead}<button type="button" class="lexicon-speak" data-speak="${esc(row[0])}" aria-label="Escuchar ${esc(row[0])}">🔊</button><small>Toca para ver detalles</small></div><div class="lexicon-flashcard-face lexicon-flashcard-back">${details}<small>Toca para volver</small></div></div></article>`;
   }
   function render(section, kind, selectedLanguage) {
     const content = section.querySelector('.skill-view-content'); if (!content) return;

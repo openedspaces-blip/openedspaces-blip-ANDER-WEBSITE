@@ -25,6 +25,7 @@ const REQUIRED_FILES = [
   'aprender-aleman.html',
   'vocabulario-basico-idiomas.html',
   'sobre-andergo.html',
+  'recursos-aprender-idiomas.html',
   'verbos-ingles.html',
   'test-nivel-ingles.html',
   'src/css/styles.css',

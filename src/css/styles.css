@@ -9874,7 +9874,7 @@ footer small {
 }
 
 .skill-view-section {
-  padding-top: clamp(6rem, 7vw, 7rem);
+  padding-top: clamp(1.25rem, 2.5vw, 2rem);
 }
 
 @media (max-width: 720px) {
@@ -13848,6 +13848,8 @@ footer small {
 }
 
 .grammar-challenge-map-item {
+  appearance: none;
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -13860,6 +13862,7 @@ footer small {
   font-size: 0.75rem;
   font-weight: 850;
   text-decoration: none;
+  font-family: inherit;
   transition:
     transform var(--duration-fast) var(--ease-standard),
     background var(--duration-fast) var(--ease-standard);
@@ -22975,6 +22978,12 @@ footer small {
   min-width: 0;
   align-items: center;
   gap: 0.2rem 0.55rem;
+}
+
+.grammar-challenge-map-item.is-active {
+  border-color: var(--blue);
+  background: #eaf2ff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
 
 .verb-catalogue-identity > strong {
@@ -35269,6 +35278,39 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   }
 }
 
+/* Dense Verbos catalogue: these controls are navigation, so preserve every
+   action while reducing the landing-space above the actual verbs. */
+#verbs .section-heading-compact { max-width: 1040px; margin: 0.32rem auto 0.28rem; }
+#verbs .section-heading-compact::before { width: 2.2rem; margin-bottom: 0.18rem; }
+#verbs .section-heading-compact > span { font-size: 0.68rem; }
+#verbs .section-heading-compact h2 { margin: 0.04rem 0; font-size: clamp(1.35rem, 2.1vw, 1.85rem); }
+#verbs .section-heading-compact p { margin-top: 0.12rem; font-size: 0.8rem; line-height: 1.22; }
+#verbs .verbs-heading-meta { margin-top: 0.12rem !important; font-size: 0.68rem !important; }
+#verbs #verbsTabs { margin-top: 0.32rem; }
+#verbs #verbsTabs .skill-tab-list { min-height: 2.8rem; padding: 0.22rem; }
+#verbs #verbsTabs .skill-tab-button { min-height: 2.3rem; padding: 0.32rem 0.62rem; font-size: 0.76rem; }
+#verbs .verbs-catalogue-summary { margin-bottom: 0.3rem; }
+#verbs .verbs-catalogue-summary > strong { font-size: clamp(1.04rem, 1.55vw, 1.25rem); }
+#verbs .verbs-advanced-level-summary { gap: 0.32rem; margin: 0.28rem 0 0.42rem; }
+#verbs .verb-advanced-level-card { gap: 0.32rem; min-height: 46px; padding: 0.3rem 0.48rem; border-radius: 9px; }
+#verbs .verb-advanced-level-card strong { font-size: 0.9rem; }
+#verbs .verb-advanced-level-card span { font-size: 0.66rem; }
+#verbs .verb-advanced-level-card small { font-size: 0.62rem; }
+#verbs .verbs-toolbar { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(150px, 0.8fr) minmax(170px, 0.9fr); gap: 0.5rem; margin-bottom: 0.5rem; }
+#verbs .verbs-search-field, #verbs .verbs-filter-field { gap: 0.16rem; font-size: 0.68rem; }
+#verbs .verbs-search-field input, #verbs .verbs-filter-field select { min-height: 38px; padding: 0.38rem 0.58rem; border-radius: 10px; font-size: 0.82rem; }
+
+@media (max-width: 760px) {
+  #verbs .section-heading-compact { margin-top: 0.28rem; }
+  #verbs .verbs-toolbar { grid-template-columns: 1fr 1fr; }
+  #verbs .verbs-search-field { grid-column: 1 / -1; }
+}
+
+@media (max-width: 420px) {
+  #verbs .verbs-toolbar { grid-template-columns: 1fr; }
+  #verbs .verbs-search-field { grid-column: auto; }
+}
+
 /* Grammar overview: a short, predictable learning map before the exercise.
    The topic is centred; every learner sees definition, use, examples and
    the available interactive work without scanning a long introductory card. */
@@ -35343,6 +35385,8 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 }
 
 .grammar-overview-core article,
+.grammar-overview-definition,
+.grammar-overview-explanation,
 .grammar-overview-examples,
 .grammar-overview-exercises {
   min-width: 0;
@@ -35353,6 +35397,8 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 }
 
 .grammar-overview-core h5,
+.grammar-overview-definition h5,
+.grammar-overview-explanation h5,
 .grammar-overview-examples h5,
 .grammar-overview-exercises h5 {
   margin-bottom: 0.23rem;
@@ -35364,6 +35410,8 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 }
 
 .grammar-overview-core p,
+.grammar-overview-definition p,
+.grammar-overview-explanation p,
 .grammar-overview-exercises p {
   color: #42536f;
   font-size: 0.68rem;
@@ -35441,6 +35489,72 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 }
 
 .grammar-overview-forms p { margin: 0; }
+
+/* Desktop member navigation: one calm, tactile control bar rather than a
+   row of plain links. The active destination remains obvious at a glance
+   while every item keeps a generous, consistent hit target. */
+@media (min-width: 1281px) {
+  .navbar .menu {
+    flex: 1 1 auto;
+    justify-content: center;
+    gap: 0.12rem;
+    min-width: 0;
+    padding: 0.24rem 0.38rem;
+    border: 1px solid #dce8fb;
+    border-radius: 999px;
+    background: linear-gradient(110deg, #f9fbff, #f3f8ff);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.92);
+  }
+
+  .navbar .menu > .nav-group > a,
+  .navbar .menu .nav-more summary {
+    min-height: 38px;
+    padding: 0.5rem 0.62rem;
+    border-radius: 12px;
+    transition: color 160ms ease, background 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+  }
+
+  .navbar .menu > .nav-group > a::after,
+  .navbar .menu .nav-more summary::before { display: none; }
+
+  .navbar .menu > .nav-group > a:hover,
+  .navbar .menu > .nav-group > a:focus-visible,
+  .navbar .menu .nav-more summary:hover,
+  .navbar .menu .nav-more summary:focus-visible {
+    color: #1d4ed8;
+    background: #eaf3ff;
+    transform: translateY(-1px);
+  }
+
+  .navbar .menu > .nav-group > a.active:not(.nav-learn-cta) {
+    color: #1749b8;
+    background: #dcecff;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.12);
+  }
+
+  .navbar .menu .nav-learn-cta {
+    min-height: 38px;
+    padding-inline: 0.76rem;
+    border-radius: 13px;
+  }
+
+  .nav-actions { gap: 0.56rem; }
+
+  .nav-actions .user-chip {
+    min-height: 38px;
+    padding: 0.48rem 0.82rem;
+    border: 1px solid rgba(37, 99, 235, 0.08);
+    background: linear-gradient(135deg, #eaf1ff, #e7f5ff);
+    box-shadow: 0 5px 14px rgba(37, 99, 235, 0.1);
+  }
+
+  .logout-btn {
+    min-height: 38px;
+    border-color: #d7e4f5;
+    border-radius: 13px;
+    box-shadow: 0 3px 9px rgba(30, 64, 175, 0.05);
+  }
+}
 
 @media (max-width: 640px) {
   .grammar-test-card .grammar-test-hero { justify-content: flex-start; text-align: left; }
@@ -36133,6 +36247,7 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .lexicon-flashcard-front { gap: .45rem; }
 .lexicon-flashcard-kicker { color: #2765d7; font-size: .62rem; font-weight: 850; letter-spacing: .09em; }
 .lexicon-flashcard-front strong { color: #122b56; font-size: clamp(1rem, 1.8vw, 1.32rem); overflow-wrap: anywhere; }
+.lexicon-card-translation { color: #2765d7; font-size: .82rem; font-weight: 800; overflow-wrap: anywhere; }
 .lexicon-speak { display: grid; place-items: center; width: 2rem; height: 2rem; padding: 0; border: 0; border-radius: 50%; background: #e8f1ff; cursor: pointer; font-size: .92rem; }
 .lexicon-flashcard small { margin-top: auto; color: #7183a0; font-size: .67rem; }
 .lexicon-flashcard-back { align-items: stretch; justify-content: flex-start; transform: rotateY(180deg); background: linear-gradient(145deg, #eef5ff, #fff); text-align: left; }
@@ -36175,6 +36290,120 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 #vocabulary .vocab-catalogue-deck .vocab-card-front-footer { width: 100%; margin-top: auto; padding-top: .48rem; }
 #vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions button { height: 26px; min-height: 26px; padding: .2rem .42rem; border-radius: 8px; font-size: .62rem; }
 @media (max-width: 680px) { #vocabulary .vocab-catalogue-deck .vocab-card, #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] { height: 188px !important; min-height: 188px !important; } }
+
+/* Vocabulary catalogue organization: preserve the lesson's authored order,
+   but keep individual terms separate from phrases learners reuse as blocks. */
+#vocabulary .vocab-catalogue-filter-groups {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: .42rem .72rem;
+}
+#vocabulary .vocab-catalogue-category-filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .38rem;
+}
+#vocabulary .vocab-catalogue-category-filter button {
+  min-height: 38px;
+  padding: .45rem .7rem;
+  border: 1px solid #cfddf5;
+  border-radius: 10px;
+  background: #fff;
+  color: #43516d;
+  font: inherit;
+  font-size: .72rem;
+  font-weight: 850;
+  cursor: pointer;
+}
+#vocabulary .vocab-catalogue-category-filter button.is-active {
+  border-color: #0f766e;
+  background: #0f766e;
+  color: #fff;
+  box-shadow: 0 6px 14px rgba(15, 118, 110, .2);
+}
+#vocabulary .vocab-catalogue-deck > .vocab-card-group {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: .62rem;
+  min-width: 0;
+}
+#vocabulary .vocab-catalogue-deck > .vocab-card-group[hidden] {
+  display: none !important;
+}
+#vocabulary .vocab-card-group + .vocab-card-group {
+  margin-top: .42rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dce7f7;
+}
+#vocabulary .vocab-card-group-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: .45rem .8rem;
+  padding: .58rem .68rem;
+  border: 1px solid #dce7f7;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f8fbff, #fff);
+}
+#vocabulary .vocab-card-group-heading > div {
+  display: flex;
+  align-items: center;
+  gap: .52rem;
+  min-width: 0;
+}
+#vocabulary .vocab-card-group-heading span,
+#vocabulary .vocab-card-group-heading strong {
+  display: inline-grid;
+  min-width: 1.8rem;
+  min-height: 1.8rem;
+  place-items: center;
+  border-radius: 999px;
+  background: #e6efff;
+  color: #245fc3;
+  font-size: .68rem;
+  font-weight: 900;
+}
+#vocabulary .vocab-card-group-heading h4,
+#vocabulary .vocab-card-group-heading p {
+  margin: 0;
+}
+#vocabulary .vocab-card-group-heading h4 {
+  color: #132649;
+  font-size: .94rem;
+}
+#vocabulary .vocab-card-group-heading p {
+  color: #6a7b96;
+  font-size: .7rem;
+  font-weight: 700;
+}
+#vocabulary .vocab-card-group-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .72rem;
+  align-items: stretch;
+}
+@media (min-width: 1440px) {
+  #vocabulary .vocab-card-group-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (max-width: 1080px) {
+  #vocabulary .vocab-catalogue-filter-row { align-items: flex-start; flex-direction: column; }
+  #vocabulary .vocab-catalogue-filter-groups { justify-content: flex-start; }
+  #vocabulary .vocab-card-group-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 680px) {
+  #vocabulary .vocab-catalogue-filter-groups,
+  #vocabulary .vocab-catalogue-category-filter { width: 100%; }
+  #vocabulary .vocab-catalogue-filter-groups { display: grid; }
+  #vocabulary .vocab-catalogue-category-filter,
+  #vocabulary .vocab-catalogue-mastery { flex-wrap: nowrap; overflow-x: auto; padding-bottom: .18rem; }
+  #vocabulary .vocab-catalogue-category-filter button { flex: 0 0 auto; }
+  #vocabulary .vocab-card-group-heading { grid-template-columns: minmax(0, 1fr) auto; }
+  #vocabulary .vocab-card-group-heading p { grid-column: 1 / -1; }
+  #vocabulary .vocab-card-group-grid { grid-template-columns: 1fr; }
+}
 
 /* Shared learning-surface pass: compact, consistent panels without reducing
    the readable answer area required by assessments. */

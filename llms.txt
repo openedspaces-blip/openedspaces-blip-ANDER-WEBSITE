@@ -21,6 +21,7 @@ The site is primarily written for Spanish-speaking learners, while learning cont
 
 - [Homepage and learning routes](https://andergo.online/)
 - [About ANDERGO](https://andergo.online/sobre-andergo.html)
+- [Guide: how to learn languages online](https://andergo.online/recursos-aprender-idiomas.html)
 - [Vocabulary basics in six languages](https://andergo.online/vocabulario-basico-idiomas.html)
 - [Learn English](https://andergo.online/aprender-ingles.html)
 - [Learn French](https://andergo.online/aprender-frances.html)

@@ -5576,7 +5576,36 @@ const PRE_A1_WORD_VISUALS = {
   feelings: ['😊', '😢', '😴', '🙂', '😋', '👌'],
   food: ['💧', '🥛', '🍎', '🍌', '🍞', '🍚'],
   places: ['🏠', '🏫', '🌳', '🏪', '🛣️', '🪑'],
+  body: ['😀', '👀', '👐', '💪', '🦵', '🦶'],
+  'basic-adjectives': ['🐘', '🐭', '👍', '👎', '😊', '😢'],
   ready: ['👋', '🏷️', '🧑‍🤝‍🧑', '😊', '🏫', '🎉']
+};
+
+const PRE_A1_ELEMENTARY_TOPICS = {
+  english: [
+    { id: 'body', icon: '🧍', title: 'My body', subtitle: 'Body parts · Partes del cuerpo', goal: 'Name the main parts of your body.', grammar: 'This is my…', words: [['head', 'cabeza'], ['eyes', 'ojos'], ['hands', 'manos'], ['arms', 'brazos'], ['legs', 'piernas'], ['feet', 'pies']], phrases: ['This is my head.', 'I have two hands.'], prompt: 'Which word means “manos”?', options: ['Eyes', 'Hands', 'Legs'], answer: 1, col: 0, row: 2 },
+    { id: 'basic-adjectives', icon: '✨', title: 'Basic adjectives', subtitle: 'Big, small & feelings · Adjetivos básicos', goal: 'Describe people and things with simple adjectives.', grammar: 'It is… / I am…', words: [['big', 'grande'], ['small', 'pequeño/a'], ['good', 'bueno/a'], ['bad', 'malo/a'], ['happy', 'feliz'], ['sad', 'triste']], phrases: ['The ball is big.', 'I am happy.'], prompt: 'How do you say “pequeño/a” in English?', options: ['Big', 'Small', 'Sad'], answer: 1, col: 1, row: 2 }
+  ],
+  spanish: [
+    { id: 'body', icon: '🧍', title: 'Mi cuerpo', subtitle: 'Partes del cuerpo · Body parts', goal: 'Nombra las partes principales del cuerpo.', grammar: 'Esta es mi…', words: [['cabeza', 'head'], ['ojos', 'eyes'], ['manos', 'hands'], ['brazos', 'arms'], ['piernas', 'legs'], ['pies', 'feet']], phrases: ['Esta es mi cabeza.', 'Tengo dos manos.'], prompt: '¿Qué palabra significa “hands”?', options: ['Ojos', 'Manos', 'Piernas'], answer: 1, col: 0, row: 2 },
+    { id: 'basic-adjectives', icon: '✨', title: 'Adjetivos básicos', subtitle: 'Grande, pequeño y emociones', goal: 'Describe personas y objetos con adjetivos simples.', grammar: 'Es… / Estoy…', words: [['grande', 'big'], ['pequeño', 'small'], ['bueno', 'good'], ['malo', 'bad'], ['feliz', 'happy'], ['triste', 'sad']], phrases: ['La pelota es grande.', 'Estoy feliz.'], prompt: '¿Qué palabra significa “small”?', options: ['Grande', 'Pequeño', 'Triste'], answer: 1, col: 1, row: 2 }
+  ],
+  french: [
+    { id: 'body', icon: '🧍', title: 'Mon corps', subtitle: 'Parties du corps · Partes del cuerpo', goal: 'Nombra las partes principales del cuerpo.', grammar: 'C’est ma/mon…', words: [['tête', 'cabeza'], ['yeux', 'ojos'], ['mains', 'manos'], ['bras', 'brazos'], ['jambes', 'piernas'], ['pieds', 'pies']], phrases: ['C’est ma tête.', 'J’ai deux mains.'], prompt: '¿Qué palabra significa “manos”?', options: ['Yeux', 'Mains', 'Jambes'], answer: 1, col: 0, row: 2 },
+    { id: 'basic-adjectives', icon: '✨', title: 'Adjectifs simples', subtitle: 'Grand, petit et émotions', goal: 'Describe personas y objetos con adjetivos simples.', grammar: 'C’est… / Je suis…', words: [['grand', 'grande'], ['petit', 'pequeño/a'], ['bon', 'bueno/a'], ['mauvais', 'malo/a'], ['heureux', 'feliz'], ['triste', 'triste']], phrases: ['Le ballon est grand.', 'Je suis heureux.'], prompt: '¿Cómo se dice “pequeño/a” en francés?', options: ['Grand', 'Petit', 'Triste'], answer: 1, col: 1, row: 2 }
+  ],
+  italian: [
+    { id: 'body', icon: '🧍', title: 'Il mio corpo', subtitle: 'Parti del corpo · Partes del cuerpo', goal: 'Nombra las partes principales del cuerpo.', grammar: 'Questa è la mia…', words: [['testa', 'cabeza'], ['occhi', 'ojos'], ['mani', 'manos'], ['braccia', 'brazos'], ['gambe', 'piernas'], ['piedi', 'pies']], phrases: ['Questa è la mia testa.', 'Ho due mani.'], prompt: '¿Qué palabra significa “manos”?', options: ['Occhi', 'Mani', 'Gambe'], answer: 1, col: 0, row: 2 },
+    { id: 'basic-adjectives', icon: '✨', title: 'Aggettivi semplici', subtitle: 'Grande, piccolo ed emozioni', goal: 'Describe personas y objetos con adjetivos simples.', grammar: 'È… / Sono…', words: [['grande', 'grande'], ['piccolo', 'pequeño/a'], ['buono', 'bueno/a'], ['cattivo', 'malo/a'], ['felice', 'feliz'], ['triste', 'triste']], phrases: ['La palla è grande.', 'Sono felice.'], prompt: '¿Cómo se dice “pequeño/a” en italiano?', options: ['Grande', 'Piccolo', 'Triste'], answer: 1, col: 1, row: 2 }
+  ],
+  portuguese: [
+    { id: 'body', icon: '🧍', title: 'O meu corpo', subtitle: 'Partes do corpo · Partes del cuerpo', goal: 'Nombra las partes principales del cuerpo.', grammar: 'Esta é a minha…', words: [['cabeça', 'cabeza'], ['olhos', 'ojos'], ['mãos', 'manos'], ['braços', 'brazos'], ['pernas', 'piernas'], ['pés', 'pies']], phrases: ['Esta é a minha cabeça.', 'Tenho duas mãos.'], prompt: '¿Qué palabra significa “manos”?', options: ['Olhos', 'Mãos', 'Pernas'], answer: 1, col: 0, row: 2 },
+    { id: 'basic-adjectives', icon: '✨', title: 'Adjetivos simples', subtitle: 'Grande, pequeno e emoções', goal: 'Describe personas y objetos con adjetivos simples.', grammar: 'É… / Eu estou…', words: [['grande', 'grande'], ['pequeno', 'pequeño/a'], ['bom', 'bueno/a'], ['mau', 'malo/a'], ['feliz', 'feliz'], ['triste', 'triste']], phrases: ['A bola é grande.', 'Eu estou feliz.'], prompt: '¿Cómo se dice “pequeño/a” en portugués?', options: ['Grande', 'Pequeno', 'Triste'], answer: 1, col: 1, row: 2 }
+  ],
+  german: [
+    { id: 'body', icon: '🧍', title: 'Mein Körper', subtitle: 'Körperteile · Partes del cuerpo', goal: 'Nombra las partes principales del cuerpo.', grammar: 'Das ist mein…', words: [['Kopf', 'cabeza'], ['Augen', 'ojos'], ['Hände', 'manos'], ['Arme', 'brazos'], ['Beine', 'piernas'], ['Füße', 'pies']], phrases: ['Das ist mein Kopf.', 'Ich habe zwei Hände.'], prompt: '¿Qué palabra significa “manos”?', options: ['Augen', 'Hände', 'Beine'], answer: 1, col: 0, row: 2 },
+    { id: 'basic-adjectives', icon: '✨', title: 'Einfache Adjektive', subtitle: 'Groß, klein und Gefühle', goal: 'Describe personas y objetos con adjetivos simples.', grammar: 'Es ist… / Ich bin…', words: [['groß', 'grande'], ['klein', 'pequeño/a'], ['gut', 'bueno/a'], ['schlecht', 'malo/a'], ['glücklich', 'feliz'], ['traurig', 'triste']], phrases: ['Der Ball ist groß.', 'Ich bin glücklich.'], prompt: '¿Cómo se dice “pequeño/a” en alemán?', options: ['Groß', 'Klein', 'Traurig'], answer: 1, col: 1, row: 2 }
+  ]
 };
 
 function isPreA1VisualCourse(
@@ -5587,12 +5616,15 @@ function isPreA1VisualCourse(
 }
 
 function getPreA1Course(language = learningPathState.language) {
-  if (language === 'french') return PRE_A1_FRENCH_VISUAL_COURSE;
-  if (language === 'spanish') return PRE_A1_SPANISH_VISUAL_COURSE;
-  if (language === 'italian') return PRE_A1_ITALIAN_VISUAL_COURSE;
-  if (language === 'portuguese') return PRE_A1_PORTUGUESE_VISUAL_COURSE;
-  if (language === 'german') return PRE_A1_GERMAN_VISUAL_COURSE;
-  return PRE_A1_VISUAL_COURSE;
+  const base = language === 'french' ? PRE_A1_FRENCH_VISUAL_COURSE
+    : language === 'spanish' ? PRE_A1_SPANISH_VISUAL_COURSE
+      : language === 'italian' ? PRE_A1_ITALIAN_VISUAL_COURSE
+        : language === 'portuguese' ? PRE_A1_PORTUGUESE_VISUAL_COURSE
+          : language === 'german' ? PRE_A1_GERMAN_VISUAL_COURSE
+            : PRE_A1_VISUAL_COURSE;
+  const additions = PRE_A1_ELEMENTARY_TOPICS[language] || PRE_A1_ELEMENTARY_TOPICS.english;
+  const ready = base.find((topic) => topic.id === 'ready');
+  return [...base.filter((topic) => topic.id !== 'ready'), ...additions, ...(ready ? [ready] : [])];
 }
 
 function getPreA1LanguageMeta(language = learningPathState.language) {
@@ -7007,10 +7039,8 @@ function renderSkillUnitSequence(section, lesson) {
   nav.innerHTML = `
     <div class="unit-mission-copy">
       <span>🎯 Misión actual · ${currentIndex + 1}/${total}</span>
-      <strong>${escapeHtml(getSkillLabel(lesson.skill))}: ${escapeHtml(lesson.title)}</strong>
       <small>${minutes ? `⏱ ${escapeHtml(String(minutes))} min · ` : ''}⭐ ${escapeHtml(String(xp))} XP · ${nextLesson ? `Después: ${escapeHtml(getSkillLabel(nextLesson.skill))}` : 'Última actividad antes de Verbos'}</small>
     </div>
-    <button type="button" class="secondary-btn unit-mission-route-btn">Ver ruta</button>
     <button type="button" class="secondary-btn unit-mission-reveal-btn" aria-expanded="true" hidden>Ver misión</button>
     <div class="unit-route-markers" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
       ${markersHtml}
@@ -7023,9 +7053,6 @@ function renderSkillUnitSequence(section, lesson) {
   content.before(routeContext);
   content.before(nav);
   wireUnitSequence(nav);
-  nav.querySelector('.unit-mission-route-btn')?.addEventListener('click', () => {
-    returnToCurrentLearningRoute();
-  });
   wireMobileMissionStripAutoHide(nav);
 }
 
@@ -17337,6 +17364,9 @@ function collectGrammarPracticalExamples(lesson, minimum = 6) {
         .replace(/^\s*(?:\d+[.)]|[-•])\s*/, '')
         .trim()
     )
+    // A prompt fragment is an exercise cue, not a practical language model.
+    // Show only complete examples learners can reuse immediately.
+    .filter((item) => !/[…]|\.\.\.$/.test(item))
     .filter((item) => item && !seen.has(item.toLocaleLowerCase()))
     .filter((item) => {
       seen.add(item.toLocaleLowerCase());
@@ -17367,14 +17397,14 @@ function renderGrammarLessonBlockHtml(lesson, { test = null } = {}) {
   ].filter(Boolean);
 
   const labels = {
-    english: { overview: 'GRAMMAR OVERVIEW', definition: 'Definition', use: 'Use', examples: 'Practical examples', exercises: 'Dynamic exercises', challenge: 'interactive exercises' },
-    spanish: { overview: 'VISTA GENERAL DE GRAMÁTICA', definition: 'Definición', use: 'Uso', examples: 'Ejemplos prácticos', exercises: 'Ejercicios dinámicos', challenge: 'ejercicios interactivos' },
-    french: { overview: 'APERÇU GRAMMATICAL', definition: 'Définition', use: 'Emploi', examples: 'Exemples pratiques', exercises: 'Exercices dynamiques', challenge: 'exercices interactifs' },
-    italian: { overview: 'PANORAMICA GRAMMATICALE', definition: 'Definizione', use: 'Uso', examples: 'Esempi pratici', exercises: 'Esercizi dinamici', challenge: 'esercizi interattivi' },
-    portuguese: { overview: 'VISÃO GERAL DA GRAMÁTICA', definition: 'Definição', use: 'Uso', examples: 'Exemplos práticos', exercises: 'Exercícios dinâmicos', challenge: 'exercícios interativos' },
-    german: { overview: 'GRAMMATIKÜBERBLICK', definition: 'Definition', use: 'Gebrauch', examples: 'Praktische Beispiele', exercises: 'Dynamische Übungen', challenge: 'interaktive Übungen' }
+    english: { overview: 'GRAMMAR OVERVIEW', definition: 'Definition', use: 'Practical explanation', examples: 'Practical examples', exercises: 'Put it into practice', challenge: 'interactive exercises' },
+    spanish: { overview: 'VISTA GENERAL DE GRAMÁTICA', definition: 'Definición', use: 'Explicación práctica', examples: 'Ejemplos prácticos', exercises: 'Llévalo a la práctica', challenge: 'ejercicios interactivos' },
+    french: { overview: 'APERÇU GRAMMATICAL', definition: 'Définition', use: 'Explication pratique', examples: 'Exemples pratiques', exercises: 'Mettez-le en pratique', challenge: 'exercices interactifs' },
+    italian: { overview: 'PANORAMICA GRAMMATICALE', definition: 'Definizione', use: 'Spiegazione pratica', examples: 'Esempi pratici', exercises: 'Metti in pratica', challenge: 'esercizi interattivi' },
+    portuguese: { overview: 'VISÃO GERAL DA GRAMÁTICA', definition: 'Definição', use: 'Explicação prática', examples: 'Exemplos práticos', exercises: 'Coloque em prática', challenge: 'exercícios interativos' },
+    german: { overview: 'GRAMMATIKÜBERBLICK', definition: 'Definition', use: 'Praktische Erklärung', examples: 'Praktische Beispiele', exercises: 'Jetzt üben', challenge: 'interaktive Übungen' }
   }[learningPathState.language] || null;
-  const copy = labels || { overview: 'GRAMMAR OVERVIEW', definition: 'Definition', use: 'Use', examples: 'Practical examples', exercises: 'Dynamic exercises', challenge: 'interactive exercises' };
+  const copy = labels || { overview: 'GRAMMAR OVERVIEW', definition: 'Definition', use: 'Practical explanation', examples: 'Practical examples', exercises: 'Put it into practice', challenge: 'interactive exercises' };
   const dynamicCount = test?.questions?.length || (lesson.exercises || []).filter((item) => item.type === 'mcq').length;
 
   return `
@@ -17383,14 +17413,12 @@ function renderGrammarLessonBlockHtml(lesson, { test = null } = {}) {
         <small>${escapeHtml(copy.overview)}</small>
         <h4>${escapeHtml(lesson.title)}</h4>
       </header>
-      <div class="grammar-overview-core">
-        <article><h5>${escapeHtml(copy.definition)}</h5><p>${escapeHtml(brief).replace(/\n/g, '<br>')}</p></article>
-        <article><h5>${escapeHtml(copy.use)}</h5><p>${escapeHtml(use).replace(/\n/g, '<br>')}</p>${structure && structure !== use ? `<p class="grammar-overview-pattern">${escapeHtml(structure).replace(/\n/g, '<br>')}</p>` : ''}</article>
-      </div>
+      <article class="grammar-overview-definition"><h5>${escapeHtml(copy.definition)}</h5><p>${escapeHtml(brief).replace(/\n/g, '<br>')}</p></article>
       <section class="grammar-overview-examples">
         <h5>${escapeHtml(copy.examples)}</h5>
         <ol>${examples.map((example, index) => `<li><span aria-hidden="true">${index + 1}</span><p>${escapeHtml(example)}</p></li>`).join('')}</ol>
       </section>
+      <article class="grammar-overview-explanation"><h5>${escapeHtml(copy.use)}</h5><p>${escapeHtml(use).replace(/\n/g, '<br>')}</p>${structure && structure !== use ? `<p class="grammar-overview-pattern">${escapeHtml(structure).replace(/\n/g, '<br>')}</p>` : ''}</article>
       <section class="grammar-overview-exercises">
         <div><h5>${escapeHtml(copy.exercises)}</h5><p>${dynamicCount} ${escapeHtml(copy.challenge)}</p></div>
         ${test ? `<span>🎯 ${test.passingScore || 70}/100</span>` : ''}
@@ -18715,9 +18743,10 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     .toLocaleUpperCase();
   const isUsefulExpression =
     item.category === 'expression' || /\s/.test(String(item.targetWord || '').trim());
+  const catalogueKind = isUsefulExpression ? 'expressions' : 'words';
 
   return `
-    <div class="vocab-card vocab-card--static${isUsefulExpression ? ' vocab-card--expression' : ''}" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-vocab-level="${escapeHtml(item.level || learningPathState.level || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
+    <div class="vocab-card vocab-card--static${isUsefulExpression ? ' vocab-card--expression' : ''}" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''} ${item.category || ''}`.toLocaleLowerCase())}" data-vocab-category="${catalogueKind}" data-vocab-level="${escapeHtml(item.level || learningPathState.level || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
           <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
@@ -18778,7 +18807,8 @@ let vocabL1TranslationVisible = true;
 let vocabTranslationLessonSlug = '';
 const vocabularyCatalogueFilters = {
   search: '',
-  mastery: 'all'
+  mastery: 'all',
+  category: 'all'
 };
 const vocabL1TranslationCache = new Map();
 const vocabL1TranslationRequests = new Set();
@@ -18910,7 +18940,25 @@ function createVocabularyPractice(lesson, cards) {
       }))
     };
   });
-  return { questions, answers: {}, submitted: false, score: null, results: [] };
+  return { questions, answers: {}, currentIndex: 0, submitted: false, score: null, results: [] };
+}
+
+function renderVocabularyChallengeMapHtml(runtime, lesson) {
+  const french = isFrenchExerciseFeedbackInTargetLanguage(lesson.level);
+  const answered = runtime.questions.filter((question) => runtime.answers[question.id]).length;
+  return `
+    <nav class="grammar-challenge-map vocab-challenge-map" aria-label="${french ? 'Progression des défis de vocabulaire' : 'Progreso de retos de vocabulario'}">
+      <span>🎮 ${french ? 'Défis' : 'Retos'} ${answered}/${runtime.questions.length}</span>
+      <div>
+        ${runtime.questions
+          .map((question, index) => {
+            const done = Boolean(runtime.answers[question.id]);
+            const active = index === runtime.currentIndex;
+            return `<button type="button" class="grammar-challenge-map-item vocab-challenge-map-item${done ? ' is-answered' : ''}${active ? ' is-active' : ''}" data-vocab-challenge-index="${index}" aria-label="${french ? 'Aller au défi' : 'Ir al reto'} ${index + 1}${done ? (french ? ', répondu' : ', respondido') : ''}" aria-current="${active ? 'step' : 'false'}">${done ? '✓' : index + 1}</button>`;
+          })
+          .join('')}
+      </div>
+    </nav>`;
 }
 
 function renderVocabularyPracticePanelHtml(lesson) {
@@ -18956,36 +19004,49 @@ function renderVocabularyPracticePanelHtml(lesson) {
       </div>`;
   }
   const answered = Object.keys(runtime.answers).length;
+  const total = runtime.questions.length;
+  const currentIndex = Math.min(Math.max(runtime.currentIndex || 0, 0), total - 1);
+  const question = runtime.questions[currentIndex];
+  const selectedOption = runtime.answers[question.id];
   return `
     <div class="grammar-test-card vocab-practice-card">
+      <header class="grammar-practice-header">
+        <div>
+          <p class="grammar-test-eyebrow">${feedback('Paso 3 · Desafío', 'Step 3 · Challenge', 'Étape 3 · Défi')}</p>
+          <h3>${escapeHtml(lesson.title)}</h3>
+          <p>${feedback('Un reto de vocabulario a la vez. Puedes volver a cualquier reto sin perder tus respuestas.', 'One vocabulary challenge at a time. You can return to any challenge without losing your answers.', 'Un défi de vocabulaire à la fois. Vous pouvez revenir à chaque défi sans perdre vos réponses.')}</p>
+        </div>
+        <span class="grammar-practice-count">${total}<small>${feedback('retos', 'challenges', 'défis')}</small></span>
+      </header>
       <div class="grammar-test-progress-row">
-        <span class="grammar-test-counter">${answered} ${feedback('de', 'of', 'sur')} ${runtime.questions.length} ${feedback('respuestas', 'answers', 'réponses')}</span>
-        <div class="grammar-test-progress-bar"><div style="width:${Math.round((answered / runtime.questions.length) * 100)}%"></div></div>
+        <span class="grammar-test-counter">${answered} ${feedback('de', 'of', 'sur')} ${total} ${feedback('respuestas', 'answers', 'réponses')}</span>
+        <div class="grammar-test-progress-bar"><div class="progress-fill-animated" style="width:${Math.round((answered / total) * 100)}%"></div></div>
       </div>
+      ${renderVocabularyChallengeMapHtml(runtime, lesson)}
       <div class="grammar-test-question-list">
-        ${runtime.questions
-          .map(
-            (question, index) => `
-              <article class="grammar-test-question-item vocab-practice-question" data-question-id="${escapeHtml(question.id)}">
-                <p class="grammar-test-question-prompt">${index + 1}. ${escapeHtml(question.prompt)}</p>
-                <div class="grammar-test-options">
-                  ${question.options
-                    .map((option, optionIndex) => {
-                      const selected = runtime.answers[question.id] === option.id;
-                      return `<button type="button" class="grammar-test-option vocab-practice-option${selected ? ' is-selected' : ''}" data-option-id="${escapeHtml(option.id)}" aria-pressed="${selected}">
-                        <span class="grammar-test-option-letter" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span>
-                        <span>${escapeHtml(option.text)}</span>
-                      </button>`;
-                    })
-                    .join('')}
-                </div>
-              </article>`
-          )
-          .join('')}
+        <article class="grammar-test-question-item vocab-practice-question${selectedOption ? ' is-answered' : ''}" data-question-id="${escapeHtml(question.id)}">
+          <span class="grammar-test-question-kicker">${feedback('Reto', 'Challenge', 'Défi')} ${currentIndex + 1} ${feedback('de', 'of', 'sur')} ${total}</span>
+          <p class="grammar-test-question-prompt"><span>${currentIndex + 1}.</span> ${escapeHtml(question.prompt)}</p>
+          <div class="grammar-test-options">
+            ${question.options
+              .map((option, optionIndex) => {
+                const selected = selectedOption === option.id;
+                return `<button type="button" class="grammar-test-option vocab-practice-option${selected ? ' is-selected' : ''}" data-option-id="${escapeHtml(option.id)}" aria-pressed="${selected}">
+                  <span class="grammar-test-option-letter" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span>
+                  <span>${escapeHtml(option.text)}</span>
+                </button>`;
+              })
+              .join('')}
+          </div>
+        </article>
       </div>
-      <div class="grammar-test-submit-bar">
-        <span>${feedback('Puntuación final', 'Final score', 'Score final')} : 0–100</span>
-        <button type="button" class="primary-btn vocab-practice-submit-btn" ${answered === runtime.questions.length ? '' : 'disabled'}>${feedback('Evaluar la práctica', 'Evaluate practice', 'Évaluer la pratique')}</button>
+      <div class="grammar-test-nav-row grammar-test-nav-row--mission">
+        <button type="button" class="secondary-btn vocab-practice-prev-btn" ${currentIndex === 0 ? 'disabled' : ''}>← ${feedback('Anterior', 'Previous', 'Précédent')}</button>
+        ${
+          currentIndex === total - 1
+            ? `<button type="button" class="primary-btn hover-lift btn-press vocab-practice-submit-btn" ${answered === total ? '' : 'disabled'}>${feedback('Evaluar la práctica', 'Evaluate practice', 'Évaluer la pratique')} →</button>`
+            : `<button type="button" class="primary-btn hover-lift btn-press vocab-practice-next-btn">${feedback('Siguiente reto', 'Next challenge', 'Défi suivant')} →</button>`
+        }
       </div>
     </div>`;
 }
@@ -19744,11 +19805,16 @@ function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
 function buildVocabularyExpressionCards(lesson, cards) {
   const targetLanguage = learningPathState.language;
   const level = lesson.level || learningPathState.level || '';
+  const authoredTerms = new Set(
+    cards.map((card) => normalizeVocabularyCatalogueKey(card.targetWord)).filter(Boolean)
+  );
   return getUsefulVocabularyExpressions(lesson, cards)
     .map((expression, index) => {
       const targetWord = String(expression.text || '').trim();
       const translation = String(expression.translation || expression.explanation || '').trim();
-      if (!targetWord || !translation) return null;
+      const termKey = normalizeVocabularyCatalogueKey(targetWord);
+      if (!targetWord || !translation || authoredTerms.has(termKey)) return null;
+      authoredTerms.add(termKey);
       return {
         id: `${lesson.slug}-expression-${index}-${slugifyVocabWord(targetWord)}`,
         targetWord,
@@ -19781,24 +19847,71 @@ function buildVocabularyExpressionCards(lesson, cards) {
     .filter(Boolean);
 }
 
+function normalizeVocabularyCatalogueKey(value) {
+  return String(value || '')
+    .normalize('NFKC')
+    .trim()
+    .replace(/\s+/g, ' ')
+    .toLocaleLowerCase();
+}
+
+function getVocabularyCardKind(card) {
+  const target = String(card?.targetWord || '').trim();
+  const category = String(card?.category || '').trim().toLocaleLowerCase();
+  return card?.isExpressionCard || category === 'expression' || /\s/.test(target)
+    ? 'expressions'
+    : 'words';
+}
+
 function renderVocabularyCardDeck(cards, order, expressionCards, { canSpeak, isFrench }) {
-  const words = order
+  const orderedCards = order
     .map((cardIndex) => cards[cardIndex])
     .filter(Boolean)
     .map((card) => ({ ...card, _displayIndex: cards.indexOf(card) }));
-  const expressions = expressionCards.map((card, index) => ({
+  const words = orderedCards.filter((card) => getVocabularyCardKind(card) === 'words');
+  const expressions = [
+    ...orderedCards.filter((card) => getVocabularyCardKind(card) === 'expressions'),
+    ...expressionCards.map((card, index) => ({
     ...card,
     _displayIndex: cards.length + index
-  }));
-  return [...words, ...expressions]
-    .map((card) =>
-      renderVocabCardHtml(card, {
-        canSpeak,
-        isFrench,
-        showL1Translation: true
-      })
+    }))
+  ];
+  const renderGroup = (kind, title, description, groupCards) => {
+    if (!groupCards.length) return '';
+    return `
+      <section class="vocab-card-group" data-vocab-group="${kind}" aria-labelledby="vocab-group-${kind}">
+        <div class="vocab-card-group-heading">
+          <div><span>${kind === 'words' ? '01' : '02'}</span><h4 id="vocab-group-${kind}">${escapeHtml(title)}</h4></div>
+          <p>${escapeHtml(description)}</p>
+          <strong class="vocab-card-group-count">${groupCards.length}</strong>
+        </div>
+        <div class="vocab-card-group-grid">
+          ${groupCards
+            .map((card) =>
+              renderVocabCardHtml(card, {
+                canSpeak,
+                isFrench,
+                showL1Translation: true
+              })
+            )
+            .join('')}
+        </div>
+      </section>`;
+  };
+  return [
+    renderGroup(
+      'words',
+      isFrench ? 'Mots clés' : 'Palabras clave',
+      isFrench ? 'Apprenez d’abord le vocabulaire central.' : 'Aprende primero el vocabulario central.',
+      words
+    ),
+    renderGroup(
+      'expressions',
+      isFrench ? 'Phrases et expressions' : 'Frases y expresiones',
+      isFrench ? 'Utilisez ensuite les mots dans des blocs naturels.' : 'Úsalas después como bloques naturales de comunicación.',
+      expressions
     )
-    .join('');
+  ].join('');
 }
 
 function isVocabularyTermExercise(exercise, cards) {
@@ -19935,18 +20048,32 @@ function renderVocabularyView(section, lesson) {
       </div>
       <div class="vocab-catalogue-filter-row no-print">
         <span class="vocab-catalogue-active-level">${catalogueContextLabel}: <strong>${escapeHtml(lesson.level)}</strong>${isRouteVocabulary ? '' : ' · Puedes cambiar idioma y nivel libremente.'}</span>
-        <div class="vocab-catalogue-mastery" aria-label="Estado de aprendizaje">
-          ${[
-            ['all', 'Todas'],
-            ['new', 'Nuevas'],
-            ['practicing', 'Practicando'],
-            ['mastered', 'Dominadas']
-          ]
-            .map(
-              ([value, label]) =>
-                `<button type="button" data-vocab-mastery="${value}" class="${vocabularyCatalogueFilters.mastery === value ? 'is-active' : ''}" aria-pressed="${vocabularyCatalogueFilters.mastery === value}">${label}</button>`
-            )
-            .join('')}
+        <div class="vocab-catalogue-filter-groups">
+          <div class="vocab-catalogue-category-filter" role="group" aria-label="Tipo de tarjeta">
+            ${[
+              ['all', isFrench ? 'Tout' : 'Todo'],
+              ['words', isFrench ? 'Mots' : 'Palabras'],
+              ['expressions', isFrench ? 'Expressions' : 'Expresiones']
+            ]
+              .map(
+                ([value, label]) =>
+                  `<button type="button" data-vocab-category="${value}" class="${vocabularyCatalogueFilters.category === value ? 'is-active' : ''}" aria-pressed="${vocabularyCatalogueFilters.category === value}">${label}</button>`
+              )
+              .join('')}
+          </div>
+          <div class="vocab-catalogue-mastery" role="group" aria-label="Estado de aprendizaje">
+            ${[
+              ['all', isFrench ? 'Toutes' : 'Todas'],
+              ['new', isFrench ? 'Nouvelles' : 'Nuevas'],
+              ['practicing', isFrench ? 'À pratiquer' : 'Practicando'],
+              ['mastered', isFrench ? 'Maîtrisées' : 'Dominadas']
+            ]
+              .map(
+                ([value, label]) =>
+                  `<button type="button" data-vocab-mastery="${value}" class="${vocabularyCatalogueFilters.mastery === value ? 'is-active' : ''}" aria-pressed="${vocabularyCatalogueFilters.mastery === value}">${label}</button>`
+              )
+              .join('')}
+          </div>
         </div>
       </div>
       <div class="vocab-catalogue-progress"><span><strong>${escapeHtml(lesson.level)}</strong> · ${masteryPercent}% dominado</span><div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${masteryPercent}"><i style="width:${masteryPercent}%"></i></div><small class="vocab-catalogue-visible-count">${catalogueCardCount} tarjetas</small></div>
@@ -20039,14 +20166,24 @@ function applyVocabularyCatalogueFilters(section) {
   let visible = 0;
   section.querySelectorAll('.vocab-catalogue-deck .vocab-card').forEach((card) => {
     const mastery = card.dataset.mastery || 'new';
+    const category = card.dataset.vocabCategory || 'words';
     const matchesMastery =
       vocabularyCatalogueFilters.mastery === 'all' ||
       mastery === vocabularyCatalogueFilters.mastery ||
       (vocabularyCatalogueFilters.mastery === 'practicing' && mastery === 'learning');
+    const matchesCategory =
+      vocabularyCatalogueFilters.category === 'all' ||
+      category === vocabularyCatalogueFilters.category;
     const matchesSearch = !search || (card.dataset.vocabWord || '').includes(search);
-    const matches = matchesMastery && matchesSearch;
+    const matches = matchesMastery && matchesCategory && matchesSearch;
     card.hidden = !matches;
     if (matches) visible += 1;
+  });
+  section.querySelectorAll('.vocab-card-group').forEach((group) => {
+    const visibleCards = [...group.querySelectorAll('.vocab-card')].filter((card) => !card.hidden);
+    group.hidden = visibleCards.length === 0;
+    const groupCounter = group.querySelector('.vocab-card-group-count');
+    if (groupCounter) groupCounter.textContent = String(visibleCards.length);
   });
   const counter = section.querySelector('.vocab-catalogue-visible-count');
   if (counter) counter.textContent = `${visible} ${visible === 1 ? 'tarjeta' : 'tarjetas'}`;
@@ -20055,9 +20192,21 @@ function applyVocabularyCatalogueFilters(section) {
     button.classList.toggle('is-active', active);
     button.setAttribute('aria-pressed', String(active));
   });
+  section.querySelectorAll('[data-vocab-category]').forEach((button) => {
+    const active = button.dataset.vocabCategory === vocabularyCatalogueFilters.category;
+    button.classList.toggle('is-active', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
 }
 
 document.addEventListener('click', (event) => {
+  const categoryButton = event.target.closest('[data-vocab-category]');
+  if (categoryButton) {
+    vocabularyCatalogueFilters.category = categoryButton.dataset.vocabCategory || 'all';
+    applyVocabularyCatalogueFilters(categoryButton.closest('.skill-view-section'));
+    return;
+  }
+
   const masteryButton = event.target.closest('[data-vocab-mastery]');
   if (masteryButton) {
     vocabularyCatalogueFilters.mastery = masteryButton.dataset.vocabMastery || 'all';
@@ -20119,30 +20268,37 @@ document.addEventListener('click', (event) => {
     const questionId = optionButton.closest('.vocab-practice-question')?.dataset.questionId;
     if (!context || !runtime || !questionId) return;
     runtime.answers[questionId] = optionButton.dataset.optionId;
-    optionButton
-      .closest('.grammar-test-options')
-      ?.querySelectorAll('.vocab-practice-option')
-      .forEach((button) => {
-        const selected = button === optionButton;
-        button.classList.toggle('is-selected', selected);
-        button.setAttribute('aria-pressed', String(selected));
-      });
-    const answered = Object.keys(runtime.answers).length;
-    const panel = context.section.querySelector('.vocab-practice-panel');
-    const counter = panel?.querySelector('.grammar-test-counter');
-    const progress = panel?.querySelector('.grammar-test-progress-bar div');
-    const submit = panel?.querySelector('.vocab-practice-submit-btn');
-    if (counter) {
-      counter.textContent = exerciseFeedbackText(
-        `${answered} de ${runtime.questions.length} respuestas`,
-        `${answered} of ${runtime.questions.length} answers`,
-        `${answered} sur ${runtime.questions.length} réponses`,
-        context.lesson.level
-      );
-    }
-    if (progress)
-      progress.style.width = `${Math.round((answered / runtime.questions.length) * 100)}%`;
-    if (submit) submit.disabled = answered !== runtime.questions.length;
+    renderVocabularyView(context.section, context.lesson);
+    return;
+  }
+
+  const challengeMapItem = event.target.closest('.vocab-challenge-map-item');
+  if (challengeMapItem) {
+    const context = getActiveVocabularyPracticeContext(challengeMapItem);
+    const runtime = context && vocabPracticeState.get(context.lesson.slug);
+    if (!context || !runtime) return;
+    runtime.currentIndex = Number(challengeMapItem.dataset.vocabChallengeIndex) || 0;
+    renderVocabularyView(context.section, context.lesson);
+    return;
+  }
+
+  const previousChallenge = event.target.closest('.vocab-practice-prev-btn');
+  if (previousChallenge) {
+    const context = getActiveVocabularyPracticeContext(previousChallenge);
+    const runtime = context && vocabPracticeState.get(context.lesson.slug);
+    if (!context || !runtime) return;
+    runtime.currentIndex = Math.max(0, (runtime.currentIndex || 0) - 1);
+    renderVocabularyView(context.section, context.lesson);
+    return;
+  }
+
+  const nextChallenge = event.target.closest('.vocab-practice-next-btn');
+  if (nextChallenge) {
+    const context = getActiveVocabularyPracticeContext(nextChallenge);
+    const runtime = context && vocabPracticeState.get(context.lesson.slug);
+    if (!context || !runtime) return;
+    runtime.currentIndex = Math.min(runtime.questions.length - 1, (runtime.currentIndex || 0) + 1);
+    renderVocabularyView(context.section, context.lesson);
     return;
   }
 

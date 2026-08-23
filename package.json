@@ -15,6 +15,7 @@
     "test": "node --test server.test.js lib/welcomeEmailService.test.js",
     "db:setup": "node scripts/setup-database.js",
     "audit:curriculum": "node scripts/verify-curriculum-coverage.js",
+    "audit:vocabulary": "node scripts/audit-vocabulary-cards.js",
     "verify:european-routes": "node scripts/verify-european-non-listening-routes.js",
     "verify:all": "node scripts/verify-all.js",
     "validate:listening": "node scripts/validate-official-listening.js",
