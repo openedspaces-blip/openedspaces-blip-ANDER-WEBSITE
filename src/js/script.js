@@ -6414,6 +6414,101 @@ function renderReadingLibrary() {
   });
 }
 
+const LISTENING_LIBRARY_COPY = Object.freeze({
+  english: { eyebrow: 'LISTENING LIBRARY', choose: 'Choose your listening', language: 'Language', level: 'Level', title: 'English Listenings', intro: (count) => `Explore all ${count} listening activities at this level. Premium activities stay visible and are clearly locked.`, available: (count) => `${count} listenings available`, unit: 'Unit', open: 'Open listening →', locked: 'Premium · locked', free: (level) => `Free includes units 1–3 of ${level}.` },
+  spanish: { eyebrow: 'BIBLIOTECA DE AUDIOS', choose: 'Elige tu listening', language: 'Idioma', level: 'Nivel', title: 'Audios en español', intro: (count) => `Explora los ${count} listenings de este nivel. Las actividades Premium se muestran bloqueadas.`, available: (count) => `${count} listenings disponibles`, unit: 'Unidad', open: 'Abrir listening →', locked: 'Premium · bloqueado', free: (level) => `Free incluye las unidades 1–3 de ${level}.` },
+  french: { eyebrow: 'BIBLIOTHÈQUE D’ÉCOUTE', choose: 'Choisissez votre écoute', language: 'Langue', level: 'Niveau', title: 'Écoutes en français', intro: (count) => `Explorez les ${count} activités d’écoute de ce niveau. Les activités Premium restent visibles et verrouillées.`, available: (count) => `${count} écoutes disponibles`, unit: 'Unité', open: 'Ouvrir l’écoute →', locked: 'Premium · verrouillé', free: (level) => `Free inclut les unités 1–3 de ${level}.` },
+  italian: { eyebrow: 'BIBLIOTECA DI ASCOLTO', choose: 'Scegli il tuo ascolto', language: 'Lingua', level: 'Livello', title: 'Ascolti in italiano', intro: (count) => `Esplora le ${count} attività di ascolto di questo livello. Le attività Premium restano visibili e bloccate.`, available: (count) => `${count} ascolti disponibili`, unit: 'Unità', open: 'Apri ascolto →', locked: 'Premium · bloccato', free: (level) => `Free include le unità 1–3 di ${level}.` },
+  portuguese: { eyebrow: 'BIBLIOTECA DE ÁUDIOS', choose: 'Escolha seu listening', language: 'Idioma', level: 'Nível', title: 'Áudios em português', intro: (count) => `Explore as ${count} atividades de áudio deste nível. As atividades Premium ficam visíveis e bloqueadas.`, available: (count) => `${count} áudios disponíveis`, unit: 'Unidade', open: 'Abrir áudio →', locked: 'Premium · bloqueado', free: (level) => `Free inclui as unidades 1–3 de ${level}.` },
+  german: { eyebrow: 'HÖRBIBLIOTHEK', choose: 'Wähle deinen Hörtext', language: 'Sprache', level: 'Niveau', title: 'Hörtexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Höraktivitäten dieses Niveaus. Premium-Aktivitäten bleiben sichtbar und gesperrt.`, available: (count) => `${count} Hörtexte verfügbar`, unit: 'Einheit', open: 'Hörtext öffnen →', locked: 'Premium · gesperrt', free: (level) => `Free enthält die Einheiten 1–3 von ${level}.` }
+});
+
+function renderListeningLibrary() {
+  const host = document.getElementById('listeningLibraryContent');
+  if (!host) return;
+  const language = learningPathState.language;
+  const level = learningPathState.level;
+  const copy = LISTENING_LIBRARY_COPY[language] || LISTENING_LIBRARY_COPY.english;
+  if (!learningPathState.lessons.length) {
+    host.innerHTML = '<p class="skill-graph-empty">Preparando biblioteca de listenings…</p>';
+    loadLearningPath({ language, level })
+      .then(() => {
+        if (getViewFromHash() === 'listenings') renderListeningLibrary();
+      })
+      .catch((error) => {
+        if (getViewFromHash() === 'listenings') {
+          host.innerHTML = `<p class="skill-graph-empty">${escapeHtml(error.message || 'No se pudieron cargar los listenings.')}</p>`;
+        }
+      });
+    return;
+  }
+
+  const activities = getSkillActivities('listening');
+  const languageOptions = READING_LIBRARY_LANGUAGES.map(
+    (key) => `<option value="${escapeHtml(key)}" ${key === language ? 'selected' : ''}>${escapeHtml(languageDisplayNames[key])}</option>`
+  ).join('');
+  const levelOptions = getAvailableCourseLevels(language, { includePreA1: false })
+    .map((item) => `<option value="${escapeHtml(item)}" ${item === level ? 'selected' : ''}>${escapeHtml(item)}</option>`)
+    .join('');
+  const units = new Map(learningPathState.units.map((unit) => [unit.id, unit]));
+
+  host.innerHTML = `
+    <div class="tests-shell listening-library-layout">
+      <aside class="tests-sidebar listening-library-sidebar" aria-label="Seleccionar listenings">
+        <span class="tests-eyebrow">${escapeHtml(copy.eyebrow)}</span>
+        <h3>${escapeHtml(copy.choose)}</h3>
+        <label>${escapeHtml(copy.language)}<select id="listeningLibraryLanguage">${languageOptions}</select></label>
+        <label>${escapeHtml(copy.level)}<select id="listeningLibraryLevel">${levelOptions}</select></label>
+        <div class="tests-spec">
+          <strong>${escapeHtml(languageDisplayNames[language])} · ${escapeHtml(level)}</strong>
+          <span>${escapeHtml(copy.available(activities.length))}</span>
+          <span>${escapeHtml(copy.free(level))}</span>
+        </div>
+      </aside>
+      <article class="tests-stage listening-library-stage">
+        <header class="listening-library-header">
+          <span class="listening-library-kicker">${escapeHtml(copy.eyebrow)} · ${escapeHtml(level)}</span>
+          <h2 tabindex="-1">${escapeHtml(copy.title)}</h2>
+          <p>${escapeHtml(copy.intro(activities.length))}</p>
+        </header>
+        <div class="listening-library-cards">
+          ${activities.map((lesson, index) => {
+            const unit = units.get(lesson.unitId) || {};
+            const locked = Boolean(lesson.locked && !isPremiumUser());
+            return `<button type="button" class="listening-library-card${locked ? ' is-locked' : ''}" data-listening-library-lesson="${escapeHtml(lesson.slug)}" ${locked ? `aria-label="${escapeHtml(copy.locked)}: ${escapeHtml(lesson.title)}"` : ''}>
+              <span class="listening-library-card-index">${escapeHtml(String(unit.order || index + 1))}</span>
+              <small>${escapeHtml(copy.unit)} ${escapeHtml(String(unit.order || index + 1))} · ${escapeHtml(unit.title || lesson.title)}</small>
+              <strong>${escapeHtml(lesson.title)}</strong>
+              <p>${escapeHtml(lesson.description || '')}</p>
+              <em>${locked ? `🔒 ${escapeHtml(copy.locked)}` : `🎧 ${escapeHtml(copy.open)}`}</em>
+            </button>`;
+          }).join('') || '<p class="skill-graph-empty">No hay listenings disponibles para esta combinación todavía.</p>'}
+        </div>
+      </article>
+    </div>`;
+
+  const rerender = async () => {
+    const nextLanguage = host.querySelector('#listeningLibraryLanguage')?.value || language;
+    const nextLevel = host.querySelector('#listeningLibraryLevel')?.value || level;
+    host.innerHTML = '<p class="skill-graph-empty">Actualizando listenings…</p>';
+    await loadLearningPath({ language: nextLanguage, level: nextLevel });
+    renderListeningLibrary();
+  };
+  host.querySelector('#listeningLibraryLanguage')?.addEventListener('change', rerender);
+  host.querySelector('#listeningLibraryLevel')?.addEventListener('change', rerender);
+  host.querySelectorAll('[data-listening-library-lesson]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const lesson = learningPathState.lessons.find((item) => item.slug === button.dataset.listeningLibraryLesson);
+      if (!lesson) return;
+      if (lesson.locked && !isPremiumUser()) {
+        openPaywallModal({ title: 'Este listening es Premium.', message: 'Activa Premium para practicar todos los audios del nivel.' });
+        return;
+      }
+      openUnitSequenceStep('listening', lesson.slug, { entryContext: 'explore' });
+    });
+  });
+}
+
 // Each activity used to expose every optional Tutor, translator and download
 // action in one long row. Keep the action that advances learning visible and
 // place the remaining helpers in a native disclosure without removing any
@@ -26937,6 +27032,7 @@ const VIEW_SECTIONS = {
   infographics: ['#infographics'],
   games: ['#games'],
   readings: ['#readings'],
+  listenings: ['#listenings'],
   downloads: ['#downloads'],
   about: ['#about'],
   verbs: ['#verbs'],
@@ -26968,6 +27064,7 @@ const VIEW_TITLE_SELECTORS = {
   infographics: '#infographics h2',
   games: '#games h2',
   readings: '#readings h2',
+  listenings: '#listenings h2',
   downloads: '#downloads h2',
   about: '#about h2',
   verbs: '#verbs h2',
@@ -27184,6 +27281,7 @@ function showView(viewId) {
   if (resolved === 'infographics') initInfographicApp();
   if (resolved === 'games') loadGamesView();
   if (resolved === 'readings') renderReadingLibrary();
+  if (resolved === 'listenings') renderListeningLibrary();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
   if (resolved === 'teacher-curriculum') loadTeacherCurriculumPanel();

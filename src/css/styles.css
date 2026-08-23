@@ -34508,6 +34508,13 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   font-size: 0.82rem;
   line-height: 1.4;
 }
+
+/* Route language metadata is configured before entering a skill; repeating
+   it inside every workspace takes space away from the activity itself. */
+.skill-view-header > .skill-view-pills,
+.skill-view-header > .skill-view-sentence {
+  display: none;
+}
 .tests-section-label {
   margin: 0.4rem 0 -0.35rem;
   color: #245fc8;
@@ -35230,4 +35237,103 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   .grammar-overview-core,
   .grammar-overview-examples ol { grid-template-columns: 1fr; }
   .grammar-overview-examples li { font-size: 0.68rem; }
+}
+
+/* Listening Library mirrors the language/level access model of Tests and
+   Readings. Locked Premium activities remain visible as a clear catalogue,
+   never as an inaccessible hidden route. */
+.listening-library-section {
+  background:
+    radial-gradient(circle at 86% 14%, rgba(6, 182, 212, 0.12), transparent 27%),
+    linear-gradient(135deg, #f5f9ff 0%, #fff 52%, #eefaff 100%);
+}
+
+.listening-library-shell {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2.2rem 0 4rem;
+}
+
+.listening-library-layout { align-items: start; }
+.listening-library-stage { min-height: 0; }
+
+.listening-library-stage {
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='620' height='350' viewBox='0 0 620 350'%3E%3Cg fill='none' stroke='%230c83c5' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.16'%3E%3Cpath d='M224 178v-20a86 86 0 0 1 172 0v20M224 178h31v70h-31zM396 178h31v70h-31zM396 248c0 24-20 38-43 38h-18'/%3E%3Cpath d='M75 236c20-24 40-24 60 0s40 24 60 0 40-24 60 0M365 236c20-24 40-24 60 0s40 24 60 0 40-24 60 0M68 94h484M105 112v-36M142 112V54M179 112V69M216 112V45M404 112V63M441 112V51M478 112V76M515 112V42'/%3E%3C/g%3E%3Ctext x='310' y='320' text-anchor='middle' fill='%230c83c5' fill-opacity='.16' font-family='Arial, sans-serif' font-size='22' font-weight='700' letter-spacing='4'%3EANDERGO LISTENINGS%3C/text%3E%3C/svg%3E");
+  background-repeat: no-repeat, repeat;
+  background-position: center, center 2.2rem;
+  background-size: auto, 620px 350px;
+}
+
+.listening-library-header {
+  max-width: 800px;
+  margin-bottom: 1.1rem;
+}
+
+.listening-library-kicker {
+  color: #1680c5;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+}
+
+.listening-library-header h2 {
+  margin: 0.32rem 0 0.55rem;
+  color: #122044;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+}
+
+.listening-library-header > p {
+  margin: 0;
+  color: #52627b;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.listening-library-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.72rem;
+}
+
+.listening-library-card {
+  display: grid;
+  min-height: 154px;
+  align-content: start;
+  gap: 0.35rem;
+  padding: 0.78rem;
+  border: 1px solid #d4e2fb;
+  border-radius: 14px;
+  background: rgba(252, 254, 255, 0.94);
+  color: #15284a;
+  cursor: pointer;
+  text-align: left;
+  transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.listening-library-card:hover:not(.is-locked) {
+  transform: translateY(-2px);
+  border-color: #5fc3df;
+  box-shadow: 0 8px 18px rgba(14, 116, 144, 0.12);
+}
+
+.listening-library-card-index { color: #1680c5; font-weight: 900; }
+.listening-library-card small { color: #61708a; font-size: 0.7rem; font-weight: 750; line-height: 1.3; }
+.listening-library-card strong { color: #16284b; font-size: 0.96rem; line-height: 1.2; }
+.listening-library-card p { margin: 0; color: #61708a; font-size: 0.78rem; line-height: 1.35; }
+.listening-library-card em { margin-top: auto; color: #1276bd; font-size: 0.76rem; font-style: normal; font-weight: 850; }
+.listening-library-card.is-locked { border-color: #dde4ed; background: #f6f8fb; color: #667389; }
+.listening-library-card.is-locked strong,
+.listening-library-card.is-locked em { color: #667389; }
+
+@media (max-width: 980px) {
+  .listening-library-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 720px) {
+  .listening-library-shell { width: min(100% - 1.2rem, 1180px); padding-top: 1.35rem; }
+  .listening-library-cards { grid-template-columns: 1fr; }
+  .listening-library-card { min-height: 126px; }
 }
