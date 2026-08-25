@@ -166,14 +166,14 @@
   }
   .hero-language-tabs button {
     min-width: 0;
-    min-height: 62px;
+    min-height: 52px;
     justify-content: flex-start;
-    gap: .5rem;
-    padding: .55rem .6rem;
-    border-radius: 15px;
+    gap: .38rem;
+    padding: .42rem .5rem;
+    border-radius: 13px;
     box-shadow: 0 8px 18px rgba(15,23,42,.07);
   }
-  .hero-language-tabs b { width: 34px; height: 34px; flex-basis: 34px; font-size: .6rem; }
+  .hero-language-tabs b { width: 29px; height: 29px; flex-basis: 29px; font-size: .55rem; }
   .hero-language-tabs button > span { display: grid; min-width: 0; }
   .hero-language-tabs button strong { overflow: hidden; font-size: .82rem; line-height: 1.1; text-overflow: ellipsis; white-space: nowrap; }
   .hero-language-tabs button small,
@@ -268,17 +268,17 @@
   }
   .learning-path-layout .lesson-workspace { order: 2; }
   .path-unit {
-    grid-template-columns: 4.4rem minmax(0, 1fr) auto;
-    min-height: 92px;
-    padding: .55rem .6rem;
+    grid-template-columns: 3.55rem minmax(0, 1fr) auto;
+    min-height: 74px;
+    padding: .42rem .48rem;
   }
   .path-unit-artwork {
     grid-row: 1 / 4;
-    width: 4.4rem;
-    height: 4.4rem;
-    border-radius: 14px;
+    width: 3.55rem;
+    height: 3.55rem;
+    border-radius: 11px;
   }
-  .path-unit-progress-track { left: 5.45rem; }
+  .path-unit-progress-track { left: 4.45rem; }
 
   /* Vocabulary and verb cards keep the useful examples on phone screens,
      but use a denser rhythm so more than one item is visible while browsing. */
@@ -729,7 +729,7 @@
    remains information-complete while the repeated framing stays compact. */
 @media (max-width: 640px) {
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card,
-  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped { min-height: 180px; }
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped { min-height: 148px; }
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front,
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-back { gap: .28rem; padding: .48rem .52rem; }
   .skill-view-section[data-skill='grammar'] .grammar-concept-card { min-height: 0; padding: .62rem; }
