@@ -362,6 +362,7 @@ const closeModal = authModal?.querySelector('.close-modal');
 const menuToggle = document.querySelector('.menu-toggle');
 const siteMenu = document.getElementById('siteMenu');
 const userChip = document.querySelector('.user-chip');
+const mobileAccountSummary = document.querySelector('.mobile-account-summary');
 const logoutButton = document.querySelector('.logout-btn');
 const footerYearEl = document.getElementById('footerYear');
 if (footerYearEl) footerYearEl.textContent = String(new Date().getFullYear());
@@ -806,13 +807,18 @@ function renderAuthState() {
   const isSignedIn = Boolean(authStatus.session?.access_token);
   document.body?.classList.toggle('is-signed-in', isSignedIn);
   const name = getDisplayName();
+  const currentRole = authStatus.entitlements?.role;
+  const planName = authStatus.entitlements
+    ? authStatus.entitlements.isPremium
+      ? 'Premium'
+      : 'Free'
+    : 'Cargando plan…';
   if (userChip) {
     userChip.hidden = !isSignedIn;
     const greeting = name || 'Mi cuenta';
     // entitlements.role comes straight from GET /api/dashboard, computed
     // server-side by getUserEntitlements() - this only ever renders what the
     // backend already decided, it never decides authorization itself.
-    const currentRole = authStatus.entitlements?.role;
     const roleBadge =
       isSignedIn && currentRole === 'ceo'
         ? ' · CEO'
@@ -840,6 +846,20 @@ function renderAuthState() {
       userChip.title = `Hola, ${greeting}${roleBadge}${planBadge}`;
     } else {
       userChip.removeAttribute('title');
+    }
+  }
+
+  if (mobileAccountSummary) {
+    mobileAccountSummary.hidden = !isSignedIn;
+    if (isSignedIn) {
+      mobileAccountSummary.querySelector('.mobile-account-summary-name').textContent =
+        name || 'Mi cuenta';
+      mobileAccountSummary.querySelector('.mobile-account-summary-plan').textContent =
+        currentRole === 'ceo'
+          ? 'CEO'
+          : currentRole === 'teacher'
+            ? `Docente · ${planName}`
+            : planName;
     }
   }
 
