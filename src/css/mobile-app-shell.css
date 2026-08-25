@@ -61,8 +61,8 @@
     min-width: 0;
     overflow: hidden;
     color: #14234a;
-    font-size: .7rem;
-    font-weight: 850;
+    font-size: .61rem;
+    font-weight: 800;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
@@ -74,7 +74,7 @@
     border-radius: 999px;
     background: #dfeaff;
     color: #1956c9;
-    font-size: .61rem;
+    font-size: .58rem;
     font-weight: 900;
   }
 
