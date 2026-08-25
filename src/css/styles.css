@@ -36476,3 +36476,53 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     padding: 0.44rem 0.7rem;
   }
 }
+/* Footer is a concise closing area, not a second full-width sitemap. Keep
+   the three useful destinations visible and let the dedicated resource pages
+   carry the extended course-link catalogue. */
+footer {
+  padding-inline: clamp(1rem, 3.5vw, 3rem);
+}
+
+.footer-top,
+footer small {
+  width: min(100%, 980px);
+  max-width: 980px;
+}
+
+.footer-top {
+  grid-template-columns: minmax(165px, 0.62fr) minmax(0, 2fr);
+  gap: clamp(1.25rem, 3vw, 2.6rem);
+}
+
+.footer-links {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1rem, 2.4vw, 2rem);
+}
+
+.footer-seo-links {
+  display: none;
+}
+
+footer small {
+  margin-inline: auto;
+}
+
+@media (max-width: 640px) {
+  footer {
+    padding: 1.1rem 1rem max(1rem, env(safe-area-inset-bottom));
+  }
+
+  .footer-top {
+    width: min(100%, 420px);
+    gap: 0.7rem;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.72rem;
+  }
+
+  .footer-links-col:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+}
