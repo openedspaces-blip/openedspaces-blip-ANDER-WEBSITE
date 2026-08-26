@@ -21,6 +21,7 @@ git_check.txt
 
 # Local agent worktrees and verification artifacts
 .claude/
+.deploy-worktree/
 output/
 tmp/
 
