@@ -6339,6 +6339,10 @@ function getReadingLibraryProgressLabel(language, completed) {
   return labels[language] || labels.english;
 }
 
+function isReadingLibraryLessonFree(lesson, unitOrder) {
+  return Number(unitOrder) <= freeUnitLimitForLevel(lesson?.level || learningPathState.level);
+}
+
 function renderReadingLibrary() {
   const host = document.getElementById('readingLibraryContent');
   if (!host) return;
@@ -6381,8 +6385,11 @@ function renderReadingLibrary() {
   const units = new Map(learningPathState.units.map((unit) => [unit.id, unit]));
   const readingEntries = readings.flatMap((lesson) => {
     const unit = units.get(lesson.unitId) || {};
-    const unitOrder = Number(lesson.unitOrder || unit.order || 1);
-    const locked = Boolean(lesson.locked && !isPremiumUser());
+    // The unit catalogue is the canonical display order. Some legacy lesson
+    // payloads carry a stale unitOrder, which used to label later units as
+    // 1.x and incorrectly lock the readings promised to Free learners.
+    const unitOrder = Number(unit.order || lesson.unitOrder || 1);
+    const locked = !isPremiumUser() && !isReadingLibraryLessonFree(lesson, unitOrder);
     return getReadingTopicChoices(lesson).map((topic, index) => ({
       lesson,
       unit,
@@ -6452,7 +6459,9 @@ function renderReadingLibrary() {
         (item) => item.slug === button.dataset.readingLibraryLesson
       );
       if (!lesson) return;
-      if (lesson.locked && !isPremiumUser()) {
+      const unit = units.get(lesson.unitId) || {};
+      const unitOrder = Number(unit.order || lesson.unitOrder || 1);
+      if (!isPremiumUser() && !isReadingLibraryLessonFree(lesson, unitOrder)) {
         openPaywallModal({
           title: 'Esta unidad de Lecturas es Premium.',
           message:
