@@ -1,6 +1,6 @@
 alter table public.subscriptions drop constraint if exists subscriptions_provider_check;
 alter table public.subscriptions add constraint subscriptions_provider_check
-  check (provider in ('stripe', 'paypal', 'paddle', 'azul'));
+  check (provider in ('stripe', 'paypal', 'azul'));
 
 create table if not exists public.azul_payment_orders (
   id uuid primary key default gen_random_uuid(),

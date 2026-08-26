@@ -3,7 +3,9 @@ import { createContext, PropsWithChildren, useContext, useEffect, useMemo, useSt
 
 const STORAGE_KEY = 'andergo.game.v1';
 
-export type TargetLanguage = 'english' | 'french' | 'spanish' | 'italian';
+export type TargetLanguage = 'english' | 'french' | 'spanish' | 'italian' | 'portuguese' | 'german';
+
+const TARGET_LANGUAGES: TargetLanguage[] = ['english', 'french', 'spanish', 'italian', 'portuguese', 'german'];
 
 export type GameState = {
   targetLanguage: TargetLanguage;
@@ -50,7 +52,7 @@ export function GameProvider({ children }: PropsWithChildren) {
       .then((value) => {
         if (!value) return;
         const saved = JSON.parse(value) as Partial<GameState>;
-        const validLanguage: TargetLanguage = ['english', 'french', 'spanish', 'italian'].includes(saved.targetLanguage ?? '')
+        const validLanguage: TargetLanguage = TARGET_LANGUAGES.includes(saved.targetLanguage as TargetLanguage)
           ? saved.targetLanguage as TargetLanguage
           : 'english';
         setState({ ...initialState, ...saved, targetLanguage: validLanguage });

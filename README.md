@@ -88,8 +88,10 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
   - `SUPABASE_ANON_KEY` (o `SUPABASE_KEY` como alias)
   - `SUPABASE_SERVICE_ROLE_KEY`
   - `SUPABASE_DATABASE_URL` (solo si vas a correr `npm run db:setup`)
-  - `OPENAI_API_KEY` (respaldo del AI Tutor y para `npm run audio:generate`)
+  - `OPENAI_API_KEY` (respaldo del AI Tutor y voz natural bajo demanda en Reading)
   - `OPENAI_MODEL` (opcional; por defecto `gpt-4.1-mini`)
+  - `OPENAI_TTS_MODEL` (opcional; por defecto `gpt-4o-mini-tts`)
+  - `OPENAI_TTS_VOICE` (opcional; por defecto `marin` con ese modelo)
   - `GROQ_API_KEY` (ruta rápida y económica principal del AI Tutor)
   - `GROQ_MODEL` (opcional; por defecto `openai/gpt-oss-20b`)
   - `CEREBRAS_API_KEY` (respaldo de streaming del AI Tutor)
@@ -122,7 +124,7 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 
 ## Qué sigue (fase 3 sugerida)
 
-1. Integrar un procesador de pagos real (Stripe/Paddle) para que `profiles.access_tier` se actualice automáticamente en vez de manualmente.
+1. Mantener los procesadores de pago activos para que `profiles.access_tier` se actualice automáticamente.
 2. Ampliar cada idioma más allá de las 8 lecciones actuales (más variedad dentro de cada nivel, no solo una por nivel).
 3. Sonidos/animaciones adicionales para las celebraciones de racha y de subir de nivel.
 4. Tabla de líderes (leaderboard) opcional usando `profiles.xp`.

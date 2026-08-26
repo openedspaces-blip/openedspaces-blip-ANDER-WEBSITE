@@ -26,6 +26,8 @@ const REQUIRED_FILES = [
   'vocabulario-basico-idiomas.html',
   'sobre-andergo.html',
   'recursos-aprender-idiomas.html',
+  'blog.html',
+  'blog/aprender-ingles-desde-cero.html',
   'verbos-ingles.html',
   'test-nivel-ingles.html',
   'src/css/styles.css',
@@ -33,7 +35,6 @@ const REQUIRED_FILES = [
   'src/css/legal.css',
   'src/css/discover.css',
   'src/js/script.js',
-  'src/js/paddle-pricing.js',
   'src/js/username-rules.js',
   'src/js/language-pair.js',
   // translator-languages.js/translator-predictive.js were referenced by
@@ -46,6 +47,7 @@ const REQUIRED_FILES = [
   'src/js/translator-languages.js',
   'src/js/translator-predictive.js',
   'src/js/global-search.js',
+  'src/js/lexicon-catalogues.generated.js',
   'src/js/lexicon-view.js',
   'src/js/app-install.js',
   'service-worker.js',
@@ -113,6 +115,12 @@ function copyDirectoryEnsuringDir(srcDir, destDir) {
 }
 
 function main() {
+  if (process.env.GENERATE_ENGLISH_READING_AUDIO === '1') {
+    console.log('Generating and uploading official English Reading audio to Supabase...');
+    execSync(`node "${path.join(ROOT, 'scripts', 'generate-reading-audio.js')}" --language english --upload`, {
+      stdio: 'inherit'
+    });
+  }
   // The expanded catalogue is checked in as a browser-ready static asset.
   // Its authoring sources are intentionally local-only, so deployment builds
   // validate the published catalogue instead of attempting a network rebuild.
@@ -133,6 +141,12 @@ function main() {
   console.log('Validating core files...');
   REQUIRED_FILES.forEach(assertExists);
 
+  // Never publish repeated terms in the public adjective/adverb shelves.
+  console.log('Auditing adjective and adverb catalogues...');
+  execSync(`node "${path.join(ROOT, 'scripts', 'audit-lexicon-catalogues.js')}"`, {
+    stdio: 'inherit'
+  });
+
   console.log('Validating language worlds...');
   WORLD_LANGUAGES.forEach((lang) => {
     assertExists(path.join('src', 'worlds', lang, 'content.js'));
@@ -144,6 +158,7 @@ function main() {
     ...VERBS_FILES,
     'src/js/script.js',
     'src/js/global-search.js',
+    'src/js/lexicon-catalogues.generated.js',
     'src/js/username-rules.js',
     'src/js/language-pair.js',
     'lib/server.js'
@@ -188,13 +203,6 @@ function main() {
 
   // Signed mobile packages published by the Downloads section.
   copyDirectoryEnsuringDir(path.join(ROOT, 'downloads'), path.join(PUBLIC_DIR, 'downloads'));
-
-  // @paddle/paddle-js is the official loader/type-safe wrapper. The app has
-  // no bundler, so publish its ESM build as a first-party static dependency.
-  copyFileEnsuringDir(
-    path.join(ROOT, 'node_modules', '@paddle', 'paddle-js', 'dist', 'index.esm.js'),
-    path.join(PUBLIC_DIR, 'vendor', 'paddle', 'index.esm.js')
-  );
 
   // Both index.html's <link>/<script> tags hardcoded a manually-maintained
   // "?v=20260805-games-upgrade" cache-busting string shared by script.js and

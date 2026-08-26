@@ -16,6 +16,9 @@
     "db:setup": "node scripts/setup-database.js",
     "audit:curriculum": "node scripts/verify-curriculum-coverage.js",
     "audit:vocabulary": "node scripts/audit-vocabulary-cards.js",
+    "audit:lexicon": "node scripts/audit-lexicon-catalogues.js",
+    "generate:lexicon": "node scripts/generate-lexicon-expansion.js --from-sources",
+    "generate:reading-audio": "node scripts/generate-reading-audio.js",
     "verify:european-routes": "node scripts/verify-european-non-listening-routes.js",
     "verify:all": "node scripts/verify-all.js",
     "validate:listening": "node scripts/validate-official-listening.js",
@@ -25,8 +28,6 @@
   },
   "dependencies": {
     "@cerebras/cerebras_cloud_sdk": "^1.64.1",
-    "@paddle/paddle-js": "^1.6.4",
-    "@paddle/paddle-node-sdk": "^3.8.0",
     "@supabase/supabase-js": "^2.45.0",
     "compression": "^1.8.1",
     "cors": "^2.8.0",

@@ -158,16 +158,14 @@ let translatorReturnContext = null;
 // Fallback values only, used for the very first paint before GET /api/plans
 // resolves below - lib/plansConfig.js on the server is the single source of
 // truth for these numbers; nothing in this file should hardcode a price
-// anywhere else. Kept as strings (already formatted, e.g. '4.99') since
+// anywhere else. Kept as strings (already formatted, e.g. '7.00') since
 // every call site below just interpolates them into "USD ${...}" text.
-let premiumMonthlyPriceUsd = '4.99';
+let premiumMonthlyPriceUsd = '7.00';
+let premiumQuarterlyPriceUsd = '14.99';
 // Back-compat alias for the few call sites below that only ever showed the
 // monthly figure - avoids touching every interpolation site individually.
 let premiumPriceUsd = premiumMonthlyPriceUsd;
-let paddleBillingConfig = null;
-let paddleInitialized = false;
 let currentSubscriptionSummary = null;
-const PADDLE_MAINTENANCE_MESSAGE = 'El pago Premium está temporalmente en mantenimiento.';
 
 // Re-applies the fetched prices to any already-painted markup that shows
 // them as static text (the #premium pricing section) - everything else
@@ -176,6 +174,9 @@ const PADDLE_MAINTENANCE_MESSAGE = 'El pago Premium está temporalmente en mante
 function refreshPremiumPricingUI() {
   document.querySelectorAll('[data-premium-monthly-price]').forEach((el) => {
     el.textContent = `USD ${premiumMonthlyPriceUsd}`;
+  });
+  document.querySelectorAll('[data-premium-quarterly-price]').forEach((el) => {
+    el.textContent = `USD ${premiumQuarterlyPriceUsd}`;
   });
 }
 
@@ -187,6 +188,7 @@ async function loadPlans() {
     const premium = plans?.find((plan) => plan.slug === 'premium');
     if (!premium) return;
     premiumMonthlyPriceUsd = Number(premium.monthlyPriceUsd).toFixed(2);
+    premiumQuarterlyPriceUsd = Number(premium.quarterlyPriceUsd).toFixed(2);
     premiumPriceUsd = premiumMonthlyPriceUsd;
     refreshPremiumPricingUI();
   } catch {
@@ -195,144 +197,6 @@ async function loadPlans() {
   }
 }
 loadPlans();
-
-async function loadPaddleBillingConfig() {
-  try {
-    const response = await fetch('/api/billing/config');
-    if (!response.ok) return null;
-    paddleBillingConfig = await response.json();
-    updatePaddleCheckoutAvailability(paddleBillingConfig);
-    return paddleBillingConfig;
-  } catch (error) {
-    console.error('[paddle-config] Could not load public checkout configuration.', error);
-    return null;
-  }
-}
-
-function missingPaddlePublicConfiguration(billing) {
-  const missing = [];
-  if (!['sandbox', 'production'].includes(billing?.environment)) {
-    missing.push('NEXT_PUBLIC_PADDLE_ENV');
-  }
-  if (!billing?.clientSideToken) missing.push('NEXT_PUBLIC_PADDLE_CLIENT_TOKEN');
-  const premium = (billing?.tiers || []).find((tier) => tier.key === 'premium');
-  if (!premium?.priceId?.monthly) {
-    missing.push('NEXT_PUBLIC_PADDLE_MONTHLY_PRICE_ID');
-  }
-  if (!premium?.priceId?.quarterly) {
-    missing.push('NEXT_PUBLIC_PADDLE_QUARTERLY_PRICE_ID');
-  }
-  return [...new Set([...(billing?.missingConfiguration || []), ...missing])];
-}
-
-function updatePaddleCheckoutAvailability(billing) {
-  const missing = missingPaddlePublicConfiguration(billing);
-  document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
-    button.disabled = missing.length > 0;
-    button.setAttribute('aria-disabled', String(missing.length > 0));
-  });
-  if (missing.length) {
-    console.error(`[paddle-config] Missing public variables: ${missing.join(', ')}`);
-  }
-  return missing;
-}
-
-function loadPaddleScript() {
-  if (window.Paddle) return Promise.resolve(window.Paddle);
-  return new Promise((resolve, reject) => {
-    const existing = document.querySelector('script[data-andergo-paddle]');
-    if (existing) {
-      existing.addEventListener('load', () => resolve(window.Paddle), { once: true });
-      existing.addEventListener(
-        'error',
-        () =>
-          reject(
-            new Error('No se pudo cargar Paddle.js. Revisa tu conexión e inténtalo de nuevo.')
-          ),
-        { once: true }
-      );
-      return;
-    }
-    const script = document.createElement('script');
-    script.src = 'https://cdn.paddle.com/paddle/v2/paddle.js';
-    script.async = true;
-    script.dataset.andergoPaddle = 'true';
-    script.addEventListener('load', () => resolve(window.Paddle), { once: true });
-    script.addEventListener(
-      'error',
-      () =>
-        reject(new Error('No se pudo cargar Paddle.js. Revisa tu conexión e inténtalo de nuevo.')),
-      { once: true }
-    );
-    document.head.appendChild(script);
-  });
-}
-
-async function openPaddleCheckout(billingCycle, button) {
-  const status = document.querySelector('[data-paddle-status]');
-  if (!authStatus.session?.access_token || !authStatus.user?.id) {
-    openModal('signup', { message: 'Crea una cuenta o inicia sesiÃ³n antes de elegir Premium.' });
-    return;
-  }
-
-  const originalText = button?.innerHTML;
-  if (button) {
-    button.disabled = true;
-    button.textContent = 'Abriendo pago seguro…';
-  }
-
-  try {
-    const billing = paddleBillingConfig || (await loadPaddleBillingConfig());
-    const missingConfiguration = updatePaddleCheckoutAvailability(billing);
-    if (missingConfiguration.length) {
-      throw new Error(PADDLE_MAINTENANCE_MESSAGE);
-    }
-
-    const transactionResponse = await authFetch(`${backendBaseUrl}/api/billing/checkout`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ billingCycle })
-    });
-    const transaction = await transactionResponse.json().catch(() => ({}));
-    if (!transactionResponse.ok || !transaction.transactionId) {
-      throw new Error(transaction.error || 'No se pudo preparar el pago Premium de forma segura.');
-    }
-
-    const Paddle = await loadPaddleScript();
-    if (!paddleInitialized) {
-      if (billing.environment === 'sandbox') Paddle.Environment.set('sandbox');
-      Paddle.Initialize({
-        token: billing.clientSideToken,
-        eventCallback(event) {
-          if (event.name === 'checkout.completed') {
-            if (status) {
-              status.textContent =
-                'Pago recibido. Estamos confirmando tu suscripciÃ³n Premium de forma segura.';
-            }
-            window.setTimeout(() => loadCurrentSubscription({ attempts: 4, delayMs: 1500 }), 1000);
-          }
-        }
-      });
-      paddleInitialized = true;
-    }
-
-    Paddle.Checkout.open({
-      settings: { displayMode: 'overlay', theme: 'light', locale: 'es' },
-      transactionId: transaction.transactionId,
-      customer: authStatus.user.email ? { email: authStatus.user.email } : undefined
-    });
-    if (status) status.textContent = '';
-  } catch (error) {
-    if (status) status.textContent = error.message || 'No se pudo abrir Paddle.';
-  } finally {
-    if (button) {
-      button.disabled = false;
-      button.innerHTML = originalText;
-    }
-  }
-}
-
-loadPaddleBillingConfig();
 
 const targetLanguageMap = {
   english: 'english',
@@ -525,9 +389,9 @@ async function authFetch(url, options = {}) {
   return response;
 }
 
-// Narrow bridge used by the ES-module Paddle pricing page. It exposes only
-// the signed-in customer's public checkout fields and the authenticated
-// fetch helper; server secrets never enter browser code.
+// Narrow bridge used by optional payment widgets. It exposes only the
+// signed-in customer's public checkout fields and the authenticated fetch
+// helper; server secrets never enter browser code.
 window.AndergoBillingContext = {
   getCustomer() {
     return {
@@ -577,7 +441,7 @@ async function loadAvailablePaymentProviders() {
       button.disabled = !azulBillingConfig?.configured;
     });
     if (paypalBillingConfig?.configured || azulBillingConfig?.configured) {
-      document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
+      document.querySelectorAll('.premium-checkout-btn').forEach((button) => {
         button.disabled = false;
         button.setAttribute('aria-disabled', 'false');
       });
@@ -695,7 +559,7 @@ async function openPremiumPayment(billingCycle, button) {
     if (!paypalBillingConfig || !azulBillingConfig) await loadAvailablePaymentProviders();
     if (paypalBillingConfig?.configured) return await openPayPalCheckout(billingCycle);
     if (azulBillingConfig?.configured) return await openAzulCheckout(billingCycle);
-    return await openPaddleCheckout(billingCycle, button);
+    throw new Error('El pago Premium no está disponible en este momento.');
   } catch (error) {
     setPaymentStatus(error.message || 'No se pudo abrir el pago seguro.');
   } finally {
@@ -806,6 +670,13 @@ function getDisplayName() {
 function renderAuthState() {
   const isSignedIn = Boolean(authStatus.session?.access_token);
   document.body?.classList.toggle('is-signed-in', isSignedIn);
+  document.body?.classList.toggle('is-anonymous-visitor', !isSignedIn);
+  // Catalogue views use this presentation state to show the Free selection
+  // without trusting it for server-side authorization decisions.
+  document.body?.classList.toggle(
+    'is-premium-user',
+    isSignedIn && Boolean(authStatus.entitlements?.isPremium)
+  );
   const name = getDisplayName();
   const currentRole = authStatus.entitlements?.role;
   const planName = authStatus.entitlements
@@ -852,8 +723,6 @@ function renderAuthState() {
   if (mobileAccountSummary) {
     mobileAccountSummary.hidden = !isSignedIn;
     if (isSignedIn) {
-      mobileAccountSummary.querySelector('.mobile-account-summary-name').textContent =
-        name || 'Mi cuenta';
       mobileAccountSummary.querySelector('.mobile-account-summary-plan').textContent =
         currentRole === 'ceo'
           ? 'CEO'
@@ -923,12 +792,9 @@ function renderAccountPlanStatus(summary = currentSubscriptionSummary) {
 
   const name = panel.querySelector('[data-account-plan-name]');
   const detail = panel.querySelector('[data-account-plan-detail]');
-  const actions = panel.querySelector('[data-account-plan-actions]');
-  const pauseButton = panel.querySelector('[data-paddle-action="pause"]');
   const premium = Boolean(summary?.isPremium || isPremiumUser());
   const canManageBilling = Boolean(summary?.canManageBilling);
   if (name) name.textContent = premium ? 'Premium' : 'Free';
-  if (actions) actions.hidden = !premium || !canManageBilling;
 
   if (!premium) {
     if (detail) detail.textContent = 'Tu cuenta utiliza el plan gratuito.';
@@ -944,75 +810,6 @@ function renderAccountPlanStatus(summary = currentSubscriptionSummary) {
       : cancellationScheduled
         ? `Premium ${cycle}. Se cancelará al finalizar el periodo${date ? `, el ${date}` : ''}.`
         : `Premium ${cycle}${date ? `. Próxima renovación: ${date}` : ''}.`;
-  }
-  if (pauseButton) {
-    pauseButton.disabled = cancellationScheduled;
-    pauseButton.hidden = cancellationScheduled;
-  }
-}
-
-async function openPaddleCustomerPortal(button) {
-  const message = document.querySelector('[data-account-plan-message]');
-  const originalText = button?.textContent;
-  if (button) {
-    button.disabled = true;
-    button.textContent = 'Abriendo Paddle…';
-  }
-  if (message) message.textContent = '';
-  try {
-    const response = await authFetch(`${backendBaseUrl}/api/billing/portal`, {
-      method: 'POST'
-    });
-    const result = await response.json().catch(() => ({}));
-    if (!response.ok || !result.url) {
-      throw new Error(result.error || 'No se pudo abrir la administración de tu plan.');
-    }
-    window.location.assign(result.url);
-  } catch (error) {
-    if (message) message.textContent = error.message;
-  } finally {
-    if (button) {
-      button.disabled = false;
-      button.textContent = originalText;
-    }
-  }
-}
-
-async function pausePaddleSubscription(button) {
-  if (
-    !window.confirm(
-      '¿Programar la pausa al finalizar el periodo actual? Mantendrás Premium hasta esa fecha y no se realizará el próximo cobro.'
-    )
-  ) {
-    return;
-  }
-  const message = document.querySelector('[data-account-plan-message]');
-  const originalText = button?.textContent;
-  if (button) {
-    button.disabled = true;
-    button.textContent = 'Programando pausa…';
-  }
-  try {
-    const response = await authFetch(`${backendBaseUrl}/api/billing/pause`, {
-      method: 'POST'
-    });
-    const result = await response.json().catch(() => ({}));
-    if (!response.ok) {
-      throw new Error(result.error || 'No se pudo programar la pausa.');
-    }
-    const date = formatSubscriptionDate(result.effectiveAt);
-    if (message) {
-      message.textContent = `Pausa programada${date ? ` para el ${date}` : ''}.`;
-    }
-    if (button) button.hidden = true;
-    window.setTimeout(() => loadCurrentSubscription({ refreshDashboardOnPremium: false }), 1200);
-  } catch (error) {
-    if (message) message.textContent = error.message;
-  } finally {
-    if (button && !button.hidden) {
-      button.disabled = false;
-      button.textContent = originalText;
-    }
   }
 }
 
@@ -1956,7 +1753,7 @@ function openPaywallModal({ featureLabel, used, limit, title, message } = {}) {
   // Prices are never hardcoded here - refreshPremiumPricingUI() (see
   // loadPlans() near the top of this file) fills in the same
   // [data-premium-monthly-price] spans this modal's markup uses, from
-  // GET /api/plans. The quarterly amount is shown by Paddle itself.
+  // GET /api/plans. The quarterly amount comes from the server plan catalogue.
   refreshPremiumPricingUI();
 
   paywallModal.classList.add('open');
@@ -2030,6 +1827,7 @@ async function postJson(path, payload, { auth = false } = {}) {
     const message = data.message || data.error || 'Request failed';
     const code = data.code || (data.message ? data.error : undefined);
     const error = new Error(message);
+    error.status = response.status;
     if (code) error.code = code;
     // Only ever present on the EMAIL_NOT_CONFIRMED login error (see
     // lib/authService.js) - undefined everywhere else, so this never adds a
@@ -2458,6 +2256,7 @@ function renderDashboard(data) {
   if (!data) {
     dashboardPreferences = null;
     authStatus.entitlements = null;
+    window.dispatchEvent(new Event('andergo:entitlements-updated'));
     renderDashboardSignedOut();
     return;
   }
@@ -2494,6 +2293,7 @@ function renderDashboard(data) {
       ...data.entitlements,
       hasFullAccess: hasFullRouteAccess(data.entitlements)
     };
+    window.dispatchEvent(new Event('andergo:entitlements-updated'));
     renderAuthState();
     // A route can render before the entitlement response. Re-apply the same
     // unit policy for both plans so Free cannot retain optimistic access and
@@ -2648,11 +2448,15 @@ function clearAuthMessages() {
   });
 }
 
-// Views that only ever show an "Inicia sesión para..." placeholder for a
-// guest (see renderDashboardSignedOut/loadSecurityStatus) - unlike 'learn'
-// and 'tutor', which stay genuinely usable signed out (free lessons, an
-// uncapped Tutor IA chat) and so are deliberately left off this list.
-const MEMBER_ONLY_VIEWS_AFTER_LOGOUT = ['progress', 'goals', 'security'];
+// The public homepage and pricing remain available to explain ANDERGO, while
+// every learning/tool view belongs to a registered account.  Navigation stays
+// visible; activation asks the visitor to create a Free account.
+const MEMBER_ONLY_VIEWS_AFTER_LOGOUT = [
+  'learn', 'progress', 'security', 'goals', 'tutor', 'translator', 'tests', 'infographics',
+  'games', 'readings', 'listenings', 'downloads', 'about', 'verbs', 'introduction', 'listening',
+  'speaking', 'reading', 'writing', 'grammar', 'vocabulary', 'adjectives', 'adverbs',
+  'teacher-curriculum'
+];
 
 async function logout() {
   try {
@@ -2667,6 +2471,7 @@ async function logout() {
     authStatus.session = null;
     currentSubscriptionSummary = null;
     localStorage.removeItem('andergoSession');
+    clearOAuthAttempt();
     // A dismissal only ever applies to the account that dismissed it - the
     // next login (same tab or not) re-evaluates fresh instead of inheriting
     // a previous account's "Ahora no".
@@ -3638,15 +3443,54 @@ async function createOAuthBrowserClient() {
       // Social providers return through Supabase with an authorization code.
       // PKCE stores its short-lived verifier until that redirect comes back;
       // disabling persistence here discarded it and made exchangeCodeForSession
-      // fail after a successful Google/Facebook approval. sessionStorage keeps
-      // the verifier on this browser tab only, without creating a durable
-      // Supabase session outside ANDERGO's own saveSession flow.
+      // fail after a successful Google/Facebook approval. Mobile browsers can
+      // recreate the callback tab, so localStorage is required for the
+      // verifier to survive that handoff. The temporary record is removed
+      // immediately after ANDERGO stores its own application session below.
       persistSession: true,
-      storage: window.sessionStorage,
+      storage: window.localStorage,
       storageKey: 'andergo-oauth-session',
       flowType: 'pkce'
     }
   });
+}
+
+// Supabase may return from a provider without preserving our `auth` query
+// parameter.  Remembering only the provider (never a token or password)
+// lets the landing page identify that a real OAuth callback is in progress.
+// localStorage is intentional: some mobile providers resume the callback in
+// a fresh tab where sessionStorage has no PKCE verifier.
+const OAUTH_PENDING_PROVIDER_KEY = 'andergo-oauth-pending-provider';
+
+function rememberOAuthAttempt(provider) {
+  try {
+    window.localStorage.setItem(OAUTH_PENDING_PROVIDER_KEY, provider);
+    window.sessionStorage.setItem(OAUTH_PENDING_PROVIDER_KEY, provider);
+  } catch {
+    // OAuth can still continue using the redirect query parameter.
+  }
+}
+
+function getPendingOAuthProvider() {
+  try {
+    return (
+      window.localStorage.getItem(OAUTH_PENDING_PROVIDER_KEY) ||
+      window.sessionStorage.getItem(OAUTH_PENDING_PROVIDER_KEY) ||
+      ''
+    );
+  } catch {
+    return '';
+  }
+}
+
+function clearOAuthAttempt() {
+  try {
+    window.localStorage.removeItem(OAUTH_PENDING_PROVIDER_KEY);
+    window.sessionStorage.removeItem(OAUTH_PENDING_PROVIDER_KEY);
+    window.localStorage.removeItem('andergo-oauth-session');
+  } catch {
+    // Storage cleanup must never hide a completed login.
+  }
 }
 
 async function beginOAuth(button, provider) {
@@ -3668,6 +3512,7 @@ async function beginOAuth(button, provider) {
     button.setAttribute('aria-busy', 'true');
   }
   try {
+    rememberOAuthAttempt(provider);
     const client = await createOAuthBrowserClient();
     const redirectTo = new URL('/', window.location.origin);
     redirectTo.searchParams.set('auth', provider);
@@ -3736,6 +3581,7 @@ async function initOAuthCallback(provider) {
       throw new Error(payload?.error || 'No pudimos abrir tu cuenta.');
 
     saveSession(payload.user, data.session);
+    clearOAuthAttempt();
     history.replaceState(null, '', `${window.location.pathname}#learn`);
     showView('learn');
     await afterAuthSuccess();
@@ -3744,6 +3590,7 @@ async function initOAuthCallback(provider) {
     showView('home');
     openModal('login');
     setAuthMessage(error.message || `No pudimos completar el acceso con ${provider}.`, true);
+    clearOAuthAttempt();
   }
 }
 
@@ -6458,16 +6305,13 @@ function getReadingLibraryCopy(language) {
 }
 
 function getReadingLibraryCardType(language, topicOrder) {
-  const types = {
-    english: ['Main reading', 'Cultural reading', 'Applied reading'],
-    spanish: ['Lectura principal', 'Lectura cultural', 'Lectura aplicada'],
-    french: ['Lecture principale', 'Lecture culturelle', 'Lecture appliquée'],
-    italian: ['Lettura principale', 'Lettura culturale', 'Lettura applicata'],
-    portuguese: ['Leitura principal', 'Leitura cultural', 'Leitura aplicada'],
-    german: ['Haupttext', 'Kultureller Text', 'Angewandter Text']
+  // Every text in the library is a complete Reading in its own right. The
+  // number distinguishes it without making any text appear secondary.
+  const labels = {
+    english: 'Reading', spanish: 'Lectura', french: 'Lecture', italian: 'Lettura',
+    portuguese: 'Leitura', german: 'Lesetext'
   };
-  const choices = types[language] || types.english;
-  return choices[Math.max(0, Number(topicOrder || 1) - 1)] || choices[0];
+  return `${labels[language] || labels.english} ${Math.max(1, Number(topicOrder || 1))}`;
 }
 
 function getReadingFreeAccessNote(language, level) {
@@ -6481,6 +6325,18 @@ function getReadingFreeAccessNote(language, level) {
     german: `Free enthält die Einheiten ${units} von ${level} (alle drei Lesetexte jeder Einheit).`
   };
   return messages[language] || messages.english;
+}
+
+function getReadingLibraryProgressLabel(language, completed) {
+  const labels = {
+    english: completed ? '✓ Completed' : '○ To practise',
+    spanish: completed ? '✓ Completada' : '○ Por practicar',
+    french: completed ? '✓ Terminée' : '○ À pratiquer',
+    italian: completed ? '✓ Completata' : '○ Da praticare',
+    portuguese: completed ? '✓ Concluída' : '○ Para praticar',
+    german: completed ? '✓ Abgeschlossen' : '○ Noch üben'
+  };
+  return labels[language] || labels.english;
 }
 
 function renderReadingLibrary() {
@@ -6559,16 +6415,22 @@ function renderReadingLibrary() {
         <div class="reading-library-cards reading-library-cards--catalog">
           ${readingEntries
             .map(
-              ({ lesson, unit, unitOrder, topic, topicOrder, locked }) => `
+              ({ lesson, unit, unitOrder, topic, topicOrder, locked }) => {
+                const words = readingWordCount(topic.text || topic.parts?.join(' ') || '');
+                const minutes = Math.max(1, Math.ceil(words / 140));
+                const status = getReadingLibraryProgressLabel(language, lesson.completed);
+                return `
                 <button type="button" class="reading-library-card${locked ? ' is-locked' : ''}" data-reading-library-lesson="${escapeHtml(lesson.slug)}" data-reading-library-topic="${escapeHtml(topic.id)}" ${locked ? 'aria-label="Lectura bloqueada: disponible en Premium"' : ''}>
                   <span class="reading-library-card-index">${unitOrder}.${topicOrder}</span>
                   <small class="reading-library-card-unit">${escapeHtml(copy.unit)} ${unitOrder} · ${escapeHtml(getReadingLibraryCardType(language, topicOrder))}</small>
                   <strong>${escapeHtml((topic.label || `Lectura ${topicOrder}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
                   <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
+                  <span class="reading-library-card-meta"><span>⏱ ${minutes} min</span><span>📄 ${words || '—'} palabras</span><span>${escapeHtml(status)}</span></span>
                   <em class="library-card-status">${locked
                     ? `<span>🔒 ${escapeHtml(copy.locked)}</span><span class="library-premium-invite">${escapeHtml(copy.upgrade)}</span>`
                     : escapeHtml(copy.open)}</em>
-                </button>`
+                </button>`;
+              }
             )
             .join('')}
         </div>
@@ -6599,6 +6461,7 @@ function renderReadingLibrary() {
         return;
       }
       readingTopicSelections.set(lesson.slug, button.dataset.readingLibraryTopic || 'main-reading');
+      resetReadingComprehensionRuntime(lesson.slug, 4);
       openUnitSequenceStep('reading', lesson.slug, { entryContext: 'explore' });
     });
   });
@@ -6612,6 +6475,34 @@ const LISTENING_LIBRARY_COPY = Object.freeze({
   portuguese: { eyebrow: 'BIBLIOTECA DE ÁUDIOS', choose: 'Escolha seu listening', language: 'Idioma', level: 'Nível', title: 'Áudios em português', intro: (count) => `Explore as ${count} atividades de áudio deste nível. As atividades Premium ficam visíveis e bloqueadas.`, available: (count) => `${count} áudios disponíveis`, unit: 'Unidade', open: 'Abrir áudio →', locked: 'Premium · bloqueado', upgrade: 'Assine Premium para desbloquear →', free: (level) => `Free inclui as unidades 1–3 de ${level}.` },
   german: { eyebrow: 'HÖRBIBLIOTHEK', choose: 'Wähle deinen Hörtext', language: 'Sprache', level: 'Niveau', title: 'Hörtexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Höraktivitäten dieses Niveaus. Premium-Aktivitäten bleiben sichtbar und gesperrt.`, available: (count) => `${count} Hörtexte verfügbar`, unit: 'Einheit', open: 'Hörtext öffnen →', locked: 'Premium · gesperrt', upgrade: 'Mit Premium freischalten →', free: (level) => `Free enthält die Einheiten 1–3 von ${level}.` }
 });
+
+function getListeningLibraryCardInfo(lesson, language) {
+  const transcript = String(lesson.listening?.transcript || lesson.description || '');
+  const words = transcript.split(/\s+/).filter(Boolean).length;
+  const minutes = Math.max(1, Number(lesson.estimatedMinutes) || Math.ceil(words / 115) || 1);
+  const title = String(lesson.title || '').toLowerCase();
+  const isDialogue = /dialog|conversation|interview|talk|chat|convers|entrevista|diálogo/i.test(title + transcript.slice(0, 130));
+  const labels = {
+    english: { dialogue: 'Dialogue', story: 'Listening story', goal: 'Listen for key details', complete: '✓ Completed', next: '○ To practise', questions: 'questions', transcript: 'Transcript' },
+    spanish: { dialogue: 'Diálogo', story: 'Historia sonora', goal: 'Identifica los datos clave', complete: '✓ Completado', next: '○ Por practicar', questions: 'preguntas', transcript: 'Transcripción' },
+    french: { dialogue: 'Dialogue', story: 'Histoire audio', goal: 'Repère les informations clés', complete: '✓ Terminé', next: '○ À pratiquer', questions: 'questions', transcript: 'Transcription' },
+    italian: { dialogue: 'Dialogo', story: 'Storia audio', goal: 'Individua i dettagli chiave', complete: '✓ Completato', next: '○ Da praticare', questions: 'domande', transcript: 'Trascrizione' },
+    portuguese: { dialogue: 'Diálogo', story: 'História em áudio', goal: 'Identifique os detalhes principais', complete: '✓ Concluído', next: '○ Para praticar', questions: 'perguntas', transcript: 'Transcrição' },
+    german: { dialogue: 'Dialog', story: 'Hörgeschichte', goal: 'Wichtige Details erkennen', complete: '✓ Abgeschlossen', next: '○ Noch üben', questions: 'Fragen', transcript: 'Transkript' }
+  };
+  const copy = labels[language] || labels.english;
+  const questions = (lesson.exercises || []).filter((item) => item.type === 'mcq').length || 4;
+  return {
+    format: isDialogue ? copy.dialogue : copy.story,
+    objective: lesson.listening?.objective || copy.goal,
+    minutes,
+    questions,
+    transcript: Boolean(lesson.listening?.transcript),
+    status: lesson.completed ? copy.complete : copy.next,
+    questionLabel: copy.questions,
+    transcriptLabel: copy.transcript
+  };
+}
 
 function renderListeningLibrary() {
   const host = document.getElementById('listeningLibraryContent');
@@ -6665,11 +6556,13 @@ function renderListeningLibrary() {
           ${activities.map((lesson, index) => {
             const unit = units.get(lesson.unitId) || {};
             const locked = Boolean(lesson.locked && !isPremiumUser());
+            const info = getListeningLibraryCardInfo(lesson, language);
             return `<button type="button" class="listening-library-card${locked ? ' is-locked' : ''}" data-listening-library-lesson="${escapeHtml(lesson.slug)}" ${locked ? `aria-label="${escapeHtml(copy.locked)}: ${escapeHtml(lesson.title)}"` : ''}>
               <span class="listening-library-card-index">${escapeHtml(String(unit.order || index + 1))}</span>
-              <small>${escapeHtml(copy.unit)} ${escapeHtml(String(unit.order || index + 1))} · ${escapeHtml(unit.title || lesson.title)}</small>
+              <small>${escapeHtml(copy.unit)} ${escapeHtml(String(unit.order || index + 1))} · ${escapeHtml(info.format)}</small>
               <strong>${escapeHtml(lesson.title)}</strong>
-              <p>${escapeHtml(lesson.description || '')}</p>
+              <p>${escapeHtml(lesson.listening?.objective || info.objective)}</p>
+              <span class="listening-library-card-meta"><span>⏱ ${escapeHtml(String(info.minutes))} min</span><span>🎯 ${escapeHtml(String(info.questions))} ${escapeHtml(info.questionLabel)}</span>${info.transcript ? `<span>📄 ${escapeHtml(info.transcriptLabel)}</span>` : ''}<span>${escapeHtml(info.status)}</span></span>
               <em class="library-card-status">${locked
                 ? `<span>🔒 ${escapeHtml(copy.locked)}</span><span class="library-premium-invite">${escapeHtml(copy.upgrade)}</span>`
                 : `🎧 ${escapeHtml(copy.open)}`}</em>
@@ -7281,8 +7174,50 @@ const LANGUAGE_LOCALES = {
   haitianCreole: 'ht-HT'
 };
 
+function hasResponsiveVoice() {
+  return typeof window !== 'undefined' && typeof window.responsiveVoice?.speak === 'function';
+}
+
 function supportsSpeech() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window;
+}
+
+function getResponsiveVoiceName(locale = getPronunciationLocale()) {
+  const base = String(locale || '').toLocaleLowerCase().split('-')[0];
+  return {
+    en: 'US English Female',
+    fr: 'French Female',
+    es: 'Spanish Latin American Female',
+    it: 'Italian Female',
+    de: 'Deutsch Female',
+    pt: 'Brazilian Portuguese Female'
+  }[base] || null;
+}
+
+function speakWithResponsiveVoice(text, { locale, rate = 1, onEnd, onStart } = {}) {
+  const voiceName = getResponsiveVoiceName(locale || getPronunciationLocale());
+  // ResponsiveVoice currently has no Haitian Creole voice. Returning null
+  // intentionally sends that language to the device's TTS below instead of
+  // silently reading it with an English voice.
+  if (!hasResponsiveVoice() || !text || !voiceName) return null;
+  try {
+    window.responsiveVoice.cancel?.();
+    const responsiveUtterance = {
+      responsiveVoice: true,
+      text,
+      locale: locale || getPronunciationLocale()
+    };
+    window.responsiveVoice.speak(text, voiceName, {
+      rate,
+      onstart: onStart,
+      onend: onEnd,
+      onerror: onEnd
+    });
+    return responsiveUtterance;
+  } catch {
+    onEnd?.();
+    return null;
+  }
 }
 
 function getPronunciationLocale(language = learningPathState.language) {
@@ -7317,13 +7252,33 @@ function speakText(
     onStart,
     onBoundary,
     onPause,
-    onResume
+    onResume,
+    provider = 'auto'
   } = {}
 ) {
-  if (!supportsSpeech() || !text) {
+  if (!text) {
     onEnd?.();
     return null;
   }
+  // ResponsiveVoice supplies a consistent cloud voice for the six course
+  // languages. Keep the device synthesizer for Haitian Creole, selected
+  // reading voices, and features that need boundary/pause events.
+  const canUseResponsiveVoice =
+    provider !== 'system' &&
+    !exactLocaleOnly &&
+    !onBoundary &&
+    !onPause &&
+    !onResume;
+  if (canUseResponsiveVoice) {
+    window.speechSynthesis?.cancel?.();
+    const responsiveUtterance = speakWithResponsiveVoice(text, { locale, rate, onEnd, onStart });
+    if (responsiveUtterance) return responsiveUtterance;
+  }
+  if (!supportsSpeech()) {
+    onEnd?.();
+    return null;
+  }
+  // Device speech remains the reliable fallback for every unsupported case.
   try {
     window.speechSynthesis.cancel();
     // Some mobile browsers leave the shared synthesizer paused after a
@@ -8064,6 +8019,133 @@ const readingSpeechPlayer = (() => {
     changeReadingRate
   };
 })();
+
+// OpenAI generates one MP3 only after the learner explicitly asks for it.
+// The stream is never persisted in the browser and the existing Web Speech
+// player remains available as an automatic fallback if the request, session
+// or network is unavailable.
+const naturalReadingAudioState = {
+  audio: null,
+  objectUrl: '',
+  requestInFlight: false
+};
+
+function stopNaturalReadingAudio({ clearSource = false } = {}) {
+  const audio = naturalReadingAudioState.audio;
+  if (audio) {
+    audio.pause();
+    audio.onended = null;
+    audio.onerror = null;
+    if (clearSource) {
+      audio.removeAttribute('src');
+      audio.load();
+      audio.hidden = true;
+    }
+  }
+  if (clearSource && naturalReadingAudioState.objectUrl) {
+    URL.revokeObjectURL(naturalReadingAudioState.objectUrl);
+    naturalReadingAudioState.objectUrl = '';
+  }
+  if (clearSource) naturalReadingAudioState.audio = null;
+}
+
+function getNaturalReadingScript(lesson) {
+  return buildReadingSegments(lesson, READING_RATE_PRESETS.normal)
+    .segments
+    .map((segment) => segment.text)
+    .join(' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Reading narration is generated during content production, never while a
+// learner is listening.  A missing file deliberately falls back to the
+// device voice below: it must not silently trigger a paid TTS request.
+function getStaticReadingAudioUrl(language, lesson) {
+  const safeLanguage = String(language || '').replace(/[^a-z]/gi, '');
+  const safeSlug = String(lesson?.slug || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, '');
+  return safeLanguage && safeSlug
+    ? `/assets/audio/readings/${safeLanguage}/${safeSlug}.wav`
+    : '';
+}
+
+async function playNaturalReadingAudio(section, lesson) {
+  const button = section?.querySelector('.reading-audio-natural-btn');
+  const audio = section?.querySelector('.reading-natural-audio');
+  const script = lesson ? getNaturalReadingScript(lesson) : '';
+  if (!section || !lesson || !audio || !script || naturalReadingAudioState.requestInFlight) return;
+  if (!isPremiumUser()) {
+    openPaywallModal({
+      title: 'La voz natural de Reading es Premium.',
+      message: 'Con ANDERGO Premium puedes escuchar las lecturas con una voz natural y mantener la voz de tu dispositivo como respaldo.'
+    });
+    return;
+  }
+
+  naturalReadingAudioState.requestInFlight = true;
+  if (button) {
+    button.disabled = true;
+    button.textContent = 'Preparando…';
+  }
+
+  // Stop browser speech so two narrations never overlap. The natural voice
+  // is generated on demand by the authenticated backend, never by the browser.
+  readingSpeechPlayer.stopReading();
+  stopNaturalReadingAudio({ clearSource: true });
+
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/tts/reading`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ text: script, language: learningPathState.language })
+    });
+    if (!response.ok) throw new Error('No se pudo preparar la voz natural.');
+    const responseType = response.headers.get('content-type') || '';
+    let audioSource = '';
+    if (responseType.includes('application/json')) {
+      const payload = await response.json();
+      audioSource = String(payload?.audioUrl || '');
+    } else {
+      const audioBlob = await response.blob();
+      if (!audioBlob.size) throw new Error('Gemini no devolvió audio.');
+      audioSource = URL.createObjectURL(audioBlob);
+      naturalReadingAudioState.objectUrl = audioSource;
+    }
+    if (!audioSource) throw new Error('No se pudo obtener el audio seguro.');
+    naturalReadingAudioState.audio = audio;
+    audio.src = audioSource;
+    audio.hidden = false;
+    audio.onended = () => {
+      const sourceNote = section.querySelector('.reading-audio-source');
+      if (sourceNote) sourceNote.textContent = 'Lectura completa con voz natural de ANDERGO.';
+    };
+    audio.onerror = () => {
+      showHomeToast('La voz natural no está disponible en este momento. Continuamos con la voz de tu dispositivo.');
+      stopNaturalReadingAudio({ clearSource: true });
+      if (readingSpeechPlayer.isSupported()) readingSpeechPlayer.playReading();
+    };
+    const sourceNote = section.querySelector('.reading-audio-source');
+    if (sourceNote) sourceNote.textContent = 'Voz natural segura de ANDERGO.';
+    await audio.play();
+  } catch (error) {
+    const sourceNote = section.querySelector('.reading-audio-source');
+    if (sourceNote) sourceNote.textContent = 'La voz natural no está disponible. Usamos la voz de tu dispositivo.';
+    if (readingSpeechPlayer.isSupported()) {
+      showHomeToast('Usamos la voz de tu dispositivo como respaldo.');
+      readingSpeechPlayer.playReading();
+    } else {
+      showHomeToast('No se pudo reproducir esta lectura en este dispositivo.');
+    }
+  } finally {
+    naturalReadingAudioState.requestInFlight = false;
+    if (button) {
+      button.disabled = false;
+      button.textContent = '✨ Voz natural';
+    }
+  }
+}
 
 function escapeHtml(value = '') {
   return String(value)
@@ -8957,18 +9039,14 @@ async function checkTutorConnection(statusElId = 'tutorConnectionStatus') {
   }
 }
 
-// Discreet "Te quedan N de 30 consultas" line - replaces the old permanent
-// "Conversación por voz / Corrección de pronunciación" Premium badge row
-// that used to sit here regardless of how much of the free quota was left.
-// Says nothing about Premium at all until the student actually hits the
-// limit (see openPaywallModal, called separately from the /api/ai/tutor
-// rejection). remaining: null (guest, or Premium/ceo - see
-// usageLimitService.checkUsage) means "no cap to show", so the line stays empty.
+// A single quota covers every Tutor IA exchange. Audio only reads the Tutor's
+// written reply aloud, so it must never be presented as a separate allowance
+// or imply that written messages are unlimited.
 function renderTutorUsageCounter({ remaining, limit }) {
   const text =
     remaining != null && limit != null
-      ? `Voz: te quedan ${remaining} de ${limit} consultas este mes. El chat escrito es ilimitado.`
-      : 'El chat escrito con el Tutor es ilimitado.';
+      ? `Tutor IA: te quedan ${remaining} de ${limit} consultas este mes.`
+      : '';
   document.querySelectorAll('[data-tutor-usage-counter]').forEach((el) => {
     el.textContent = text;
   });
@@ -11977,9 +12055,8 @@ function isTrueFalseExercise(item) {
 // errors) when the browser has no speechSynthesis at all - same
 // graceful-degradation rule as flashcard pronunciation.
 function renderReadingAudioPlayerHtml(snapshot) {
-  if (!readingSpeechPlayer.isSupported()) {
-    return `<p class="reading-audio-unavailable no-print">La reproducción de voz no está disponible en este dispositivo.</p>`;
-  }
+  const browserSpeechAvailable = readingSpeechPlayer.isSupported();
+  const hasNaturalReadingVoice = isPremiumUser();
   const isPlaying = snapshot.state === 'playing';
   const isPaused = snapshot.state === 'paused';
   const playPauseLabel = isPlaying ? '⏸ Pausar' : isPaused ? '▶ Continuar' : '▶ Reproducir';
@@ -11993,9 +12070,10 @@ function renderReadingAudioPlayerHtml(snapshot) {
   return `
     <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de audio: escucha el texto completo de esta lectura">
       <div class="reading-audio-controls">
-        <button type="button" class="reading-audio-btn reading-audio-playpause-btn${isPlaying ? ' is-active' : ''}" aria-label="${playPauseAria}">${playPauseLabel}</button>
-        <button type="button" class="reading-audio-btn reading-audio-rewind-btn" aria-label="Retroceder cinco segundos" ${seekDisabled}>↶ 5 s</button>
-        <button type="button" class="reading-audio-btn reading-audio-stop-btn" aria-label="Detener lectura" ${snapshot.state === 'idle' || snapshot.state === 'stopped' ? 'disabled' : ''}>⏹ Detener</button>
+        <button type="button" class="reading-audio-btn reading-audio-natural-btn${hasNaturalReadingVoice ? '' : ' is-locked'}" aria-label="${hasNaturalReadingVoice ? 'Reproducir con voz natural' : 'Voz natural disponible con Premium'}" title="${hasNaturalReadingVoice ? 'Voz natural de ANDERGO' : 'Disponible con ANDERGO Premium'}">${hasNaturalReadingVoice ? '✨ Voz natural' : '🔒 Voz natural · Premium'}</button>
+        <button type="button" class="reading-audio-btn reading-audio-playpause-btn${isPlaying ? ' is-active' : ''}" aria-label="${playPauseAria}" ${browserSpeechAvailable ? '' : 'disabled'}>${playPauseLabel}</button>
+        <button type="button" class="reading-audio-btn reading-audio-rewind-btn" aria-label="Retroceder cinco segundos" ${browserSpeechAvailable ? seekDisabled : 'disabled'}>↶ 5 s</button>
+        <button type="button" class="reading-audio-btn reading-audio-stop-btn" aria-label="Detener lectura" ${browserSpeechAvailable && snapshot.state !== 'idle' && snapshot.state !== 'stopped' ? '' : 'disabled'}>⏹ Detener</button>
         <button type="button" class="reading-audio-btn reading-audio-voice-btn" aria-label="Cambiar voz" title="${snapshot.voiceName ? `Voz: ${escapeHtml(snapshot.voiceName)}` : ''}" ${snapshot.canChangeVoice ? '' : 'hidden'}>🔄 <span class="reading-audio-voice-label">${escapeHtml(snapshot.voiceLabel || '')}</span></button>
         <div class="reading-audio-rate-group" role="group" aria-label="Velocidad de lectura">
           <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'slow' ? ' is-active' : ''}" data-rate="slow" aria-pressed="${snapshot.rateKey === 'slow'}">Lenta</button>
@@ -12010,6 +12088,8 @@ function renderReadingAudioPlayerHtml(snapshot) {
           <span class="reading-audio-status" aria-live="polite">${statusLabel}</span>
         </div>
       </div>
+      <p class="reading-audio-source">${hasNaturalReadingVoice ? 'Voz natural de ANDERGO. Si no está disponible, continuamos con la voz de tu dispositivo.' : 'La voz de tu dispositivo está disponible para todos. La voz natural de ANDERGO es Premium.'}</p>
+      <audio class="reading-natural-audio" controls preload="none" hidden aria-label="Audio de la lectura con voz natural"></audio>
     </div>
   `;
 }
@@ -12134,6 +12214,15 @@ const READING_ILLUSTRATION_THEMES = [
       'student',
       'learn',
       'lesson',
+      'scuola',
+      'studente',
+      'impar',
+      'escola',
+      'aluno',
+      'aprend',
+      'schule',
+      'schuler',
+      'lernen',
       'école',
       'classe',
       'élève',
@@ -12159,6 +12248,7 @@ const READING_ILLUSTRATION_THEMES = [
       'trabajo',
       'empleo',
       'carrera'
+      , 'lavoro', 'carriera', 'ufficio', 'trabalho', 'emprego', 'escritorio', 'arbeit', 'beruf', 'buro'
     ]
   },
   {
@@ -12173,6 +12263,7 @@ const READING_ILLUSTRATION_THEMES = [
       'numérique',
       'redes',
       'digital'
+      , 'rete', 'digitale', 'internet', 'redes', 'tecnologia', 'netzwerk', 'digitales'
     ]
   },
   {
@@ -12188,6 +12279,7 @@ const READING_ILLUSTRATION_THEMES = [
       'environnement',
       'medio ambiente',
       'clima'
+      , 'ambiente', 'ecologia', 'umwelt', 'klima', 'nachhalt'
     ]
   },
   {
@@ -12204,6 +12296,7 @@ const READING_ILLUSTRATION_THEMES = [
       'viaje',
       'tren',
       'aeropuerto'
+      , 'viaggio', 'aeroporto', 'ferias', 'viagem', 'aeroporto', 'reise', 'flughafen', 'zug'
     ]
   },
   {
@@ -12219,6 +12312,7 @@ const READING_ILLUSTRATION_THEMES = [
       'stress',
       'salud',
       'bienestar'
+      , 'salute', 'benessere', 'saude', 'gesundheit', 'wohlbefinden'
     ]
   },
   {
@@ -12247,6 +12341,7 @@ const READING_ILLUSTRATION_THEMES = [
       'indipendenza',
       'unita',
       'unidade'
+      , 'comunidade', 'bairro', 'comunita', 'quartiere', 'gemeinschaft', 'nachbarschaft', 'stadt'
     ]
   },
   {
@@ -12277,6 +12372,7 @@ const READING_ILLUSTRATION_THEMES = [
       'tradicao',
       'tradizione',
       'tradition'
+      , 'cultura', 'arte', 'musica', 'cinema', 'kultur', 'kunst', 'musik', 'film'
     ]
   },
   {
@@ -12291,6 +12387,7 @@ const READING_ILLUSTRATION_THEMES = [
       'technología',
       'inteligencia artificial',
       'automatización'
+      , 'tecnologia', 'intelligenza artificiale', 'tecnologia', 'inteligencia artificial', 'technologie', 'kunstliche intelligenz'
     ]
   },
   {
@@ -12306,6 +12403,7 @@ const READING_ILLUSTRATION_THEMES = [
       'ciencia',
       'investigación',
       'cerebro'
+      , 'scienza', 'ricerca', 'ciencia', 'pesquisa', 'wissenschaft', 'forschung', 'gehirn'
     ]
   },
   {
@@ -12321,6 +12419,7 @@ const READING_ILLUSTRATION_THEMES = [
       'familia',
       'amigo',
       'amistad'
+      , 'famiglia', 'amico', 'relazione', 'familia', 'amizade', 'familie', 'freund', 'beziehung'
     ]
   },
   {
@@ -12339,6 +12438,7 @@ const READING_ILLUSTRATION_THEMES = [
       'mercado',
       'precio',
       'comida'
+      , 'cibo', 'mercato', 'prezzo', 'comida', 'mercado', 'preco', 'essen', 'markt', 'preis'
     ]
   }
 ];
@@ -12713,10 +12813,10 @@ const READING_CULTURAL_CALENDAR = Object.freeze({
   }
 });
 
-// Every unit has one main reading and two companion readings. The companion
-// programme rotates real celebrations, public memories and everyday customs
-// of the target-language community; authored variants, when supplied in the
-// lesson data, always take precedence over these programme texts.
+// Every unit offers three independent readings. The programme rotates real
+// celebrations, public memories and everyday customs of the target-language
+// community; authored variants, when supplied in the lesson data, always take
+// precedence over these programme texts.
 const READING_COMPANION_PROGRAMME = Object.freeze({
   english: [
     [
@@ -12829,9 +12929,9 @@ function limitReadingWords(text, maxWords) {
   return paragraphs.join('\n\n');
 }
 
-// Companion texts must be substantial enough for the CEFR level shown on
-// their card. A cultural alternative is not a preview: it needs enough
-// language for sustained reading, especially from B1 onward.
+// Every library reading must be substantial enough for its CEFR level. It is
+// never a preview or a secondary text: it needs enough language for sustained
+// reading, especially from B1 onward.
 function getCompanionReadingMinimumWords(level) {
   const byLevel = { A1: 90, A2: 120, B1: 175, B2: 250, C1: 320, C2: 390 };
   return byLevel[String(level || '').toUpperCase()] || 120;
@@ -13626,16 +13726,16 @@ function getReadingTopicChoices(lesson) {
 function getSelectedReadingTopic(lesson) {
   const choices = getReadingTopicChoices(lesson);
   if (!choices.length) return null;
-  // The route always teaches the principal reading. A prior optional library
-  // selection must never replace the text required by the unit sequence.
+  // The route always teaches its scheduled reading. A library selection must
+  // never replace the text required by the unit sequence.
   if (learningPathState.skillEntryContext === 'route') return choices[0];
   const selectedId = readingTopicSelections.get(lesson.slug);
   return choices.find((choice) => choice.id === selectedId) || choices[0];
 }
 
 function readingNeedsRouteTopicChoice(lesson) {
-  // A route has one required Reading activity: its authored main text.
-  // Complementary texts are optional practice and belong in the library.
+  // The guided route has one scheduled Reading activity. The remaining
+  // independent readings are available by title in the Reading library.
   return false;
 }
 
@@ -13832,14 +13932,62 @@ function resetReadingComprehensionRuntime(slug, questionCount = null) {
 }
 
 function getReadingQuestionCountConfig(lesson, entries, runtime) {
-  const level = String(lesson?.level || '').toUpperCase();
-  // Reading is a compact test, not a question carousel: A1 always shows
-  // four grounded checks, and every later CEFR level shows five together.
-  // Extra legacy exercises remain out of this assessment rather than making
-  // the activity longer or giving the learner a separate quantity choice.
-  const required = level === 'A1' ? 4 : 5;
+  // Every reading, regardless of level or whether it is the principal,
+  // cultural or applied text, ends with the same compact four-question
+  // challenge. This makes the library predictable and mobile-friendly.
+  const required = 4;
   const selected = Math.min(required, entries.length);
   return { choices: [selected], selected, canChooseCount: false };
+}
+
+function generatedReadingQuestionCopy(language) {
+  const copies = {
+    english: 'Which statement appears in the reading?',
+    spanish: '¿Qué afirmación aparece en la lectura?',
+    french: 'Quelle affirmation apparaît dans le texte ?',
+    italian: 'Quale affermazione appare nella lettura?',
+    portuguese: 'Qual afirmação aparece na leitura?',
+    german: 'Welche Aussage steht im Lesetext?'
+  };
+  return copies[language] || copies.english;
+}
+
+function buildGeneratedReadingComprehensionEntries(lesson) {
+  const sentences = getReadingParagraphs(lesson)
+    .flatMap((paragraph) => String(paragraph).match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [])
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => sentence.split(/\s+/).length >= 4 && sentence.length <= 230);
+  if (sentences.length < 4) return [];
+  return Array.from({ length: 4 }, (_, questionIndex) => {
+    const correctIndex = Math.min(
+      sentences.length - 1,
+      Math.floor((questionIndex * sentences.length) / 4)
+    );
+    const optionIndexes = [correctIndex];
+    for (let offset = 1; optionIndexes.length < 4 && offset < sentences.length; offset += 1) {
+      const candidate = (correctIndex + offset * (questionIndex + 1)) % sentences.length;
+      if (!optionIndexes.includes(candidate)) optionIndexes.push(candidate);
+    }
+    const options = optionIndexes.map((index) => sentences[index]);
+    const answer = options.indexOf(sentences[correctIndex]);
+    return {
+      item: {
+        type: 'mcq',
+        prompt: generatedReadingQuestionCopy(lesson.language || learningPathState.language),
+        options,
+        answer,
+        generatedReadingQuestion: true
+      },
+      exerciseIndex: `generated-reading-${questionIndex}`
+    };
+  });
+}
+
+function getFourReadingComprehensionEntries(lesson) {
+  const authored = (lesson.exercises || [])
+    .map((item, exerciseIndex) => ({ item, exerciseIndex }))
+    .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item));
+  return authored.length >= 4 ? authored.slice(0, 4) : buildGeneratedReadingComprehensionEntries(lesson);
 }
 
 function getVisibleReadingComprehensionEntries(lesson, entries) {
@@ -14019,12 +14167,13 @@ function renderReadingComprehensionQuiz(lesson, entries) {
     .join('');
 
   const allAnswered = answeredCount === total;
+  const allCorrected = visibleEntries.every(({ exerciseIndex }) => runtime.results[exerciseIndex]);
 
   const actionsHtml = runtime.graded
     ? `<button type="button" class="primary-btn reading-comp-retry-btn" data-lesson-slug="${escapeHtml(lesson.slug)}">${french ? 'Réessayer' : 'Intentar de nuevo'}</button>`
     : `
-      <button type="button" class="primary-btn reading-comp-submit-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" ${allAnswered && !runtime.grading ? '' : 'disabled'}>${runtime.grading ? (french ? 'Évaluation…' : 'Evaluando...') : french ? 'Évaluer' : 'Evaluar'}</button>
-      ${!allAnswered ? `<p class="reading-comp-hint">${french ? 'Répondez à toutes les questions avant l’évaluation.' : 'Responde todas las preguntas antes de evaluar.'}</p>` : ''}
+      <button type="button" class="primary-btn reading-comp-submit-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" ${allCorrected && !runtime.grading ? '' : 'disabled'}>${runtime.grading ? (french ? 'Enregistrement…' : 'Guardando...') : french ? 'Enregistrer le résultat' : 'Guardar resultado'}</button>
+      ${!allCorrected ? `<p class="reading-comp-hint">${french ? 'Chaque réponse est corrigée immédiatement.' : 'Cada respuesta se corrige al instante.'}</p>` : ''}
     `;
 
   const errorHtml = runtime.error
@@ -14292,13 +14441,7 @@ function renderReadingView(section, lesson) {
   // server-side (lib/lessonsService.js#checkAnswer), and non-mcq exercises
   // interleaved in the source data would otherwise desync the index sent
   // from the one actually graded.
-  const mcqEntries = (lesson.exercises || [])
-    .map((item, exerciseIndex) => ({ item, exerciseIndex }))
-    .filter(({ item }) => item.type === 'mcq');
-  // True/false questions are not shown in Reading (product decision - only
-  // the 4-option comprehension quiz is graded here) - excluded so they never
-  // leak into it either.
-  const comprehensionEntries = mcqEntries.filter(({ item }) => !isTrueFalseExercise(item));
+  const comprehensionEntries = getFourReadingComprehensionEntries(lesson);
   const exercisesHtml = renderReadingComprehensionQuiz(lesson, comprehensionEntries);
 
   // Attaching is a no-op when this is the same lesson already loaded -
@@ -14328,6 +14471,9 @@ function renderReadingView(section, lesson) {
     lesson.language || learningPathState.language || 'english'
   );
   const french = isFrenchAdvancedImmersion();
+  const wikipediaExplorerHtml = isFinalReadingSection
+    ? renderReadingWikipediaExplorerHtml(lesson, learningPathState.language)
+    : '';
 
   content.innerHTML = `
     <div class="reading-print-area skill-print-area" data-reading-size="${displayPreferences.size}" data-reading-font="${displayPreferences.font}" data-reading-alignment="${displayPreferences.alignment}">
@@ -14378,11 +14524,13 @@ function renderReadingView(section, lesson) {
         ${culturalContextHtml}
         <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
         ${referencesHtml}
+        ${wikipediaExplorerHtml}
         ${
           isFinalReadingSection
             ? `<p class="reading-download-note"><em>${escapeHtml(readingDownloadNote)}</em></p>`
             : ''
         }
+        ${isFinalReadingSection ? exercisesHtml : ''}
         <p class="reading-selection-hint reading-selection-hint--footer no-print">
           <span aria-hidden="true">🌐</span>
           ${french ? 'Double-clic ou deux touchers : traduisez, écoutez, consultez ou enregistrez des mots (Premium). Surlignez une expression pour la traduire instantanément avec ANDERGO. Chaque leçon est alignée sur le CECRL.' : 'Doble clic o dos toques: traduce, escucha, consulta o guarda palabras (Premium). Sombrea una frase para traducirla al instante con ANDERGO. Cada lección ha sido nivelada según el MCERL (Marco Común Europeo de Referencia de las Lenguas).'}
@@ -14410,6 +14558,7 @@ function renderReadingView(section, lesson) {
     </div>
   `;
   applyReadingDisplayPreferences(content.querySelector('.reading-print-area'), displayPreferences);
+  if (isFinalReadingSection) initReadingWikipediaExplorer(content, lesson, learningPathState.language);
 
   // Re-registered on every render (cheap, idempotent) so the player's
   // callbacks always point at the DOM this exact render produced, even
@@ -14423,6 +14572,122 @@ function renderReadingView(section, lesson) {
       updateReadingHighlight(section, snap);
     }
   });
+}
+
+// Wikipedia is a reading extension, not a copy of its articles: we request a
+// short result list from the official REST API and always send the learner to
+// the original article.  Each learning language maps to its own Wikipedia.
+const WIKIPEDIA_LANGUAGE_CODES = {
+  english: 'en',
+  spanish: 'es',
+  french: 'fr',
+  german: 'de',
+  italian: 'it',
+  portuguese: 'pt',
+  haitianCreole: 'ht'
+};
+
+const WIKIPEDIA_EXPLORER_COPY = {
+  english: { eyebrow: 'EXPLORE MORE', title: 'Continue reading in English', placeholder: 'Search a topic in English', search: 'Search', loading: 'Finding related articles…', empty: 'No related article was found. Try another topic.', source: 'Results from Wikipedia' },
+  spanish: { eyebrow: 'EXPLORA MÁS', title: 'Sigue leyendo en español', placeholder: 'Busca un tema en español', search: 'Buscar', loading: 'Buscando artículos relacionados…', empty: 'No encontramos un artículo relacionado. Prueba otro tema.', source: 'Resultados de Wikipedia' },
+  french: { eyebrow: 'DÉCOUVRIR PLUS', title: 'Continuez à lire en français', placeholder: 'Recherchez un sujet en français', search: 'Rechercher', loading: 'Recherche d’articles associés…', empty: 'Aucun article associé trouvé. Essayez un autre sujet.', source: 'Résultats de Wikipédia' },
+  german: { eyebrow: 'WEITERLESEN', title: 'Lies auf Deutsch weiter', placeholder: 'Suche ein Thema auf Deutsch', search: 'Suchen', loading: 'Ähnliche Artikel werden gesucht…', empty: 'Kein passender Artikel gefunden. Versuche ein anderes Thema.', source: 'Ergebnisse von Wikipedia' },
+  italian: { eyebrow: 'ESPLORA DI PIÙ', title: 'Continua a leggere in italiano', placeholder: 'Cerca un argomento in italiano', search: 'Cerca', loading: 'Cerco articoli correlati…', empty: 'Nessun articolo correlato trovato. Prova un altro argomento.', source: 'Risultati di Wikipedia' },
+  portuguese: { eyebrow: 'EXPLORE MAIS', title: 'Continue lendo em português', placeholder: 'Pesquise um tema em português', search: 'Pesquisar', loading: 'Buscando artigos relacionados…', empty: 'Nenhum artigo relacionado encontrado. Tente outro tema.', source: 'Resultados da Wikipédia' },
+  haitianCreole: { eyebrow: 'DEKOUVRI PLIS', title: 'Kontinye li an kreyòl ayisyen', placeholder: 'Chèche yon sijè an kreyòl ayisyen', search: 'Chèche', loading: 'N ap chèche atik ki gen rapò…', empty: 'Nou pa jwenn atik ki gen rapò. Eseye yon lòt sijè.', source: 'Rezilta ki soti nan Wikipedya' }
+};
+
+function getWikipediaExplorerCopy(language) {
+  return WIKIPEDIA_EXPLORER_COPY[language] || WIKIPEDIA_EXPLORER_COPY.english;
+}
+
+function getWikipediaSearchQuery(lesson) {
+  return String(lesson?.reading?.title || lesson?.title || lesson?.description || '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 160);
+}
+
+function renderReadingWikipediaExplorerHtml(lesson, language) {
+  const copy = getWikipediaExplorerCopy(language);
+  const query = getWikipediaSearchQuery(lesson);
+  if (!WIKIPEDIA_LANGUAGE_CODES[language] || !query) return '';
+  return `
+    <aside class="reading-wikipedia-explorer no-print" data-wikipedia-language="${escapeHtml(language)}" aria-label="${escapeHtml(copy.title)}">
+      <div class="reading-wikipedia-heading">
+        <span>W</span>
+        <div><small>${escapeHtml(copy.eyebrow)}</small><h4>${escapeHtml(copy.title)}</h4></div>
+      </div>
+      <div class="reading-wikipedia-search">
+        <input type="search" class="reading-wikipedia-query" value="${escapeHtml(query)}" placeholder="${escapeHtml(copy.placeholder)}" maxlength="160" aria-label="${escapeHtml(copy.placeholder)}">
+        <button type="button" class="reading-wikipedia-search-btn">${escapeHtml(copy.search)}</button>
+      </div>
+      <p class="reading-wikipedia-status" aria-live="polite">${escapeHtml(copy.loading)}</p>
+      <div class="reading-wikipedia-results"></div>
+      <small class="reading-wikipedia-source">${escapeHtml(copy.source)} · <a href="https://${WIKIPEDIA_LANGUAGE_CODES[language]}.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a></small>
+    </aside>
+  `;
+}
+
+function wikipediaArticleUrl(languageCode, title) {
+  return `https://${languageCode}.wikipedia.org/wiki/${encodeURIComponent(String(title || '').replaceAll(' ', '_'))}`;
+}
+
+function initReadingWikipediaExplorer(content, lesson, language) {
+  const explorer = content.querySelector('.reading-wikipedia-explorer');
+  const input = explorer?.querySelector('.reading-wikipedia-query');
+  const searchButton = explorer?.querySelector('.reading-wikipedia-search-btn');
+  const results = explorer?.querySelector('.reading-wikipedia-results');
+  const status = explorer?.querySelector('.reading-wikipedia-status');
+  const languageCode = WIKIPEDIA_LANGUAGE_CODES[language];
+  const copy = getWikipediaExplorerCopy(language);
+  if (!explorer || !input || !searchButton || !results || !status || !languageCode) return;
+
+  let requestId = 0;
+  const search = async () => {
+    const query = String(input.value || '').trim().slice(0, 160);
+    if (!query) return;
+    const currentRequest = ++requestId;
+    searchButton.disabled = true;
+    status.textContent = copy.loading;
+    results.innerHTML = '';
+    try {
+      const endpoint = `${backendBaseUrl}/api/wikipedia/search?language=${encodeURIComponent(languageCode)}&q=${encodeURIComponent(query)}`;
+      const response = await fetch(endpoint, { headers: { Accept: 'application/json' } });
+      if (!response.ok) throw new Error(`Wikipedia search ${response.status}`);
+      const payload = await response.json();
+      if (currentRequest !== requestId) return;
+      const pages = Array.isArray(payload?.pages) ? payload.pages : [];
+      if (!pages.length) {
+        status.textContent = copy.empty;
+        return;
+      }
+      status.textContent = '';
+      results.innerHTML = pages
+        .map((page) => {
+          const title = String(page.title || '').trim();
+          const description = String(page.description || page.excerpt || '')
+            .replace(/<[^>]*>/g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+          if (!title) return '';
+          return `<a class="reading-wikipedia-result" href="${escapeHtml(wikipediaArticleUrl(languageCode, page.key || title))}" target="_blank" rel="noopener noreferrer"><strong>${escapeHtml(title)}</strong>${description ? `<span>${escapeHtml(description)}</span>` : ''}<b aria-hidden="true">↗</b></a>`;
+        })
+        .join('');
+    } catch (error) {
+      if (currentRequest === requestId) status.textContent = copy.empty;
+    } finally {
+      if (currentRequest === requestId) searchButton.disabled = false;
+    }
+  };
+  searchButton.addEventListener('click', search);
+  input.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      search();
+    }
+  });
+  search();
 }
 
 function normalizeWritingPracticeAnswer(value) {
@@ -15742,7 +16007,7 @@ function getSpeakingDialogueSource(lesson) {
   };
   const continuations = {
     english: [
-      ['Is that clear?', 'Yes, it is clear.'],
+      ['Where are you from?', 'I’m from Mexico. What about you?'],
       ['Can we continue?', 'Yes. Let’s continue.'],
       [
         'What makes that important in this situation?',
@@ -15774,7 +16039,7 @@ function getSpeakingDialogueSource(lesson) {
       ]
     ],
     french: [
-      ['Est-ce que c’est clair ?', 'Oui, c’est clair.'],
+      ['Tu viens d’où ?', 'Je viens du Mexique. Et toi ?'],
       ['On peut continuer ?', 'Oui. Continuons.'],
       [
         'Pourquoi est-ce important dans cette situation ?',
@@ -15806,7 +16071,7 @@ function getSpeakingDialogueSource(lesson) {
       ]
     ],
     spanish: [
-      ['¿Está claro?', 'Sí, está claro.'],
+      ['¿De dónde eres?', 'Soy de México. ¿Y tú?'],
       ['¿Podemos continuar?', 'Sí. Continuemos.'],
       [
         '¿Por qué es importante en esta situación?',
@@ -15838,7 +16103,7 @@ function getSpeakingDialogueSource(lesson) {
       ]
     ],
     italian: [
-      ['Ti è chiaro?', 'Sì, mi è chiaro.'],
+      ['Di dove sei?', 'Sono del Messico. E tu?'],
       ['Possiamo continuare?', 'Sì, continuiamo.'],
       [
         'Perché è importante in questa situazione?',
@@ -15870,7 +16135,7 @@ function getSpeakingDialogueSource(lesson) {
       ]
     ],
     portuguese: [
-      ['Está claro para você?', 'Sim, está claro.'],
+      ['De onde você é?', 'Sou do México. E você?'],
       ['Podemos continuar?', 'Sim. Vamos continuar.'],
       [
         'Por que isso é importante nesta situação?',
@@ -15899,7 +16164,7 @@ function getSpeakingDialogueSource(lesson) {
       ['Então chegamos a uma conclusão?', 'Sim. Entendemos a ideia principal e podemos continuar.']
     ],
     german: [
-      ['Ist das klar?', 'Ja, das ist klar.'],
+      ['Woher kommst du?', 'Ich komme aus Mexiko. Und du?'],
       ['Können wir weitermachen?', 'Ja. Machen wir weiter.'],
       [
         'Warum ist das in dieser Situation wichtig?',
@@ -15930,6 +16195,36 @@ function getSpeakingDialogueSource(lesson) {
         'Ja. Wir haben die Hauptidee verstanden und können weitermachen.'
       ]
     ]
+  };
+  // A generated extension must never leave a learner on an open question or
+  // finish with a teacher-like checking phrase. These pairs close the social
+  // exchange in the target language. The question variant first answers the
+  // learner's last turn (for example, “And you?”) and then ends the dialogue.
+  const closingPairs = {
+    english: {
+      standard: ['It was nice talking to you.', 'Nice talking to you too. See you soon!'],
+      response: ['I’m fine too, thank you.', 'That’s good to hear. It was nice talking to you.', 'Nice talking to you too. See you soon!']
+    },
+    french: {
+      standard: ['C’était agréable de parler avec toi.', 'Moi aussi. À bientôt !'],
+      response: ['Moi aussi, je vais bien, merci.', 'C’est bien. C’était agréable de parler avec toi.', 'Moi aussi. À bientôt !']
+    },
+    spanish: {
+      standard: ['Fue un gusto hablar contigo.', 'Igualmente. ¡Hasta pronto!'],
+      response: ['Yo también estoy bien, gracias.', 'Me alegra. Fue un gusto hablar contigo.', 'Igualmente. ¡Hasta pronto!']
+    },
+    italian: {
+      standard: ['È stato un piacere parlare con te.', 'Anche per me. A presto!'],
+      response: ['Anch’io sto bene, grazie.', 'Mi fa piacere. È stato un piacere parlare con te.', 'Anche per me. A presto!']
+    },
+    portuguese: {
+      standard: ['Foi um prazer falar com você.', 'O prazer foi meu. Até breve!'],
+      response: ['Eu também estou bem, obrigado(a).', 'Que bom. Foi um prazer falar com você.', 'O prazer foi meu. Até breve!']
+    },
+    german: {
+      standard: ['Es war schön, mit dir zu sprechen.', 'Fand ich auch. Bis bald!'],
+      response: ['Mir geht es auch gut, danke.', 'Das freut mich. Es war schön, mit dir zu sprechen.', 'Fand ich auch. Bis bald!']
+    }
   };
   const names = namePools[language] || namePools.english;
   const participantLimit = ['A1', 'A2'].includes(level) ? 2 : Math.min(3, names.length);
@@ -16172,15 +16467,43 @@ function getSpeakingDialogueSource(lesson) {
     line: completeLine(line.line, line.speaker)
   }));
   const additions = continuations[language] || continuations.english;
+  const closeOptions = closingPairs[language] || closingPairs.english;
+  const hasNaturalClosing = (line) =>
+    /\b(bye|goodbye|see you|take care|à bientôt|au revoir|hasta pronto|hasta luego|adiós|a presto|arrivederci|até breve|tchau|bis bald|auf wiedersehen)\b/i.test(
+      String(line || '')
+    );
+  const sourceAlreadyConcludes = hasNaturalClosing(completeLines.at(-1)?.line);
+  let requiresConclusion = !sourceAlreadyConcludes;
   let additionIndex = 0;
-  while (completeLines.length < targetTurns) {
-    const pair = additions[additionIndex % additions.length];
-    pair.forEach((line, pairIndex) => {
-      if (completeLines.length < targetTurns) {
-        completeLines.push({ speaker: names[completeLines.length % 2], line });
-      }
+
+  const appendPair = (pair) => {
+    pair.forEach((line) => {
+      completeLines.push({ speaker: names[completeLines.length % 2], line });
     });
+  };
+
+  // Authored dialogues that already say goodbye are complete as written. Do
+  // not append generic turns after a natural ending merely to reach a count.
+  while (!sourceAlreadyConcludes && completeLines.length < targetTurns) {
+    const remaining = targetTurns - completeLines.length;
+    // Reserve the final exchange for a proper ending. If there is not enough
+    // room for both a filler pair and a closing pair, prefer the conclusion.
+    if (requiresConclusion && remaining < 4) {
+      const lastLine = completeLines.at(-1)?.line || '';
+      appendPair(/\?\s*$/.test(lastLine) ? closeOptions.response : closeOptions.standard);
+      requiresConclusion = false;
+      continue;
+    }
+    const pair = additions[additionIndex % additions.length];
+    appendPair(pair);
     additionIndex += 1;
+  }
+  // Source content can already equal the target length while still ending in
+  // an unfinished question. Preserve the authored turns, then add a concise
+  // resolution instead of exposing an abrupt stopping point.
+  if (requiresConclusion) {
+    const lastLine = completeLines.at(-1)?.line || '';
+    appendPair(/\?\s*$/.test(lastLine) ? closeOptions.response : closeOptions.standard);
   }
   return {
     // sourceLesson (not necessarily `lesson` itself) is what comprehension
@@ -16216,7 +16539,7 @@ function renderSpeakingModeTabsHtml(activeMode) {
     id: 'corrector',
     icon: '✍️',
     label: 'Corrector',
-    hint: 'Corrige y mejora lo que hablas'
+    hint: 'Corrige y mejora tu discurso.'
   });
   modes[2].label = 'Hablar con el Tutor';
   modes[2].hint = 'Conversación flexible por voz';
@@ -18377,7 +18700,6 @@ function normalizeVocabContexts(item) {
           : [];
   const normalized = authored
     .filter((ctx) => ctx && (typeof ctx === 'string' || ctx.targetText || ctx.text))
-    .slice(0, 2)
     .map((ctx) => ({
       targetText: typeof ctx === 'string' ? ctx : ctx.targetText || ctx.text || '',
       supportText: ctx.supportText || ctx.translation || ''
@@ -18398,7 +18720,7 @@ function normalizeVocabContexts(item) {
       normalized.push({ targetText: text, supportText: '' });
     }
   }
-  return normalized.slice(0, 2);
+  return normalized;
 }
 
 function getVocabularyExampleFallbacks(word, seed, language) {
@@ -18468,12 +18790,39 @@ function getVocabularyExampleFallbacks(word, seed, language) {
         : null;
   if (curatedContexts) return curatedContexts;
 
-  // A generic template would mention a vocabulary form without using it
-  // naturally (and would be ungrammatical for many verbs, adjectives and
-  // multi-word expressions). It is better to show the authored sentence
-  // alone than fabricate a pseudo-example. New second examples are authored
-  // per word so they can be both practical and motivating.
-  return [];
+  // Not every imported catalogue entry has its two authored examples yet.
+  // Never leave a learner with a blank card: these are deliberately framed
+  // as short, usable micro-practices (the term is quoted, so they remain
+  // correct for nouns, verbs, adjectives and complete expressions alike).
+  // Authored examples above always take precedence and progressively replace
+  // this bridge content as the catalogue is enriched.
+  const practiceByLanguage = {
+    english: [
+      `In class, I hear the word “${cleanWord}”.`,
+      `I repeat “${cleanWord}” aloud before I continue.`
+    ],
+    french: [
+      `En cours, j’entends le mot « ${cleanWord} » .`,
+      `Je répète « ${cleanWord} » à voix haute avant de continuer.`
+    ],
+    spanish: [
+      `En clase escucho la palabra «${cleanWord}».`,
+      `Repito «${cleanWord}» en voz alta antes de continuar.`
+    ],
+    italian: [
+      `In classe sento la parola «${cleanWord}».`,
+      `Ripeto «${cleanWord}» ad alta voce prima di continuare.`
+    ],
+    portuguese: [
+      `Na aula, ouço a palavra «${cleanWord}».`,
+      `Repito «${cleanWord}» em voz alta antes de continuar.`
+    ],
+    german: [
+      `Im Unterricht höre ich das Wort „${cleanWord}“.`,
+      `Ich wiederhole „${cleanWord}“ laut, bevor ich weitermache.`
+    ]
+  };
+  return practiceByLanguage[language] || practiceByLanguage.english;
 }
 
 const VOCABULARY_L2_UI = {
@@ -18626,7 +18975,46 @@ function getConciseVocabularyDefinition(item) {
   return `${firstSentence.slice(0, boundary > 52 ? boundary : limit).trim()}…`;
 }
 
+// Concrete, word-level visual anchors for English A1. Category-wide emojis
+// made unrelated cards look identical (for example every food item was an
+// apple), which is unhelpful when a learner scans a compact mobile deck.
+const ENGLISH_A1_VOCABULARY_ICONS = Object.freeze({
+  hello: '👋', 'good morning': '🌅', name: '🏷️', teacher: '👩‍🏫', friend: '🧑‍🤝‍🧑',
+  'nice to meet you': '🤝', goodbye: '👋', please: '🙏', happy: '😊', sad: '😢',
+  tired: '😴', country: '🌍', age: '🎂', 'years old': '🎈', fine: '👌', student: '🧑‍🎓',
+  mother: '👩', father: '👨', sister: '👧', brother: '👦', grandmother: '👵',
+  grandfather: '👴', cousin: '🧑', family: '👨‍👩‍👧‍👦', classroom: '🏫', pencil: '✏️',
+  notebook: '📓', whiteboard: '⬜', subject: '📘', desk: '🪑', homework: '📝', book: '📚',
+  'wake up': '⏰', 'get up': '🛏️', breakfast: '🥣', 'walk to school': '🚶',
+  dinner: '🍽️', 'go to bed': '🌙', 'every day': '📅', "o'clock": '🕐',
+  'quarter past': '🕒', 'half past': '🕧', monday: '📆', weekend: '🎉', birthday: '🎂',
+  month: '🗓️', today: '📍', rice: '🍚', chicken: '🍗', fruit: '🍓', vegetables: '🥦',
+  water: '💧', juice: '🧃', hungry: '😋', kitchen: '🍳', bedroom: '🛏️',
+  'living room': '🛋️', bathroom: '🛁', bed: '🛏️', sofa: '🛋️', closet: '🚪', table: '🪑',
+  park: '🌳', supermarket: '🛒', bank: '🏦', bakery: '🥖', pharmacy: '💊',
+  straight: '⬆️', near: '📍', far: '↔️', soccer: '⚽', basketball: '🏀',
+  swimming: '🏊', read: '📖', paint: '🖌️', 'video game': '🎮', 'free time': '🎲',
+  shirt: '👕', pants: '👖', shoes: '👟', dress: '👗', size: '📏', price: '🏷️',
+  wear: '🧥', color: '🎨', sunny: '☀️', rainy: '🌧️', cold: '🥶', hot: '🥵',
+  trip: '🧳', pack: '🎒', beach: '🏖️', mountain: '⛰️'
+});
+
 function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = false }) {
+  const isPlayfulA1 = item.level === 'A1' && learningPathState.language === 'english';
+  const a1VisualIcon = (() => {
+    const term = String(item.targetWord || '').trim().toLocaleLowerCase();
+    if (ENGLISH_A1_VOCABULARY_ICONS[term]) return ENGLISH_A1_VOCABULARY_ICONS[term];
+    const category = String(item.category || '').toLocaleLowerCase();
+    if (/greeting|feeling|countr|family|people/.test(category)) return '🙂';
+    if (/school|class|book/.test(category)) return '📚';
+    if (/food|drink/.test(category)) return '🍎';
+    if (/room|furniture|home/.test(category)) return '🏠';
+    if (/town|place|travel/.test(category)) return '🗺️';
+    if (/hobby|sport/.test(category)) return '⚽';
+    if (/clothes|color/.test(category)) return '🎨';
+    if (/day|month|time/.test(category)) return '🗓️';
+    return ['🌟', '🎈', '🚀', '🦋', '🌈'][String(item.targetWord || '').length % 5];
+  })();
   const meta = VOCAB_MASTERY_META[item.masteryStatus] || VOCAB_MASTERY_META.new;
   const frenchStatusLabels = {
     new: 'Nouvelle',
@@ -18671,41 +19059,10 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   const useAdvancedDefinition = usesAdvancedVocabularyDefinition(item);
   const conciseDefinition = useAdvancedDefinition ? getConciseVocabularyDefinition(item) : '';
   const firstContext = item.contexts[0];
-  const additionalContexts = item.contexts.slice(1);
-  const catalogueExamplesHtml =
-    item.contexts.length
-      ? `<ol class="vocab-card-catalogue-examples" aria-label="Ejemplos prácticos">
-        ${item.contexts
-          // Two practical examples preserve useful context without turning a
-          // compact word card into a tall reading panel. Each remains
-          // independently playable.
-          .slice(0, 2)
-          .map(
-            (ctx, index) => `
-          <li>
-            <span aria-hidden="true">${index + 1}</span>
-            <div>
-              <p>${escapeHtml(ctx.targetText)}${canSpeak ? `<button type="button" class="vocab-card-catalogue-example-audio" data-speak-text="${escapeHtml(ctx.targetText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ejemplo ${index + 1}" title="Escuchar ejemplo">🔊</button>` : ''}</p>
-            </div>
-          </li>`
-          )
-          .join('')}
-      </ol>`
-      : '';
   const contextsHtml = firstContext
     ? `<div class="vocab-card-contexts">
-        ${renderVocabularyContextHtml(firstContext, item, canSpeak, isFrench)}
-        ${
-          additionalContexts.length || item.usageNote
-            ? `<details class="vocab-card-context-info">
-                <summary aria-label="${escapeHtml(l2Ui.multipleUses)}">ⓘ ${escapeHtml(l2Ui.multipleUses)}</summary>
-                <div class="vocab-card-context-info-body">
-                  ${additionalContexts.map((ctx) => renderVocabularyContextHtml(ctx, item, canSpeak, isFrench)).join('')}
-                  ${item.usageNote ? `<p class="vocab-card-usage-note">${escapeHtml(item.usageNote)}</p>` : ''}
-                </div>
-              </details>`
-            : ''
-        }
+        ${item.contexts.map((context) => renderVocabularyContextHtml(context, item, canSpeak, isFrench)).join('')}
+        ${item.usageNote ? `<p class="vocab-card-usage-note">${escapeHtml(item.usageNote)}</p>` : ''}
       </div>`
     : '';
 
@@ -18761,15 +19118,18 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     .map((part) => part.charAt(0))
     .join('')
     .toLocaleUpperCase();
-  const isUsefulExpression =
-    item.category === 'expression' || /\s/.test(String(item.targetWord || '').trim());
+  // A multi-word term ("Good morning", "Wake up") is still a key
+  // vocabulary item. Only intentionally authored expression cards belong in
+  // the expressions group; otherwise the card, its counter and its filter
+  // disagree with the catalogue grouping.
+  const isUsefulExpression = item.isExpressionCard || item.category === 'expression';
   const catalogueKind = isUsefulExpression ? 'expressions' : 'words';
 
   return `
-    <div class="vocab-card vocab-card--static${isUsefulExpression ? ' vocab-card--expression' : ''}" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''} ${item.category || ''}`.toLocaleLowerCase())}" data-vocab-category="${catalogueKind}" data-vocab-level="${escapeHtml(item.level || learningPathState.level || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
+    <div class="vocab-card vocab-card--static${isUsefulExpression ? ' vocab-card--expression' : ''}${isPlayfulA1 ? ' vocab-card--playful-a1' : ''}${item.contexts.length ? '' : ' vocab-card--no-examples'}" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''} ${item.category || ''}`.toLocaleLowerCase())}" data-vocab-category="${catalogueKind}" data-vocab-level="${escapeHtml(item.level || learningPathState.level || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
-          <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
+          <span class="vocab-card-compact-icon" aria-hidden="true">${isPlayfulA1 ? a1VisualIcon : escapeHtml(compactIconText || '•')}</span>
           <div class="vocab-card-word-block">
             <div class="vocab-card-target-row">
               <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
@@ -18792,11 +19152,11 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
                 ? `<p class="vocab-card-catalogue-definition">${escapeHtml(conciseDefinition || item.simpleDefinition || item.definition)}</p>`
                 : ''
             }
-            ${catalogueExamplesHtml}
           </div>
           <div class="vocab-card-front-footer">
             ${statusChipHtml}
-            <div class="vocab-card-catalogue-actions"><button type="button" class="vocab-retry-btn">Practicar</button><button type="button" class="vocab-know-btn">✓ Ya la sé</button></div>
+            ${item.contexts.length ? `<button type="button" class="vocab-details-btn">Ver ejemplos</button>` : ''}
+            <div class="vocab-card-catalogue-actions"><button type="button" class="vocab-know-btn" aria-label="${isFrench ? 'Marquer comme maîtrisée' : 'Marcar como dominada'}" title="${isFrench ? 'Marquer comme maîtrisée' : 'Marcar como dominada'}">✓ ${isFrench ? 'Maîtrisée' : 'Dominada'}</button></div>
           </div>
         </div>
         <div class="vocab-card-face vocab-card-back" aria-hidden="true">
@@ -19376,8 +19736,8 @@ const CURATED_ENGLISH_A1_VOCABULARY_DETAILS = {
   'good evening': { phonetic: '/ɡʊd ˈiːvnɪŋ/', contexts: ['Good evening. Do you have a table for two?', 'Good evening, everyone. Welcome to the meeting.'] },
   goodbye: { phonetic: '/ˌɡʊdˈbaɪ/', contexts: ['Goodbye, Ana. See you tomorrow!', 'I say goodbye before I leave the office.'] },
   'see you later': { phonetic: '/siː juː ˈleɪtər/', contexts: ['I have class now. See you later!', 'See you later at the café after school.'] },
-  please: { phonetic: '/pliːz/' },
-  'thank you': { phonetic: '/θæŋk juː/' },
+  please: { phonetic: '/pliːz/', contexts: ['Please, say your name again.', 'A pencil, please.'] },
+  'thank you': { phonetic: '/θæŋk juː/', contexts: ['Thank you for your help.', 'Thank you, teacher!'] },
   "you're welcome": { phonetic: '/jʊr ˈwelkəm/' },
   'excuse me': { phonetic: '/ɪkˈskjuːz miː/' },
   sorry: { phonetic: '/ˈsɑːri/' },
@@ -19732,12 +20092,27 @@ function getCuratedVocabularyBank(lesson) {
         ]
       : null);
   if (!entries) return null;
+  const sourceEntries = new Map(
+    (lesson.vocabulary || []).map((item) => [
+      String(item?.word || item?.targetWord || '').trim().toLocaleLowerCase(),
+      item
+    ])
+  );
   return entries.map(([word, translation, category]) => {
     const detail =
       lesson.level === 'A1' && learningPathState.language === 'english'
         ? CURATED_ENGLISH_A1_VOCABULARY_DETAILS[String(word).trim().toLocaleLowerCase()] || {}
         : {};
-    const practicalContexts = detail.contexts || getVocabularyExampleFallbacks(word, '', learningPathState.language);
+    // The curated 30-word bank may expand an older authored list. Preserve
+    // every original example before using optional curated additions; this
+    // prevents useful cards such as “Please” from becoming blank.
+    const sourceEntry = sourceEntries.get(String(word).trim().toLocaleLowerCase());
+    const sourceContexts = sourceEntry ? normalizeVocabContexts(sourceEntry).map((ctx) => ctx.targetText) : [];
+    const practicalContexts =
+      detail.contexts ||
+      sourceContexts.length
+        ? (detail.contexts || sourceContexts)
+        : getVocabularyExampleFallbacks(word, '', learningPathState.language);
     return {
       word,
       translation,
@@ -19782,6 +20157,31 @@ function buildVocabularyUnitBank(lesson) {
   // A meaningful, shorter list is better than reaching an arbitrary quota
   // with text fragments. Phrases are rendered separately as expressions.
   (sourceLesson.vocabulary || []).forEach(add);
+  return bank;
+}
+
+function buildVocabularyLevelBank(lesson) {
+  const language = learningPathState.language;
+  const level = lesson.level || learningPathState.level;
+  const vocabularyLessons = (learningPathState.lessons || []).filter(
+    (candidate) =>
+      candidate.skill === 'vocabulary' &&
+      candidate.level === level &&
+      (!language || candidate.language === language)
+  );
+  const sources = vocabularyLessons.length ? vocabularyLessons : [lesson];
+  const seen = new Set();
+  const bank = [];
+
+  sources.forEach((sourceLesson) => {
+    buildVocabularyUnitBank(sourceLesson).forEach((item) => {
+      const word = String(item?.word || item?.targetWord || '').trim();
+      const key = normalizeVocabularyCatalogueKey(word);
+      if (!key || seen.has(key)) return;
+      seen.add(key);
+      bank.push({ ...item, _vocabularyLessonSlug: sourceLesson.slug });
+    });
+  });
   return bank;
 }
 
@@ -19876,11 +20276,12 @@ function normalizeVocabularyCatalogueKey(value) {
 }
 
 function getVocabularyCardKind(card) {
-  const target = String(card?.targetWord || '').trim();
   const category = String(card?.category || '').trim().toLocaleLowerCase();
-  return card?.isExpressionCard || category === 'expression' || /\s/.test(target)
-    ? 'expressions'
-    : 'words';
+  // A lesson's 30-word bank can legitimately include useful multi-word
+  // vocabulary (for example, “good morning” or “first name”).  A space is
+  // not enough reason to remove it from the core count.  Only cards created
+  // specifically as the extra useful-expression section belong there.
+  return card?.isExpressionCard || category === 'expression' ? 'expressions' : 'words';
 }
 
 function renderVocabularyCardDeck(cards, order, expressionCards, { canSpeak, isFrench }) {
@@ -19932,6 +20333,90 @@ function renderVocabularyCardDeck(cards, order, expressionCards, { canSpeak, isF
       expressions
     )
   ].join('');
+}
+
+// Vocabulary cards include pronunciation controls, examples and several
+// accessibility attributes. Creating a whole 30-word bank (plus useful
+// expressions) in one innerHTML assignment can monopolize the main thread
+// on lower-powered phones. Keep the complete bank, but append it in small
+// animation-frame batches so navigation remains responsive.
+function getVocabularyDeckGroups(cards, order, expressionCards, { isFrench }) {
+  const orderedCards = order
+    .map((cardIndex) => cards[cardIndex])
+    .filter(Boolean)
+    .map((card) => ({ ...card, _displayIndex: cards.indexOf(card) }));
+  const words = orderedCards.filter((card) => getVocabularyCardKind(card) === 'words');
+  const expressions = [
+    ...orderedCards.filter((card) => getVocabularyCardKind(card) === 'expressions'),
+    ...expressionCards.map((card, index) => ({
+      ...card,
+      _displayIndex: cards.length + index
+    }))
+  ];
+  return [
+    {
+      kind: 'words',
+      title: isFrench ? 'Mots clés' : 'Palabras clave',
+      description: isFrench
+        ? 'Apprenez d’abord le vocabulaire central.'
+        : 'Aprende primero el vocabulario central.',
+      cards: words
+    },
+    {
+      kind: 'expressions',
+      title: isFrench ? 'Phrases et expressions' : 'Frases y expresiones',
+      description: isFrench
+        ? 'Utilisez ensuite les mots dans des blocs naturels.'
+        : 'Úsalas después como bloques naturales de comunicación.',
+      cards: expressions
+    }
+  ].filter((group) => group.cards.length);
+}
+
+function queueVocabularyDeckRender(section, { cards, order, expressionCards, canSpeak, isFrench }) {
+  const deck = section?.querySelector('.vocab-catalogue-deck');
+  if (!deck) return;
+  const renderToken = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  deck.dataset.renderToken = renderToken;
+  const groups = getVocabularyDeckGroups(cards, order, expressionCards, { isFrench });
+  deck.innerHTML = groups
+    .map(
+      (group) => `
+        <section class="vocab-card-group" data-vocab-group="${group.kind}" aria-labelledby="vocab-group-${group.kind}">
+          <div class="vocab-card-group-heading">
+            <div><span>${group.kind === 'words' ? '01' : '02'}</span><h4 id="vocab-group-${group.kind}">${escapeHtml(group.title)}</h4></div>
+            <p>${escapeHtml(group.description)}</p>
+            <strong class="vocab-card-group-count">${group.cards.length}</strong>
+          </div>
+          <div class="vocab-card-group-grid" data-vocab-card-grid="${group.kind}"></div>
+        </section>`
+    )
+    .join('');
+
+  const work = groups.flatMap((group) =>
+    group.cards.map((card) => ({ kind: group.kind, card }))
+  );
+  const batchSize = 6;
+  let cursor = 0;
+  const appendBatch = () => {
+    if (!deck.isConnected || deck.dataset.renderToken !== renderToken) return;
+    const batch = work.slice(cursor, cursor + batchSize);
+    batch.forEach(({ kind, card }) => {
+      const grid = deck.querySelector(`[data-vocab-card-grid="${kind}"]`);
+      grid?.insertAdjacentHTML(
+        'beforeend',
+        renderVocabCardHtml(card, { canSpeak, isFrench, showL1Translation: true })
+      );
+    });
+    cursor += batch.length;
+    if (cursor < work.length) {
+      window.requestAnimationFrame(appendBatch);
+      return;
+    }
+    deck.removeAttribute('aria-busy');
+    applyVocabularyCatalogueFilters(section);
+  };
+  window.requestAnimationFrame(appendBatch);
 }
 
 function isVocabularyTermExercise(exercise, cards) {
@@ -19994,19 +20479,20 @@ function renderVocabularyMissionHtml(lesson, cards, french) {
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
-  // Both the global Vocabulary entry point and the route reuse one authored
-  // list: the words belonging to the active lesson.
+  // The catalogue is level-first: it collects the complete authored bank for
+  // A1, A2, B1, etc. rather than limiting a learner to the small list from
+  // the currently open unit.
   const isRouteVocabulary =
     learningPathState.skillEntryContext === 'route' && Boolean(learningPathState.unitId);
   const catalogueContextLabel = isRouteVocabulary
-    ? 'Vocabulario de la unidad'
-    : 'Vocabulario de la lección';
-  const unitBank = buildVocabularyUnitBank(lesson)
+    ? 'Vocabulario de la ruta'
+    : 'Vocabulario del nivel';
+  const levelBank = buildVocabularyLevelBank(lesson)
     .map((raw, index) =>
       normalizeVocabularyItem(raw, {
         language: learningPathState.language,
         level: lesson.level,
-        lessonSlug: lesson.slug,
+        lessonSlug: raw._vocabularyLessonSlug || lesson.slug,
         index
       })
     )
@@ -20015,8 +20501,8 @@ function renderVocabularyView(section, lesson) {
       ...card,
       category: card.category || lesson.title || 'Palabras clave'
     }));
-  const rawCards = unitBank;
-  const catalogueKey = `${learningPathState.language}:${lesson.level}:${lesson.slug}`;
+  const rawCards = levelBank;
+  const catalogueKey = `${learningPathState.language}:${lesson.level}:complete-level-bank`;
   if (vocabCardOrder.length !== rawCards.length || vocabCardOrder.lessonSlug !== catalogueKey) {
     vocabCardOrder = rawCards.map((_, index) => index);
     vocabCardOrder.lessonSlug = catalogueKey;
@@ -20051,17 +20537,37 @@ function renderVocabularyView(section, lesson) {
     showAnswers: staff
   });
   const vocabularyUi = getVocabularyL2Ui();
+  const vocabularyLanguageOptions = Object.entries(languageDisplayNames)
+    .filter(([code]) => code !== 'ai')
+    .map(
+      ([code, name]) =>
+        `<option value="${escapeHtml(code)}"${code === learningPathState.language ? ' selected' : ''}>${escapeHtml(name)}</option>`
+    )
+    .join('');
+  const vocabularyLevelOptions = getAvailableCourseLevels(learningPathState.language)
+    .map(
+      (level) =>
+        `<option value="${escapeHtml(level)}"${level === lesson.level ? ' selected' : ''}>${escapeHtml(COURSE_LEVEL_LABELS[level] || level)}</option>`
+    )
+    .join('');
   const catalogueTotal = cards.length;
   const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
   const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
   const expressionCards = buildVocabularyExpressionCards(lesson, cards);
   const catalogueCardCount = cards.length + expressionCards.length;
+  // The catalogue can contain an entire CEFR level. Keep Tutor/Translator
+  // shortcuts useful without sending an oversized list through either tool.
+  const toolVocabulary = cards.slice(0, 60).map((card) => card.targetWord).join(', ');
 
   content.innerHTML = `
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
       <div class="vocab-catalogue-heading">
-        <div><span>${isRouteVocabulary ? 'PASO 1 · VOCABULARY' : `VOCABULARY · ${escapeHtml(lesson.level)}`}</span><h3>${french ? 'Vocabulaire essentiel' : 'Vocabulario esencial'}</h3></div>
+        <div><span>${isRouteVocabulary ? 'PASO 1 · VOCABULARY' : `VOCABULARY · ${escapeHtml(lesson.level)}`}</span><h3>${french ? 'Vocabulaire du niveau' : 'Vocabulario del nivel'}</h3></div>
         <p><strong>${masteredCount}</strong> de ${catalogueTotal} palabras dominadas</p>
+      </div>
+      <div class="vocab-catalogue-route-selectors no-print" aria-label="Seleccionar idioma y nivel de vocabulario">
+        <label>Idioma<select id="vocabularyLanguageSelect">${vocabularyLanguageOptions}</select></label>
+        <label>Nivel<select id="vocabularyLevelSelect">${vocabularyLevelOptions}</select></label>
       </div>
       <div class="vocab-catalogue-toolbar no-print">
         <label class="vocab-catalogue-search"><span>Buscar</span><input type="search" class="vocab-catalogue-search-input" value="${escapeHtml(vocabularyCatalogueFilters.search)}" placeholder="Buscar una palabra…" autocomplete="off"></label>
@@ -20111,13 +20617,13 @@ function renderVocabularyView(section, lesson) {
           : ''
       }
     </div>
-    <div class="vocab-card-deck vocab-catalogue-deck">
-      ${renderVocabularyCardDeck(cards, vocabCardOrder, expressionCards, { canSpeak, isFrench })}
+    <div class="vocab-card-deck vocab-catalogue-deck" aria-busy="true" aria-live="polite">
+      <p class="skill-graph-empty">${french ? 'Préparation des cartes…' : 'Preparando tarjetas…'}</p>
     </div>
     <div class="skill-view-tutor-cta no-print">
       <button type="button" class="primary-btn vocab-practice-start-btn">${french ? 'Pratiquer' : 'Practicar'} ${getVocabularyPracticeCount(lesson.level)} ${french ? 'mots' : 'palabras'}</button>
-      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
-      <button type="button" class="secondary-btn open-translator-btn vocab-open-translator-btn" data-translate-text="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-return-label="${french ? 'Retour à Vocabulary' : 'Volver a Vocabulary'}">${french ? 'Ouvrir dans le Traducteur' : 'Abrir en el Traductor'}</button>
+      <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(toolVocabulary)}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(toolVocabulary)}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
+      <button type="button" class="secondary-btn open-translator-btn vocab-open-translator-btn" data-translate-text="${escapeHtml(toolVocabulary)}" data-return-label="${french ? 'Retour à Vocabulary' : 'Volver a Vocabulary'}">${french ? 'Ouvrir dans le Traducteur' : 'Abrir en el Traductor'}</button>
     </div>
     <div class="vocab-practice-panel no-print">${renderVocabularyPracticePanelHtml(lesson)}</div>
     <div class="vocab-test no-print">
@@ -20147,7 +20653,13 @@ function renderVocabularyView(section, lesson) {
       <button type="button" class="secondary-btn skill-print-btn">${staff ? (french ? 'Télécharger le corrigé' : 'Descargar clave de respuestas') : french ? 'Télécharger le vocabulaire en PDF' : 'Descargar vocabulario en PDF'}</button>
     </div>
   `;
-  applyVocabularyCatalogueFilters(section);
+  queueVocabularyDeckRender(section, {
+    cards,
+    order: vocabCardOrder,
+    expressionCards,
+    canSpeak,
+    isFrench
+  });
   renderSavedVocabularyShelf(content, lesson);
   const needsL1Gloss = cards.some(
     (card) =>
@@ -20347,6 +20859,25 @@ document.addEventListener('click', (event) => {
       .querySelector('.vocab-practice-panel')
       ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
+});
+
+document.addEventListener('change', async (event) => {
+  if (!event.target.matches('#vocabularyLanguageSelect, #vocabularyLevelSelect')) return;
+  const section = event.target.closest('.skill-view-section[data-skill="vocabulary"]');
+  const languageSelect = section?.querySelector('#vocabularyLanguageSelect');
+  const levelSelect = section?.querySelector('#vocabularyLevelSelect');
+  const nextLanguage = normalizeLanguageKey(languageSelect?.value || learningPathState.language);
+  const nextLevel = normalizeCourseLevel(nextLanguage, levelSelect?.value || learningPathState.level);
+
+  if (nextLanguage !== learningPathState.language) {
+    if (!setTargetLanguage(nextLanguage, { level: nextLevel })) {
+      if (languageSelect) languageSelect.value = learningPathState.language;
+      return;
+    }
+  }
+  await loadLearningPath({ language: nextLanguage, level: nextLevel });
+  savePreferences(nextLanguage, nextLevel, learningPathState.bridgeLanguage);
+  showView('vocabulary');
 });
 
 document.addEventListener('input', (event) => {
@@ -22026,7 +22557,47 @@ function closeTutorDrawer() {
 // It intentionally lives only in memory: changing or clearing topic starts a
 // fresh conversation, while opening the other Tutor surface keeps the thread.
 const TUTOR_TOPIC_MAX_INTERACTIONS = 500;
+const TUTOR_TOPIC_HISTORY_LIMIT = 24;
+const TUTOR_TOPIC_SESSION_STORAGE_KEY = 'andergo_tutor_topic_sessions_v1';
 const tutorTopicSessions = new Map();
+let tutorTopicSessionsLoaded = false;
+
+function loadTutorTopicSessions() {
+  if (tutorTopicSessionsLoaded) return;
+  tutorTopicSessionsLoaded = true;
+  try {
+    const saved = JSON.parse(sessionStorage.getItem(TUTOR_TOPIC_SESSION_STORAGE_KEY) || '{}');
+    Object.entries(saved || {}).slice(-8).forEach(([key, turns]) => {
+      if (!Array.isArray(turns)) return;
+      const cleanTurns = turns
+        .filter((turn) => turn && (turn.role === 'user' || turn.role === 'tutor'))
+        .map((turn) => ({ role: turn.role, content: String(turn.content || '').slice(0, 1200) }))
+        .filter((turn) => turn.content)
+        .slice(-TUTOR_TOPIC_HISTORY_LIMIT);
+      if (cleanTurns.length) tutorTopicSessions.set(key, { turns: cleanTurns });
+    });
+  } catch {
+    // Session storage can be unavailable or contain stale data; a new topic
+    // remains fully usable without it.
+  }
+}
+
+function persistTutorTopicSessions() {
+  try {
+    const saved = Object.fromEntries(
+      [...tutorTopicSessions.entries()].slice(-8).map(([key, session]) => [
+        key,
+        session.turns.slice(-TUTOR_TOPIC_HISTORY_LIMIT).map((turn) => ({
+          role: turn.role,
+          content: String(turn.content || '').slice(0, 1200)
+        }))
+      ])
+    );
+    sessionStorage.setItem(TUTOR_TOPIC_SESSION_STORAGE_KEY, JSON.stringify(saved));
+  } catch {
+    // Keep memory in the current page even when storage is unavailable.
+  }
+}
 
 function getTutorTopicKey({ language, level, skill, lessonSlug, lessonTitle, contextScope }) {
   return [
@@ -22041,6 +22612,7 @@ function getTutorTopicKey({ language, level, skill, lessonSlug, lessonTitle, con
 }
 
 function getTutorTopicSession(context) {
+  loadTutorTopicSessions();
   const key = getTutorTopicKey(context);
   if (!tutorTopicSessions.has(key)) tutorTopicSessions.set(key, { turns: [] });
   return { key, session: tutorTopicSessions.get(key) };
@@ -22048,6 +22620,11 @@ function getTutorTopicSession(context) {
 
 function resetTutorTopicSessions() {
   tutorTopicSessions.clear();
+  try {
+    sessionStorage.removeItem(TUTOR_TOPIC_SESSION_STORAGE_KEY);
+  } catch {
+    /* storage is optional */
+  }
 }
 
 function finishTutorTopic(conversationEl, promptEl, sendBtn) {
@@ -22212,7 +22789,7 @@ async function sendTutorMessage({
         supportMode: tutorSpanishPerfectedMode ? 'spanish_perfected' : supportMode || 'practice',
         contextScope,
         selectedSuggestion: selectedSuggestion || '',
-        history: topicState ? topicState.session.turns.slice(-12) : undefined,
+        history: topicState ? topicState.session.turns.slice(-TUTOR_TOPIC_HISTORY_LIMIT) : undefined,
         topicTurn,
         topicLimit: TUTOR_TOPIC_MAX_INTERACTIONS,
         transcript: transcript || '',
@@ -22341,7 +22918,8 @@ async function sendTutorMessage({
         { role: 'user', content: finalPrompt },
         { role: 'tutor', content: completedReply.trim() }
       );
-      topicState.session.turns = topicState.session.turns.slice(-20);
+      topicState.session.turns = topicState.session.turns.slice(-TUTOR_TOPIC_HISTORY_LIMIT);
+      persistTutorTopicSessions();
     }
 
     if (connectionStatusEl) connectionStatusEl.textContent = 'Conectado';
@@ -22625,6 +23203,28 @@ function getUnitsForLanguageLevel(language, level) {
   return units.filter((unit) => unit.level === level).sort((a, b) => a.order - b.order);
 }
 
+// The API already includes the unit id and order with every lesson. Build a
+// lightweight unit index from that response when the optional offline world
+// has not been loaded yet. This keeps the route responsive on first visit:
+// parsing a multi-megabyte curriculum bundle must never block Vocabulary.
+function getUnitsFromLoadedLessons(lessons, level) {
+  const units = new Map();
+  (lessons || []).forEach((lesson) => {
+    const id = lesson.unitId || lesson.unit_id || lesson.unitSlug || lesson.unit_slug;
+    if (!id || units.has(id)) return;
+    const order = Number(lesson.unitOrder || lesson.unit_order) || units.size + 1;
+    units.set(id, {
+      id,
+      slug: id,
+      level,
+      order,
+      title: lesson.unitTitle || lesson.unit_title || `Unidad ${order}`,
+      description: lesson.unitDescription || lesson.unit_description || ''
+    });
+  });
+  return [...units.values()].sort((a, b) => a.order - b.order);
+}
+
 function ensureGermanA1A2CoreRoute() {
   const worlds = window.ANDERGO_LANGUAGE_WORLDS;
   if (!worlds || worlds.__andergoGermanCoreRoute) return;
@@ -22852,14 +23452,10 @@ async function performLearningPathLoad(options = {}) {
     return;
   }
   clearPreA1VisualCourse();
-  try {
-    await ensureLanguageWorld(learningPathState.language);
-  } catch (error) {
-    // The API remains the primary source. A failed optional offline world
-    // should not prevent an online learner from opening the route.
-    console.warn(error.message);
-  }
-  if (!isCurrentRequest()) return;
+  // Do not block the first interactive render on the full offline curriculum
+  // bundle. The server is the primary source and already returns the unit
+  // identity required for the route; the large bundle is loaded only when
+  // the request fails and an offline fallback is actually needed.
   learningPathState.units = getUnitsForLanguageLevel(
     learningPathState.language,
     learningPathState.level
@@ -22900,11 +23496,8 @@ async function performLearningPathLoad(options = {}) {
     learningPathState.activeSlug = restoredFirstActivity?.slug || '';
   };
 
-  // Paint the bundled route immediately on every level. Mobile connections
-  // must not remain stuck on "Preparando tu ruta…" while the personalized
-  // progress request is slow or temporarily unavailable. The server response
-  // below still replaces this optimistic snapshot as soon as it arrives,
-  // preserving authoritative locks, scores and completion state.
+  // Use an already-cached offline world for an optimistic route, but never
+  // force its first-time download before the API request.
   const optimisticLessons = getLocalFallbackLessons(
     learningPathState.language,
     learningPathState.level
@@ -22930,6 +23523,13 @@ async function performLearningPathLoad(options = {}) {
     const loadedLessons = data.lessons?.length
       ? data.lessons
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
+    learningPathState.units = getUnitsForLanguageLevel(
+      learningPathState.language,
+      learningPathState.level
+    );
+    if (!learningPathState.units.length) {
+      learningPathState.units = getUnitsFromLoadedLessons(loadedLessons, learningPathState.level);
+    }
     learningPathState.lessons = applyClientLessonAccessPolicy(
       applyCanonicalEnglishListeningContent(
         hydrateMissingExerciseOptions(
@@ -22949,6 +23549,16 @@ async function performLearningPathLoad(options = {}) {
   } catch (error) {
     if (!isCurrentRequest()) return;
     console.warn('Could not load learning path from backend, using local content', error);
+    try {
+      await ensureLanguageWorld(learningPathState.language);
+    } catch (worldError) {
+      console.warn(worldError.message);
+    }
+    if (!isCurrentRequest()) return;
+    learningPathState.units = getUnitsForLanguageLevel(
+      learningPathState.language,
+      learningPathState.level
+    );
     learningPathState.lessons = applyClientLessonAccessPolicy(
       getLocalFallbackLessons(learningPathState.language, learningPathState.level)
     );
@@ -23089,17 +23699,19 @@ authTriggers.forEach((trigger) => {
 });
 
 // Keep all main tabs visible before sign-in. Capture the interaction before
-// the hash router sees it so a visitor gets one clear login request instead
-// of a partial page that cannot load their protected learning data.
-siteMenu?.addEventListener(
+// the hash router sees it so a visitor gets one clear Free-account request
+// instead of a partial page with learning data exposed underneath it.
+document.addEventListener(
   'click',
   (event) => {
     if (authStatus.session?.access_token) return;
-    const target = event.target.closest('.nav-group-member a, .nav-group-member summary');
+    const target = event.target.closest('.nav-group-member a, .mobile-header-tabs a');
     if (!target) return;
     event.preventDefault();
     event.stopImmediatePropagation();
-    openModal('login', { message: 'Inicia sesión para abrir esta sección.' });
+    openModal('signup', {
+      message: 'Crea tu cuenta gratis para acceder a esta sección y guardar tu progreso.'
+    });
   },
   true
 );
@@ -23609,8 +24221,16 @@ function syncTestLevelOptions() {
   if (!level) return;
   const requested = level.value;
   const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-  level.innerHTML = levels.map((item) => `<option value="${item}">${item}</option>`).join('');
-  level.value = levels.includes(requested) ? requested : 'A1';
+  const premium = isPremiumUser();
+  level.innerHTML = levels
+    .map((item) => {
+      const locked = !premium && ['B2', 'C1', 'C2'].includes(item);
+      return `<option value="${item}"${locked ? ' disabled' : ''}>${item}${locked ? ' · Premium' : ''}</option>`;
+    })
+    .join('');
+  level.value = levels.includes(requested) && (premium || !['B2', 'C1', 'C2'].includes(requested))
+    ? requested
+    : 'A1';
 }
 
 function renderLessonTest() {
@@ -23722,7 +24342,7 @@ async function handleLessonTestAnswer(event) {
   const feedback = fieldset.querySelector('.tests-item-feedback');
   if (feedback) feedback.textContent = 'Comprobando…';
   try {
-    const response = await fetch(`${backendBaseUrl}/api/tests/check`, {
+    const response = await authFetch(`${backendBaseUrl}/api/tests/check`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -23788,7 +24408,7 @@ async function gradeLessonTest(event) {
   }
   let data;
   try {
-    const response = await fetch(`${backendBaseUrl}/api/tests/grade`, {
+    const response = await authFetch(`${backendBaseUrl}/api/tests/grade`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -23976,7 +24596,7 @@ async function printLessonTest() {
   if (!paper) return;
   paper.querySelector('.tests-print-answer-key')?.remove();
   try {
-    const response = await fetch(
+    const response = await authFetch(
       `${backendBaseUrl}/api/tests/answer-key?language=${encodeURIComponent(lessonTestState.language)}&level=${encodeURIComponent(lessonTestState.level)}&unitSlug=${encodeURIComponent(lessonTestState.unitId)}`
     );
     const data = await response.json().catch(() => ({}));
@@ -24072,7 +24692,7 @@ async function loadTestsView() {
   if (stage)
     stage.innerHTML =
       '<div class="tests-welcome"><h3>Preparando los tests</h3><p>Cargando las lecciones del idioma seleccionado…</p></div>';
-  const response = await fetch(
+  const response = await authFetch(
     `${backendBaseUrl}/api/tests?language=${encodeURIComponent(lessonTestState.language)}&level=${encodeURIComponent(lessonTestState.level)}`
   );
   const data = await response.json().catch(() => ({}));
@@ -24081,6 +24701,14 @@ async function loadTestsView() {
     lessonSelect.innerHTML = '<option value="">Próximamente</option>';
     lessonSelect.disabled = true;
     if (startButton) startButton.disabled = true;
+    if (response.status === 401) {
+      openModal('signup', { message: 'Crea tu cuenta gratis para acceder a las pruebas.' });
+    } else if (response.status === 403 && data.code === 'PREMIUM_REQUIRED') {
+      openPaywallModal({
+        title: 'Las pruebas B2–C2 son una función Premium.',
+        message: data.error
+      });
+    }
     if (stage)
       stage.innerHTML = `<div class="tests-welcome"><h3>No pudimos cargar los tests</h3><p>${escapeHtml(data.error || 'Intenta nuevamente.')}</p></div>`;
     return;
@@ -25360,8 +25988,13 @@ function renderInfographicHotspot(name, x, y, index, answer, sceneId, label = na
     directionY = centerDeltaY / magnitude;
   }
 
-  const markerX = Math.max(radius + 3, Math.min(400 - radius - 3, targetX + directionX * distance));
-  const markerY = Math.max(radius + 3, Math.min(400 - radius - 3, targetY + directionY * distance));
+  // Yellow and green sit side-by-side in this visual dictionary. Their usual
+  // inward-facing labels made 11 and 12 look like one marker, so place each
+  // label outside its own object with a small upward offset.
+  const isColourPair = sceneId === 'people-and-feelings' && (index === 10 || index === 11);
+  const pairDirection = index === 10 ? -1 : 1;
+  const markerX = Math.max(radius + 3, Math.min(400 - radius - 3, targetX + (isColourPair ? pairDirection * 40 : directionX * distance)));
+  const markerY = Math.max(radius + 3, Math.min(400 - radius - 3, targetY + (isColourPair ? -20 : directionY * distance)));
   const lineMagnitude = Math.hypot(markerX - targetX, markerY - targetY) || 1;
   const lineEndX = markerX - ((markerX - targetX) / lineMagnitude) * (radius + 2);
   const lineEndY = markerY - ((markerY - targetY) / lineMagnitude) * (radius + 2);
@@ -25493,10 +26126,13 @@ function getInfographicSceneGroupLabels(language) {
 function renderInfographicScenePicker(activeScene, language) {
   const labels = getInfographicSceneGroupLabels(language);
   const groups = ['people', 'daily', 'places', 'world'];
+  const availableScenes = isAnonymousVisitor()
+    ? INFOGRAPHIC_SCENES.slice(0, Math.max(1, Math.floor(INFOGRAPHIC_SCENES.length * 0.25)))
+    : INFOGRAPHIC_SCENES;
   return `<details class="infographic-scene-picker"><summary><span class="infographic-scene-current"><span aria-hidden="true">${activeScene.icon}</span><strong>${escapeHtml(activeScene.title)}</strong></span><span class="infographic-scene-change">${language === 'spanish' ? 'Cambiar tema' : language === 'italian' ? 'Cambia tema' : language === 'portuguese' ? 'Mudar tema' : language === 'french' ? 'Changer de thème' : language === 'german' ? 'Thema wechseln' : 'Change topic'}</span><span class="infographic-scene-summary-spacer" aria-hidden="true"></span></summary><div class="infographic-scene-menu">${groups
     .map(
       (group) =>
-        `<section><h4>${labels[group]}</h4><div>${INFOGRAPHIC_SCENES.filter(
+        `<section><h4>${labels[group]}</h4><div>${availableScenes.filter(
           (item) => getInfographicSceneGroup(item.id) === group
         )
           .map((item) => {
@@ -25515,9 +26151,13 @@ function renderInfographicApp() {
   if (infographicState.language && infographicState.language !== language)
     infographicState.answers = {};
   infographicState.language = language;
+  const availableScenes = isAnonymousVisitor()
+    ? INFOGRAPHIC_SCENES.slice(0, Math.max(1, Math.floor(INFOGRAPHIC_SCENES.length * 0.25)))
+    : INFOGRAPHIC_SCENES;
   const baseScene =
-    INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) ||
-    INFOGRAPHIC_SCENES[0];
+    availableScenes.find((item) => item.id === infographicState.sceneId) ||
+    availableScenes[0];
+  infographicState.sceneId = baseScene.id;
   const scene = getLocalizedInfographicScene(baseScene, language);
   const ui = INFOGRAPHIC_LOCALIZATION[language]?.ui || INFOGRAPHIC_DEFAULT_UI;
   const answers = infographicState.answers[scene.id] || {};
@@ -25569,7 +26209,7 @@ function renderInfographicApp() {
         </div>
       </div>
     </div>
-    ${renderInfographicScenePicker(scene, language)}
+    ${renderInfographicScenePicker(scene, language)}${isAnonymousVisitor() ? '<p class="infographic-preview-note">Muestra gratuita del 25% de las infografías. <button type="button" class="inline-link upgrade-btn">Desbloquear el contenido completo</button></p>' : ''}
     <div class="infographic-workbench">
       <article class="infographic-canvas-card">
         <header><div><span>${ui[0]}</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
@@ -25928,6 +26568,12 @@ const GAMES_CATALOG = [
     hint: 'Escucha una palabra y elige su significado antes de continuar.'
   }
 ];
+
+function getAvailableGames() {
+  return isAnonymousVisitor()
+    ? GAMES_CATALOG.slice(0, Math.max(1, Math.floor(GAMES_CATALOG.length * 0.25)))
+    : GAMES_CATALOG;
+}
 const gamesState = {
   language: 'english',
   gameId: 'word-search',
@@ -26633,7 +27279,8 @@ function recordGameSuccess() {
 }
 
 function getGamesMissionSteps() {
-  return ['match', 'audio-sprint', 'word-search'];
+  const availableIds = new Set(getAvailableGames().map((game) => game.id));
+  return ['match', 'audio-sprint', 'word-search'].filter((id) => availableIds.has(id));
 }
 
 function getGamesMissionStepLabel(gameId) {
@@ -26912,7 +27559,9 @@ function renderGamesView() {
     portuguese: 'Portugués',
     german: 'Alemán'
   };
-  const game = GAMES_CATALOG.find((item) => item.id === gamesState.gameId) || GAMES_CATALOG[0];
+  const availableGames = getAvailableGames();
+  if (!availableGames.some((item) => item.id === gamesState.gameId)) gamesState.gameId = availableGames[0].id;
+  const game = availableGames.find((item) => item.id === gamesState.gameId) || availableGames[0];
   const difficulty = getGamesDifficulty();
   const missionSteps = getGamesMissionSteps();
   const nextMissionGame = missionSteps.find((step) => !gamesState.missionCompleted.has(step));
@@ -26936,7 +27585,7 @@ function renderGamesView() {
             `<button type="button" class="games-language-btn" data-game-language="${id}" aria-pressed="${String(gamesState.language === id)}">${label}</button>`
         )
         .join('')}</div>
-      <div class="games-type-picker" aria-label="Elegir juego">${GAMES_CATALOG.map(gameButtonHtml).join('')}</div>
+      <div class="games-type-picker" aria-label="Elegir juego">${availableGames.map(gameButtonHtml).join('')}</div>${isAnonymousVisitor() ? '<p class="games-preview-note">Muestra gratuita del 25% de los juegos. <button type="button" class="inline-link upgrade-btn">Desbloquear todos los juegos</button></p>' : ''}
       <div class="games-difficulty-picker" role="group" aria-label="Grado de dificultad">
         <span>Dificultad</span>
         ${Object.entries(GAME_DIFFICULTIES)
@@ -27749,6 +28398,12 @@ const VIEW_SECTIONS = {
   'email-confirmed': ['#emailConfirmedSection']
 };
 
+const ANONYMOUS_PREVIEW_VIEWS = new Set();
+
+function isAnonymousVisitor() {
+  return !authStatus.session?.access_token;
+}
+
 // Focus target per view: the one heading a screen reader / keyboard user
 // should land on after a hash change, per view. tabindex="-1" on these in
 // index.html makes them programmatically focusable without joining the
@@ -27837,6 +28492,15 @@ function updateLearnHash(viewOverride) {
 
 function showView(viewId) {
   let resolved = VIEW_SECTIONS[viewId] ? viewId : 'home';
+  if (isAnonymousVisitor() && resolved !== 'home' && !ANONYMOUS_PREVIEW_VIEWS.has(resolved)) {
+    resolved = 'home';
+    if (window.location.hash !== '#home') history.replaceState(null, '', '#home');
+    window.requestAnimationFrame(() =>
+      openModal('signup', {
+        message: 'Crea tu cuenta gratis para acceder a los contenidos de ANDERGO.'
+      })
+    );
+  }
   if (
     resolved === 'teacher-curriculum' &&
     !['teacher', 'ceo'].includes(authStatus.entitlements?.role)
@@ -28369,7 +29033,7 @@ function handleHomeAction(action) {
 }
 
 function enableHomepageActions() {
-  document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
+  document.querySelectorAll('.premium-checkout-btn').forEach((button) => {
     button.addEventListener('click', () => {
       openPremiumPayment(button.dataset.billingCycle || 'monthly', button);
     });
@@ -28378,16 +29042,6 @@ function enableHomepageActions() {
     button.addEventListener('click', () =>
       openAzulCheckoutReview(button.dataset.billingCycle || 'monthly')
     );
-  });
-
-  document.querySelectorAll('[data-paddle-action]').forEach((button) => {
-    button.addEventListener('click', () => {
-      if (button.dataset.paddleAction === 'manage') {
-        openPaddleCustomerPortal(button);
-      } else if (button.dataset.paddleAction === 'pause') {
-        pausePaddleSubscription(button);
-      }
-    });
   });
 
   document.querySelectorAll('[data-home-action]').forEach((element) => {
@@ -28541,7 +29195,7 @@ function enableHomepageActions() {
       )
         return;
 
-      const exerciseIndex = Number(questionItem.dataset.exerciseIndex);
+      const exerciseIndex = questionItem.dataset.exerciseIndex;
       const exerciseId = questionItem.dataset.exerciseId || '';
       const chosenKey = mcqOption.dataset.optionKey;
       const feedback = questionItem.querySelector('.mcq-feedback');
@@ -28653,14 +29307,13 @@ function enableHomepageActions() {
     if (readingQuestionNav) {
       if (readingQuestionNav.disabled) return;
       const slug = readingQuestionNav.dataset.lessonSlug;
-      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+      const sourceLesson = learningPathState.lessons.find((item) => item.slug === slug);
+      const lesson = sourceLesson ? getReadingLessonForTopic(sourceLesson) : null;
       if (!lesson) return;
       const runtime = getReadingComprehensionRuntime(slug);
       const entries = getVisibleReadingComprehensionEntries(
         lesson,
-        (lesson.exercises || [])
-          .map((item, exerciseIndex) => ({ item, exerciseIndex }))
-          .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item))
+        getFourReadingComprehensionEntries(lesson)
       );
       const directIndex = Number(readingQuestionNav.dataset.readingQuestionIndex);
       const direction = readingQuestionNav.dataset.readingDirection;
@@ -28680,7 +29333,8 @@ function enableHomepageActions() {
       const lesson = learningPathState.lessons.find((item) => item.slug === slug);
       if (!lesson || !getReadingTopicChoices(lesson).some((topic) => topic.id === topicId)) return;
       readingTopicSelections.set(slug, topicId);
-      // Alternative themes never add route requirements or reset progress.
+      // Each independent Reading owns a fresh four-question challenge.
+      resetReadingComprehensionRuntime(slug, 4);
       if (SKILL_VIEWS.includes(getViewFromHash())) renderSkillView(getViewFromHash());
       else renderLessonWorkspace();
       return;
@@ -28696,19 +29350,67 @@ function enableHomepageActions() {
       const runtime = getReadingComprehensionRuntime(slug);
       if (runtime.graded || runtime.grading) return;
 
-      const exerciseIndex = Number(questionItem.dataset.exerciseIndex);
-      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
-      const exercise = lesson?.exercises?.[exerciseIndex];
+      const exerciseIndex = String(questionItem.dataset.exerciseIndex);
+      const sourceLesson = learningPathState.lessons.find((item) => item.slug === slug);
+      const lesson = sourceLesson ? getReadingLessonForTopic(sourceLesson) : null;
+      const exercise = getFourReadingComprehensionEntries(lesson || {}).find(
+        (entry) => String(entry.exerciseIndex) === String(questionItem.dataset.exerciseIndex)
+      )?.item;
       if (!lesson || !exercise) return;
 
       runtime.selections[exerciseIndex] = readingCompOption.dataset.optionKey;
       runtime.error = '';
+      runtime.gradingItems[exerciseIndex] = true;
 
-      if (SKILL_VIEWS.includes(getViewFromHash())) {
-        renderSkillView(getViewFromHash());
-      } else {
-        renderLessonWorkspace();
+      if (SKILL_VIEWS.includes(getViewFromHash())) renderSkillView(getViewFromHash());
+      else renderLessonWorkspace();
+
+      try {
+        let result;
+        if (exercise.generatedReadingQuestion) {
+          const correctOption = optionKey(exercise.options?.[exercise.answer], exercise.answer);
+          result = {
+            exerciseIndex,
+            correct: String(readingCompOption.dataset.optionKey) === String(correctOption),
+            correctOption,
+            correctLabel: `${String.fromCharCode(65 + exercise.answer)}. ${optionLabel(exercise.options[exercise.answer])}`,
+            selectedOption: readingCompOption.dataset.optionKey
+          };
+        } else {
+          const payload = exercise.id
+            ? { exerciseId: exercise.id, selectedOptionId: readingCompOption.dataset.optionKey }
+            : { index: Number(exerciseIndex), selectedOption: Number(readingCompOption.dataset.optionKey) };
+          const response = await authFetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+          const data = await response.json().catch(() => ({}));
+          if (!response.ok) throw new Error(response.status === 401 ? getExerciseAuthMessage() : data.error || 'No se pudo comprobar la respuesta.');
+          const correctOption = data.correctOption ?? data.correctOptionId ?? null;
+          const correctIndex = (exercise.options || []).findIndex((option, optionIndex) => String(optionKey(option, optionIndex)) === String(correctOption));
+          result = {
+            exerciseIndex,
+            correct: Boolean(data.correct),
+            correctOption,
+            correctLabel: correctIndex >= 0 ? `${String.fromCharCode(65 + correctIndex)}. ${optionLabel(exercise.options[correctIndex])}` : '',
+            selectedOption: readingCompOption.dataset.optionKey
+          };
+        }
+        runtime.results[exerciseIndex] = result;
+        learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
+        learningPathState.exerciseResults[slug][exerciseIndex] = { selectedOption: result.selectedOption, correct: result.correct };
+        if (result.correct) {
+          window.AndergoGamification?.recordSkillTouched('reading', learningPathState.language);
+          window.AndergoGamification?.recordCorrectAnswer();
+        }
+      } catch (error) {
+        runtime.error = error.message || 'No se pudo comprobar la respuesta.';
+      } finally {
+        delete runtime.gradingItems[exerciseIndex];
       }
+      if (SKILL_VIEWS.includes(getViewFromHash())) renderSkillView(getViewFromHash());
+      else renderLessonWorkspace();
       return;
     }
 
@@ -28718,13 +29420,12 @@ function enableHomepageActions() {
     if (readingCompSubmitBtn) {
       if (readingCompSubmitBtn.disabled) return;
       const slug = readingCompSubmitBtn.dataset.lessonSlug;
-      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+      const sourceLesson = learningPathState.lessons.find((item) => item.slug === slug);
+      const lesson = sourceLesson ? getReadingLessonForTopic(sourceLesson) : null;
       if (!lesson) return;
 
       const runtime = getReadingComprehensionRuntime(slug);
-      const comprehensionEntries = (lesson.exercises || [])
-        .map((item, exerciseIndex) => ({ item, exerciseIndex }))
-        .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item));
+      const comprehensionEntries = getFourReadingComprehensionEntries(lesson);
       const visibleEntries = getVisibleReadingComprehensionEntries(lesson, comprehensionEntries);
       const unanswered = visibleEntries.some(
         ({ exerciseIndex }) => runtime.selections[exerciseIndex] == null
@@ -28737,6 +29438,16 @@ function enableHomepageActions() {
         const gradedResults = await Promise.all(
           visibleEntries.map(async ({ item, exerciseIndex }) => {
             const selected = runtime.selections[exerciseIndex];
+            if (item.generatedReadingQuestion) {
+              const correctOption = optionKey(item.options?.[item.answer], item.answer);
+              return {
+                exerciseIndex,
+                correct: Number(selected) === Number(item.answer),
+                correctOption,
+                correctLabel: `${String.fromCharCode(65 + item.answer)}. ${optionLabel(item.options[item.answer])}`,
+                selectedOption: selected
+              };
+            }
             const payload = item.id
               ? { exerciseId: item.id, selectedOptionId: selected }
               : { index: exerciseIndex, selectedOption: Number(selected) };
@@ -28793,7 +29504,7 @@ function enableHomepageActions() {
       }
 
       runtime.graded = true;
-      if (authStatus.session?.access_token) {
+      if (authStatus.session?.access_token && !visibleEntries.some(({ item }) => item.generatedReadingQuestion)) {
         try {
           const answers = visibleEntries.map(({ item, exerciseIndex }) => ({
             exerciseId: item.id,
@@ -29799,8 +30510,18 @@ function enableHomepageActions() {
     // single toggle button cycles Reproducir -> Pausar -> Continuar ->
     // Pausar..., the rest are one-shot actions on the shared
     // readingSpeechPlayer singleton.
+    const readingNaturalAudioBtn = event.target.closest('.reading-audio-natural-btn');
+    if (readingNaturalAudioBtn) {
+      const section = readingNaturalAudioBtn.closest('.skill-view-section');
+      const lesson = learningPathState.lessons.find(
+        (item) => item.slug === section?.dataset.activeLessonSlug
+      );
+      if (section && lesson) await playNaturalReadingAudio(section, lesson);
+      return;
+    }
     const readingAudioPlayPauseBtn = event.target.closest('.reading-audio-playpause-btn');
     if (readingAudioPlayPauseBtn) {
+      stopNaturalReadingAudio({ clearSource: false });
       const snap = readingSpeechPlayer.getSnapshot();
       if (snap.state === 'playing') readingSpeechPlayer.pauseReading();
       else if (snap.state === 'paused') readingSpeechPlayer.resumeReading();
@@ -29809,21 +30530,25 @@ function enableHomepageActions() {
     }
     const readingAudioRewindBtn = event.target.closest('.reading-audio-rewind-btn');
     if (readingAudioRewindBtn) {
+      stopNaturalReadingAudio({ clearSource: false });
       readingSpeechPlayer.rewindReading(5);
       return;
     }
     const readingAudioStopBtn = event.target.closest('.reading-audio-stop-btn');
     if (readingAudioStopBtn) {
+      stopNaturalReadingAudio({ clearSource: false });
       readingSpeechPlayer.stopReading();
       return;
     }
     const readingAudioVoiceBtn = event.target.closest('.reading-audio-voice-btn');
     if (readingAudioVoiceBtn) {
+      stopNaturalReadingAudio({ clearSource: false });
       readingSpeechPlayer.changeReadingVoice();
       return;
     }
     const readingAudioRateBtn = event.target.closest('.reading-audio-rate-btn');
     if (readingAudioRateBtn) {
+      stopNaturalReadingAudio({ clearSource: false });
       readingSpeechPlayer.changeReadingRate(readingAudioRateBtn.dataset.rate);
       return;
     }
@@ -31116,6 +31841,12 @@ function setupTranslator() {
       setStatus('Escribe un texto para traducir.', 'is-unavailable');
       return;
     }
+    if (!authStatus.session?.access_token) {
+      openModal('signup', {
+        message: 'Crea tu cuenta gratis para usar las 100 traducciones mensuales incluidas.'
+      });
+      return;
+    }
 
     const sourceLanguage = sourceSelect?.value || 'auto';
     const targetLanguage = targetSelect?.value || 'spanish';
@@ -31138,9 +31869,8 @@ function setupTranslator() {
     );
     setTranslationBusy(true);
     try {
-      // auth: true - sends the session token when signed in, so the backend
-      // can apply the Premium character limit instead of always treating
-      // the request as a guest (see POST /api/translate's attachUserIfPresent).
+      // The server requires an authenticated learner and applies the
+      // plan-specific monthly translation allowance before contacting DeepL.
       const data = await postJson(
         '/api/translate',
         { text, sourceLanguage, targetLanguage },
@@ -31150,7 +31880,14 @@ function setupTranslator() {
       if (data.ok) {
         output.value = data.translatedText || '';
         syncTranslatorTextareaHeights();
-        setStatus('Completada', 'is-success');
+        const remaining = data.usage?.remaining;
+        const limit = data.usage?.limit;
+        setStatus(
+          remaining != null && limit != null
+            ? `Completada · te quedan ${remaining} de ${limit} traducciones este mes.`
+            : 'Completada',
+          'is-success'
+        );
         if (sourceLanguage === 'auto' && data.detectedLanguage) {
           renderTranslatorDetectedLanguage(data.detectedLanguage, text);
         }
@@ -31181,6 +31918,15 @@ function setupTranslator() {
     } catch (error) {
       output.value = '';
       syncTranslatorTextareaHeights();
+      if (error.status === 401) {
+        openModal('login', { message: 'Inicia sesión para usar el traductor.' });
+      } else if (error.code === 'USAGE_LIMIT_REACHED') {
+        openPaywallModal({
+          featureLabel: 'traducciones',
+          title: 'Has alcanzado el límite de traducciones de tu plan.',
+          message: error.message
+        });
+      }
       setStatus(error.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
     } finally {
       translatorAutoPlayAfterVoice = false;
@@ -31273,18 +32019,26 @@ function renderCorrectorHighlighted(correctedText, changes) {
 }
 
 const INTERPRETER_HISTORY_LIMIT = 10;
+const INTERPRETER_FREE_TURN_LIMIT = 4;
+const INTERPRETER_FREE_USAGE_KEY = 'andergoInterpreterFreeTurns';
 
 function setupInterpreter() {
   const langA = document.getElementById('interpreterLangA');
   const langB = document.getElementById('interpreterLangB');
-  const swapBtn = document.getElementById('interpreterSwapBtn');
   const talkA = document.getElementById('interpreterTalkA');
   const talkB = document.getElementById('interpreterTalkB');
   const labelA = document.getElementById('interpreterTalkALabel');
   const labelB = document.getElementById('interpreterTalkBLabel');
+  const talkAHint = document.getElementById('interpreterTalkAHint');
+  const talkBHint = document.getElementById('interpreterTalkBHint');
   const stopBtn = document.getElementById('interpreterStopBtn');
   const handsFreeBtn = document.getElementById('interpreterHandsFreeBtn');
+  const directionBtn = document.getElementById('interpreterDirectionBtn');
   const clearBtn = document.getElementById('interpreterClearBtn');
+  const swapBtn = document.getElementById('interpreterSwapBtn');
+  const modeLabel = document.getElementById('interpreterModeLabel');
+  const usageLabel = document.getElementById('interpreterUsage');
+  const headingTitle = document.getElementById('interpreterHeadingTitle');
   const status = document.getElementById('interpreterStatus');
   const conversation = document.getElementById('interpreterConversation');
   if (!langA || !langB || !talkA || !talkB || !status || !conversation || talkA.dataset.ready)
@@ -31296,7 +32050,8 @@ function setupInterpreter() {
     spanish: 'Español',
     french: 'Français',
     italian: 'Italiano',
-    portuguese: 'Português'
+    portuguese: 'Português',
+    german: 'Deutsch'
   };
 
   let mediaRecorder = null;
@@ -31304,12 +32059,53 @@ function setupInterpreter() {
   let microphoneStream = null;
   let activeVoiceTurn = null;
   let activeButton = null;
+  let browserRecognition = null;
+  let browserRecognitionStopped = false;
   let busy = false;
   let handsFree = false;
+  let bidirectional = false;
   let turns = [];
   let playbackToken = 0;
 
   const languageLabel = (key) => labels[key] || languageDisplayNames[key] || key;
+
+  const getFreeTurnsUsed = () => {
+    try {
+      return Math.max(0, Number(sessionStorage.getItem(INTERPRETER_FREE_USAGE_KEY)) || 0);
+    } catch {
+      return 0;
+    }
+  };
+
+  const recordFreeTurn = () => {
+    if (isPremiumUser()) return;
+    try {
+      sessionStorage.setItem(INTERPRETER_FREE_USAGE_KEY, String(getFreeTurnsUsed() + 1));
+    } catch {
+      /* Session storage may be unavailable in strict privacy mode. */
+    }
+  };
+
+  const renderAccessState = () => {
+    const premium = isPremiumUser();
+    if (modeLabel) modeLabel.textContent = handsFree ? 'Modo manos libres' : 'Modo manual';
+    if (usageLabel) {
+      const remaining = Math.max(0, INTERPRETER_FREE_TURN_LIMIT - getFreeTurnsUsed());
+      usageLabel.textContent = premium
+        ? 'Premium · conversación completa y manos libres'
+        : `${remaining} de ${INTERPRETER_FREE_TURN_LIMIT} turnos de demostración disponibles`;
+    }
+  };
+
+  const freeDemoAvailable = () => {
+    if (isPremiumUser() || getFreeTurnsUsed() < INTERPRETER_FREE_TURN_LIMIT) return true;
+    showHomeToast(
+      `Has usado los ${INTERPRETER_FREE_TURN_LIMIT} turnos gratuitos del Intérprete. Esta opción está disponible para usuarios Premium.`
+    );
+    setStatus('La demostración gratuita terminó. Activa Premium para continuar.', 'is-unavailable');
+    renderAccessState();
+    return false;
+  };
 
   const setStatus = (message, mode = '') => {
     status.textContent = message;
@@ -31321,45 +32117,62 @@ function setupInterpreter() {
     if (!handsFreeBtn) return;
     handsFreeBtn.classList.toggle('is-active', handsFree);
     handsFreeBtn.setAttribute('aria-pressed', String(handsFree));
-    handsFreeBtn.textContent = handsFree ? '⚙ Manos libres: activo' : '⚙ Manos libres';
+    handsFreeBtn.innerHTML = `${handsFree ? '⚙ Manos libres: activo' : '⚙ Manos libres'} <span class="interpreter-premium-badge">Premium</span>`;
+    renderAccessState();
   };
 
-  // Strict turn taking for hands-free interpreting: the other microphone
-  // remains unavailable until the current speaker's translated voice ends.
   const setTurnControls = (activeSide = null) => {
     const isInTurn = Boolean(activeSide);
-    talkA.disabled = isInTurn && activeSide !== 'a';
-    talkB.disabled = isInTurn && activeSide !== 'b';
+    talkA.disabled = isInTurn;
+    talkB.disabled = isInTurn || !bidirectional;
     langA.disabled = isInTurn;
     langB.disabled = isInTurn;
     if (swapBtn) swapBtn.disabled = isInTurn;
-    talkA.classList.toggle('is-waiting', isInTurn && activeSide === 'b');
-    talkB.classList.toggle('is-waiting', isInTurn && activeSide === 'a');
+    if (directionBtn) directionBtn.disabled = isInTurn;
   };
 
   const updateLabels = () => {
-    labelA.textContent = languageLabel(langA.value);
-    labelB.textContent = languageLabel(langB.value);
+    labelA.textContent = `Hablar en ${languageLabel(langA.value)}`;
+    labelB.textContent = bidirectional
+      ? `Hablar en ${languageLabel(langB.value)}`
+      : `Escucha en ${languageLabel(langB.value)}`;
+    if (talkAHint) talkAHint.textContent = `Persona B escuchará en ${languageLabel(langB.value)}`;
+    if (talkBHint)
+      talkBHint.textContent = bidirectional
+        ? `Persona A escuchará en ${languageLabel(langA.value)}`
+        : 'Solo recibe la interpretación de Persona A';
     talkA.setAttribute('aria-label', `Hablar en ${languageLabel(langA.value)}`);
-    talkB.setAttribute('aria-label', `Hablar en ${languageLabel(langB.value)}`);
+    talkB.setAttribute(
+      'aria-label',
+      bidirectional
+        ? `Hablar en ${languageLabel(langB.value)}`
+        : `Persona B escucha en ${languageLabel(langB.value)}`
+    );
   };
 
-  // The automatic microphone is intentionally reserved for the learner's
-  // bridge language (L1). A person speaking the other selected language
-  // must always start their turn explicitly, preventing an unexpected mic
-  // activation in a conversation with another person.
-  const getL1Side = () => {
-    const bridgeLanguage =
-      typeof learningPathState !== 'undefined' ? learningPathState.bridgeLanguage : '';
-    if (langA.value === bridgeLanguage) return 'a';
-    if (langB.value === bridgeLanguage) return 'b';
-    return null;
+  const renderDirectionState = () => {
+    if (headingTitle)
+      headingTitle.textContent = bidirectional
+        ? 'Intérprete Persona A ↔ Persona B'
+        : 'Intérprete Persona A → Persona B';
+    if (directionBtn) {
+      directionBtn.classList.toggle('is-active', bidirectional);
+      directionBtn.setAttribute('aria-pressed', String(bidirectional));
+      directionBtn.textContent = bidirectional
+        ? '→ Usar solo A → B'
+        : '↔ Activar conversación A ↔ B';
+    }
+    talkB.querySelector('[aria-hidden="true"]')?.replaceChildren(
+      document.createTextNode(bidirectional ? '🎙️' : '🎧')
+    );
+    updateLabels();
+    setTurnControls();
   };
 
   const renderTurns = () => {
     if (!turns.length) {
       conversation.innerHTML =
-        '<div class="interpreter-empty"><span aria-hidden="true">🎧</span><p>Elige el botón del idioma que va a hablar para comenzar.</p></div>';
+        '<div class="interpreter-empty"><span aria-hidden="true">🎧</span><p>Persona A puede hablar para comenzar la interpretación hacia Persona B.</p></div>';
       return;
     }
     // Newest consultation first: the active exchange remains immediately
@@ -31395,11 +32208,18 @@ function setupInterpreter() {
     } catch {
       /* inactive */
     }
+    try {
+      browserRecognitionStopped = true;
+      browserRecognition?.stop();
+    } catch {
+      /* inactive */
+    }
     microphoneStream?.getTracks().forEach((track) => track.stop());
     mediaRecorder = null;
     voiceSocket = null;
     microphoneStream = null;
     activeVoiceTurn = null;
+    browserRecognition = null;
     activeButton?.classList.remove('is-listening');
     activeButton = null;
     window.speechSynthesis?.cancel();
@@ -31431,6 +32251,8 @@ function setupInterpreter() {
         sourceLanguage,
         targetLanguage
       });
+      recordFreeTurn();
+      renderAccessState();
       // Keep the interpreter light during long exchanges. Once an eleventh
       // consultation arrives, remove the oldest complete original/translation
       // pair and retain the ten most recent turns.
@@ -31443,18 +32265,11 @@ function setupInterpreter() {
         if (turnToken !== playbackToken) return;
         busy = false;
         setTurnControls();
-        const l1Side = getL1Side();
-        // Hands-free mode is deliberately one-way: only a turn that began
-        // in L1 continues automatically and is interpreted into L2. A
-        // manually started L2 turn may still be translated once, but never
-        // becomes an alternating automatic conversation.
-        if (!handsFree || !l1Side || side !== l1Side) {
-          setStatus('Listo. Toca el idioma que va a hablar.', 'is-success');
+        if (!handsFree) {
+          setStatus('Listo. Toca «Hablar» para interpretar otra frase.', 'is-success');
           return;
         }
-        // startTurn() re-checks mic permission itself (silent after the
-        // first grant) and Stop still interrupts this at any point.
-        startTurn(l1Side);
+        startTurn(bidirectional && side === 'a' ? 'b' : 'a');
       };
       speakText(data.translatedText, {
         locale: LANGUAGE_LOCALES[targetLanguage],
@@ -31476,7 +32291,7 @@ function setupInterpreter() {
     const turnToken = ++playbackToken;
     setTurnControls('playback');
     setStatus(`Reproduciendo ${languageLabel(turn.targetLanguage)}…`, 'is-success');
-    const sourceButton = turn.side === 'a' ? talkA : talkB;
+    const sourceButton = turn.side === 'b' ? talkB : talkA;
     speakText(turn.translation, {
       locale: LANGUAGE_LOCALES[turn.targetLanguage],
       onEnd: () => {
@@ -31511,16 +32326,126 @@ function setupInterpreter() {
     mediaRecorder.stop();
   }
 
+  // DeepL Voice is a paid API Pro feature.  The interpreter must still work
+  // for the normal translator configuration, so this browser path turns a
+  // spoken turn into text, uses our existing server-side translator, then
+  // reads the result aloud in the target language.  It is also the graceful
+  // fallback if a Voice subscription is unavailable or temporarily fails.
+  async function startBrowserInterpreterTurn(side, nativeError = null) {
+    if (busy || browserRecognition) return;
+    if (!freeDemoAvailable()) return;
+    const Ctor = getSpeechRecognitionCtor();
+    const sourceLanguage = side === 'b' ? langB.value : langA.value;
+    const targetLanguage = side === 'b' ? langA.value : langB.value;
+    const button = side === 'b' ? talkB : talkA;
+    if (!Ctor) {
+      setStatus(
+        nativeError
+          ? 'DeepL Voice no está disponible y este navegador no permite transcribir voz. Usa Chrome o escribe en el Traductor.'
+          : 'El reconocimiento de voz no está disponible en este navegador. Usa Chrome o escribe en el Traductor.',
+        'is-unavailable'
+      );
+      return;
+    }
+    try {
+      await ensureMicrophonePermission();
+    } catch (error) {
+      setStatus(microphonePermissionMessage(error), 'is-unavailable');
+      return;
+    }
+
+    const recognition = new Ctor();
+    let finalText = '';
+    let closed = false;
+    browserRecognitionStopped = false;
+    browserRecognition = recognition;
+    busy = true;
+    activeButton = button;
+    setTurnControls(side);
+    button.classList.add('is-listening');
+    recognition.lang = LANGUAGE_LOCALES[sourceLanguage] || 'en-US';
+    recognition.continuous = false;
+    recognition.interimResults = true;
+    recognition.addEventListener('result', (event) => {
+      let interimText = '';
+      for (let index = event.resultIndex; index < event.results.length; index += 1) {
+        const transcript = event.results[index][0]?.transcript || '';
+        if (event.results[index].isFinal) finalText += transcript;
+        else interimText += transcript;
+      }
+      setStatus((finalText + interimText).trim() || `Escuchando ${languageLabel(sourceLanguage)}…`, 'is-loading');
+    });
+    recognition.addEventListener('error', (event) => {
+      if (closed) return;
+      closed = true;
+      browserRecognition = null;
+      busy = false;
+      activeButton?.classList.remove('is-listening');
+      activeButton = null;
+      setTurnControls();
+      if (event.error === 'no-speech')
+        setStatus('No se detectó voz. Toca «Hablar» e inténtalo de nuevo.', 'is-unavailable');
+      else if (event.error === 'not-allowed' || event.error === 'service-not-allowed')
+        setStatus('El micrófono está bloqueado. Actívalo para andergo.online en los permisos del navegador.', 'is-unavailable');
+      else setStatus('No se pudo transcribir el audio. Inténtalo de nuevo.', 'is-unavailable');
+    });
+    recognition.addEventListener('end', () => {
+      if (closed) return;
+      closed = true;
+      browserRecognition = null;
+      activeButton?.classList.remove('is-listening');
+      activeButton = null;
+      if (browserRecognitionStopped) {
+        browserRecognitionStopped = false;
+        return;
+      }
+      const transcript = finalText.trim();
+      if (!transcript) {
+        busy = false;
+        setTurnControls();
+        setStatus('No se detectó voz. Toca «Hablar» e inténtalo de nuevo.', 'is-unavailable');
+        return;
+      }
+      translateTurn(transcript, sourceLanguage, targetLanguage, side);
+    });
+    try {
+      recognition.start();
+      setStatus(`Escuchando ${languageLabel(sourceLanguage)}…`, 'is-loading');
+    } catch {
+      browserRecognition = null;
+      busy = false;
+      activeButton?.classList.remove('is-listening');
+      activeButton = null;
+      setTurnControls();
+      setStatus('No se pudo iniciar el micrófono. Inténtalo de nuevo.', 'is-unavailable');
+    }
+  }
+
   async function startTurn(side) {
     if (busy || mediaRecorder || voiceSocket) return;
-    const sourceLanguage = side === 'a' ? langA.value : langB.value;
-    const targetLanguage = side === 'a' ? langB.value : langA.value;
+    if (side === 'b' && !bidirectional) return;
+    const sourceLanguage = side === 'b' ? langB.value : langA.value;
+    const targetLanguage = side === 'b' ? langA.value : langB.value;
     if (sourceLanguage === targetLanguage) {
       setTurnControls();
       setStatus('Selecciona dos idiomas diferentes.', 'is-unavailable');
       return;
     }
-    const button = side === 'a' ? talkA : talkB;
+    const button = side === 'b' ? talkB : talkA;
+    // Manual mode is available as a short Free demonstration and uses the
+    // browser microphone plus the existing text-translation service. Only
+    // Premium hands-free mode opens a paid realtime voice session.
+    if (!handsFree) {
+      startBrowserInterpreterTurn(side);
+      return;
+    }
+    if (!isPremiumUser()) {
+      handsFree = false;
+      renderHandsFreeState();
+      showHomeToast('Esta opción está disponible para usuarios Premium.');
+      setStatus('Manos libres está disponible con Premium.', 'is-unavailable');
+      return;
+    }
     if (!window.MediaRecorder || !navigator.mediaDevices?.getUserMedia) {
       setStatus('Este navegador no admite el intérprete de voz en tiempo real.', 'is-unavailable');
       return;
@@ -31639,9 +32564,8 @@ function setupInterpreter() {
           const finishTurn = () => {
             busy = false;
             setTurnControls();
-            const l1Side = getL1Side();
-            if (handsFree && l1Side && side === l1Side) startTurn(l1Side);
-            else setStatus('Listo. Toca el idioma que va a hablar.', 'is-success');
+            if (handsFree) startTurn(bidirectional && side === 'a' ? 'b' : 'a');
+            else setStatus('Listo. Toca «Hablar» para interpretar otra frase.', 'is-success');
           };
           if (turn.audioChunks.length) {
             const audio = new Audio(
@@ -31682,6 +32606,16 @@ function setupInterpreter() {
         }
       });
     } catch (error) {
+      // The fallback is only safe before a native stream has begun.  Once a
+      // live DeepL session exists, keep its own error/status behaviour.
+      if (!mediaRecorder && !voiceSocket && !microphoneStream) {
+        busy = false;
+        activeButton?.classList.remove('is-listening');
+        activeButton = null;
+        setTurnControls();
+        startBrowserInterpreterTurn(side, error);
+        return;
+      }
       microphoneStream?.getTracks().forEach((track) => track.stop());
       mediaRecorder = null;
       voiceSocket = null;
@@ -31693,7 +32627,9 @@ function setupInterpreter() {
   }
 
   talkA.addEventListener('click', () => startTurn('a'));
-  talkB.addEventListener('click', () => startTurn('b'));
+  talkB.addEventListener('click', () => {
+    if (bidirectional) startTurn('b');
+  });
   conversation.addEventListener('click', (event) => {
     const repeatButton = event.target.closest('[data-interpreter-repeat]');
     if (!repeatButton) return;
@@ -31704,24 +32640,42 @@ function setupInterpreter() {
     else stop();
   });
   handsFreeBtn?.addEventListener('click', () => {
+    if (!isPremiumUser()) {
+      handsFree = false;
+      renderHandsFreeState();
+      showHomeToast('Esta opción está disponible para usuarios Premium.');
+      setStatus('Manos libres está disponible con Premium.', 'is-unavailable');
+      return;
+    }
     handsFree = !handsFree;
     renderHandsFreeState();
     if (!handsFree) {
-      setStatus('Manos libres desactivado. Toca un idioma para hablar.');
-      return;
-    }
-    const l1Side = getL1Side();
-    if (!l1Side) {
-      handsFree = false;
-      renderHandsFreeState();
-      setStatus('Selecciona tu idioma de apoyo para usar manos libres.', 'is-unavailable');
+      setStatus('Manos libres desactivado. Toca «Hablar» para interpretar.');
       return;
     }
     setStatus(
-      `Manos libres activo. Escuchando ${languageLabel(l1Side === 'a' ? langA.value : langB.value)}…`,
+      `Manos libres activo. Escuchando ${languageLabel(langA.value)}…`,
       'is-success'
     );
-    startTurn(l1Side);
+    startTurn('a');
+  });
+  directionBtn?.addEventListener('click', () => {
+    if (busy) return;
+    bidirectional = !bidirectional;
+    renderDirectionState();
+    setStatus(
+      bidirectional
+        ? 'Conversación A ↔ B activa. Ambas personas pueden hablar.'
+        : 'Modo A → B activo. Solo Persona A será escuchada.',
+      'is-success'
+    );
+  });
+  swapBtn?.addEventListener('click', () => {
+    const previousA = langA.value;
+    langA.value = langB.value;
+    langB.value = previousA;
+    updateLabels();
+    setStatus('Idiomas intercambiados. Elige quién va a hablar.', 'is-success');
   });
   clearBtn?.addEventListener('click', () => {
     stop();
@@ -31729,15 +32683,11 @@ function setupInterpreter() {
     renderTurns();
     setStatus('Conversación limpia.');
   });
-  swapBtn?.addEventListener('click', () => {
-    const value = langA.value;
-    langA.value = langB.value;
-    langB.value = value;
-    updateLabels();
-  });
   langA.addEventListener('change', updateLabels);
   langB.addEventListener('change', updateLabels);
+  window.addEventListener('andergo:entitlements-updated', renderAccessState);
   updateLabels();
+  renderDirectionState();
   renderHandsFreeState();
   renderTurns();
 }
@@ -31928,10 +32878,6 @@ function setupCorrector(idPrefix = 'corrector') {
             </section>`
           : '';
         output.innerHTML = `
-          <div class="corrector-original">
-            <span class="corrector-result-label">Original</span>
-            <p>${escapeHtml(text)}</p>
-          </div>
           <div class="corrector-corrected">
             <span class="corrector-result-label">${isUnchanged ? 'Está bien dicho' : 'Corrección'}</span>
             <p>${renderCorrectorHighlighted(lastCorrection.correctedText, lastCorrection.changes)}</p>
@@ -32465,8 +33411,29 @@ const isPasswordRecoveryLink =
 // params once it's here.
 const isEmailConfirmedLink =
   new URLSearchParams(window.location.search).get('auth') === 'confirmed';
-const oauthCallbackProvider = new URLSearchParams(window.location.search).get('auth');
-const isOAuthCallback = ['google', 'facebook'].includes(oauthCallbackProvider);
+const oauthLandingUrl = new URL(window.location.href);
+const oauthLandingHash = new URLSearchParams(oauthLandingUrl.hash.replace(/^#/, ''));
+const oauthProviderInUrl = oauthLandingUrl.searchParams.get('auth');
+const pendingOAuthProvider = getPendingOAuthProvider();
+const oauthCallbackProvider = oauthProviderInUrl || pendingOAuthProvider;
+const hasOAuthCallbackPayload = Boolean(
+  oauthLandingUrl.searchParams.get('code') ||
+  oauthLandingUrl.searchParams.get('error') ||
+  oauthLandingUrl.searchParams.get('error_description') ||
+  oauthLandingHash.get('access_token') ||
+  oauthLandingHash.get('error') ||
+  oauthLandingHash.get('error_description')
+);
+// A normal landing must not be hijacked by an abandoned earlier attempt.
+// `auth=google|facebook` is itself an intentional callback entry point;
+// otherwise require a real code/token/error payload from Supabase.
+const isOAuthCallback =
+  ['google', 'facebook'].includes(oauthCallbackProvider) &&
+  (['google', 'facebook'].includes(oauthProviderInUrl) || hasOAuthCallbackPayload);
+
+if (pendingOAuthProvider && !isOAuthCallback && !oauthProviderInUrl) {
+  clearOAuthAttempt();
+}
 
 if (isPasswordRecoveryLink) {
   showView('reset-password');

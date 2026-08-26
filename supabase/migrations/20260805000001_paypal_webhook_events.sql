@@ -1,4 +1,4 @@
--- PayPal fallback: idempotent webhook processing, mirroring paddle_webhook_events.
+-- PayPal: idempotent webhook processing.
 
 create table if not exists public.paypal_webhook_events (
   id uuid primary key default gen_random_uuid(),

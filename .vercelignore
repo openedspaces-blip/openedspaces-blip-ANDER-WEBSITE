@@ -1,0 +1,7 @@
+# Local mobile build caches are neither web assets nor deployment inputs.
+# Gradle holds these files open while Android Studio is running, which would
+# otherwise prevent Vercel from packaging the static web application.
+mobile/android/.gradle/
+mobile/android/build/
+mobile/.expo/
+mobile/node_modules/

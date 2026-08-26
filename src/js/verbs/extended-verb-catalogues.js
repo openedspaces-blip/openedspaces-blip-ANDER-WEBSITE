@@ -841,6 +841,17 @@
       pastParticiple: 'insured'
     };
   }
+  const emphasise = data.english.find((verb) => verb.infinitive === 'emphasise');
+  if (emphasise) {
+    emphasise.regular = true;
+    emphasise.forms = {
+      ...emphasise.forms,
+      thirdPersonSingular: 'emphasises',
+      presentParticiple: 'emphasising',
+      pastSimple: 'emphasised',
+      pastParticiple: 'emphasised'
+    };
+  }
 
   // French reaches the same 1,200-verb reference catalogue as English and
   // Spanish.  These are additional distinct lemmas (not inflected forms),

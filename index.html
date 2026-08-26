@@ -109,11 +109,11 @@
       <nav class="mobile-header-tabs" aria-label="Acceso principal de aprendizaje">
         <a class="nav-learn-cta" href="#learn" aria-label="Abrir mi ruta de aprendizaje"><span aria-hidden="true">📘</span><strong>Aprender</strong><small>Ruta de aprendizaje</small></a>
         <a href="#tests"><span aria-hidden="true">✓</span>Tests</a>
-        <a href="#verbs"><span aria-hidden="true">Aa</span>Verbos</a>
-        <a href="#adjectives"><span aria-hidden="true">A+</span>Adjetivos</a>
-        <a href="#adverbs"><span aria-hidden="true">↗</span>Adverbios</a>
-        <a href="#infographics"><span aria-hidden="true">◉</span>Infografías</a>
-        <a href="#games"><span aria-hidden="true">♟</span>Juegos</a>
+        <a href="#verbs" data-guest-preview><span aria-hidden="true">Aa</span>Verbos</a>
+        <a href="#adjectives" data-guest-preview><span aria-hidden="true">A+</span>Adjetivos</a>
+        <a href="#adverbs" data-guest-preview><span aria-hidden="true">↗</span>Adverbios</a>
+        <a href="#infographics" data-guest-preview><span aria-hidden="true">◉</span>Infografías</a>
+        <a href="#games" data-guest-preview><span aria-hidden="true">♟</span>Juegos</a>
         <a href="#tutor"><span aria-hidden="true">✦</span>Tutor</a>
         <a href="#translator"><span aria-hidden="true">文</span>Traductor</a>
       </nav>
@@ -145,16 +145,16 @@
           <a href="#vocabulary" data-i18n="navVocabulary">Vocabulario</a>
           <a href="#readings">Lecturas</a>
           <a href="#listenings">Audios</a>
-          <a href="#verbs" data-i18n="navVerbs">Verbos</a>
+          <a href="#verbs" data-i18n="navVerbs" data-guest-preview>Verbos</a>
+          <a href="#adjectives" data-guest-preview>Adjetivos</a>
+          <a href="#adverbs" data-guest-preview>Adverbios</a>
           <a href="#tests">Pruebas</a>
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
+          <a href="#games" data-guest-preview>Juegos</a>
           <details class="nav-more nav-explore">
-            <summary>Explorar</summary>
+            <summary>Más</summary>
             <span class="nav-more-menu">
-              <a href="#adjectives">Adjetivos</a>
-              <a href="#adverbs">Adverbios</a>
-              <a href="#infographics">Infografías</a>
-              <a href="#games">Juegos</a>
+              <a href="#infographics" data-guest-preview>Infografías</a>
               <a href="#tutor" data-i18n="navTutor">Tutor I.A.</a>
               <a href="#progress" data-i18n="navProgress">Progreso</a>
               <a href="#goals" data-i18n="navGoals">Objetivos</a>
@@ -173,9 +173,7 @@
         <button class="logout-btn" type="button" hidden data-i18n="logoutBtn">Cerrar sesión</button>
       </div>
       <div class="mobile-account-summary" hidden aria-live="polite">
-        <span class="mobile-account-summary-label">Cuenta</span>
-        <strong class="mobile-account-summary-name"></strong>
-        <span class="mobile-account-summary-plan"></span>
+        <span class="mobile-account-summary-plan" aria-label="Tipo de plan"></span>
       </div>
       <section class="global-search-panel" id="globalSearchPanel" role="region" aria-labelledby="globalSearchTitle" hidden>
       <div class="global-search-dialog">
@@ -388,39 +386,40 @@
               <h3>Free</h3>
               <p class="price">USD 0 <small>/ mes</small></p>
               <ul class="plan-benefits plan-benefits--desktop">
-                <li>Unidades iniciales y las habilidades esenciales de cada idioma.</li>
-                <li>Traductor, flashcards y voces naturales del dispositivo.</li>
+                <li>Juegos e infografías incluidos; pruebas hasta B1.</li>
+                <li>100 traducciones al mes, flashcards y voces del dispositivo.</li>
                 <li>Tutor IA: 30 consultas y 10 prácticas de voz al mes.</li>
               </ul>
               <details class="plan-benefits-mobile">
                 <summary>Ver beneficios del plan Free</summary>
                 <ul>
-                  <li>Unidades iniciales de cada nivel disponible, según el idioma.</li>
-                  <li>Reading, Grammar, Vocabulary, Listening y Speaking incluidos.</li>
-                  <li>Voces del dispositivo, traductor y flashcards.</li>
+                  <li>Juegos e infografías incluidos al crear tu cuenta.</li>
+                  <li>Pruebas disponibles desde Pre-A1 hasta B1.</li>
+                  <li>100 traducciones mensuales, voces del dispositivo y flashcards.</li>
                   <li>Tutor IA: 30 consultas al mes.</li>
                   <li>Conversación por voz: 10 al mes.</li>
                 </ul>
               </details>
-              <p class="price-annual">¿Te gusta ANDERGO? Puedes apoyar el proyecto sin cambiar tu plan.</p>
+              <p class="price-annual">En ANDERGO preferimos aprender sin anuncios. Premium ofrece la experiencia completa por USD 7 al mes; si prefieres aportar menos, puedes apoyar desde USD 1. Cada contribución nos ayuda a crear mejores experiencias de aprendizaje.</p>
               <a
-                class="secondary-btn"
+                class="secondary-btn donation-link"
                 href="https://www.paypal.com/donate/?hosted_button_id=8J5CWKN8WCLU2"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Bríndanos un café</a>
+              >Hacer un pequeño donativo</a>
             </article>
 
             <article class="plan premium-plan">
               <span class="plan-badge" data-premium-plan-badge>Recomendado</span>
               <h3>ANDERGO Premium</h3>
               <p class="price">
-                <span data-premium-monthly-price>USD 4.99</span> <small>/ mes</small>
+                <span data-premium-monthly-price>USD 7.00</span> <small>/ mes</small>
               </p>
-              <p class="price-annual">También disponible por USD 12.99 cada tres meses.</p>
+              <p class="price-annual">O elige el plan trimestral por <span data-premium-quarterly-price>USD 14.99</span> cada tres meses.</p>
               <ul class="plan-benefits plan-benefits--desktop">
                 <li>Todos los niveles y habilidades disponibles según el idioma.</li>
                 <li>Lecciones, evaluaciones, juegos y práctica guiada sin límites de ruta.</li>
+                <li>1,000 traducciones al mes y acceso a pruebas B2–C2.</li>
                 <li>Tutor IA: 500 consultas al mes y conversación por voz con corrección.</li>
                 <li>Estadísticas completas y certificado digital por nivel.</li>
               </ul>
@@ -430,6 +429,7 @@
                   <li>Acceso completo a todos los niveles disponibles: A1–C2 en English, Español y Français; A1–B1 en Italiano, Português y Deutsch.</li>
                   <li>Reading, Grammar, Vocabulary, Listening, Speaking y Verbos sin límites de ruta.</li>
                   <li>Lecciones, evaluaciones, juegos y práctica guiada para avanzar a tu ritmo.</li>
+                  <li>1,000 traducciones mensuales y pruebas B2–C2.</li>
                   <li>Tutor inteligente ANDERGO: 500 consultas al mes.</li>
                   <li>Conversación por voz con corrección de pronunciación.</li>
                   <li>Estadísticas completas para seguir cada avance.</li>
@@ -437,18 +437,18 @@
                 </ul>
               </details>
               <div class="premium-checkout-actions">
-                <button type="button" class="primary-btn paddle-checkout-btn" data-billing-cycle="monthly">
-                  Elegir mensual · <span data-premium-monthly-price>USD 4.99</span>
+                <button type="button" class="primary-btn premium-checkout-btn" data-billing-cycle="monthly">
+                  Elegir mensual · <span data-premium-monthly-price>USD 7.00</span>
                 </button>
-                <button type="button" class="secondary-btn paddle-checkout-btn" data-billing-cycle="quarterly">
-                  Elegir trimestral
+                <button type="button" class="secondary-btn premium-checkout-btn" data-billing-cycle="quarterly">
+                  Elegir trimestral · <span data-premium-quarterly-price>USD 14.99</span>
                 </button>
                 <button type="button" class="secondary-btn azul-checkout-btn" data-billing-cycle="monthly" hidden>
                   Pagar con tarjeta mediante Azul
                 </button>
               </div>
               <p class="premium-policy-links"><a href="/politica-de-entrega.html">Política de entrega digital</a> · <a href="/seguridad-de-pagos.html">Seguridad de pagos</a></p>
-              <p class="premium-checkout-status" data-paddle-status data-payment-status aria-live="polite"></p>
+              <p class="premium-checkout-status" data-payment-status aria-live="polite"></p>
             </article>
 
           </div>
@@ -458,14 +458,6 @@
               <span class="account-plan-eyebrow">ESTATUS DE TU CUENTA</span>
               <h3 data-account-plan-name>Free</h3>
               <p data-account-plan-detail>Tu cuenta utiliza el plan gratuito.</p>
-            </div>
-            <div class="account-plan-actions" data-account-plan-actions hidden>
-              <button type="button" class="secondary-btn" data-paddle-action="pause">
-                Pausar al finalizar el periodo
-              </button>
-              <button type="button" class="secondary-btn" data-paddle-action="manage">
-                Administrar o cancelar
-              </button>
             </div>
             <p class="account-plan-message" data-account-plan-message></p>
           </section>
@@ -1605,7 +1597,7 @@
                   🎙 Hablar
                 </button>
                 <button type="button" class="primary-btn translator-submit-btn" id="translatorSubmitBtn">
-                  Traducir →
+                  Traducir
                 </button>
                 <button
                   type="button"
@@ -1677,48 +1669,56 @@
           <div class="translator-panel interpreter-panel">
             <div class="interpreter-heading">
               <div>
-                <span class="tests-eyebrow">Conversación por voz</span>
-                <h3>Modo intérprete</h3>
-                <p>Elige los idiomas y toca quién inicia. En manos libres, la interpretación continúa sólo desde tu idioma base (L1) hacia el idioma destino (L2).</p>
+                <span class="tests-eyebrow">Conversación bilingüe</span>
+                <h3 id="interpreterHeadingTitle">Intérprete Persona A → Persona B</h3>
+                <p>Persona A habla y Persona B escucha la interpretación. Si ambas personas necesitan hablar, activa la conversación bidireccional.</p>
               </div>
-              <button type="button" class="secondary-btn" id="interpreterClearBtn">Limpiar conversación</button>
+            </div>
+            <div class="interpreter-mode-bar" aria-label="Acceso del intérprete">
+              <span class="interpreter-mode-label" id="interpreterModeLabel">Modo manual</span>
+              <span class="interpreter-usage" id="interpreterUsage">4 turnos de demostración por sesión</span>
             </div>
             <div class="interpreter-target-row">
-              <label for="interpreterLangA">Desde (tu idioma)
+              <label for="interpreterLangA"><span>Persona A</span> · Idioma
                 <select id="interpreterLangA">
                   <option value="english">🇺🇸 English</option>
                   <option value="spanish" selected>🇪🇸 Español</option>
                   <option value="french">🇫🇷 Français</option>
                   <option value="italian">🇮🇹 Italiano</option>
                   <option value="portuguese">🇵🇹 Português</option>
+                  <option value="german">🇩🇪 Deutsch</option>
                 </select>
               </label>
-              <button type="button" class="secondary-btn interpreter-swap-btn" id="interpreterSwapBtn" aria-label="Intercambiar idiomas">⇄</button>
-              <label for="interpreterLangB">Hacia (idioma destino)
+              <button type="button" class="interpreter-swap-btn" id="interpreterSwapBtn" aria-label="Intercambiar idiomas de Persona A y Persona B">⇄</button>
+              <label for="interpreterLangB"><span>Persona B</span> · Idioma
                 <select id="interpreterLangB">
                   <option value="english" selected>🇺🇸 English</option>
                   <option value="spanish">🇪🇸 Español</option>
                   <option value="french">🇫🇷 Français</option>
                   <option value="italian">🇮🇹 Italiano</option>
                   <option value="portuguese">🇵🇹 Português</option>
+                  <option value="german">🇩🇪 Deutsch</option>
                 </select>
               </label>
             </div>
             <div class="interpreter-talk-grid">
-              <button type="button" class="interpreter-talk-btn" id="interpreterTalkA"><span>🎙️</span><strong id="interpreterTalkALabel">Español</strong><small>Toca para hablar</small></button>
-              <button type="button" class="interpreter-talk-btn interpreter-talk-btn--b" id="interpreterTalkB"><span>🎙️</span><strong id="interpreterTalkBLabel">English</strong><small>Tap to speak</small></button>
+              <button type="button" class="interpreter-talk-btn interpreter-talk-btn--a" id="interpreterTalkA"><span class="interpreter-person-tag">Persona A</span><span aria-hidden="true">🎙️</span><strong id="interpreterTalkALabel">Hablar en Español</strong><small id="interpreterTalkAHint">Persona B escuchará en English</small></button>
+              <button type="button" class="interpreter-talk-btn interpreter-talk-btn--b" id="interpreterTalkB" disabled><span class="interpreter-person-tag">Persona B</span><span aria-hidden="true">🎧</span><strong id="interpreterTalkBLabel">Escucha en English</strong><small id="interpreterTalkBHint">Solo recibe la interpretación de Persona A</small></button>
             </div>
             <div class="interpreter-actions">
               <div class="interpreter-action-buttons">
                 <button type="button" class="secondary-btn translator-stop-btn" id="interpreterStopBtn">⏹ Detener</button>
-                <button type="button" class="secondary-btn interpreter-handsfree-btn" id="interpreterHandsFreeBtn" aria-pressed="false">⚙ Manos libres</button>
+                <button type="button" class="secondary-btn interpreter-handsfree-btn" id="interpreterHandsFreeBtn" aria-pressed="false">⚙ Manos libres <span class="interpreter-premium-badge">Premium</span></button>
+                <button type="button" class="secondary-btn interpreter-direction-btn" id="interpreterDirectionBtn" aria-pressed="false">↔ Activar conversación A ↔ B</button>
+                <button type="button" class="secondary-btn" id="interpreterClearBtn">Nueva conversación</button>
               </div>
               <span class="translator-status" id="interpreterStatus" role="status" aria-live="polite">Listo para interpretar.</span>
             </div>
+            <p class="interpreter-privacy-note"><span aria-hidden="true">🛡️</span> El audio se procesa para interpretar y no se guarda. Esta conversación conserva solamente sus 10 turnos más recientes mientras la página permanece abierta.</p>
             <div class="interpreter-conversation" id="interpreterConversation" aria-live="polite">
               <div class="interpreter-empty">
                 <span aria-hidden="true">🎧</span>
-                <p>Elige el botón del idioma que va a hablar para comenzar.</p>
+                <p>Persona A puede hablar para comenzar la interpretación hacia Persona B.</p>
               </div>
             </div>
           </div>
@@ -2233,7 +2233,7 @@
 
                 <div class="signup-step-actions">
                   <button type="button" class="secondary-btn" id="signupBackBtn">← Volver</button>
-                  <button type="submit" class="primary-btn">Crear cuenta</button>
+                  <button type="submit" class="primary-btn" data-i18n="signupBtn">Crear cuenta</button>
                 </div>
                 <p
                   class="auth-note"
@@ -2427,8 +2427,8 @@
         <p>Continúa tu recorrido con todas las unidades y herramientas Premium.</p>
         <ul class="paywall-features" id="paywallFeatures"></ul>
         <p class="paywall-price-line">
-          <span data-premium-monthly-price>USD 4.99</span><small>/mes</small>
-          &nbsp;·&nbsp; plan trimestral disponible
+          <span data-premium-monthly-price>USD 7.00</span><small>/mes</small>
+          &nbsp;·&nbsp; <span data-premium-quarterly-price>USD 14.99</span> cada tres meses
         </p>
         <div class="confirm-actions">
           <button type="button" class="secondary-btn" data-action="dismiss-paywall">
@@ -2681,7 +2681,7 @@
             <a href="/privacy.html">Política de privacidad</a>
             <a href="/refund-policy.html">Política de reembolso</a>
           </div>
-          <div class="footer-links-col">
+          <div class="footer-links-col footer-seo-links">
             <h4>Cursos online</h4>
             <a href="/sobre-andergo.html">Qué es ANDERGO</a>
             <a href="/recursos-aprender-idiomas.html">Cómo aprender idiomas</a>
@@ -2715,7 +2715,15 @@
     <script src="/src/js/app-install.js"></script>
     <script src="/src/js/global-search.js"></script>
     <!-- Verb data and its view are loaded when #verbs is opened. -->
+    <script src="/src/js/lexicon-catalogues.generated.js"></script>
     <script src="/src/js/lexicon-view.js"></script>
+    <!-- Cloud pronunciation for the six supported course languages. Haitian
+         Creole deliberately stays on the device voice because ResponsiveVoice
+         does not currently provide a Haitian Creole voice. -->
+    <script src="https://cdn.responsivevoice.org/sdk/latest/responsivevoice.js"></script>
+    <script>
+      window.responsiveVoice?.init?.({ apiKey: 'Xf5ulDwo' });
+    </script>
     <script src="/src/js/script.js?v=20260805-games-upgrade"></script>
   </body>
 </html>

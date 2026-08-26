@@ -1,6 +1,9 @@
 'use strict';
 
 const lessons = require('../lib/seed-lessons.json');
+const TARGET_WORDS_PER_LESSON = 30;
+const TARGET_WORDS_PER_LEVEL = 360;
+const TARGET_EXPRESSIONS_PER_LEVEL = 140;
 
 const vocabularyLessons = lessons.filter(
   (lesson) => lesson.skill === 'vocabulary' && Array.isArray(lesson.content_json?.vocabulary)
@@ -78,3 +81,29 @@ if (failures.length) {
   process.exitCode = 1;
 }
 
+// Curriculum coverage is measured independently from card quality. A level
+// is only complete when its twelve Vocabulary lessons supply the promised
+// word bank and its reusable-expression bank reaches the stated target.
+const coverage = new Map();
+for (const lesson of vocabularyLessons) {
+  const key = `${lesson.target_language}|${lesson.level}`;
+  const item = coverage.get(key) || { lessons: 0, words: new Set(), expressions: new Set(), shortLessons: [] };
+  const cards = lesson.content_json.vocabulary || [];
+  item.lessons += 1;
+  if (cards.length < TARGET_WORDS_PER_LESSON) item.shortLessons.push(lesson.slug);
+  for (const card of cards) {
+    const term = normalized(card.word || card.targetWord);
+    if (!term) continue;
+    (/\s/.test(term) ? item.expressions : item.words).add(term);
+  }
+  for (const phrase of lesson.content_json.phrases || []) {
+    const term = normalized(typeof phrase === 'string' ? phrase : phrase.text || phrase.expression);
+    if (term) item.expressions.add(term);
+  }
+  coverage.set(key, item);
+}
+console.log('\nCurriculum coverage targets');
+for (const [key, item] of [...coverage.entries()].sort()) {
+  const valid = item.lessons === 12 && item.words.size >= TARGET_WORDS_PER_LEVEL && item.expressions.size >= TARGET_EXPRESSIONS_PER_LEVEL && !item.shortLessons.length;
+  console.log(`- ${key}: ${item.lessons}/12 lessons · ${item.words.size}/${TARGET_WORDS_PER_LEVEL} words · ${item.expressions.size}/${TARGET_EXPRESSIONS_PER_LEVEL} expressions · ${valid ? 'READY' : 'INCOMPLETE'}`);
+}

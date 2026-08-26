@@ -29,53 +29,30 @@
   .navbar:has(.mobile-account-summary:not([hidden])) {
     grid-template-areas:
       'brand actions toggle'
-      'account account account'
+      'account . .'
       'menu menu menu';
   }
 
   .mobile-account-summary:not([hidden]) {
     grid-area: account;
     display: flex;
-    min-width: 0;
+    width: fit-content;
     align-items: center;
-    gap: .32rem;
-    min-height: 29px;
-    margin-top: .12rem;
-    padding: .3rem .52rem;
+    min-height: 22px;
+    margin: .05rem 0 .12rem;
+    padding: .2rem .46rem;
     border: 1px solid rgba(37,99,235,.14);
-    border-radius: 11px;
-    background: linear-gradient(100deg, #f4f8ff, #eef7ff);
+    border-radius: 999px;
+    background: #f3f7ff;
     color: #304461;
     line-height: 1;
   }
 
-  .mobile-account-summary-label {
-    color: #62718a;
-    font-size: .58rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: .055em;
-  }
-
-  .mobile-account-summary-name {
-    min-width: 0;
-    overflow: hidden;
-    color: #14234a;
-    font-size: .61rem;
-    font-weight: 800;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
   .mobile-account-summary-plan {
-    flex: 0 0 auto;
-    margin-left: auto;
-    padding: .22rem .42rem;
-    border-radius: 999px;
-    background: #dfeaff;
     color: #1956c9;
-    font-size: .58rem;
+    font-size: .6rem;
     font-weight: 900;
+    letter-spacing: .01em;
   }
 
   .navbar:has(.mobile-account-summary:not([hidden])) .nav-actions .user-chip {
@@ -751,5 +728,36 @@
     margin: 0;
     padding: .14rem .28rem;
     font-size: .6rem;
+  }
+
+  /* Pronunciation is a supporting action in the compact phone cards. Keep
+     the speaker visible without letting it compete with the word itself. */
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-word-audio-btn,
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn {
+    width: 1.45rem;
+    height: 1.45rem;
+    min-height: 1.45rem;
+    flex-basis: 1.45rem;
+    font-size: .62rem;
+  }
+
+  .skill-view-section[data-skill='vocabulary'] .vocab-card-audio-btn {
+    width: 1.55rem;
+    height: 1.55rem;
+    flex-basis: 1.55rem;
+    font-size: .7rem;
+  }
+
+  #verbs .verb-catalogue-audio {
+    width: 1.45rem;
+    height: 1.45rem;
+    min-width: 1.45rem;
+    font-size: .62rem;
+  }
+
+  .lexicon-speak {
+    width: 1.22rem;
+    height: 1.22rem;
+    font-size: .56rem;
   }
 }

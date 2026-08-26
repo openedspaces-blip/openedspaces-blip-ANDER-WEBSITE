@@ -197,7 +197,7 @@ function lessonFor(language, level, unit, order, skill) {
     language: packs[language].label, language_key: language, level_title: `${packs[language].label} ${level}`,
     intro: objective, mission: objective, grammar: grammarInL2(language, level), phrases: words.slice(0, 3), vocabulary,
     xp_reward: meta.xp,
-    access_policy: { free_lessons_per_level: 1, is_free_preview: isFree, premium_price_usd: 4.99, premium_label: 'Premium desbloquea la ruta completa' },
+    access_policy: { free_lessons_per_level: 1, is_free_preview: isFree, premium_price_usd: 7, premium_label: 'Premium desbloquea la ruta completa' },
     extra: { grammarProfile: { name: title, definition: grammarInL2(language, level), function: objective, examples: [] } }
   };
   if (skill === 'reading') {
@@ -217,7 +217,7 @@ function lessonFor(language, level, unit, order, skill) {
   } else {
     content.exercises = words.map((word, index) => ({ type: 'mcq', prompt: index === 0 ? prompts.vocabulary : l2(language, { italian: `Seleziona «${word}».`, portuguese: `Selecione «${word}».`, german: `Wähle „${word}“.` }), options: [word, words[(index + 1) % words.length], words[(index + 2) % words.length], words[(index + 3) % words.length]], answer: 0 }));
   }
-  return { slug: `${language}-${level.toLowerCase()}-${slug}-${skill}`, target_language: language, level, skill, unit_slug: slug, title: titleWithSkill, description: objective, order_index: order, estimated_minutes: skill === 'writing' ? 20 : 15, is_free: isFree, access_tier: isFree ? 'free' : 'premium', payment_price_usd: 4.99, content_json: content };
+  return { slug: `${language}-${level.toLowerCase()}-${slug}-${skill}`, target_language: language, level, skill, unit_slug: slug, title: titleWithSkill, description: objective, order_index: order, estimated_minutes: skill === 'writing' ? 20 : 15, is_free: isFree, access_tier: isFree ? 'free' : 'premium', payment_price_usd: 7, content_json: content };
 }
 
 for (const language of Object.keys(packs)) {

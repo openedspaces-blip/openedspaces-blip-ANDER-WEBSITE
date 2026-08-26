@@ -11,6 +11,7 @@ const API = 'https://andergo.online';
 const LANGUAGES: { id: TargetLanguage; label: string; flag: string; locale: string }[] = [
   { id: 'english', label: 'Inglés', flag: '🇺🇸', locale: 'en-US' }, { id: 'french', label: 'Francés', flag: '🇫🇷', locale: 'fr-FR' },
   { id: 'spanish', label: 'Español', flag: '🇪🇸', locale: 'es-ES' }, { id: 'italian', label: 'Italiano', flag: '🇮🇹', locale: 'it-IT' },
+  { id: 'portuguese', label: 'Portugués', flag: '🇧🇷', locale: 'pt-BR' }, { id: 'german', label: 'Alemán', flag: '🇩🇪', locale: 'de-DE' },
 ];
 type TranslationResponse = { ok?: boolean; translatedText?: string; message?: string; detectedLanguage?: string };
 

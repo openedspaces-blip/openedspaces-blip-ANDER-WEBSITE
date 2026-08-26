@@ -600,188 +600,6 @@ a:focus-visible {
   max-width: 32ch;
 }
 
-/* Paddle three-tier localized pricing */
-.paddle-pricing-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
-  margin: 1.25rem 0 1.75rem;
-  color: var(--muted);
-  font-weight: 750;
-}
-
-.paddle-billing-toggle {
-  display: inline-grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 0.28rem;
-  border: 1px solid #c9dbff;
-  border-radius: 999px;
-  background: #edf4ff;
-}
-
-.paddle-billing-toggle button {
-  min-width: 108px;
-  min-height: 42px;
-  padding: 0.55rem 1rem;
-  border: 0;
-  border-radius: 999px;
-  color: #60708d;
-  font: inherit;
-  background: transparent;
-  cursor: pointer;
-}
-
-.paddle-billing-toggle button.is-active {
-  color: #fff;
-  background: linear-gradient(105deg, #2468ed, #08bce9);
-  box-shadow: 0 8px 20px rgba(36, 104, 237, 0.22);
-}
-
-.paddle-tier-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.1rem;
-  align-items: stretch;
-}
-
-.paddle-tier-card {
-  position: relative;
-  display: flex;
-  min-width: 0;
-  min-height: 480px;
-  flex-direction: column;
-  padding: clamp(1.25rem, 2.4vw, 2rem);
-  border: 1px solid #d4e2fb;
-  border-radius: 28px;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 18px 45px rgba(48, 83, 145, 0.1);
-}
-
-.paddle-tier-card.is-featured {
-  border-color: #4b78ff;
-  background: linear-gradient(180deg, #f4f7ff, #fff 45%);
-  box-shadow: 0 24px 60px rgba(51, 91, 211, 0.18);
-  transform: translateY(-8px);
-}
-
-.paddle-tier-badge {
-  position: absolute;
-  top: -13px;
-  left: 50%;
-  padding: 0.38rem 0.85rem;
-  border-radius: 999px;
-  color: #fff;
-  font-size: 0.76rem;
-  font-weight: 850;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  background: linear-gradient(105deg, #5a54f5, #236df0);
-  transform: translateX(-50%);
-}
-
-.paddle-tier-heading h3 {
-  margin: 0;
-  font-size: 1.65rem;
-}
-.paddle-tier-heading p {
-  min-height: 3.2rem;
-  margin: 0.55rem 0 0;
-  color: var(--muted);
-  line-height: 1.5;
-}
-.paddle-tier-price {
-  display: flex;
-  align-items: baseline;
-  gap: 0.45rem;
-  margin: 1.45rem 0 1.25rem;
-}
-.paddle-tier-price strong {
-  color: #18223b;
-  font-size: clamp(2rem, 4vw, 3.15rem);
-  line-height: 1;
-  letter-spacing: -0.045em;
-}
-.paddle-tier-price span {
-  color: var(--muted);
-  font-weight: 700;
-}
-.paddle-tier-card ul {
-  display: grid;
-  gap: 0.8rem;
-  margin: 0 0 1.5rem;
-  padding: 0;
-  list-style: none;
-}
-.paddle-tier-card li {
-  display: grid;
-  grid-template-columns: 1.35rem 1fr;
-  gap: 0.55rem;
-  color: #3f4d69;
-  line-height: 1.4;
-}
-.paddle-tier-card li span {
-  color: #12865d;
-  font-weight: 900;
-}
-.paddle-tier-subscribe {
-  width: 100%;
-  margin-top: auto;
-}
-.paddle-pricing-loading,
-.paddle-pricing-error {
-  grid-column: 1 / -1;
-  padding: 2.5rem;
-  text-align: center;
-  border: 1px solid #d5e3fb;
-  border-radius: 24px;
-  background: #fff;
-  color: var(--muted);
-}
-.paddle-pricing-error strong {
-  display: block;
-  margin-bottom: 0.45rem;
-  color: #9a3412;
-}
-.premium-checkout-status[data-tone='success'] {
-  color: #087a50;
-}
-.premium-checkout-status[data-tone='error'] {
-  color: #b42318;
-}
-
-@media (max-width: 900px) {
-  .paddle-tier-grid {
-    grid-template-columns: 1fr;
-  }
-  .paddle-tier-card {
-    min-height: auto;
-  }
-  .paddle-tier-card.is-featured {
-    transform: none;
-  }
-}
-
-@media (max-width: 520px) {
-  .paddle-pricing-toolbar {
-    align-items: stretch;
-    flex-direction: column;
-  }
-  .paddle-billing-toggle {
-    width: 100%;
-  }
-  .paddle-billing-toggle button {
-    min-width: 0;
-  }
-  .paddle-tier-card {
-    padding: 1.15rem;
-    border-radius: 22px;
-  }
-  .paddle-tier-heading p {
-    min-height: 0;
-  }
-}
-
 /* Tutor IA: one dedicated, wide workspace. Contextual Tutor actions now
    navigate here instead of opening the legacy modal, so the conversation
    and composer remain fully visible at every viewport size. */
@@ -833,6 +651,218 @@ a:focus-visible {
   .navbar .nav-group-member > .nav-more summary {
     font-size: 0.98rem;
   }
+}
+
+/* Final vocabulary-card pass: the lesson bank is a compact reference, not a
+   large reading panel. The lexical information follows one stable order:
+   target word, IPA, L1 meaning, then audio on the far edge. */
+#vocabulary .vocab-card-group-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .5rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card,
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] {
+  height: 158px !important;
+  min-height: 158px !important;
+  border-radius: 14px;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-front {
+  gap: .24rem;
+  padding: .48rem .56rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-compact-icon {
+  display: none;
+}
+
+/* A1 is a first encounter with the language: keep the same learning data,
+   but give each card a small visual anchor that makes the catalogue inviting
+   for younger learners without turning it into a distracting game board. */
+#vocabulary .vocab-catalogue-deck .vocab-card--playful-a1 .vocab-card-compact-icon {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: .42rem;
+  left: .42rem;
+  width: 1.72rem;
+  height: 1.72rem;
+  border: 1px solid rgba(255,255,255,.92);
+  border-radius: 50%;
+  background: linear-gradient(145deg, #fff4c8, #dff5ff);
+  box-shadow: 0 5px 12px rgba(37,99,235,.16);
+  font-size: .9rem;
+  z-index: 1;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card--playful-a1 .vocab-card-front {
+  background:
+    radial-gradient(circle at 12% 16%, rgba(251,191,36,.18), transparent 22%),
+    radial-gradient(circle at 88% 88%, rgba(34,211,238,.16), transparent 26%),
+    linear-gradient(145deg, #fff, #f3f8ff);
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card--playful-a1:hover .vocab-card-compact-icon {
+  transform: rotate(-8deg) scale(1.08);
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card--playful-a1 .vocab-card-target-row {
+  padding-left: 1.86rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-word-block {
+  gap: .18rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 1.55rem;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  gap: .05rem .34rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target {
+  grid-column: 1;
+  grid-row: 1;
+  overflow: hidden;
+  font-size: .92rem;
+  font-weight: 850;
+  line-height: 1.12;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic {
+  display: block !important;
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 0;
+  overflow: hidden;
+  color: #657895;
+  font-size: .63rem;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support {
+  grid-column: 1;
+  grid-row: 3;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #2563eb;
+  font-size: .72rem;
+  font-weight: 800;
+  line-height: 1.12;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  align-self: center;
+  width: 1.55rem;
+  height: 1.55rem;
+  min-height: 1.55rem;
+  margin: 0;
+  padding: 0;
+  font-size: .6rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-examples {
+  gap: .1rem;
+  margin: .08rem 0 0;
+  padding-top: .22rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-examples li {
+  grid-template-columns: .9rem minmax(0, 1fr);
+  gap: .22rem;
+  font-size: .59rem;
+  line-height: 1.18;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-examples li > span {
+  width: .9rem;
+  height: .9rem;
+  font-size: .48rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-front-footer {
+  margin-top: auto;
+  padding-top: .22rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions button {
+  height: 21px;
+  min-height: 21px;
+  padding: .08rem .3rem;
+  font-size: .52rem;
+}
+
+@media (max-width: 1180px) {
+  #vocabulary .vocab-card-group-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 760px) {
+  #vocabulary .vocab-card-group-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .42rem; }
+  #vocabulary .vocab-catalogue-deck .vocab-card,
+  #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] { height: 150px !important; min-height: 150px !important; }
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target { font-size: .84rem; }
+}
+
+/* Wikipedia extension at the close of every Reading. The result language is
+   selected from the active learning route, never from the browser locale. */
+.reading-wikipedia-explorer {
+  margin: 1.2rem 0 .85rem;
+  padding: .9rem;
+  border: 1px solid #d8e5fb;
+  border-radius: 17px;
+  background: linear-gradient(135deg, #f8fbff 0%, #f3f8ff 55%, #fffdf2 100%);
+  box-shadow: 0 9px 22px rgba(34, 86, 184, .08);
+}
+
+.reading-wikipedia-heading { display: flex; align-items: center; gap: .62rem; }
+.reading-wikipedia-heading > span {
+  display: grid; width: 2rem; height: 2rem; place-items: center;
+  border-radius: .65rem; background: #202122; color: #fff;
+  font-family: Georgia, serif; font-size: 1.14rem; font-weight: 800;
+}
+.reading-wikipedia-heading small { color: #5a75aa; font-size: .58rem; font-weight: 850; letter-spacing: .08em; }
+.reading-wikipedia-heading h4 { margin: .08rem 0 0; color: #193566; font-size: .86rem; }
+.reading-wikipedia-search { display: flex; gap: .38rem; margin-top: .7rem; }
+.reading-wikipedia-query {
+  min-width: 0; flex: 1; border: 1px solid #bdd1f4; border-radius: 9px;
+  background: #fff; color: #263c64; padding: .42rem .52rem; font: inherit; font-size: .72rem;
+}
+.reading-wikipedia-search-btn {
+  border: 0; border-radius: 9px; background: #2868df; color: #fff;
+  padding: .42rem .66rem; font: inherit; font-size: .68rem; font-weight: 800; cursor: pointer;
+}
+.reading-wikipedia-search-btn:disabled { opacity: .62; cursor: wait; }
+.reading-wikipedia-status { min-height: 1.1rem; margin: .56rem 0 .2rem; color: #64748b; font-size: .67rem; }
+.reading-wikipedia-results { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .38rem; }
+.reading-wikipedia-result {
+  position: relative; display: grid; gap: .15rem; min-width: 0; padding: .48rem 1.55rem .48rem .52rem;
+  border: 1px solid #dbe7fa; border-radius: 10px; background: rgba(255,255,255,.88); color: inherit; text-decoration: none;
+}
+.reading-wikipedia-result:hover { border-color: #83aaf0; box-shadow: 0 5px 13px rgba(37,99,235,.1); transform: translateY(-1px); }
+.reading-wikipedia-result strong { color: #174ea6; font-size: .71rem; }
+.reading-wikipedia-result span { color: #61718e; font-size: .62rem; line-height: 1.28; }
+.reading-wikipedia-result b { position: absolute; top: .5rem; right: .52rem; color: #4d77c5; font-size: .75rem; }
+.reading-wikipedia-source { display: block; margin-top: .6rem; color: #71809b; font-size: .58rem; }
+.reading-wikipedia-source a { color: #3567bd; text-decoration: none; }
+@media (max-width: 560px) {
+  .reading-wikipedia-results { grid-template-columns: 1fr; }
+  .reading-wikipedia-explorer { padding: .75rem; }
+}
+
+@media (max-width: 430px) {
+  #vocabulary .vocab-card-group-grid { grid-template-columns: 1fr; }
 }
 
 .menu .nav-learn-cta:hover,
@@ -1290,6 +1320,16 @@ a:focus-visible {
   transform: translateY(-1px);
   border-color: var(--blue);
   color: var(--blue);
+}
+
+/* A quiet, optional support action—not a competing conversion CTA. */
+.donation-link {
+  align-self: flex-start;
+  min-height: 38px;
+  padding: 0.5rem 0.8rem;
+  border-radius: 11px;
+  font-size: 0.78rem;
+  font-weight: 700;
 }
 
 .hero {
@@ -5218,6 +5258,29 @@ footer::before {
 .footer-links-col a:hover,
 .footer-links-col a:focus-visible {
   color: white;
+}
+
+/* Keep search-oriented course links available without turning the footer into
+   a tall secondary navigation. They are compact, readable links—not CTAs. */
+.footer-seo-links {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.8rem;
+  padding-top: 0.15rem;
+}
+
+.footer-seo-links h4 {
+  flex: 0 0 100%;
+  margin: 0 0 0.05rem;
+}
+
+.footer-seo-links a {
+  font-size: 0.69rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #aebed4;
 }
 
 .footer-contact-note {
@@ -10457,12 +10520,15 @@ footer small {
 }
 
 .hero-cover-art:has(> img[src*='andergo-cover-flags']) .hero-cover-caption strong {
-  /* Keep the editorial title white, but define it against the navy cover. */
-  -webkit-text-stroke: 1.15px #081b4b;
+  /* The title stays light, but its navy-violet contour keeps the cover art
+     visually in front instead of leaving a large, flat white text mass. */
+  color: #f7f6ff;
+  -webkit-text-stroke: 1.8px #30226f;
   paint-order: stroke fill;
   text-shadow:
-    0 3px 18px rgba(1, 8, 30, 0.96),
-    0 1px 0 #081b4b;
+    0 2px 0 #15265d,
+    0 5px 15px rgba(1, 8, 30, 0.62),
+    0 0 12px rgba(95, 68, 190, 0.28);
 }
 
 /* Speaking: dialogue, writing corrector and guided Tutor conversation. */
@@ -22243,6 +22309,16 @@ footer small {
     grid-column: 1 / -1;
   }
 
+  .footer-seo-links {
+    gap: 0.28rem 0.55rem;
+    padding-top: 0.15rem;
+  }
+
+  .footer-seo-links a {
+    font-size: 0.62rem;
+    line-height: 1.2;
+  }
+
   .footer-links-col h4 {
     margin-bottom: 0.1rem;
     font-size: 0.62rem;
@@ -22979,6 +23055,37 @@ footer small {
   min-width: 0;
   align-items: center;
   gap: 0.2rem 0.55rem;
+}
+
+.reading-audio-natural-btn {
+  border-color: transparent;
+  background: var(--gradient-primary);
+  color: #fff;
+}
+
+.reading-audio-natural-btn:hover:not(:disabled) {
+  filter: brightness(1.04);
+  color: #fff;
+}
+
+.reading-audio-natural-btn.is-locked {
+  border-color: rgba(96, 165, 250, 0.35);
+  background: var(--surface, #fff);
+  color: var(--muted);
+}
+
+.reading-audio-source {
+  margin: 0.38rem 0 0;
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.35;
+}
+
+.reading-natural-audio {
+  display: block;
+  width: 100%;
+  height: 34px;
+  margin-top: 0.42rem;
 }
 
 .grammar-challenge-map-item.is-active {
@@ -23947,7 +24054,7 @@ footer small {
 
 /* Translator: IPA phonetics mode */
 #translatorTabs .skill-tab-list {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .interpreter-panel {
@@ -24005,6 +24112,29 @@ footer small {
   color: var(--muted);
 }
 
+.interpreter-mode-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #bfdbfe;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #eff6ff, #f8fbff);
+}
+
+.interpreter-mode-label {
+  color: #1d4ed8;
+  font-weight: 900;
+}
+
+.interpreter-usage {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-align: right;
+}
+
 .interpreter-action-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -24016,6 +24146,30 @@ footer small {
   background: linear-gradient(135deg, #2563eb, #4f46e5);
   color: #fff;
   box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+}
+
+.interpreter-direction-btn.is-active {
+  border-color: #0891b2;
+  color: #155e75;
+  background: #ecfeff;
+}
+
+.interpreter-premium-badge {
+  display: inline-flex;
+  margin-left: 0.25rem;
+  padding: 0.16rem 0.42rem;
+  border-radius: 999px;
+  color: #78350f;
+  background: #fef3c7;
+  font-size: 0.64rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.interpreter-handsfree-btn.is-active .interpreter-premium-badge {
+  color: #1e3a8a;
+  background: #dbeafe;
 }
 
 .interpreter-talk-grid {
@@ -24040,13 +24194,28 @@ footer small {
   font-weight: 800;
 }
 
+.interpreter-target-row label > span {
+  color: var(--ink);
+}
+
 .interpreter-swap-btn {
-  min-height: 3.25rem;
+  width: 3.25rem;
   min-width: 3.25rem;
-  padding: 0;
-  border-radius: 50%;
-  font-size: 1.1rem;
-  line-height: 1;
+  height: 3.25rem;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  color: #1d4ed8;
+  background: #eff6ff;
+  font: inherit;
+  font-size: 1.25rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.interpreter-swap-btn:hover,
+.interpreter-swap-btn:focus-visible {
+  border-color: #2563eb;
+  background: #dbeafe;
 }
 
 @media (max-width: 640px) {
@@ -24156,11 +24325,6 @@ footer small {
     border-color 160ms ease;
 }
 
-.interpreter-talk-btn--b {
-  border-color: #a5f3fc;
-  background: linear-gradient(145deg, #ecfeff, #fff);
-}
-
 .interpreter-talk-btn:hover,
 .interpreter-talk-btn:focus-visible {
   transform: translateY(-2px);
@@ -24175,10 +24339,6 @@ footer small {
   box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.12);
 }
 
-/* The non-L1 participant waits for the translated voice to finish. Only the
-   learner's L1 microphone can reopen automatically; the other side always
-   starts manually. */
-.interpreter-talk-btn.is-waiting,
 .interpreter-talk-btn:disabled {
   cursor: not-allowed;
   opacity: 0.5;
@@ -24195,6 +24355,44 @@ footer small {
 .interpreter-talk-btn small {
   color: inherit;
   opacity: 0.75;
+}
+
+.interpreter-person-tag {
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  color: #1d4ed8;
+  background: #dbeafe;
+  font-size: 0.72rem !important;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.interpreter-talk-btn--b {
+  border-color: #a5f3fc;
+  background: linear-gradient(145deg, #ecfeff, #fff);
+}
+
+.interpreter-talk-btn--b .interpreter-person-tag {
+  color: #155e75;
+  background: #cffafe;
+}
+
+.interpreter-talk-btn.is-listening .interpreter-person-tag {
+  color: #1e3a8a;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.interpreter-privacy-note {
+  display: flex;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.9rem;
+  color: #475569;
+  background: #f8fafc;
+  font-size: 0.8rem;
+  line-height: 1.45;
 }
 
 .interpreter-conversation {
@@ -24277,8 +24475,15 @@ footer small {
     align-items: flex-start;
     flex-direction: column;
   }
+  .interpreter-mode-bar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .interpreter-usage {
+    text-align: left;
+  }
   .interpreter-talk-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .interpreter-language-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -27326,6 +27531,45 @@ body {
     fill 0.15s ease;
   transform-box: fill-box;
   transform-origin: center;
+}
+
+/* Anonymous visitors use the same compact header rhythm as signed-in learners.
+   Only the five public preview destinations remain in the duplicated tab strip;
+   the rest is offered through the Premium call-to-action rather than overflowing
+   into a second, oversized row. */
+body.is-anonymous-visitor .mobile-header-tabs > a:not([data-guest-preview]) {
+  display: none;
+}
+
+.infographic-preview-note,
+.games-preview-note {
+  margin: 0.75rem 0;
+  color: #526682;
+  font-size: 0.9rem;
+}
+
+.inline-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #1d4ed8;
+  font: inherit;
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (min-width: 641px) and (max-width: 1100px) {
+  body.is-anonymous-visitor .mobile-header-tabs {
+    gap: 0.28rem;
+    padding: 0.24rem 0.45rem;
+  }
+
+  body.is-anonymous-visitor .mobile-header-tabs > a[data-guest-preview] {
+    min-height: 34px;
+    padding: 0.32rem 0.48rem;
+    font-size: 0.7rem;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32033,7 +32277,9 @@ body {
     min-height: 720px;
     grid-template-columns: minmax(0, 0.92fr) minmax(430px, 0.72fr);
     gap: clamp(42px, 6vw, 104px);
-    padding: clamp(72px, 8vw, 120px) clamp(24px, 8vw, 152px);
+    /* Keep the cover close to the navigation on wide screens.  The former
+       120px cap left an unnecessary empty band above the first content. */
+    padding: clamp(44px, 4vw, 72px) clamp(24px, 8vw, 152px);
     background:
       radial-gradient(circle at 8% 15%, rgba(255, 193, 7, 0.24), transparent 24%),
       radial-gradient(circle at 82% 12%, rgba(168, 85, 247, 0.2), transparent 24%),
@@ -34804,6 +35050,8 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .reading-library-card-index { color: #2670e6; font-weight: 900; }
 .reading-library-card strong { font-size: 1rem; }
 .reading-library-card small { color: #61708a; line-height: 1.42; }
+.reading-library-card-meta { display: flex; flex-wrap: wrap; gap: .28rem .48rem; color: #667a98; font-size: .64rem; font-weight: 750; line-height: 1.2; }
+.reading-library-card-meta span { white-space: nowrap; }
 .reading-library-card em { margin-top: auto; color: #1f5ed0; font-size: 0.84rem; font-style: normal; font-weight: 850; }
 .reading-library-card.is-locked { background: #f7f8fa; border-color: #e3e7ee; color: #69778d; }
 .reading-library-card.is-locked em { color: #667389; }
@@ -34862,9 +35110,29 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     font-size: 0.7rem;
   }
 
-.navbar:has(.user-chip:not([hidden]))::after {
+  .navbar:has(.user-chip:not([hidden]))::after {
     opacity: 0.72;
     font-size: 0.46rem;
+  }
+}
+
+/* The member navigation has a little unused room at common laptop widths.
+   Give each destination a more comfortable reading and hit area while
+   preserving the single-row layout alongside the account controls. */
+@media (min-width: 1181px) and (max-width: 1280px) {
+  body.is-signed-in .navbar:has(.user-chip:not([hidden])) .menu {
+    gap: 0.04rem;
+    font-size: clamp(0.74rem, 0.91vw, 0.8rem);
+  }
+
+  body.is-signed-in .navbar:has(.user-chip:not([hidden])) .menu a,
+  body.is-signed-in .navbar:has(.user-chip:not([hidden])) .nav-more summary {
+    min-height: 34px;
+    padding: 0.34rem 0.52rem;
+  }
+
+  body.is-signed-in .navbar:has(.user-chip:not([hidden])) .menu .nav-learn-cta {
+    padding: 0.34rem 0.66rem;
   }
 }
 
@@ -34894,6 +35162,21 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   color: #3366c7;
   font-size: .66rem;
   font-weight: 760;
+}
+
+/* Wide screens have room for three reference cards. Keep the two-column
+   reading rhythm on tablets, where example lines need more horizontal space. */
+@media (min-width: 1100px) {
+  #verbs .verb-catalogue-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.68rem;
+  }
+
+  #verbs .verb-catalogue-row {
+    gap: 0.34rem;
+    padding: 0.55rem 0.6rem;
+    border-radius: 14px;
+  }
 }
 
 /* Route lesson actions are orientation controls, not a cluster of equally
@@ -35648,6 +35931,8 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .listening-library-card small { color: #61708a; font-size: 0.7rem; font-weight: 750; line-height: 1.3; }
 .listening-library-card strong { color: #16284b; font-size: 0.96rem; line-height: 1.2; }
 .listening-library-card p { margin: 0; color: #61708a; font-size: 0.78rem; line-height: 1.35; }
+.listening-library-card-meta { display: flex; flex-wrap: wrap; gap: .28rem .48rem; color: #587291; font-size: .64rem; font-weight: 760; line-height: 1.2; }
+.listening-library-card-meta span { white-space: nowrap; }
 .listening-library-card em { margin-top: auto; color: #1276bd; font-size: 0.76rem; font-style: normal; font-weight: 850; }
 .listening-library-card.is-locked { border-color: #dde4ed; background: #f6f8fb; color: #667389; }
 .listening-library-card.is-locked strong,
@@ -35662,6 +35947,8 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   .listening-library-shell { width: min(100% - 1.2rem, 1180px); padding-top: 1.35rem; }
   .listening-library-cards { grid-template-columns: 1fr; }
   .listening-library-card { min-height: 126px; }
+  .listening-library-sidebar .tests-spec { display: none; }
+  .listening-library-sidebar { padding: .72rem; }
 }
 
 /* Subscription status is useful account context, not a landing-page CTA.
@@ -36103,6 +36390,14 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   font-weight: 780;
 }
 
+@media (max-width: 720px) {
+  .reading-library-layout { gap: .7rem; }
+  .reading-library-sidebar { padding: .72rem; }
+  .reading-library-sidebar .tests-spec,
+  .reading-library-access-note { display: none; }
+  .reading-library-cards--catalog .reading-library-card { min-height: 0; padding: .72rem; }
+}
+
 /* Adjectives and adverbs reference catalogues */
 .lexicon-reference { max-width: 1160px; margin: 1.25rem auto 3rem; padding: clamp(1rem, 3vw, 2rem); border: 1px solid rgba(30, 64, 175, .14); border-radius: 20px; background: linear-gradient(145deg, #fff, #f4f8ff); box-shadow: 0 14px 36px rgba(30, 64, 175, .08); }
 .lexicon-reference-head { display: flex; align-items: start; justify-content: space-between; gap: 1rem; }
@@ -36118,6 +36413,10 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .lexicon-categories button.is-active { border-color: #2563eb; background: #2563eb; color: #fff; }
 .lexicon-count { margin: .5rem 0 .85rem; color: #52627d; font-size: .9rem; }
 .lexicon-count strong { color: #1d4ed8; }
+.lexicon-source-note { margin: 1rem 0 0; color: #64748b; font-size: .72rem; text-align: center; }
+.lexicon-source-note a { color: #2563eb; }
+.lexicon-access-note { margin: .7rem 0 .2rem; padding: .58rem .72rem; border: 1px solid #c8d9fb; border-radius: 10px; background: #edf4ff; color: #38517a; font-size: .88rem; }
+.lexicon-access-note .inline-link { margin-left: .2rem; font: inherit; font-weight: 800; }
 .lexicon-table-wrap { overflow-x: auto; border: 1px solid #d7e1f3; border-radius: 13px; background: #fff; }
 .lexicon-table { width: 100%; min-width: 700px; border-collapse: collapse; text-align: left; }
 .lexicon-table th { padding: .8rem .9rem; background: #eaf1ff; color: #23426f; font-size: .78rem; letter-spacing: .03em; text-transform: uppercase; }
@@ -36219,52 +36518,147 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
    The social choices remain available, but the modal removes excess rhythm
    instead of making the learner scroll to reach Entrar. */
 @media (max-width: 640px) and (max-height: 760px) {
-  #authModal { padding: 6px 10px; }
-  #authModal .auth-panel { width: min(94vw, 390px); max-height: calc(100dvh - 12px); padding: 10px 12px; border-radius: 16px; }
+  #authModal { place-items: center; padding: 6px 10px; }
+  #authModal .auth-panel { width: min(94vw, 390px); max-height: calc(100dvh - 12px); padding: 10px 12px; overflow-y: auto; border-radius: 16px; }
+  #authModal .auth-panel:has(#loginForm.active) { overflow: hidden; }
   #authModal .close-modal { top: 10px; right: 10px; width: 30px; height: 30px; font-size: 1.1rem; }
   #authModal .auth-tabs { gap: 5px; margin-bottom: 5px; padding-right: 26px; }
   #authModal .auth-tab { min-height: 36px; padding: 5px 8px; font-size: 0.8rem; }
   #authModal .auth-form { gap: 6px; }
   #authModal .auth-form h3 { margin: 0; font-size: 1rem; }
   #authModal .auth-oauth-buttons { gap: 0.45rem; }
-  #authModal .auth-oauth-btn { min-height: 40px; gap: 0.42rem; border-radius: 12px; font-size: 0.84rem; }
+  #authModal .auth-oauth-btn { min-height: 38px; gap: 0.42rem; border-radius: 12px; font-size: 0.82rem; }
   #authModal .auth-google-mark, #authModal .auth-facebook-mark { width: 20px; height: 20px; }
   #authModal .auth-divider { margin: 0.12rem 0; }
   #authModal .auth-form label { gap: 2px; font-size: 0.78rem; }
-  #authModal .auth-form input { min-height: 40px; padding: 6px 10px; }
-  #authModal .password-toggle-btn { min-width: 36px; min-height: 36px; font-size: 1rem; }
+  #authModal .auth-form input { min-height: 36px; padding: 5px 10px; }
+  #authModal .password-toggle-btn { min-width: 34px; min-height: 34px; font-size: 0.95rem; }
+  #authModal .auth-forgot-link { font-size: 0.78rem; }
+  #authModal .auth-form .primary-btn { min-height: 38px; padding: 6px 13px; }
+  #authModal .auth-note { display: none; }
+}
+
+/* Compact desktop and laptop-height login: the dialog used to keep the
+   phone-sized vertical rhythm on a short desktop viewport, leaving Entrar
+   below the fold.  These rules intentionally affect only the active login
+   form; registration retains room for its two-step fields. */
+@media (min-width: 641px) and (max-height: 820px) {
+  #authModal { padding: 12px; }
+  #authModal .auth-panel {
+    width: min(520px, calc(100vw - 24px));
+    max-width: 520px;
+    max-height: calc(100dvh - 24px);
+    padding: 14px 16px;
+    border-radius: 18px;
+  }
+  #authModal .auth-panel:has(#loginForm.active) { overflow: hidden; }
+  #authModal .close-modal { top: 11px; right: 12px; width: 30px; height: 30px; font-size: 1.1rem; }
+  #authModal .auth-tabs { gap: 6px; margin-bottom: 8px; padding-right: 30px; }
+  #authModal .auth-tab { min-height: 40px; padding: 6px 10px; font-size: 0.84rem; }
+  #authModal .auth-form { gap: 7px; }
+  #authModal .auth-form h3 { margin: 1px 0 0; font-size: 1.08rem; }
+  #authModal .auth-oauth-buttons { gap: 0.5rem; }
+  #authModal .auth-oauth-btn { min-height: 42px; gap: 0.5rem; border-radius: 12px; font-size: 0.88rem; }
+  #authModal .auth-google-mark, #authModal .auth-facebook-mark { width: 22px; height: 22px; }
+  #authModal .auth-divider { margin: 0.28rem 0; }
+  #authModal .auth-form label { gap: 3px; font-size: 0.8rem; }
+  #authModal .auth-form input { min-height: 40px; padding: 6px 11px; }
+  #authModal .password-toggle-btn { min-width: 38px; min-height: 38px; }
   #authModal .auth-forgot-link { font-size: 0.82rem; }
-  #authModal .auth-form .primary-btn { min-height: 40px; padding: 7px 13px; }
-  #authModal .auth-note { margin: 0; font-size: 0.72rem; line-height: 1.25; }
+  #authModal .auth-form .primary-btn { min-height: 42px; padding: 7px 14px; }
+  #authModal .auth-note { display: none; }
 }
 
 /* Flashcards for the adjective/adverb reference libraries. */
-.lexicon-flashcard-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; }
-.lexicon-flashcard { min-width: 0; min-height: 185px; perspective: 900px; cursor: pointer; outline: none; }
-.lexicon-flashcard-inner { position: relative; width: 100%; height: 185px; transform-style: preserve-3d; transition: transform .42s ease; }
+.lexicon-reference { max-width: 1440px; }
+.lexicon-flashcard-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .55rem; }
+.lexicon-flashcard { min-width: 0; min-height: 132px; perspective: 900px; cursor: pointer; outline: none; }
+.lexicon-flashcard-inner { position: relative; width: 100%; height: 132px; transform-style: preserve-3d; transition: transform .42s ease; }
 .lexicon-flashcard.is-flipped .lexicon-flashcard-inner { transform: rotateY(180deg); }
-.lexicon-flashcard-face { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: .9rem; overflow: hidden; border: 1px solid #d4e1f5; border-radius: 15px; backface-visibility: hidden; background: linear-gradient(145deg, #fff, #f4f8ff); box-shadow: 0 7px 18px rgba(30,64,175,.08); text-align: center; }
+.lexicon-flashcard-face { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: .56rem; overflow: hidden; border: 1px solid #d4e1f5; border-radius: 12px; backface-visibility: hidden; background: linear-gradient(145deg, #fff, #f4f8ff); box-shadow: 0 7px 18px rgba(30,64,175,.08); text-align: center; }
 .lexicon-flashcard:hover .lexicon-flashcard-face, .lexicon-flashcard:focus-visible .lexicon-flashcard-face { border-color: #7da4ed; box-shadow: 0 11px 24px rgba(30,64,175,.14); }
-.lexicon-flashcard-front { gap: .45rem; }
+.lexicon-flashcard-front { gap: .24rem; }
 .lexicon-flashcard-kicker { color: #2765d7; font-size: .62rem; font-weight: 850; letter-spacing: .09em; }
-.lexicon-flashcard-front strong { color: #122b56; font-size: clamp(1rem, 1.8vw, 1.32rem); overflow-wrap: anywhere; }
-.lexicon-card-translation { color: #2765d7; font-size: .82rem; font-weight: 800; overflow-wrap: anywhere; }
-.lexicon-speak { display: grid; place-items: center; width: 2rem; height: 2rem; padding: 0; border: 0; border-radius: 50%; background: #e8f1ff; cursor: pointer; font-size: .92rem; }
-.lexicon-flashcard small { margin-top: auto; color: #7183a0; font-size: .67rem; }
+.lexicon-flashcard-front strong { color: #122b56; font-size: clamp(.92rem, 1.45vw, 1.16rem); overflow-wrap: anywhere; }
+.lexicon-card-translation { color: #2765d7; font-size: .72rem; font-weight: 800; overflow-wrap: anywhere; }
+.lexicon-card-pronunciation { color: #647b9d; font-size: .7rem; font-style: italic; line-height: 1.1; overflow-wrap: anywhere; }
+.lexicon-speak { display: grid; place-items: center; width: 1.65rem; height: 1.65rem; padding: 0; border: 0; border-radius: 50%; background: #e8f1ff; cursor: pointer; font-size: .75rem; }
+.lexicon-examples-btn { padding: .13rem .34rem; border: 1px solid #c8dcff; border-radius: 999px; background: #fff; color: #2765d7; font-size: .56rem; font-weight: 800; cursor: pointer; }
+.lexicon-adverb-actions { display: flex; align-items: center; justify-content: center; gap: .38rem; margin-top: .12rem; }
+.lexicon-back-btn { align-self: center; margin-top: auto; padding: .13rem .4rem; border: 0; border-radius: 999px; background: transparent; color: #2765d7; font-size: .55rem; font-weight: 800; cursor: pointer; }
+.lexicon-flashcard small { margin-top: .12rem; color: #7183a0; font-size: .58rem; }
 .lexicon-flashcard-back { align-items: stretch; justify-content: flex-start; transform: rotateY(180deg); background: linear-gradient(145deg, #eef5ff, #fff); text-align: left; }
 .lexicon-flashcard-back dl { display: grid; grid-template-columns: 1fr 1fr; gap: .55rem .65rem; margin: 0; }
 .lexicon-flashcard-back dl div { min-width: 0; }
-.lexicon-flashcard-back dt { color: #5e7291; font-size: .59rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
-.lexicon-flashcard-back dd { margin: .12rem 0 0; color: #19345f; font-size: .76rem; font-weight: 700; line-height: 1.25; overflow-wrap: anywhere; }
+.lexicon-flashcard-back dt { color: #5e7291; font-size: .51rem; font-weight: 800; letter-spacing: .035em; text-transform: uppercase; }
+.lexicon-flashcard-back dd { margin: .08rem 0 0; color: #19345f; font-size: .64rem; font-weight: 700; line-height: 1.14; overflow-wrap: anywhere; }
+.lexicon-example-speak { display: inline-grid; place-items: center; width: 1.08rem; height: 1.08rem; margin-left: .24rem; padding: 0; vertical-align: middle; border: 1px solid #c8dcff; border-radius: 50%; background: #fff; color: #2765d7; font-size: .52rem; cursor: pointer; }
 .lexicon-flashcard-back .lexicon-example { grid-column: 1 / -1; padding-top: .45rem; border-top: 1px solid #dbe6f6; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard, .lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-inner { min-height: 146px; height: 146px; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-back { display: grid; grid-template-rows: minmax(0, 1fr) auto; align-content: stretch; gap: .2rem; padding: .46rem .52rem .38rem; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-back dl { grid-template-columns: 1fr; gap: .2rem; min-height: 0; margin-top: .08rem; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-back .lexicon-example { padding-top: .2rem; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-back dd { font-size: .62rem; line-height: 1.12; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard--dense .lexicon-flashcard-back dd { font-size: .57rem; line-height: 1.08; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard--very-dense .lexicon-flashcard-back dd { font-size: .52rem; line-height: 1.04; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-back .lexicon-back-btn { align-self: end; justify-self: center; margin-top: 0; }
+.lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-back > small { display: none; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard, .lexicon-reference[data-kind="adjectives"] .lexicon-flashcard-inner { min-height: 158px; height: 158px; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard-back { display: grid; grid-template-rows: minmax(0, 1fr) auto; align-content: stretch; gap: .16rem; padding: .42rem .48rem .34rem; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard-back dl { grid-template-columns: 1fr; gap: .18rem; min-height: 0; margin-top: .08rem; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard-back .lexicon-example { padding-top: .16rem; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard--dense .lexicon-flashcard-back dd { font-size: .57rem; line-height: 1.08; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard--very-dense .lexicon-flashcard-back dd { font-size: .51rem; line-height: 1.04; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard--very-dense .lexicon-flashcard-back { gap: .1rem; padding-top: .34rem; padding-bottom: .26rem; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard--very-dense .lexicon-flashcard-back dl { gap: .12rem; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard--very-dense .lexicon-flashcard-back .lexicon-example { padding-top: .1rem; }
+.lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard-back { gap: .1rem; padding-top: .34rem; padding-bottom: .27rem; }
+.lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard-back dl { gap: .12rem; margin-top: 0; }
+.lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard-back dt { font-size: .46rem; }
+.lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard-back dd { font-size: .55rem; line-height: 1.06; }
+.lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard-back .lexicon-example { padding-top: .1rem; }
+.lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard--dense .lexicon-flashcard-back dd { font-size: .49rem; line-height: 1.03; }
+.lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard--very-dense .lexicon-flashcard-back dd { font-size: .45rem; line-height: 1; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard-back .lexicon-back-btn { align-self: end; justify-self: center; margin-top: 0; }
+.lexicon-reference[data-kind="adjectives"] .lexicon-flashcard-back > small { display: none; }
 .lexicon-more-btn { align-self: center; margin-top: .55rem; padding: .3rem .62rem; border: 1px solid #b9cff3; border-radius: 999px; background: #fff; color: #245dbf; font: inherit; font-size: .68rem; font-weight: 800; cursor: pointer; }
 .lexicon-more-details { display: grid; gap: .42rem; margin-top: .5rem; }
 .lexicon-more-details .lexicon-example { padding-top: .36rem; border-top: 1px solid #dbe6f6; }
 .lexicon-synonym-row { display: flex; flex-wrap: wrap; gap: .25rem .55rem; padding-top: .35rem; color: #5e7291; font-size: .65rem; font-weight: 700; }
 .lexicon-flashcard.is-expanded { min-height: 326px; }
 .lexicon-flashcard.is-expanded .lexicon-flashcard-inner { height: 326px; }
-@media (max-width: 1120px) { .lexicon-flashcard-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (max-width: 760px) { .lexicon-flashcard-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .58rem; } .lexicon-flashcard, .lexicon-flashcard-inner { min-height: 172px; height: 172px; } }
+@media (max-width: 1120px) { .lexicon-flashcard-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 760px) {
+  .lexicon-reference { margin: .55rem auto 1.2rem; padding: .62rem; border-radius: 14px; }
+  .lexicon-flashcard-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .34rem; }
+  .lexicon-flashcard, .lexicon-flashcard-inner { min-height: 96px; height: 96px; }
+  .lexicon-flashcard-face { padding: .34rem; border-radius: 10px; }
+  .lexicon-flashcard-front { gap: .12rem; }
+  .lexicon-flashcard-front strong { font-size: clamp(.74rem, 3.8vw, .92rem); line-height: 1.06; }
+  .lexicon-card-translation { font-size: .62rem; line-height: 1.08; }
+  .lexicon-card-pronunciation { font-size: .6rem; }
+  .lexicon-speak { width: 1.38rem; height: 1.38rem; font-size: .63rem; }
+  .lexicon-examples-btn { padding: .1rem .28rem; font-size: .5rem; }
+  .lexicon-adverb-actions { gap: .24rem; margin-top: 0; }
+  .lexicon-back-btn { padding: .08rem .28rem; font-size: .48rem; }
+  .lexicon-flashcard-front small { display: none; }
+  .lexicon-flashcard-back dl { gap: .28rem .36rem; }
+  .lexicon-flashcard-back dt { font-size: .44rem; }
+  .lexicon-flashcard-back dd { font-size: .54rem; line-height: 1.08; }
+  .lexicon-example-speak { width: .92rem; height: .92rem; margin-left: .14rem; font-size: .46rem; }
+  .lexicon-reference[data-kind="adverbs"] .lexicon-flashcard, .lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-inner { min-height: 138px; height: 138px; }
+  .lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-back .lexicon-example { padding-top: .18rem; }
+  .lexicon-reference[data-kind="adverbs"] .lexicon-flashcard-back dd { font-size: .53rem; }
+  .lexicon-reference[data-kind="adverbs"] .lexicon-flashcard--dense .lexicon-flashcard-back dd { font-size: .49rem; }
+  .lexicon-reference[data-kind="adverbs"] .lexicon-flashcard--very-dense .lexicon-flashcard-back dd { font-size: .46rem; }
+  .lexicon-reference[data-kind="adjectives"] .lexicon-flashcard--dense .lexicon-flashcard-back dd { font-size: .49rem; }
+  .lexicon-reference[data-kind="adjectives"] .lexicon-flashcard--very-dense .lexicon-flashcard-back dd { font-size: .45rem; }
+  .lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard-back dd { font-size: .47rem; }
+  .lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard--dense .lexicon-flashcard-back dd { font-size: .44rem; }
+  .lexicon-reference[data-kind="adjectives"][data-language="english"] .lexicon-flashcard--very-dense .lexicon-flashcard-back dd { font-size: .42rem; }
+  .lexicon-reference[data-kind="adjectives"] .lexicon-flashcard, .lexicon-reference[data-kind="adjectives"] .lexicon-flashcard-inner { min-height: 146px; height: 146px; }
+}
+@media (max-width: 380px) { .lexicon-flashcard-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .lexicon-flashcard, .lexicon-flashcard-inner { min-height: 92px; height: 92px; } }
 @media (max-width: 420px) { .lexicon-flashcard-grid { grid-template-columns: 1fr; } }
 
 /* Lesson vocabulary cards: use their full footprint instead of leaving a
@@ -36277,20 +36671,29 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='B1'],
 #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='B2'],
 #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'],
-#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] { height: 198px !important; min-height: 198px !important; border-radius: 18px; }
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] { height: 270px !important; min-height: 270px !important; border-radius: 18px; }
 #vocabulary .vocab-catalogue-deck .vocab-card-front { justify-content: flex-start; gap: .42rem; padding: .7rem .78rem; }
 #vocabulary .vocab-catalogue-deck .vocab-card-word-block { width: 100%; align-items: stretch; gap: .38rem; margin: 0; }
 #vocabulary .vocab-catalogue-deck .vocab-card-target-row { grid-template-columns: minmax(0, 1fr) auto; gap: .3rem; }
 #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target { font-size: 1rem; line-height: 1.15; white-space: normal; }
-#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic { display: none; }
-#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support { grid-column: 1; font-size: .76rem; white-space: normal; }
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic { display: block; flex-basis: 100%; max-width: calc(100% - 2.2rem); color: #71809a; font-size: .66rem; font-style: italic; }
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support { grid-column: 1; flex-basis: 100%; font-size: .76rem; white-space: normal; }
 #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn { grid-column: 2; grid-row: 1 / span 2; width: 1.9rem; height: 1.9rem; min-height: 1.9rem; font-size: .72rem; }
 #vocabulary .vocab-catalogue-deck .vocab-card-catalogue-examples { gap: .28rem; margin: 0; padding-top: .4rem; }
 #vocabulary .vocab-catalogue-deck .vocab-card-catalogue-examples li { grid-template-columns: 1rem minmax(0, 1fr); gap: .32rem; font-size: .68rem; line-height: 1.3; }
 #vocabulary .vocab-catalogue-deck .vocab-card-catalogue-examples li > span { width: 1rem; height: 1rem; font-size: .55rem; }
 #vocabulary .vocab-catalogue-deck .vocab-card-front-footer { width: 100%; margin-top: auto; padding-top: .48rem; }
 #vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions button { height: 26px; min-height: 26px; padding: .2rem .42rem; border-radius: 8px; font-size: .62rem; }
-@media (max-width: 680px) { #vocabulary .vocab-catalogue-deck .vocab-card, #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] { height: 188px !important; min-height: 188px !important; } }
+@media (max-width: 680px) { #vocabulary .vocab-catalogue-deck .vocab-card, #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] { height: 244px !important; min-height: 244px !important; } }
+
+/* The level catalogue reads in a consistent 4 / 2 / 1 rhythm. Examples are
+   intentionally behind the compact front, opened through the quiet control
+   below the word and its L1 support. */
+#vocabulary .vocab-catalogue-deck .vocab-card-group-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+#vocabulary .vocab-catalogue-deck .vocab-details-btn { align-self: flex-start; padding: .16rem .4rem; border: 1px solid #c8dcff; border-radius: 999px; background: #fff; color: #2765d7; font-size: .57rem; font-weight: 800; cursor: pointer; }
+#vocabulary .vocab-catalogue-deck .vocab-details-btn:hover, #vocabulary .vocab-catalogue-deck .vocab-details-btn:focus-visible { border-color: #5b8def; background: #eef5ff; }
+@media (max-width: 900px) { #vocabulary .vocab-catalogue-deck .vocab-card-group-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 430px) { #vocabulary .vocab-catalogue-deck .vocab-card-group-grid { grid-template-columns: 1fr; } }
 
 /* Vocabulary catalogue organization: preserve the lesson's authored order,
    but keep individual terms separate from phrases learners reuse as blocks. */
@@ -36452,15 +36855,20 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 @media (min-width: 1281px) {
   body:not(.is-signed-in) .navbar .nav-group-member > a,
   body:not(.is-signed-in) .navbar .nav-group-member > .nav-more summary {
-    font-size: 0.82rem;
+    min-height: 34px;
+    padding: 0.34rem clamp(0.34rem, 0.42vw, 0.48rem);
+    border-radius: 10px;
+    font-size: clamp(0.72rem, 0.76vw, 0.8rem);
   }
 
   body:not(.is-signed-in) .navbar .menu {
-    gap: clamp(0.65rem, 0.9vw, 0.95rem);
+    gap: clamp(0.02rem, 0.12vw, 0.12rem);
+    padding: 0.16rem 0.22rem;
   }
 
   body:not(.is-signed-in) .navbar .menu .nav-learn-cta {
-    padding: 0.4rem 0.64rem;
+    min-height: 34px;
+    padding: 0.34rem 0.54rem;
   }
 
   body.is-signed-in .navbar .nav-group-member > a,
@@ -36476,6 +36884,286 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     padding: 0.44rem 0.7rem;
   }
 }
+
+/* Vocabulary catalogue — terminal overrides. Earlier responsive passes were
+   loading after the compact rules and expanding every card again. Keep the
+   height tied to actual content: a card with no authored example is shorter;
+   one with examples has only the room required to read them. */
+@media (min-width: 1281px) {
+  #vocabulary .vocab-card-group-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card,
+#vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] {
+  height: 164px !important;
+  min-height: 164px !important;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card.vocab-card--no-examples {
+  height: 112px !important;
+  min-height: 112px !important;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-front {
+  padding: .46rem .58rem;
+  gap: .18rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 1.55rem;
+  grid-template-rows: auto auto auto;
+  gap: .04rem .32rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: .94rem;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic {
+  display: block !important;
+  grid-column: 1;
+  grid-row: 2;
+  font-size: .64rem;
+  line-height: 1.08;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support {
+  grid-column: 1;
+  grid-row: 3;
+  font-size: .74rem;
+  line-height: 1.1;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  width: 1.55rem;
+  height: 1.55rem;
+  min-height: 1.55rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card--no-examples .vocab-card-front-footer {
+  padding-top: .12rem;
+}
+
+/* Homepage benefit strip: quiet, compact supporting information rather than
+   three competing feature cards. */
+.hero .quick-stats {
+  max-width: 650px;
+  gap: 0.45rem;
+}
+
+.hero .quick-stats div {
+  min-height: 54px;
+  padding: 0.54rem 0.7rem;
+  border-top-width: 2px;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.hero .quick-stats strong {
+  font-size: 0.84rem;
+  line-height: 1.12;
+}
+
+.hero .quick-stats span {
+  margin-top: 0.12rem;
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 760px) {
+  #vocabulary .vocab-card-group-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #vocabulary .vocab-catalogue-deck .vocab-card,
+  #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] { height: 154px !important; min-height: 154px !important; }
+  #vocabulary .vocab-catalogue-deck .vocab-card.vocab-card--no-examples { height: 108px !important; min-height: 108px !important; }
+}
+
+/* Mobile vocabulary is scanned as a compact two-column catalogue. Keep the
+   card focused on the term and its support; the flip/details action remains
+   available for examples without forcing a desktop-sized tile. */
+@media (max-width: 600px) {
+  #vocabulary .vocab-card-group-grid { gap: .42rem; }
+  #vocabulary .vocab-catalogue-deck .vocab-card,
+  #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] {
+    height: 126px !important;
+    min-height: 126px !important;
+    border-radius: 13px;
+  }
+  #vocabulary .vocab-catalogue-deck .vocab-card.vocab-card--no-examples {
+    height: 92px !important;
+    min-height: 92px !important;
+  }
+  #vocabulary .vocab-catalogue-deck .vocab-card-front { padding: .38rem .44rem; }
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target { font-size: .82rem; }
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support { font-size: .64rem; }
+  #vocabulary .vocab-catalogue-deck .vocab-card-catalogue-examples li { font-size: .54rem; line-height: 1.12; }
+  #vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions button {
+    height: 20px;
+    min-height: 20px;
+    padding: .08rem .25rem;
+    font-size: .5rem;
+  }
+}
+
+@media (max-width: 390px) {
+  #vocabulary .vocab-card-group-grid { gap: .34rem; }
+  #vocabulary .vocab-catalogue-deck .vocab-card,
+  #vocabulary .vocab-catalogue-deck .vocab-card[data-vocab-level] {
+    height: 116px !important;
+    min-height: 116px !important;
+  }
+  #vocabulary .vocab-catalogue-deck .vocab-card.vocab-card--no-examples {
+    height: 86px !important;
+    min-height: 86px !important;
+  }
+}
+
+/* The learning decision stays clear without giving the irreversible-looking
+   mastery action the same visual weight as starting a practice. */
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions .vocab-know-btn {
+  border-color: #cfe0f8;
+  background: #fff;
+  color: #4e6688;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions .vocab-know-btn:hover,
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions .vocab-know-btn:focus-visible {
+  border-color: #22a06b;
+  background: #ecfdf3;
+  color: #087443;
+}
+
+/* Catalogue fronts are deliberately word-first.  Examples belong on the
+   flipped side, where every authored sentence can be read without competing
+   with the term. */
+#vocabulary .vocab-catalogue-deck .vocab-card-front-footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-front-footer > .vocab-card-status {
+  justify-self: start;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-details-btn {
+  justify-self: center;
+  align-self: center;
+  min-height: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #52729f;
+  font-size: 0.56rem;
+  font-weight: 750;
+  line-height: 1.1;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-details-btn:hover,
+#vocabulary .vocab-catalogue-deck .vocab-details-btn:focus-visible {
+  color: #1d5fd2;
+  background: transparent;
+  text-decoration: underline;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions {
+  justify-self: end;
+  margin-left: 0;
+}
+
+.vocab-catalogue-route-selectors {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin: 0.75rem 0;
+}
+
+.vocab-catalogue-route-selectors label {
+  display: grid;
+  gap: 0.3rem;
+  color: #61718d;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.vocab-catalogue-route-selectors select {
+  width: 100%;
+  min-height: 42px;
+  padding: 0.55rem 0.72rem;
+  border: 1px solid #cfe0f8;
+  border-radius: 11px;
+  background: #fff;
+  color: #17233f;
+  font: inherit;
+  font-weight: 750;
+}
+
+@media (max-width: 520px) {
+  .vocab-catalogue-route-selectors { gap: 0.45rem; }
+  .vocab-catalogue-route-selectors select { min-height: 40px; padding-inline: 0.48rem; font-size: 0.82rem; }
+}
+
+/* Leave a reliable touch-safe offset between the floating Tutor and the
+   catalogue controls on short viewports. */
+@media (max-width: 700px) {
+  .tutor-fab {
+    right: max(1rem, env(safe-area-inset-right));
+    bottom: max(5rem, calc(env(safe-area-inset-bottom) + 4.5rem));
+  }
+}
+
+/* Catalogue cards normally stay on their compact front. “Ver más” opens the
+   authored examples in-place; static cards previously suppressed the back
+   face entirely, making that control look as though it did nothing. */
+#vocabulary .vocab-catalogue-deck .vocab-card--static.is-flipped,
+#vocabulary .vocab-catalogue-deck .vocab-card--static.is-flipped[data-vocab-level] {
+  height: auto !important;
+  min-height: 214px !important;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card--static.is-flipped .vocab-card-inner {
+  height: auto;
+  transform: none;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card--static.is-flipped .vocab-card-front {
+  display: none;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card--static.is-flipped .vocab-card-back {
+  position: relative;
+  display: flex;
+  min-height: 214px;
+  padding: .7rem;
+  transform: none;
+  overflow: visible;
+}
+
+@media (max-width: 600px) {
+  #vocabulary .vocab-catalogue-deck .vocab-details-btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 18px;
+    padding: .06rem .28rem;
+    font-size: .5rem;
+    line-height: 1;
+  }
+  #vocabulary .vocab-catalogue-deck .vocab-card--static.is-flipped,
+  #vocabulary .vocab-catalogue-deck .vocab-card--static.is-flipped[data-vocab-level] {
+    min-height: 198px !important;
+  }
+  #vocabulary .vocab-catalogue-deck .vocab-card--static.is-flipped .vocab-card-back {
+    min-height: 198px;
+    padding: .56rem;
+  }
+}
+
 /* Footer is a concise closing area, not a second full-width sitemap. Keep
    the three useful destinations visible and let the dedicated resource pages
    carry the extended course-link catalogue. */
@@ -36507,6 +37195,51 @@ footer small {
   margin-inline: auto;
 }
 
+/* Vocabulary catalogue: use the card's centre for a short, memorable
+   example rather than an empty area followed by an isolated “Ver más”. */
+#vocabulary .vocab-catalogue-deck .vocab-card-front {
+  gap: .38rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-preview {
+  display: grid;
+  gap: .18rem;
+  margin-top: .12rem;
+  padding: .42rem .5rem;
+  border: 1px solid #dbeafe;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f8fbff, #effaff);
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-preview > span {
+  color: #64748b;
+  font-size: .55rem;
+  font-weight: 850;
+  letter-spacing: .06em;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-preview p {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #334155;
+  font-size: .7rem;
+  font-style: italic;
+  line-height: 1.25;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-details-btn {
+  align-self: flex-start;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #2563eb;
+  font-size: .64rem;
+  font-weight: 800;
+}
+
 @media (max-width: 640px) {
   footer {
     padding: 1.1rem 1rem max(1rem, env(safe-area-inset-bottom));
@@ -36523,6 +37256,617 @@ footer small {
   }
 
   .footer-links-col:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Premium previews are a showcase for Free learners: rich enough to invite
+   exploration, while the same cards return to their ordinary course styling
+   automatically once the entitlement removes `.is-locked` / `--premium`. */
+.path-unit--premium,
+.reading-library-card.is-locked,
+.listening-library-card.is-locked {
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(124, 58, 237, 0.32);
+  background:
+    radial-gradient(circle at 92% 10%, rgba(250, 204, 21, 0.34), transparent 24%),
+    radial-gradient(circle at 8% 100%, rgba(34, 211, 238, 0.23), transparent 34%),
+    linear-gradient(135deg, #f7f2ff 0%, #eef5ff 52%, #fff9e9 100%);
+  color: #253553;
+  box-shadow: 0 12px 28px rgba(91, 71, 172, 0.13);
+}
+
+.reading-library-card.is-locked::before,
+.listening-library-card.is-locked::before {
+  content: 'PREMIUM';
+  position: absolute;
+  top: .7rem;
+  right: .72rem;
+  padding: .24rem .46rem;
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: #6d28d9;
+  font-size: .58rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+}
+
+.reading-library-card.is-locked strong,
+.listening-library-card.is-locked strong {
+  padding-right: 4.7rem;
+  color: #253553;
+}
+
+.reading-library-card.is-locked small,
+.listening-library-card.is-locked p,
+.reading-library-card.is-locked .library-card-meta,
+.listening-library-card.is-locked .listening-library-card-meta {
+  color: #5c6f8c;
+}
+
+.reading-library-card.is-locked .library-card-status > span:first-child,
+.listening-library-card.is-locked .library-card-status > span:first-child {
+  color: #6d28d9;
+}
+
+.reading-library-card.is-locked .library-premium-invite,
+.listening-library-card.is-locked .library-premium-invite {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: .14rem;
+  padding: .26rem .48rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #6d28d9, #2563eb);
+  color: #fff;
+  font-size: .72rem;
+  box-shadow: 0 5px 12px rgba(91, 71, 172, 0.2);
+}
+
+.path-unit--premium {
+  border-color: rgba(124, 58, 237, 0.38);
+}
+
+.path-unit--premium .path-unit-premium {
+  border: 1px solid rgba(124, 58, 237, 0.22);
+  background: linear-gradient(135deg, #6d28d9, #2563eb);
+  color: #fff;
+  box-shadow: 0 5px 12px rgba(91, 71, 172, 0.2);
+}
+
+.path-unit--premium:hover,
+.path-unit--premium:focus-visible,
+.reading-library-card.is-locked:hover,
+.reading-library-card.is-locked:focus-visible,
+.listening-library-card.is-locked:hover,
+.listening-library-card.is-locked:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(109, 40, 217, 0.62);
+  box-shadow: 0 17px 32px rgba(91, 71, 172, 0.2);
+}
+
+.premium-lock-box {
+  border-color: rgba(124, 58, 237, 0.24);
+  background:
+    radial-gradient(circle at 90% 15%, rgba(250, 204, 21, 0.23), transparent 28%),
+    linear-gradient(135deg, #f8f4ff, #eef6ff);
+  box-shadow: 0 14px 30px rgba(91, 71, 172, 0.1);
+}
+
+.premium-lock-box .primary-btn {
+  background: linear-gradient(135deg, #6d28d9, #2563eb);
+  box-shadow: 0 8px 18px rgba(91, 71, 172, 0.22);
+}
+
+/* Vocabulary catalogue: the learning-state controls are secondary to the
+   word and its practical context. Keep them deliberately compact, and do
+   not reserve a full example-card height when a source has no example yet. */
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions {
+  gap: .24rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-catalogue-actions button {
+  height: 20px;
+  min-height: 20px;
+  padding: .08rem .3rem;
+  border-radius: 7px;
+  font-size: .5rem;
+  line-height: 1;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card.vocab-card--no-examples {
+  height: 104px !important;
+  min-height: 104px !important;
+}
+
+@media (max-width: 600px) {
+  #vocabulary .vocab-catalogue-deck .vocab-card.vocab-card--no-examples {
+    height: 88px !important;
+    min-height: 88px !important;
+  }
+}
+
+/* Vocabulary catalogue: the word, IPA and meaning are one scan line. This
+   returns the card's vertical space to the two practical examples, which are
+   the part the learner can immediately reuse. */
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row {
+  grid-template-columns: minmax(0, max-content) minmax(0, max-content) minmax(0, 1fr) 1.55rem;
+  grid-template-rows: auto;
+  align-items: baseline;
+  column-gap: .34rem;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target,
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic,
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support {
+  grid-row: 1;
+  margin: 0;
+  white-space: nowrap;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target { grid-column: 1; }
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic { grid-column: 2; }
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support {
+  grid-column: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+@media (max-width: 760px) {
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row {
+    grid-template-columns: minmax(0, max-content) minmax(0, 1fr) 1.9rem;
+    align-items: center;
+  }
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-target { grid-column: 1; }
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-phonetic {
+    grid-column: 2;
+    justify-self: start;
+  }
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-front-support {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    max-width: 100%;
+  }
+  #vocabulary .vocab-catalogue-deck .vocab-card-target-row .vocab-card-word-audio-btn {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+}
+
+/* First-impression vocabulary cards — English A1 Hello + A2 Everyday life.
+   These two opening lessons set the visual standard: generous rhythm,
+   tactile colour, clear pronunciation control and examples that read as a
+   small practice space rather than leftover text. */
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card {
+  position: relative;
+  height: 214px !important;
+  min-height: 214px !important;
+  overflow: hidden;
+  border: 1px solid #cfe0ff;
+  border-radius: 21px;
+  box-shadow: 0 13px 28px rgba(36, 92, 190, .10);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card:hover,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card:hover {
+  z-index: 1;
+  transform: translateY(-4px);
+  border-color: #86afff;
+  box-shadow: 0 19px 34px rgba(34, 86, 184, .18);
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-front,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-front {
+  position: relative;
+  padding: .78rem .82rem .7rem;
+  background: linear-gradient(145deg, #fff 0%, #f8fbff 57%, #eef8ff 100%);
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-front::before,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-front::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #f7bf4f, #ff8b69 45%, #7c77ff);
+  content: '';
+}
+
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-front::before {
+  background: linear-gradient(90deg, #28b6a8, #4e8ff7 48%, #8873ee);
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-compact-icon,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-compact-icon {
+  width: 2.55rem;
+  height: 2.55rem;
+  margin: .02rem .1rem 0 0;
+  border: 1px solid rgba(255,255,255,.9);
+  border-radius: .88rem;
+  background: linear-gradient(145deg, #fff8c7, #ffe8b4 54%, #edf2ff);
+  box-shadow: 0 7px 13px rgba(193, 137, 42, .16);
+  font-size: 1.3rem;
+}
+
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-compact-icon {
+  background: linear-gradient(145deg, #d9fff4, #dceeff 55%, #f0eaff);
+  box-shadow: 0 7px 13px rgba(45, 125, 163, .14);
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-word-block,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-word-block { gap: .42rem; }
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-target-row,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-target-row {
+  min-height: 2.1rem;
+  padding-bottom: .36rem;
+  border-bottom: 1px solid rgba(180, 205, 241, .55);
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-target,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-target {
+  color: #102a54;
+  font-size: 1.06rem !important;
+  letter-spacing: -.025em;
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-phonetic,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-phonetic { color: #7a8ba8; }
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-front-support,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-front-support { color: #2363da; font-weight: 850; }
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-word-audio-btn,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-word-audio-btn {
+  border-color: #aacbff;
+  background: #e7f2ff;
+  color: #175cc9;
+  box-shadow: 0 3px 8px rgba(37, 99, 235, .12);
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-catalogue-examples,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-catalogue-examples { gap: .34rem; padding-top: .08rem; }
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-catalogue-examples li,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-catalogue-examples li {
+  align-items: start;
+  padding: .25rem .3rem .25rem .22rem;
+  border: 1px solid #e1ecfc;
+  border-radius: 10px;
+  background: rgba(255,255,255,.72);
+  color: #314564;
+  font-size: .67rem;
+  line-height: 1.25;
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-catalogue-examples li > span,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-catalogue-examples li > span {
+  background: #e7efff;
+  color: #2264dd;
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-example-audio-btn,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-example-audio-btn {
+  margin-left: .22rem;
+  padding: .06rem .2rem;
+  border-radius: 999px;
+  background: #f1f6ff;
+  color: #2765d7;
+}
+
+.skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card-front-footer,
+.skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card-front-footer {
+  padding-top: .44rem;
+  border-top: 1px solid rgba(192, 212, 241, .6);
+}
+
+@media (max-width: 760px) {
+  .skill-view-section[data-active-lesson-slug='english-a1-hello-vocabulary'] .vocab-card,
+  .skill-view-section[data-active-lesson-slug='english-a2-everyday-life-vocabulary'] .vocab-card {
+    height: 226px !important;
+    min-height: 226px !important;
+  }
+}
+
+/* Premium discovery system.  These selectors use the shared entitlement
+   states emitted by every route, so the treatment follows every language and
+   skill instead of being limited to one catalogue.  Once a lesson is unlocked
+   the --locked / is-locked class is removed and its normal learning UI returns. */
+.path-lesson-item--locked,
+.unit-sequence-step--locked {
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  border-color: rgba(115, 76, 236, 0.34);
+  background:
+    radial-gradient(circle at 92% 8%, rgba(255, 222, 117, 0.62), transparent 26%),
+    linear-gradient(135deg, #f7f1ff 0%, #edf5ff 52%, #fff9df 100%);
+  box-shadow: 0 8px 20px rgba(91, 64, 180, 0.11);
+}
+
+.path-lesson-item--locked::before,
+.unit-sequence-step--locked::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #7257ed, #3888f2 53%, #f4c451);
+  content: '';
+}
+
+.path-lesson-item--locked:hover,
+.unit-sequence-step--locked:hover {
+  border-color: rgba(100, 67, 215, 0.56);
+  box-shadow: 0 12px 25px rgba(91, 64, 180, 0.18);
+  transform: translateY(-1px);
+}
+
+.path-lesson-item--locked .path-lesson-icon,
+.unit-sequence-step--locked .unit-sequence-number {
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  background: linear-gradient(145deg, #8268f3, #377ff0);
+  color: #fff;
+  box-shadow: 0 5px 12px rgba(84, 64, 191, 0.22);
+}
+
+.path-lesson-item--locked .path-lesson-state--locked {
+  border: 1px solid rgba(255, 255, 255, 0.66);
+  background: linear-gradient(135deg, #7358e9, #357fed);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(84, 64, 191, 0.18);
+}
+
+.path-lesson-item--locked .path-lesson-title,
+.unit-sequence-step--locked .unit-sequence-label {
+  color: #243665;
+}
+
+.path-lesson-item--locked .path-lesson-subtitle,
+.unit-sequence-step--locked .unit-sequence-label small {
+  color: #5e6f96;
+}
+
+/* Small premium moments inside lessons: they invite an upgrade without
+   making content that a Premium learner already unlocked look paywalled. */
+.reading-audio-natural-btn.is-locked,
+.reading-translation-save.is-premium-only {
+  border-color: rgba(110, 76, 229, 0.45);
+  background:
+    radial-gradient(circle at 90% 10%, rgba(255, 225, 127, 0.72), transparent 38%),
+    linear-gradient(135deg, #f7f1ff, #edf5ff);
+  color: #6042c8;
+  box-shadow: 0 6px 14px rgba(91, 64, 180, 0.11);
+  font-weight: 850;
+}
+
+.reading-audio-natural-btn.is-locked:hover,
+.reading-translation-save.is-premium-only:hover {
+  border-color: rgba(100, 67, 215, 0.64);
+  color: #4c31b1;
+}
+
+@media (max-width: 640px) {
+  .path-lesson-item--locked,
+  .unit-sequence-step--locked {
+    box-shadow: 0 5px 14px rgba(91, 64, 180, 0.1);
+  }
+
+  .path-lesson-item--locked .path-lesson-state--locked {
+    padding: 0.2rem 0.38rem;
+    font-size: 0.57rem;
+  }
+}
+
+/* Translator density pass: keep all four tools and interpreter controls in a
+   single, faster-scanning workspace without changing their behavior. */
+#translator.translator-section {
+  padding-top: clamp(1.35rem, 2.8vw, 2.5rem);
+  padding-bottom: clamp(1.75rem, 3.5vw, 3.25rem);
+}
+
+#translator .translator-google-heading {
+  margin-bottom: clamp(0.75rem, 1.5vw, 1.15rem);
+}
+
+#translator .translator-google-brand-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+#translator .translator-google-brand {
+  font-size: clamp(1.05rem, 1.8vw, 1.4rem);
+}
+
+#translator .translator-google-heading p {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+#translatorTabs {
+  margin-bottom: 0;
+  border-radius: 22px;
+}
+
+#translatorTabs .skill-tab-button {
+  min-height: 3rem;
+  padding: 0.68rem 0.8rem;
+}
+
+#translatorTabs > .skill-panel {
+  padding: clamp(0.9rem, 1.7vw, 1.4rem);
+}
+
+#translator .interpreter-panel {
+  gap: 0.68rem;
+}
+
+#translator .interpreter-heading h3 {
+  margin: 0.12rem 0 0.2rem;
+  font-size: clamp(1.25rem, 2vw, 1.7rem);
+  line-height: 1.12;
+}
+
+#translator .interpreter-heading p {
+  max-width: 76rem;
+  font-size: 0.88rem;
+  line-height: 1.38;
+}
+
+#translator .interpreter-mode-bar {
+  min-height: 2.7rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.8rem;
+}
+
+#translator .interpreter-target-row {
+  gap: 0.6rem;
+}
+
+#translator .interpreter-target-row label {
+  gap: 0.25rem;
+  width: min(100%, 18rem);
+  font-size: 0.76rem;
+}
+
+#translator .interpreter-target-row select {
+  min-height: 2.75rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.8rem;
+}
+
+#translator .interpreter-swap-btn {
+  width: 2.75rem;
+  min-width: 2.75rem;
+  height: 2.75rem;
+}
+
+#translator .interpreter-talk-grid {
+  gap: 0.68rem;
+}
+
+#translator .interpreter-talk-btn {
+  min-height: 7rem;
+  padding: 0.78rem;
+  border-radius: 1rem;
+}
+
+#translator .interpreter-talk-btn > span:not(.interpreter-person-tag) {
+  font-size: 1.45rem;
+}
+
+#translator .interpreter-talk-btn strong {
+  font-size: 1.02rem;
+}
+
+#translator .interpreter-actions,
+#translator .interpreter-action-buttons {
+  gap: 0.48rem;
+}
+
+#translator .interpreter-action-buttons > button {
+  min-height: 2.5rem;
+  padding: 0.5rem 0.72rem;
+  font-size: 0.82rem;
+}
+
+#translator .interpreter-privacy-note {
+  padding: 0.55rem 0.7rem;
+  font-size: 0.74rem;
+  line-height: 1.35;
+}
+
+#translator .interpreter-conversation {
+  min-height: 9rem;
+  max-height: 22rem;
+  padding: 0.72rem;
+  border-radius: 1rem;
+}
+
+@media (max-width: 680px) {
+  #translator.translator-section {
+    padding-top: 0.85rem;
+    padding-bottom: 1.5rem;
+  }
+
+  #translator .translator-google-heading {
+    margin-bottom: 0.65rem;
+  }
+
+  #translator .translator-google-heading p {
+    display: none;
+  }
+
+  #translatorTabs {
+    border-radius: 16px;
+  }
+
+  #translatorTabs .skill-tab-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    overflow: hidden;
+  }
+
+  #translatorTabs .skill-tab-button {
+    min-height: 2.55rem;
+    padding: 0.48rem 0.16rem;
+    font-size: 0.7rem;
+  }
+
+  #translatorTabs > .skill-panel {
+    padding: 0.72rem;
+  }
+
+  #translator .interpreter-heading p {
+    font-size: 0.78rem;
+  }
+
+  #translator .interpreter-mode-bar {
+    align-items: center;
+    flex-direction: row;
+    gap: 0.45rem;
+    min-height: 0;
+    padding: 0.48rem 0.58rem;
+  }
+
+  #translator .interpreter-mode-label {
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+
+  #translator .interpreter-usage {
+    font-size: 0.68rem;
+    line-height: 1.25;
+    text-align: right;
+  }
+
+  #translator .interpreter-talk-btn {
+    min-height: 6.15rem;
+    padding: 0.62rem;
+  }
+
+  #translator .interpreter-action-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #translator .interpreter-action-buttons > button {
+    width: 100%;
+    min-width: 0;
+  }
+
+  #translator .interpreter-direction-btn {
     grid-column: 1 / -1;
   }
 }

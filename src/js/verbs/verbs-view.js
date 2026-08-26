@@ -40,6 +40,7 @@
   // A scan-first catalogue benefits from showing a substantial portion of
   // each 100-verb language list immediately, while the grid keeps it compact.
   const PAGE_SIZE = 60;
+  const ANONYMOUS_PREVIEW_RATIO = 0.25;
   const VERB_LANGUAGES = new Set(['english', 'french', 'spanish', 'italian', 'portuguese', 'german']);
 
   function currentVerbLanguage() {
@@ -446,6 +447,10 @@
     return [...source].reduce((total, char) => total + char.charCodeAt(0), 0) % size;
   }
 
+  function guestVerbPreviewCount(total) {
+    return Math.max(1, Math.floor(total * ANONYMOUS_PREVIEW_RATIO));
+  }
+
   function portuguesePracticeExamples(raw) {
     const authored = raw.examples || {};
     const existing = [authored.affirmative, authored.interrogative, authored.negative]
@@ -810,14 +815,19 @@
       const searchInput = document.getElementById('verbsSearchInput');
       const filterSelect = document.getElementById('verbsFilterSelect');
       const sortSelect = document.getElementById('verbsSortSelect');
-      const filtered = applyVerbsFilters(rows, {
+      // The visitor sample is selected before search/filtering so searching
+      // for a word cannot reveal the other 75% of the catalogue.
+      const previewSource = isVerbsUserSignedIn()
+        ? rows
+        : rows.slice(0, guestVerbPreviewCount(rows.length));
+      const filtered = applyVerbsFilters(previewSource, {
         search: searchInput?.value || '',
         filter: filterSelect?.value || 'all'
       });
-      const sorted = sortVerbs(filtered, sortSelect?.value || 'frequency');
+      const previewRows = sortVerbs(filtered, sortSelect?.value || 'frequency');
       syncVerbFilterChips(filterSelect?.value || 'all');
 
-      if (!sorted.length) {
+      if (!previewRows.length) {
         deck.innerHTML = `<p class="skill-graph-empty">${escapeHtml(LanguagePair.t('verbsEmpty', bridgeLanguage))}</p>`;
         if (loadMoreRow) loadMoreRow.hidden = true;
         if (showAllBtn) showAllBtn.hidden = true;
@@ -825,14 +835,14 @@
       }
 
       const canSpeak = typeof supportsSpeech === 'function' ? supportsSpeech() : false;
-      const visible = sorted.slice(0, verbsVisibleCount);
+      const visible = previewRows.slice(0, verbsVisibleCount);
       deck.innerHTML = visible.map(({ raw, item }) => renderVerbTileHtml(item, raw, { canSpeak })).join('');
 
       const progress = document.getElementById('verbsCatalogueProgress');
-      if (progress) progress.innerHTML = `<strong>${visible.length}</strong> de ${sorted.length} verbos visibles`;
+      if (progress) progress.innerHTML = `<strong>${visible.length}</strong> de ${previewRows.length} verbos visibles${isVerbsUserSignedIn() ? '' : ' · muestra gratuita del 25%'}`;
 
-      if (loadMoreRow) loadMoreRow.hidden = sorted.length <= visible.length;
-      if (showAllBtn) showAllBtn.hidden = sorted.length <= visible.length;
+      if (loadMoreRow) loadMoreRow.hidden = previewRows.length <= visible.length;
+      if (showAllBtn) showAllBtn.hidden = previewRows.length <= visible.length;
     } catch (error) {
       console.warn('[verbs] renderVerbsDeck failed', error);
       deck.innerHTML = `
@@ -1959,10 +1969,21 @@
       summary.innerHTML = '';
       return;
     }
-    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].filter((level) => verbs.some((verb) => verb.level === level));
+    // Derive these totals through the same filter used by the catalogue
+    // below. That keeps the summary honest whenever the data source gains
+    // verbs or its CEFR labels are corrected: the number on a level card is
+    // exactly the number a learner gets after pressing "Explorar".
+    const bridgeLanguage =
+      (typeof learningPathState !== 'undefined' && learningPathState.bridgeLanguage) || 'spanish';
+    const rows = verbs.map((raw) => ({
+      raw,
+      item: normalizeVerbItem(raw, { bridgeLanguage, targetLanguage: language })
+    }));
+    const countForLevel = (level) => applyVerbsFilters(rows, { search: '', filter: level }).length;
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].filter((level) => countForLevel(level) > 0);
     summary.innerHTML = levels.map((level) => {
-      const count = verbs.filter((verb) => verb.level === level).length;
-      return `<button type="button" class="verb-advanced-level-card" data-verb-filter="${level}"><strong>${level}</strong><span>${count.toLocaleString('es-DO')} verbos</span><small>Explorar →</small></button>`;
+      const count = countForLevel(level);
+      return `<button type="button" class="verb-advanced-level-card" data-verb-filter="${level}" aria-label="Explorar ${count.toLocaleString('es-DO')} verbos del nivel ${level}"><strong>${level}</strong><span>${count.toLocaleString('es-DO')} verbos</span><small>Explorar →</small></button>`;
     }).join('');
     summary.hidden = false;
   }

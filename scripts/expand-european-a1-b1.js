@@ -201,7 +201,7 @@ function makeLesson(language, level, unit, skill, order) {
     target_language: language, level, skill, unit_slug: slug,
     title: `${title}: ${skill === 'reading' ? 'lectura' : skill === 'grammar' ? (language === 'portuguese' ? 'gramática' : language === 'italian' ? 'grammatica' : 'Grammatik') : (language === 'portuguese' ? 'palavras' : language === 'italian' ? 'parole' : 'Wortschatz')}`,
     description: objective, order_index: order, estimated_minutes: skill === 'reading' ? 12 : 10,
-    is_free: isFree, access_tier: isFree ? 'free' : 'premium', payment_price_usd: 4.99
+    is_free: isFree, access_tier: isFree ? 'free' : 'premium', payment_price_usd: 7
   };
   const content = {
     language: courses[language].label, language_key: language, level_title: `${courses[language].label} ${level}`,
@@ -210,7 +210,7 @@ function makeLesson(language, level, unit, skill, order) {
     phrases: words.slice(0, 4).map((word) => language === 'german' ? `Wir lernen: ${word}.` : language === 'italian' ? `Impariamo: ${word}.` : `Aprendemos: ${word}.`),
     vocabulary: words.map((word, index) => ({ word, translation: `Palabra clave ${index + 1}`, example: language === 'german' ? `Ich benutze das Wort „${word}“ im Kontext.` : language === 'italian' ? `Uso la parola «${word}» nel contesto.` : `Uso a palavra «${word}» no contexto.` })),
     xp_reward: 25,
-    access_policy: { free_lessons_per_level: freeUnitLimit, is_free_preview: isFree, premium_price_usd: 4.99, premium_label: 'Premium desbloquea la ruta completa' }
+    access_policy: { free_lessons_per_level: freeUnitLimit, is_free_preview: isFree, premium_price_usd: 7, premium_label: 'Premium desbloquea la ruta completa' }
   };
   if (skill === 'reading') {
     content.reading = { text: readingText, questions: [

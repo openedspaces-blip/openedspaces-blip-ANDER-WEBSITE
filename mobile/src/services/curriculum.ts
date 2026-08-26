@@ -50,7 +50,9 @@ export type LessonActivity = {
   reading?: { title: string; text: string; questions: string[] } | null;
 };
 
-export async function loadCurriculum(language: 'english' | 'french' | 'spanish', level = 'A1', accessToken?: string) {
+export type CourseLanguage = 'english' | 'french' | 'spanish' | 'italian' | 'portuguese' | 'german';
+
+export async function loadCurriculum(language: CourseLanguage, level = 'A1', accessToken?: string) {
   const cacheKey = `${CACHE_PREFIX}.${language}.${level}`;
   try {
     const routeResponse = await fetch(`${ANDERGO_API_URL}/api/lessons?language=${language}&level=${level}`, {
@@ -62,6 +64,7 @@ export async function loadCurriculum(language: 'english' | 'french' | 'spanish',
         id: String(lesson.id ?? ''), slug: String(lesson.slug ?? ''), skill: lesson.skill as CurriculumLesson['skill'], title: String(lesson.title ?? ''),
         description: typeof lesson.description === 'string' ? lesson.description : undefined, unitId: typeof lesson.unitId === 'string' ? lesson.unitId : undefined,
         unitOrder: typeof lesson.unitOrder === 'number' ? lesson.unitOrder : undefined, xpReward: typeof lesson.xpReward === 'number' ? lesson.xpReward : undefined,
+        estimated_minutes: typeof lesson.estimated_minutes === 'number' ? lesson.estimated_minutes : undefined,
         accessTier: lesson.accessTier === 'premium' ? 'premium' : 'free', completed: Boolean(lesson.completed), locked: Boolean(lesson.locked), audioUrl: typeof lesson.audioUrl === 'string' ? lesson.audioUrl : null,
       }));
       if (lessons.length) await AsyncStorage.setItem(cacheKey, JSON.stringify(lessons));

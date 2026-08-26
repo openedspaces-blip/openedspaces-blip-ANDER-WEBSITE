@@ -1,17 +1,138 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { createClient, processLock, Session as SupabaseSession } from '@supabase/supabase-js';
+import * as Linking from 'expo-linking';
+import * as WebBrowser from 'expo-web-browser';
 import { createContext, PropsWithChildren, useContext, useEffect, useMemo, useState } from 'react';
+import 'react-native-url-polyfill/auto';
 
-const URL='https://kdfzpqqyklqxprcweuqu.supabase.co';
-const KEY='sb_publishable_V6eyM6swE72C5UmPs9KKOg_hKtpRbwZ';
-const STORE='andergo.session.v1';
-type Session={access_token:string;email:string;userId:string;displayName:string};
-type Auth={ready:boolean;session:Session|null;signIn:(email:string,password:string)=>Promise<void>;signUp:(displayName:string,email:string,password:string)=>Promise<'signed-in'|'confirmation-required'>;signOut:()=>Promise<void>};
-const Context=createContext<Auth|null>(null);
+const SUPABASE_URL = 'https://kdfzpqqyklqxprcweuqu.supabase.co';
+const KEY = 'sb_publishable_V6eyM6swE72C5UmPs9KKOg_hKtpRbwZ';
+const STORE = 'andergo.session.v1';
 
-export function AuthProvider({children}:PropsWithChildren){
- const [session,setSession]=useState<Session|null>(null);const [ready,setReady]=useState(false);
- useEffect(()=>{AsyncStorage.getItem(STORE).then(raw=>{if(raw)setSession(JSON.parse(raw));}).finally(()=>setReady(true));},[]);
- const value=useMemo<Auth>(()=>({ready,session,async signIn(email,password){const r=await fetch(`${URL}/auth/v1/token?grant_type=password`,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:JSON.stringify({email,password})});const data=await r.json();if(!r.ok)throw new Error(data.error_description||'No pudimos iniciar sesión.');const next={access_token:data.access_token,email:data.user?.email||email,userId:data.user?.id||'',displayName:data.user?.user_metadata?.display_name||data.user?.email?.split('@')[0]||'Estudiante'};setSession(next);await AsyncStorage.setItem(STORE,JSON.stringify(next));},async signUp(displayName,email,password){const r=await fetch(`${URL}/auth/v1/signup`,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:JSON.stringify({email,password,data:{display_name:displayName}})});const data=await r.json();if(!r.ok)throw new Error(data.msg||data.error_description||'No pudimos crear tu cuenta.');if(!data.access_token)return 'confirmation-required';const next={access_token:data.access_token,email:data.user?.email||email,userId:data.user?.id||'',displayName};setSession(next);await AsyncStorage.setItem(STORE,JSON.stringify(next));return 'signed-in';},async signOut(){setSession(null);await AsyncStorage.removeItem(STORE);}}),[ready,session]);
- return <Context.Provider value={value}>{children}</Context.Provider>;
+WebBrowser.maybeCompleteAuthSession();
+
+const supabase = createClient(SUPABASE_URL, KEY, {
+  auth: {
+    storage: AsyncStorage,
+    autoRefreshToken: true,
+    persistSession: true,
+    detectSessionInUrl: false,
+    flowType: 'pkce',
+    lock: processLock,
+  },
+});
+
+type Session = { access_token: string; email: string; userId: string; displayName: string };
+type Provider = 'google' | 'facebook';
+type Auth = {
+  ready: boolean;
+  session: Session | null;
+  signIn: (email: string, password: string) => Promise<void>;
+  signInWithProvider: (provider: Provider) => Promise<void>;
+  signUp: (displayName: string, email: string, password: string) => Promise<'signed-in' | 'confirmation-required'>;
+  signOut: () => Promise<void>;
+};
+const Context = createContext<Auth | null>(null);
+
+function toAppSession(session: SupabaseSession): Session {
+  const user = session.user;
+  const metadata = user.user_metadata || {};
+  return {
+    access_token: session.access_token,
+    email: user.email || '',
+    userId: user.id,
+    displayName: metadata.display_name || metadata.full_name || metadata.name || user.email?.split('@')[0] || 'Estudiante',
+  };
 }
-export function useAuth(){const value=useContext(Context);if(!value)throw new Error('useAuth must be inside AuthProvider');return value;}
+
+function providerLabel(provider: Provider) {
+  return provider === 'facebook' ? 'Facebook' : 'Google';
+}
+
+export function AuthProvider({ children }: PropsWithChildren) {
+  const [session, setSession] = useState<Session | null>(null);
+  const [ready, setReady] = useState(false);
+
+  const save = async (next: SupabaseSession | null) => {
+    const appSession = next ? toAppSession(next) : null;
+    setSession(appSession);
+    if (appSession) await AsyncStorage.setItem(STORE, JSON.stringify(appSession));
+    else await AsyncStorage.removeItem(STORE);
+  };
+
+  useEffect(() => {
+    let active = true;
+    const restore = async () => {
+      const { data } = await supabase.auth.getSession();
+      if (active) await save(data.session);
+      if (active) setReady(true);
+    };
+    void restore();
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, next) => {
+      if (active) void save(next);
+    });
+    return () => {
+      active = false;
+      listener.subscription.unsubscribe();
+    };
+  }, []);
+
+  const value = useMemo<Auth>(
+    () => ({
+      ready,
+      session,
+      async signIn(email, password) {
+        const { error } = await supabase.auth.signInWithPassword({ email, password });
+        if (error) throw error;
+      },
+      async signInWithProvider(provider) {
+        // This exact deep link must be included in Supabase Auth's Redirect URLs.
+        // It returns to this installed app after Google/Facebook, where the PKCE
+        // code is exchanged and persisted by the same Supabase client.
+        const redirectTo = Linking.createURL('auth/callback');
+        const { data, error } = await supabase.auth.signInWithOAuth({
+          provider,
+          options: { redirectTo, skipBrowserRedirect: true },
+        });
+        if (error || !data.url) throw error || new Error(`No pudimos abrir ${providerLabel(provider)}.`);
+
+        const result = await WebBrowser.openAuthSessionAsync(data.url, redirectTo);
+        if (result.type === 'cancel' || result.type === 'dismiss') return;
+        if (result.type !== 'success') throw new Error(`No pudimos completar el acceso con ${providerLabel(provider)}.`);
+
+        const callback = new URL(result.url);
+        const providerError = callback.searchParams.get('error_description') || callback.searchParams.get('error');
+        if (providerError) throw new Error(providerError);
+        const code = callback.searchParams.get('code');
+        if (!code) throw new Error(`No recibimos una sesión de ${providerLabel(provider)}.`);
+
+        const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
+        if (exchangeError) throw exchangeError;
+      },
+      async signUp(displayName, email, password) {
+        const { data, error } = await supabase.auth.signUp({
+          email,
+          password,
+          options: { data: { display_name: displayName } },
+        });
+        if (error) throw error;
+        if (!data.session) return 'confirmation-required';
+        return 'signed-in';
+      },
+      async signOut() {
+        const { error } = await supabase.auth.signOut();
+        await save(null);
+        if (error) throw error;
+      },
+    }),
+    [ready, session],
+  );
+
+  return <Context.Provider value={value}>{children}</Context.Provider>;
+}
+
+export function useAuth() {
+  const value = useContext(Context);
+  if (!value) throw new Error('useAuth must be inside AuthProvider');
+  return value;
+}
