@@ -14313,28 +14313,6 @@ function applyReadingDisplayPreferences(area, preferences) {
   }
 }
 
-function renderReadingReferencesHtml(references) {
-  const items = (Array.isArray(references) ? references : [])
-    .filter(
-      (reference) =>
-        reference && reference.title && /^https:\/\//i.test(String(reference.url || ''))
-    )
-    .map((reference) => {
-      const author = reference.author ? `${escapeHtml(reference.author)}. ` : '';
-      const year = reference.year ? ` (${escapeHtml(reference.year)}).` : '';
-      return `<li>${author}<a href="${escapeHtml(reference.url)}" target="_blank" rel="noopener noreferrer"><cite>${escapeHtml(reference.title)}</cite></a>${year}</li>`;
-    })
-    .join('');
-
-  if (!items) return '';
-  return `
-    <section class="reading-references" aria-labelledby="reading-references-title">
-      <h4 id="reading-references-title">References</h4>
-      <ol>${items}</ol>
-    </section>
-  `;
-}
-
 const ADVANCED_READING_LEVELS = new Set(['B1', 'B2', 'C1', 'C2']);
 
 function renderReadingEditorialPrelude(lesson) {
@@ -14464,16 +14442,10 @@ function renderReadingView(section, lesson) {
   const readingVocabWords = (lesson.vocabulary || []).map((item) => item.word).join(', ');
   const hasVocabulary = Boolean(vocabHtml);
   const displayPreferences = getReadingDisplayPreferences();
-  const referencesHtml = isFinalReadingSection
-    ? renderReadingReferencesHtml(lesson.reading?.references)
-    : '';
   const readingDownloadNote = getReadingDownloadNote(
     lesson.language || learningPathState.language || 'english'
   );
   const french = isFrenchAdvancedImmersion();
-  const wikipediaExplorerHtml = isFinalReadingSection
-    ? renderReadingWikipediaExplorerHtml(lesson, learningPathState.language)
-    : '';
 
   content.innerHTML = `
     <div class="reading-print-area skill-print-area" data-reading-size="${displayPreferences.size}" data-reading-font="${displayPreferences.font}" data-reading-alignment="${displayPreferences.alignment}">
@@ -14523,8 +14495,6 @@ function renderReadingView(section, lesson) {
         ${editorialPreludeHtml}
         ${culturalContextHtml}
         <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
-        ${referencesHtml}
-        ${wikipediaExplorerHtml}
         ${
           isFinalReadingSection
             ? `<p class="reading-download-note"><em>${escapeHtml(readingDownloadNote)}</em></p>`
@@ -14558,7 +14528,6 @@ function renderReadingView(section, lesson) {
     </div>
   `;
   applyReadingDisplayPreferences(content.querySelector('.reading-print-area'), displayPreferences);
-  if (isFinalReadingSection) initReadingWikipediaExplorer(content, lesson, learningPathState.language);
 
   // Re-registered on every render (cheap, idempotent) so the player's
   // callbacks always point at the DOM this exact render produced, even
@@ -14572,122 +14541,6 @@ function renderReadingView(section, lesson) {
       updateReadingHighlight(section, snap);
     }
   });
-}
-
-// Wikipedia is a reading extension, not a copy of its articles: we request a
-// short result list from the official REST API and always send the learner to
-// the original article.  Each learning language maps to its own Wikipedia.
-const WIKIPEDIA_LANGUAGE_CODES = {
-  english: 'en',
-  spanish: 'es',
-  french: 'fr',
-  german: 'de',
-  italian: 'it',
-  portuguese: 'pt',
-  haitianCreole: 'ht'
-};
-
-const WIKIPEDIA_EXPLORER_COPY = {
-  english: { eyebrow: 'EXPLORE MORE', title: 'Continue reading in English', placeholder: 'Search a topic in English', search: 'Search', loading: 'Finding related articles…', empty: 'No related article was found. Try another topic.', source: 'Results from Wikipedia' },
-  spanish: { eyebrow: 'EXPLORA MÁS', title: 'Sigue leyendo en español', placeholder: 'Busca un tema en español', search: 'Buscar', loading: 'Buscando artículos relacionados…', empty: 'No encontramos un artículo relacionado. Prueba otro tema.', source: 'Resultados de Wikipedia' },
-  french: { eyebrow: 'DÉCOUVRIR PLUS', title: 'Continuez à lire en français', placeholder: 'Recherchez un sujet en français', search: 'Rechercher', loading: 'Recherche d’articles associés…', empty: 'Aucun article associé trouvé. Essayez un autre sujet.', source: 'Résultats de Wikipédia' },
-  german: { eyebrow: 'WEITERLESEN', title: 'Lies auf Deutsch weiter', placeholder: 'Suche ein Thema auf Deutsch', search: 'Suchen', loading: 'Ähnliche Artikel werden gesucht…', empty: 'Kein passender Artikel gefunden. Versuche ein anderes Thema.', source: 'Ergebnisse von Wikipedia' },
-  italian: { eyebrow: 'ESPLORA DI PIÙ', title: 'Continua a leggere in italiano', placeholder: 'Cerca un argomento in italiano', search: 'Cerca', loading: 'Cerco articoli correlati…', empty: 'Nessun articolo correlato trovato. Prova un altro argomento.', source: 'Risultati di Wikipedia' },
-  portuguese: { eyebrow: 'EXPLORE MAIS', title: 'Continue lendo em português', placeholder: 'Pesquise um tema em português', search: 'Pesquisar', loading: 'Buscando artigos relacionados…', empty: 'Nenhum artigo relacionado encontrado. Tente outro tema.', source: 'Resultados da Wikipédia' },
-  haitianCreole: { eyebrow: 'DEKOUVRI PLIS', title: 'Kontinye li an kreyòl ayisyen', placeholder: 'Chèche yon sijè an kreyòl ayisyen', search: 'Chèche', loading: 'N ap chèche atik ki gen rapò…', empty: 'Nou pa jwenn atik ki gen rapò. Eseye yon lòt sijè.', source: 'Rezilta ki soti nan Wikipedya' }
-};
-
-function getWikipediaExplorerCopy(language) {
-  return WIKIPEDIA_EXPLORER_COPY[language] || WIKIPEDIA_EXPLORER_COPY.english;
-}
-
-function getWikipediaSearchQuery(lesson) {
-  return String(lesson?.reading?.title || lesson?.title || lesson?.description || '')
-    .replace(/\s+/g, ' ')
-    .trim()
-    .slice(0, 160);
-}
-
-function renderReadingWikipediaExplorerHtml(lesson, language) {
-  const copy = getWikipediaExplorerCopy(language);
-  const query = getWikipediaSearchQuery(lesson);
-  if (!WIKIPEDIA_LANGUAGE_CODES[language] || !query) return '';
-  return `
-    <aside class="reading-wikipedia-explorer no-print" data-wikipedia-language="${escapeHtml(language)}" aria-label="${escapeHtml(copy.title)}">
-      <div class="reading-wikipedia-heading">
-        <span>W</span>
-        <div><small>${escapeHtml(copy.eyebrow)}</small><h4>${escapeHtml(copy.title)}</h4></div>
-      </div>
-      <div class="reading-wikipedia-search">
-        <input type="search" class="reading-wikipedia-query" value="${escapeHtml(query)}" placeholder="${escapeHtml(copy.placeholder)}" maxlength="160" aria-label="${escapeHtml(copy.placeholder)}">
-        <button type="button" class="reading-wikipedia-search-btn">${escapeHtml(copy.search)}</button>
-      </div>
-      <p class="reading-wikipedia-status" aria-live="polite">${escapeHtml(copy.loading)}</p>
-      <div class="reading-wikipedia-results"></div>
-      <small class="reading-wikipedia-source">${escapeHtml(copy.source)} · <a href="https://${WIKIPEDIA_LANGUAGE_CODES[language]}.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a></small>
-    </aside>
-  `;
-}
-
-function wikipediaArticleUrl(languageCode, title) {
-  return `https://${languageCode}.wikipedia.org/wiki/${encodeURIComponent(String(title || '').replaceAll(' ', '_'))}`;
-}
-
-function initReadingWikipediaExplorer(content, lesson, language) {
-  const explorer = content.querySelector('.reading-wikipedia-explorer');
-  const input = explorer?.querySelector('.reading-wikipedia-query');
-  const searchButton = explorer?.querySelector('.reading-wikipedia-search-btn');
-  const results = explorer?.querySelector('.reading-wikipedia-results');
-  const status = explorer?.querySelector('.reading-wikipedia-status');
-  const languageCode = WIKIPEDIA_LANGUAGE_CODES[language];
-  const copy = getWikipediaExplorerCopy(language);
-  if (!explorer || !input || !searchButton || !results || !status || !languageCode) return;
-
-  let requestId = 0;
-  const search = async () => {
-    const query = String(input.value || '').trim().slice(0, 160);
-    if (!query) return;
-    const currentRequest = ++requestId;
-    searchButton.disabled = true;
-    status.textContent = copy.loading;
-    results.innerHTML = '';
-    try {
-      const endpoint = `${backendBaseUrl}/api/wikipedia/search?language=${encodeURIComponent(languageCode)}&q=${encodeURIComponent(query)}`;
-      const response = await fetch(endpoint, { headers: { Accept: 'application/json' } });
-      if (!response.ok) throw new Error(`Wikipedia search ${response.status}`);
-      const payload = await response.json();
-      if (currentRequest !== requestId) return;
-      const pages = Array.isArray(payload?.pages) ? payload.pages : [];
-      if (!pages.length) {
-        status.textContent = copy.empty;
-        return;
-      }
-      status.textContent = '';
-      results.innerHTML = pages
-        .map((page) => {
-          const title = String(page.title || '').trim();
-          const description = String(page.description || page.excerpt || '')
-            .replace(/<[^>]*>/g, '')
-            .replace(/\s+/g, ' ')
-            .trim();
-          if (!title) return '';
-          return `<a class="reading-wikipedia-result" href="${escapeHtml(wikipediaArticleUrl(languageCode, page.key || title))}" target="_blank" rel="noopener noreferrer"><strong>${escapeHtml(title)}</strong>${description ? `<span>${escapeHtml(description)}</span>` : ''}<b aria-hidden="true">↗</b></a>`;
-        })
-        .join('');
-    } catch (error) {
-      if (currentRequest === requestId) status.textContent = copy.empty;
-    } finally {
-      if (currentRequest === requestId) searchButton.disabled = false;
-    }
-  };
-  searchButton.addEventListener('click', search);
-  input.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter') {
-      event.preventDefault();
-      search();
-    }
-  });
-  search();
 }
 
 function normalizeWritingPracticeAnswer(value) {
