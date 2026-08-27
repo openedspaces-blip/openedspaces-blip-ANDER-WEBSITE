@@ -6,7 +6,7 @@
 
 ANDERGO Language Academy (https://andergo.online/) is an educational platform created to help learners study English, Spanish, French, Italian, Portuguese, and German through guided CEFR learning routes. The platform combines vocabulary, grammar, reading, listening, speaking, writing, verb practice, placement tests, progress tracking, and an AI tutor.
 
-The site is primarily written for Spanish-speaking learners, while learning content is presented in the target language and adapted to the learner's level. English, Spanish, and French routes span A1–C2. Italian, Portuguese, and German routes currently span A1–B1.
+The site is primarily written for Spanish-speaking learners, while learning content is presented in the target language and adapted to the learner's level. All six routes—English, Spanish, French, Italian, Portuguese, and German—span A1–C2.
 
 ## Canonical facts
 

@@ -204,7 +204,7 @@
       aboutTitle: 'Sobre ANDERGO',
       aboutWhatTitle: 'Qué es ANDERGO',
       aboutWhatP1:
-        'ANDERGO es una plataforma para aprender inglés, francés, español, italiano, portugués y alemán mediante rutas claras. Inglés, francés y español llegan de A1 a C2; italiano, portugués y alemán están disponibles de A1 a B1. Cada unidad inicia con Vocabulary y continúa con Reading, Listening, Speaking, Writing, Grammar y Verbos para que la práctica tenga una secuencia y un propósito.',
+        'ANDERGO es una plataforma para aprender inglés, francés, español, italiano, portugués y alemán mediante rutas claras de A1 a C2. Cada unidad inicia con Vocabulary y continúa con Reading, Listening, Speaking, Writing, Grammar y Verbos para que la práctica tenga una secuencia y un propósito.',
       aboutWhatP2:
         'Empiezas por la actividad recomendada, practicas una habilidad a la vez y avanzas con apoyo del Tutor IA, el traductor contextual, audio y herramientas de repaso. Tu progreso, racha y objetivos se guardan en tu perfil para ayudarte a retomar desde donde quedaste.',
       aboutHowTitle: 'Cómo funciona',
@@ -219,7 +219,7 @@
       aboutStep4Text: 'Consulta tu avance, racha, objetivos y las actividades que te toca retomar.',
       aboutStartFreeBtn: 'Comenzar gratis',
       aboutIncludesTitle: 'Qué incluye la plataforma',
-      aboutIncludesItem1: 'Rutas de A1 a C2 en inglés, francés y español, y rutas A1–B1 en italiano, portugués y alemán.',
+      aboutIncludesItem1: 'Rutas de A1 a C2 en inglés, francés, español, italiano, portugués y alemán.',
       aboutIncludesItem2: 'Una secuencia por unidad: Vocabulary, Reading, Listening, Speaking, Writing, Grammar y Verbos.',
       aboutIncludesItem3: 'Tutor IA para explicaciones docentes, ejemplos, pistas y práctica guiada.',
       aboutIncludesItem4: 'Reproductor de escucha con repetir, saltar, velocidad y texto de apoyo cuando lo necesites.',
@@ -305,7 +305,7 @@
       aboutTitle: 'About ANDERGO',
       aboutWhatTitle: 'What ANDERGO is',
       aboutWhatP1:
-        'ANDERGO is a platform for learning English, French, Spanish, Italian, Portuguese and German through clear learning paths. English, French and Spanish run from A1 to C2; Italian, Portuguese and German are available from A1 to B1. Every unit starts with Vocabulary, then continues with Reading, Listening, Speaking, Writing, Grammar and Verbs so practice follows a purposeful sequence.',
+        'ANDERGO is a platform for learning English, French, Spanish, Italian, Portuguese and German through clear A1-to-C2 learning paths. Every unit starts with Vocabulary, then continues with Reading, Listening, Speaking, Writing, Grammar and Verbs so practice follows a purposeful sequence.',
       aboutWhatP2:
         'Start with the recommended activity, practise one skill at a time, and move forward with support from the AI Tutor, contextual translator, audio and review tools. Your progress, streak and goals are saved in your profile so you can pick up where you left off.',
       aboutHowTitle: 'How it works',

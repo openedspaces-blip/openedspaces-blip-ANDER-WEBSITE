@@ -1,12 +1,11 @@
 #!/usr/bin/env node
-// Read-only guard for the non-audio European curriculum. Listening is not
-// asserted here because its audio-production pass is intentionally pending.
+// Read-only guard for the complete Italian, Portuguese and German curriculum.
 const units = require('../lib/seed-units.json');
 const lessons = require('../lib/seed-lessons.json');
 
 const languages = ['italian', 'portuguese', 'german'];
-const levels = ['A1', 'A2', 'B1'];
-const skills = ['reading', 'speaking', 'writing', 'grammar', 'vocabulary'];
+const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const skills = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
 const failures = [];
 
 for (const language of languages) {
@@ -25,4 +24,4 @@ if (failures.length) {
   console.error(failures.join('\n'));
   process.exit(1);
 }
-console.log('European non-listening routes verified: 3 languages × 3 levels (A1–B1) × 12 units × 5 skills.');
+console.log('European routes verified: 3 languages × 6 levels (A1–C2) × 12 units × 6 skills.');

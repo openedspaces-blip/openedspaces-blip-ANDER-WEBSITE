@@ -1,6 +1,6 @@
 # ANDERGO Update 04 — Backend, Gamificación y 5 Mundos Completos
 
-### (incluye rutas diferenciadas: A1–C2 en English, Español y Français; A1–B1 en Italiano, Português y Deutsch)
+### (incluye rutas A1–C2 en English, Español, Français, Italiano, Português y Deutsch)
 
 ## Dónde insertar
 
@@ -117,8 +117,8 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 
 ## Fase 2 (completada en esta entrega)
 
-- Las rutas publicadas se organizan por cobertura diferenciada: English, Español y Français cuentan con **36 lecciones por idioma** (6 niveles × 6 habilidades); Italiano, Português y Deutsch se presentan inicialmente hasta B1 mientras se completa la revisión editorial de niveles superiores.
-- Validado curricularmente: las rutas europeas de Italiano, Português y Deutsch se verifican para A1–B1 en cinco habilidades no auditivas; English, Español y Français mantienen la cobertura completa A1–C2. La insignia "Políglota" y el bloqueo Premium siguen funcionando por idioma.
+- Las rutas publicadas cubren A1–C2 en los seis idiomas: cada idioma reúne 72 actividades por nivel (12 unidades × 6 habilidades) desde A1 hasta C2.
+- Validado curricularmente: las rutas de Italiano, Português y Deutsch cubren A1–C2 con seis habilidades por unidad; English, Español y Français mantienen la misma cobertura completa. La insignia "Políglota" y el bloqueo Premium siguen funcionando por idioma.
 
 ## Qué sigue (fase 3 sugerida)
 
