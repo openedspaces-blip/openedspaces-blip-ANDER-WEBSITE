@@ -5,3 +5,11 @@ mobile/android/.gradle/
 mobile/android/build/
 mobile/.expo/
 mobile/node_modules/
+
+# Local worktrees, authoring caches and corpus downloads are not web inputs.
+# Keeping them out of the upload also avoids Vercel's single-file size limit.
+.deploy-worktree/
+.poster-worktree/
+.reading-cache-worktree/
+.vocab-minimum-worktree/
+tmp/

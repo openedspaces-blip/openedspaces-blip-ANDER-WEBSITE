@@ -729,14 +729,14 @@ function renderAuthState() {
     trigger.hidden = isSignedIn;
   });
 
-  // The learning navigation is part of ANDERGO's public storefront too.
-  // Visitors see the same destinations as a learner; activation is gated
-  // below and opens the sign-in dialog rather than exposing protected views.
+  // Visitors receive a concise storefront navigation; the complete learning
+  // workspace appears after access so the sign-in action never collides with
+  // a long row of skill links.
   document.querySelectorAll('.nav-group-visitor').forEach((group) => {
-    group.hidden = true;
+    group.hidden = isSignedIn;
   });
   document.querySelectorAll('.nav-group-member').forEach((group) => {
-    group.hidden = false;
+    group.hidden = !isSignedIn;
   });
   document.querySelectorAll('.teacher-only-nav').forEach((link) => {
     link.hidden = !isSignedIn || !['teacher', 'ceo'].includes(authStatus.entitlements?.role);
