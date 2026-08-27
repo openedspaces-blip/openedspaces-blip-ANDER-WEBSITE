@@ -15,7 +15,7 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
-const { uploadOfficialReadingAudio } = require('../lib/readingAudioStorage');
+const { uploadOfficialReadingAudio, getOfficialReadingAudio } = require('../lib/readingAudioStorage');
 const { generateReadingSpeech } = require('../lib/ttsService');
 
 const ROOT = path.join(__dirname, '..');
@@ -147,6 +147,17 @@ async function main() {
   for (const { lesson, text } of lessons) {
     const unitNumber = unitNumbers.get(lesson.slug);
     const outputPath = path.join(languageDirectory, `${lesson.slug}.wav`);
+    if (options.upload && !options.force) {
+      const existing = await getOfficialReadingAudio({
+        language: options.language,
+        level: lesson.level,
+        unitNumber
+      });
+      if (existing?.signedUrl) {
+        console.log(`Keeping existing official audio: ${lesson.level} unit ${unitNumber} (${lesson.slug})`);
+        continue;
+      }
+    }
     if (!options.upload && fs.existsSync(outputPath) && !options.force) {
       console.log(`Keeping existing audio: ${path.relative(ROOT, outputPath)}`);
       continue;
