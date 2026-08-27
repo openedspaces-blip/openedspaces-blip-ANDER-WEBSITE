@@ -8023,9 +8023,9 @@ async function playNaturalReadingAudio(section, lesson) {
     button.textContent = 'Preparando…';
   }
 
-  // Stop browser speech so two narrations never overlap. Official narrations
-  // are prepared ahead of time in private Supabase Storage, never generated
-  // while a learner is waiting to listen.
+  // Stop browser speech so two narrations never overlap. Prefer the prepared
+  // official narration, then create a private cached neural rendition only
+  // when that final file has not been uploaded yet.
   readingSpeechPlayer.stopReading();
   stopNaturalReadingAudio({ clearSource: true });
 
@@ -8037,12 +8037,34 @@ async function playNaturalReadingAudio(section, lesson) {
       level: String(lesson.level || '').toUpperCase(),
       unit: String(unitNumber)
     });
-    const response = await fetch(`${backendBaseUrl}/api/tts/reading?${query.toString()}`, {
+    const officialResponse = await fetch(`${backendBaseUrl}/api/tts/reading?${query.toString()}`, {
       headers: authHeaders()
     });
-    if (!response.ok) throw new Error('No se pudo preparar la voz natural.');
-    const payload = await response.json();
-    const audioSource = String(payload?.audioUrl || '');
+    let payload = null;
+    let audioSource = '';
+    if (officialResponse.ok) {
+      payload = await officialResponse.json();
+      audioSource = String(payload?.audioUrl || '');
+    } else if (officialResponse.status === 404) {
+      const generatedResponse = await fetch(`${backendBaseUrl}/api/tts/reading`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({ text: script, language: learningPathState.language })
+      });
+      if (!generatedResponse.ok) throw new Error('No se pudo preparar la voz natural.');
+      const responseType = generatedResponse.headers.get('content-type') || '';
+      if (responseType.includes('application/json')) {
+        payload = await generatedResponse.json();
+        audioSource = String(payload?.audioUrl || '');
+      } else {
+        const audioBlob = await generatedResponse.blob();
+        if (!audioBlob.size) throw new Error('No se recibió el audio natural.');
+        audioSource = URL.createObjectURL(audioBlob);
+        naturalReadingAudioState.objectUrl = audioSource;
+      }
+    } else {
+      throw new Error('No se pudo preparar la voz natural.');
+    }
     if (!audioSource) throw new Error('No se pudo obtener el audio seguro.');
     naturalReadingAudioState.audio = audio;
     audio.src = audioSource;
