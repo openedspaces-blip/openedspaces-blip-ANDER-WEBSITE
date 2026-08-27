@@ -572,7 +572,7 @@
         ${
           hasExamples
             ? `<div class="verb-catalogue-examples" aria-label="Dos ejemplos prácticos de ${escapeHtml(item.targetWord)}">
-                ${practicalExamples.map((example, index) => `<div><span>${index + 1}</span><p>${escapeHtml(example)} ${canSpeak ? conjugatorAudioBtnHtml(example, audioOpts) : ''}</p></div>`).join('')}
+                ${practicalExamples.map((example, index) => `<div><span class="verb-catalogue-example-marker">${String.fromCharCode(65 + index)})</span><p>${escapeHtml(example)} ${canSpeak ? conjugatorAudioBtnHtml(example, audioOpts) : ''}</p></div>`).join('')}
               </div>`
             : ''
         }

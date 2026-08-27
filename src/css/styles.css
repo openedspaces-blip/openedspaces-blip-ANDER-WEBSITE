@@ -23208,6 +23208,21 @@ footer small {
   flex: 0 0 auto;
 }
 
+/* Simple markers keep practical examples readable without competing with
+   the verb's frequency rank or adding another set of circular badges. */
+.verb-catalogue-examples > div > .verb-catalogue-example-marker {
+  display: block;
+  width: auto;
+  height: auto;
+  padding-top: 0.08rem;
+  border-radius: 0;
+  background: transparent;
+  color: #2563eb;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
 .verb-catalogue-conjugate {
   width: 100%;
   min-height: 34px;
