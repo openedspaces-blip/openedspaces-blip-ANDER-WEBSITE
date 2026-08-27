@@ -88,10 +88,8 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
   - `SUPABASE_ANON_KEY` (o `SUPABASE_KEY` como alias)
   - `SUPABASE_SERVICE_ROLE_KEY`
   - `SUPABASE_DATABASE_URL` (solo si vas a correr `npm run db:setup`)
-  - `OPENAI_API_KEY` (respaldo del AI Tutor y voz natural bajo demanda en Reading)
+  - `OPENAI_API_KEY` (respaldo opcional del AI Tutor)
   - `OPENAI_MODEL` (opcional; por defecto `gpt-4.1-mini`)
-  - `OPENAI_TTS_MODEL` (opcional; por defecto `gpt-4o-mini-tts`)
-  - `OPENAI_TTS_VOICE` (opcional; por defecto `marin` con ese modelo)
   - `GROQ_API_KEY` (ruta rápida y económica principal del AI Tutor)
   - `GROQ_MODEL` (opcional; por defecto `openai/gpt-oss-20b`)
   - `CEREBRAS_API_KEY` (respaldo de streaming del AI Tutor)

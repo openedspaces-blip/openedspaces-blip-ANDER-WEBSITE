@@ -244,15 +244,6 @@ const authStatus = {
   entitlements: null
 };
 
-// Holds the aal1 session while a second factor is pending, in memory only -
-// never written to localStorage/authStatus, since it isn't a valid signed-in
-// session yet (see the login handler and the mfaChallengeForm submit below).
-let pendingMfa = null;
-
-function clearPendingMfa() {
-  pendingMfa = null;
-}
-
 const goalOptions = {
   daily: {
     label: 'Practicar 15 min al día',
@@ -1602,12 +1593,11 @@ function closeAllAuthUI() {
   document.body.classList.remove('modal-open');
   (authModalReturnFocus || document.querySelector('[data-action="open-auth"]'))?.focus();
   authModalReturnFocus = null;
-  clearPendingMfa();
   clearAuthMessages();
   // Never leave a password/OTP value sitting in the DOM once the panel that
   // collected it is hidden - a later reopen (or a screen reader landing on
   // stale text) must never show a previous attempt's sensitive input.
-  ['loginPassword', 'signupPassword', 'signupConfirmPassword', 'mfaChallengeCode'].forEach((id) => {
+  ['loginPassword', 'signupPassword', 'signupConfirmPassword'].forEach((id) => {
     const el = document.getElementById(id);
     if (el) el.value = '';
   });
@@ -2972,14 +2962,6 @@ function attachAuthHandlers() {
     }
     try {
       const data = await postJson('/api/auth', { action: 'login', identifier, password });
-      if (data.requiresMfa) {
-        // aal1 only - held in memory until the TOTP code below elevates it
-        // to aal2 (mfaService.verifyFactor's session), never saved/shown as
-        // a signed-in state.
-        pendingMfa = { user: data.user, session: data.session };
-        openModal('mfaChallenge');
-        return;
-      }
       saveSession(data.user, data.session);
       await afterAuthSuccess();
     } catch (error) {
@@ -2999,74 +2981,6 @@ function attachAuthHandlers() {
         submitBtn.disabled = false;
         submitBtn.textContent = 'Entrar';
       }
-    }
-  });
-
-  document.getElementById('mfaChallengeForm')?.addEventListener('submit', async (event) => {
-    event.preventDefault();
-    const statusEl = document.getElementById('mfaChallengeStatus');
-    const codeInput = document.getElementById('mfaChallengeCode');
-    const code = codeInput?.value.trim() || '';
-    const submitBtn = event.target.querySelector('button[type="submit"]');
-
-    if (!pendingMfa?.session?.access_token) {
-      openModal('login');
-      return;
-    }
-
-    if (statusEl) {
-      statusEl.textContent = '';
-      statusEl.classList.remove('is-error');
-    }
-    if (submitBtn) submitBtn.disabled = true;
-
-    try {
-      const authHeader = { Authorization: `Bearer ${pendingMfa.session.access_token}` };
-      const factorsResponse = await fetch(`${backendBaseUrl}/api/mfa/factors`, {
-        headers: authHeader
-      });
-      const factorsData = await factorsResponse.json().catch(() => ({}));
-      const activeFactor = factorsData.totp?.find((factor) => factor.status === 'verified');
-      if (!factorsResponse.ok || !activeFactor) {
-        throw new Error('No se pudo iniciar la verificación en dos pasos.');
-      }
-
-      const challengeResponse = await fetch(`${backendBaseUrl}/api/mfa/totp/challenge`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', ...authHeader },
-        body: JSON.stringify({ factorId: activeFactor.id })
-      });
-      const challengeData = await challengeResponse.json().catch(() => ({}));
-      if (!challengeResponse.ok || !challengeData.challengeId) {
-        throw new Error(challengeData.message || 'No se pudo generar el desafío de verificación.');
-      }
-
-      const verifyResponse = await fetch(`${backendBaseUrl}/api/mfa/totp/verify`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', ...authHeader },
-        body: JSON.stringify({
-          factorId: activeFactor.id,
-          challengeId: challengeData.challengeId,
-          code
-        })
-      });
-      const verifyData = await verifyResponse.json().catch(() => ({}));
-      if (!verifyResponse.ok || !verifyData.ok) {
-        throw new Error(verifyData.message || 'Código incorrecto. Intenta de nuevo.');
-      }
-
-      const verifiedUser = pendingMfa.user;
-      clearPendingMfa();
-      if (codeInput) codeInput.value = '';
-      saveSession(verifiedUser, verifyData.session);
-      await afterAuthSuccess();
-    } catch (error) {
-      if (statusEl) {
-        statusEl.textContent = error.message || 'Código incorrecto. Intenta de nuevo.';
-        statusEl.classList.add('is-error');
-      }
-    } finally {
-      if (submitBtn) submitBtn.disabled = false;
     }
   });
 
@@ -8080,6 +7994,16 @@ function getStaticReadingAudioUrl(language, lesson) {
     : '';
 }
 
+function getReadingUnitNumber(lesson) {
+  if (!lesson?.level || !lesson?.unitId) return 0;
+  const unitIds = [];
+  for (const item of learningPathState.lessons || []) {
+    if (item?.skill !== 'reading' || item.level !== lesson.level || !item.unitId) continue;
+    if (!unitIds.includes(item.unitId)) unitIds.push(item.unitId);
+  }
+  return unitIds.indexOf(lesson.unitId) + 1;
+}
+
 async function playNaturalReadingAudio(section, lesson) {
   const button = section?.querySelector('.reading-audio-natural-btn');
   const audio = section?.querySelector('.reading-natural-audio');
@@ -8099,29 +8023,26 @@ async function playNaturalReadingAudio(section, lesson) {
     button.textContent = 'Preparando…';
   }
 
-  // Stop browser speech so two narrations never overlap. The natural voice
-  // is generated on demand by the authenticated backend, never by the browser.
+  // Stop browser speech so two narrations never overlap. Official narrations
+  // are prepared ahead of time in private Supabase Storage, never generated
+  // while a learner is waiting to listen.
   readingSpeechPlayer.stopReading();
   stopNaturalReadingAudio({ clearSource: true });
 
   try {
-    const response = await fetch(`${backendBaseUrl}/api/tts/reading`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({ text: script, language: learningPathState.language })
+    const unitNumber = getReadingUnitNumber(lesson);
+    if (!unitNumber) throw new Error('No se pudo identificar la unidad de esta lectura.');
+    const query = new URLSearchParams({
+      language: String(learningPathState.language || '').toLowerCase(),
+      level: String(lesson.level || '').toUpperCase(),
+      unit: String(unitNumber)
+    });
+    const response = await fetch(`${backendBaseUrl}/api/tts/reading?${query.toString()}`, {
+      headers: authHeaders()
     });
     if (!response.ok) throw new Error('No se pudo preparar la voz natural.');
-    const responseType = response.headers.get('content-type') || '';
-    let audioSource = '';
-    if (responseType.includes('application/json')) {
-      const payload = await response.json();
-      audioSource = String(payload?.audioUrl || '');
-    } else {
-      const audioBlob = await response.blob();
-      if (!audioBlob.size) throw new Error('Gemini no devolvió audio.');
-      audioSource = URL.createObjectURL(audioBlob);
-      naturalReadingAudioState.objectUrl = audioSource;
-    }
+    const payload = await response.json();
+    const audioSource = String(payload?.audioUrl || '');
     if (!audioSource) throw new Error('No se pudo obtener el audio seguro.');
     naturalReadingAudioState.audio = audio;
     audio.src = audioSource;
@@ -14504,11 +14425,6 @@ function renderReadingView(section, lesson) {
         ${editorialPreludeHtml}
         ${culturalContextHtml}
         <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
-        ${
-          isFinalReadingSection
-            ? `<p class="reading-download-note"><em>${escapeHtml(readingDownloadNote)}</em></p>`
-            : ''
-        }
         ${isFinalReadingSection ? exercisesHtml : ''}
         <p class="reading-selection-hint reading-selection-hint--footer no-print">
           <span aria-hidden="true">🌐</span>
@@ -16421,6 +16337,101 @@ function renderSpeakingModeTabsHtml(activeMode) {
   `;
 }
 
+// A compact phrase bank belongs beside the speaking task, not in a separate
+// vocabulary route. It gives the learner ready-to-say language for this exact
+// lesson while keeping the amount small enough to rehearse aloud.
+function getSpeakingUsefulExpressions(lesson) {
+  const language = learningPathState.language;
+  if (!['english', 'french'].includes(language)) return [];
+  const fallbacks = {
+    english: [
+      'Could you say that again, please?',
+      'I think that…',
+      'In my opinion…',
+      'What do you mean?'
+    ],
+    french: [
+      'Pouvez-vous répéter, s’il vous plaît ?',
+      'Je pense que…',
+      'À mon avis…',
+      'Qu’est-ce que vous voulez dire ?'
+    ]
+  };
+  const candidates = [
+    ...(Array.isArray(lesson.phrases) ? lesson.phrases : []),
+    ...(Array.isArray(lesson.dialogue) ? lesson.dialogue.map((turn) => turn?.line) : []),
+    ...fallbacks[language]
+  ];
+  const expressions = [];
+  candidates.forEach((item) => {
+    const phrase = String(item || '').replace(/\s+/g, ' ').trim();
+    if (
+      phrase &&
+      phrase.length <= 120 &&
+      !expressions.some((known) => known.toLocaleLowerCase() === phrase.toLocaleLowerCase())
+    ) {
+      expressions.push(phrase);
+    }
+  });
+  return expressions.slice(0, 4);
+}
+
+function renderSpeakingExpressionsHtml(lesson) {
+  const expressions = getSpeakingUsefulExpressions(lesson);
+  if (!expressions.length) return '';
+  const isFrench = learningPathState.language === 'french';
+  const title = isFrench ? 'Expressions à utiliser maintenant' : 'Useful expressions to say now';
+  const hint = isFrench
+    ? 'Écoutez, répétez et utilisez-en une dans votre réponse.'
+    : 'Listen, repeat, and use one in your response.';
+  return `
+    <aside class="speaking-expressions" aria-label="${escapeHtml(title)}">
+      <div class="speaking-expressions-heading"><span>💬</span><div><small>${isFrench ? 'PARLER EN CONTEXTE' : 'SPEAK IN CONTEXT'}</small><h4>${escapeHtml(title)}</h4></div></div>
+      <p>${escapeHtml(hint)}</p>
+      <div class="speaking-expression-list">
+        ${expressions
+          .map(
+            (phrase) =>
+              `<button type="button" class="speaking-expression" data-speaking-expression="${escapeHtml(phrase)}"><span>${escapeHtml(phrase)}</span><b aria-label="${isFrench ? 'Écouter' : 'Listen'}">🔊</b></button>`
+          )
+          .join('')}
+      </div>
+      ${renderFrenchEnglishExpressionLibrary()}
+    </aside>
+  `;
+}
+
+// High-frequency conversation expressions deliberately remain the same across
+// lessons: learners can revisit this small French-English bank whenever they
+// need a phrase in a real exchange. Lesson-specific lines stay above it.
+const SPEAKING_EXPRESSIONS_THREE_LANGUAGES = [
+  ['Estoy de vuelta.', 'I am back.', 'Je suis de retour.'],
+  ['Estoy bloqueado/a.', 'I am stuck.', 'Je suis bloqué(e).'],
+  ['Estoy disponible.', 'I am available.', 'Je suis disponible.'],
+  ['Quiero saber por qué.', 'I want to know why.', 'Je veux savoir pourquoi.'],
+  ['Tengo que mantenerme concentrado/a.', 'I have to stay focused.', 'Je dois rester concentré(e).'],
+  ['Todavía no entiendo.', "I still don’t understand.", 'Je ne comprends toujours pas.'],
+  ['No tengo nada que decir.', 'I have nothing to say.', "Je n’ai rien à dire."],
+  ['No es tan grave.', "It’s not that bad.", "Ce n’est pas si grave."],
+  ['Es una buena idea.', "It’s a good idea.", "C’est une bonne idée."],
+  ['Es urgente para mí.', "It’s urgent for me.", "C’est urgent pour moi."],
+  ['Es demasiado tarde.', "It’s too late.", "C’est trop tard."],
+  ['Es suficiente.', "It’s enough.", "C’est suffisant."]
+];
+
+function renderFrenchEnglishExpressionLibrary() {
+  if (!['english', 'french'].includes(learningPathState.language)) return '';
+  return `
+    <details class="speaking-expression-library">
+      <summary><span>↔</span><strong>Expresiones cotidianas · Español / English / Français</strong><small>12 frases</small></summary>
+      <div class="speaking-expression-table" role="table" aria-label="Expresiones en español, inglés y francés">
+        <div class="speaking-expression-row speaking-expression-table-head" role="row"><b>ESPAÑOL</b><b>ENGLISH</b><b>FRANÇAIS</b></div>
+        ${SPEAKING_EXPRESSIONS_THREE_LANGUAGES.map(([spanish, english, french]) => `<div class="speaking-expression-row" role="row"><span class="speaking-expression-translation">${escapeHtml(spanish)}</span><button type="button" data-speaking-expression="${escapeHtml(english)}" data-speaking-language="english"><span>${escapeHtml(english)}</span><i>🔊</i></button><button type="button" data-speaking-expression="${escapeHtml(french)}" data-speaking-language="french"><span>${escapeHtml(french)}</span><i>🔊</i></button></div>`).join('')}
+      </div>
+    </details>
+  `;
+}
+
 function renderSpeakingCorrectorHtml(idPrefix = 'corrector') {
   const markup = `
     <div class="translator-panel corrector-panel speaking-corrector-panel">
@@ -17077,9 +17088,30 @@ function renderSpeakingView(section, lesson) {
 
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
+    ${renderSpeakingExpressionsHtml(lesson)}
     ${renderSpeakingModeTabsHtml(speakingViewState.mode)}
     <div id="speakingStage" class="speaking-stage"></div>
   `;
+
+  content.querySelectorAll('.speaking-expression').forEach((button) => {
+    button.addEventListener('click', () => {
+      playModelPhrase(
+        button.dataset.speakingExpression || '',
+        getPronunciationLocale(learningPathState.language),
+        learningPathState.language
+      );
+    });
+  });
+  content.querySelectorAll('[data-speaking-expression][data-speaking-language]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const language = button.dataset.speakingLanguage;
+      playModelPhrase(
+        button.dataset.speakingExpression || '',
+        getPronunciationLocale(language),
+        language
+      );
+    });
+  });
 
   content.querySelectorAll('.speaking-mode-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -28512,7 +28544,6 @@ function showView(viewId) {
   if (resolved === 'readings') renderReadingLibrary();
   if (resolved === 'listenings') renderListeningLibrary();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
-  if (resolved === 'security') loadSecurityStatus();
   if (resolved === 'teacher-curriculum') loadTeacherCurriculumPanel();
   if (resolved === 'verbs') {
     const verbsDeck = document.getElementById('verbsCardDeck');
@@ -28968,7 +28999,6 @@ function enableHomepageActions() {
     if (event.target.closest('[data-action="back-to-login"]')) {
       setAuthMessage('');
       resetForgotPasswordForm();
-      clearPendingMfa();
       openModal('login');
       return;
     }

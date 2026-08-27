@@ -115,11 +115,26 @@ function copyDirectoryEnsuringDir(srcDir, destDir) {
 }
 
 function main() {
-  if (process.env.GENERATE_ENGLISH_READING_AUDIO === '1') {
-    console.log('Generating and uploading official English Reading audio to Supabase...');
-    execSync(`node "${path.join(ROOT, 'scripts', 'generate-reading-audio.js')}" --language english --upload`, {
+  // Vercel's build container has a constrained memory budget. Curriculum
+  // generation and the full lexicon audit load every authored catalogue at
+  // once; they are authoring checks, not inputs to the static publication.
+  // The generated worlds are versioned in git, so production only needs to
+  // validate and mirror those exact files. Local builds keep the full check.
+  const isProductionBuild = Boolean(process.env.VERCEL);
+  // Audio generation is editorial work, not a deployment prerequisite. A
+  // stale language variable in Vercel previously made every normal publish
+  // call a paid TTS request and then fail the whole build on a quota error.
+  // It now needs an explicit one-off opt-in in addition to the language.
+  const readingAudioLanguage = String(process.env.GENERATE_READING_AUDIO_LANGUAGE || '').trim().toLowerCase();
+  const generateReadingAudioDuringBuild =
+    String(process.env.GENERATE_READING_AUDIO_DURING_BUILD || '').trim().toLowerCase() === 'true';
+  if (readingAudioLanguage && generateReadingAudioDuringBuild) {
+    console.log(`Generating official ${readingAudioLanguage} Reading audio in private Supabase Storage...`);
+    execSync(`node "${path.join(ROOT, 'scripts', 'generate-reading-audio.js')}" --language ${readingAudioLanguage} --provider gemini --upload`, {
       stdio: 'inherit'
     });
+  } else if (readingAudioLanguage) {
+    console.log('Skipping Reading audio generation during this web deployment.');
   }
   // The expanded catalogue is checked in as a browser-ready static asset.
   // Its authoring sources are intentionally local-only, so deployment builds
@@ -133,19 +148,27 @@ function main() {
   // overwrite seed data. The versioned seeds are the sole input to this build.
   console.log('Using versioned curriculum sources without rewriting them...');
 
-  console.log('Syncing generated language worlds...');
-  execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, {
-    stdio: 'inherit'
-  });
+  if (isProductionBuild) {
+    console.log('Using committed language worlds for the production build...');
+  } else {
+    console.log('Syncing generated language worlds...');
+    execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, {
+      stdio: 'inherit'
+    });
+  }
 
   console.log('Validating core files...');
   REQUIRED_FILES.forEach(assertExists);
 
   // Never publish repeated terms in the public adjective/adverb shelves.
-  console.log('Auditing adjective and adverb catalogues...');
-  execSync(`node "${path.join(ROOT, 'scripts', 'audit-lexicon-catalogues.js')}"`, {
-    stdio: 'inherit'
-  });
+  if (isProductionBuild) {
+    console.log('Skipping authoring-only lexicon audit during production build...');
+  } else {
+    console.log('Auditing adjective and adverb catalogues...');
+    execSync(`node "${path.join(ROOT, 'scripts', 'audit-lexicon-catalogues.js')}"`, {
+      stdio: 'inherit'
+    });
+  }
 
   console.log('Validating language worlds...');
   WORLD_LANGUAGES.forEach((lang) => {

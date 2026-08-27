@@ -6,6 +6,7 @@ dist/
 
 # Local Android artifacts are not part of the cloud build input.
 android/.gradle/
+android/build/
 android/app/build/
 android/local.properties
 

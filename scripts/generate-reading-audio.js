@@ -6,16 +6,17 @@
  *   npm run generate:reading-audio -- --language english --limit 3
  *   npm run generate:reading-audio -- --language french --slug french-a1-hello-reading
  *
- * The generated files live in assets/audio/readings/<language>/ and are
- * mirrored by npm run build. They are served as normal files, so playbacks
- * never expose a key or make another Gemini request.
+ * With --upload, official files are stored privately in Supabase as
+ * reading-audio/<language>/<level>/unit-XX/main.wav. Playback receives only
+ * a short-lived signed URL from the authenticated backend.
  */
 require('dotenv').config();
 
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
-const { getOrCreateReadingAudio } = require('../lib/readingAudioStorage');
+const { uploadOfficialReadingAudio } = require('../lib/readingAudioStorage');
+const { generateReadingSpeech } = require('../lib/ttsService');
 
 const ROOT = path.join(__dirname, '..');
 const WORLD_DIR = path.join(ROOT, 'src', 'worlds');
@@ -25,23 +26,25 @@ const VOICE = process.env.GEMINI_TTS_VOICE || 'Sulafat';
 const MAX_INPUT_CHARS = 8000;
 
 function parseArgs(args) {
-  const options = { force: false, dryRun: false, limit: Infinity, language: '', slug: '', upload: false };
+  const options = { force: false, dryRun: false, limit: Infinity, language: '', slug: '', upload: false, provider: 'gemini' };
   for (let index = 0; index < args.length; index += 1) {
     const arg = args[index];
     if (arg === '--force') options.force = true;
     else if (arg === '--dry-run') options.dryRun = true;
     else if (arg === '--upload') options.upload = true;
+    else if (arg === '--provider') options.provider = String(args[++index] || '').trim().toLowerCase();
     else if (arg === '--language') options.language = String(args[++index] || '').trim().toLowerCase();
     else if (arg === '--slug') options.slug = String(args[++index] || '').trim();
     else if (arg === '--limit') options.limit = Math.max(1, Number.parseInt(args[++index], 10) || 1);
     else if (arg === '--help' || arg === '-h') {
-      console.log('Usage: npm run generate:reading-audio -- --language <language> [--limit <n>] [--slug <lesson-slug>] [--force] [--dry-run]');
+      console.log('Usage: npm run generate:reading-audio -- --language <language> [--provider gemini|elevenlabs] [--upload] [--limit <n>] [--slug <lesson-slug>] [--force] [--dry-run]');
       process.exit(0);
     } else {
       throw new Error(`Unknown option: ${arg}`);
     }
   }
   if (!options.language) throw new Error('Choose one language with --language. This prevents accidental full-catalogue generation.');
+  if (!['gemini', 'elevenlabs'].includes(options.provider)) throw new Error('Provider must be gemini or elevenlabs.');
   return options;
 }
 
@@ -82,7 +85,10 @@ function makeWav(pcm) {
   return Buffer.concat([header, pcm]);
 }
 
-async function synthesize(text, language) {
+async function synthesize(text, language, provider) {
+  if (provider === 'elevenlabs') {
+    return generateReadingSpeech(text, { language, provider });
+  }
   // Keep this offline generator on the same Gemini TTS contract used by
   // lib/ttsService.js. The former /interactions payload can return HTTP 200
   // with a different response shape after a Gemini API update.
@@ -120,36 +126,48 @@ async function main() {
   if (!options.dryRun && !String(process.env.GEMINI_API_KEY || '').trim()) {
     throw new Error('GEMINI_API_KEY is required. Add it only to .env or Vercel; never commit it.');
   }
-  const lessons = readWorldLessons(options.language)
+  const allReadingLessons = readWorldLessons(options.language)
     .filter((lesson) => lesson.skill === 'reading')
-    .filter((lesson) => !options.slug || lesson.slug === options.slug)
     .map((lesson) => ({ lesson, text: readingText(lesson) }))
-    .filter(({ text }) => text.length > 0 && text.length <= MAX_INPUT_CHARS)
+    .filter(({ text }) => text.length > 0 && text.length <= MAX_INPUT_CHARS);
+  const unitNumbers = new Map();
+  const unitsSeenByLevel = new Map();
+  for (const { lesson } of allReadingLessons) {
+    const seen = unitsSeenByLevel.get(lesson.level) || [];
+    if (!seen.includes(lesson.unitId)) seen.push(lesson.unitId);
+    unitsSeenByLevel.set(lesson.level, seen);
+    unitNumbers.set(lesson.slug, seen.indexOf(lesson.unitId) + 1);
+  }
+  const lessons = allReadingLessons
+    .filter(({ lesson }) => !options.slug || lesson.slug === options.slug)
     .slice(0, options.limit);
   if (!lessons.length) throw new Error('No eligible Reading lessons were found.');
 
   const languageDirectory = path.join(OUTPUT_DIR, options.language);
   for (const { lesson, text } of lessons) {
+    const unitNumber = unitNumbers.get(lesson.slug);
     const outputPath = path.join(languageDirectory, `${lesson.slug}.wav`);
-    if (fs.existsSync(outputPath) && !options.force) {
+    if (!options.upload && fs.existsSync(outputPath) && !options.force) {
       console.log(`Keeping existing audio: ${path.relative(ROOT, outputPath)}`);
       continue;
     }
     console.log(`${options.dryRun ? 'Would generate' : 'Generating'}: ${lesson.slug} (${text.length} characters)`);
     if (options.dryRun) continue;
-    const wav = await synthesize(text, options.language);
+    const audio = await synthesize(text, options.language, options.provider);
     if (options.upload) {
-      Object.defineProperty(wav, 'contentType', { value: 'audio/wav' });
-      const stored = await getOrCreateReadingAudio({
-        text,
+      const stored = await uploadOfficialReadingAudio({
+        audio,
         language: options.language,
-        makeAudio: async () => wav
+        level: lesson.level,
+        unitNumber,
+        contentType: audio.contentType || 'audio/wav',
+        force: options.force
       });
-      console.log(`Uploaded to Supabase: ${lesson.slug}${stored?.cached ? ' (already cached)' : ''}`);
+      console.log(`Uploaded to Supabase: ${stored.objectPath}${stored.alreadyExists ? ' (already exists)' : ''}`);
       continue;
     }
     fs.mkdirSync(languageDirectory, { recursive: true });
-    fs.writeFileSync(outputPath, wav);
+    fs.writeFileSync(outputPath, audio);
     console.log(`Saved: ${path.relative(ROOT, outputPath)}`);
   }
 }

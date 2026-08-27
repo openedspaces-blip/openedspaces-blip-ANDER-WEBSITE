@@ -19,6 +19,7 @@
     "audit:lexicon": "node scripts/audit-lexicon-catalogues.js",
     "generate:lexicon": "node scripts/generate-lexicon-expansion.js --from-sources",
     "generate:reading-audio": "node scripts/generate-reading-audio.js",
+    "migrate:reading-audio": "node scripts/migrate-reading-audio-layout.js",
     "verify:european-routes": "node scripts/verify-european-non-listening-routes.js",
     "verify:all": "node scripts/verify-all.js",
     "validate:listening": "node scripts/validate-official-listening.js",
