@@ -5930,8 +5930,11 @@ function hasUnits() {
   return learningPathState.units.length > 0;
 }
 
-function isEnglishA1MissionPilot() {
-  return learningPathState.language === 'english' && learningPathState.level === 'A1';
+// Every structured course now uses the same clear mission loop: six learning
+// stations, verb practice and a final challenge. Courses without authored
+// units keep the simpler library view until their unit structure is ready.
+function isMissionRouteEnabled() {
+  return hasUnits();
 }
 
 function getCourseMissionMetrics() {
@@ -6178,7 +6181,7 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
         : 'available';
   const missionMetrics = getUnitProgressMetrics(unitId);
   const finalUnlocked = missionMetrics.total > 0 && missionMetrics.completedCount === missionMetrics.total;
-  const finalStep = isEnglishA1MissionPilot()
+  const finalStep = isMissionRouteEnabled()
     ? `
     <button type="button" class="unit-sequence-step unit-sequence-step--final ${finalUnlocked ? 'unit-sequence-step--available' : 'unit-sequence-step--locked'}" data-unit-final-challenge="${escapeHtml(unitId)}" ${finalUnlocked ? '' : 'disabled'}>
       <span class="unit-sequence-number">★</span>
@@ -6401,9 +6404,8 @@ function openVocabularyFromMainNav() {
 }
 
 // The Reading library is intentionally separate from the guided route. It
-// lets learners choose a language, level and unit. Each unit deliberately
-// presents one original reading: it is clearer, more consistent and keeps
-// the route focused on the text the lesson was designed around.
+// lets learners choose a language and level, then browse every reading in
+// that level in its authored order.
 const READING_LIBRARY_LANGUAGES = Object.freeze([
   'english',
   'spanish',
@@ -6422,38 +6424,38 @@ function getReadingLibraryFreeCopy(level) {
 const READING_LIBRARY_COPY = Object.freeze({
   english: {
     eyebrow: 'READING LIBRARY', choose: 'Choose your reading', language: 'Language', level: 'Level',
-    title: 'English Readings', intro: (count) => `Explore ${count} original readings at this level, with one focused text in every unit.`,
-    available: (count) => `${count} readings available`, list: 'One original reading per unit.', selectUnit: 'Select a unit in the route to open its original reading.', perUnit: '1 original reading', original: 'Original reading',
+    title: 'English Readings', intro: (count) => `Browse all ${count} readings in this level, arranged in learning order.`,
+    available: (count) => `${count} readings in order`, list: 'Complete level catalogue, in order.', original: 'Reading',
     unit: 'Unit', open: 'Open reading →', free: (level) => `All ${level} readings are available.`
   },
   spanish: {
     eyebrow: 'BIBLIOTECA DE LECTURAS', choose: 'Elige tu lectura', language: 'Idioma', level: 'Nivel',
-    title: 'Lecturas en español', intro: (count) => `Explora las ${count} lecturas originales de este nivel: un texto central y bien organizado por unidad.`,
-    available: (count) => `${count} lecturas disponibles`, list: 'Una lectura original por unidad.', selectUnit: 'Selecciona una unidad de la ruta para abrir su lectura original.', perUnit: '1 lectura original', original: 'Lectura original',
+    title: 'Lecturas en español', intro: (count) => `Explora las ${count} lecturas de este nivel, organizadas en su orden de aprendizaje.`,
+    available: (count) => `${count} lecturas en orden`, list: 'Catálogo completo del nivel, en orden.', original: 'Lectura',
     unit: 'Unidad', open: 'Abrir lectura →', free: (level) => `Todas las lecturas de ${level} están disponibles.`
   },
   french: {
     eyebrow: 'BIBLIOTHÈQUE DE LECTURES', choose: 'Choisissez votre lecture', language: 'Langue', level: 'Niveau',
-    title: 'Lectures en français', intro: (count) => `Explorez les ${count} lectures originales de ce niveau : un texte central dans chaque unité.`,
-    available: (count) => `${count} lectures disponibles`, list: 'Une lecture originale par unité.', selectUnit: 'Sélectionnez une unité du parcours pour ouvrir sa lecture originale.', perUnit: '1 lecture originale', original: 'Lecture originale',
+    title: 'Lectures en français', intro: (count) => `Explorez les ${count} lectures de ce niveau, dans leur ordre d’apprentissage.`,
+    available: (count) => `${count} lectures dans l’ordre`, list: 'Catalogue complet du niveau, dans l’ordre.', original: 'Lecture',
     unit: 'Unité', open: 'Ouvrir la lecture →', free: (level) => `Toutes les lectures de niveau ${level} sont disponibles.`
   },
   italian: {
     eyebrow: 'BIBLIOTECA DI LETTURE', choose: 'Scegli la tua lettura', language: 'Lingua', level: 'Livello',
-    title: 'Letture in italiano', intro: (count) => `Esplora le ${count} letture originali di questo livello: un testo centrale in ogni unità.`,
-    available: (count) => `${count} letture disponibili`, list: 'Una lettura originale per unità.', selectUnit: 'Seleziona un’unità del percorso per aprire la sua lettura originale.', perUnit: '1 lettura originale', original: 'Lettura originale',
+    title: 'Letture in italiano', intro: (count) => `Esplora tutte le ${count} letture di questo livello, nell’ordine di apprendimento.`,
+    available: (count) => `${count} letture in ordine`, list: 'Catalogo completo del livello, in ordine.', original: 'Lettura',
     unit: 'Unità', open: 'Apri lettura →', free: (level) => `Tutte le letture di ${level} sono disponibili.`
   },
   portuguese: {
     eyebrow: 'BIBLIOTECA DE LEITURAS', choose: 'Escolha sua leitura', language: 'Idioma', level: 'Nível',
-    title: 'Leituras em português', intro: (count) => `Explore as ${count} leituras originais deste nível: um texto central em cada unidade.`,
-    available: (count) => `${count} leituras disponíveis`, list: 'Uma leitura original por unidade.', selectUnit: 'Selecione uma unidade da rota para abrir sua leitura original.', perUnit: '1 leitura original', original: 'Leitura original',
+    title: 'Leituras em português', intro: (count) => `Explore todas as ${count} leituras deste nível, na ordem de aprendizagem.`,
+    available: (count) => `${count} leituras em ordem`, list: 'Catálogo completo do nível, em ordem.', original: 'Leitura',
     unit: 'Unidade', open: 'Abrir leitura →', free: (level) => `Todas as leituras de ${level} estão disponíveis.`
   },
   german: {
     eyebrow: 'LESEBIBLIOTHEK', choose: 'Wähle deinen Lesetext', language: 'Sprache', level: 'Niveau',
-    title: 'Lesetexte auf Deutsch', intro: (count) => `Entdecke ${count} Originaltexte dieses Niveaus: einen klaren Haupttext pro Einheit.`,
-    available: (count) => `${count} Lesetexte verfügbar`, list: 'Ein Originaltext pro Einheit.', selectUnit: 'Wähle eine Einheit aus, um ihren Originaltext zu öffnen.', perUnit: '1 Originaltext', original: 'Originaltext',
+    title: 'Lesetexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Lesetexte dieses Niveaus in Lernreihenfolge.`,
+    available: (count) => `${count} Lesetexte der Reihe nach`, list: 'Vollständiger Katalog des Niveaus, der Reihe nach.', original: 'Lesetext',
     unit: 'Einheit', open: 'Lesetext öffnen →', free: (level) => `Alle Lesetexte auf ${level} sind verfügbar.`
   }
 });
@@ -6493,8 +6495,6 @@ function getReadingLibraryProgressLabel(language, completed) {
 function isReadingLibraryLessonFree(lesson, unitOrder) {
   return Number(unitOrder) <= freeUnitLimitForLevel(lesson?.level || learningPathState.level);
 }
-
-let readingLibrarySelectedUnitId = '';
 
 function renderReadingLibrary() {
   const host = document.getElementById('readingLibraryContent');
@@ -6554,14 +6554,6 @@ function renderReadingLibrary() {
       locked
     }));
   });
-  const routeUnits = [...new Map(
-    readingEntries.map((entry) => [entry.lesson.unitId, { id: entry.lesson.unitId, order: entry.unitOrder, label: entry.unit?.title || `${copy.unit} ${entry.unitOrder}`, entries: readingEntries.filter((item) => item.lesson.unitId === entry.lesson.unitId) }])
-  ).values()].sort((a, b) => a.order - b.order);
-  if (!routeUnits.some((unit) => unit.id === readingLibrarySelectedUnitId)) {
-    readingLibrarySelectedUnitId = routeUnits[0]?.id || '';
-  }
-  const selectedRouteUnit = routeUnits.find((unit) => unit.id === readingLibrarySelectedUnitId) || routeUnits[0];
-  const selectedEntries = selectedRouteUnit?.entries || [];
   host.innerHTML = `
     <div class="tests-shell reading-library-layout">
       <aside class="tests-sidebar reading-library-sidebar" aria-label="Seleccionar lecturas">
@@ -6575,19 +6567,16 @@ function renderReadingLibrary() {
           <span>${escapeHtml(copy.list)}</span>
         </div>
         <p class="reading-library-access-note">${escapeHtml(getReadingFreeAccessNote(language, level))}</p>
-        <div class="reading-route-picker" role="list" aria-label="Ruta de lecturas por unidad">
-          ${routeUnits.map((unit) => `<button type="button" class="reading-route-unit${unit.id === selectedRouteUnit?.id ? ' is-active' : ''}" data-reading-route-unit="${escapeHtml(unit.id)}" aria-current="${unit.id === selectedRouteUnit?.id ? 'step' : 'false'}"><span>${unit.order}</span><strong>${escapeHtml(unit.label)}</strong><small>${escapeHtml(copy.perUnit)}</small></button>`).join('')}
-        </div>
       </aside>
       <article class="tests-stage reading-library-stage">
         <header class="reading-library-header">
           <span class="reading-library-kicker">${escapeHtml(copy.eyebrow)} · ${escapeHtml(level)}</span>
           <h2 tabindex="-1">${escapeHtml(copy.title)}</h2>
-          <p>${escapeHtml(copy.intro(readingEntries.length))} ${escapeHtml(copy.selectUnit)}</p>
+          <p>${escapeHtml(copy.intro(readingEntries.length))}</p>
         </header>
-        <div class="reading-route-active"><span>${escapeHtml(copy.unit)} ${selectedRouteUnit?.order || ''}</span><strong>${escapeHtml(selectedRouteUnit?.label || '')}</strong><small>${escapeHtml(copy.perUnit)}</small></div>
         <div class="reading-library-cards reading-library-cards--catalog">
-          ${selectedEntries
+          ${readingEntries
+            .sort((a, b) => a.unitOrder - b.unitOrder || a.topicOrder - b.topicOrder)
             .map(
               ({ lesson, unit, unitOrder, topic, topicOrder, locked }) => {
                 const words = readingWordCount(topic.text || topic.parts?.join(' ') || '');
@@ -7105,7 +7094,7 @@ function renderSkillUnitSequence(section, lesson) {
   const verbProgress = learningPathState.verbProgressByUnit[lesson.unitId];
   const missionMetrics = getUnitProgressMetrics(lesson.unitId);
   const finalUnlocked = missionMetrics.total > 0 && missionMetrics.completedCount === missionMetrics.total;
-  const finalMarker = isEnglishA1MissionPilot()
+  const finalMarker = isMissionRouteEnabled()
     ? `
       <button type="button" class="unit-route-marker unit-route-marker--final ${finalUnlocked ? 'unit-route-marker--available' : 'unit-route-marker--final-gated'}" data-unit-final-challenge="${escapeHtml(lesson.unitId)}" ${finalUnlocked ? '' : 'disabled'} aria-label="Reto final: ${finalUnlocked ? 'disponible' : 'bloqueado'}">
         <span>★</span><small>Reto final</small>
@@ -7136,7 +7125,7 @@ function renderSkillUnitSequence(section, lesson) {
       <small>${minutes ? `⏱ ${escapeHtml(String(minutes))} min · ` : ''}⭐ ${escapeHtml(String(xp))} XP · ${nextLesson ? `Después: ${escapeHtml(getSkillLabel(nextLesson.skill))}` : 'Última actividad antes de Verbos'}</small>
     </div>
     <button type="button" class="secondary-btn unit-mission-reveal-btn" aria-expanded="true" hidden>Ver misión</button>
-    <div class="unit-route-markers${isEnglishA1MissionPilot() ? ' unit-route-markers--with-final' : ''}" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
+    <div class="unit-route-markers${isMissionRouteEnabled() ? ' unit-route-markers--with-final' : ''}" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
       ${markersHtml}
     </div>
   `;
@@ -10403,7 +10392,7 @@ function renderUnitAccordionHtml(nextSlug) {
     if (fallbackLesson?.unitId) learningPathState.unitId = fallbackLesson.unitId;
   }
 
-  const missionPilot = isEnglishA1MissionPilot();
+  const missionPilot = isMissionRouteEnabled();
   return learningPathState.units
     .map((unit) => {
       const metrics = getUnitProgressMetrics(unit.id);
@@ -10472,7 +10461,7 @@ function renderSkillGraph() {
       };
   const nextLesson = getNextRecommendedLesson();
   const nextSkillLabel = nextLesson ? getSkillLabel(nextLesson.skill) : '—';
-  const missionPilot = isEnglishA1MissionPilot();
+  const missionPilot = isMissionRouteEnabled();
   const missionMetrics = missionPilot ? getCourseMissionMetrics() : null;
 
   const bodyHtml = hasUnits()
@@ -10773,7 +10762,7 @@ function renderUnitOverviewCard(unit) {
     0
   );
   const artwork = getUnitArtwork(unit);
-  const missionPilot = isEnglishA1MissionPilot();
+  const missionPilot = isMissionRouteEnabled();
   const unitMetrics = getUnitProgressMetrics(unit.id);
   const finalUnlocked = unitMetrics.total > 0 && unitMetrics.completedCount === unitMetrics.total;
   const earnedXp = getUnitActivities(unit.id).reduce(
@@ -10976,9 +10965,11 @@ function renderLessonWorkspace() {
 }
 
 function renderLearningPath() {
-  document.getElementById('learning-path')?.classList.toggle(
+  const learningPathSection = document.getElementById('learning-path');
+  if (learningPathSection) learningPathSection.dataset.courseLevel = learningPathState.level || '';
+  learningPathSection?.classList.toggle(
     'english-a1-mission-pilot',
-    isEnglishA1MissionPilot()
+    isMissionRouteEnabled()
   );
   // Pre-A1 is a visual mini-course rather than a conventional lesson list.
   // General progress/auth refreshes also call renderLearningPath(); keep those
@@ -19340,7 +19331,7 @@ function getVocabularyExampleFallbacks(word, seed, language) {
   };
   const practicalEnglishContexts = {
     hello: ['Hello! Can I help you with something?', 'Hello, are you new here?'],
-    'good morning': ['Good morning! Did you sleep well?', 'Good morning, the bus is here.'],
+    'good morning': ['Good morning, Mr. Green.', 'Good morning! Our class starts at nine.'],
     name: ['My name is Leo. What’s your name?', 'Please write your name at the top of the form.'],
     teacher: [
       'Our teacher explains the new words clearly.',
@@ -20262,8 +20253,8 @@ const CURATED_VOCABULARY_BANKS = {
     ['Class', 'Clase', 'Personas y aula'],
     ['Friend', 'Amigo/a', 'Personas y aula'],
     ['New', 'Nuevo/a', 'Personas y aula'],
-    ['Nice', 'Agradable', 'Presentación'],
-    ['Meet', 'Conocer', 'Presentación'],
+    ['Nice to meet you', 'Mucho gusto / Encantado/a', 'Presentación'],
+    ['Meet', 'Conocer a alguien / encontrarse con', 'Presentación'],
     ['How are you?', '¿Cómo estás?', 'Presentación'],
     ['Where are you from?', '¿De dónde eres?', 'Presentación'],
     ["I'm from…", 'Soy de…', 'Presentación'],
@@ -20278,36 +20269,36 @@ const CURATED_VOCABULARY_BANKS = {
 // The same record can also carry short, natural contexts when an entry needs
 // more than the lesson's own example.
 const CURATED_ENGLISH_A1_VOCABULARY_DETAILS = {
-  hello: { phonetic: '/həˈloʊ/', contexts: ['Hello! Can I help you with something?', 'Hello, are you new here?'] },
-  hi: { phonetic: '/haɪ/', contexts: ['Hi, Maya! How are you today?', 'Hi! I am in your English class.'] },
-  'good morning': { phonetic: '/ɡʊd ˈmɔːrnɪŋ/', contexts: ['Good morning! Did you sleep well?', 'Good morning, the bus is here.'] },
-  'good afternoon': { phonetic: '/ɡʊd ˌæftərˈnuːn/', contexts: ['Good afternoon, Mr. Ruiz. How are you?', 'Good afternoon! Our class starts at two.'] },
-  'good evening': { phonetic: '/ɡʊd ˈiːvnɪŋ/', contexts: ['Good evening. Do you have a table for two?', 'Good evening, everyone. Welcome to the meeting.'] },
-  goodbye: { phonetic: '/ˌɡʊdˈbaɪ/', contexts: ['Goodbye, Ana. See you tomorrow!', 'I say goodbye before I leave the office.'] },
-  'see you later': { phonetic: '/siː juː ˈleɪtər/', contexts: ['I have class now. See you later!', 'See you later at the café after school.'] },
-  please: { phonetic: '/pliːz/', contexts: ['Please, say your name again.', 'A pencil, please.'] },
-  'thank you': { phonetic: '/θæŋk juː/', contexts: ['Thank you for your help.', 'Thank you, teacher!'] },
-  "you're welcome": { phonetic: '/jʊr ˈwelkəm/' },
-  'excuse me': { phonetic: '/ɪkˈskjuːz miː/' },
-  sorry: { phonetic: '/ˈsɑːri/' },
-  yes: { phonetic: '/jes/' },
-  no: { phonetic: '/noʊ/' },
-  name: { phonetic: '/neɪm/' },
-  'first name': { phonetic: '/fɝːst neɪm/' },
-  'last name': { phonetic: '/læst neɪm/' },
-  teacher: { phonetic: '/ˈtiːtʃər/' },
-  student: { phonetic: '/ˈstuːdənt/' },
-  class: { phonetic: '/klæs/' },
-  friend: { phonetic: '/frend/' },
-  new: { phonetic: '/nuː/' },
-  nice: { phonetic: '/naɪs/' },
-  meet: { phonetic: '/miːt/' },
-  'how are you?': { phonetic: '/haʊ ɑːr juː/' },
-  'where are you from?': { phonetic: '/wer ɑːr juː frʌm/' },
-  "i'm from…": { phonetic: '/aɪm frʌm/' },
-  country: { phonetic: '/ˈkʌntri/' },
-  nationality: { phonetic: '/ˌnæʃəˈnæləti/' },
-  english: { phonetic: '/ˈɪŋɡlɪʃ/' }
+  hello: { phonetic: '/həˈloʊ/', definition: 'A greeting used when you meet or contact someone.', contexts: ['Hello! My name is Ana.', 'Hello, are you new here?'] },
+  hi: { phonetic: '/haɪ/', definition: 'An informal way to say hello.', contexts: ['Hi, Maya! How are you today?', 'Hi! I am in your English class.'] },
+  'good morning': { phonetic: '/ɡʊd ˈmɔrnɪŋ/', definition: 'A greeting used in the morning.', contexts: ['Good morning, Mr. Green.', 'Good morning! Our class starts at nine.'] },
+  'good afternoon': { phonetic: '/ɡʊd ˌæftɚˈnun/', definition: 'A greeting used after noon and before evening.', contexts: ['Good afternoon, Mr. Ruiz. How are you?', 'Good afternoon! Our class starts at two.'] },
+  'good evening': { phonetic: '/ɡʊd ˈivnɪŋ/', definition: 'A greeting used in the evening.', contexts: ['Good evening. Do you have a table for two?', 'Good evening, everyone. Welcome to the meeting.'] },
+  goodbye: { phonetic: '/ˌɡʊdˈbaɪ/', definition: 'A word used when you leave someone.', contexts: ['Goodbye, Ana. See you tomorrow!', 'We say goodbye at the end of class.'] },
+  'see you later': { phonetic: '/si ju ˈleɪtɚ/', definition: 'A friendly goodbye when you expect to meet again.', contexts: ['I have class now. See you later!', 'See you later at the café.'] },
+  please: { phonetic: '/pliz/', definition: 'A polite word used when asking for something.', contexts: ['Please say your name again.', 'A pencil, please.'] },
+  'thank you': { phonetic: '/θæŋk ju/', definition: 'A phrase used to show that you are grateful.', contexts: ['Thank you for your help.', 'Thank you, Mr. Green.'] },
+  "you're welcome": { phonetic: '/jʊr ˈwɛlkəm/', definition: 'A polite reply to thank you.', contexts: ["Thank you. — You're welcome.", "You're welcome, Ana."] },
+  'excuse me': { phonetic: '/ɪkˈskjuz mi/', definition: 'A polite phrase used to get attention or pass someone.', contexts: ['Excuse me, is this seat free?', 'Excuse me, where is the classroom?'] },
+  sorry: { phonetic: '/ˈsɑri/', definition: 'A word used to apologize.', contexts: ["I'm sorry I'm late.", 'Sorry, can you repeat that?'] },
+  yes: { phonetic: '/jɛs/', definition: 'A word used to agree or give a positive answer.', contexts: ['Yes, I am a student.', 'Yes, this is my class.'] },
+  no: { phonetic: '/noʊ/', definition: 'A word used to disagree or give a negative answer.', contexts: ['No, I am not a teacher.', 'No, thank you.'] },
+  name: { phonetic: '/neɪm/', definition: 'The word or words that identify a person.', contexts: ['My name is Leo.', 'Please write your name here.'] },
+  'first name': { phonetic: '/ˈfɝst neɪm/', definition: 'The personal name that comes before a family name.', contexts: ['My first name is Ana.', 'What is your first name?'] },
+  'last name': { phonetic: '/ˈlæst neɪm/', definition: 'The family name shared by members of a family.', contexts: ['My last name is Pérez.', 'Please write your last name.'] },
+  teacher: { phonetic: '/ˈtitʃɚ/', definition: 'A person who helps students learn.', contexts: ['My teacher is Mr. Green.', 'Our teacher explains the new words.'] },
+  student: { phonetic: '/ˈstudənt/', definition: 'A person who studies at a school or course.', contexts: ['I am an English student.', 'The student opens her book.'] },
+  class: { phonetic: '/klæs/', definition: 'A lesson or a group of students who learn together.', contexts: ['Our English class starts at nine.', 'Ana is new in the class.'] },
+  friend: { phonetic: '/frɛnd/', definition: 'A person you know and like.', contexts: ['Leo is my friend.', 'My friend and I study together.'] },
+  new: { phonetic: '/nu/', definition: 'Not known, used or present before.', contexts: ['Ana is a new student.', 'This is my new English book.'] },
+  'nice to meet you': { phonetic: '/naɪs tə mit ju/', definition: 'A polite phrase used when you meet someone for the first time.', contexts: ['Nice to meet you, Sofia.', "Hello, I'm Leo. Nice to meet you!"] },
+  meet: { phonetic: '/mit/', definition: 'To see and speak to someone for the first time or by arrangement.', contexts: ['I meet my new teacher today.', 'We meet after class.'] },
+  'how are you?': { phonetic: '/haʊ ɑr ju/', definition: 'A question used to ask how someone feels.', contexts: ['Hi, Ana. How are you?', "How are you? — I'm fine, thank you."] },
+  'where are you from?': { phonetic: '/wɛr ɑr ju frʌm/', definition: 'A question used to ask about a person’s country or city.', contexts: ["Where are you from? — I'm from Peru.", 'Hello! Where are you from?'] },
+  "i'm from…": { phonetic: '/aɪm frʌm/', definition: 'A phrase used to say your country or city of origin.', contexts: ["I'm from the Dominican Republic.", "I'm from Santo Domingo."] },
+  country: { phonetic: '/ˈkʌntri/', definition: 'A nation with its own territory and government.', contexts: ['What country are you from?', 'Brazil is a large country.'] },
+  nationality: { phonetic: '/ˌnæʃəˈnæləti/', definition: 'The official identity connected to a country.', contexts: ['What is your nationality?', 'Her nationality is Brazilian.'] },
+  english: { phonetic: '/ˈɪŋɡlɪʃ/', definition: 'The language spoken in countries such as the United States and the United Kingdom.', contexts: ['I study English at school.', 'Do you speak English?'] }
 };
 
 // A1 must never be padded with names or isolated fragments from a reading.
@@ -20667,6 +20658,8 @@ function getCuratedVocabularyBank(lesson) {
       translation,
       category,
       phonetic: detail.phonetic || '',
+      definition: detail.definition || '',
+      simpleDefinition: detail.definition || '',
       source: 'authored-unit-vocabulary',
       // Never fall back to the repeated “Use X in a short conversation”
       // template. An entry with no verified context stays concise instead of
@@ -21188,6 +21181,27 @@ function renderVocabularyView(section, lesson) {
   // The catalogue can contain an entire CEFR level. Keep Tutor/Translator
   // shortcuts useful without sending an oversized list through either tool.
   const toolVocabulary = cards.slice(0, 60).map((card) => card.targetWord).join(', ');
+  const routeVocabularyGameHtml = isRouteVocabulary
+    ? `
+      ${renderVocabularyMissionHtml(lesson, cards, french)}
+      <section class="vocab-route-game no-print" aria-label="Juego de vocabulario">
+        <div class="vocab-route-game-head">
+          <div><span>🎮 ${french ? 'Mode jeu' : 'Modo juego'}</span><h4>${french ? 'Explore, écoute et gagne des points' : 'Explora, escucha y gana puntos'}</h4><p>${french ? 'Retournez les cartes, écoutez chaque mot et relevez un défi rapide.' : 'Gira las tarjetas, escucha cada palabra y completa un reto rápido.'}</p></div>
+          <button type="button" class="secondary-btn vocab-shuffle-btn">🔀 ${french ? 'Mélanger' : 'Mezclar'}</button>
+        </div>
+        <div class="vocab-catalogue-deck vocab-route-game-deck" aria-live="polite" aria-busy="true"></div>
+        <section class="vocab-practice-panel" aria-label="Desafío de vocabulario">
+          ${renderVocabularyPracticePanelHtml(lesson)}
+          ${!vocabPracticeState.get(lesson.slug) ? `<button type="button" class="primary-btn hover-lift btn-press vocab-practice-start-btn">${french ? 'Lancer le défi' : 'Empezar el desafío'} →</button>` : ''}
+        </section>
+      </section>`
+    : `
+      <section class="vocab-dictionary${learningPathState.language === 'english' ? ' vocab-dictionary--english' : ''}${learningPathState.language === 'english' && learningPathState.level === 'A1' ? ' vocab-dictionary--a1' : ''} no-print" aria-label="Diccionario interactivo">
+        <div class="vocab-dictionary-head"><div><span>${learningPathState.language === 'english' ? '✦ ENGLISH WORD LAB' : 'DICCIONARIO INTERACTIVO'}</span><h4>${learningPathState.language === 'english' ? 'Tu diccionario vivo de inglés' : 'Palabras en orden alfabético'}</h4>${learningPathState.language === 'english' ? '<p>Escucha, comprende y usa cada palabra en contexto.</p>' : ''}</div><strong class="vocab-dictionary-count"></strong></div>
+        <div class="vocab-dictionary-alphabet" role="group" aria-label="Filtrar por letra"></div>
+        <div class="vocab-dictionary-list" aria-live="polite"></div>
+        <button type="button" class="secondary-btn vocab-dictionary-more" hidden>Ver más palabras</button>
+      </section>`;
 
   content.innerHTML = `
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
@@ -21240,12 +21254,7 @@ function renderVocabularyView(section, lesson) {
     <section class="saved-reading-vocabulary" aria-live="polite" hidden>
       <p class="skill-graph-empty">${french ? 'Chargement des mots enregistrés depuis Reading…' : 'Cargando palabras guardadas desde Reading…'}</p>
     </section>
-    <section class="vocab-dictionary${learningPathState.language === 'english' ? ' vocab-dictionary--english' : ''}${learningPathState.language === 'english' && learningPathState.level === 'A1' ? ' vocab-dictionary--a1' : ''} no-print" aria-label="Diccionario interactivo">
-      <div class="vocab-dictionary-head"><div><span>${learningPathState.language === 'english' ? '✦ ENGLISH WORD LAB' : 'DICCIONARIO INTERACTIVO'}</span><h4>${learningPathState.language === 'english' ? 'Tu diccionario vivo de inglés' : 'Palabras en orden alfabético'}</h4>${learningPathState.language === 'english' ? '<p>Escucha, comprende y usa cada palabra en contexto.</p>' : ''}</div><strong class="vocab-dictionary-count"></strong></div>
-      <div class="vocab-dictionary-alphabet" role="group" aria-label="Filtrar por letra"></div>
-      <div class="vocab-dictionary-list" aria-live="polite"></div>
-      <button type="button" class="secondary-btn vocab-dictionary-more" hidden>Ver más palabras</button>
-    </section>
+    ${routeVocabularyGameHtml}
     <div class="skill-view-tutor-cta no-print">
       ${advancedDirect && cards.some((item) => item.learningMode === 'direct' && ['C1', 'C2'].includes(lesson.level)) ? `<button type="button" class="secondary-btn vocab-l1-translation-btn">${vocabL1TranslationVisible ? 'Ocultar traducción de apoyo' : 'Mostrar traducción de apoyo'}</button>` : ''}
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(toolVocabulary)}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(toolVocabulary)}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
@@ -21276,8 +21285,18 @@ function renderVocabularyView(section, lesson) {
     </div>
   `;
   vocabularyDictionarySources.set(lesson.slug, { cards: [...cards, ...expressionCards] });
-  vocabularyCatalogueFilters.view = 'dictionary';
-  renderVocabularyDictionary(section);
+  if (isRouteVocabulary) {
+    queueVocabularyDeckRender(section, {
+      cards,
+      order: vocabCardOrder,
+      expressionCards,
+      canSpeak,
+      isFrench
+    });
+  } else {
+    vocabularyCatalogueFilters.view = 'dictionary';
+    renderVocabularyDictionary(section);
+  }
   renderSavedVocabularyShelf(content, lesson);
   const needsL1Gloss = cards.some(
     (card) =>
@@ -28099,7 +28118,7 @@ function renderGamesCompletionCard(summary) {
 }
 
 function gameButtonHtml(game) {
-  return `<button type="button" class="games-type-btn" data-game-id="${game.id}" aria-pressed="${String(gamesState.gameId === game.id)}">${game.icon} ${game.title}</button>`;
+  return `<button type="button" class="games-type-btn games-type-btn--${escapeHtml(game.id)}" data-game-id="${game.id}" aria-pressed="${String(gamesState.gameId === game.id)}"><span class="games-type-icon" aria-hidden="true">${game.icon}</span><span class="games-type-copy">${escapeHtml(game.title)}</span></button>`;
 }
 
 function getGameRoundWords(words, count, offset = 0) {
@@ -28354,7 +28373,7 @@ function renderGamesView() {
     <div class="games-difficulty-summary games-difficulty-summary--${gamesState.difficulty}"><span aria-hidden="true">${difficulty.icon}</span><div><strong>${difficulty.label} · ${difficulty.cefr}</strong><small>${difficulty.description}</small></div><b>+${difficulty.points} puntos por acierto</b></div>
     <div class="games-play-shell">
       <div class="games-score-strip" role="region" aria-label="Controles y estado de la partida"><div class="games-score-primary"><span><small>Puntos</small><strong class="games-score-value">${gamesState.score}</strong></span><span><small>Idioma</small><strong>${languageLabels[gamesState.language]}</strong></span><span><small>Nivel</small><strong>${difficulty.label}</strong></span><span><small>Reto</small><strong class="games-round-value">${gamesState.round + 1}</strong></span></div><div class="games-round-meter"><span>Progreso <strong class="games-round-progress-label">0/0 · 0%</strong></span><progress class="games-round-progress" value="0" max="1" aria-label="Progreso de la ronda"></progress></div><div class="games-timer-controls"><label><span>Tiempo</span><select class="games-timer-mode" aria-label="Modo del cronómetro"><option value="stopwatch" ${gamesState.timerMode === 'stopwatch' ? 'selected' : ''}>Cronómetro</option><option value="120" ${gamesState.timerMode === '120' ? 'selected' : ''}>2 minutos</option><option value="180" ${gamesState.timerMode === '180' ? 'selected' : ''}>3 minutos</option><option value="300" ${gamesState.timerMode === '300' ? 'selected' : ''}>5 minutos</option><option value="off" ${gamesState.timerMode === 'off' ? 'selected' : ''}>Sin tiempo</option></select></label><strong class="games-timer-display">00:00</strong><button type="button" class="games-timer-pause" aria-pressed="false">Ⅱ Pausar</button><button type="button" class="secondary-btn games-competition-toggle" aria-pressed="${gamesState.competitionMode}">${gamesState.competitionMode ? '👥 Competencia activa' : '👥 Competir'}</button><button type="button" class="secondary-btn games-new-round">↻ Nuevo reto</button><small class="games-timer-result" aria-live="polite"></small></div></div>
-      <div class="games-board"><div class="games-game-card"><div class="games-game-heading"><div><span>${game.icon} Juego de vocabulario</span><h3>${game.title}</h3><p>${game.hint}</p></div></div><div class="games-game-content"></div><p class="games-feedback" aria-live="polite"></p><section class="games-completion-card" hidden aria-live="polite"></section></div></div>
+      <div class="games-board"><div class="games-game-card games-game-card--${escapeHtml(game.id)}"><div class="games-game-heading"><div><span>${game.icon} Juego de vocabulario</span><h3>${game.title}</h3><p>${game.hint}</p></div></div><div class="games-game-content"></div><p class="games-feedback" aria-live="polite"></p><section class="games-completion-card" hidden aria-live="polite"></section></div></div>
     </div>
   `;
   app.querySelectorAll('[data-game-language]').forEach((button) =>
@@ -29331,6 +29350,7 @@ const VIEW_SECTIONS = {
   writing: ['#writing'],
   grammar: ['#grammar'],
   vocabulary: ['#vocabulary'],
+  dictionary: ['#dictionary'],
   'useful-expressions': ['#usefulExpressions'],
   'technical-english': ['#technicalEnglish'],
   adjectives: ['#adjectives'],
@@ -29345,7 +29365,7 @@ const VIEW_SECTIONS = {
 // needs persistence (for example, saving progress or completing a lesson).
 // This keeps a large shared display useful from the first tap instead of
 // replacing the lesson route with an authentication dialog.
-const ANONYMOUS_PREVIEW_VIEWS = new Set(['learn', 'useful-expressions', 'technical-english']);
+const ANONYMOUS_PREVIEW_VIEWS = new Set(['learn', 'dictionary', 'useful-expressions', 'technical-english']);
 
 const TECHNICAL_ENGLISH_TOPICS = [
   ['⚾', 'Prospectos de béisbol', 'baseball scouting', 'prospección de béisbol', [['I am a shortstop with quick hands.', 'Soy campocorto con manos rápidas.'], ['I am ready for a tryout.', 'Estoy listo para una prueba.'], ['What does the scout look for?', '¿Qué busca el cazatalentos?']]],
@@ -29675,12 +29695,75 @@ const VIEW_TITLE_SELECTORS = {
   writing: '#writing .level-tab[data-tab="writing"]',
   grammar: '#grammar .level-tab[data-tab="grammar"]',
   vocabulary: '#vocabulary .level-tab[data-tab="vocabulary"]',
+  dictionary: '#dictionary h2',
   'useful-expressions': '#usefulExpressions h2',
   'technical-english': '#technicalEnglish h2',
   adjectives: '#adjectives .level-tab[data-tab="adjectives"]',
   adverbs: '#adverbs .level-tab[data-tab="adverbs"]',
   'teacher-curriculum': '#teacherCurriculum h2'
 };
+
+const generalDictionaryState = { language: 'english', query: '', letter: '', offset: 0, limit: 60 };
+
+function generalDictionaryInitial(term) {
+  return String(term || '').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '').charAt(0).toLocaleUpperCase();
+}
+
+async function renderGeneralDictionary() {
+  const app = document.getElementById('generalDictionaryApp');
+  if (!app) return;
+  const language = generalDictionaryState.language;
+  const params = new URLSearchParams({ language, offset: String(generalDictionaryState.offset), limit: String(generalDictionaryState.limit) });
+  if (generalDictionaryState.query) params.set('q', generalDictionaryState.query);
+  if (generalDictionaryState.letter) params.set('letter', generalDictionaryState.letter);
+  app.innerHTML = '<p class="skill-graph-empty">Cargando palabras…</p>';
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/dictionary?${params.toString()}`);
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok || !data.ok) throw new Error(data.error || 'El diccionario está temporalmente en preparación.');
+    const languageOptions = Object.entries(languageDisplayNames)
+      .filter(([key]) => ['english', 'spanish', 'french', 'italian', 'portuguese', 'german'].includes(key))
+      .map(([key, label]) => `<option value="${key}"${key === language ? ' selected' : ''}>${escapeHtml(label)}</option>`).join('');
+    const entries = data.entries || [];
+    const page = Math.floor((data.offset || 0) / generalDictionaryState.limit) + 1;
+    const pages = Math.max(1, Math.ceil((data.total || 0) / generalDictionaryState.limit));
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    app.innerHTML = `
+      <div class="general-dictionary-controls no-print">
+        <label>Idioma<select data-dictionary-language>${languageOptions}</select></label>
+        <label class="general-dictionary-search">Buscar<input type="search" data-dictionary-search value="${escapeHtml(generalDictionaryState.query)}" placeholder="Palabra o traducción al español" autocomplete="off"></label>
+      </div>
+      <div class="general-dictionary-alpha" role="group" aria-label="Filtrar por letra">
+        <button type="button" data-dictionary-letter="" class="${!generalDictionaryState.letter ? 'is-active' : ''}">Todas</button>
+        ${letters.map((letter) => `<button type="button" data-dictionary-letter="${letter}" class="${generalDictionaryState.letter === letter ? 'is-active' : ''}">${letter}</button>`).join('')}
+      </div>
+      <div class="general-dictionary-result-bar"><p class="general-dictionary-meta"><strong>${data.total.toLocaleString('es-DO')}</strong> entradas · ${escapeHtml(languageDisplayNames[language])} → Español</p><span>Página ${page} de ${pages}</span></div>
+      <section class="general-dictionary-results" aria-label="Resultados del diccionario">
+        <div class="general-dictionary-column-head" aria-hidden="true"><span>Palabra</span><span>Significado en español</span></div>
+        <div class="general-dictionary-list">
+          ${entries.length ? entries.map((entry) => `<article class="general-dictionary-entry"><span class="general-dictionary-initial" aria-hidden="true">${escapeHtml(generalDictionaryInitial(entry.term))}</span><div class="general-dictionary-term"><strong>${escapeHtml(entry.term)}</strong>${entry.part_of_speech ? `<small>${escapeHtml(entry.part_of_speech)}</small>` : '<small>Palabra</small>'}</div><button type="button" class="general-dictionary-speak" data-speak-text="${escapeHtml(entry.term)}" data-speak-locale="${escapeHtml(getPronunciationLocale(language))}" aria-label="Escuchar la pronunciación de ${escapeHtml(entry.term)}" title="Escuchar pronunciación">🔊</button><span class="general-dictionary-meaning">${escapeHtml(entry.spanish_meaning)}</span></article>`).join('') : '<p class="skill-graph-empty">No encontramos palabras con estos filtros.</p>'}
+        </div>
+      </section>
+      <div class="general-dictionary-pagination no-print"><button type="button" class="secondary-btn" data-dictionary-page="previous" ${page <= 1 ? 'disabled' : ''}>← Anterior</button><button type="button" class="secondary-btn" data-dictionary-page="next" ${page >= pages ? 'disabled' : ''}>Siguiente →</button></div>`;
+    app.querySelector('[data-dictionary-language]')?.addEventListener('change', (event) => { generalDictionaryState.language = event.target.value; generalDictionaryState.query = ''; generalDictionaryState.letter = ''; generalDictionaryState.offset = 0; renderGeneralDictionary(); });
+    let searchTimer;
+    app.querySelector('[data-dictionary-search]')?.addEventListener('input', (event) => { window.clearTimeout(searchTimer); searchTimer = window.setTimeout(() => { generalDictionaryState.query = event.target.value.trim(); generalDictionaryState.offset = 0; renderGeneralDictionary(); }, 280); });
+    app.querySelectorAll('[data-dictionary-letter]').forEach((button) => button.addEventListener('click', () => { generalDictionaryState.letter = button.dataset.dictionaryLetter || ''; generalDictionaryState.offset = 0; renderGeneralDictionary(); }));
+    app.querySelectorAll('[data-dictionary-page]').forEach((button) => button.addEventListener('click', () => { generalDictionaryState.offset += button.dataset.dictionaryPage === 'next' ? generalDictionaryState.limit : -generalDictionaryState.limit; generalDictionaryState.offset = Math.max(0, generalDictionaryState.offset); renderGeneralDictionary(); }));
+    app.querySelectorAll('[data-speak-text][data-speak-locale]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const selectedLanguage = generalDictionaryState.language;
+        playModelPhrase(
+          button.dataset.speakText || '',
+          button.dataset.speakLocale || getPronunciationLocale(selectedLanguage),
+          selectedLanguage
+        );
+      });
+    });
+  } catch (error) {
+    app.innerHTML = `<p class="skill-graph-empty">${escapeHtml(error.message)}</p>`;
+  }
+}
 
 function getViewFromHash() {
   // Only the first /-separated segment is the view id - 'learn' and skill
@@ -29893,6 +29976,7 @@ function showView(viewId) {
     refreshTutorUsageCounter();
   }
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
+  if (resolved === 'dictionary') renderGeneralDictionary();
   if (resolved === 'tests') loadTestsView();
   if (resolved === 'infographics') initInfographicApp();
   if (resolved === 'games') loadGamesView();

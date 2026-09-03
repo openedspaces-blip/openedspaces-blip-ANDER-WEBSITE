@@ -18,6 +18,7 @@
     "audit:vocabulary": "node scripts/audit-vocabulary-cards.js",
     "audit:lexicon": "node scripts/audit-lexicon-catalogues.js",
     "generate:lexicon": "node scripts/generate-lexicon-expansion.js --from-sources",
+    "import:dictionary": "node scripts/import-general-dictionary.js",
     "generate:reading-audio": "node scripts/generate-reading-audio.js",
     "upload:reading-mp3": "node scripts/upload-reading-mp3s.js",
     "migrate:reading-audio": "node scripts/migrate-reading-audio-layout.js",

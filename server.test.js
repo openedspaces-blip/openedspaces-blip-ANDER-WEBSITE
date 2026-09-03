@@ -3556,6 +3556,30 @@ test('Pre-A1 TTS follows the selected target language and shared voice resolver'
   }
 });
 
+test('English A1 greeting vocabulary has complete US pronunciation and natural examples', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const readObject = (constantName) => {
+    const declaration = `const ${constantName} = `;
+    const start = source.indexOf(declaration) + declaration.length;
+    const end = source.indexOf('\n};', start) + 2;
+    assert.ok(start >= declaration.length && end > start, `${constantName} is present`);
+    return vm.runInNewContext(`(${source.slice(start, end)})`);
+  };
+  const banks = readObject('CURATED_VOCABULARY_BANKS');
+  const details = readObject('CURATED_ENGLISH_A1_VOCABULARY_DETAILS');
+  const entries = banks['english|A1|greeting words'];
+  assert.equal(entries.length, 30);
+  for (const [word] of entries) {
+    const detail = details[word.toLocaleLowerCase()];
+    assert.ok(detail?.phonetic, `${word} has reviewed IPA`);
+    assert.ok(detail?.definition, `${word} has a simple definition`);
+    assert.equal(detail?.contexts?.length, 2, `${word} has two natural examples`);
+  }
+  assert.equal(entries.some(([word]) => word === 'Nice'), false);
+  assert.equal(entries.some(([word]) => word === 'Nice to meet you'), true);
+  assert.doesNotMatch(source, /Good morning, the bus is here\.|Please, say your name again\.|Thank you, teacher!/);
+});
+
 test('LanguagePair.getLearningSupport(): direct mode never breaks or shows undefined/null for a word with no directSupport authored yet (spec §8 fallback)', () => {
   const bareItem = { word: 'Umbrella', translation: 'Paraguas', example: 'Take an umbrella, it might rain.' };
   const support = LanguagePair.getLearningSupport({

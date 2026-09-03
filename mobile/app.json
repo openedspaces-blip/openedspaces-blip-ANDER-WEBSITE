@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ANDERGO APP",
+    "name": "ANDERGO Play",
     "slug": "andergo-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -40,8 +40,8 @@
       [
         "expo-speech-recognition",
         {
-          "microphonePermission": "Permite que ANDERGO APP use el micrófono para practicar idiomas con Andergo Tutor.",
-          "speechRecognitionPermission": "Permite que ANDERGO APP convierta tu voz en texto durante la práctica."
+          "microphonePermission": "Permite que ANDERGO Play use el micrófono para practicar idiomas con el Tutor.",
+          "speechRecognitionPermission": "Permite que ANDERGO Play convierta tu voz en texto durante la práctica."
         }
       ],
       "expo-asset"

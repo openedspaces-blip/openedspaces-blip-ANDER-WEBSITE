@@ -16,17 +16,17 @@ const LANGUAGES: { id: TargetLanguage; label: string; flag: string; levels: stri
 ];
 
 const PLATFORM_TILES = [
-  { number: '01', title: 'Aprender', copy: 'Ruta y lecciones', color: 'blue', destination: '/library' },
-  { number: '02', title: 'Lecturas', copy: 'Readings por nivel', color: 'violet', destination: '/library?tab=reading' },
-  { number: '03', title: 'Audios', copy: 'Listenings oficiales', color: 'cyan', destination: '/library?tab=listening' },
-  { number: '04', title: 'Vocabulario', copy: 'Palabras y expresiones', color: 'emerald', destination: '/library?tab=vocabulary' },
-  { number: '05', title: 'Gramática', copy: 'Reglas y verbos', color: 'orange', destination: '/library?tab=grammar' },
-  { number: '06', title: 'Tutor I.A.', copy: 'Práctica guiada', color: 'indigo', destination: '/tutor' },
+  { number: '01', title: 'Misiones', copy: 'Tu ruta y lecciones', color: 'blue', destination: '/library' },
+  { number: '02', title: 'Historias', copy: 'Lee y comprende', color: 'violet', destination: '/library?tab=reading' },
+  { number: '03', title: 'Escucha', copy: 'Audios oficiales', color: 'cyan', destination: '/library?tab=listening' },
+  { number: '04', title: 'Palabras', copy: 'Colecciona vocabulario', color: 'emerald', destination: '/library?tab=vocabulary' },
+  { number: '05', title: 'Superpoderes', copy: 'Gramática y verbos', color: 'orange', destination: '/library?tab=grammar' },
+  { number: '06', title: 'Entrena con Tutor', copy: 'Práctica guiada', color: 'indigo', destination: '/tutor' },
   { number: '07', title: 'Traductor', copy: 'Traduce y escucha', color: 'rose', destination: '/translator' },
-  { number: '08', title: 'Juegos', copy: 'Juegos de ANDERGO', color: 'blue', destination: '/platform?section=games&title=Juegos' },
-  { number: '09', title: 'Infografías', copy: 'Visual y práctico', color: 'violet', destination: '/platform?section=infographics&title=Infografías' },
-  { number: '10', title: 'Useful expressions', copy: 'Expresiones útiles', color: 'cyan', destination: '/platform?section=useful-expressions&title=Useful%20expressions' },
-  { number: '11', title: 'Inglés técnico', copy: 'English in real life', color: 'emerald', destination: '/platform?section=technical-english&title=Inglés%20técnico' },
+  { number: '08', title: 'Juegos', copy: 'Reto rápido', color: 'blue', destination: '/platform?section=games&title=Juegos' },
+  { number: '09', title: 'Descubre', copy: 'Infografías visuales', color: 'violet', destination: '/platform?section=infographics&title=Infografías' },
+  { number: '10', title: 'Frases útiles', copy: 'Habla como un pro', color: 'cyan', destination: '/platform?section=useful-expressions&title=Useful%20expressions' },
+  { number: '11', title: 'Inglés técnico', copy: 'Para el mundo real', color: 'emerald', destination: '/platform?section=technical-english&title=Inglés%20técnico' },
 ] as const;
 
 export default function HomeScreen() {
@@ -36,11 +36,11 @@ export default function HomeScreen() {
   const current = LANGUAGES.find((language) => language.id === targetLanguage) ?? LANGUAGES[0];
   const firstName = session?.displayName?.split(' ')[0];
   return <SafeAreaView style={s.safe} edges={['top']}><ScrollView style={s.screen} contentContainerStyle={s.content} showsVerticalScrollIndicator={false}>
-    <View style={s.topbar}><View style={s.brandLockup}><View style={s.brandMark} accessibilityLabel="ANDERGO"><ThemedText style={s.brandMarkText}>A</ThemedText></View><View><ThemedText style={s.brand}>ANDERGO</ThemedText><ThemedText style={s.subtitle}>Language Academy</ThemedText></View></View><Pressable accessibilityLabel="Abrir mi cuenta" onPress={() => router.push('/account' as never)} style={s.accountButton}>{session ? <><ThemedText style={s.accountAvatar}>{session.avatarEmoji}</ThemedText><View style={s.accountInfo}><ThemedText numberOfLines={1} style={s.accountText}>{firstName}</ThemedText><ThemedText numberOfLines={1} style={s.accountPlan}>{isPremium ? 'Premium' : 'Free'}</ThemedText></View></> : <ThemedText numberOfLines={1} style={s.accountText}>Entrar</ThemedText>}</Pressable></View>
-    <View style={s.hero}><View style={s.heroGlow} /><ThemedText style={s.heroKicker}>{current.flag} {current.label.toUpperCase()} · {current.levels}</ThemedText><ThemedText style={s.heroTitle}>{firstName ? `Hola, ${firstName}` : 'Tu aprendizaje,'}{'\n'}en un solo lugar.</ThemedText><ThemedText style={s.heroCopy}>Accede desde el móvil al mismo contenido de ANDERGO: rutas, lecturas, audios, vocabulario, gramática y práctica guiada.</ThemedText><Pressable onPress={() => router.push('/library' as never)} style={s.heroAction}><ThemedText style={s.heroActionText}>Ver contenidos de {current.label}  →</ThemedText></Pressable></View>
+    <View style={s.topbar}><View style={s.brandLockup}><View style={s.brandMark} accessibilityLabel="ANDERGO Play"><ThemedText style={s.brandMarkText}>A</ThemedText></View><View><ThemedText style={s.brand}>ANDERGO Play</ThemedText><ThemedText style={s.subtitle}>Aprende jugando</ThemedText></View></View><Pressable accessibilityLabel="Abrir mi cuenta" onPress={() => router.push('/account' as never)} style={s.accountButton}>{session ? <><ThemedText style={s.accountAvatar}>{session.avatarEmoji}</ThemedText><View style={s.accountInfo}><ThemedText numberOfLines={1} style={s.accountText}>{firstName}</ThemedText><ThemedText numberOfLines={1} style={s.accountPlan}>{isPremium ? 'Premium' : 'Free'}</ThemedText></View></> : <ThemedText numberOfLines={1} style={s.accountText}>Entrar</ThemedText>}</Pressable></View>
+    <View style={s.hero}><View style={s.heroGlow} /><ThemedText style={s.heroKicker}>✦ AVENTURA EN {current.flag} {current.label.toUpperCase()} · {current.levels}</ThemedText><ThemedText style={s.heroTitle}>{firstName ? `¡Hola, ${firstName}!` : '¡Vamos a jugar,'}{'\n'}aprender y ganar!</ThemedText><ThemedText style={s.heroCopy}>Completa misiones reales de ANDERGO, consigue puntos y practica hablando con tu Tutor.</ThemedText><Pressable onPress={() => router.push('/library' as never)} style={s.heroAction}><ThemedText style={s.heroActionText}>Comenzar mi misión  →</ThemedText></Pressable></View>
     <View style={s.sectionHead}><ThemedText style={s.sectionTitle}>Selecciona tu idioma</ThemedText><ThemedText style={s.sectionHint}>Puedes cambiarlo después</ThemedText></View>
     <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.languages}>{LANGUAGES.map((language) => <Pressable key={language.id} onPress={() => setTargetLanguage(language.id)} style={[s.language, targetLanguage === language.id && s.languageActive]}><ThemedText style={s.flag}>{language.flag}</ThemedText><ThemedText style={[s.languageText, targetLanguage === language.id && s.languageTextActive]}>{language.label}</ThemedText><ThemedText style={[s.languageLevel, targetLanguage === language.id && s.languageLevelActive]}>{language.levels}</ThemedText></Pressable>)}</ScrollView>
-    <View style={s.platformHead}><View><ThemedText style={s.sectionTitle}>Plataforma ANDERGO</ThemedText><ThemedText style={s.platformHint}>Elige una pestaña para continuar</ThemedText></View><ThemedText style={s.platformCount}>11</ThemedText></View>
+    <View style={s.platformHead}><View><ThemedText style={s.sectionTitle}>Elige tu próxima aventura</ThemedText><ThemedText style={s.platformHint}>Aprende, juega y practica con tu Tutor</ThemedText></View><ThemedText style={s.platformCount}>11</ThemedText></View>
     <View style={s.tileGrid}>{PLATFORM_TILES.map((tile) => <PlatformTile key={tile.number} {...tile} />)}</View>
     <View style={s.bottomNav}><Nav active label="Inicio" onPress={() => undefined} /><Nav label="Biblioteca" onPress={() => router.push('/library' as never)} /><Nav label="Tutor IA" onPress={() => router.push('/tutor' as never)} /><Nav label="Cuenta" onPress={() => router.push('/account' as never)} /></View>
   </ScrollView></SafeAreaView>;
