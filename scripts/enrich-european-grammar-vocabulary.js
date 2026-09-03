@@ -2,6 +2,7 @@
 // Enriches the European A1-B1 routes with usable vocabulary banks and
 // structured grammar teaching/tests, while retaining each unit's topic.
 const fs = require('fs'); const path = require('path');
+const portugueseTranslations = require('./content/portuguese-a1-a2-vocabulary');
 const file = path.join(__dirname, '..', 'lib', 'seed-lessons.json');
 const lessons = require(file);
 const extra = {
@@ -132,7 +133,9 @@ for (const lesson of lessons) {
   if (!extra[language] || !grammar[language][level]) continue;
   const content=lesson.content_json ||= {};
   if (lesson.skill==='vocabulary') {
-    const current=(content.vocabulary||[]).map(v=>[v.word,v.translation||'traducción']).filter(v=>v[0]);
+    const current=(content.vocabulary||[])
+      .map(v=>[v.word, language === 'portuguese' ? (portugueseTranslations[String(v.word).toLocaleLowerCase('pt-BR')] || v.translation || 'traducción') : (v.translation||'traducción')])
+      .filter(v=>v[0]);
     const terms=[...current,...extra[language]].filter((v,i,a)=>a.findIndex(x=>x[0].toLocaleLowerCase()===v[0].toLocaleLowerCase())===i).slice(0,12);
     content.vocabulary=terms.map(([word,translation])=>({word,translation,definition:translation,example:language==='german'?`Ich benutze „${word}“ in einem Satz.`:language==='italian'?`Uso «${word}» in una frase.`:`Uso “${word}” em uma frase.`,contexts:[`${word} · tema`,`${word} · conversación`,`${word} · práctica`] }));
     content.exercises=terms.map(([word],i)=>({type:'mcq',prompt:language==='german'?`Wähle das Wort aus dieser Einheit.`:language==='italian'?`Scegli una parola di questa unità.`:`Escolha uma palavra desta unidade.`,...options(word,terms.filter((_,j)=>j!==i).slice(0,3).map(x=>x[0]),i)}));

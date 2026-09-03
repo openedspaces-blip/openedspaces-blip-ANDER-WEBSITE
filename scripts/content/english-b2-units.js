@@ -18,6 +18,92 @@ const topics = [
 
 const q=(prompt,options,answer,explanation)=>({type:'mcq',prompt,options,answer,explanation});
 const activity=(skill,fields)=>({skill,duration:skill==='reading'?20:16,xp:skill==='reading'?40:35,...fields});
+// B2 learners should have to discriminate between realistic near-misses, not
+// spot one long technical sentence beside three unrelated statements. These
+// traps deliberately model frequent errors for the target structure.
+function grammarNearMisses(grammar, title) {
+  const subject = title.toLowerCase();
+  const traps = {
+    'Passive reporting structures': [
+      `The main claim is believe to have changed the debate about ${subject}.`,
+      `The policy is reported that it is being reviewed by the council.`,
+      `The rumour is believed originated before the correction was published.`,
+      `Several posts are said shared without checking their source.`
+    ],
+    'Causative and passive forms': [
+      'The council had installed the new bins by a contractor.',
+      'Residents can have damaged bins replace through the local service.',
+      'Single-use containers are being replace by reusable alternatives.',
+      'The organisers had volunteers cleaned the riverbank themselves.'
+    ],
+    'Mixed conditionals': [
+      'If the city invested earlier, residents would rely less on cars today.',
+      'If companies were more transparent now, they will have earned public trust.',
+      'If households had received clearer information, they make lower-carbon choices now.',
+      'If the policy had been fairer, public support will be stronger now.'
+    ],
+    'Modals of deduction in the past': [
+      'The company must knew about the deadline.',
+      'Political connections may influenced the decision.',
+      'The officials cannot reviewed every invoice carefully.',
+      'The delay could resulted from weak oversight.'
+    ],
+    'Participle clauses': [
+      'Celebrating the holiday, the historical debate was discussed by Sarah.',
+      'Having read several accounts, the meaning became clear to Daniel.',
+      'Founded on ideals of liberty, critics challenged the national narrative.',
+      'Watching the fireworks, the questions were asked by the children.'
+    ],
+    'Advanced relative clauses': [
+      'Daniel spoke to a neighbour who question made him reflect on identity.',
+      'The community centre in that the meeting took place offered classes.',
+      'His grandmother, from who he learned the stories, had migrated decades earlier.',
+      'The city to where they moved offered support for newcomers.'
+    ],
+    'Comparatives with modifiers': [
+      'Rent in the city centre is considerably more higher than before.',
+      'The new scheme is much more easier to afford for tenants.',
+      'Wages have risen nowhere near as quick than local rents.',
+      'The outer district is not as well connected than the city centre.'
+    ],
+    'Future perfect and future continuous': [
+      'By next summer, the hotel will introduced a transparent system.',
+      'This time next year, staff will using the new platform every day.',
+      'By 2030, the company will have train every manager.',
+      'During the pilot, managers will be monitor the algorithm.'
+    ],
+    'Concession clauses': [
+      'Despite the shirt was cheap, its environmental cost remained high.',
+      'Although of low prices, hidden labour costs remain.',
+      'Even though cheap clothing, consumers may value convenience.',
+      'Much as the campaign raised awareness, but habits did not change.'
+    ],
+    'Inversion for emphasis': [
+      'Rarely students receive clear guidance about the application.',
+      'Only when the deadline approached Daniel realised the problem.',
+      'Under no circumstances financial barriers should be treated as ability.',
+      'No sooner the guidance had been published than students asked for help.'
+    ],
+    'Reported speech and reporting verbs': [
+      'The moderator warned people to that the claim could cause harm.',
+      'Sarah urged that forum members to check a source first.',
+      'The policy team advised users do not repost unverified claims.',
+      'The account owner denied to have intended to mislead readers.'
+    ],
+    'Emphatic cleft structures': [
+      'What residents need are a clear route from complaint to action.',
+      'It were local volunteers who first mapped the crossings.',
+      'All the residents wanted were a safe place for children to play.',
+      'What changed the discussion were the meeting held after work.'
+    ]
+  };
+  return traps[grammar] || [
+    `The discussion of ${subject} uses the target structure incorrectly.`,
+    `The report about ${subject} does not keep the form consistent.`,
+    `The argument about ${subject} is not expressed accurately.`,
+    `The conclusion about ${subject} contains a form error.`
+  ];
+}
 const grammarTest=(slug,title,exercises)=>({
   id:`english-b2-${slug}-grammar-test`,
   passingScore:70,
@@ -293,16 +379,12 @@ function buildB2GrammarExercises({title,readingTitle,grammar,claim,counter,concl
   };
   const items=contexts[grammar] || [];
   return items.map(([prompt,correct],index)=>{
-    const options=[
-      `The discussion of ${title.toLowerCase()} includes several important viewpoints.`,
-      `The issue matters, but the report does not make its relationship clear.`,
-      `People have opinions about ${title.toLowerCase()}, and the situation is complicated.`,
-      correct
-    ];
-    const answer=index%4;
-    options.splice(3,1);
+    const allTraps = grammarNearMisses(grammar, title);
+    const distractors = [0, 1, 2].map((offset) => allTraps[(index + offset) % allTraps.length]);
+    const options = [...distractors];
+    const answer=(index * 3 + 1)%4;
     options.splice(answer,0,correct);
-    return q(prompt,options,answer,`The correct option applies ${grammar} accurately and keeps the argument connected to “${readingTitle}”.`);
+    return q(prompt,options,answer,`The correct option applies ${grammar} accurately. Compare the form carefully: the other options contain a plausible B2-level error rather than an unrelated sentence.`);
   });
 }
 

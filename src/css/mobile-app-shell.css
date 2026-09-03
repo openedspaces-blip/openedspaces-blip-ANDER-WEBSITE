@@ -219,6 +219,21 @@
     padding: .34rem .58rem;
     font-size: .68rem;
   }
+  #learning-path > .learning-extra-nav {
+    align-items: stretch;
+    margin: .45rem 0 .7rem;
+  }
+  #learning-path > .learning-extra-nav > span { flex-basis: 100%; font-size: .7rem; }
+  .learning-extra-nav a { min-height: 38px; padding-inline: .7rem; font-size: .72rem; }
+  .learning-extra-nav--standalone { margin-inline: .1rem; }
+  .technical-mode-switch { justify-content: flex-start; overflow-x: auto; padding-bottom: .15rem; }
+  .technical-mode-switch button { min-height: 40px; white-space: nowrap; }
+  .daily-learning-plan-actions { width: 100%; justify-content: stretch; }
+  .daily-learning-plan-actions .daily-start-btn { flex: 1 1 100%; min-height: 44px; }
+  .daily-plan-customize { width: 100%; }
+  .daily-plan-customize > summary { min-height: 38px; display: flex; align-items: center; justify-content: center; }
+  .daily-plan-customize > div { position: static; justify-content: stretch; min-width: 0; margin-top: .4rem; box-shadow: none; }
+  .daily-plan-customize > div .secondary-btn { flex: 1 1 130px; min-height: 40px; }
   #learning-path > .learning-route-context {
     min-height: 26px;
     margin-bottom: .45rem;
@@ -759,5 +774,24 @@
     width: 1.22rem;
     height: 1.22rem;
     font-size: .56rem;
+  }
+
+  /* A catalogue can stay compact without becoming a visual exam. Preserve a
+     readable floor for the example and meaning that explain each new word. */
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-support p,
+  .vocab-card-catalogue-definition,
+  .vocab-card-catalogue-examples li,
+  .vocab-card-catalogue-examples small,
+  .vocab-expression-card p,
+  .vocab-expression-card small {
+    font-size: .76rem;
+    line-height: 1.35;
+  }
+
+  #verbs .verb-catalogue-forms span,
+  #verbs .verb-catalogue-forms strong,
+  #verbs .verb-catalogue-examples p {
+    font-size: .7rem;
+    line-height: 1.3;
   }
 }

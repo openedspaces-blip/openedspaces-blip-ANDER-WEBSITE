@@ -147,6 +147,9 @@
               <a href="#adverbs" data-guest-preview>Adverbios</a>
               <a href="#tests">Pruebas</a>
               <a href="#games" data-guest-preview>Juegos</a>
+              <a href="#infographics" data-guest-preview>Infografías</a>
+              <a href="#useful-expressions">Expresiones útiles</a>
+              <a href="#technical-english">Inglés técnico</a>
               <a href="#downloads">Descargas</a>
               <a href="#about" data-i18n="navAbout">Acerca de</a>
             </span>
@@ -167,6 +170,8 @@
             <summary>Más</summary>
             <span class="nav-more-menu">
               <a href="#infographics" data-guest-preview>Infografías</a>
+              <a href="#useful-expressions">Expresiones útiles</a>
+              <a href="#technical-english">Inglés técnico</a>
               <a href="#tutor" data-i18n="navTutor">Tutor I.A.</a>
               <a href="#progress" data-i18n="navProgress">Progreso</a>
               <a href="#goals" data-i18n="navGoals">Objetivos</a>
@@ -292,10 +297,10 @@
         <div class="hero-card">
           <div class="hero-cover-art" aria-hidden="true">
             <img
-              src="assets/home/andergo-cover-flags.png?v=20260820"
+              src="assets/home/andergo-cover-race.png?v=20260831"
               alt=""
-              width="1152"
-              height="1402"
+              width="1024"
+              height="1536"
               decoding="async"
               fetchpriority="high"
             />
@@ -393,7 +398,7 @@
           <div class="section-heading">
             <span>Planes</span>
             <h2 tabindex="-1">Elige la experiencia que acompaña mejor tu aprendizaje.</h2>
-            <p>Empieza con Free y amplía tu currículo, actividades y seguimiento con ANDERGO Premium.</p>
+            <p>El aprendizaje A1–C2 está abierto en ambos planes. Elige Free con anuncios discretos o Premium para estudiar sin anuncios y ampliar tus herramientas.</p>
           </div>
 
           <div class="pricing-layout">
@@ -402,21 +407,23 @@
               <h3>Free</h3>
               <p class="price">USD 0 <small>/ mes</small></p>
               <ul class="plan-benefits plan-benefits--desktop">
-                <li>Juegos e infografías incluidos; pruebas hasta B1.</li>
+                <li>Todo el currículo A1–C2, actividades, juegos e infografías.</li>
+                <li>Anuncios discretos entre habilidades cuando estén disponibles.</li>
                 <li>100 traducciones al mes, flashcards y voces del dispositivo.</li>
-                <li>Tutor IA: 30 consultas y 10 prácticas de voz al mes.</li>
+                <li>Tutor IA: 30 consultas y prácticas de voz mensuales.</li>
               </ul>
               <details class="plan-benefits-mobile">
                 <summary>Ver beneficios del plan Free</summary>
                 <ul>
-                  <li>Juegos e infografías incluidos al crear tu cuenta.</li>
-                  <li>Pruebas disponibles desde Pre-A1 hasta B1.</li>
+                  <li>Todo el currículo A1–C2, juegos e infografías incluidos.</li>
+                  <li>Pruebas y práctica guiada para aprender a tu ritmo.</li>
+                  <li>Anuncios discretos entre habilidades cuando estén disponibles.</li>
                   <li>100 traducciones mensuales, voces del dispositivo y flashcards.</li>
                   <li>Tutor IA: 30 consultas al mes.</li>
                   <li>Conversación por voz: 10 al mes.</li>
                 </ul>
               </details>
-              <p class="price-annual">En ANDERGO preferimos aprender sin anuncios. Premium ofrece la experiencia completa por USD 7 al mes; si prefieres aportar menos, puedes apoyar desde USD 1. Cada contribución nos ayuda a crear mejores experiencias de aprendizaje.</p>
+              <p class="price-annual">Free mantiene todo el aprendizaje abierto con publicidad discreta y no intrusiva cuando esté disponible. Si prefieres estudiar sin anuncios, Premium ofrece una experiencia continua por USD 7 al mes. También puedes apoyar desde USD 1.</p>
               <a
                 class="secondary-btn donation-link"
                 href="https://www.paypal.com/donate/?hosted_button_id=8J5CWKN8WCLU2"
@@ -433,7 +440,7 @@
               </p>
               <p class="price-annual">O elige el plan trimestral por <span data-premium-quarterly-price>USD 14.99</span> cada tres meses.</p>
               <ul class="plan-benefits plan-benefits--desktop">
-                <li>Todos los niveles y habilidades disponibles según el idioma.</li>
+                <li>Todo el currículo A1–C2, sin anuncios de terceros.</li>
                 <li>Lecciones, evaluaciones, juegos y práctica guiada sin límites de ruta.</li>
                 <li>1,000 traducciones al mes y acceso a pruebas B2–C2.</li>
                 <li>Tutor IA: 500 consultas al mes y conversación por voz con corrección.</li>
@@ -443,6 +450,7 @@
                 <summary>Ver todos los beneficios Premium</summary>
                 <ul>
                   <li>Acceso completo a todos los niveles: A1–C2 en English, Español, Français, Italiano, Português y Deutsch.</li>
+                  <li>Experiencia continua, sin anuncios de terceros.</li>
                   <li>Reading, Grammar, Vocabulary, Listening, Speaking y Verbos sin límites de ruta.</li>
                   <li>Lecciones, evaluaciones, juegos y práctica guiada para avanzar a tu ritmo.</li>
                   <li>1,000 traducciones mensuales y pruebas B2–C2.</li>
@@ -549,6 +557,12 @@
           <a href="#vocabulary" class="level-tab" data-tab="vocabulary">Vocabulary</a>
         </nav>
 
+        <nav class="learning-extra-nav" aria-label="Práctica complementaria">
+          <span>Práctica complementaria</span>
+          <a href="#useful-expressions">Expresiones útiles</a>
+          <a href="#technical-english">Inglés técnico</a>
+        </nav>
+
         <div id="learningRouteContext" class="learning-route-context" aria-live="polite">
           <span>—</span><i aria-hidden="true"></i><span>—</span><i aria-hidden="true"></i><span>—</span>
         </div>
@@ -642,6 +656,45 @@
         <div class="skill-view-content">
           <p class="skill-graph-empty">Preparando Reading…</p>
         </div>
+
+        <article class="practice-reminder-panel" id="practiceReminderPanel" hidden>
+          <div>
+            <span>RECORDATORIOS DE PRÁCTICA</span>
+            <h3>Haz que ANDERGO te acompañe</h3>
+            <p>Elige si deseas recibir estos correos. Puedes cambiarlos o desactivarlos cuando quieras.</p>
+          </div>
+          <label class="practice-reminder-option">
+            <input type="checkbox" id="inactivityReminderEnabled" />
+            <span>Recuérdame si llevo 3 días sin entrar.</span>
+          </label>
+          <label class="practice-reminder-option">
+            <input type="checkbox" id="scheduledReminderEnabled" />
+            <span>Recuérdame practicar todos los días a esta hora.</span>
+          </label>
+          <label class="practice-reminder-time" for="practiceReminderTime">
+            <span>Hora de práctica (hora de República Dominicana)</span>
+            <input type="time" id="practiceReminderTime" />
+          </label>
+          <p class="practice-reminder-status" id="practiceReminderStatus" aria-live="polite"></p>
+        </article>
+      </section>
+
+      <section id="technicalEnglish" class="section technical-english-section compact-hidden-section" aria-label="Inglés Técnico">
+        <nav class="learning-extra-nav learning-extra-nav--standalone" aria-label="Práctica complementaria">
+          <a href="#learn">← Volver a mi ruta</a>
+          <span>Práctica complementaria</span>
+          <a href="#useful-expressions">Expresiones útiles</a>
+        </nav>
+        <div id="technicalEnglishApp" aria-live="polite"></div>
+      </section>
+
+      <section id="usefulExpressions" class="section useful-expressions-section compact-hidden-section" aria-label="Expresiones útiles">
+        <nav class="learning-extra-nav learning-extra-nav--standalone" aria-label="Práctica complementaria">
+          <a href="#learn">← Volver a mi ruta</a>
+          <span>Práctica complementaria</span>
+          <a href="#technical-english">Inglés técnico</a>
+        </nav>
+        <div id="usefulExpressionsApp" aria-live="polite"></div>
       </section>
 
       <section
@@ -2390,6 +2443,17 @@
       </div>
     </div>
 
+    <div class="confirm-modal skill-transition-ad" id="skillTransitionAd" aria-hidden="true" inert>
+      <div class="confirm-panel skill-transition-ad-panel" role="dialog" aria-modal="true" aria-labelledby="skillTransitionAdTitle">
+        <span class="skill-transition-ad-label">ANDERGO FREE</span>
+        <h3 id="skillTransitionAdTitle">Una pausa breve antes de continuar</h3>
+        <p>El contenido de ANDERGO está desbloqueado para ti. Cuando la publicidad esté disponible, este espacio ayuda a mantener el plan Free.</p>
+        <div class="skill-transition-ad-card"><strong>Aprende un poco cada día.</strong><span>Tu próxima habilidad está lista para practicar.</span></div>
+        <div class="confirm-actions"><button type="button" class="primary-btn" id="skillTransitionAdContinue">Continuar a la siguiente habilidad</button></div>
+        <p class="skill-transition-ad-note">Premium continúa sin anuncios de terceros.</p>
+      </div>
+    </div>
+
     <!-- Shown once, right after login, only when profiles.username is null
          (pre-migration accounts). Does not block anything else the student
          does - "Ahora no" just closes it and it reappears on the next login
@@ -2461,6 +2525,9 @@
             <option value="english">🇺🇸 English</option>
             <option value="spanish">🇪🇸 Español</option>
             <option value="french">🇫🇷 Français</option>
+            <option value="italian">🇮🇹 Italiano</option>
+            <option value="portuguese">🇵🇹 Português</option>
+            <option value="german">🇩🇪 Deutsch</option>
           </select>
         </label>
         <label

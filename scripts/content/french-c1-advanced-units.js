@@ -582,18 +582,30 @@ function vocabularyExercises(items) {
 }
 
 function grammarTest(slug, exercises) {
+  const positions = [0, 0, 1, 1, 2, 2, 3, 3];
+  let state = [...slug].reduce((hash, character) => ((hash * 31 + character.charCodeAt(0)) >>> 0), 7);
+  for (let index = positions.length - 1; index > 0; index -= 1) {
+    state = (state * 1664525 + 1013904223) >>> 0;
+    const swapIndex = state % (index + 1);
+    [positions[index], positions[swapIndex]] = [positions[swapIndex], positions[index]];
+  }
   return {
     id: `french-c1-${slug}-grammar-test`,
     passingScore: 70,
-    questions: exercises.map((exercise, index) => ({
+    questions: exercises.map((exercise, index) => {
+      const options = (exercise.options || []).filter((_, optionIndex) => optionIndex !== exercise.answer);
+      const answer = positions[index] ?? exercise.answer;
+      options.splice(answer, 0, exercise.options[exercise.answer]);
+      return {
       id: `q${index + 1}`,
       type: 'mcq',
       prompt: exercise.prompt,
-      options: exercise.options.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
-      correctOptionId: `o${exercise.answer + 1}`,
+      options: options.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
+      correctOptionId: `o${answer + 1}`,
       explanation: exercise.explanation || 'La réponse respecte la structure grammaticale étudiée dans cette unité.',
       difficulty: index < 2 ? 'easy' : index < 6 ? 'medium' : 'hard'
-    }))
+      };
+    })
   };
 }
 

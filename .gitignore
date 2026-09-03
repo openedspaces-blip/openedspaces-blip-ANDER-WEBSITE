@@ -18,6 +18,7 @@ git_check.txt
 
 # Temporary duplicate files
 * (2).*
+*.josephine-backup
 
 # Local agent worktrees and verification artifacts
 .claude/

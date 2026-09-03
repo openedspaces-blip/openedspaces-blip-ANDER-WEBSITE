@@ -90,13 +90,15 @@ function englishActivities(unit, level) {
           { order: 2, text: transcriptLines[5].line }
         ]
       },
-      exercises: [
+      listeningComprehension: {
+        passingScore: 70,
+        questions: [
         {
           type: 'mcq',
-          prompt: 'Why does the guest say the issue resists a simple answer?',
+          prompt: `In Listening Lab: ${context.title}, why does the guest say the issue resists a simple answer?`,
           options: [
             'Because no evidence exists',
-            'Because assumptions shape how evidence is interpreted',
+            'Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.',
             'Because the topic has no vocabulary',
             'Because the host changes the subject'
           ],
@@ -104,10 +106,10 @@ function englishActivities(unit, level) {
         },
         {
           type: 'mcq',
-          prompt: 'Which three categories does the guest distinguish?',
+          prompt: `In Listening Lab: ${context.title}, which three categories does the guest distinguish?`,
           options: [
             'Fact, spelling and pronunciation',
-            'Finding, inference and value judgement',
+            'They should distinguish an established finding from a plausible inference and a value judgement.',
             'Cause, date and location',
             'Question, title and summary'
           ],
@@ -115,21 +117,38 @@ function englishActivities(unit, level) {
         },
         {
           type: 'mcq',
-          prompt: 'What makes the discussion responsible?',
+          prompt: `In Listening Lab: ${context.title}, what makes the discussion responsible?`,
           options: [
             'Avoiding every objection',
             'Repeating the strongest claim',
-            'Defining terms, addressing a counterargument and naming revision evidence',
+            'We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.',
             'Speaking with absolute certainty'
           ],
           answer: 2
         },
         {
           type: 'mcq',
-          prompt: `Which vocabulary belongs to this unit?`,
-          options: ['weekend plans', terms, 'classroom objects', 'food and drink'],
+          prompt: `In Listening Lab: ${context.title}, what should listeners distinguish before reaching a conclusion?`,
+          options: ['A title, a date and a location', 'They should distinguish an established finding from a plausible inference and a value judgement.', 'Only the host’s opinion', 'A spelling rule and a pronunciation rule'],
           answer: 1
         }
+        ].map((question, index) => ({
+          id: `english-${level.toLowerCase()}-${unit.slug}-listening-q${index + 1}`,
+          ...question,
+          correctOptionId: `o${index + 1}`,
+          options: (() => {
+            const options = [...question.options];
+            const [correct] = options.splice(question.answer, 1);
+            options.splice(index, 0, correct);
+            return options.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text }));
+          })()
+        }))
+      },
+      exercises: [
+        { type: 'mcq', prompt: `In Listening Lab: ${context.title}, why does the guest say the issue resists a simple answer?`, options: ['Because no evidence exists', 'Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.', 'Because the topic has no vocabulary', 'Because the host changes the subject'], answer: 1 },
+        { type: 'mcq', prompt: `In Listening Lab: ${context.title}, which three categories does the guest distinguish?`, options: ['Fact, spelling and pronunciation', 'They should distinguish an established finding from a plausible inference and a value judgement.', 'Cause, date and location', 'Question, title and summary'], answer: 1 },
+        { type: 'mcq', prompt: `In Listening Lab: ${context.title}, what makes the discussion responsible?`, options: ['Avoiding every objection', 'Repeating the strongest claim', 'We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.', 'Speaking with absolute certainty'], answer: 2 },
+        { type: 'mcq', prompt: `In Listening Lab: ${context.title}, what should listeners distinguish before reaching a conclusion?`, options: ['A title, a date and a location', 'They should distinguish an established finding from a plausible inference and a value judgement.', 'Only the host’s opinion', 'A spelling rule and a pronunciation rule'], answer: 1 }
       ]
     },
     speaking: {

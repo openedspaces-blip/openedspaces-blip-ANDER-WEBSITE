@@ -418,7 +418,7 @@ function buildReadingExercises(topic) {
     q('What does “revisability” mean in the final sentence?', ['The capacity to change a judgement when evidence changes', 'The removal of all institutional responsibility', 'The repetition of an existing claim', 'The refusal to reach any conclusion'], 0),
     q('Which description best captures the author’s stance?', ['Uncritically optimistic', 'Qualified, evidence-sensitive and action-oriented', 'Entirely opposed to innovation', 'Indifferent to unequal effects'], 1),
     q(`Which term is central to this unit?`, ['weekend', topic.words[0][0], 'bedroom', 'recipe'], 1)
-  ];
+  ].slice(0, 5);
 }
 
 function buildVocabulary(topic) {
@@ -428,7 +428,7 @@ function buildVocabulary(topic) {
     definition,
     example: `The article uses “${word}” to analyse ${topic.title.toLowerCase()} precisely.`,
     partOfSpeech: word.includes(' ') ? 'phrase' : 'noun'
-  })), { language: 'english', topic: topic.title.toLowerCase() });
+  })), { language: 'english', topic: topic.title.toLowerCase() }).slice(0, 8);
 }
 
 function buildVocabularyExercises(items) {
@@ -441,8 +441,15 @@ function buildVocabularyExercises(items) {
 }
 
 function buildGrammarExercises(topic) {
+  const answerPositions = [0, 0, 1, 1, 2, 2, 3, 3];
+  let shuffleState = [...topic.slug].reduce((hash, character) => ((hash * 31 + character.charCodeAt(0)) >>> 0), 7);
+  for (let index = answerPositions.length - 1; index > 0; index -= 1) {
+    shuffleState = (shuffleState * 1664525 + 1013904223) >>> 0;
+    const swapIndex = shuffleState % (index + 1);
+    [answerPositions[index], answerPositions[swapIndex]] = [answerPositions[swapIndex], answerPositions[index]];
+  }
   const revisions = topic.examples.map(([source, target], index) => {
-    const answer = index % 4;
+    const answer = answerPositions[index * 2];
     const alternatives = topic.examples
       .filter((_, exampleIndex) => exampleIndex !== index)
       .map(([, otherTarget]) => otherTarget);
@@ -456,19 +463,19 @@ function buildGrammarExercises(topic) {
     );
   });
   const analysis = topic.examples.map(([source, target], index) => {
-    const answer = (index + 1) % 4;
+    const answer = answerPositions[index * 2 + 1];
     const correct = `It ${topic.purpose}; the resulting revision is: "${target}"`;
     const options = [
-      `It makes the claim categorical and removes the qualification in: "${target}"`,
-      `It turns the available evidence into certainty that the source did not express: "${target}"`,
-      `It keeps the topic but leaves the required grammatical relationship unclear in: "${target}"`
+      `It keeps the topic but overstates the evidence, changing the scope of the source claim: "${target}"`,
+      `It uses the target form but alters the agency, cause or limitation expressed in the source: "${target}"`,
+      `It retains much of the vocabulary while changing the logical relationship established by the source: "${target}"`
     ];
     options.splice(answer, 0, correct);
     return q(
       `Why is the revision of "${source}" effective in this unit?`,
       options,
       answer,
-      topic.rule
+      `${topic.rule} Decide by comparing form, meaning and register—not by choosing the longest option.`
     );
   });
   return revisions.flatMap((exercise, index) => [exercise, analysis[index]]);

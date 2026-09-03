@@ -5,6 +5,7 @@
 // making the learner-facing texts generic translations of another language.
 const fs = require('fs');
 const path = require('path');
+const portugueseTranslations = require('./content/portuguese-a1-a2-vocabulary');
 const ROOT = path.join(__dirname, '..');
 const LESSONS = path.join(ROOT, 'lib', 'seed-lessons.json');
 const UNITS = path.join(ROOT, 'lib', 'seed-units.json');
@@ -239,7 +240,13 @@ function buildUnit(language, level, raw, order) {
         `${c.friend} fa una domanda semplice e ${c.person} risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.`,
         `Alla fine, ${c.person} scrive: “${phrase}”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con ${c.friend}.`
       ];
-  const vocab = [w1,w2,w3,w4].map((word, i) => ({ word, translation: ['palabra cultural','acción cotidiana','lugar o cosa','expresión útil'][i], example: `${phrase}` }));
+  const vocab = [w1,w2,w3,w4].map((word, i) => ({
+    word,
+    translation: pt
+      ? (portugueseTranslations[word.toLocaleLowerCase('pt-BR')] || word)
+      : ['palabra cultural','acción cotidiana','lugar o cosa','expresión útil'][i],
+    example: `${phrase}`
+  }));
   const titleEs = culture;
   const base = (skill, fields) => ({ skill, duration: skill === 'writing' ? 12 : 8, xp: skill === 'reading' ? 25 : 20, ...fields });
   const freeUnitLimit = level === 'A1' ? 3 : 2;

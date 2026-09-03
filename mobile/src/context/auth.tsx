@@ -9,11 +9,21 @@ const SUPABASE_URL = 'https://kdfzpqqyklqxprcweuqu.supabase.co';
 const KEY = 'sb_publishable_V6eyM6swE72C5UmPs9KKOg_hKtpRbwZ';
 const STORE = 'andergo.session.v1';
 
+// Expo Router renders the web bundle once on the server. AsyncStorage's web
+// adapter expects `window`, so keep that server pass in memory and switch back
+// to persistent storage as soon as the app runs in a browser or on mobile.
+const serverStorage = {
+  getItem: async (_key: string) => null,
+  setItem: async (_key: string, _value: string) => {},
+  removeItem: async (_key: string) => {},
+};
+const authStorage = typeof window === 'undefined' ? serverStorage : AsyncStorage;
+
 WebBrowser.maybeCompleteAuthSession();
 
 const supabase = createClient(SUPABASE_URL, KEY, {
   auth: {
-    storage: AsyncStorage,
+    storage: authStorage,
     autoRefreshToken: true,
     persistSession: true,
     detectSessionInUrl: false,
@@ -22,15 +32,16 @@ const supabase = createClient(SUPABASE_URL, KEY, {
   },
 });
 
-type Session = { access_token: string; email: string; userId: string; displayName: string };
+type Session = { access_token: string; email: string; userId: string; displayName: string; avatarEmoji: string };
 type Provider = 'google' | 'facebook';
 type Auth = {
   ready: boolean;
   session: Session | null;
   signIn: (email: string, password: string) => Promise<void>;
-  signInWithProvider: (provider: Provider) => Promise<void>;
+  signInWithProvider: (provider: Provider) => Promise<boolean>;
   signUp: (displayName: string, email: string, password: string) => Promise<'signed-in' | 'confirmation-required'>;
   signOut: () => Promise<void>;
+  updateAvatarEmoji: (emoji: string) => Promise<void>;
 };
 const Context = createContext<Auth | null>(null);
 
@@ -42,6 +53,7 @@ function toAppSession(session: SupabaseSession): Session {
     email: user.email || '',
     userId: user.id,
     displayName: metadata.display_name || metadata.full_name || metadata.name || user.email?.split('@')[0] || 'Estudiante',
+    avatarEmoji: metadata.avatar_emoji || '🙂',
   };
 }
 
@@ -63,9 +75,17 @@ export function AuthProvider({ children }: PropsWithChildren) {
   useEffect(() => {
     let active = true;
     const restore = async () => {
-      const { data } = await supabase.auth.getSession();
-      if (active) await save(data.session);
-      if (active) setReady(true);
+      try {
+        const { data, error } = await supabase.auth.getSession();
+        if (error) throw error;
+        if (active) await save(data.session);
+      } catch {
+        // A corrupt or expired local token must never leave the mobile app
+        // blocked on its splash/auth gate. Supabase will renew it on next sign-in.
+        if (active) await save(null);
+      } finally {
+        if (active) setReady(true);
+      }
     };
     void restore();
     const { data: listener } = supabase.auth.onAuthStateChange((_event, next) => {
@@ -97,7 +117,10 @@ export function AuthProvider({ children }: PropsWithChildren) {
         if (error || !data.url) throw error || new Error(`No pudimos abrir ${providerLabel(provider)}.`);
 
         const result = await WebBrowser.openAuthSessionAsync(data.url, redirectTo);
-        if (result.type === 'cancel' || result.type === 'dismiss') return;
+        // A cancelled provider sheet is a normal outcome. Keep the learner on
+        // the native account screen instead of routing to an unauthenticated
+        // home screen and immediately bouncing back.
+        if (result.type === 'cancel' || result.type === 'dismiss') return false;
         if (result.type !== 'success') throw new Error(`No pudimos completar el acceso con ${providerLabel(provider)}.`);
 
         const callback = new URL(result.url);
@@ -108,6 +131,7 @@ export function AuthProvider({ children }: PropsWithChildren) {
 
         const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
         if (exchangeError) throw exchangeError;
+        return true;
       },
       async signUp(displayName, email, password) {
         const { data, error } = await supabase.auth.signUp({
@@ -123,6 +147,12 @@ export function AuthProvider({ children }: PropsWithChildren) {
         const { error } = await supabase.auth.signOut();
         await save(null);
         if (error) throw error;
+      },
+      async updateAvatarEmoji(emoji) {
+        const { data, error } = await supabase.auth.updateUser({ data: { avatar_emoji: emoji } });
+        if (error) throw error;
+        const { data: refreshed } = await supabase.auth.getSession();
+        if (data.user && refreshed.session) await save(refreshed.session);
       },
     }),
     [ready, session],

@@ -24,17 +24,11 @@ const SKILLS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocab
 const RUN_LIVE_AI_TESTS = process.env.RUN_LIVE_AI_TESTS === '1';
 const RUN_LIVE_SUPABASE_TESTS = process.env.RUN_LIVE_SUPABASE_TESTS === '1';
 
-test('Free access is unit-based across every CEFR level', () => {
-  for (const level of ['A1']) {
-    assert.equal(accessPolicy.isFreeUnit(level, 1), true);
-    assert.equal(accessPolicy.isFreeUnit(level, 2), true);
-    assert.equal(accessPolicy.isFreeUnit(level, 3), true);
-    assert.equal(accessPolicy.isFreeUnit(level, 4), false);
-  }
-  for (const level of ['A2', 'B1', 'B2', 'C1', 'C2']) {
-    assert.equal(accessPolicy.isFreeUnit(level, 1), true);
-    assert.equal(accessPolicy.isFreeUnit(level, 2), true);
-    assert.equal(accessPolicy.isFreeUnit(level, 3), false);
+test('Free access includes every unit across every CEFR level', () => {
+  for (const level of LEVELS) {
+    for (const unitOrder of [1, 2, 3, 12]) {
+      assert.equal(accessPolicy.isFreeUnit(level, unitOrder), true);
+    }
   }
   assert.equal(
     accessPolicy.canAccessLesson({
@@ -46,8 +40,8 @@ test('Free access is unit-based across every CEFR level', () => {
   );
 });
 
-test('Tutor monthly quotas are 30 Free and 500 Premium for every consultation', () => {
-  assert.equal(plansConfig.getFeatureLimit('free', 'tutor_query'), 30);
+test('Tutor monthly quotas are 15 Free and 500 Premium for every consultation', () => {
+  assert.equal(plansConfig.getFeatureLimit('free', 'tutor_query'), 15);
   assert.equal(plansConfig.getFeatureLimit('premium', 'tutor_query'), 500);
 });
 
@@ -82,9 +76,9 @@ test('Tutor supports free queries outside lessons while still restricting langua
   assert.match(source, /contesta únicamente en \$\{targetLanguageLabel\}/);
 });
 
-test('Translator monthly quotas are 100 Free and 1000 Premium', () => {
-  assert.equal(plansConfig.getFeatureLimit('free', 'translator_query'), 100);
-  assert.equal(plansConfig.getFeatureLimit('premium', 'translator_query'), 1000);
+test('Translator monthly quotas are 15 Free and 500 Premium', () => {
+  assert.equal(plansConfig.getFeatureLimit('free', 'translator_query'), 15);
+  assert.equal(plansConfig.getFeatureLimit('premium', 'translator_query'), 500);
 });
 
 test('Tutor never answers in a third language outside target/native, even if the student writes in one (TTS compatibility)', () => {
@@ -249,9 +243,9 @@ test('health endpoint reports AI tutor configuration without leaking keys or oth
     const body = await response.json();
     assert.deepEqual(body.aiTutor, {
       configured: isTutorConfigured(),
-      primaryProvider: 'cerebras',
+      primaryProvider: 'gemini',
       streaming: true,
-      automaticFallback: 'groq'
+      automaticFallback: 'openai'
     });
   } finally {
     server.close();
@@ -1137,30 +1131,31 @@ test('Reading can use configured neural TTS providers with bounded, on-demand au
   const source = fs.readFileSync(path.join(__dirname, 'lib', 'ttsService.js'), 'utf8');
   const packageJson = fs.readFileSync(path.join(__dirname, 'package.json'), 'utf8');
   const envExample = fs.readFileSync(path.join(__dirname, '.env.example'), 'utf8');
-  assert.match(source, /process\.env\.OPENAI_TTS_MODEL \|\| 'gpt-4o-mini-tts'/);
+  assert.match(source, /const GEMINI_TTS_MODEL = String\(process\.env\.GEMINI_TTS_MODEL \|\| 'gemini-2\.5-flash-preview-tts'\)/);
   assert.match(source, /const MAX_READING_CHARS = 12000/);
   assert.match(source, /splitReadingIntoSpeechChunks/);
-  assert.match(source, /audio\.speech\.create/);
+  assert.match(source, /generateGeminiSpeech/);
+  assert.match(source, /generateContent/);
   assert.match(source, /function isElevenLabsConfigured\(\)/);
   assert.match(source, /if \(isGeminiConfigured\(\)\) return 'gemini'/);
   assert.match(source, /if \(isElevenLabsConfigured\(\)\) return 'elevenlabs'/);
   assert.match(source, /if \(isAzureConfigured\(\)\) return 'azure'/);
   assert.doesNotMatch(packageJson, /@elevenlabs\/elevenlabs-js/);
   assert.match(envExample, /ELEVENLABS_API_KEY=/);
+  assert.match(envExample, /GEMINI_TTS_MODEL=/);
 });
 
-test('Reading keeps browser speech as the fallback for natural TTS', () => {
+test('Reading serves only the official Supabase Storage audio', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
-  assert.match(server, /app\.post\(\s*'\/api\/tts\/reading'/);
+  assert.match(server, /app\.get\('\/api\/tts\/reading'/);
   assert.match(server, /requireAuth/);
   assert.match(server, /requirePremiumNaturalReading/);
-  assert.match(server, /max: 12/);
-  assert.match(source, /\/api\/tts\/reading/);
+  assert.doesNotMatch(server, /app\.post\(\s*'\/api\/tts\/reading'/);
+  assert.match(source, /Audio oficial de ANDERGO/);
+  assert.doesNotMatch(source, /method: 'POST',[\s\S]{0,200}\/api\/tts\/reading/);
+  assert.match(source, /reading-audio-tts-btn/);
   assert.match(source, /readingSpeechPlayer\.playReading\(\)/);
-  assert.match(source, /const preferredVoices = getReadingVoicesForLocale\(utterance\.lang\)/);
-  assert.match(source, /Google français/);
-  assert.match(source, /if \(!supportsSpeech\(\)\) return;/);
 });
 
 test('homepage visibly exposes Free and Premium without obsolete checkout configuration copy', () => {
@@ -1339,7 +1334,7 @@ test('French C2 has 12 CEFR mastery units entirely in French across all six core
     const grammar = rows.find((row) => row.skill === 'grammar');
     const wordCount = reading.content_json.reading.text.split(/\s+/).filter(Boolean).length;
     assert.ok(wordCount >= 650 && wordCount <= 950, `${unit.slug}: ${wordCount} words`);
-    assert.equal(reading.content_json.exercises.length, 5);
+    assert.equal(reading.content_json.exercises.length, 12);
     assert.equal(vocabulary.content_json.vocabulary.length, 12);
     assert.equal(vocabulary.content_json.exercises.length, 12);
     assert.equal(reading.content_json.reading.parts.length, 6);
@@ -2867,42 +2862,27 @@ test('script.js: the confirmation callback handles error params, never double-pr
   assert.match(confirmedPageBody, /function showSuccess\(email\) \{\s*\n\s*window\.history\.replaceState/);
 });
 
-test('reading audio player: play/pause/continue button cycles through the right labels', () => {
+test('reading audio player exposes only the official-audio action', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
 
   const rendered = source.match(/function renderReadingAudioPlayerHtml\(snapshot\) \{([\s\S]*?)\n\}/)?.[1];
   assert.ok(rendered, 'expected to find renderReadingAudioPlayerHtml() body');
-  // Idle/stopped/completed -> "Reproducir"; playing -> "Pausar"; paused -> "Continuar".
-  assert.match(
-    rendered,
-    /const playPauseLabel = isPlaying \? '⏸ Pausar' : isPaused \? '▶ Continuar' : '▶ Reproducir';/
-  );
-
-  const patched = source.match(/function updateReadingPlayerUI\(section, snapshot\) \{([\s\S]*?)\n\}/)?.[1];
-  assert.ok(patched, 'expected to find updateReadingPlayerUI() body');
-  assert.match(
-    patched,
-    /playPauseBtn\.textContent = isPlaying \? '⏸ Pausar' : isPaused \? '▶ Continuar' : '▶ Reproducir';/
-  );
+  assert.match(rendered, /reading-audio-natural-btn/);
+  assert.match(rendered, /▶ Escuchar audio/);
+  assert.doesNotMatch(rendered, /reading-audio-playpause-btn/);
 });
 
-test('reading audio player: markup keeps every required control (play/pause, rewind 5s, stop, voice, rate, time, progress)', () => {
+test('reading audio player: markup keeps an optional device-TTS fallback', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const rendered = source.match(/function renderReadingAudioPlayerHtml\(snapshot\) \{([\s\S]*?)^\}/m)?.[1];
   assert.ok(rendered, 'expected to find renderReadingAudioPlayerHtml() body');
 
-  for (const needle of [
-    'reading-audio-playpause-btn',
-    'reading-audio-rewind-btn',
-    'reading-audio-stop-btn',
-    'reading-audio-voice-btn',
-    'reading-audio-rate-btn',
-    'reading-audio-progress',
-    'reading-audio-time',
-    'reading-audio-percent'
-  ]) {
-    assert.ok(rendered.includes(needle), `expected reading audio player markup to keep .${needle}`);
-  }
+  assert.ok(rendered.includes('reading-audio-natural-btn'));
+  assert.ok(rendered.includes('reading-natural-audio'));
+  assert.ok(rendered.includes('reading-audio-tts-btn'));
+  assert.ok(rendered.includes('TTS opcional'));
+  assert.ok(!rendered.includes('reading-audio-playpause-btn'));
+  assert.ok(!rendered.includes('reading-audio-voice-btn'));
 });
 
 test('reading audio player: is compact (~54-66px tall on desktop, 4-5px progress bar, 36-40px buttons)', () => {
@@ -3354,7 +3334,7 @@ test('Vocabulary stays within the selected route level and exposes search, maste
   assert.match(css, /\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*repeat\(3/);
   assert.match(css, /@media \(max-width: 1180px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*repeat\(2/);
   assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*1fr/);
-  assert.match(source, /function compactLearningToolbars\([\s\S]*?isFrenchExerciseFeedbackInTargetLanguage\(learningPathState\.level\)/);
+  assert.match(source, /function compactLearningToolbars\([\s\S]*?firstBar\.replaceChildren\(primary, \.\.\.secondary\)/);
   assert.match(source, /if \(skill === 'vocabulary' && activities\.length\)[\s\S]*?renderVocabularyView\(section, catalogueLesson\)/);
 });
 
@@ -3382,7 +3362,7 @@ test('Vocabulary exposes L2 useful expressions separately and comprehension ques
   assert.match(source, /const vocabularyExercises = \(lesson\.exercises \|\| \[\]\)\.filter/);
   assert.match(source, /renderPrintableExerciseList\(vocabularyExercises/);
   assert.match(source, /function tutorReplyEndsWithQuestion/);
-  assert.match(source, /class="vocab-card-context-info"/);
+  assert.match(source, /class="vocab-card-context-target"/);
 });
 
 test('language-pair.js: vocabSynonyms/vocabOpposites are translated in spanish/english/french', () => {
@@ -3564,6 +3544,18 @@ test('Italian, Portuguese and German selectors expose PRE-A1 through B1', () => 
   assert.match(source, /function syncCourseLevelSelect\(/);
 });
 
+test('Pre-A1 TTS follows the selected target language and shared voice resolver', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const renderer = source.match(/function renderPreA1VisualCourse\([\s\S]*?function clearPreA1VisualCourse/)?.[0] || '';
+  assert.match(renderer, /const language = learningPathState\.language;/);
+  assert.doesNotMatch(renderer, /const language = learningPathState\.bridgeLanguage;/);
+  assert.match(renderer, /speakText\(text, \{/);
+  assert.match(renderer, /locale: getPronunciationLocale\(language\)/);
+  for (const phrase of ['Very good!', 'Très bien !', '¡Muy bien!', 'Molto bene!', 'Muito bem!', 'Sehr gut!']) {
+    assert.ok(source.includes(phrase), `Pre-A1 includes target-language praise: ${phrase}`);
+  }
+});
+
 test('LanguagePair.getLearningSupport(): direct mode never breaks or shows undefined/null for a word with no directSupport authored yet (spec §8 fallback)', () => {
   const bareItem = { word: 'Umbrella', translation: 'Paraguas', example: 'Take an umbrella, it might rain.' };
   const support = LanguagePair.getLearningSupport({
@@ -3702,6 +3694,12 @@ test('lesson Tests vary verb challenges while preserving four answer choices in 
       });
       assert.equal(response.status, 200, `${language} Tests are available`);
       const body = await response.json();
+      if (language === 'english') {
+        const areas = body.units[0].questions.map((question) => question.area);
+        assert.deepEqual(areas, [...Array(8).fill('Language use'), ...Array(4).fill('Reading'), ...Array(4).fill('Listening')]);
+        assert.equal(body.units[0].assessment?.framework, 'CEFR Companion Volume (2020)');
+        continue;
+      }
       const verbQuestions = body.units[0].questions.filter((question) => question.area === 'Verbs');
       assert.ok(verbQuestions.length >= 3, `${language} includes verb assessment`);
       assert.ok(new Set(verbQuestions.map((question) => question.kind)).size >= 3, `${language} rotates verb challenge types`);
@@ -3732,13 +3730,23 @@ test('every published Test has one keyed answer and unambiguous vocabulary choic
           assert.equal(questions.length, 16, `${language}/${level}/${unit.slug} has 16 questions`);
           assert.deepEqual(
             questions.map((question) => question.area),
-            [
+            language === 'english' && level === 'A1'
+              ? [...Array(8).fill('Language use'), ...Array(4).fill('Reading'), ...Array(4).fill('Listening')]
+              : ['english', 'french'].includes(language) && ['C1', 'C2'].includes(level)
+              ? [
+              ...Array(8).fill('Grammar'),
+              ...Array(2).fill('Vocabulary'),
+              ...Array(2).fill('Verbs'),
+              ...Array(2).fill('Adjectives'),
+              ...Array(2).fill('Adverbs')
+              ]
+              : [
               ...Array(7).fill('Grammar'),
               ...Array(3).fill('Vocabulary'),
               ...Array(level === 'A1' ? 3 : 2).fill('Verbs'),
               ...Array(level === 'A1' ? 3 : 2).fill('Adjectives'),
               ...(level === 'A1' ? [] : Array(2).fill('Adverbs'))
-            ],
+              ],
             `${language}/${level}/${unit.slug} keeps its assessment structure`
           );
           for (const question of questions) {
@@ -3767,7 +3775,7 @@ test('every published Test has one keyed answer and unambiguous vocabulary choic
   }
 });
 
-test('Tests require sign-in and reserve B2-C2 for Premium', async () => {
+test('Tests require sign-in and include B2-C2 in Free', async () => {
   const { server, port } = await startTestServer();
   try {
     const publicResponse = await fetch(`http://127.0.0.1:${port}/api/tests?language=english&level=A1`);
@@ -3781,9 +3789,7 @@ test('Tests require sign-in and reserve B2-C2 for Premium', async () => {
     const advancedResponse = await fetch(`http://127.0.0.1:${port}/api/tests?language=english&level=B2`, {
       headers: { Authorization: `Bearer ${session.access_token}` }
     });
-    assert.equal(advancedResponse.status, 403);
-    const body = await advancedResponse.json();
-    assert.equal(body.code, 'PREMIUM_REQUIRED');
+    assert.equal(advancedResponse.status, 200);
   } finally {
     server.close();
   }
@@ -3795,9 +3801,12 @@ test('advanced Test directions are concise while retaining their grammar and lex
       const unit = testUnits.find((candidate) => candidate.target_language === language && candidate.level === level);
       const grammarQuestions = buildLanguageLessonTest(language, level, unit.slug)
         .filter((question) => question.area === 'Grammar');
-      assert.equal(grammarQuestions.length, 7, `${language}/${level} retains seven grammar questions`);
+      const expectedGrammarQuestions =
+        ['english', 'french'].includes(language) && ['C1', 'C2'].includes(level) ? 8 : 7;
+      assert.equal(grammarQuestions.length, expectedGrammarQuestions, `${language}/${level} retains its grammar-question count`);
+      const maxPromptLength = language === 'french' && ['C1', 'C2'].includes(level) ? 180 : 90;
       for (const question of grammarQuestions) {
-        assert.ok(question.prompt.length <= 90, `${language}/${level}/${question.id} keeps directions brief`);
+        assert.ok(question.prompt.length <= maxPromptLength, `${language}/${level}/${question.id} keeps directions brief`);
         assert.equal(question.options.length, 4, `${language}/${level}/${question.id} retains four demanding choices`);
       }
       const vocabularyQuestions = buildLanguageLessonTest(language, level, unit.slug)
@@ -3998,7 +4007,7 @@ test('student journey presents practical curriculum guidance and preserves lesso
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
   assert.match(source, /class="unit-overview-sequence"/);
   assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
-  assert.match(source, /class="path-unit-journey">Viaje/);
+  assert.match(source, /class="path-unit-journey">\$\{escapeHtml\(routeText\('unit'\)\)\}/);
   assert.match(source, /class="path-unit-reward">/);
   assert.match(source, /function getUnitArtwork\(unit = \{\}\)/);
   assert.match(source, /class="path-unit-artwork path-unit-artwork--\$\{artwork\.tone\}"/);
@@ -4016,7 +4025,7 @@ test('student journey presents practical curriculum guidance and preserves lesso
   assert.doesNotMatch(source, /class="lesson-route-guide"/);
   assert.doesNotMatch(source, /<strong>Tu objetivo<\/strong>/);
   assert.doesNotMatch(source, /<strong>Al terminar podrás<\/strong>/);
-  assert.match(source, /actividades completadas en/);
+  assert.match(source, /routeText\('completedActivities'\)/);
   assert.match(css, /\.lesson-continue-card/);
   assert.match(source, /renderContinueCard\(activeLesson, \{ selected: true \}\)/);
 });
@@ -4236,11 +4245,15 @@ test('saved Reading vocabulary is Premium-only, secured in Supabase and rendered
   assert.match(premiumMigration, /grant select, insert, update, delete[\s\S]*?to service_role/i);
 });
 
-test('DeepL receives Reading context without translating or exposing it to the client', () => {
+test('DeepL receives bounded learning context and keeps glossary IDs server-side', () => {
   const translator = fs.readFileSync(path.join(__dirname, 'lib', 'translatorService.js'), 'utf8');
   const serverSource = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
-  assert.match(translator, /body\.context = String\(context\)\.trim\(\)\.slice\(0, 1000\)/);
+  assert.match(translator, /body\.context = buildLearningContext\(/);
+  assert.match(translator, /const glossaryId = sourceCode \? getGlossaryId\(sourceLanguage, targetLanguage\) : null/);
+  assert.match(translator, /if \(glossaryId\) body\.glossary_id = glossaryId/);
+  assert.match(translator, /DEEPL_GLOSSARY_ID_EN_ES/);
   assert.match(serverSource, /typeof context !== 'string' \|\| context\.length > 1000/);
+  assert.match(serverSource, /learningDomain != null/);
   assert.doesNotMatch(serverSource, /console\.(?:log|warn)\([^)]*context/);
 });
 

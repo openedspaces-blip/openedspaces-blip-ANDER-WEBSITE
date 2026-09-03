@@ -1258,11 +1258,12 @@
     "extra": {
       "grammarProfile": {
         "name": "sein, haben und Personalpronomen",
-        "definition": "Verwende sein für Identität und haben für Besitz; Personalpronomen ersetzen Namen.",
-        "structure": "Ich heiße Ana. Ich bin aus der Dominikanischen Republik.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich heiße Ana. Ich bin aus der Dominikanischen Republik."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -1734,11 +1735,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt und Zeitangaben",
-        "definition": "Verwende das Perfekt für abgeschlossene Ereignisse und Zeitangaben für die Reihenfolge.",
-        "structure": "Gestern habe ich einen Termin vereinbart.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Gestern habe ich einen Termin vereinbart."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -2213,9 +2215,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Konjunktiv II für Wünsche",
-        "definition": "Práctica guiada de Konjunktiv II für Wünsche.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -4288,102 +4290,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Vorname",
-        "translation": "nombre (de pila)",
-        "example": "Wie ist dein Vorname?"
-      },
-      {
-        "word": "der Nachname",
-        "translation": "apellido",
-        "example": "Wie ist dein Nachname?"
-      },
-      {
-        "word": "die Adresse",
-        "translation": "dirección",
-        "example": "Kann ich deine Adresse haben?"
-      },
-      {
-        "word": "die Telefonnummer",
-        "translation": "número de teléfono",
-        "example": "Ich habe deine Telefonnummer nicht."
-      },
-      {
-        "word": "die E-Mail-Adresse",
-        "translation": "correo electrónico",
-        "example": "Schreib mir deine E‑Mail‑Adresse, bitte."
-      },
-      {
-        "word": "die Stadt",
-        "translation": "ciudad",
-        "example": "In welcher Stadt wohnst du?"
-      },
-      {
-        "word": "sprechen",
-        "translation": "hablar",
-        "example": "Ich spreche ein bisschen Deutsch."
-      },
-      {
-        "word": "verstehen",
-        "translation": "entender",
-        "example": "Ich verstehe dich gut."
-      },
-      {
-        "word": "die Frage",
-        "translation": "pregunta",
-        "example": "Ich habe eine Frage."
-      },
-      {
-        "word": "antworten",
-        "translation": "responder",
-        "example": "Bitte antworte kurz."
-      },
-      {
-        "word": "freundlich",
-        "translation": "amable",
-        "example": "Die Lehrerin ist sehr freundlich."
-      },
-      {
-        "word": "kennenlernen",
-        "translation": "conocer, conocer a alguien",
-        "example": "Ich möchte dich kennenlernen."
-      },
-      {
-        "word": "Wie heißt du?",
-        "translation": "¿Cómo te llamas?",
-        "example": "Wie heißt du?",
-        "category": "expression"
-      },
-      {
-        "word": "Wie geht's?",
-        "translation": "¿Cómo estás?",
-        "example": "Wie geht's? Gut, danke.",
-        "category": "expression"
-      },
-      {
-        "word": "Freut mich",
-        "translation": "Mucho gusto",
-        "example": "Freut mich, dich kennenzulernen.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung",
-        "translation": "Perdón",
-        "example": "Entschuldigung, können Sie das wiederholen?",
-        "category": "expression"
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen? Ich suche die Straße.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich verstehe nicht",
-        "translation": "No entiendo",
-        "example": "Ich verstehe nicht, bitte langsam sprechen.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -4822,101 +4728,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Verabredung",
-        "translation": "la cita",
-        "example": "Hast du heute eine Verabredung?"
-      },
-      {
-        "word": "der Zeitplan",
-        "translation": "el horario",
-        "example": "Mein Zeitplan ist diese Woche voll."
-      },
-      {
-        "word": "die Erinnerung",
-        "translation": "el recordatorio",
-        "example": "Ich stelle die Erinnerung auf neun Uhr."
-      },
-      {
-        "word": "die Uhrzeit",
-        "translation": "la hora",
-        "example": "Welche Uhrzeit passt dir?"
-      },
-      {
-        "word": "der Morgen",
-        "translation": "la mañana",
-        "example": "Am Morgen trinke ich Kaffee."
-      },
-      {
-        "word": "der Nachmittag",
-        "translation": "la tarde",
-        "example": "Am Nachmittag habe ich Zeit."
-      },
-      {
-        "word": "die Gewohnheit",
-        "translation": "el hábito",
-        "example": "Frühes Aufstehen ist meine Gewohnheit."
-      },
-      {
-        "word": "regelmäßig",
-        "translation": "regularmente",
-        "example": "Ich übe regelmäßig Deutsch."
-      },
-      {
-        "word": "absagen",
-        "translation": "cancelar",
-        "example": "Ich muss den Termin absagen."
-      },
-      {
-        "word": "bestätigen",
-        "translation": "confirmar",
-        "example": "Bitte bestätige den Termin per E-Mail."
-      },
-      {
-        "word": "die Verspätung",
-        "translation": "el retraso",
-        "example": "Entschuldigung für die Verspätung."
-      },
-      {
-        "word": "der Terminvorschlag",
-        "translation": "la propuesta de cita",
-        "example": "Der Terminvorschlag passt mir gut."
-      },
-      {
-        "word": "die Uhr",
-        "translation": "el reloj",
-        "example": "Die Uhr zeigt zehn Uhr an."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, den Termin zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich denke, dass...",
-        "translation": "Pienso que...",
-        "example": "Ich denke, dass zehn Uhr besser ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Einverstanden",
-        "translation": "De acuerdo",
-        "example": "Einverstanden, dann treffen wir uns um drei.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher",
-        "translation": "No estoy seguro",
-        "example": "Ich bin mir nicht sicher wegen der Uhrzeit.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten wir den Termin ändern?",
-        "translation": "¿Podríamos cambiar la cita?",
-        "example": "Könnten wir den Termin auf morgen ändern?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -5355,102 +5166,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Priorität",
-        "translation": "la prioridad",
-        "example": "Die Priorität ist die Kundenzufriedenheit."
-      },
-      {
-        "word": "der Zeitplan",
-        "translation": "el cronograma",
-        "example": "Der Zeitplan wurde diese Woche aktualisiert."
-      },
-      {
-        "word": "die Planung",
-        "translation": "la planificación",
-        "example": "Die Planung dauert noch zwei Tage."
-      },
-      {
-        "word": "koordinieren",
-        "translation": "coordinar",
-        "example": "Ich koordiniere die Aufgaben im Projekt."
-      },
-      {
-        "word": "delegieren",
-        "translation": "delegar",
-        "example": "Du kannst diese Aufgabe delegieren."
-      },
-      {
-        "word": "die Aufgabe",
-        "translation": "la tarea",
-        "example": "Diese Aufgabe ist bis Freitag zu erledigen."
-      },
-      {
-        "word": "die Sitzung",
-        "translation": "la reunión",
-        "example": "Die Sitzung beginnt um neun Uhr."
-      },
-      {
-        "word": "die Strategie",
-        "translation": "la estrategia",
-        "example": "Unsere Strategie fokussiert auf Effizienz."
-      },
-      {
-        "word": "die Lösung",
-        "translation": "la solución",
-        "example": "Wir müssen eine schnelle Lösung finden."
-      },
-      {
-        "word": "der Kompromiss",
-        "translation": "el compromiso / compromiso mutuo",
-        "example": "Ein Kompromiss war notwendig für das Projekt."
-      },
-      {
-        "word": "die Ressource",
-        "translation": "el recurso",
-        "example": "Die Ressource Personal ist begrenzt."
-      },
-      {
-        "word": "effizient",
-        "translation": "eficiente",
-        "example": "Wir arbeiten effizient, um Zeit zu sparen."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, das Meeting vorzubereiten?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach sollten wir die Prioritäten ändern.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu, das ist der beste Plan.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin nicht sicher, ob...",
-        "translation": "No estoy seguro de si...",
-        "example": "Ich bin nicht sicher, ob das Budget reicht.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten wir das später besprechen?",
-        "translation": "¿Podríamos hablar de esto más tarde?",
-        "example": "Könnten wir das später besprechen, wenn alle da sind?",
-        "category": "expression"
-      },
-      {
-        "word": "Das liegt daran, dass...",
-        "translation": "Eso se debe a que...",
-        "example": "Das liegt daran, dass wir weniger Ressourcen haben.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -7913,11 +7628,12 @@
     "extra": {
       "grammarProfile": {
         "name": "möchten, bestellen und Akkusativ",
-        "definition": "Mit möchten bestellst du höflich; viele Speisen und Getränke stehen im Akkusativ.",
-        "structure": "Ich möchte einen Kaffee, bitte.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich möchte einen Kaffee, bitte."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -8389,11 +8105,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Wechselpräpositionen",
-        "definition": "in, an, auf y otras preposiciones usan acusativo para movimiento y dativo para posición.",
-        "structure": "Ich gehe in die Wohnung. Ich bin in der Wohnung.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich gehe in die Wohnung. Ich bin in der Wohnung."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -8868,9 +8585,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Relativsätze",
-        "definition": "Práctica guiada de Relativsätze.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -10943,102 +10660,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Speisekarte",
-        "translation": "el menú",
-        "example": "Kann ich die Speisekarte sehen?"
-      },
-      {
-        "word": "der Kellner",
-        "translation": "el mesero",
-        "example": "Der Kellner bringt die Getränke."
-      },
-      {
-        "word": "die Bedienung",
-        "translation": "el servicio",
-        "example": "Die Bedienung ist freundlich."
-      },
-      {
-        "word": "der Kuchen",
-        "translation": "el pastel",
-        "example": "Der Kuchen ist frisch."
-      },
-      {
-        "word": "die Tasse",
-        "translation": "la taza",
-        "example": "Die Tasse ist heiß."
-      },
-      {
-        "word": "das Glas",
-        "translation": "el vaso",
-        "example": "Das Glas ist voll."
-      },
-      {
-        "word": "die Suppe",
-        "translation": "la sopa",
-        "example": "Die Suppe ist warm."
-      },
-      {
-        "word": "das Stück",
-        "translation": "el pedazo",
-        "example": "Ein Stück Kuchen, bitte."
-      },
-      {
-        "word": "bar",
-        "translation": "en efectivo",
-        "example": "Ich zahle bar."
-      },
-      {
-        "word": "die Kreditkarte",
-        "translation": "la tarjeta de crédito",
-        "example": "Ich zahle mit der Kreditkarte."
-      },
-      {
-        "word": "der Zucker",
-        "translation": "el azúcar",
-        "example": "Ich nehme Zucker."
-      },
-      {
-        "word": "bestellen",
-        "translation": "pedir",
-        "example": "Ich bestelle einen Kaffee."
-      },
-      {
-        "word": "Entschuldigung, können Sie mir helfen?",
-        "translation": "Disculpe, ¿puede ayudarme?",
-        "example": "Entschuldigung, können Sie mir helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich hätte gern die Rechnung.",
-        "translation": "Quisiera la cuenta.",
-        "example": "Ich hätte gern die Rechnung, bitte.",
-        "category": "expression"
-      },
-      {
-        "word": "Zusammen oder getrennt?",
-        "translation": "¿Juntos o por separado?",
-        "example": "Zusammen oder getrennt?",
-        "category": "expression"
-      },
-      {
-        "word": "Das schmeckt gut.",
-        "translation": "Está rico.",
-        "example": "Das schmeckt gut.",
-        "category": "expression"
-      },
-      {
-        "word": "Kann ich bitte zahlen?",
-        "translation": "¿Puedo pagar, por favor?",
-        "example": "Kann ich bitte zahlen?",
-        "category": "expression"
-      },
-      {
-        "word": "Darf ich noch etwas bestellen?",
-        "translation": "¿Puedo pedir algo más?",
-        "example": "Darf ich noch etwas bestellen?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -11477,100 +11098,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Küche",
-        "translation": "la cocina",
-        "example": "Die Küche ist groß und hell."
-      },
-      {
-        "word": "das Schlafzimmer",
-        "translation": "el dormitorio",
-        "example": "Das Schlafzimmer hat ein großes Fenster."
-      },
-      {
-        "word": "der Balkon",
-        "translation": "el balcón",
-        "example": "Auf dem Balkon stehen zwei Pflanzen."
-      },
-      {
-        "word": "die Terrasse",
-        "translation": "la terraza",
-        "example": "Die Terrasse ist ideal zum Entspannen."
-      },
-      {
-        "word": "der Aufzug",
-        "translation": "el ascensor",
-        "example": "Im Haus gibt es einen Aufzug."
-      },
-      {
-        "word": "der Keller",
-        "translation": "el sótano",
-        "example": "Der Keller ist trocken und sauber."
-      },
-      {
-        "word": "die Heizung",
-        "translation": "la calefacción",
-        "example": "Die Heizung funktioniert gut."
-      },
-      {
-        "word": "die Nebenkosten",
-        "translation": "los gastos de servicios",
-        "example": "Die Nebenkosten sind hoch im Winter."
-      },
-      {
-        "word": "der Vertrag",
-        "translation": "el contrato",
-        "example": "Der Vertrag läuft ein Jahr."
-      },
-      {
-        "word": "renovieren",
-        "translation": "renovar",
-        "example": "Wir wollen die Küche renovieren."
-      },
-      {
-        "word": "möbliert",
-        "translation": "amueblado",
-        "example": "Die Wohnung ist komplett möbliert."
-      },
-      {
-        "word": "unmöbliert",
-        "translation": "sin amueblar",
-        "example": "Die Wohnung ist unmöbliert und günstig."
-      },
-      {
-        "word": "die Lage",
-        "translation": "la ubicación",
-        "example": "Die Lage der Wohnung ist zentral."
-      },
-      {
-        "word": "die Nachbarschaft",
-        "translation": "el vecindario",
-        "example": "Die Nachbarschaft ist freundlich."
-      },
-      {
-        "word": "Können Sie mir kurz beim Umzug helfen?",
-        "translation": "¿Puede ayudarme un momento con la mudanza?",
-        "example": "Können Sie mir kurz beim Umzug helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Was denken Sie darüber?",
-        "translation": "¿Qué piensa al respecto?",
-        "example": "Was denken Sie darüber, diese Wohnung zu nehmen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin damit einverstanden.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich bin damit einverstanden, die Möbel zu teilen.",
-        "category": "expression"
-      },
-      {
-        "word": "Könnte ich bitte mehr Informationen zur Miete bekommen?",
-        "translation": "¿Podría por favor recibir más información sobre la renta?",
-        "example": "Könnte ich bitte mehr Informationen zur Miete bekommen?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -12009,100 +11536,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Reiseführer",
-        "translation": "el guía turístico",
-        "example": "Der Reiseführer empfiehlt eine lokale Tour."
-      },
-      {
-        "word": "das Gepäck",
-        "translation": "el equipaje",
-        "example": "Ich habe nur leichtes Gepäck."
-      },
-      {
-        "word": "die Unterkunft",
-        "translation": "el alojamiento",
-        "example": "Die Unterkunft ist zentral gelegen."
-      },
-      {
-        "word": "die Reiseversicherung",
-        "translation": "el seguro de viaje",
-        "example": "Wir sollten eine Reiseversicherung abschließen."
-      },
-      {
-        "word": "die Sehenswürdigkeit",
-        "translation": "el lugar turístico",
-        "example": "Diese Sehenswürdigkeit ist sehr bekannt."
-      },
-      {
-        "word": "die Route",
-        "translation": "la ruta",
-        "example": "Die Route führt durch zwei Dörfer."
-      },
-      {
-        "word": "lokal",
-        "translation": "local",
-        "example": "Wir essen gern in lokalen Restaurants."
-      },
-      {
-        "word": "die Kosten",
-        "translation": "los costos",
-        "example": "Die Kosten sind im Angebot enthalten."
-      },
-      {
-        "word": "mieten",
-        "translation": "rentar, alquilar",
-        "example": "Wir wollen ein Fahrrad mieten."
-      },
-      {
-        "word": "sparen",
-        "translation": "ahorrar",
-        "example": "Ich spare Wasser beim Duschen."
-      },
-      {
-        "word": "verantwortungsbewusst",
-        "translation": "responsable, consciente",
-        "example": "Ich reise verantwortungsbewusst."
-      },
-      {
-        "word": "der Umweltschutz",
-        "translation": "la protección del medio ambiente",
-        "example": "Der Umweltschutz ist uns wichtig."
-      },
-      {
-        "word": "die Stornierung",
-        "translation": "la cancelación",
-        "example": "Die Stornierung kostet oft eine Gebühr."
-      },
-      {
-        "word": "die Freiwilligenarbeit",
-        "translation": "el trabajo voluntario",
-        "example": "Freiwilligenarbeit vor Ort ist bereichernd."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, diese Unterkunft zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollten wir öffentliche Verkehrsmittel nutzen.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu: weniger Plastik ist besser.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher, ob das die beste Option ist.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -14565,11 +13998,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Possessivartikel und Plural",
-        "definition": "mein/dein zeigen Zugehörigkeit; Nomen haben Singular und Plural.",
-        "structure": "Das ist meine Familie. Meine Brüder wohnen hier.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Das ist meine Familie. Meine Brüder wohnen hier."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -15041,11 +14475,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Modalverben im Präteritum",
-        "definition": "konnte, musste y wollte describen posibilidad, obligación o deseo en el pasado.",
-        "structure": "Ich musste zum Arzt gehen.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich musste zum Arzt gehen."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -15520,9 +14955,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Passiv im Präsens",
-        "definition": "Práctica guiada de Passiv im Präsens.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -17595,100 +17030,6 @@
           "Viertel · conversación",
           "Viertel · práctica"
         ]
-      },
-      {
-        "word": "die Schwester",
-        "translation": "la hermana",
-        "example": "Die Schwester hilft im Haus."
-      },
-      {
-        "word": "die Eltern",
-        "translation": "los padres",
-        "example": "Die Eltern sind zu Besuch."
-      },
-      {
-        "word": "der Sohn",
-        "translation": "el hijo",
-        "example": "Der Sohn spielt im Garten."
-      },
-      {
-        "word": "die Tochter",
-        "translation": "la hija",
-        "example": "Die Tochter malt ein Bild."
-      },
-      {
-        "word": "die Oma",
-        "translation": "la abuela",
-        "example": "Die Oma backt Kuchen."
-      },
-      {
-        "word": "der Opa",
-        "translation": "el abuelo",
-        "example": "Der Opa liest ein Buch."
-      },
-      {
-        "word": "das Haus",
-        "translation": "la casa",
-        "example": "Das Haus hat viele Fenster."
-      },
-      {
-        "word": "die Wohnung",
-        "translation": "el departamento",
-        "example": "Die Wohnung ist hell."
-      },
-      {
-        "word": "das Badezimmer",
-        "translation": "el baño",
-        "example": "Das Badezimmer ist neu."
-      },
-      {
-        "word": "das Wohnzimmer",
-        "translation": "la sala de estar",
-        "example": "Im Wohnzimmer steht ein Sofa."
-      },
-      {
-        "word": "der Garten",
-        "translation": "el jardín",
-        "example": "Der Garten hat viele Blumen."
-      },
-      {
-        "word": "der Tisch",
-        "translation": "la mesa",
-        "example": "Der Tisch ist aus Holz."
-      },
-      {
-        "word": "der Stuhl",
-        "translation": "la silla",
-        "example": "Der Stuhl ist bequem."
-      },
-      {
-        "word": "schlafen",
-        "translation": "dormir",
-        "example": "Ich schlafe gut."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich finde das schön.",
-        "translation": "Me parece bonito.",
-        "example": "Ich finde das schön.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu.",
-        "category": "expression"
-      },
-      {
-        "word": "Vielleicht später?",
-        "translation": "¿Quizás más tarde?",
-        "example": "Vielleicht später?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -18127,102 +17468,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Erkältung",
-        "translation": "el resfriado",
-        "example": "Ich habe eine Erkältung."
-      },
-      {
-        "word": "das Fieber",
-        "translation": "la fiebre",
-        "example": "Ich habe Fieber."
-      },
-      {
-        "word": "die Halsschmerzen",
-        "translation": "el dolor de garganta",
-        "example": "Ich habe Halsschmerzen."
-      },
-      {
-        "word": "der Husten",
-        "translation": "la tos",
-        "example": "Ich habe Husten."
-      },
-      {
-        "word": "die Tablette",
-        "translation": "la pastilla",
-        "example": "Nehmen Sie eine Tablette."
-      },
-      {
-        "word": "die Salbe",
-        "translation": "la pomada",
-        "example": "Ich brauche eine Salbe."
-      },
-      {
-        "word": "untersuchen",
-        "translation": "examinar",
-        "example": "Der Arzt untersucht mich."
-      },
-      {
-        "word": "verschreiben",
-        "translation": "recetar",
-        "example": "Der Arzt hat mir etwas verschrieben."
-      },
-      {
-        "word": "einnehmen",
-        "translation": "tomar (medicina)",
-        "example": "Sie müssen das Medikament dreimal täglich einnehmen."
-      },
-      {
-        "word": "die Untersuchung",
-        "translation": "el examen médico",
-        "example": "Die Untersuchung dauert kurz."
-      },
-      {
-        "word": "der Notfall",
-        "translation": "la emergencia",
-        "example": "Im Notfall rufen Sie den Notarzt."
-      },
-      {
-        "word": "die Praxis",
-        "translation": "el consultorio",
-        "example": "Die Praxis ist heute geschlossen."
-      },
-      {
-        "word": "Können Sie mir helfen?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Können Sie mir helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollten Sie sich ausruhen.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Da stimme ich zu.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher.",
-        "category": "expression"
-      },
-      {
-        "word": "Gute Besserung!",
-        "translation": "¡Que te mejores!",
-        "example": "Gute Besserung!",
-        "category": "expression"
-      },
-      {
-        "word": "Deshalb sollten Sie...",
-        "translation": "Por eso debería...",
-        "example": "Deshalb sollten Sie mehr trinken.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -18661,100 +17906,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Entspannung",
-        "translation": "la relajación",
-        "example": "Die Entspannung hilft gegen Stress."
-      },
-      {
-        "word": "der Schlaf",
-        "translation": "el sueño",
-        "example": "Der Schlaf ist wichtig für die Gesundheit."
-      },
-      {
-        "word": "die Ernährung",
-        "translation": "la alimentación",
-        "example": "Eine ausgewogene Ernährung stärkt das Immunsystem."
-      },
-      {
-        "word": "das Stressmanagement",
-        "translation": "la gestión del estrés",
-        "example": "Das Stressmanagement reduziert Beschwerden."
-      },
-      {
-        "word": "die Achtsamkeit",
-        "translation": "la atención plena",
-        "example": "Die Achtsamkeit hilft, im Moment zu bleiben."
-      },
-      {
-        "word": "reduzieren",
-        "translation": "reducir",
-        "example": "Ich möchte meinen Zuckerkonsum reduzieren."
-      },
-      {
-        "word": "regelmäßig",
-        "translation": "regularmente",
-        "example": "Ich mache regelmäßig Sport."
-      },
-      {
-        "word": "die Entlastung",
-        "translation": "el alivio",
-        "example": "Die Entlastung durch Pausen ist wichtig."
-      },
-      {
-        "word": "die Motivation",
-        "translation": "la motivación",
-        "example": "Meine Motivation für Veränderungen ist hoch."
-      },
-      {
-        "word": "die Unterstützung",
-        "translation": "el apoyo",
-        "example": "Die Unterstützung von Freunden ist wichtig."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, einen Plan zu machen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sind kleine Schritte besser.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu, regelmäßige Pausen sind notwendig.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher, ob das für mich passt.",
-        "category": "expression"
-      },
-      {
-        "word": "der Termin",
-        "translation": "la cita/turno",
-        "example": "Ich habe einen Termin beim Arzt."
-      },
-      {
-        "word": "die Verhaltensänderung",
-        "translation": "el cambio de comportamiento",
-        "example": "Die Verhaltensänderung braucht Zeit."
-      },
-      {
-        "word": "die Ursache",
-        "translation": "la causa",
-        "example": "Die Ursache von Müdigkeit kann Stress sein."
-      },
-      {
-        "word": "deshalb",
-        "translation": "por eso/por lo tanto",
-        "example": "Ich schlafe mehr, deshalb habe ich mehr Energie."
       }
     ],
     "dialogue": [],
@@ -21217,11 +20368,12 @@
     "extra": {
       "grammarProfile": {
         "name": "kein / nicht und Mengenangaben",
-        "definition": "kein verneint Nomen, nicht verneint Verben oder Eigenschaften.",
-        "structure": "Ich habe kein Brot. Das ist nicht teuer.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich habe kein Brot. Das ist nicht teuer."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -21693,11 +20845,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Nebensätze mit weil und dass",
-        "definition": "En una oración subordinada, el verbo conjugado va al final.",
-        "structure": "Ich bleibe zu Hause, weil ich krank bin.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich bleibe zu Hause, weil ich krank bin."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -22172,9 +21325,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Indirekte Fragen",
-        "definition": "Práctica guiada de Indirekte Fragen.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -24247,100 +23400,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Supermarkt",
-        "translation": "supermercado",
-        "example": "Ich kaufe im Supermarkt ein."
-      },
-      {
-        "word": "die Bäckerei",
-        "translation": "panadería",
-        "example": "Die Bäckerei ist in der Nähe."
-      },
-      {
-        "word": "das Brot",
-        "translation": "pan",
-        "example": "Ich möchte das Brot, bitte."
-      },
-      {
-        "word": "die Rechnung",
-        "translation": "la cuenta",
-        "example": "Kann ich die Rechnung bekommen?"
-      },
-      {
-        "word": "der Verkäufer",
-        "translation": "el vendedor",
-        "example": "Der Verkäufer hilft mir."
-      },
-      {
-        "word": "die Kasse",
-        "translation": "la caja",
-        "example": "Wir bezahlen an der Kasse."
-      },
-      {
-        "word": "das Angebot",
-        "translation": "oferta",
-        "example": "Das Angebot ist gut."
-      },
-      {
-        "word": "Wie viel kostet das?",
-        "translation": "¿Cuánto cuesta eso?",
-        "example": "Wie viel kostet das?",
-        "category": "expression"
-      },
-      {
-        "word": "Kann ich Ihnen helfen?",
-        "translation": "¿Puedo ayudarle?",
-        "example": "Kann ich Ihnen helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich nehme das.",
-        "translation": "Lo tomo.",
-        "example": "Ich nehme das.",
-        "category": "expression"
-      },
-      {
-        "word": "Haben Sie das?",
-        "translation": "¿Tiene eso?",
-        "example": "Haben Sie das?",
-        "category": "expression"
-      },
-      {
-        "word": "der Apfel",
-        "translation": "manzana",
-        "example": "Der Apfel ist rot."
-      },
-      {
-        "word": "die Milch",
-        "translation": "leche",
-        "example": "Die Milch steht im Regal."
-      },
-      {
-        "word": "die Tomate",
-        "translation": "tomate",
-        "example": "Ich möchte eine Tomate."
-      },
-      {
-        "word": "zahlen",
-        "translation": "pagar",
-        "example": "Wir müssen an der Kasse zahlen."
-      },
-      {
-        "word": "frisch",
-        "translation": "fresco",
-        "example": "Die Tomaten sind frisch."
-      },
-      {
-        "word": "das Kilo",
-        "translation": "el kilo",
-        "example": "Ich nehme ein Kilo Äpfel."
-      },
-      {
-        "word": "die Qualität",
-        "translation": "calidad",
-        "example": "Die Qualität ist gut."
       }
     ],
     "dialogue": [],
@@ -24779,101 +23838,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Arbeitgeber",
-        "translation": "el empleador",
-        "example": "Der Arbeitgeber hat die Stellenanzeige veröffentlicht."
-      },
-      {
-        "word": "die Firma",
-        "translation": "la empresa",
-        "example": "Die Firma sucht neue Mitarbeiter."
-      },
-      {
-        "word": "der Chef",
-        "translation": "el jefe",
-        "example": "Der Chef ist sehr freundlich."
-      },
-      {
-        "word": "der Mitarbeiter",
-        "translation": "el empleado",
-        "example": "Die Mitarbeiter arbeiten im Team."
-      },
-      {
-        "word": "die Stelle",
-        "translation": "el puesto",
-        "example": "Ich habe eine interessante Stelle gefunden."
-      },
-      {
-        "word": "arbeiten",
-        "translation": "trabajar",
-        "example": "Ich arbeite von neun bis fünf."
-      },
-      {
-        "word": "die Arbeitszeit",
-        "translation": "el horario de trabajo",
-        "example": "Die Arbeitszeit ist flexibel."
-      },
-      {
-        "word": "das Gehalt",
-        "translation": "el salario",
-        "example": "Das Gehalt wird monatlich bezahlt."
-      },
-      {
-        "word": "die Verantwortung",
-        "translation": "la responsabilidad",
-        "example": "Sie hat viel Verantwortung im Job."
-      },
-      {
-        "word": "organisieren",
-        "translation": "organizar",
-        "example": "Wir müssen das Meeting organisieren."
-      },
-      {
-        "word": "Können Sie mir helfen?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Können Sie mir helfen? Ich verstehe die Aufgabe nicht.",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach ist Weiterbildung wichtig.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Da stimme ich zu, das ist sinnvoll.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher, ob das passt.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, haben Sie einen Moment?",
-        "translation": "Disculpe, ¿tiene un momento?",
-        "example": "Entschuldigung, haben Sie einen Moment? Ich habe eine Frage.",
-        "category": "expression"
-      },
-      {
-        "word": "die Besprechung",
-        "translation": "la reunión",
-        "example": "Die Besprechung beginnt um zehn Uhr."
-      },
-      {
-        "word": "die Fortbildung",
-        "translation": "la capacitación",
-        "example": "Die Fortbildung verbessert meine Fähigkeiten."
-      },
-      {
-        "word": "pünktlich",
-        "translation": "puntual",
-        "example": "Er ist immer pünktlich zur Arbeit."
       }
     ],
     "dialogue": [],
@@ -25312,100 +24276,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Kultur",
-        "translation": "la cultura",
-        "example": "Die Kultur eines Landes prägt seine Traditionen."
-      },
-      {
-        "word": "das Medium",
-        "translation": "el medio (de comunicación)",
-        "example": "Das Medium erreicht ein großes Publikum."
-      },
-      {
-        "word": "die Presse",
-        "translation": "la prensa",
-        "example": "Die Presse berichtet täglich über Politik und Kultur."
-      },
-      {
-        "word": "der Journalist",
-        "translation": "el periodista",
-        "example": "Der Journalist recherchiert gründlich für seinen Artikel."
-      },
-      {
-        "word": "berichten",
-        "translation": "informar, reportar",
-        "example": "Lokale Zeitungen berichten über das Konzert."
-      },
-      {
-        "word": "veröffentlichen",
-        "translation": "publicar",
-        "example": "Die Redaktion wird das Interview nächste Woche veröffentlichen."
-      },
-      {
-        "word": "die Kritik",
-        "translation": "la crítica",
-        "example": "Die Kritik zum Theaterstück war überwiegend positiv."
-      },
-      {
-        "word": "kritisch",
-        "translation": "crítico/a",
-        "example": "Man sollte kritisch mit Informationen umgehen."
-      },
-      {
-        "word": "die Rezension",
-        "translation": "la reseña",
-        "example": "Ich habe eine Rezension über den neuen Roman gelesen."
-      },
-      {
-        "word": "die Sendung",
-        "translation": "el programa (de TV/radio)",
-        "example": "Die Sendung beginnt um 20 Uhr."
-      },
-      {
-        "word": "das Fernsehen",
-        "translation": "la televisión",
-        "example": "Im Fernsehen lief eine interessante Debatte."
-      },
-      {
-        "word": "abonnieren",
-        "translation": "suscribirse",
-        "example": "Viele Nutzer abonnieren Nachrichtenkanäle online."
-      },
-      {
-        "word": "die Zensur",
-        "translation": "la censura",
-        "example": "In einigen Ländern ist die Zensur sehr streng."
-      },
-      {
-        "word": "informativ",
-        "translation": "informativo/a",
-        "example": "Der Beitrag war kurz und informativ."
-      },
-      {
-        "word": "Können Sie mir helfen?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Können Sie mir helfen, die Quelle zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich denke, dass...",
-        "translation": "Creo que...",
-        "example": "Ich denke, dass kulturelle Bildung wichtig ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu.",
-        "translation": "Estoy de acuerdo con eso.",
-        "example": "Da stimme ich zu; das war ein guter Beitrag.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin mir nicht sicher, ob die Information korrekt ist.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -27868,11 +26738,12 @@
     "extra": {
       "grammarProfile": {
         "name": "können und Wegbeschreibung",
-        "definition": "können steht auf Position zwei, der Infinitiv am Satzende.",
-        "structure": "Kannst du mir helfen? Du kannst geradeaus gehen.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Kannst du mir helfen? Du kannst geradeaus gehen."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -28344,11 +27215,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt mit sein",
-        "definition": "Los verbos de movimiento o cambio suelen formar el Perfekt con sein.",
-        "structure": "Wir sind nach Berlin gefahren.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Wir sind nach Berlin gefahren."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -28823,9 +27695,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Konnektoren: obwohl, trotzdem und daher",
-        "definition": "Práctica guiada de Konnektoren: obwohl, trotzdem und daher.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -30898,100 +29770,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Supermarkt",
-        "translation": "el supermercado",
-        "example": "Der Supermarkt ist neben dem Park."
-      },
-      {
-        "word": "das Café",
-        "translation": "la cafetería",
-        "example": "Wir treffen uns im Café."
-      },
-      {
-        "word": "die Bank",
-        "translation": "el banco",
-        "example": "Die Bank ist an der Ecke."
-      },
-      {
-        "word": "die Post",
-        "translation": "la oficina de correos",
-        "example": "Ich muss zur Post gehen."
-      },
-      {
-        "word": "das Krankenhaus",
-        "translation": "el hospital",
-        "example": "Das Krankenhaus ist nicht weit."
-      },
-      {
-        "word": "die Kirche",
-        "translation": "la iglesia",
-        "example": "Die Kirche liegt am Platz."
-      },
-      {
-        "word": "der Park",
-        "translation": "el parque",
-        "example": "Der Park ist groß."
-      },
-      {
-        "word": "das Rathaus",
-        "translation": "el ayuntamiento",
-        "example": "Das Rathaus ist geschlossen."
-      },
-      {
-        "word": "die Haltestelle",
-        "translation": "la parada",
-        "example": "Die Haltestelle ist gegenüber dem Supermarkt."
-      },
-      {
-        "word": "die Ampel",
-        "translation": "el semáforo",
-        "example": "An der Ampel gehen wir geradeaus."
-      },
-      {
-        "word": "die Ecke",
-        "translation": "la esquina",
-        "example": "Treffen wir uns an der Ecke?"
-      },
-      {
-        "word": "der Platz",
-        "translation": "la plaza",
-        "example": "Der Platz ist sehr schön."
-      },
-      {
-        "word": "die Fußgängerzone",
-        "translation": "la zona peatonal",
-        "example": "In der Fußgängerzone gibt es viele Läden."
-      },
-      {
-        "word": "das Museum",
-        "translation": "el museo",
-        "example": "Das Museum ist im Stadtzentrum."
-      },
-      {
-        "word": "Entschuldigung, können Sie mir helfen?",
-        "translation": "Disculpe, ¿me puede ayudar?",
-        "example": "Entschuldigung, können Sie mir helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Wie komme ich zum Museum?",
-        "translation": "¿Cómo llego al museo?",
-        "example": "Wie komme ich zum Museum?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich glaube, das ist hier links.",
-        "translation": "Creo que está aquí a la izquierda.",
-        "example": "Ich glaube, das ist hier links.",
-        "category": "expression"
-      },
-      {
-        "word": "Das stimmt.",
-        "translation": "Eso es cierto.",
-        "example": "Das stimmt.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -31430,102 +30208,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Rucksack",
-        "translation": "la mochila",
-        "example": "Ich packe den Rucksack für die Reise."
-      },
-      {
-        "word": "das Gepäck",
-        "translation": "el equipaje",
-        "example": "Das Gepäck ist schwer."
-      },
-      {
-        "word": "die Sehenswürdigkeit",
-        "translation": "la atracción turística",
-        "example": "Wir besuchen eine Sehenswürdigkeit in der Stadt."
-      },
-      {
-        "word": "die Abfahrt",
-        "translation": "la salida (de un transporte)",
-        "example": "Die Abfahrt des Zuges ist um neun Uhr."
-      },
-      {
-        "word": "die Ankunft",
-        "translation": "la llegada",
-        "example": "Die Ankunft war spät am Abend."
-      },
-      {
-        "word": "die Fahrkarte",
-        "translation": "el boleto",
-        "example": "Ich kaufe die Fahrkarte am Schalter."
-      },
-      {
-        "word": "der Pass",
-        "translation": "el pasaporte",
-        "example": "Ich habe meinen Pass dabei."
-      },
-      {
-        "word": "buchen",
-        "translation": "reservar",
-        "example": "Ich buche das Hotel online."
-      },
-      {
-        "word": "fahren",
-        "translation": "viajar (en vehículo)",
-        "example": "Wir fahren mit dem Zug."
-      },
-      {
-        "word": "fliegen",
-        "translation": "viajar en avión",
-        "example": "Letztes Jahr bin ich mit dem Flugzeug geflogen."
-      },
-      {
-        "word": "das Abenteuer",
-        "translation": "la aventura",
-        "example": "Diese Reise war ein echtes Abenteuer."
-      },
-      {
-        "word": "das Souvenir",
-        "translation": "el recuerdo",
-        "example": "Ich kaufe ein Souvenir für meine Familie."
-      },
-      {
-        "word": "Können Sie mir helfen?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Können Sie mir helfen, den Bahnhof zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach war die Stadt sehr schön.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu",
-        "translation": "Estoy de acuerdo",
-        "example": "Ich stimme zu, das Museum war interessant.",
-        "category": "expression"
-      },
-      {
-        "word": "Vielleicht",
-        "translation": "quizás",
-        "example": "Vielleicht bleiben wir länger.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, können Sie das wiederholen?",
-        "translation": "Disculpe, ¿puede repetir eso?",
-        "example": "Entschuldigung, können Sie das bitte wiederholen?",
-        "category": "expression"
-      },
-      {
-        "word": "deshalb",
-        "translation": "por eso",
-        "example": "Ich war müde, deshalb blieb ich im Hotel.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -31964,102 +30646,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Mülltrennung",
-        "translation": "la separación de la basura",
-        "example": "Die Mülltrennung ist im Haus wichtig."
-      },
-      {
-        "word": "der Kompost",
-        "translation": "el compost",
-        "example": "Der Kompost steht hinter dem Haus."
-      },
-      {
-        "word": "die Energieeinsparung",
-        "translation": "el ahorro de energía",
-        "example": "Die Energieeinsparung reduziert die Kosten."
-      },
-      {
-        "word": "erneuerbar",
-        "translation": "renovable",
-        "example": "Wir nutzen erneuerbare Energiequellen."
-      },
-      {
-        "word": "die Luftqualität",
-        "translation": "la calidad del aire",
-        "example": "Die Luftqualität in der Stadt hat sich verbessert."
-      },
-      {
-        "word": "die Grünfläche",
-        "translation": "el área verde",
-        "example": "Die Grünfläche neben der Schule ist schön."
-      },
-      {
-        "word": "die Baumpflanzung",
-        "translation": "la plantación de árboles",
-        "example": "Die Baumpflanzung findet am Sonntag statt."
-      },
-      {
-        "word": "der Verkehr",
-        "translation": "el tráfico",
-        "example": "Der Verkehr vor dem Haus ist sehr laut."
-      },
-      {
-        "word": "der Fahrradweg",
-        "translation": "el carril bici",
-        "example": "Der Fahrradweg macht das Fahren sicherer."
-      },
-      {
-        "word": "die Solaranlage",
-        "translation": "la instalación solar",
-        "example": "Die Solaranlage auf dem Dach produziert Strom."
-      },
-      {
-        "word": "das Bewusstsein",
-        "translation": "la conciencia",
-        "example": "Das Bewusstsein für Recycling wächst im Viertel."
-      },
-      {
-        "word": "der Lärm",
-        "translation": "el ruido",
-        "example": "Der Lärm von der Straße stört die Anwohner."
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, den Müll zu trennen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach sollten wir mehr Pflanzen setzen.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu",
-        "translation": "Estoy de acuerdo",
-        "example": "Ich stimme zu, das ist eine gute Idee.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin nicht sicher",
-        "translation": "No estoy seguro/a",
-        "example": "Ich bin nicht sicher, ob die Lösung funktioniert.",
-        "category": "expression"
-      },
-      {
-        "word": "Wäre es möglich, eine Versammlung zu planen?",
-        "translation": "¿Sería posible planear una reunión?",
-        "example": "Wäre es möglich, eine Versammlung mit allen Nachbarn zu planen?",
-        "category": "expression"
-      },
-      {
-        "word": "Können wir das gemeinsam organisieren?",
-        "translation": "¿Podemos organizarlo juntos?",
-        "example": "Können wir das gemeinsam organisieren und Helfer finden?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -34522,11 +33108,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Präsens trennbarer Verben",
-        "definition": "Bei trennbaren Verben steht die Vorsilbe am Satzende.",
-        "structure": "Ich stehe um sieben Uhr auf.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich stehe um sieben Uhr auf."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -34998,11 +33585,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Dativ und Akkusativ",
-        "definition": "El dativo suele marcar a la persona y el acusativo la cosa.",
-        "structure": "Ich gebe dem Freund ein Buch.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich gebe dem Freund ein Buch."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -35477,9 +34065,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Plusquamperfekt",
-        "definition": "Práctica guiada de Plusquamperfekt.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -37552,102 +36140,6 @@
           "Frage · conversación",
           "Frage · práctica"
         ]
-      },
-      {
-        "word": "die Pause",
-        "translation": "el recreo",
-        "example": "In der Pause spielen wir Fußball."
-      },
-      {
-        "word": "das Buch",
-        "translation": "el libro",
-        "example": "Ich lese das Buch."
-      },
-      {
-        "word": "der Stift",
-        "translation": "el lápiz",
-        "example": "Der Stift ist blau."
-      },
-      {
-        "word": "die Tafel",
-        "translation": "la pizarra",
-        "example": "Die Tafel ist sauber."
-      },
-      {
-        "word": "der Computer",
-        "translation": "la computadora",
-        "example": "Der Computer ist neu."
-      },
-      {
-        "word": "die Aufgabe",
-        "translation": "la tarea",
-        "example": "Die Aufgabe ist leicht."
-      },
-      {
-        "word": "das Heft",
-        "translation": "el cuaderno",
-        "example": "Ich schreibe ins Heft."
-      },
-      {
-        "word": "der Schüler",
-        "translation": "el alumno",
-        "example": "Der Schüler hört zu."
-      },
-      {
-        "word": "schreiben",
-        "translation": "escribir",
-        "example": "Ich schreibe einen Text."
-      },
-      {
-        "word": "lesen",
-        "translation": "leer",
-        "example": "Wir lesen ein Buch."
-      },
-      {
-        "word": "fragen",
-        "translation": "preguntar",
-        "example": "Er fragt den Lehrer."
-      },
-      {
-        "word": "helfen",
-        "translation": "ayudar",
-        "example": "Ich helfe dir."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, das zu verstehen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich finde...",
-        "translation": "Yo creo que...",
-        "example": "Ich finde Mathe interessant.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin einverstanden.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich bin einverstanden mit dir.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich weiß nicht.",
-        "translation": "No sé.",
-        "example": "Ich weiß die Antwort nicht.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, darf ich etwas fragen?",
-        "translation": "Disculpa, ¿puedo preguntar algo?",
-        "example": "Entschuldigung, darf ich etwas fragen?",
-        "category": "expression"
-      },
-      {
-        "word": "Warum?",
-        "translation": "¿Por qué?",
-        "example": "Warum ist die Hausaufgabe schwer?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -38086,100 +36578,6 @@
           "Viertel · conversación",
           "Viertel · práctica"
         ]
-      },
-      {
-        "word": "der Apfel",
-        "translation": "la manzana",
-        "example": "Der Apfel ist frisch."
-      },
-      {
-        "word": "die Suppe",
-        "translation": "la sopa",
-        "example": "Die Suppe ist warm."
-      },
-      {
-        "word": "das Gemüse",
-        "translation": "las verduras",
-        "example": "Ich mag das Gemüse."
-      },
-      {
-        "word": "das Öl",
-        "translation": "el aceite",
-        "example": "Gib etwas Öl in die Pfanne."
-      },
-      {
-        "word": "der Zucker",
-        "translation": "el azúcar",
-        "example": "Zu viel Zucker ist ungesund."
-      },
-      {
-        "word": "backen",
-        "translation": "hornear",
-        "example": "Wir backen einen Kuchen."
-      },
-      {
-        "word": "braten",
-        "translation": "freír/asar",
-        "example": "Ich brate das Fleisch."
-      },
-      {
-        "word": "schneiden",
-        "translation": "cortar",
-        "example": "Schneide das Gemüse klein."
-      },
-      {
-        "word": "mischen",
-        "translation": "mezclar",
-        "example": "Mische die Zutaten."
-      },
-      {
-        "word": "servieren",
-        "translation": "servir",
-        "example": "Servieren Sie die Suppe heiß."
-      },
-      {
-        "word": "die Zubereitung",
-        "translation": "la preparación",
-        "example": "Die Zubereitung dauert 20 Minuten."
-      },
-      {
-        "word": "die Portion",
-        "translation": "la porción",
-        "example": "Eine Portion ist genug."
-      },
-      {
-        "word": "würzig",
-        "translation": "sabroso, bien sazonado",
-        "example": "Die Sauce ist sehr würzig."
-      },
-      {
-        "word": "süß",
-        "translation": "dulce",
-        "example": "Der Kuchen ist zu süß."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, das Gemüse zu schneiden?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach ist das Rezept gut.",
-        "category": "expression"
-      },
-      {
-        "word": "Das stimmt.",
-        "translation": "Es cierto.",
-        "example": "Das stimmt, das Essen ist lecker.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin mir nicht sicher, ob ich genug Zutaten habe.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -38618,102 +37016,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Geschichte",
-        "translation": "la historia",
-        "example": "Erzähl mir eine kurze Geschichte."
-      },
-      {
-        "word": "das Erlebnis",
-        "translation": "la experiencia (vivencia)",
-        "example": "Das war ein aufregendes Erlebnis."
-      },
-      {
-        "word": "das Tagebuch",
-        "translation": "el diario",
-        "example": "Sie schreibt jeden Abend in ihr Tagebuch."
-      },
-      {
-        "word": "der Ort",
-        "translation": "el lugar",
-        "example": "Der Ort weckt viele Erinnerungen."
-      },
-      {
-        "word": "die Stimmung",
-        "translation": "el ambiente",
-        "example": "Die Stimmung auf dem Fest war fröhlich."
-      },
-      {
-        "word": "die Wahrnehmung",
-        "translation": "la percepción",
-        "example": "Unsere Wahrnehmung verändert sich mit der Zeit."
-      },
-      {
-        "word": "das Foto",
-        "translation": "la foto",
-        "example": "Das Foto zeigt meine Familie."
-      },
-      {
-        "word": "das Familienfest",
-        "translation": "la reunión familiar",
-        "example": "Beim Familienfest erzählten wir alte Geschichten."
-      },
-      {
-        "word": "sich erinnern an",
-        "translation": "recordar",
-        "example": "Ich erinnere mich an den Sommer."
-      },
-      {
-        "word": "das Gespräch",
-        "translation": "la conversación",
-        "example": "Das Gespräch hat mir geholfen, vieles zu verstehen."
-      },
-      {
-        "word": "die Quelle",
-        "translation": "la fuente",
-        "example": "Das Foto ist eine wichtige Quelle."
-      },
-      {
-        "word": "die Erfahrung",
-        "translation": "la experiencia (aprendida)",
-        "example": "Aus dieser Erfahrung habe ich gelernt."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, das Foto zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollten wir die Geschichte aufschreiben.",
-        "category": "expression"
-      },
-      {
-        "word": "Das stimmt.",
-        "translation": "Eso es correcto.",
-        "example": "Das stimmt, so habe ich es auch erlebt.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin mir nicht sicher, ob das wirklich so war.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, könnten Sie das wiederholen?",
-        "translation": "Disculpe, ¿podría repetir eso?",
-        "example": "Entschuldigung, könnten Sie das wiederholen? Ich habe es nicht verstanden.",
-        "category": "expression"
-      },
-      {
-        "word": "Deshalb...",
-        "translation": "Por eso...",
-        "example": "Deshalb bewahre ich die alten Briefe auf.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -41176,11 +39478,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Akkusativartikel im Alltag",
-        "definition": "Der Akkusativ verändert den bestimmten und unbestimmten Artikel.",
-        "structure": "Ich sehe den Tisch und kaufe einen Stuhl.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich sehe den Tisch und kaufe einen Stuhl."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -41652,11 +39955,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Komparativ und Superlativ",
-        "definition": "Usa -er y am ...-sten para comparar.",
-        "structure": "Der Park ist größer als der Platz.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Der Park ist größer als der Platz."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -42131,9 +40435,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Partizipien als Adjektive",
-        "definition": "Práctica guiada de Partizipien als Adjektive.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -44206,100 +42510,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Küche",
-        "translation": "la cocina",
-        "example": "Die Küche ist sauber."
-      },
-      {
-        "word": "das Bett",
-        "translation": "la cama",
-        "example": "Das Bett ist bequem."
-      },
-      {
-        "word": "der Tisch",
-        "translation": "la mesa",
-        "example": "Der Tisch steht im Wohnzimmer."
-      },
-      {
-        "word": "die Tür",
-        "translation": "la puerta",
-        "example": "Mach bitte die Tür zu."
-      },
-      {
-        "word": "das Badezimmer",
-        "translation": "el baño",
-        "example": "Das Badezimmer ist klein."
-      },
-      {
-        "word": "die Wohnung",
-        "translation": "el departamento",
-        "example": "Meine Wohnung ist neu."
-      },
-      {
-        "word": "der Stuhl",
-        "translation": "la silla",
-        "example": "Der Stuhl ist kaputt."
-      },
-      {
-        "word": "das Fenster",
-        "translation": "la ventana",
-        "example": "Bitte öffne das Fenster."
-      },
-      {
-        "word": "aufräumen",
-        "translation": "ordenar",
-        "example": "Ich räume mein Zimmer auf."
-      },
-      {
-        "word": "putzen",
-        "translation": "limpiar",
-        "example": "Ich putze die Küche."
-      },
-      {
-        "word": "waschen",
-        "translation": "lavar",
-        "example": "Ich wasche die Wäsche."
-      },
-      {
-        "word": "duschen",
-        "translation": "ducharse",
-        "example": "Ich dusche morgens."
-      },
-      {
-        "word": "Zähne putzen",
-        "translation": "cepillarse los dientes",
-        "example": "Ich putze mir die Zähne."
-      },
-      {
-        "word": "fernsehen",
-        "translation": "ver televisión",
-        "example": "Am Abend sehe ich fern."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme dir zu.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin nicht sicher.",
-        "category": "expression"
-      },
-      {
-        "word": "Danke schön.",
-        "translation": "Muchas gracias.",
-        "example": "Danke schön!",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -44738,102 +42948,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Natur",
-        "translation": "la naturaleza",
-        "example": "Die Natur ist wichtig für unsere Gesundheit."
-      },
-      {
-        "word": "das Wasser",
-        "translation": "el agua",
-        "example": "Das Wasser im See ist klar."
-      },
-      {
-        "word": "die Luft",
-        "translation": "el aire",
-        "example": "Die Luft in der Stadt ist oft verschmutzt."
-      },
-      {
-        "word": "der Wald",
-        "translation": "el bosque",
-        "example": "Im Wald hört man viele Vögel."
-      },
-      {
-        "word": "das Recycling",
-        "translation": "el reciclaje",
-        "example": "Das Recycling spart Ressourcen."
-      },
-      {
-        "word": "recyceln",
-        "translation": "reciclar",
-        "example": "Wir recyceln Glas und Papier."
-      },
-      {
-        "word": "kompostieren",
-        "translation": "compostar",
-        "example": "Wir kompostieren Küchenabfälle."
-      },
-      {
-        "word": "die Solarenergie",
-        "translation": "la energía solar",
-        "example": "Die Solarenergie kommt von der Sonne."
-      },
-      {
-        "word": "nachhaltig",
-        "translation": "sostenible",
-        "example": "Nachhaltig leben ist gut für die Zukunft."
-      },
-      {
-        "word": "vermeiden",
-        "translation": "evitar",
-        "example": "Ich versuche, Einwegplastik zu vermeiden."
-      },
-      {
-        "word": "der Verbrauch",
-        "translation": "el consumo",
-        "example": "Der Verbrauch von Wasser steigt im Sommer."
-      },
-      {
-        "word": "die öffentlichen Verkehrsmittel",
-        "translation": "el transporte público",
-        "example": "Ich fahre mit den öffentlichen Verkehrsmitteln zur Arbeit."
-      },
-      {
-        "word": "Können Sie mir helfen?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Können Sie mir beim Recycling helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach sollten wir weniger Plastik verwenden.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu, das ist eine gute Idee.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin nicht sicher, ob das Plastik recycelbar ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, darf ich fragen?",
-        "translation": "Disculpe, ¿puedo preguntar?",
-        "example": "Entschuldigung, darf ich fragen, wo die Sammelstelle ist?",
-        "category": "expression"
-      },
-      {
-        "word": "Wegen der Umwelt...",
-        "translation": "Por el bien del medio ambiente...",
-        "example": "Wegen der Umwelt benutze ich eine wiederverwendbare Flasche.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -45272,101 +43386,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "das Team",
-        "translation": "el equipo",
-        "example": "Das Team trifft sich morgen."
-      },
-      {
-        "word": "der Zeitplan",
-        "translation": "el cronograma",
-        "example": "Wir müssen den Zeitplan anpassen."
-      },
-      {
-        "word": "die Frist",
-        "translation": "la fecha límite",
-        "example": "Die Frist endet nächste Woche."
-      },
-      {
-        "word": "der Fortschritt",
-        "translation": "el progreso",
-        "example": "Wir besprechen den Fortschritt regelmäßig."
-      },
-      {
-        "word": "die Rolle",
-        "translation": "el rol",
-        "example": "Jede Person hat eine Rolle im Projekt."
-      },
-      {
-        "word": "zuordnen",
-        "translation": "asignar",
-        "example": "Wir ordnen die Aufgaben zu."
-      },
-      {
-        "word": "abstimmen",
-        "translation": "votar",
-        "example": "Wir stimmen über den Vorschlag ab."
-      },
-      {
-        "word": "der Vorschlag",
-        "translation": "la propuesta",
-        "example": "Ich habe einen Vorschlag für die Struktur."
-      },
-      {
-        "word": "die Priorität",
-        "translation": "la prioridad",
-        "example": "Die Priorität ist die wichtigste Aufgabe."
-      },
-      {
-        "word": "koordinieren",
-        "translation": "coordinar",
-        "example": "Wer koordiniert das Projekt?"
-      },
-      {
-        "word": "das Treffen",
-        "translation": "la reunión",
-        "example": "Das Treffen beginnt um zehn Uhr."
-      },
-      {
-        "word": "die Rückmeldung",
-        "translation": "la retroalimentación",
-        "example": "Ich brauche eine Rückmeldung bis Freitag."
-      },
-      {
-        "word": "beraten",
-        "translation": "consultar/discutir",
-        "example": "Wir beraten das weitere Vorgehen."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen mit der Präsentation?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach ist das eine gute Idee.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin einverstanden",
-        "translation": "Estoy de acuerdo",
-        "example": "Ich bin einverstanden mit dem Plan.",
-        "category": "expression"
-      },
-      {
-        "word": "Hast du einen Vorschlag?",
-        "translation": "¿Tienes alguna propuesta?",
-        "example": "Hast du einen Vorschlag für die Aufgabenverteilung?",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, darf ich etwas sagen?",
-        "translation": "Disculpa, ¿puedo decir algo?",
-        "example": "Entschuldigung, darf ich etwas sagen zum Ablauf?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -47829,11 +45848,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Wetter, es gibt und Zeitangaben",
-        "definition": "Es gibt nennt etwas Vorhandenes; Zeitangaben strukturieren den Satz.",
-        "structure": "Heute gibt es Regen. Im Sommer ist es warm.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Heute gibt es Regen. Im Sommer ist es warm."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -48305,11 +46325,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Reflexive Verben",
-        "definition": "Los verbos reflexivos se usan con mich, dich, sich, uns o euch.",
-        "structure": "Ich interessiere mich für Musik.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich interessiere mich für Musik."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -48784,9 +46805,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Meinung und Argumentation",
-        "definition": "Práctica guiada de Meinung und Argumentation.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -50859,102 +48880,6 @@
           "Viertel · conversación",
           "Viertel · práctica"
         ]
-      },
-      {
-        "word": "der Wind",
-        "translation": "el viento",
-        "example": "Der Wind ist heute stark."
-      },
-      {
-        "word": "die Wolke",
-        "translation": "la nube",
-        "example": "Die Wolke ist dunkel."
-      },
-      {
-        "word": "der Schnee",
-        "translation": "la nieve",
-        "example": "Der Schnee liegt auf den Straßen."
-      },
-      {
-        "word": "der Herbst",
-        "translation": "el otoño",
-        "example": "Im Herbst wird es kühler."
-      },
-      {
-        "word": "der Frühling",
-        "translation": "la primavera",
-        "example": "Im Frühling blühen viele Blumen."
-      },
-      {
-        "word": "die Temperatur",
-        "translation": "la temperatura",
-        "example": "Die Temperatur ist niedrig."
-      },
-      {
-        "word": "der Regenschirm",
-        "translation": "el paraguas",
-        "example": "Nimm den Regenschirm mit."
-      },
-      {
-        "word": "die Mütze",
-        "translation": "el gorro",
-        "example": "Sie trägt eine warme Mütze."
-      },
-      {
-        "word": "die Handschuhe",
-        "translation": "los guantes",
-        "example": "Ich finde meine Handschuhe nicht."
-      },
-      {
-        "word": "die Stiefel",
-        "translation": "las botas",
-        "example": "Die Stiefel sind nass."
-      },
-      {
-        "word": "das T-Shirt",
-        "translation": "la camiseta",
-        "example": "Er trägt ein neues T-Shirt."
-      },
-      {
-        "word": "wolkig",
-        "translation": "nublado",
-        "example": "Der Himmel ist heute wolkig."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich finde das Wetter schön.",
-        "translation": "Me parece bonito el clima.",
-        "example": "Ich finde das Wetter heute schön.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher, ob es regnet.",
-        "category": "expression"
-      },
-      {
-        "word": "Bitte",
-        "translation": "por favor",
-        "example": "Bitte, nimm den Regenschirm.",
-        "category": "expression"
-      },
-      {
-        "word": "Kein Problem.",
-        "translation": "No hay problema.",
-        "example": "Kein Problem, ich helfe dir.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -51393,101 +49318,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "das Fernsehen",
-        "translation": "la televisión",
-        "example": "Ich sehe abends das Fernsehen."
-      },
-      {
-        "word": "der Artikel",
-        "translation": "el artículo",
-        "example": "Der Artikel ist interessant."
-      },
-      {
-        "word": "die Sendung",
-        "translation": "el programa",
-        "example": "Die Sendung beginnt um acht."
-      },
-      {
-        "word": "das Radio",
-        "translation": "la radio",
-        "example": "Ich höre morgens das Radio."
-      },
-      {
-        "word": "das Video",
-        "translation": "el video",
-        "example": "Das Video ist kurz."
-      },
-      {
-        "word": "der Bericht",
-        "translation": "el informe",
-        "example": "Der Bericht ist sachlich."
-      },
-      {
-        "word": "die Schlagzeile",
-        "translation": "el titular",
-        "example": "Die Schlagzeile ist wichtig."
-      },
-      {
-        "word": "die Quelle",
-        "translation": "la fuente",
-        "example": "Die Quelle ist zuverlässig."
-      },
-      {
-        "word": "das Interview",
-        "translation": "la entrevista",
-        "example": "Das Interview ist interessant."
-      },
-      {
-        "word": "der Journalist",
-        "translation": "el periodista",
-        "example": "Der Journalist stellt viele Fragen."
-      },
-      {
-        "word": "teilen",
-        "translation": "compartir",
-        "example": "Ich teile den Link mit dir."
-      },
-      {
-        "word": "abonnieren",
-        "translation": "suscribirse",
-        "example": "Ich habe den Kanal abonniert."
-      },
-      {
-        "word": "kommentieren",
-        "translation": "comentar",
-        "example": "Viele Leute kommentieren den Beitrag."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen? Ich finde den Artikel nicht.",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach ist die Sendung gut.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme dir zu",
-        "translation": "Estoy de acuerdo contigo",
-        "example": "Ich stimme dir zu, das ist wichtig.",
-        "category": "expression"
-      },
-      {
-        "word": "Wirklich?",
-        "translation": "¿De verdad?",
-        "example": "Wirklich? Das wusste ich nicht.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, können Sie das wiederholen?",
-        "translation": "Disculpe, ¿puede repetir eso?",
-        "example": "Entschuldigung, können Sie das wiederholen? Ich habe es nicht verstanden.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -51926,100 +49756,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Computer",
-        "translation": "la computadora",
-        "example": "Der Computer startet schnell."
-      },
-      {
-        "word": "das Smartphone",
-        "translation": "el teléfono inteligente",
-        "example": "Viele Menschen benutzen heute ein Smartphone."
-      },
-      {
-        "word": "die Batterie",
-        "translation": "la batería",
-        "example": "Die Batterie hält nicht lange."
-      },
-      {
-        "word": "der Akku",
-        "translation": "la batería recargable",
-        "example": "Der Akku ist nach zwei Stunden voll."
-      },
-      {
-        "word": "aktualisieren",
-        "translation": "actualizar",
-        "example": "Bitte aktualisiere die App."
-      },
-      {
-        "word": "die Einstellung",
-        "translation": "la configuración",
-        "example": "Die Einstellung ist zu kompliziert."
-      },
-      {
-        "word": "synchronisieren",
-        "translation": "sincronizar",
-        "example": "Ich synchronisiere meine Daten mit der Cloud."
-      },
-      {
-        "word": "die Privatsphäre",
-        "translation": "la privacidad",
-        "example": "Die App respektiert die Privatsphäre der Nutzer."
-      },
-      {
-        "word": "die Sicherheit",
-        "translation": "la seguridad",
-        "example": "Die Sicherheit der Daten ist entscheidend."
-      },
-      {
-        "word": "nachhaltig",
-        "translation": "sostenible",
-        "example": "Wir sollten nachhaltige Geräte wählen."
-      },
-      {
-        "word": "effizient",
-        "translation": "eficiente",
-        "example": "Ein effizienter Stromverbrauch spart Geld."
-      },
-      {
-        "word": "die Bedienung",
-        "translation": "el manejo, la operación",
-        "example": "Die Bedienung des Geräts ist einfach."
-      },
-      {
-        "word": "die Kosten",
-        "translation": "los costos",
-        "example": "Die Kosten für Reparaturen sind hoch."
-      },
-      {
-        "word": "die Folge",
-        "translation": "la consecuencia",
-        "example": "Eine schlechte Sicherung hat ernste Folgen."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, das Gerät einzurichten?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach ist diese Technik nützlich.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich ganz deiner Meinung.",
-        "translation": "Estoy totalmente de acuerdo contigo.",
-        "example": "Da bin ich ganz deiner Meinung: Sicherheit geht vor.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin nicht sicher, ob...",
-        "translation": "No estoy seguro de si...",
-        "example": "Ich bin nicht sicher, ob wir das neue System brauchen.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -54482,11 +52218,12 @@
     "extra": {
       "grammarProfile": {
         "name": "gern, lieber und Freizeit",
-        "definition": "gern und lieber drücken Vorlieben aus.",
-        "structure": "Ich lese gern, aber ich spiele lieber Fußball.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich lese gern, aber ich spiele lieber Fußball."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -54958,11 +52695,12 @@
     "extra": {
       "grammarProfile": {
         "name": "zu + Infinitiv",
-        "definition": "zu + infinitivo expresa intención, plan o necesidad.",
-        "structure": "Ich versuche, jeden Tag zu üben.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich versuche, jeden Tag zu üben."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -55437,9 +53175,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Futur I und Vermutungen",
-        "definition": "Práctica guiada de Futur I und Vermutungen.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -57512,102 +55250,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "das Konzert",
-        "translation": "el concierto",
-        "example": "Wir gehen morgen ins Konzert."
-      },
-      {
-        "word": "die Musik",
-        "translation": "la música",
-        "example": "Ich höre gern Musik."
-      },
-      {
-        "word": "tanzen",
-        "translation": "bailar",
-        "example": "Wir tanzen am Abend."
-      },
-      {
-        "word": "das Buch",
-        "translation": "el libro",
-        "example": "Das Buch ist interessant."
-      },
-      {
-        "word": "malen",
-        "translation": "pintar",
-        "example": "Sie malt ein Bild."
-      },
-      {
-        "word": "fotografieren",
-        "translation": "tomar fotos",
-        "example": "Er fotografiert die Stadt."
-      },
-      {
-        "word": "der Freund",
-        "translation": "el amigo",
-        "example": "Mein Freund spielt Gitarre."
-      },
-      {
-        "word": "die Gitarre",
-        "translation": "la guitarra",
-        "example": "Sie spielt die Gitarre."
-      },
-      {
-        "word": "spielen",
-        "translation": "jugar/tocar",
-        "example": "Die Kinder spielen im Park."
-      },
-      {
-        "word": "wandern",
-        "translation": "hacer senderismo",
-        "example": "Wir wandern am Berg."
-      },
-      {
-        "word": "das Fahrrad",
-        "translation": "la bicicleta",
-        "example": "Er fährt mit dem Fahrrad."
-      },
-      {
-        "word": "schwimmen",
-        "translation": "nadar",
-        "example": "Im Sommer schwimme ich im See."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir beim Spiel helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich finde das toll.",
-        "translation": "Me parece genial.",
-        "example": "Ich finde das toll, dass du tanzt.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu, das ist eine gute Idee.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin nicht sicher, ob ich komme.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, darf ich mitmachen?",
-        "translation": "Disculpa, ¿puedo participar?",
-        "example": "Entschuldigung, darf ich mitmachen?",
-        "category": "expression"
-      },
-      {
-        "word": "Was machst du gern?",
-        "translation": "¿Qué te gusta hacer?",
-        "example": "Was machst du gern am Wochenende?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -58046,102 +55688,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Plan",
-        "translation": "el plan",
-        "example": "Der Plan hilft mir, regelmäßig zu lernen."
-      },
-      {
-        "word": "die Aufgabe",
-        "translation": "la tarea",
-        "example": "Die Aufgabe war interessant und kurz."
-      },
-      {
-        "word": "das Zielniveau",
-        "translation": "el nivel objetivo",
-        "example": "Ich möchte das Zielniveau B1 erreichen."
-      },
-      {
-        "word": "der Zeitplan",
-        "translation": "el horario",
-        "example": "Der Zeitplan zeigt, wann ich lerne."
-      },
-      {
-        "word": "die Motivation",
-        "translation": "la motivación",
-        "example": "Meine Motivation steigt, wenn ich Fortschritte sehe."
-      },
-      {
-        "word": "die Wiederholung",
-        "translation": "la repetición",
-        "example": "Die Wiederholung hilft mir, Wörter zu behalten."
-      },
-      {
-        "word": "die Pause",
-        "translation": "la pausa",
-        "example": "Ich mache eine kurze Pause nach 45 Minuten."
-      },
-      {
-        "word": "die Notiz",
-        "translation": "la nota",
-        "example": "Ich schreibe eine Notiz zu neuen Verben."
-      },
-      {
-        "word": "planen",
-        "translation": "planear",
-        "example": "Ich plane meine Lernzeit jeden Abend."
-      },
-      {
-        "word": "wiederholen",
-        "translation": "repasar",
-        "example": "Ich wiederhole die Grammatik jeden Tag."
-      },
-      {
-        "word": "merken",
-        "translation": "memorizar",
-        "example": "Ich merke mir neue Wörter mit Karteikarten."
-      },
-      {
-        "word": "sich konzentrieren",
-        "translation": "concentrarse",
-        "example": "Ich kann mich besser konzentrieren, wenn es ruhig ist."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir beim Üben helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach ist tägliches Lernen besser.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin nicht sicher",
-        "translation": "No estoy seguro/a",
-        "example": "Ich bin nicht sicher, ob die Antwort richtig ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Das ist eine gute Idee",
-        "translation": "Es una buena idea",
-        "example": "Das ist eine gute Idee: jeden Tag zehn Minuten lesen.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, können Sie das wiederholen?",
-        "translation": "Disculpe, ¿puede repetir eso?",
-        "example": "Entschuldigung, können Sie das bitte wiederholen?",
-        "category": "expression"
-      },
-      {
-        "word": "Deshalb",
-        "translation": "por eso",
-        "example": "Ich habe viel gelernt, deshalb habe ich die Prüfung bestanden.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -58580,102 +56126,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Haltestelle",
-        "translation": "la parada (de transporte)",
-        "example": "Die Haltestelle ist nur zwei Minuten entfernt."
-      },
-      {
-        "word": "die U-Bahn",
-        "translation": "el metro",
-        "example": "Die U-Bahn kommt alle zehn Minuten."
-      },
-      {
-        "word": "der Fahrplan",
-        "translation": "el horario",
-        "example": "Der Fahrplan ist online verfügbar."
-      },
-      {
-        "word": "die Fahrkarte",
-        "translation": "el boleto",
-        "example": "Ich kaufe die Fahrkarte am Automaten."
-      },
-      {
-        "word": "der Radweg",
-        "translation": "la ciclovía",
-        "example": "Der Radweg ist gut ausgebaut."
-      },
-      {
-        "word": "das Carsharing",
-        "translation": "autos compartidos",
-        "example": "Das Carsharing ist in unserer Stadt beliebt."
-      },
-      {
-        "word": "der Parkplatz",
-        "translation": "el estacionamiento",
-        "example": "Der Parkplatz ist oft voll."
-      },
-      {
-        "word": "das Elektroauto",
-        "translation": "el auto eléctrico",
-        "example": "Das Elektroauto reduziert die Emissionen."
-      },
-      {
-        "word": "umweltfreundlich",
-        "translation": "ecológico",
-        "example": "Die neue Buslinie ist umweltfreundlich."
-      },
-      {
-        "word": "die Fußgängerzone",
-        "translation": "la zona peatonal",
-        "example": "In der Fußgängerzone gibt es viele Cafés."
-      },
-      {
-        "word": "die Emissionen",
-        "translation": "las emisiones",
-        "example": "Die Emissionen werden Schritt für Schritt reduziert."
-      },
-      {
-        "word": "die Verkehrsplanung",
-        "translation": "la planificación del tráfico",
-        "example": "Die Verkehrsplanung berücksichtigt Fahrradwege."
-      },
-      {
-        "word": "Können Sie mir helfen?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Können Sie mir helfen? Ich suche die nächste Haltestelle.",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach sind öffentliche Verkehrsmittel wichtig.",
-        "translation": "En mi opinión, el transporte público es importante.",
-        "example": "Meiner Meinung nach sind öffentliche Verkehrsmittel wichtig.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich einverstanden.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Da bin ich einverstanden — die Fahrradwege sollten erweitert werden.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin mir nicht sicher, ob das die schnellste Strecke ist.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, wie komme ich zur Haltestelle?",
-        "translation": "Disculpe, ¿cómo llego a la parada?",
-        "example": "Entschuldigung, wie komme ich zur Haltestelle?",
-        "category": "expression"
-      },
-      {
-        "word": "Deshalb fahre ich früher.",
-        "translation": "Por eso salgo más temprano.",
-        "example": "Deshalb fahre ich früher, um Staus zu vermeiden.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -61138,11 +58588,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt mit haben",
-        "definition": "Das Perfekt bildet man mit haben und Partizip II.",
-        "structure": "Ich habe ein Ticket gekauft.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich habe ein Ticket gekauft."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -61614,11 +59065,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Konjunktiv II: höfliche Bitten",
-        "definition": "würde, könnte y hätte hacen las peticiones más corteses.",
-        "structure": "Könnten Sie mir bitte helfen?",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Könnten Sie mir bitte helfen?"
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -62093,9 +59545,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Verben mit Präpositionen",
-        "definition": "Práctica guiada de Verben mit Präpositionen.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -64168,101 +61620,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Bus",
-        "translation": "el autobús",
-        "example": "Der Bus kommt in zehn Minuten."
-      },
-      {
-        "word": "die Haltestelle",
-        "translation": "la parada",
-        "example": "Die Haltestelle ist hier."
-      },
-      {
-        "word": "der Flughafen",
-        "translation": "el aeropuerto",
-        "example": "Der Flughafen ist groß."
-      },
-      {
-        "word": "der Flug",
-        "translation": "el vuelo",
-        "example": "Der Flug dauert zwei Stunden."
-      },
-      {
-        "word": "buchen",
-        "translation": "reservar",
-        "example": "Ich buche ein Hotel."
-      },
-      {
-        "word": "umsteigen",
-        "translation": "hacer transbordo",
-        "example": "Ich muss umsteigen."
-      },
-      {
-        "word": "der Fahrplan",
-        "translation": "el horario",
-        "example": "Der Fahrplan ist wichtig."
-      },
-      {
-        "word": "die Plattform",
-        "translation": "el andén",
-        "example": "Die Plattform ist Nummer drei."
-      },
-      {
-        "word": "der Platz",
-        "translation": "el asiento",
-        "example": "Ich suche meinen Platz."
-      },
-      {
-        "word": "der Pass",
-        "translation": "el pasaporte",
-        "example": "Ich habe meinen Pass."
-      },
-      {
-        "word": "die Adresse",
-        "translation": "la dirección",
-        "example": "Hast du die Adresse?"
-      },
-      {
-        "word": "spät",
-        "translation": "tarde",
-        "example": "Ich bin spät."
-      },
-      {
-        "word": "früh",
-        "translation": "temprano",
-        "example": "Wir müssen früh los."
-      },
-      {
-        "word": "Können Sie mir helfen?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Können Sie mir helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Wie viel kostet das?",
-        "translation": "¿Cuánto cuesta esto?",
-        "example": "Wie viel kostet das?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe eine Frage.",
-        "translation": "Tengo una pregunta.",
-        "example": "Ich habe eine Frage.",
-        "category": "expression"
-      },
-      {
-        "word": "Einverstanden.",
-        "translation": "De acuerdo.",
-        "example": "Einverstanden.",
-        "category": "expression"
-      },
-      {
-        "word": "Danke schön.",
-        "translation": "Muchas gracias.",
-        "example": "Danke schön.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -64701,102 +62058,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Behörde",
-        "translation": "la autoridad (oficina administrativa)",
-        "example": "Ich rufe die Behörde an."
-      },
-      {
-        "word": "der Antrag",
-        "translation": "la solicitud",
-        "example": "Ich fülle den Antrag aus."
-      },
-      {
-        "word": "die Öffnungszeiten",
-        "translation": "el horario de atención",
-        "example": "Die Öffnungszeiten sind von neun bis fünf."
-      },
-      {
-        "word": "der Schalter",
-        "translation": "la ventanilla / el mostrador",
-        "example": "Am Schalter frage ich nach Informationen."
-      },
-      {
-        "word": "die Warteschlange",
-        "translation": "la fila",
-        "example": "Die Warteschlange ist sehr lang."
-      },
-      {
-        "word": "verspäten",
-        "translation": "llegar tarde / retrasarse",
-        "example": "Der Bus verspätet sich."
-      },
-      {
-        "word": "die Reparatur",
-        "translation": "la reparación",
-        "example": "Die Reparatur dauert zwei Tage."
-      },
-      {
-        "word": "die Rechnung",
-        "translation": "la factura",
-        "example": "Ich bezahle die Rechnung."
-      },
-      {
-        "word": "der Handwerker",
-        "translation": "el técnico / el reparador",
-        "example": "Der Handwerker kommt morgen."
-      },
-      {
-        "word": "die Beschwerde",
-        "translation": "la queja",
-        "example": "Ich habe eine Beschwerde."
-      },
-      {
-        "word": "die öffentlichen Verkehrsmittel",
-        "translation": "el transporte público",
-        "example": "Die öffentlichen Verkehrsmittel sind praktisch."
-      },
-      {
-        "word": "die Fahrkarte",
-        "translation": "el boleto / el pasaje",
-        "example": "Ich kaufe eine Fahrkarte."
-      },
-      {
-        "word": "Können Sie mir helfen?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Können Sie mir helfen, bitte?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich habe eine Frage.",
-        "translation": "Tengo una pregunta.",
-        "example": "Entschuldigung, ich habe eine Frage.",
-        "category": "expression"
-      },
-      {
-        "word": "Wie komme ich zum Bahnhof?",
-        "translation": "¿Cómo llego a la estación?",
-        "example": "Wie komme ich zum Bahnhof?",
-        "category": "expression"
-      },
-      {
-        "word": "Vielen Dank für Ihre Hilfe.",
-        "translation": "Muchas gracias por su ayuda.",
-        "example": "Vielen Dank für Ihre Hilfe.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher.",
-        "category": "expression"
-      },
-      {
-        "word": "Kann ich mit Karte bezahlen?",
-        "translation": "¿Puedo pagar con tarjeta?",
-        "example": "Kann ich mit Karte bezahlen?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -65235,100 +62496,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Plan",
-        "translation": "el plan",
-        "example": "Ich habe einen Plan für nächstes Jahr."
-      },
-      {
-        "word": "die Chance",
-        "translation": "la oportunidad",
-        "example": "Diese Stelle ist eine gute Chance für meine Karriere."
-      },
-      {
-        "word": "das Risiko",
-        "translation": "el riesgo",
-        "example": "Das Risiko ist hoch, aber es lohnt sich."
-      },
-      {
-        "word": "die Perspektive",
-        "translation": "la perspectiva",
-        "example": "Die Perspektive auf dem Arbeitsmarkt ist positiv."
-      },
-      {
-        "word": "der Traum",
-        "translation": "el sueño",
-        "example": "Mein Traum ist, im Ausland zu studieren."
-      },
-      {
-        "word": "sparen",
-        "translation": "ahorrar",
-        "example": "Ich spare Geld für ein Auslandssemester."
-      },
-      {
-        "word": "planen",
-        "translation": "planear",
-        "example": "Wir planen eine Reise nach Deutschland."
-      },
-      {
-        "word": "vorbereiten",
-        "translation": "preparar",
-        "example": "Ich bereite mich auf das Bewerbungsgespräch vor."
-      },
-      {
-        "word": "die Priorität",
-        "translation": "la prioridad",
-        "example": "Die Familie hat für mich große Priorität."
-      },
-      {
-        "word": "flexibel",
-        "translation": "flexible",
-        "example": "Ich bin flexibel bei den Arbeitszeiten."
-      },
-      {
-        "word": "die Frist",
-        "translation": "la fecha límite",
-        "example": "Die Frist für die Bewerbung ist nächsten Monat."
-      },
-      {
-        "word": "der Erfolg",
-        "translation": "el éxito",
-        "example": "Harte Arbeit führt oft zum Erfolg."
-      },
-      {
-        "word": "der Rat",
-        "translation": "el consejo",
-        "example": "Kannst du mir einen Rat geben?"
-      },
-      {
-        "word": "Könntest du mir helfen?",
-        "translation": "¿Podrías ayudarme?",
-        "example": "Könntest du mir beim Bewerbungsschreiben helfen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "en mi opinión",
-        "example": "Meiner Meinung nach ist Weiterbildung wichtig.",
-        "category": "expression"
-      },
-      {
-        "word": "Da stimme ich zu",
-        "translation": "estoy de acuerdo",
-        "example": "Da stimme ich zu, das ist eine gute Idee.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher",
-        "translation": "no estoy seguro/a",
-        "example": "Ich bin mir nicht sicher, ob ich den Job annehmen soll.",
-        "category": "expression"
-      },
-      {
-        "word": "die Alternative",
-        "translation": "la alternativa",
-        "example": "Als Alternative könnten wir ein Praktikum machen."
       }
     ],
     "dialogue": [],
@@ -67791,11 +64958,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Adjektive und Farben",
-        "definition": "Adjektive beschreiben Nomen und folgen häufig dem Nomen.",
-        "structure": "Das blaue Hemd ist schön.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Das blaue Hemd ist schön."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -68267,11 +65435,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt y conectores de secuencia",
-        "definition": "Primero, después y al final organizan una historia en pasado.",
-        "structure": "Zuerst haben wir gegessen, dann haben wir gefeiert.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Zuerst haben wir gegessen, dann haben wir gefeiert."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -68746,9 +65915,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Beziehungen: Relativsätze und indirekte Fragen",
-        "definition": "Práctica guiada de Beziehungen: Relativsätze und indirekte Fragen.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -70821,102 +67990,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Jacke",
-        "translation": "la chaqueta",
-        "example": "Die Jacke ist warm."
-      },
-      {
-        "word": "der Mantel",
-        "translation": "el abrigo",
-        "example": "Der Mantel ist lang."
-      },
-      {
-        "word": "die Schuhe",
-        "translation": "los zapatos",
-        "example": "Die Schuhe sind neu."
-      },
-      {
-        "word": "die Socken",
-        "translation": "los calcetines",
-        "example": "Die Socken sind bunt."
-      },
-      {
-        "word": "der Hut",
-        "translation": "el sombrero",
-        "example": "Der Hut ist elegant."
-      },
-      {
-        "word": "die Bluse",
-        "translation": "la blusa",
-        "example": "Die Bluse hat eine schöne Farbe."
-      },
-      {
-        "word": "der Rock",
-        "translation": "la falda",
-        "example": "Der Rock ist kurz."
-      },
-      {
-        "word": "der Pullover",
-        "translation": "el suéter",
-        "example": "Der Pullover ist warm."
-      },
-      {
-        "word": "die Jeans",
-        "translation": "los jeans",
-        "example": "Die Jeans ist bequem."
-      },
-      {
-        "word": "die Tasche",
-        "translation": "la bolsa",
-        "example": "Die Tasche ist groß."
-      },
-      {
-        "word": "die Mütze",
-        "translation": "el gorro",
-        "example": "Die Mütze ist warm."
-      },
-      {
-        "word": "die Sandalen",
-        "translation": "las sandalias",
-        "example": "Die Sandalen sind bequem."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, die richtige Größe zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich finde das schön.",
-        "translation": "Creo que eso es bonito.",
-        "example": "Ich finde diese Jacke schön.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu, die Farbe ist schön.",
-        "category": "expression"
-      },
-      {
-        "word": "Vielleicht",
-        "translation": "Quizás",
-        "example": "Vielleicht probiere ich die Jacke an.",
-        "category": "expression"
-      },
-      {
-        "word": "Bitte",
-        "translation": "Por favor",
-        "example": "Bitte, zeig mir die blaue Jacke.",
-        "category": "expression"
-      },
-      {
-        "word": "Wie viel kostet das?",
-        "translation": "¿Cuánto cuesta esto?",
-        "example": "Wie viel kostet das T-Shirt?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -71355,102 +68428,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Brauch",
-        "translation": "la costumbre",
-        "example": "Der Brauch wird jedes Jahr gepflegt."
-      },
-      {
-        "word": "das Feuerwerk",
-        "translation": "los fuegos artificiales",
-        "example": "Das Feuerwerk war bunt und laut."
-      },
-      {
-        "word": "die Dekoration",
-        "translation": "la decoración",
-        "example": "Die Dekoration war bunt und einfach."
-      },
-      {
-        "word": "die Einladung",
-        "translation": "la invitación",
-        "example": "Ich habe die Einladung gestern bekommen."
-      },
-      {
-        "word": "einladen",
-        "translation": "invitar",
-        "example": "Wir laden unsere Freunde zur Feier ein."
-      },
-      {
-        "word": "das Geschenk",
-        "translation": "el regalo",
-        "example": "Das Geschenk war schön verpackt."
-      },
-      {
-        "word": "schenken",
-        "translation": "regalar",
-        "example": "Sie schenkt ihrem Bruder ein Fotoalbum."
-      },
-      {
-        "word": "der Umzug",
-        "translation": "el desfile",
-        "example": "Der Umzug beginnt am Samstagmorgen."
-      },
-      {
-        "word": "die Feierlichkeit",
-        "translation": "la celebración",
-        "example": "Die Feierlichkeit war feierlich und ruhig."
-      },
-      {
-        "word": "die Gemeinschaft",
-        "translation": "la comunidad",
-        "example": "Die Gemeinschaft hat zusammen gegessen."
-      },
-      {
-        "word": "das Ritual",
-        "translation": "el ritual",
-        "example": "Das Ritual dauert etwa eine Stunde."
-      },
-      {
-        "word": "der Ablauf",
-        "translation": "el desarrollo",
-        "example": "Der Ablauf der Feier war gut geplant."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, die Tische zu dekorieren?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach...",
-        "translation": "En mi opinión...",
-        "example": "Meiner Meinung nach war die Feier sehr gelungen.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich stimme zu.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Ich stimme zu, das Essen war lecker.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro.",
-        "example": "Ich bin mir nicht sicher, ob alle gekommen sind.",
-        "category": "expression"
-      },
-      {
-        "word": "Entschuldigung, darf ich etwas sagen?",
-        "translation": "Disculpe, ¿puedo decir algo?",
-        "example": "Entschuldigung, darf ich etwas sagen? Ich habe eine Idee.",
-        "category": "expression"
-      },
-      {
-        "word": "Wegen des Wetters",
-        "translation": "Debido al clima",
-        "example": "Wegen des Wetters konnten wir nicht feiern.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -71889,102 +68866,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Konflikt",
-        "translation": "el conflicto",
-        "example": "Der Konflikt wurde offen besprochen."
-      },
-      {
-        "word": "die Kommunikation",
-        "translation": "la comunicación",
-        "example": "Gute Kommunikation ist wichtig in Beziehungen."
-      },
-      {
-        "word": "die Nähe",
-        "translation": "la cercanía",
-        "example": "Ich spüre die Nähe zu meiner Schwester."
-      },
-      {
-        "word": "die Distanz",
-        "translation": "la distancia",
-        "example": "Manchmal braucht man Distanz."
-      },
-      {
-        "word": "die Unterstützung",
-        "translation": "el apoyo",
-        "example": "Ich brauche deine Unterstützung."
-      },
-      {
-        "word": "die Empathie",
-        "translation": "la empatía",
-        "example": "Empathie hilft, andere zu verstehen."
-      },
-      {
-        "word": "der Kompromiss",
-        "translation": "el compromiso",
-        "example": "Wir haben einen Kompromiss gefunden."
-      },
-      {
-        "word": "die Ehrlichkeit",
-        "translation": "la sinceridad",
-        "example": "Ehrlichkeit stärkt das Vertrauen."
-      },
-      {
-        "word": "das Missverständnis",
-        "translation": "el malentendido",
-        "example": "Das Missverständnis klärten wir sofort."
-      },
-      {
-        "word": "die Privatsphäre",
-        "translation": "la privacidad",
-        "example": "Bitte respektiere meine Privatsphäre."
-      },
-      {
-        "word": "die Grenze",
-        "translation": "el límite",
-        "example": "Jeder hat seine Grenzen."
-      },
-      {
-        "word": "die Rückmeldung",
-        "translation": "la retroalimentación",
-        "example": "Ich freue mich auf deine Rückmeldung."
-      },
-      {
-        "word": "Kannst du mir helfen?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Kannst du mir helfen, das Problem zu lösen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach sollten wir ehrlich sein.",
-        "category": "expression"
-      },
-      {
-        "word": "Da bin ich einverstanden.",
-        "translation": "Estoy de acuerdo.",
-        "example": "Da bin ich einverstanden, das ist fair.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin mir nicht sicher.",
-        "translation": "No estoy seguro/a.",
-        "example": "Ich bin mir nicht sicher, ob das stimmt.",
-        "category": "expression"
-      },
-      {
-        "word": "Danke für die Information.",
-        "translation": "Gracias por la información.",
-        "example": "Danke für die Information, das hilft mir weiter.",
-        "category": "expression"
-      },
-      {
-        "word": "Deshalb",
-        "translation": "por eso",
-        "example": "Er hat zu spät geantwortet, deshalb gab es ein Missverständnis.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -74447,11 +71328,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Einladung: möchten und Uhrzeiten",
-        "definition": "Mit möchten formulierst du eine höfliche Einladung und nennst Uhrzeiten.",
-        "structure": "Möchtest du um acht Uhr kommen?",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Möchtest du um acht Uhr kommen?"
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
@@ -74923,11 +71805,12 @@
     "extra": {
       "grammarProfile": {
         "name": "Wohnungssuche: preposiciones y comparativos",
-        "definition": "Combina preposiciones de lugar y comparativos para describir viviendas.",
-        "structure": "Die Wohnung ist größer als das Zimmer neben dem Park.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Die Wohnung ist größer als das Zimmer neben dem Park."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
@@ -75402,9 +72285,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Gesellschaft: Konjunktiv II und Argumentation",
-        "definition": "Práctica guiada de Gesellschaft: Konjunktiv II und Argumentation.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -77477,101 +74360,6 @@
           "Viertel · conversación",
           "Viertel · práctica"
         ]
-      },
-      {
-        "word": "die Feier",
-        "translation": "la celebración",
-        "example": "Die Feier beginnt um sieben Uhr."
-      },
-      {
-        "word": "der Gast",
-        "translation": "el invitado",
-        "example": "Der Gast bringt ein Geschenk."
-      },
-      {
-        "word": "die Karte",
-        "translation": "la tarjeta",
-        "example": "Ich schreibe eine Karte."
-      },
-      {
-        "word": "die Stunde",
-        "translation": "la hora (duración)",
-        "example": "In einer Stunde sind wir da."
-      },
-      {
-        "word": "halb",
-        "translation": "y media",
-        "example": "Die Party ist um halb acht."
-      },
-      {
-        "word": "vor",
-        "translation": "antes de",
-        "example": "Es ist zehn Minuten vor sechs."
-      },
-      {
-        "word": "nach",
-        "translation": "después de",
-        "example": "Viertel nach drei ist gut."
-      },
-      {
-        "word": "pünktlich",
-        "translation": "puntual",
-        "example": "Bitte sei pünktlich."
-      },
-      {
-        "word": "um",
-        "translation": "a las",
-        "example": "Die Party ist um neun Uhr."
-      },
-      {
-        "word": "mitbringen",
-        "translation": "traer",
-        "example": "Kannst du Kuchen mitbringen?"
-      },
-      {
-        "word": "absagen",
-        "translation": "cancelar",
-        "example": "Ich muss leider absagen."
-      },
-      {
-        "word": "zusagen",
-        "translation": "aceptar",
-        "example": "Ich sage zu."
-      },
-      {
-        "word": "sagen",
-        "translation": "decir",
-        "example": "Sag mir die Uhrzeit."
-      },
-      {
-        "word": "Ich bin dabei.",
-        "translation": "Yo voy / Estoy dentro",
-        "example": "Du kommst zur Party? — Ja, ich bin dabei.",
-        "category": "expression"
-      },
-      {
-        "word": "Herzlichen Glückwunsch!",
-        "translation": "¡Felicidades!",
-        "example": "Herzlichen Glückwunsch zum Geburtstag!",
-        "category": "expression"
-      },
-      {
-        "word": "Kannst du das wiederholen?",
-        "translation": "¿Puedes repetir eso?",
-        "example": "Entschuldigung, kannst du das wiederholen?",
-        "category": "expression"
-      },
-      {
-        "word": "Wie spät ist es?",
-        "translation": "¿Qué hora es?",
-        "example": "Entschuldigung, wie spät ist es?",
-        "category": "expression"
-      },
-      {
-        "word": "Bitte sag mir Bescheid.",
-        "translation": "Por favor avísame.",
-        "example": "Bitte sag mir Bescheid, ob du kommst.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -78010,100 +74798,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "der Balkon",
-        "translation": "el balcón",
-        "example": "Die Wohnung hat einen Balkon."
-      },
-      {
-        "word": "die Küche",
-        "translation": "la cocina",
-        "example": "Die Küche ist groß."
-      },
-      {
-        "word": "das Bad",
-        "translation": "el baño",
-        "example": "Das Bad ist neu."
-      },
-      {
-        "word": "der Aufzug",
-        "translation": "el ascensor",
-        "example": "Im Haus gibt es einen Aufzug."
-      },
-      {
-        "word": "die Heizung",
-        "translation": "la calefacción",
-        "example": "Die Heizung funktioniert gut."
-      },
-      {
-        "word": "die Nebenkosten",
-        "translation": "los gastos de servicios",
-        "example": "Die Nebenkosten sind hoch."
-      },
-      {
-        "word": "die Kaltmiete",
-        "translation": "alquiler base (sin servicios)",
-        "example": "Die Kaltmiete beträgt 400 Euro."
-      },
-      {
-        "word": "die Warmmiete",
-        "translation": "alquiler con servicios incluidos",
-        "example": "Die Warmmiete ist 550 Euro."
-      },
-      {
-        "word": "der Mietvertrag",
-        "translation": "contrato de alquiler",
-        "example": "Bitte lesen Sie den Mietvertrag."
-      },
-      {
-        "word": "der Makler",
-        "translation": "agente inmobiliario",
-        "example": "Der Makler zeigt uns die Wohnung."
-      },
-      {
-        "word": "frei",
-        "translation": "disponible",
-        "example": "Das Zimmer ist ab Juni frei."
-      },
-      {
-        "word": "möbliert",
-        "translation": "amueblado",
-        "example": "Die Wohnung wird möbliert vermietet."
-      },
-      {
-        "word": "unmöbliert",
-        "translation": "sin muebles",
-        "example": "Ich suche eine unmöblierte Wohnung."
-      },
-      {
-        "word": "der Quadratmeter",
-        "translation": "metro cuadrado",
-        "example": "Die Wohnung hat 45 Quadratmeter."
-      },
-      {
-        "word": "Ist das noch frei?",
-        "translation": "¿Sigue disponible?",
-        "example": "Ist das Zimmer noch frei?",
-        "category": "expression"
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, die Wohnung zu finden?",
-        "category": "expression"
-      },
-      {
-        "word": "Ich finde die Lage gut.",
-        "translation": "Creo que la ubicación es buena.",
-        "example": "Ich finde die Lage sehr gut.",
-        "category": "expression"
-      },
-      {
-        "word": "Das passt mir.",
-        "translation": "Me queda bien.",
-        "example": "Der Termin passt mir.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -78542,100 +75236,6 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
-      },
-      {
-        "word": "die Beteiligung",
-        "translation": "la participación",
-        "example": "Die Beteiligung an der Diskussion war groß."
-      },
-      {
-        "word": "die Abstimmung",
-        "translation": "la votación",
-        "example": "Die Abstimmung findet morgen statt."
-      },
-      {
-        "word": "die Debatte",
-        "translation": "el debate",
-        "example": "In der Debatte wurden Argumente ausgetauscht."
-      },
-      {
-        "word": "die Petition",
-        "translation": "la petición",
-        "example": "Wir haben eine Petition für mehr Grünflächen gestartet."
-      },
-      {
-        "word": "das Engagement",
-        "translation": "el compromiso",
-        "example": "Ihr Engagement hilft der Gemeinde sehr."
-      },
-      {
-        "word": "die Stimme",
-        "translation": "el voto",
-        "example": "Jede Stimme zählt bei der Abstimmung."
-      },
-      {
-        "word": "diskutieren",
-        "translation": "debatir",
-        "example": "Wir sollten die Idee offen diskutieren."
-      },
-      {
-        "word": "organisieren",
-        "translation": "organizar",
-        "example": "Freiwillige organisieren die Veranstaltung."
-      },
-      {
-        "word": "informieren",
-        "translation": "informar",
-        "example": "Bitte informieren Sie die Nachbarn über die Änderung."
-      },
-      {
-        "word": "die Demonstration",
-        "translation": "la manifestación",
-        "example": "Die Demonstration war gut organisiert."
-      },
-      {
-        "word": "nachhaltig",
-        "translation": "sostenible",
-        "example": "Nachhaltige Lösungen sind langfristig wichtig."
-      },
-      {
-        "word": "fördern",
-        "translation": "fomentar",
-        "example": "Die Stadt will lokale Initiativen fördern."
-      },
-      {
-        "word": "die Zusammenarbeit",
-        "translation": "la colaboración",
-        "example": "Die Zusammenarbeit zwischen Schulen ist wichtig."
-      },
-      {
-        "word": "die Beschwerde",
-        "translation": "la queja",
-        "example": "Er hat eine Beschwerde beim Amt eingereicht."
-      },
-      {
-        "word": "Könnten Sie mir helfen?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Könnten Sie mir helfen, das Formular auszufüllen?",
-        "category": "expression"
-      },
-      {
-        "word": "Meiner Meinung nach",
-        "translation": "En mi opinión",
-        "example": "Meiner Meinung nach sollten wir zustimmen.",
-        "category": "expression"
-      },
-      {
-        "word": "Ich bin damit einverstanden",
-        "translation": "Estoy de acuerdo",
-        "example": "Ich bin damit einverstanden, den Vorschlag zu unterstützen.",
-        "category": "expression"
-      },
-      {
-        "word": "Haben Sie Bedenken?",
-        "translation": "¿Tiene alguna objeción?",
-        "example": "Haben Sie Bedenken, bevor wir abstimmen?",
-        "category": "expression"
       }
     ],
     "dialogue": [],

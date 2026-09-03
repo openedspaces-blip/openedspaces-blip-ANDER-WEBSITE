@@ -1406,6 +1406,7 @@ const ITALIAN_SPANISH_CORE_GLOSSES = {
   incontro: 'encuentro',
   cambiare: 'cambiar',
   futuro: 'futuro',
+  arrivare: 'llegar',
   presentazioni: 'presentaciones',
   dialogo: 'diálogo',
   cultura: 'cultura',
@@ -1468,11 +1469,54 @@ const PORTUGUESE_SPANISH_A1_GLOSSES = {
   hoje: 'hoy',
   amanhã: 'mañana',
   casa: 'casa',
-  experiência: 'experiencia'
+  experiência: 'experiencia',
+  trabalho: 'trabajo',
+  serviço: 'servicio',
+  museu: 'museo',
+  passeio: 'paseo',
+  reserva: 'reserva',
+  visita: 'visita',
+  receita: 'receta',
+  ingrediente: 'ingrediente',
+  primeiro: 'primero',
+  depois: 'después',
+  colega: 'colega',
+  pausa: 'pausa',
+  reunião: 'reunión',
+  horário: 'horario',
+  exposição: 'exposición',
+  artista: 'artista',
+  opinião: 'opinión',
+  morador: 'residente',
+  respeito: 'respeto',
+  mapa: 'mapa',
+  escolha: 'elección',
+  natação: 'natación',
+  corrida: 'correr',
+  equipe: 'equipo',
+  treino: 'entrenamiento',
+  farmácia: 'farmacia',
+  dor: 'dolor',
+  descanso: 'descanso',
+  conselho: 'consejo',
+  origem: 'origen',
+  chegar: 'llegar',
+  comunidade: 'comunidad',
+  projeto: 'proyecto',
+  ideia: 'idea',
+  grupo: 'grupo',
+  lixo: 'basura',
+  plástico: 'plástico',
+  reciclar: 'reciclar',
+  ambiente: 'medio ambiente',
+  lembrança: 'recuerdo',
+  encontro: 'encuentro',
+  mudar: 'cambiar',
+  futuro: 'futuro'
 };
 
 function isVocabularyTranslationPlaceholder(value) {
-  return /^(?:palabra cultural|acción cotidiana|lugar o cosa|expresión útil|palabra clave\s*\d+)$/i.test(
+  return /^(?:palabra cultural|acción cotidiana|lugar o cosa|expresión útil|palabra clave\s*\d+|concepto B2:\s*.+)$/i.test(
     String(value || '').trim()
   );
 }
@@ -1683,11 +1727,11 @@ function hasFullRouteAccess(entitlements = authStatus.entitlements) {
   return Boolean(entitlements?.hasFullAccess || entitlements?.isPremium);
 }
 
-// Keep the client view aligned with lib/accessPolicyService.js. Server-side
-// checks remain authoritative, but a stale lesson payload must never make a
-// Premium reading look or behave as if it were free.
+// Keep the client view aligned with lib/accessPolicyService.js. All academic
+// content is open: Premium changes advertising and enhanced tool/audio access,
+// never a lesson, unit or skill.
 function freeUnitLimitForLevel(level) {
-  return String(level || '').trim().toUpperCase() === 'A1' ? 3 : 2;
+  return Number.MAX_SAFE_INTEGER;
 }
 
 function getLessonUnitOrder(lesson) {
@@ -1701,16 +1745,14 @@ function getLessonUnitOrder(lesson) {
 }
 
 function applyClientLessonAccessPolicy(lessons) {
-  if (hasFullRouteAccess()) return (lessons || []).map((lesson) => ({ ...lesson, locked: false }));
-  return (lessons || []).map((lesson) => {
-    const isFree = getLessonUnitOrder(lesson) <= freeUnitLimitForLevel(lesson.level || learningPathState.level);
-    return {
-      ...lesson,
-      accessTier: isFree ? 'free' : 'premium',
-      isFree,
-      locked: !isFree
-    };
-  });
+  // The course catalogue is open to every learner. Premium is now the
+  // ad-free plan, rather than a gate on units or skills.
+  return (lessons || []).map((lesson) => ({
+    ...lesson,
+    accessTier: isPremiumUser() ? 'premium' : 'free',
+    isFree: true,
+    locked: false
+  }));
 }
 
 // title/message let a caller override the two spots worded around a usage
@@ -1929,7 +1971,11 @@ async function loadPreferences() {
       language: data.language,
       level: data.level,
       bridgeLanguage: data.bridgeLanguage || 'spanish',
-      username: data.username ?? null
+      username: data.username ?? null,
+      inactivityRemindersEnabled: Boolean(data.inactivityRemindersEnabled),
+      scheduledRemindersEnabled: Boolean(data.scheduledRemindersEnabled),
+      reminderTime: data.reminderTime || null,
+      reminderTimezone: data.reminderTimezone || 'America/Santo_Domingo'
     };
   } catch (error) {
     console.warn('Could not load saved preferences', error);
@@ -2020,6 +2066,7 @@ function applyPreferencesToSelects(preferences) {
   syncLearningMode();
   applyInterfaceLanguage(learningPathState.bridgeLanguage);
   updatePathPairPreview();
+  renderPracticeReminderPreferences(preferences);
 }
 
 // Fire-and-forget: the dropdowns already reflect the choice locally, so a
@@ -2037,6 +2084,61 @@ function savePreferences(language, level, bridgeLanguage) {
     body: JSON.stringify({ language, level, bridgeLanguage })
   }).catch((error) => console.warn('Could not save preferences', error));
 }
+
+function renderPracticeReminderPreferences(preferences) {
+  const panel = document.getElementById('practiceReminderPanel');
+  const inactivity = document.getElementById('inactivityReminderEnabled');
+  const scheduled = document.getElementById('scheduledReminderEnabled');
+  const time = document.getElementById('practiceReminderTime');
+  if (!panel || !inactivity || !scheduled || !time) return;
+  panel.hidden = !authStatus.session?.access_token;
+  inactivity.checked = Boolean(preferences?.inactivityRemindersEnabled);
+  scheduled.checked = Boolean(preferences?.scheduledRemindersEnabled);
+  time.value = preferences?.reminderTime || '';
+  time.disabled = !scheduled.checked;
+}
+
+async function savePracticeReminderPreferences() {
+  const inactivity = document.getElementById('inactivityReminderEnabled');
+  const scheduled = document.getElementById('scheduledReminderEnabled');
+  const time = document.getElementById('practiceReminderTime');
+  const status = document.getElementById('practiceReminderStatus');
+  if (!authStatus.session?.access_token || !inactivity || !scheduled || !time) return;
+  if (scheduled.checked && !time.value) {
+    scheduled.checked = false;
+    if (status) status.textContent = 'Elige primero una hora para activar el recordatorio diario.';
+    return;
+  }
+  time.disabled = !scheduled.checked;
+  if (status) status.textContent = 'Guardando…';
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/preferences`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({
+        inactivityRemindersEnabled: inactivity.checked,
+        scheduledRemindersEnabled: scheduled.checked,
+        reminderTime: time.value || null,
+        reminderTimezone: 'America/Santo_Domingo'
+      })
+    });
+    const data = await response.json().catch(() => null);
+    if (!response.ok) throw new Error(data?.error || 'No se pudieron guardar los recordatorios.');
+    if (status) status.textContent = 'Recordatorios actualizados.';
+  } catch (error) {
+    if (status) status.textContent = error.message || 'No se pudieron guardar los recordatorios.';
+  }
+}
+
+document.addEventListener('change', (event) => {
+  if (
+    event.target?.id === 'inactivityReminderEnabled' ||
+    event.target?.id === 'scheduledReminderEnabled' ||
+    event.target?.id === 'practiceReminderTime'
+  ) {
+    savePracticeReminderPreferences();
+  }
+});
 
 // XP/level/streak have exactly one source of truth: the client-side
 // gamification engine (src/js/gamification/*, already reconciled with the
@@ -2312,11 +2414,18 @@ async function loadDashboard() {
   renderDashboardLoading();
 
   try {
-    const response = await fetch(`${backendBaseUrl}/api/dashboard`, { headers: authHeaders() });
+    // Use the same authenticated request path as the learning activities.
+    // A dashboard refresh was the lone authenticated request that skipped
+    // token renewal, so a valid long-lived session could show an error after
+    // its access token expired.
+    const response = await authFetch(`${backendBaseUrl}/api/dashboard`);
     if (!response.ok) throw new Error('Request failed');
     const data = await response.json();
     renderDashboard(data);
-    await loadCurrentSubscription({ refreshDashboardOnPremium: false });
+    // Subscription status enriches the header; it must not replace already
+    // loaded learning progress with an error when that secondary request is
+    // temporarily unavailable.
+    void loadCurrentSubscription({ refreshDashboardOnPremium: false });
   } catch (error) {
     console.warn('Could not load dashboard', error);
     renderDashboardError();
@@ -5262,6 +5371,44 @@ const PRE_A1_FRENCH_MICRO_DIALOGUES = {
   ]
 };
 
+// A small amount of context goes a long way for complete beginners. These
+// notes stay beside the visual course instead of turning Pre-A1 into a full
+// grammar route: one useful observation and two real-life examples per topic.
+const PRE_A1_ENRICHMENT = {
+  english: {
+    hello: { tip: 'Use “Hello” in any situation. “Hi” sounds more relaxed with friends and classmates.', examples: [['Hello, Ms. Brown. My name is Carlos.', 'Hola, Sra. Brown. Me llamo Carlos.'], ['Hi, I’m Laura. Nice to meet you!', 'Hola, soy Laura. ¡Mucho gusto!']] },
+    goodbye: { tip: '“See you” is friendly when you expect to meet again. Add a time when you know it.', examples: [['Bye! See you after class.', '¡Chao! Nos vemos después de clase.'], ['Good night, Dad. See you tomorrow.', 'Buenas noches, papá. Nos vemos mañana.']] },
+    abc: { tip: 'Spell names slowly, one letter at a time. Say “How do you spell…?” when you need to check a name.', examples: [['How do you spell your name?', '¿Cómo se deletrea tu nombre?'], ['It’s M-A-R-I-A.', 'Es M-A-R-I-A.']] },
+    numbers: { tip: 'Use “I am … years old” for age. Use numbers every day for phone numbers, prices and classroom objects.', examples: [['I am nineteen years old.', 'Tengo diecinueve años.'], ['I have two brothers.', 'Tengo dos hermanos.']] },
+    days: { tip: 'Days use “on”; months use “in”.', examples: [['My class is on Tuesday.', 'Mi clase es el martes.'], ['My birthday is in August.', 'Mi cumpleaños es en agosto.']] },
+    colours: { tip: 'In English, the colour normally comes before the object.', examples: [['I have a black bag.', 'Tengo una mochila negra.'], ['The yellow book is mine.', 'El libro amarillo es mío.']] },
+    classroom: { tip: 'Use “This is my…” when you point to something near you.', examples: [['This is my pencil.', 'Este es mi lápiz.'], ['Please open your book.', 'Por favor, abre tu libro.']] },
+    people: { tip: 'Use “he” for a man or boy and “she” for a woman or girl.', examples: [['She is my teacher.', 'Ella es mi profesora.'], ['He is my brother.', 'Él es mi hermano.']] },
+    feelings: { tip: 'After “I am”, use a feeling: happy, tired, hungry or fine.', examples: [['I am tired today.', 'Estoy cansado/a hoy.'], ['I am fine, thank you.', 'Estoy bien, gracias.']] },
+    food: { tip: '“I like” expresses a preference; “I want” is for something you would like now.', examples: [['I like rice and chicken.', 'Me gusta el arroz y el pollo.'], ['I want water, please.', 'Quiero agua, por favor.']] },
+    places: { tip: 'Use “at” before common places such as home, school and the park.', examples: [['I am at home now.', 'Estoy en casa ahora.'], ['My friend is at school.', 'Mi amigo/a está en la escuela.']] },
+    body: { tip: 'Use “my” for your own body and “I have” to say how many things you have.', examples: [['These are my hands.', 'Estas son mis manos.'], ['I have two eyes.', 'Tengo dos ojos.']] },
+    'basic-adjectives': { tip: 'Put a simple adjective before a noun, or after “is/am”.', examples: [['The dog is small.', 'El perro es pequeño.'], ['It is a big house.', 'Es una casa grande.']] },
+    ready: { tip: 'Combine three ideas to make your first complete introduction.', examples: [['Hello! My name is Rosa. I am happy.', '¡Hola! Me llamo Rosa. Estoy feliz.'], ['Hi! I am Diego. I am ready for A1.', '¡Hola! Soy Diego. Estoy listo para A1.']] }
+  },
+  french: {
+    bonjour: { tip: '“Bonjour” works during the day; “salut” is informal, for friends and classmates.', examples: [['Bonjour, madame. Je m’appelle Rosa.', 'Hola, señora. Me llamo Rosa.'], ['Salut, je suis Diego. Enchanté !', 'Hola, soy Diego. ¡Encantado!']] },
+    aurevoir: { tip: 'Use “à bientôt” when you expect to see someone again soon and “à demain” for tomorrow.', examples: [['Au revoir, à demain !', '¡Adiós, hasta mañana!'], ['Salut, à bientôt au café.', 'Chao, hasta pronto en el café.']] },
+    alphabet: { tip: 'Ask “Comment ça s’écrit ?” to check spelling, then say each letter clearly.', examples: [['Comment ça s’écrit, Sofia ?', '¿Cómo se escribe Sofía?'], ['S-O-F-I-A.', 'S-O-F-I-A.']] },
+    nombres: { tip: 'French uses “j’ai … ans” (literally, “I have … years”) for age.', examples: [['J’ai vingt ans.', 'Tengo veinte años.'], ['J’ai deux sœurs.', 'Tengo dos hermanas.']] },
+    semaine: { tip: 'Use “le” for a recurring day and “en” before a month.', examples: [['Le cours est le mardi.', 'La clase es los martes.'], ['Mon anniversaire est en août.', 'Mi cumpleaños es en agosto.']] },
+    couleurs: { tip: 'Some French colours change with gender. For now, notice “un sac bleu” and “une pomme rouge”.', examples: [['Mon sac est bleu.', 'Mi mochila es azul.'], ['C’est une pomme rouge.', 'Es una manzana roja.']] },
+    classe: { tip: 'Use “mon” with masculine words and “ma” with feminine words.', examples: [['C’est mon livre.', 'Este es mi libro.'], ['C’est ma table.', 'Esta es mi mesa.']] },
+    personnes: { tip: '“C’est” is a very useful way to identify a person or thing.', examples: [['C’est mon ami Karim.', 'Este es mi amigo Karim.'], ['C’est ma sœur.', 'Esta es mi hermana.']] },
+    emotions: { tip: 'Use “Je suis” with an adjective and “ça va” for a quick everyday answer.', examples: [['Je suis fatigué(e) aujourd’hui.', 'Estoy cansado/a hoy.'], ['Ça va bien, merci.', 'Estoy bien, gracias.']] },
+    repas: { tip: 'Use “j’aime” for what you enjoy and “je veux” for what you want now.', examples: [['J’aime le pain et le fromage.', 'Me gusta el pan y el queso.'], ['Je veux de l’eau, s’il vous plaît.', 'Quiero agua, por favor.']] },
+    lieux: { tip: 'Use “à l’” before a place that begins with a vowel, such as “école”.', examples: [['Je suis à l’école.', 'Estoy en la escuela.'], ['Le parc est près de la maison.', 'El parque está cerca de la casa.']] },
+    body: { tip: 'Use “j’ai” to say what body parts you have.', examples: [['J’ai deux mains.', 'Tengo dos manos.'], ['Ce sont mes yeux.', 'Estos son mis ojos.']] },
+    'basic-adjectives': { tip: 'An adjective often comes after the noun in French: “un sac bleu”.', examples: [['Le ballon est grand.', 'La pelota es grande.'], ['C’est un petit chat.', 'Es un gato pequeño.']] },
+    pret: { tip: 'Combine a greeting, your name and one feeling for a natural mini-presentation.', examples: [['Bonjour ! Je m’appelle Rosa. Je suis contente.', '¡Hola! Me llamo Rosa. Estoy feliz.'], ['Salut ! Je suis Diego. Je suis prêt pour A1.', '¡Hola! Soy Diego. Estoy listo para A1.']] }
+  }
+};
+
 const PRE_A1_SPANISH_MICRO_DIALOGUES = {
   hola: [
     ['Ana', '¡Hola! Me llamo Ana.'],
@@ -5405,7 +5552,11 @@ function getPreA1Course(language = learningPathState.language) {
             : PRE_A1_VISUAL_COURSE;
   const additions = PRE_A1_ELEMENTARY_TOPICS[language] || PRE_A1_ELEMENTARY_TOPICS.english;
   const ready = base.find((topic) => topic.id === 'ready');
-  return [...base.filter((topic) => topic.id !== 'ready'), ...additions, ...(ready ? [ready] : [])];
+  const topics = [...base.filter((topic) => topic.id !== 'ready'), ...additions, ...(ready ? [ready] : [])];
+  const enrichment = PRE_A1_ENRICHMENT[language];
+  return enrichment
+    ? topics.map((topic) => ({ ...topic, enrichment: enrichment[topic.id] || null }))
+    : topics;
 }
 
 function getPreA1LanguageMeta(language = learningPathState.language) {
@@ -5419,12 +5570,20 @@ function getPreA1LanguageMeta(language = learningPathState.language) {
   }[language] || { name: 'English', locale: 'en-US', title: 'Your visual English starter' };
 }
 
-function buildPreA1FallbackDialogue(topic) {
+function buildPreA1FallbackDialogue(topic, language = learningPathState.language) {
   const [first = '', second = ''] = topic.phrases || [];
+  const praise = {
+    english: 'Very good!',
+    french: 'Très bien !',
+    spanish: '¡Muy bien!',
+    italian: 'Molto bene!',
+    portuguese: 'Muito bem!',
+    german: 'Sehr gut!'
+  }[language] || 'Very good!';
   return [
     ['Tutor', first],
     ['Estudiante', second || first],
-    ['Tutor', '¡Muy bien!']
+    ['Tutor', praise]
   ].filter(([, line]) => line);
 }
 
@@ -5466,6 +5625,9 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   preA1SelectedTopicId = selectedTopicId;
   const lessonOpen = Boolean(selectedTopicId);
   const course = getPreA1Course();
+  // Pre-A1 teaches and pronounces the selected target language. Using the
+  // bridge language here made the voice, dialogue bank and saved progress
+  // silently fall back to Spanish for Spanish-speaking learners.
   const language = learningPathState.language;
   const languageMeta = getPreA1LanguageMeta(language);
   const isFrenchPreA1 = language === 'french';
@@ -5480,7 +5642,7 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     : isSpanishPreA1
       ? PRE_A1_SPANISH_MICRO_DIALOGUES
       : PRE_A1_MICRO_DIALOGUES;
-  const dialogue = dialogueMap[selected.id] || buildPreA1FallbackDialogue(selected);
+  const dialogue = dialogueMap[selected.id] || buildPreA1FallbackDialogue(selected, language);
   const isAlphabetTopic = ['abc', 'alphabet', 'abecedario'].includes(selected.id);
   const isCalendarTopic = ['days', 'semaine', 'dias', 'calendar'].includes(selected.id);
   const isColourTopic = ['colours', 'couleurs', 'colores'].includes(selected.id);
@@ -5636,6 +5798,10 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     </section>
     <div class="pre-a1-grammar-focus"><span>Simple pattern</span><strong>${escapeHtml(selected.grammar)}</strong></div>
     <div class="pre-a1-phrase-list">${selected.phrases.map((phrase) => `<div class="pre-a1-phrase"><span>Say it</span><strong>${escapeHtml(phrase)}</strong><button type="button" class="secondary-btn pre-a1-listen" data-speech="${escapeHtml(phrase)}">🔊 Listen</button></div>`).join('')}</div>
+    ${selected.enrichment ? `<section class="pre-a1-context" aria-label="Ejemplos de uso">
+      <div class="pre-a1-context-head"><span class="pre-a1-kicker">En la vida real</span><h4>Cómo usarlo</h4><p>${escapeHtml(selected.enrichment.tip)}</p></div>
+      <div class="pre-a1-context-examples">${selected.enrichment.examples.map(([phrase, translation]) => `<div class="pre-a1-context-example"><div><strong>${escapeHtml(phrase)}</strong><small>${escapeHtml(translation)}</small></div><button type="button" class="secondary-btn pre-a1-listen" data-speech="${escapeHtml(phrase)}" aria-label="Escuchar ejemplo">🔊 Escuchar</button></div>`).join('')}</div>
+    </section>` : ''}
     <section class="pre-a1-dialogue" aria-label="Diálogo guiado">
       <div class="pre-a1-dialogue-head"><span class="pre-a1-kicker">Diálogo guiado</span><p>Escucha cada turno y repítelo en voz alta.</p></div>
       <div class="pre-a1-dialogue-lines">${dialogue.map(([speaker, line]) => `<div class="pre-a1-dialogue-line"><strong>${escapeHtml(speaker)}</strong><span>${escapeHtml(line)}</span><button type="button" class="pre-a1-listen" data-speech="${escapeHtml(line)}" aria-label="Escuchar a ${escapeHtml(speaker)}">🔊</button></div>`).join('')}</div>
@@ -5670,14 +5836,18 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   );
   workspace.querySelectorAll('.pre-a1-listen').forEach((button) =>
     button.addEventListener('click', () => {
-      if (!('speechSynthesis' in window)) return;
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(button.dataset.speech || '');
-      utterance.lang = languageMeta.locale;
-      utterance.rate = 0.82;
+      const text = button.dataset.speech || '';
+      if (!text) return;
+      workspace
+        .querySelectorAll('.pre-a1-listen.is-speaking')
+        .forEach((item) => item.classList.remove('is-speaking'));
       button.classList.add('is-speaking');
-      utterance.onend = utterance.onerror = () => button.classList.remove('is-speaking');
-      window.speechSynthesis.speak(utterance);
+      const utterance = speakText(text, {
+        locale: getPronunciationLocale(language),
+        rate: 0.82,
+        onEnd: () => button.classList.remove('is-speaking')
+      });
+      if (!utterance) button.classList.remove('is-speaking');
     })
   );
   workspace.querySelectorAll('[data-pre-a1-visual-choice]').forEach((button) =>
@@ -5758,6 +5928,22 @@ function clearPreA1VisualCourse() {
 // single-lesson-per-skill behavior untouched.
 function hasUnits() {
   return learningPathState.units.length > 0;
+}
+
+function isEnglishA1MissionPilot() {
+  return learningPathState.language === 'english' && learningPathState.level === 'A1';
+}
+
+function getCourseMissionMetrics() {
+  const missions = learningPathState.units.map((unit) => {
+    const metrics = getUnitProgressMetrics(unit.id);
+    return { unit, metrics, completed: metrics.total > 0 && metrics.completedCount === metrics.total };
+  });
+  return {
+    missions,
+    completedCount: missions.filter((mission) => mission.completed).length,
+    total: missions.length
+  };
 }
 
 // Listening biblioteca: only these units have an official recording
@@ -5990,11 +6176,54 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
       : verbProgress?.status === 'completed'
         ? 'completed'
         : 'available';
+  const missionMetrics = getUnitProgressMetrics(unitId);
+  const finalUnlocked = missionMetrics.total > 0 && missionMetrics.completedCount === missionMetrics.total;
+  const finalStep = isEnglishA1MissionPilot()
+    ? `
+    <button type="button" class="unit-sequence-step unit-sequence-step--final ${finalUnlocked ? 'unit-sequence-step--available' : 'unit-sequence-step--locked'}" data-unit-final-challenge="${escapeHtml(unitId)}" ${finalUnlocked ? '' : 'disabled'}>
+      <span class="unit-sequence-number">★</span>
+      <span class="unit-sequence-label"><strong>Reto final</strong><small>${finalUnlocked ? 'Disponible' : 'Completa la ruta'}</small></span>
+    </button>`
+    : '';
   return `${steps}
     <button type="button" class="unit-sequence-step unit-sequence-step--verbs unit-sequence-step--${verbState}" data-sequence-skill="verbs" ${currentSkill === 'verbs' ? 'aria-current="step"' : ''}>
       <span class="unit-sequence-number">${verbProgress?.status === 'completed' ? '✓' : verbsNumber}</span>
       <span class="unit-sequence-label"><strong>Verbos</strong><small>Practicar</small></span>
-    </button>`;
+    </button>${finalStep}`;
+}
+
+function showSkillTransitionAd(resume) {
+  // Advertising must not interrupt or cover the activity. Navigate first and
+  // insert the configured AdSense unit into the next skill's normal document flow.
+  const day = new Date().toISOString().slice(0, 10);
+  let cadence = {};
+  try { cadence = JSON.parse(sessionStorage.getItem('andergo-ad-cadence-v1') || '{}') || {}; } catch { cadence = {}; }
+  if (cadence.day !== day) cadence = { day, transitions: 0, shown: 0 };
+  cadence.transitions = Number(cadence.transitions || 0) + 1;
+  // A break belongs between study blocks, not after every single activity:
+  // at most three per day and never on the first transition of a session.
+  const shouldShow = cadence.transitions % 2 === 0 && Number(cadence.shown || 0) < 3;
+  if (shouldShow) cadence.shown = Number(cadence.shown || 0) + 1;
+  sessionStorage.setItem('andergo-ad-cadence-v1', JSON.stringify(cadence));
+  resume();
+  if (!shouldShow) return;
+  window.requestAnimationFrame(() => {
+    document.querySelector('.skill-transition-ad-inline')?.remove();
+    const host = document.querySelector('.skill-view-section:not([hidden]) .skill-view-content');
+    const slot = document.querySelector('meta[name="adsense-transition-slot"]')?.content?.trim();
+    if (!host || !slot || isPremiumUser()) return;
+    const notice = document.createElement('aside');
+    notice.className = 'skill-transition-ad-inline no-print';
+    notice.setAttribute('aria-label', 'Publicidad');
+    notice.innerHTML = `<span>PUBLICIDAD</span><ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true" data-ad-slot="${slot}"></ins>`;
+    host.prepend(notice);
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (error) {
+      console.warn('No se pudo inicializar el anuncio de transición.', error);
+      notice.remove();
+    }
+  });
 }
 
 function openUnitSequenceStep(skill, lessonSlug = '', options = {}) {
@@ -6042,6 +6271,20 @@ function openUnitSequenceStep(skill, lessonSlug = '', options = {}) {
   }
   if (!SKILL_VIEWS.includes(skill) || !lessonSlug) return;
   const targetLesson = learningPathState.lessons.find((item) => item.slug === lessonSlug);
+  const currentLesson = learningPathState.lessons.find((item) => item.slug === learningPathState.activeSlug);
+  if (
+    !options.skipTransitionAd &&
+    !isPremiumUser() &&
+    currentLesson &&
+    targetLesson &&
+    currentLesson.unitId === targetLesson.unitId &&
+    currentLesson.skill !== skill
+  ) {
+    showSkillTransitionAd(() =>
+      openUnitSequenceStep(skill, lessonSlug, { ...options, skipTransitionAd: true })
+    );
+    return;
+  }
   if (targetLesson?.locked) {
     handleHomeAction('upgrade');
     return;
@@ -6158,8 +6401,9 @@ function openVocabularyFromMainNav() {
 }
 
 // The Reading library is intentionally separate from the guided route. It
-// lets learners choose a language, level and unit, while each unit remains a
-// single access product: its three readings always open or lock together.
+// lets learners choose a language, level and unit. Each unit deliberately
+// presents one original reading: it is clearer, more consistent and keeps
+// the route focused on the text the lesson was designed around.
 const READING_LIBRARY_LANGUAGES = Object.freeze([
   'english',
   'spanish',
@@ -6178,39 +6422,39 @@ function getReadingLibraryFreeCopy(level) {
 const READING_LIBRARY_COPY = Object.freeze({
   english: {
     eyebrow: 'READING LIBRARY', choose: 'Choose your reading', language: 'Language', level: 'Level',
-    title: 'English Readings', intro: (count) => `Explore all ${count} readings at this level and open the one you want to practise.`,
-    available: (count) => `${count} readings available`, list: 'Complete level list in three columns.',
-    unit: 'Unit', open: 'Open reading →', locked: 'Premium · locked', upgrade: 'Become Premium to unlock →', free: (level) => `Free includes units 1–3 of ${level} (all three readings).`
+    title: 'English Readings', intro: (count) => `Explore ${count} original readings at this level, with one focused text in every unit.`,
+    available: (count) => `${count} readings available`, list: 'One original reading per unit.', selectUnit: 'Select a unit in the route to open its original reading.', perUnit: '1 original reading', original: 'Original reading',
+    unit: 'Unit', open: 'Open reading →', free: (level) => `All ${level} readings are available.`
   },
   spanish: {
     eyebrow: 'BIBLIOTECA DE LECTURAS', choose: 'Elige tu lectura', language: 'Idioma', level: 'Nivel',
-    title: 'Lecturas en español', intro: (count) => `Explora las ${count} lecturas de este nivel y abre la que quieras practicar.`,
-    available: (count) => `${count} lecturas disponibles`, list: 'Lista completa del nivel en tres columnas.',
-    unit: 'Unidad', open: 'Abrir lectura →', locked: 'Premium · bloqueado', upgrade: 'Hazte Premium para desbloquear →', free: (level) => `Free incluye las unidades 1–3 de ${level} (sus tres lecturas).`
+    title: 'Lecturas en español', intro: (count) => `Explora las ${count} lecturas originales de este nivel: un texto central y bien organizado por unidad.`,
+    available: (count) => `${count} lecturas disponibles`, list: 'Una lectura original por unidad.', selectUnit: 'Selecciona una unidad de la ruta para abrir su lectura original.', perUnit: '1 lectura original', original: 'Lectura original',
+    unit: 'Unidad', open: 'Abrir lectura →', free: (level) => `Todas las lecturas de ${level} están disponibles.`
   },
   french: {
     eyebrow: 'BIBLIOTHÈQUE DE LECTURES', choose: 'Choisissez votre lecture', language: 'Langue', level: 'Niveau',
-    title: 'Lectures en français', intro: (count) => `Explorez les ${count} lectures de ce niveau et ouvrez celle que vous voulez pratiquer.`,
-    available: (count) => `${count} lectures disponibles`, list: 'Liste complète du niveau en trois colonnes.',
-    unit: 'Unité', open: 'Ouvrir la lecture →', locked: 'Premium · verrouillé', upgrade: 'Passez à Premium pour débloquer →', free: (level) => `Free inclut les unités 1–3 de ${level} (les trois lectures).`
+    title: 'Lectures en français', intro: (count) => `Explorez les ${count} lectures originales de ce niveau : un texte central dans chaque unité.`,
+    available: (count) => `${count} lectures disponibles`, list: 'Une lecture originale par unité.', selectUnit: 'Sélectionnez une unité du parcours pour ouvrir sa lecture originale.', perUnit: '1 lecture originale', original: 'Lecture originale',
+    unit: 'Unité', open: 'Ouvrir la lecture →', free: (level) => `Toutes les lectures de niveau ${level} sont disponibles.`
   },
   italian: {
     eyebrow: 'BIBLIOTECA DI LETTURE', choose: 'Scegli la tua lettura', language: 'Lingua', level: 'Livello',
-    title: 'Letture in italiano', intro: (count) => `Esplora le ${count} letture di questo livello e apri quella che vuoi praticare.`,
-    available: (count) => `${count} letture disponibili`, list: 'Elenco completo del livello in tre colonne.',
-    unit: 'Unità', open: 'Apri lettura →', locked: 'Premium · bloccato', upgrade: 'Passa a Premium per sbloccare →', free: (level) => `Free include le unità 1–3 di ${level} (tutte e tre le letture).`
+    title: 'Letture in italiano', intro: (count) => `Esplora le ${count} letture originali di questo livello: un testo centrale in ogni unità.`,
+    available: (count) => `${count} letture disponibili`, list: 'Una lettura originale per unità.', selectUnit: 'Seleziona un’unità del percorso per aprire la sua lettura originale.', perUnit: '1 lettura originale', original: 'Lettura originale',
+    unit: 'Unità', open: 'Apri lettura →', free: (level) => `Tutte le letture di ${level} sono disponibili.`
   },
   portuguese: {
     eyebrow: 'BIBLIOTECA DE LEITURAS', choose: 'Escolha sua leitura', language: 'Idioma', level: 'Nível',
-    title: 'Leituras em português', intro: (count) => `Explore as ${count} leituras deste nível e abra a que quiser praticar.`,
-    available: (count) => `${count} leituras disponíveis`, list: 'Lista completa do nível em três colunas.',
-    unit: 'Unidade', open: 'Abrir leitura →', locked: 'Premium · bloqueado', upgrade: 'Assine Premium para desbloquear →', free: (level) => `Free inclui as unidades 1–3 de ${level} (as três leituras).`
+    title: 'Leituras em português', intro: (count) => `Explore as ${count} leituras originais deste nível: um texto central em cada unidade.`,
+    available: (count) => `${count} leituras disponíveis`, list: 'Uma leitura original por unidade.', selectUnit: 'Selecione uma unidade da rota para abrir sua leitura original.', perUnit: '1 leitura original', original: 'Leitura original',
+    unit: 'Unidade', open: 'Abrir leitura →', free: (level) => `Todas as leituras de ${level} estão disponíveis.`
   },
   german: {
     eyebrow: 'LESEBIBLIOTHEK', choose: 'Wähle deinen Lesetext', language: 'Sprache', level: 'Niveau',
-    title: 'Lesetexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Lesetexte dieses Niveaus und öffne den Text, den du üben möchtest.`,
-    available: (count) => `${count} Lesetexte verfügbar`, list: 'Vollständige Niveauliste in drei Spalten.',
-    unit: 'Einheit', open: 'Lesetext öffnen →', locked: 'Premium · gesperrt', upgrade: 'Mit Premium freischalten →', free: (level) => `Free enthält die Einheiten 1–3 von ${level} (alle drei Lesetexte).`
+    title: 'Lesetexte auf Deutsch', intro: (count) => `Entdecke ${count} Originaltexte dieses Niveaus: einen klaren Haupttext pro Einheit.`,
+    available: (count) => `${count} Lesetexte verfügbar`, list: 'Ein Originaltext pro Einheit.', selectUnit: 'Wähle eine Einheit aus, um ihren Originaltext zu öffnen.', perUnit: '1 Originaltext', original: 'Originaltext',
+    unit: 'Einheit', open: 'Lesetext öffnen →', free: (level) => `Alle Lesetexte auf ${level} sind verfügbar.`
   }
 });
 
@@ -6218,25 +6462,18 @@ function getReadingLibraryCopy(language) {
   return READING_LIBRARY_COPY[language] || READING_LIBRARY_COPY.english;
 }
 
-function getReadingLibraryCardType(language, topicOrder) {
-  // Every text in the library is a complete Reading in its own right. The
-  // number distinguishes it without making any text appear secondary.
-  const labels = {
-    english: 'Reading', spanish: 'Lectura', french: 'Lecture', italian: 'Lettura',
-    portuguese: 'Leitura', german: 'Lesetext'
-  };
-  return `${labels[language] || labels.english} ${Math.max(1, Number(topicOrder || 1))}`;
+function getReadingLibraryCardType(language) {
+  return getReadingLibraryCopy(language).original || 'Original reading';
 }
 
 function getReadingFreeAccessNote(language, level) {
-  const units = String(level).toUpperCase() === 'A1' ? '1–3' : '1–2';
   const messages = {
-    english: `Free includes units ${units} of ${level} (all three readings in each unit).`,
-    spanish: `Free incluye las unidades ${units} de ${level} (sus tres lecturas por unidad).`,
-    french: `Free inclut les unités ${units} de ${level} (les trois lectures de chaque unité).`,
-    italian: `Free include le unità ${units} di ${level} (tutte e tre le letture di ogni unità).`,
-    portuguese: `Free inclui as unidades ${units} de ${level} (as três leituras de cada unidade).`,
-    german: `Free enthält die Einheiten ${units} von ${level} (alle drei Lesetexte jeder Einheit).`
+    english: `All ${level} readings are available. Free includes device TTS; Premium also includes official audio.`,
+    spanish: `Todas las lecturas de ${level} están disponibles. Free incluye TTS del dispositivo; Premium también incluye audio oficial.`,
+    french: `Toutes les lectures de niveau ${level} sont disponibles. Free inclut la synthèse vocale de l’appareil ; Premium inclut aussi l’audio officiel.`,
+    italian: `Tutte le letture di ${level} sono disponibili. Free include il TTS del dispositivo; Premium include anche l’audio ufficiale.`,
+    portuguese: `Todas as leituras de ${level} estão disponíveis. Free inclui TTS do dispositivo; Premium também inclui áudio oficial.`,
+    german: `Alle Lesetexte auf ${level} sind verfügbar. Free enthält die Geräte-Sprachausgabe; Premium enthält zusätzlich offizielles Audio.`
   };
   return messages[language] || messages.english;
 }
@@ -6256,6 +6493,8 @@ function getReadingLibraryProgressLabel(language, completed) {
 function isReadingLibraryLessonFree(lesson, unitOrder) {
   return Number(unitOrder) <= freeUnitLimitForLevel(lesson?.level || learningPathState.level);
 }
+
+let readingLibrarySelectedUnitId = '';
 
 function renderReadingLibrary() {
   const host = document.getElementById('readingLibraryContent');
@@ -6303,16 +6542,26 @@ function renderReadingLibrary() {
     // payloads carry a stale unitOrder, which used to label later units as
     // 1.x and incorrectly lock the readings promised to Free learners.
     const unitOrder = Number(unit.order || lesson.unitOrder || 1);
-    const locked = !isPremiumUser() && !isReadingLibraryLessonFree(lesson, unitOrder);
-    return getReadingTopicChoices(lesson).map((topic, index) => ({
+    const locked = false;
+    // Keep only the authored primary text. Supplementary variants remain in
+    // the source material but are not separate library cards.
+    return getReadingTopicChoices(lesson).slice(0, 1).map((topic) => ({
       lesson,
       unit,
       unitOrder,
       topic,
-      topicOrder: index + 1,
+      topicOrder: 1,
       locked
     }));
   });
+  const routeUnits = [...new Map(
+    readingEntries.map((entry) => [entry.lesson.unitId, { id: entry.lesson.unitId, order: entry.unitOrder, label: entry.unit?.title || `${copy.unit} ${entry.unitOrder}`, entries: readingEntries.filter((item) => item.lesson.unitId === entry.lesson.unitId) }])
+  ).values()].sort((a, b) => a.order - b.order);
+  if (!routeUnits.some((unit) => unit.id === readingLibrarySelectedUnitId)) {
+    readingLibrarySelectedUnitId = routeUnits[0]?.id || '';
+  }
+  const selectedRouteUnit = routeUnits.find((unit) => unit.id === readingLibrarySelectedUnitId) || routeUnits[0];
+  const selectedEntries = selectedRouteUnit?.entries || [];
   host.innerHTML = `
     <div class="tests-shell reading-library-layout">
       <aside class="tests-sidebar reading-library-sidebar" aria-label="Seleccionar lecturas">
@@ -6326,15 +6575,19 @@ function renderReadingLibrary() {
           <span>${escapeHtml(copy.list)}</span>
         </div>
         <p class="reading-library-access-note">${escapeHtml(getReadingFreeAccessNote(language, level))}</p>
+        <div class="reading-route-picker" role="list" aria-label="Ruta de lecturas por unidad">
+          ${routeUnits.map((unit) => `<button type="button" class="reading-route-unit${unit.id === selectedRouteUnit?.id ? ' is-active' : ''}" data-reading-route-unit="${escapeHtml(unit.id)}" aria-current="${unit.id === selectedRouteUnit?.id ? 'step' : 'false'}"><span>${unit.order}</span><strong>${escapeHtml(unit.label)}</strong><small>${escapeHtml(copy.perUnit)}</small></button>`).join('')}
+        </div>
       </aside>
       <article class="tests-stage reading-library-stage">
         <header class="reading-library-header">
           <span class="reading-library-kicker">${escapeHtml(copy.eyebrow)} · ${escapeHtml(level)}</span>
           <h2 tabindex="-1">${escapeHtml(copy.title)}</h2>
-          <p>${escapeHtml(copy.intro(readingEntries.length))}</p>
+          <p>${escapeHtml(copy.intro(readingEntries.length))} ${escapeHtml(copy.selectUnit)}</p>
         </header>
+        <div class="reading-route-active"><span>${escapeHtml(copy.unit)} ${selectedRouteUnit?.order || ''}</span><strong>${escapeHtml(selectedRouteUnit?.label || '')}</strong><small>${escapeHtml(copy.perUnit)}</small></div>
         <div class="reading-library-cards reading-library-cards--catalog">
-          ${readingEntries
+          ${selectedEntries
             .map(
               ({ lesson, unit, unitOrder, topic, topicOrder, locked }) => {
                 const words = readingWordCount(topic.text || topic.parts?.join(' ') || '');
@@ -6342,14 +6595,17 @@ function renderReadingLibrary() {
                 const status = getReadingLibraryProgressLabel(language, lesson.completed);
                 return `
                 <button type="button" class="reading-library-card${locked ? ' is-locked' : ''}" data-reading-library-lesson="${escapeHtml(lesson.slug)}" data-reading-library-topic="${escapeHtml(topic.id)}" ${locked ? 'aria-label="Lectura bloqueada: disponible en Premium"' : ''}>
-                  <span class="reading-library-card-index">${unitOrder}.${topicOrder}</span>
-                  <small class="reading-library-card-unit">${escapeHtml(copy.unit)} ${unitOrder} · ${escapeHtml(getReadingLibraryCardType(language, topicOrder))}</small>
-                  <strong>${escapeHtml((topic.label || `Lectura ${topicOrder}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
-                  <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
-                  <span class="reading-library-card-meta"><span>⏱ ${minutes} min</span><span>📄 ${words || '—'} palabras</span><span>${escapeHtml(status)}</span></span>
-                  <em class="library-card-status">${locked
-                    ? `<span>🔒 ${escapeHtml(copy.locked)}</span><span class="library-premium-invite">${escapeHtml(copy.upgrade)}</span>`
-                    : escapeHtml(copy.open)}</em>
+                  ${renderReadingLibraryCoverHtml(lesson)}
+                  <span class="reading-library-card-body">
+                    <span class="reading-library-card-index">${unitOrder}</span>
+                    <small class="reading-library-card-unit">${escapeHtml(copy.unit)} ${unitOrder} · ${escapeHtml(getReadingLibraryCardType(language))}</small>
+                    <strong>${escapeHtml((topic.label || `Lectura ${topicOrder}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
+                    <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
+                    <span class="reading-library-card-meta"><span>⏱ ${minutes} min</span><span>📄 ${words || '—'} palabras</span><span>${escapeHtml(status)}</span></span>
+                    <em class="library-card-status">${locked
+                      ? `<span>🔒 ${escapeHtml(copy.locked)}</span><span class="library-premium-invite">${escapeHtml(copy.upgrade)}</span>`
+                      : escapeHtml(copy.open)}</em>
+                  </span>
                 </button>`;
               }
             )
@@ -6367,6 +6623,12 @@ function renderReadingLibrary() {
   };
   host.querySelector('#readingLibraryLanguage')?.addEventListener('change', rerender);
   host.querySelector('#readingLibraryLevel')?.addEventListener('change', rerender);
+  host.querySelectorAll('[data-reading-route-unit]').forEach((button) => {
+    button.addEventListener('click', () => {
+      readingLibrarySelectedUnitId = button.dataset.readingRouteUnit || '';
+      renderReadingLibrary();
+    });
+  });
   host.querySelectorAll('[data-reading-library-lesson]').forEach((button) => {
     button.addEventListener('click', () => {
       const lesson = learningPathState.lessons.find(
@@ -6375,14 +6637,6 @@ function renderReadingLibrary() {
       if (!lesson) return;
       const unit = units.get(lesson.unitId) || {};
       const unitOrder = Number(unit.order || lesson.unitOrder || 1);
-      if (!isPremiumUser() && !isReadingLibraryLessonFree(lesson, unitOrder)) {
-        openPaywallModal({
-          title: 'Esta unidad de Lecturas es Premium.',
-          message:
-            'Hazte usuario Premium para desbloquear esta lectura, las tres lecturas de su unidad y el resto del nivel.'
-        });
-        return;
-      }
       readingTopicSelections.set(lesson.slug, button.dataset.readingLibraryTopic || 'main-reading');
       resetReadingComprehensionRuntime(lesson.slug, 4);
       openUnitSequenceStep('reading', lesson.slug, { entryContext: 'explore' });
@@ -6391,12 +6645,12 @@ function renderReadingLibrary() {
 }
 
 const LISTENING_LIBRARY_COPY = Object.freeze({
-  english: { eyebrow: 'LISTENING LIBRARY', choose: 'Choose your listening', language: 'Language', level: 'Level', title: 'English Listenings', intro: (count) => `Explore all ${count} listening activities at this level. Premium activities stay visible and are clearly locked.`, available: (count) => `${count} listenings available`, unit: 'Unit', open: 'Open listening →', locked: 'Premium · locked', upgrade: 'Become Premium to unlock →', free: (level) => `Free includes units 1–3 of ${level}.` },
-  spanish: { eyebrow: 'BIBLIOTECA DE AUDIOS', choose: 'Elige tu listening', language: 'Idioma', level: 'Nivel', title: 'Audios en español', intro: (count) => `Explora los ${count} listenings de este nivel. Las actividades Premium se muestran bloqueadas.`, available: (count) => `${count} listenings disponibles`, unit: 'Unidad', open: 'Abrir listening →', locked: 'Premium · bloqueado', upgrade: 'Hazte Premium para desbloquear →', free: (level) => `Free incluye las unidades 1–3 de ${level}.` },
-  french: { eyebrow: 'BIBLIOTHÈQUE D’ÉCOUTE', choose: 'Choisissez votre écoute', language: 'Langue', level: 'Niveau', title: 'Écoutes en français', intro: (count) => `Explorez les ${count} activités d’écoute de ce niveau. Les activités Premium restent visibles et verrouillées.`, available: (count) => `${count} écoutes disponibles`, unit: 'Unité', open: 'Ouvrir l’écoute →', locked: 'Premium · verrouillé', upgrade: 'Passez à Premium pour débloquer →', free: (level) => `Free inclut les unités 1–3 de ${level}.` },
-  italian: { eyebrow: 'BIBLIOTECA DI ASCOLTO', choose: 'Scegli il tuo ascolto', language: 'Lingua', level: 'Livello', title: 'Ascolti in italiano', intro: (count) => `Esplora le ${count} attività di ascolto di questo livello. Le attività Premium restano visibili e bloccate.`, available: (count) => `${count} ascolti disponibili`, unit: 'Unità', open: 'Apri ascolto →', locked: 'Premium · bloccato', upgrade: 'Passa a Premium per sbloccare →', free: (level) => `Free include le unità 1–3 di ${level}.` },
-  portuguese: { eyebrow: 'BIBLIOTECA DE ÁUDIOS', choose: 'Escolha seu listening', language: 'Idioma', level: 'Nível', title: 'Áudios em português', intro: (count) => `Explore as ${count} atividades de áudio deste nível. As atividades Premium ficam visíveis e bloqueadas.`, available: (count) => `${count} áudios disponíveis`, unit: 'Unidade', open: 'Abrir áudio →', locked: 'Premium · bloqueado', upgrade: 'Assine Premium para desbloquear →', free: (level) => `Free inclui as unidades 1–3 de ${level}.` },
-  german: { eyebrow: 'HÖRBIBLIOTHEK', choose: 'Wähle deinen Hörtext', language: 'Sprache', level: 'Niveau', title: 'Hörtexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Höraktivitäten dieses Niveaus. Premium-Aktivitäten bleiben sichtbar und gesperrt.`, available: (count) => `${count} Hörtexte verfügbar`, unit: 'Einheit', open: 'Hörtext öffnen →', locked: 'Premium · gesperrt', upgrade: 'Mit Premium freischalten →', free: (level) => `Free enthält die Einheiten 1–3 von ${level}.` }
+  english: { eyebrow: 'LISTENING LIBRARY', choose: 'Choose your listening', language: 'Language', level: 'Level', title: 'English Listenings', intro: (count) => `Explore all ${count} listening activities at this level.`, available: (count) => `${count} listenings available`, unit: 'Unit', open: 'Open listening →', free: (level) => `All ${level} listenings are available.` },
+  spanish: { eyebrow: 'BIBLIOTECA DE AUDIOS', choose: 'Elige tu listening', language: 'Idioma', level: 'Nivel', title: 'Audios en español', intro: (count) => `Explora los ${count} listenings de este nivel.`, available: (count) => `${count} listenings disponibles`, unit: 'Unidad', open: 'Abrir listening →', free: (level) => `Todos los listenings de ${level} están disponibles.` },
+  french: { eyebrow: 'BIBLIOTHÈQUE D’ÉCOUTE', choose: 'Choisissez votre écoute', language: 'Langue', level: 'Niveau', title: 'Écoutes en français', intro: (count) => `Explorez les ${count} activités d’écoute de ce niveau.`, available: (count) => `${count} écoutes disponibles`, unit: 'Unité', open: 'Ouvrir l’écoute →', free: (level) => `Toutes les écoutes de niveau ${level} sont disponibles.` },
+  italian: { eyebrow: 'BIBLIOTECA DI ASCOLTO', choose: 'Scegli il tuo ascolto', language: 'Lingua', level: 'Livello', title: 'Ascolti in italiano', intro: (count) => `Esplora le ${count} attività di ascolto di questo livello.`, available: (count) => `${count} ascolti disponibili`, unit: 'Unità', open: 'Apri ascolto →', free: (level) => `Tutti gli ascolti di ${level} sono disponibili.` },
+  portuguese: { eyebrow: 'BIBLIOTECA DE ÁUDIOS', choose: 'Escolha seu listening', language: 'Idioma', level: 'Nível', title: 'Áudios em português', intro: (count) => `Explore as ${count} atividades de áudio deste nível.`, available: (count) => `${count} áudios disponíveis`, unit: 'Unidade', open: 'Abrir áudio →', free: (level) => `Todos os áudios de ${level} estão disponíveis.` },
+  german: { eyebrow: 'HÖRBIBLIOTHEK', choose: 'Wähle deinen Hörtext', language: 'Sprache', level: 'Niveau', title: 'Hörtexte auf Deutsch', intro: (count) => `Entdecke alle ${count} Höraktivitäten dieses Niveaus.`, available: (count) => `${count} Hörtexte verfügbar`, unit: 'Einheit', open: 'Hörtext öffnen →', free: (level) => `Alle Hörtexte auf ${level} sind verfügbar.` }
 });
 
 function getListeningLibraryCardInfo(lesson, language) {
@@ -6478,7 +6732,7 @@ function renderListeningLibrary() {
         <div class="listening-library-cards">
           ${activities.map((lesson, index) => {
             const unit = units.get(lesson.unitId) || {};
-            const locked = Boolean(lesson.locked && !isPremiumUser());
+            const locked = false;
             const info = getListeningLibraryCardInfo(lesson, language);
             return `<button type="button" class="listening-library-card${locked ? ' is-locked' : ''}" data-listening-library-lesson="${escapeHtml(lesson.slug)}" ${locked ? `aria-label="${escapeHtml(copy.locked)}: ${escapeHtml(lesson.title)}"` : ''}>
               <span class="listening-library-card-index">${escapeHtml(String(unit.order || index + 1))}</span>
@@ -6508,19 +6762,14 @@ function renderListeningLibrary() {
     button.addEventListener('click', () => {
       const lesson = learningPathState.lessons.find((item) => item.slug === button.dataset.listeningLibraryLesson);
       if (!lesson) return;
-      if (lesson.locked && !isPremiumUser()) {
-        openPaywallModal({ title: 'Este listening es Premium.', message: 'Hazte usuario Premium para desbloquear este audio y todos los listenings del nivel.' });
-        return;
-      }
       openUnitSequenceStep('listening', lesson.slug, { entryContext: 'explore' });
     });
   });
 }
 
-// Each activity used to expose every optional Tutor, translator and download
-// action in one long row. Keep the action that advances learning visible and
-// place the remaining helpers in a native disclosure without removing any
-// capability or its existing event listener.
+// Keep every Tutor, translator and download action immediately available.
+// The toolbar wraps naturally on narrow screens instead of hiding learning
+// options behind a disclosure menu.
 function compactLearningToolbars(section) {
   const bars = [...section.querySelectorAll('.skill-view-tutor-cta')];
   if (!bars.length || bars.some((bar) => bar.dataset.compactTools === 'true')) return;
@@ -6538,21 +6787,15 @@ function compactLearningToolbars(section) {
     buttons[0];
   const secondary = buttons.filter((button) => button !== primary);
   const firstBar = bars[0];
-  const french = isFrenchExerciseFeedbackInTargetLanguage(learningPathState.level);
-  const details = document.createElement('details');
-  details.className = 'skill-view-more learning-tools-more';
-  details.innerHTML = `<summary>${french ? 'Plus d’outils' : 'Más herramientas'}</summary><div class="skill-view-more-menu"></div>`;
-  const menu = details.querySelector('.skill-view-more-menu');
   primary.classList.remove('secondary-btn');
   primary.classList.add('primary-btn');
   secondary.forEach((button) => {
     button.classList.remove('primary-btn');
-    menu?.append(button);
   });
   bars.slice(1).forEach((bar) => bar.remove());
   firstBar.classList.add('learning-tools');
   firstBar.dataset.compactTools = 'true';
-  firstBar.append(primary, details);
+  firstBar.replaceChildren(primary, ...secondary);
 }
 
 function wireUnitSequence(container) {
@@ -6560,9 +6803,16 @@ function wireUnitSequence(container) {
   // sequence uses .unit-sequence-step. Both are the same navigation control
   // and must always enter the activity through the shared route flow.
   container?.querySelectorAll('.unit-sequence-step, .unit-route-marker').forEach((button) => {
+    if (button.matches('[data-unit-final-challenge]')) return;
     button.addEventListener('click', () =>
       openUnitSequenceStep(button.dataset.sequenceSkill, button.dataset.lessonSlug || '')
     );
+  });
+  container?.querySelectorAll('[data-unit-final-challenge]').forEach((button) => {
+    button.addEventListener('click', () => {
+      if (button.disabled) return;
+      showUnitRouteFinalTest({ unitId: button.dataset.unitFinalChallenge, xpReward: 0 });
+    });
   });
 }
 
@@ -6853,6 +7103,14 @@ function renderSkillUnitSequence(section, lesson) {
   const minutes = getLessonDurationMinutes(lesson);
   const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
   const verbProgress = learningPathState.verbProgressByUnit[lesson.unitId];
+  const missionMetrics = getUnitProgressMetrics(lesson.unitId);
+  const finalUnlocked = missionMetrics.total > 0 && missionMetrics.completedCount === missionMetrics.total;
+  const finalMarker = isEnglishA1MissionPilot()
+    ? `
+      <button type="button" class="unit-route-marker unit-route-marker--final ${finalUnlocked ? 'unit-route-marker--available' : 'unit-route-marker--final-gated'}" data-unit-final-challenge="${escapeHtml(lesson.unitId)}" ${finalUnlocked ? '' : 'disabled'} aria-label="Reto final: ${finalUnlocked ? 'disponible' : 'bloqueado'}">
+        <span>★</span><small>Reto final</small>
+      </button>`
+    : '';
   const markersHtml = [
     ...routeActivities.map((activity, index) => {
       const current = activity.slug === lesson.slug && activity.skill === lesson.skill;
@@ -6867,7 +7125,7 @@ function renderSkillUnitSequence(section, lesson) {
       <button type="button" class="unit-route-marker unit-route-marker--${verbProgress?.status === 'completed' ? 'completed' : 'available'}" data-sequence-skill="verbs" aria-label="${routeActivities.length + 1}. Verbos">
         <span>${verbProgress?.status === 'completed' ? '✓' : routeActivities.length + 1}</span>
         <small>Verbos</small>
-      </button>`
+      </button>${finalMarker}`
   ].join('');
   const nav = document.createElement('nav');
   nav.className = 'unit-learning-sequence unit-mission-strip';
@@ -6878,7 +7136,7 @@ function renderSkillUnitSequence(section, lesson) {
       <small>${minutes ? `⏱ ${escapeHtml(String(minutes))} min · ` : ''}⭐ ${escapeHtml(String(xp))} XP · ${nextLesson ? `Después: ${escapeHtml(getSkillLabel(nextLesson.skill))}` : 'Última actividad antes de Verbos'}</small>
     </div>
     <button type="button" class="secondary-btn unit-mission-reveal-btn" aria-expanded="true" hidden>Ver misión</button>
-    <div class="unit-route-markers" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
+    <div class="unit-route-markers${isEnglishA1MissionPilot() ? ' unit-route-markers--with-final' : ''}" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
       ${markersHtml}
     </div>
   `;
@@ -6996,14 +7254,14 @@ function renderUnitVerbContext() {
   });
   banner.querySelector('.unit-verbs-finish-btn')?.addEventListener('click', () => {
     loadDashboard();
-    showUnitCompletionPanel({ unitId: unit.id, xpReward: 0 });
+    showUnitRouteFinalTest({ unitId: unit.id, xpReward: 0 });
   });
 }
 
 window.finishCurrentUnitRoute = function finishCurrentUnitRoute() {
   if (!learningPathState.unitId) return;
   loadDashboard();
-  showUnitCompletionPanel({ unitId: learningPathState.unitId, xpReward: 0 });
+  showUnitRouteFinalTest({ unitId: learningPathState.unitId, xpReward: 0 });
 };
 
 window.getCurrentUnitFinishLabel = function getCurrentUnitFinishLabel() {
@@ -7943,10 +8201,9 @@ const readingSpeechPlayer = (() => {
   };
 })();
 
-// OpenAI generates one MP3 only after the learner explicitly asks for it.
-// The stream is never persisted in the browser and the existing Web Speech
-// player remains available as an automatic fallback if the request, session
-// or network is unavailable.
+// Reading playback prefers the prepared official narration in Supabase
+// Storage. Device TTS remains a separate, learner-triggered fallback and
+// never generates, uploads, or requests narration from a provider.
 const naturalReadingAudioState = {
   audio: null,
   objectUrl: '',
@@ -7972,28 +8229,6 @@ function stopNaturalReadingAudio({ clearSource = false } = {}) {
   if (clearSource) naturalReadingAudioState.audio = null;
 }
 
-function getNaturalReadingScript(lesson) {
-  return buildReadingSegments(lesson, READING_RATE_PRESETS.normal)
-    .segments
-    .map((segment) => segment.text)
-    .join(' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-// Reading narration is generated during content production, never while a
-// learner is listening.  A missing file deliberately falls back to the
-// device voice below: it must not silently trigger a paid TTS request.
-function getStaticReadingAudioUrl(language, lesson) {
-  const safeLanguage = String(language || '').replace(/[^a-z]/gi, '');
-  const safeSlug = String(lesson?.slug || '')
-    .toLowerCase()
-    .replace(/[^a-z0-9_-]/g, '');
-  return safeLanguage && safeSlug
-    ? `/assets/audio/readings/${safeLanguage}/${safeSlug}.wav`
-    : '';
-}
-
 function getReadingUnitNumber(lesson) {
   if (!lesson?.level || !lesson?.unitId) return 0;
   const unitIds = [];
@@ -8007,12 +8242,11 @@ function getReadingUnitNumber(lesson) {
 async function playNaturalReadingAudio(section, lesson) {
   const button = section?.querySelector('.reading-audio-natural-btn');
   const audio = section?.querySelector('.reading-natural-audio');
-  const script = lesson ? getNaturalReadingScript(lesson) : '';
-  if (!section || !lesson || !audio || !script || naturalReadingAudioState.requestInFlight) return;
+  if (!section || !lesson || !audio || naturalReadingAudioState.requestInFlight) return;
   if (!isPremiumUser()) {
     openPaywallModal({
       title: 'La voz natural de Reading es Premium.',
-      message: 'Con ANDERGO Premium puedes escuchar las lecturas con una voz natural y mantener la voz de tu dispositivo como respaldo.'
+      message: 'Con ANDERGO Premium puedes escuchar los audios oficiales de las lecturas.'
     });
     return;
   }
@@ -8023,10 +8257,6 @@ async function playNaturalReadingAudio(section, lesson) {
     button.textContent = 'Preparando…';
   }
 
-  // Stop browser speech so two narrations never overlap. Prefer the prepared
-  // official narration, then create a private cached neural rendition only
-  // when that final file has not been uploaded yet.
-  readingSpeechPlayer.stopReading();
   stopNaturalReadingAudio({ clearSource: true });
 
   try {
@@ -8040,61 +8270,33 @@ async function playNaturalReadingAudio(section, lesson) {
     const officialResponse = await fetch(`${backendBaseUrl}/api/tts/reading?${query.toString()}`, {
       headers: authHeaders()
     });
-    let payload = null;
-    let audioSource = '';
-    if (officialResponse.ok) {
-      payload = await officialResponse.json();
-      audioSource = String(payload?.audioUrl || '');
-    } else if (officialResponse.status === 404) {
-      const generatedResponse = await fetch(`${backendBaseUrl}/api/tts/reading`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', ...authHeaders() },
-        body: JSON.stringify({ text: script, language: learningPathState.language })
-      });
-      if (!generatedResponse.ok) throw new Error('No se pudo preparar la voz natural.');
-      const responseType = generatedResponse.headers.get('content-type') || '';
-      if (responseType.includes('application/json')) {
-        payload = await generatedResponse.json();
-        audioSource = String(payload?.audioUrl || '');
-      } else {
-        const audioBlob = await generatedResponse.blob();
-        if (!audioBlob.size) throw new Error('No se recibió el audio natural.');
-        audioSource = URL.createObjectURL(audioBlob);
-        naturalReadingAudioState.objectUrl = audioSource;
-      }
-    } else {
-      throw new Error('No se pudo preparar la voz natural.');
-    }
+    if (!officialResponse.ok) throw new Error('El audio oficial de esta lectura aún no está disponible.');
+    const payload = await officialResponse.json();
+    const audioSource = String(payload?.audioUrl || '');
     if (!audioSource) throw new Error('No se pudo obtener el audio seguro.');
     naturalReadingAudioState.audio = audio;
     audio.src = audioSource;
     audio.hidden = false;
     audio.onended = () => {
       const sourceNote = section.querySelector('.reading-audio-source');
-      if (sourceNote) sourceNote.textContent = 'Lectura completa con voz natural de ANDERGO.';
+      if (sourceNote) sourceNote.textContent = 'Audio oficial de la lectura.';
     };
     audio.onerror = () => {
-      showHomeToast('La voz natural no está disponible en este momento. Continuamos con la voz de tu dispositivo.');
+      showHomeToast('No se pudo reproducir el audio oficial de esta lectura.');
       stopNaturalReadingAudio({ clearSource: true });
-      if (readingSpeechPlayer.isSupported()) readingSpeechPlayer.playReading();
     };
     const sourceNote = section.querySelector('.reading-audio-source');
-    if (sourceNote) sourceNote.textContent = 'Voz natural segura de ANDERGO.';
+    if (sourceNote) sourceNote.textContent = 'Audio oficial de ANDERGO.';
     await audio.play();
   } catch (error) {
     const sourceNote = section.querySelector('.reading-audio-source');
-    if (sourceNote) sourceNote.textContent = 'La voz natural no está disponible. Usamos la voz de tu dispositivo.';
-    if (readingSpeechPlayer.isSupported()) {
-      showHomeToast('Usamos la voz de tu dispositivo como respaldo.');
-      readingSpeechPlayer.playReading();
-    } else {
-      showHomeToast('No se pudo reproducir esta lectura en este dispositivo.');
-    }
+    if (sourceNote) sourceNote.textContent = 'El audio oficial de esta lectura aún no está disponible.';
+    showHomeToast(error.message || 'No se pudo reproducir esta lectura.');
   } finally {
     naturalReadingAudioState.requestInFlight = false;
     if (button) {
       button.disabled = false;
-      button.textContent = '✨ Voz natural';
+      button.textContent = '▶ Escuchar audio';
     }
   }
 }
@@ -8877,7 +9079,7 @@ function updateLearnRouteToggle(
       choose: 'Elegir una unidad',
       change: 'Cambiar unidad',
       close: 'Cerrar selector de unidades',
-      unit: 'Viaje'
+      unit: 'Unidad'
     },
     english: {
       choose: 'Choose a unit',
@@ -8895,7 +9097,7 @@ function updateLearnRouteToggle(
     choose: 'Elegir una unidad',
     change: 'Cambiar unidad',
     close: 'Cerrar selector de unidades',
-    unit: 'Viaje'
+    unit: 'Unidad'
   };
   const selectedLabel = unit ? `${copy.change} · ${copy.unit} ${unit.order}` : copy.choose;
   toggle.textContent = isOpen ? copy.close : selectedLabel;
@@ -10201,6 +10403,7 @@ function renderUnitAccordionHtml(nextSlug) {
     if (fallbackLesson?.unitId) learningPathState.unitId = fallbackLesson.unitId;
   }
 
+  const missionPilot = isEnglishA1MissionPilot();
   return learningPathState.units
     .map((unit) => {
       const metrics = getUnitProgressMetrics(unit.id);
@@ -10213,19 +10416,23 @@ function renderUnitAccordionHtml(nextSlug) {
       const isPremiumUnit = unitLessons.length > 0 && unitLessons.every((lesson) => lesson.locked);
       const artwork = getUnitArtwork(unit);
       const isCompleted = metrics.total > 0 && metrics.completedCount === metrics.total;
-      const statusLabel = isCompleted ? 'Completada' : isSelected ? 'Unidad actual' : 'Ver unidad';
+      const statusLabel = isCompleted
+        ? routeText('completed')
+        : isSelected
+          ? routeText('currentUnit')
+          : routeText('viewUnit');
       const artworkStyle = artwork.sprite
         ? ` style="--unit-artwork-image:url('${artwork.sprite.image}');--unit-artwork-position:${artwork.sprite.position};"`
         : '';
 
       return `
-      <div class="path-unit-group${isSelected ? ' path-unit-group--selected' : ''}">
-        <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}${isPremiumUnit ? ' path-unit--premium' : ''}${isCompleted ? ' path-unit--completed' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''} aria-label="${escapeHtml(`Viaje ${unit.order}: ${unit.title}. ${statusLabel}. Progreso ${metrics.progressPercent}%`)}">
+      <div class="path-unit-group${isSelected ? ' path-unit-group--selected' : ''}${missionPilot ? ' path-unit-group--mission' : ''}">
+        <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}${isPremiumUnit ? ' path-unit--premium' : ''}${isCompleted ? ' path-unit--completed' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''} aria-label="${escapeHtml(`${routeText('unit')} ${unit.order}: ${unit.title}. ${statusLabel}. ${metrics.progressPercent}%`)}">
           <span class="path-unit-artwork path-unit-artwork--${artwork.tone}" data-illustrated="${artwork.sprite ? 'true' : 'false'}" role="img" aria-label="Ilustración de ${escapeHtml(artwork.label)}"${artworkStyle}>
             ${artwork.sprite ? '' : `<span class="path-unit-artwork-emoji" aria-hidden="true">${artwork.emoji}</span>`}
           </span>
           <span class="path-unit-titles">
-            <span class="path-unit-journey">Viaje ${escapeHtml(String(unit.order))}</span>
+            <span class="path-unit-journey">${missionPilot ? 'Misión' : escapeHtml(routeText('unit'))} ${escapeHtml(String(unit.order))}</span>
             <span class="path-unit-title">${escapeHtml(unit.title)}</span>
             ${unit.titleEs ? `<span class="path-unit-title-es">${escapeHtml(unit.titleEs)}</span>` : ''}
           </span>
@@ -10265,6 +10472,8 @@ function renderSkillGraph() {
       };
   const nextLesson = getNextRecommendedLesson();
   const nextSkillLabel = nextLesson ? getSkillLabel(nextLesson.skill) : '—';
+  const missionPilot = isEnglishA1MissionPilot();
+  const missionMetrics = missionPilot ? getCourseMissionMetrics() : null;
 
   const bodyHtml = hasUnits()
     ? `<div class="unit-accordion">${renderUnitAccordionHtml(nextLesson?.slug)}</div>`
@@ -10276,20 +10485,20 @@ function renderSkillGraph() {
   `;
 
   container.innerHTML = `
-    <div class="path-guide-head">
+    <div class="path-guide-head${missionPilot ? ' path-guide-head--missions' : ''}">
       <div>
-        <span class="path-guide-step">Paso 1</span>
-        <h2>Elige una unidad</h2>
-        <p>Selecciona un viaje; su próxima actividad aparecerá a la derecha.</p>
+        <span class="path-guide-step">${escapeHtml(routeText('step'))} 1</span>
+        <h2>${missionPilot ? 'Elige tu próxima misión' : escapeHtml(routeText('chooseUnit'))}</h2>
+        <p>${missionPilot ? 'Completa las estaciones, gana XP y desbloquea el reto final de cada unidad.' : escapeHtml(routeText('chooseUnitHelp'))}</p>
       </div>
-      <span class="path-guide-count">${courseMetrics.completedCount}/${courseMetrics.total} actividades</span>
+      <span class="path-guide-count">${missionPilot ? `${missionMetrics.completedCount}/${missionMetrics.total} misiones superadas` : `${courseMetrics.completedCount}/${courseMetrics.total} ${escapeHtml(routeText('completedActivities'))}`}</span>
     </div>
-    <div class="path-summary">
+    <div class="path-summary${missionPilot ? ' path-summary--missions' : ''}">
       <span class="path-summary-lang">${escapeHtml(targetLabel)} · ${escapeHtml(level)}</span>
       <div class="path-summary-progress" role="progressbar" aria-valuenow="${courseMetrics.progressPercent}" aria-valuemin="0" aria-valuemax="100">
         <div style="width:${courseMetrics.progressPercent}%"></div>
       </div>
-      <span class="path-summary-detail"><strong>${courseMetrics.completedCount}/${courseMetrics.total} actividades completadas</strong><span>Próximo: ${escapeHtml(nextSkillLabel)}</span></span>
+      <span class="path-summary-detail"><strong>${missionPilot ? `${missionMetrics.completedCount} de ${missionMetrics.total} misiones` : `${courseMetrics.completedCount}/${courseMetrics.total} ${escapeHtml(routeText('completedActivities'))}`}</strong><span>${missionPilot ? `Próxima estación: ${escapeHtml(nextSkillLabel)}` : `${escapeHtml(routeText('next'))}: ${escapeHtml(nextSkillLabel)}`}</span></span>
     </div>
     ${bodyHtml}
   `;
@@ -10470,7 +10679,7 @@ function renderContinueCard(lesson, options = {}) {
       <div class="lesson-continue-progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
         <div style="width:${pct}%"></div>
       </div>
-      <p class="lesson-continue-count">${completedCount}/${total} actividades completadas en ${escapeHtml(lesson.level)}</p>
+      <p class="lesson-continue-count">${completedCount}/${total} ${escapeHtml(routeText('completedActivities'))} · ${escapeHtml(lesson.level)}</p>
       <button type="button" class="primary-btn lesson-continue-btn" data-lesson-slug="${escapeHtml(lesson.slug)}" data-lesson-skill="${escapeHtml(lesson.skill)}">${selected ? 'Abrir lección' : 'Ver lección recomendada'} →</button>
     </div>
   `;
@@ -10525,9 +10734,15 @@ function renderUnitOverviewList(items) {
 // stay behind the scenes; the route only answers “what will I be able to do?”.
 function renderUnitOverviewBody(data) {
   const outcomesHtml = data.outcomes.length
-    ? `<div class="unit-overview-column unit-overview-column--full"><h4>🎯 Hoy aprenderás a</h4>${renderUnitOverviewList(data.outcomes)}</div>`
+    ? `<div class="unit-overview-column unit-overview-column--full"><h4>🎯 ${escapeHtml(routeText('learningOutcomes'))}</h4>${renderUnitOverviewList(data.outcomes)}</div>`
     : '';
-  return outcomesHtml;
+  const grammarHtml = data.grammar.length
+    ? `<div class="unit-overview-column"><h4>🔧 ${escapeHtml(routeText('grammar'))}</h4>${renderUnitOverviewList(data.grammar)}</div>`
+    : '';
+  const vocabularyHtml = data.vocabulary.length
+    ? `<div class="unit-overview-column"><h4>💬 ${escapeHtml(routeText('keyVocabulary'))}</h4>${renderUnitOverviewList(data.vocabulary)}</div>`
+    : '';
+  return `${outcomesHtml}${grammarHtml}${vocabularyHtml}`;
 }
 
 // Right-panel default state for unit-aware languages/levels (English,
@@ -10558,50 +10773,51 @@ function renderUnitOverviewCard(unit) {
     0
   );
   const artwork = getUnitArtwork(unit);
+  const missionPilot = isEnglishA1MissionPilot();
+  const unitMetrics = getUnitProgressMetrics(unit.id);
+  const finalUnlocked = unitMetrics.total > 0 && unitMetrics.completedCount === unitMetrics.total;
+  const earnedXp = getUnitActivities(unit.id).reduce(
+    (total, lesson) => total + (lesson.completed ? Number(lesson.xpReward || 0) : 0),
+    0
+  );
+  const gamification = window.AndergoGamification?.getState?.() || {};
 
   return `
-    <div class="unit-overview-panel${pct >= 100 ? ' unit-overview-panel--complete' : ''}">
+    <div class="unit-overview-panel${pct >= 100 ? ' unit-overview-panel--complete' : ''}${missionPilot ? ' unit-overview-panel--mission' : ''}">
       <div class="unit-selection-intro">
-        <h3>1. Continúa por aquí</h3>
-        <p>Una actividad a la vez. Cuando termines, la siguiente quedará lista.</p>
+        <h3>${missionPilot ? `Misión ${escapeHtml(String(unit.order))} de ${escapeHtml(String(learningPathState.units.length))}` : `1. ${escapeHtml(routeText('continueHere'))}`}</h3>
+        <p>${missionPilot ? 'Avanza estación por estación y demuestra lo aprendido en el reto final.' : escapeHtml(routeText('oneAtATime'))}</p>
+        ${missionPilot ? `<span class="unit-mission-streak">🔥 ${escapeHtml(String(gamification.streak || 0))} días de racha</span>` : ''}
       </div>
       <div class="unit-overview-header">
-        <span class="unit-mission-kicker">${artwork.emoji} Viaje ${escapeHtml(String(unit.order))}</span>
+        <span class="unit-mission-kicker">${artwork.emoji} ${escapeHtml(routeText('unit'))} ${escapeHtml(String(unit.order))}</span>
         <h3 class="unit-title">${escapeHtml(unit.title)}</h3>
-        ${data.objective ? `<p class="unit-objective"><strong>Tu misión:</strong> ${escapeHtml(data.objective)}</p>` : ''}
+        ${data.objective ? `<p class="unit-objective"><strong>${escapeHtml(routeText('mission'))}</strong> ${escapeHtml(data.objective)}</p>` : ''}
         ${data.scenario ? `<p class="unit-scenario">“${escapeHtml(data.scenario)}”</p>` : ''}
       </div>
       <div class="unit-overview-progress">
         <div class="unit-overview-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
           <div style="width:${pct}%"></div>
         </div>
-        <span class="unit-overview-progress-label"><strong>${action.completedCount}/${action.total} actividades completadas</strong> · 🏆 Hasta ${reward} XP</span>
+        <span class="unit-overview-progress-label"><strong>${action.completedCount}/${action.total} ${missionPilot ? 'estaciones' : escapeHtml(routeText('completedActivities'))}</strong> · ${missionPilot ? `⭐ ${earnedXp}/${reward} XP` : `🏆 ${reward} XP`}</span>
       </div>
       <div class="unit-overview-actions unit-overview-actions--primary">
-        <span><strong>Paso 2</strong> · Sigue con la actividad recomendada</span>
+        <span><strong>${escapeHtml(routeText('step'))} 2</strong> · ${escapeHtml(routeText('recommended'))}</span>
         <button type="button" class="primary-btn unit-action-btn" data-lesson-slug="${escapeHtml(action.targetSlug)}" data-lesson-skill="${escapeHtml(actionLesson?.skill || '')}">${escapeHtml(action.label)} <span aria-hidden="true">→</span></button>
-      </div>
-      <div class="unit-overview-dashboard" aria-label="Resumen evaluable de la unidad">
-        <article class="unit-overview-stat">
-          <span aria-hidden="true">🧩</span>
-          <div><strong>${action.completedCount}/${action.total}</strong><small>retos completados</small></div>
-        </article>
-        <article class="unit-overview-stat">
-          <span aria-hidden="true">🎯</span>
-          <div><strong>${pct}/100</strong><small>resultado de la unidad</small></div>
-        </article>
-        <article class="unit-overview-stat">
-          <span aria-hidden="true">⚡</span>
-          <div><strong>+${reward} XP</strong><small>recompensa posible</small></div>
-        </article>
       </div>
       <div class="unit-overview-sequence">
         <div class="unit-sequence-heading">
-          <strong>Actividades de la unidad</strong>
-          <span>También puedes abrir directamente cualquier actividad disponible.</span>
+          <strong>${escapeHtml(routeText('activities'))}</strong>
+          <span>${escapeHtml(routeText('directOpen'))}</span>
         </div>
         <div class="unit-sequence-steps">${renderUnitSequenceStepsHtml(unit.id)}</div>
       </div>
+      ${missionPilot ? `
+      <div class="unit-final-challenge-card${finalUnlocked ? ' is-unlocked' : ''}">
+        <span class="unit-final-challenge-icon" aria-hidden="true">★</span>
+        <span><strong>Reto final de la misión</strong><small>${finalUnlocked ? 'Ya completaste las siete estaciones. El reto está disponible.' : `Completa las ${unitMetrics.total} estaciones para desbloquearlo.`}</small></span>
+        <button type="button" class="${finalUnlocked ? 'primary-btn' : 'secondary-btn'} unit-final-challenge-btn" data-unit-final-challenge="${escapeHtml(unit.id)}" ${finalUnlocked ? '' : 'disabled'}>${finalUnlocked ? 'Comenzar reto →' : 'Bloqueado'}</button>
+      </div>` : ''}
       ${
         bodyHtml
           ? `
@@ -10609,7 +10825,7 @@ function renderUnitOverviewCard(unit) {
         <div class="unit-overview-body">${bodyHtml}</div>
       </div>
       <details class="unit-overview-collapsible">
-        <summary>Ver detalles de la unidad</summary>
+        <summary>${escapeHtml(routeText('details'))}</summary>
         <div class="unit-overview-body">${bodyHtml}</div>
       </details>`
           : ''
@@ -10760,6 +10976,10 @@ function renderLessonWorkspace() {
 }
 
 function renderLearningPath() {
+  document.getElementById('learning-path')?.classList.toggle(
+    'english-a1-mission-pilot',
+    isEnglishA1MissionPilot()
+  );
   // Pre-A1 is a visual mini-course rather than a conventional lesson list.
   // General progress/auth refreshes also call renderLearningPath(); keep those
   // refreshes from replacing the visual catalogue with the empty-list state.
@@ -10769,10 +10989,180 @@ function renderLearningPath() {
     return;
   }
   renderLearningRouteContext();
+  renderDailyLearningPlan();
   renderSkillGraph();
   renderLessonWorkspace();
   renderSkillCards();
   updateAiTutorContext();
+}
+
+const STUDY_PLAN_STORAGE_KEY = 'andergo-study-plan-v1';
+const SPACED_REVIEW_STORAGE_KEY = 'andergo-spaced-review-v1';
+
+function getStudyPlan() {
+  try {
+    return JSON.parse(localStorage.getItem(STUDY_PLAN_STORAGE_KEY) || '{}') || {};
+  } catch {
+    return {};
+  }
+}
+
+function getSpacedReviewQueue() {
+  try {
+    const queue = JSON.parse(localStorage.getItem(SPACED_REVIEW_STORAGE_KEY) || '[]');
+    return Array.isArray(queue) ? queue : [];
+  } catch {
+    return [];
+  }
+}
+
+function scheduleSpacedReview(lesson) {
+  if (!lesson?.slug) return;
+  const now = Date.now();
+  const queue = getSpacedReviewQueue().filter((item) => item.lessonSlug !== lesson.slug);
+  // Retrieval is scheduled at expanding intervals. The review card always
+  // opens the original activity, so no answer key or duplicate content is
+  // stored in the browser.
+  [1, 3, 7].forEach((days, index) => queue.push({
+    lessonSlug: lesson.slug,
+    dueAt: now + days * 86400000,
+    stage: index + 1
+  }));
+  localStorage.setItem(SPACED_REVIEW_STORAGE_KEY, JSON.stringify(queue));
+}
+
+function getDueReviewLesson() {
+  const now = Date.now();
+  const due = getSpacedReviewQueue()
+    .filter((item) => Number(item.dueAt) <= now)
+    .sort((a, b) => Number(a.dueAt) - Number(b.dueAt))[0];
+  return due ? learningPathState.lessons.find((lesson) => lesson.slug === due.lessonSlug) || null : null;
+}
+
+// Some interactive whiteboards deliver touch/pen input as Pointer Events but
+// never follow it with the compatibility `click` event that a browser mouse
+// emits. The platform mostly uses click handlers, including controls created
+// while a lesson is running. In PDI mode, keep native clicks first and only
+// replay a missed activation after a short grace period.
+function initializePdiInputFallback() {
+  if (document.documentElement.dataset.pdiInputFallback === 'ready') return;
+  document.documentElement.dataset.pdiInputFallback = 'ready';
+
+  const interactiveSelector = 'button:not([disabled]), a[href], summary, [role="button"]:not([aria-disabled="true"])';
+  const pendingActivations = new WeakMap();
+  const pointerStarts = new Map();
+  let legacyTouchStart = null;
+  // A board cannot enable "Modo PDI" with a button if its browser does not
+  // emit clicks in the first place. Treat a wide touch display as PDI input
+  // from the first paint; phones retain their normal native click path.
+  const usesPdiTouchInput = () =>
+    document.body.classList.contains('is-pdi-learning-mode') ||
+    (window.innerWidth >= 900 && (navigator.maxTouchPoints > 0 || 'ontouchstart' in window));
+  const clearPendingActivation = (element) => {
+    const timer = pendingActivations.get(element);
+    if (timer) window.clearTimeout(timer);
+    pendingActivations.delete(element);
+  };
+  const queueMissingActivation = (control) => {
+    if (!control || control.hidden || control.matches(':disabled, [aria-disabled="true"]')) return;
+    clearPendingActivation(control);
+    const timer = window.setTimeout(() => {
+      // Do not synthesize a second action when the whiteboard/browser did
+      // produce its normal click. `.click()` preserves existing handlers.
+      if (pendingActivations.get(control) !== timer) return;
+      pendingActivations.delete(control);
+      control.click();
+    }, 220);
+    pendingActivations.set(control, timer);
+  };
+
+  document.addEventListener('pointerdown', (event) => {
+    if (!usesPdiTouchInput()) return;
+    if (!['touch', 'pen'].includes(event.pointerType)) return;
+    pointerStarts.set(event.pointerId, { x: event.clientX, y: event.clientY });
+  }, { capture: true, passive: true });
+
+  document.addEventListener('click', (event) => {
+    const control = event.target.closest?.(interactiveSelector);
+    if (control) clearPendingActivation(control);
+  }, { capture: true });
+
+  document.addEventListener('pointerup', (event) => {
+    const start = pointerStarts.get(event.pointerId);
+    pointerStarts.delete(event.pointerId);
+    if (!usesPdiTouchInput() || !start) return;
+    if (!['touch', 'pen'].includes(event.pointerType)) return;
+    // A drag is a scroll/gesture, never a button activation.
+    if (Math.hypot(event.clientX - start.x, event.clientY - start.y) > 18) return;
+    queueMissingActivation(event.target.closest?.(interactiveSelector));
+  }, { capture: true, passive: true });
+
+  document.addEventListener('pointercancel', (event) => {
+    pointerStarts.delete(event.pointerId);
+  }, { capture: true, passive: true });
+
+  // Some vendor WebViews expose PointerEvent but dispatch the actual board
+  // contact through Touch Events. Listen to both; queueMissingActivation()
+  // replaces a pending timer for the same control, so one tap is still
+  // activated only once when a browser emits both event families.
+  document.addEventListener('touchstart', (event) => {
+    if (!usesPdiTouchInput()) return;
+    const touch = event.touches[0];
+    legacyTouchStart = touch && event.touches.length === 1 ? { x: touch.clientX, y: touch.clientY } : null;
+  }, { capture: true, passive: true });
+
+  document.addEventListener('touchend', (event) => {
+    const start = legacyTouchStart;
+    legacyTouchStart = null;
+    if (!usesPdiTouchInput() || !start) return;
+    const touch = event.changedTouches[0];
+    if (!touch || Math.hypot(touch.clientX - start.x, touch.clientY - start.y) > 18) return;
+    const target = document.elementFromPoint(touch.clientX, touch.clientY);
+    queueMissingActivation(target?.closest?.(interactiveSelector));
+  }, { capture: true, passive: true });
+
+  document.addEventListener('touchcancel', () => {
+    legacyTouchStart = null;
+  }, { capture: true, passive: true });
+}
+
+function renderDailyLearningPlan() {
+  const anchor = document.getElementById('learningRouteContext');
+  if (!anchor) return;
+  let panel = document.getElementById('dailyLearningPlan');
+  if (!panel) {
+    panel = document.createElement('aside');
+    panel.id = 'dailyLearningPlan';
+    panel.className = 'daily-learning-plan no-print';
+    anchor.after(panel);
+  }
+  const profile = getStudyPlan();
+  const reviewLesson = getDueReviewLesson();
+  const nextLesson = getNextRecommendedLesson();
+  const target = reviewLesson || nextLesson;
+  if (!target) {
+    panel.hidden = true;
+    return;
+  }
+  panel.hidden = false;
+  const focus = profile.focus || 'general';
+  const focusLabels = { general: 'progreso general', travel: 'viajes', work: 'trabajo y negocios', conversation: 'conversación diaria', classroom: 'clase/PDI' };
+  const pdiEnabled = localStorage.getItem('andergo-pdi-mode') === 'true';
+  panel.innerHTML = `<div><span>${escapeHtml(routeText('planToday'))} · ${escapeHtml(reviewLesson ? routeText('review') : routeText('bestNext'))}</span><strong>${reviewLesson ? `Repasa ${getSkillLabel(target.skill)}` : `Continúa con ${getSkillLabel(target.skill)}`}</strong><p>${escapeHtml(target.title)} · ${getLessonDurationMinutes(target) || 6} min · Enfoque: ${escapeHtml(focusLabels[focus] || focusLabels.general)}</p></div><div class="daily-learning-plan-actions"><button type="button" class="primary-btn daily-start-btn" data-lesson-slug="${escapeHtml(target.slug)}" data-lesson-skill="${escapeHtml(target.skill)}">${escapeHtml(reviewLesson ? routeText('reviewNow') : routeText('startNow'))} →</button><button type="button" class="secondary-btn daily-pdi-btn" aria-pressed="${pdiEnabled}">${pdiEnabled ? 'Salir de modo PDI' : 'Modo PDI'}</button><details class="daily-plan-customize"><summary>${escapeHtml(routeText('personalize'))}</summary><div><button type="button" class="secondary-btn daily-focus-btn">${escapeHtml(routeText('learningGoal'))}</button></div></details></div>`;
+  panel.querySelector('.daily-start-btn')?.addEventListener('click', () => openUnitSequenceStep(target.skill, target.slug));
+  document.body.classList.toggle('is-pdi-learning-mode', pdiEnabled);
+  panel.querySelector('.daily-pdi-btn')?.addEventListener('click', () => {
+    localStorage.setItem('andergo-pdi-mode', String(!pdiEnabled));
+    renderDailyLearningPlan();
+  });
+  panel.querySelector('.daily-focus-btn')?.addEventListener('click', () => {
+    const choices = [['general', 'Progreso general'], ['travel', 'Viajes'], ['work', 'Trabajo y negocios'], ['conversation', 'Conversación diaria'], ['classroom', 'Clase / PDI']];
+    panel.innerHTML = `<div><span>OBJETIVO DE APRENDIZAJE</span><strong>¿Para qué quieres usar el idioma?</strong><p>La recomendación diaria priorizará este contexto.</p></div><div class="daily-focus-choices">${choices.map(([value, label]) => `<button type="button" class="secondary-btn" data-study-focus="${value}" aria-pressed="${focus === value}">${label}</button>`).join('')}</div>`;
+    panel.querySelectorAll('[data-study-focus]').forEach((button) => button.addEventListener('click', () => {
+      localStorage.setItem(STUDY_PLAN_STORAGE_KEY, JSON.stringify({ ...getStudyPlan(), focus: button.dataset.studyFocus }));
+      renderDailyLearningPlan();
+    }));
+  });
 }
 
 const SKILL_LABELS = {
@@ -10852,6 +11242,43 @@ function getSkillLabel(skill, language = learningPathState.language) {
     return SKILL_LABELS_PORTUGUESE[skill] || SKILL_LABELS[skill] || skill;
   if (language === 'german') return SKILL_LABELS_GERMAN[skill] || SKILL_LABELS[skill] || skill;
   return SKILL_LABELS[skill] || skill;
+}
+
+// The route can be explored with Spanish, English or French as the support
+// language. Keep its navigation copy in the support language too; translating
+// only skill names made the surrounding instructions feel inconsistent.
+const ROUTE_COPY = {
+  spanish: {
+    unit: 'Unidad', chooseUnit: 'Elige una unidad', chooseUnitHelp: 'Selecciona una unidad; su próxima actividad aparecerá a la derecha.',
+    completedActivities: 'actividades completadas', next: 'Siguiente', currentUnit: 'Unidad actual', viewUnit: 'Ver unidad', completed: 'Completada',
+    mission: 'Tu misión:', step: 'Paso', continueHere: 'Continúa por aquí', oneAtATime: 'Una actividad a la vez. Cuando termines, la siguiente quedará lista.',
+    recommended: 'Sigue con la actividad recomendada', activities: 'Actividades de la unidad', directOpen: 'También puedes abrir directamente cualquier actividad disponible.',
+    learningOutcomes: 'Hoy aprenderás a', grammar: 'Gramática que usarás', keyVocabulary: 'Palabras clave', details: 'Ver detalles de la unidad',
+    extraPractice: 'Práctica complementaria', planToday: 'PLAN DE HOY', review: 'REPASO ESPACIADO', bestNext: 'SIGUIENTE MEJOR PASO',
+    startNow: 'Empezar ahora', reviewNow: 'Repasar ahora', personalize: 'Personalizar plan', learningGoal: 'Objetivo de aprendizaje'
+  },
+  english: {
+    unit: 'Unit', chooseUnit: 'Choose a unit', chooseUnitHelp: 'Choose a unit; its next activity will appear on the right.',
+    completedActivities: 'activities completed', next: 'Next', currentUnit: 'Current unit', viewUnit: 'View unit', completed: 'Completed',
+    mission: 'Your mission:', step: 'Step', continueHere: 'Continue here', oneAtATime: 'One activity at a time. When you finish, the next one will be ready.',
+    recommended: 'Continue with the recommended activity', activities: 'Unit activities', directOpen: 'You can also open any available activity directly.',
+    learningOutcomes: 'Today you will learn to', grammar: 'Grammar you will use', keyVocabulary: 'Key words', details: 'View unit details',
+    extraPractice: 'Extra practice', planToday: "TODAY'S PLAN", review: 'SPACED REVIEW', bestNext: 'BEST NEXT STEP',
+    startNow: 'Start now', reviewNow: 'Review now', personalize: 'Personalize plan', learningGoal: 'Learning goal'
+  },
+  french: {
+    unit: 'Unité', chooseUnit: 'Choisissez une unité', chooseUnitHelp: 'Choisissez une unité ; sa prochaine activité apparaîtra à droite.',
+    completedActivities: 'activités terminées', next: 'Suivant', currentUnit: 'Unité en cours', viewUnit: "Voir l’unité", completed: 'Terminée',
+    mission: 'Votre mission :', step: 'Étape', continueHere: 'Continuez ici', oneAtATime: 'Une activité à la fois. Quand vous terminez, la suivante sera prête.',
+    recommended: "Continuez avec l’activité recommandée", activities: "Activités de l’unité", directOpen: 'Vous pouvez aussi ouvrir directement toute activité disponible.',
+    learningOutcomes: 'Aujourd’hui, vous apprendrez à', grammar: 'Grammaire à utiliser', keyVocabulary: 'Mots clés', details: "Voir les détails de l’unité",
+    extraPractice: 'Pratique complémentaire', planToday: "PLAN DU JOUR", review: 'RÉVISION ESPACÉE', bestNext: 'MEILLEURE PROCHAINE ÉTAPE',
+    startNow: 'Commencer', reviewNow: 'Réviser maintenant', personalize: 'Personnaliser le plan', learningGoal: "Objectif d’apprentissage"
+  }
+};
+
+function routeText(key) {
+  return (ROUTE_COPY[learningPathState.bridgeLanguage] || ROUTE_COPY.spanish)[key] || ROUTE_COPY.spanish[key] || key;
 }
 
 // Updates every repeated .level-tabs strip (one per skill section, see
@@ -11071,7 +11498,15 @@ function openChangeCombinationPopover() {
   const levelSelect = document.getElementById('comboLevelSelect');
   if (bridgeSelect) bridgeSelect.value = learningPathState.bridgeLanguage;
   if (languageSelect) languageSelect.value = learningPathState.language;
-  if (levelSelect) levelSelect.value = learningPathState.level;
+  const syncCombinationLevels = () => {
+    if (!languageSelect || !levelSelect) return;
+    syncCourseLevelSelect(levelSelect, languageSelect.value, { compact: true });
+  };
+  syncCombinationLevels();
+  if (levelSelect) {
+    levelSelect.value = normalizeCourseLevel(languageSelect?.value, learningPathState.level);
+  }
+  if (languageSelect) languageSelect.onchange = syncCombinationLevels;
   popover.hidden = false;
   popover.removeAttribute('inert');
   bridgeSelect?.focus();
@@ -11092,7 +11527,7 @@ async function applyChangeCombination() {
 
   const bridge = normalizeLanguageKey(bridgeSelect.value);
   const language = normalizeLanguageKey(languageSelect.value);
-  const level = levelSelect.value;
+  const level = normalizeCourseLevel(language, levelSelect.value);
   if (!bridge || !language || !level) return;
   if (LanguagePair && !LanguagePair.isLanguagePairSupported(bridge, language)) {
     showHomeToast('Esta combinaciÃ³n estarÃ¡ disponible prÃ³ximamente.');
@@ -12007,41 +12442,15 @@ function isTrueFalseExercise(item) {
 // errors) when the browser has no speechSynthesis at all - same
 // graceful-degradation rule as flashcard pronunciation.
 function renderReadingAudioPlayerHtml(snapshot) {
-  const browserSpeechAvailable = readingSpeechPlayer.isSupported();
   const hasNaturalReadingVoice = isPremiumUser();
-  const isPlaying = snapshot.state === 'playing';
-  const isPaused = snapshot.state === 'paused';
-  const playPauseLabel = isPlaying ? '⏸ Pausar' : isPaused ? '▶ Continuar' : '▶ Reproducir';
-  const playPauseAria = isPlaying
-    ? 'Pausar lectura'
-    : isPaused
-      ? 'Continuar lectura'
-      : 'Reproducir lectura completa';
-  const statusLabel = readingAudioStatusLabel(snapshot.state);
-  const seekDisabled = snapshot.state === 'idle' || snapshot.state === 'error' ? 'disabled' : '';
   return `
     <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de audio: escucha el texto completo de esta lectura">
       <div class="reading-audio-controls">
-        <button type="button" class="reading-audio-btn reading-audio-natural-btn${hasNaturalReadingVoice ? '' : ' is-locked'}" aria-label="${hasNaturalReadingVoice ? 'Reproducir con voz natural' : 'Voz natural disponible con Premium'}" title="${hasNaturalReadingVoice ? 'Voz natural de ANDERGO' : 'Disponible con ANDERGO Premium'}">${hasNaturalReadingVoice ? '✨ Voz natural' : '🔒 Voz natural · Premium'}</button>
-        <button type="button" class="reading-audio-btn reading-audio-playpause-btn${isPlaying ? ' is-active' : ''}" aria-label="${playPauseAria}" ${browserSpeechAvailable ? '' : 'disabled'}>${playPauseLabel}</button>
-        <button type="button" class="reading-audio-btn reading-audio-rewind-btn" aria-label="Retroceder cinco segundos" ${browserSpeechAvailable ? seekDisabled : 'disabled'}>↶ 5 s</button>
-        <button type="button" class="reading-audio-btn reading-audio-stop-btn" aria-label="Detener lectura" ${browserSpeechAvailable && snapshot.state !== 'idle' && snapshot.state !== 'stopped' ? '' : 'disabled'}>⏹ Detener</button>
-        <button type="button" class="reading-audio-btn reading-audio-voice-btn" aria-label="Cambiar voz" title="${snapshot.voiceName ? `Voz: ${escapeHtml(snapshot.voiceName)}` : ''}" ${snapshot.canChangeVoice ? '' : 'hidden'}>🔄 <span class="reading-audio-voice-label">${escapeHtml(snapshot.voiceLabel || '')}</span></button>
-        <div class="reading-audio-rate-group" role="group" aria-label="Velocidad de lectura">
-          <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'slow' ? ' is-active' : ''}" data-rate="slow" aria-pressed="${snapshot.rateKey === 'slow'}">Lenta</button>
-          <button type="button" class="reading-audio-rate-btn${snapshot.rateKey === 'normal' ? ' is-active' : ''}" data-rate="normal" aria-pressed="${snapshot.rateKey === 'normal'}">Normal</button>
-        </div>
-        <div class="reading-audio-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${snapshot.progressPct}" aria-label="Progreso de la lectura">
-          <div class="reading-audio-progress-fill" style="width:${snapshot.progressPct}%"></div>
-        </div>
-        <div class="reading-audio-meta">
-          <span class="reading-audio-time">${formatReadingTime(snapshot.elapsedSeconds)} / ${formatReadingTime(snapshot.totalDurationSeconds)}</span>
-          <span class="reading-audio-percent">${snapshot.progressPct}%</span>
-          <span class="reading-audio-status" aria-live="polite">${statusLabel}</span>
-        </div>
+        <button type="button" class="reading-audio-btn reading-audio-natural-btn${hasNaturalReadingVoice ? '' : ' is-locked'}" aria-label="${hasNaturalReadingVoice ? 'Escuchar audio oficial' : 'Audio oficial disponible con Premium'}" title="${hasNaturalReadingVoice ? 'Audio oficial de ANDERGO' : 'Disponible con ANDERGO Premium'}">${hasNaturalReadingVoice ? '▶ Escuchar audio' : '🔒 Audio oficial · Premium'}</button>
+        <button type="button" class="reading-audio-btn reading-audio-tts-btn" aria-label="Reproducir esta lectura con la voz del dispositivo" ${readingSpeechPlayer.isSupported() ? '' : 'disabled'}>🗣️ TTS opcional</button>
       </div>
-      <p class="reading-audio-source">${hasNaturalReadingVoice ? 'Voz natural de ANDERGO. Si no está disponible, continuamos con la voz de tu dispositivo.' : 'La voz de tu dispositivo está disponible para todos. La voz natural de ANDERGO es Premium.'}</p>
-      <audio class="reading-natural-audio" controls preload="none" hidden aria-label="Audio de la lectura con voz natural"></audio>
+      <p class="reading-audio-source">${hasNaturalReadingVoice ? 'Reproduce el audio oficial cargado para esta lectura. Si no está disponible, puedes usar la voz de tu dispositivo.' : 'El audio oficial de las lecturas está disponible con ANDERGO Premium. También puedes usar la voz de tu dispositivo.'}</p>
+      <audio class="reading-natural-audio" controls preload="none" hidden aria-label="Audio oficial de la lectura"></audio>
     </div>
   `;
 }
@@ -12720,6 +13129,16 @@ function renderReadingIllustrationHtml(lesson) {
       <span class="reading-illustration-sprite" role="img" aria-label="${escapeHtml(alt)}" style="--reading-illustration-image:url('${escapeHtml(spriteImage)}');--reading-illustration-position:${spritePosition};">${customImage}</span>
     </figure>
   `;
+}
+
+// The library uses the same cover resolver as the reader, so a learner can
+// recognize a text before opening it without a second illustration system.
+function renderReadingLibraryCoverHtml(lesson) {
+  const { src, alt, theme } = resolveReadingIllustration(lesson);
+  const customImage = src
+    ? `<img src="${escapeHtml(src)}" alt="" loading="lazy" onerror="this.remove();">`
+    : '';
+  return `<span class="reading-library-card-cover" role="img" aria-label="${escapeHtml(alt)}" style="--reading-illustration-image:url('${escapeHtml(READING_THEME_ATLAS)}');--reading-illustration-position:${theme.position};">${customImage}</span>`;
 }
 
 // A Reading activity may offer several real texts without changing the lesson
@@ -14361,7 +14780,7 @@ function renderReadingView(section, lesson) {
       (item) => `
     <div class="reading-vocab-item">
       <strong>${escapeHtml(item.word)}</strong>
-      <span class="reading-vocab-support" hidden>${escapeHtml(resolveVocabTranslation(item))}</span>
+      <span class="reading-vocab-support">${escapeHtml(resolveVocabTranslation(item))}</span>
     </div>
   `
     )
@@ -14454,11 +14873,8 @@ function renderReadingView(section, lesson) {
         </p>
       </div>
       <div class="reading-vocab-section no-print"${hasVocabulary && isFinalReadingSection ? '' : ' hidden'}>
-        <div class="reading-vocab-actions">
-          <button type="button" class="secondary-btn reading-toggle-vocab" aria-expanded="false">${french ? 'Voir le vocabulaire' : 'Ver vocabulario'}</button>
-          <button type="button" class="secondary-btn reading-toggle-support" aria-pressed="false">${escapeHtml(french ? 'Afficher l’aide' : 'Mostrar ayuda en español')}</button>
-        </div>
-        <div class="reading-vocab-list" hidden>${vocabHtml}</div>
+        <div class="reading-vocab-heading"><strong>${french ? 'Mots utiles' : 'Palabras útiles'}</strong><span>${french ? 'Vocabulaire de la lecture' : 'Vocabulario de la lectura'}</span></div>
+        <div class="reading-vocab-list">${vocabHtml}</div>
       </div>
       <div class="reading-print-answer-space skill-print-answer-space print-only">
         <h4>${french ? 'Vos réponses' : 'Tus respuestas'}</h4>
@@ -16359,99 +16775,319 @@ function renderSpeakingModeTabsHtml(activeMode) {
   `;
 }
 
-// A compact phrase bank belongs beside the speaking task, not in a separate
-// vocabulary route. It gives the learner ready-to-say language for this exact
-// lesson while keeping the amount small enough to rehearse aloud.
-function getSpeakingUsefulExpressions(lesson) {
-  const language = learningPathState.language;
-  if (!['english', 'french'].includes(language)) return [];
-  const fallbacks = {
-    english: [
-      'Could you say that again, please?',
-      'I think that…',
-      'In my opinion…',
-      'What do you mean?'
-    ],
-    french: [
-      'Pouvez-vous répéter, s’il vous plaît ?',
-      'Je pense que…',
-      'À mon avis…',
-      'Qu’est-ce que vous voulez dire ?'
-    ]
-  };
-  const candidates = [
-    ...(Array.isArray(lesson.phrases) ? lesson.phrases : []),
-    ...(Array.isArray(lesson.dialogue) ? lesson.dialogue.map((turn) => turn?.line) : []),
-    ...fallbacks[language]
-  ];
-  const expressions = [];
-  candidates.forEach((item) => {
-    const phrase = String(item || '').replace(/\s+/g, ' ').trim();
-    if (
-      phrase &&
-      phrase.length <= 120 &&
-      !expressions.some((known) => known.toLocaleLowerCase() === phrase.toLocaleLowerCase())
-    ) {
-      expressions.push(phrase);
-    }
-  });
-  return expressions.slice(0, 4);
-}
-
-function renderSpeakingExpressionsHtml(lesson) {
-  const expressions = getSpeakingUsefulExpressions(lesson);
-  if (!expressions.length) return '';
-  const isFrench = learningPathState.language === 'french';
-  const title = isFrench ? 'Expressions à utiliser maintenant' : 'Useful expressions to say now';
-  const hint = isFrench
-    ? 'Écoutez, répétez et utilisez-en une dans votre réponse.'
-    : 'Listen, repeat, and use one in your response.';
-  return `
-    <aside class="speaking-expressions" aria-label="${escapeHtml(title)}">
-      <div class="speaking-expressions-heading"><span>💬</span><div><small>${isFrench ? 'PARLER EN CONTEXTE' : 'SPEAK IN CONTEXT'}</small><h4>${escapeHtml(title)}</h4></div></div>
-      <p>${escapeHtml(hint)}</p>
-      <div class="speaking-expression-list">
-        ${expressions
-          .map(
-            (phrase) =>
-              `<button type="button" class="speaking-expression" data-speaking-expression="${escapeHtml(phrase)}"><span>${escapeHtml(phrase)}</span><b aria-label="${isFrench ? 'Écouter' : 'Listen'}">🔊</b></button>`
-          )
-          .join('')}
-      </div>
-      ${renderFrenchEnglishExpressionLibrary()}
-    </aside>
-  `;
-}
-
 // High-frequency conversation expressions deliberately remain the same across
 // lessons: learners can revisit this small French-English bank whenever they
 // need a phrase in a real exchange. Lesson-specific lines stay above it.
-const SPEAKING_EXPRESSIONS_THREE_LANGUAGES = [
-  ['Estoy de vuelta.', 'I am back.', 'Je suis de retour.'],
-  ['Estoy bloqueado/a.', 'I am stuck.', 'Je suis bloqué(e).'],
-  ['Estoy disponible.', 'I am available.', 'Je suis disponible.'],
-  ['Quiero saber por qué.', 'I want to know why.', 'Je veux savoir pourquoi.'],
-  ['Tengo que mantenerme concentrado/a.', 'I have to stay focused.', 'Je dois rester concentré(e).'],
-  ['Todavía no entiendo.', "I still don’t understand.", 'Je ne comprends toujours pas.'],
-  ['No tengo nada que decir.', 'I have nothing to say.', "Je n’ai rien à dire."],
-  ['No es tan grave.', "It’s not that bad.", "Ce n’est pas si grave."],
-  ['Es una buena idea.', "It’s a good idea.", "C’est une bonne idée."],
-  ['Es urgente para mí.', "It’s urgent for me.", "C’est urgent pour moi."],
-  ['Es demasiado tarde.', "It’s too late.", "C’est trop tard."],
-  ['Es suficiente.', "It’s enough.", "C’est suffisant."]
+const UNIVERSAL_USEFUL_EXPRESSIONS = [
+  ['¿Puede ayudarme, por favor?', 'Can you help me, please?', 'Pouvez-vous m’aider, s’il vous plaît ?', 'Può aiutarmi, per favore?'],
+  ['No entiendo.', 'I do not understand.', 'Je ne comprends pas.', 'Non capisco.'],
+  ['¿Puede repetirlo, por favor?', 'Can you repeat that, please?', 'Pouvez-vous répéter, s’il vous plaît ?', 'Può ripetere, per favore?'],
+  ['¿Puede hablar más despacio?', 'Can you speak more slowly?', 'Pouvez-vous parler plus lentement ?', 'Può parlare più lentamente?'],
+  ['¿Qué significa eso?', 'What does that mean?', 'Qu’est-ce que cela veut dire ?', 'Che cosa significa?'],
+  ['¿Cómo se dice esto en inglés?', 'How do you say this in English?', 'Comment dit-on cela en anglais ?', 'Come si dice questo in inglese?'],
+  ['¿Puede escribirlo, por favor?', 'Can you write it down, please?', 'Pouvez-vous l’écrire, s’il vous plaît ?', 'Può scriverlo, per favore?'],
+  ['¿Dónde puedo encontrarlo?', 'Where can I find it?', 'Où puis-je le trouver ?', 'Dove posso trovarlo?'],
+  ['¿Qué me recomienda?', 'What do you recommend?', 'Qu’est-ce que vous me conseillez ?', 'Che cosa mi consiglia?'],
+  ['Me gustaría saber más.', 'I would like to know more.', 'J’aimerais en savoir plus.', 'Vorrei saperne di più.'],
+  ['¿Tiene otra opción?', 'Do you have another option?', 'Avez-vous une autre option ?', 'Ha un’altra opzione?'],
+  ['Eso suena bien.', 'That sounds good.', 'Cela me semble bien.', 'Mi sembra bene.'],
+  ['No estoy seguro/a.', 'I am not sure.', 'Je ne suis pas sûr(e).', 'Non sono sicuro/a.'],
+  ['Déjeme pensarlo.', 'Let me think about it.', 'Laissez-moi y réfléchir.', 'Mi lasci pensarci.'],
+  ['Un momento, por favor.', 'One moment, please.', 'Un instant, s’il vous plaît.', 'Un momento, per favore.'],
+  ['Ahora mismo vuelvo.', 'I will be right back.', 'Je reviens tout de suite.', 'Torno subito.'],
+  ['¿Podemos hacerlo más tarde?', 'Can we do it later?', 'Pouvons-nous le faire plus tard ?', 'Possiamo farlo più tardi?'],
+  ['¿A qué hora?', 'What time?', 'À quelle heure ?', 'A che ora?'],
+  ['¿Dónde nos encontramos?', 'Where shall we meet?', 'Où est-ce qu’on se retrouve ?', 'Dove ci incontriamo?'],
+  ['Estoy listo/a.', 'I am ready.', 'Je suis prêt(e).', 'Sono pronto/a.'],
+  ['Necesito más tiempo.', 'I need more time.', 'J’ai besoin de plus de temps.', 'Ho bisogno di più tempo.'],
+  ['No hay problema.', 'No problem.', 'Pas de problème.', 'Nessun problema.'],
+  ['Gracias por su paciencia.', 'Thank you for your patience.', 'Merci pour votre patience.', 'Grazie per la sua pazienza.'],
+  ['Lo agradezco mucho.', 'I really appreciate it.', 'Je vous en remercie beaucoup.', 'Lo apprezzo molto.'],
+  ['Tiene razón.', 'You are right.', 'Vous avez raison.', 'Ha ragione.'],
+  ['No estoy de acuerdo, pero respeto su opinión.', 'I disagree, but I respect your opinion.', 'Je ne suis pas d’accord, mais je respecte votre opinion.', 'Non sono d’accordo, ma rispetto la sua opinione.'],
+  ['¿Podemos intentarlo de nuevo?', 'Can we try again?', 'Pouvons-nous réessayer ?', 'Possiamo riprovare?'],
+  ['Fue un placer hablar con usted.', 'It was a pleasure talking with you.', 'Ce fut un plaisir de parler avec vous.', 'È stato un piacere parlare con lei.']
 ];
 
-function renderFrenchEnglishExpressionLibrary() {
-  if (!['english', 'french'].includes(learningPathState.language)) return '';
-  return `
-    <details class="speaking-expression-library">
-      <summary><span>↔</span><strong>Expresiones cotidianas · Español / English / Français</strong><small>12 frases</small></summary>
-      <div class="speaking-expression-table" role="table" aria-label="Expresiones en español, inglés y francés">
-        <div class="speaking-expression-row speaking-expression-table-head" role="row"><b>ESPAÑOL</b><b>ENGLISH</b><b>FRANÇAIS</b></div>
-        ${SPEAKING_EXPRESSIONS_THREE_LANGUAGES.map(([spanish, english, french]) => `<div class="speaking-expression-row" role="row"><span class="speaking-expression-translation">${escapeHtml(spanish)}</span><button type="button" data-speaking-expression="${escapeHtml(english)}" data-speaking-language="english"><span>${escapeHtml(english)}</span><i>🔊</i></button><button type="button" data-speaking-expression="${escapeHtml(french)}" data-speaking-language="french"><span>${escapeHtml(french)}</span><i>🔊</i></button></div>`).join('')}
-      </div>
-    </details>
-  `;
+const USEFUL_EXPRESSION_THEMES = [
+  { title: 'Saludos, despedidas y cortesía', icon: '👋', expressions: [['Hola, ¿cómo estás?', 'Hello, how are you?', 'Bonjour, comment ça va ?', 'Ciao, come stai?'], ['Muchas gracias.', 'Thank you very much.', 'Merci beaucoup.', 'Grazie mille.']] },
+  { title: 'Familia, pareja y amistades', icon: '👨‍👩‍👧', expressions: [['Mi familia está bien.', 'My family is well.', 'Ma famille va bien.', 'La mia famiglia sta bene.'], ['¿Tienes hermanos?', 'Do you have siblings?', 'Tu as des frères ou sœurs ?', 'Hai fratelli o sorelle?']] },
+  { title: 'Rutina diaria y planes', icon: '🗓️', expressions: [['Me levanto temprano.', 'I get up early.', 'Je me lève tôt.', 'Mi alzo presto.'], ['¿Qué planes tienes hoy?', 'What plans do you have today?', 'Quels sont tes projets aujourd’hui ?', 'Che programmi hai oggi?']] },
+  { title: 'Comida, compras y restaurantes', icon: '🍽️', expressions: [['Quisiera pedir, por favor.', 'I would like to order, please.', 'Je voudrais commander, s’il vous plaît.', 'Vorrei ordinare, per favore.'], ['La cuenta, por favor.', 'The bill, please.', 'L’addition, s’il vous plaît.', 'Il conto, per favore.']] },
+  { title: 'Trabajo, estudios y tareas', icon: '💼', expressions: [['Tengo una reunión hoy.', 'I have a meeting today.', 'J’ai une réunion aujourd’hui.', 'Ho una riunione oggi.'], ['Necesito terminar esta tarea.', 'I need to finish this task.', 'Je dois finir cette tâche.', 'Devo finire questo compito.']] },
+  { title: 'Transporte, direcciones y viajes', icon: '🚌', expressions: [['¿Dónde está la parada de autobús?', 'Where is the bus stop?', 'Où est l’arrêt de bus ?', 'Dov’è la fermata dell’autobus?'], ['¿A qué hora sale el tren?', 'What time does the train leave?', 'À quelle heure part le train ?', 'A che ora parte il treno?']] },
+  { title: 'Salud y bienestar', icon: '🩺', expressions: [['No me siento bien.', 'I do not feel well.', 'Je ne me sens pas bien.', 'Non mi sento bene.'], ['Necesito un médico.', 'I need a doctor.', 'J’ai besoin d’un médecin.', 'Ho bisogno di un medico.']] },
+  { title: 'Clima, tiempo y actividades', icon: '☀️', expressions: [['Hace buen tiempo.', 'The weather is nice.', 'Il fait beau.', 'C’è bel tempo.'], ['Parece que va a llover.', 'It looks like it is going to rain.', 'On dirait qu’il va pleuvoir.', 'Sembra che stia per piovere.']] },
+  { title: 'Dinero, pagos y servicios', icon: '💳', expressions: [['¿Cuánto cuesta?', 'How much does it cost?', 'Combien ça coûte ?', 'Quanto costa?'], ['¿Aceptan tarjetas?', 'Do you accept cards?', 'Vous acceptez les cartes ?', 'Accettate carte?']] },
+  { title: 'Teléfono, mensajes y redes', icon: '📱', expressions: [['Te llamo más tarde.', 'I will call you later.', 'Je t’appelle plus tard.', 'Ti chiamo più tardi.'], ['Envíame un mensaje.', 'Send me a message.', 'Envoie-moi un message.', 'Mandami un messaggio.']] },
+  { title: 'Opiniones, gustos y emociones', icon: '💬', expressions: [['Me parece una buena idea.', 'I think it is a good idea.', 'Je pense que c’est une bonne idée.', 'Penso che sia una buona idea.'], ['Estoy de acuerdo.', 'I agree.', 'Je suis d’accord.', 'Sono d’accordo.']] },
+  { title: 'Pedir ayuda y resolver problemas', icon: '🆘', expressions: [['¿Me puede ayudar, por favor?', 'Can you help me, please?', 'Pouvez-vous m’aider, s’il vous plaît ?', 'Può aiutarmi, per favore?'], ['No entiendo.', 'I do not understand.', 'Je ne comprends pas.', 'Non capisco.']] },
+  { title: 'Dominicanismos y frases dominicanas en inglés', icon: '🇩🇴', expressions: [['¿Qué lo qué?', 'What’s up? / How’s it going?', 'Ça va ?', 'Come va?'], ['Estoy chilling.', 'I’m just chilling.', 'Je me détends.', 'Mi sto rilassando.'], ['¡Qué apero!', 'That’s awesome! / That’s so cool!', 'C’est génial !', 'Che figata!'], ['Dame un chance.', 'Give me a minute. / Hold on a second.', 'Donne-moi une minute.', 'Dammi un minuto.'], ['Vamos a juntarnos.', 'Let’s hang out.', 'On se retrouve ?', 'Usciamo insieme?'], ['Está fuerte la cosa.', 'Things are tough right now.', 'C’est dur en ce moment.', 'Le cose sono dure adesso.']] }
+].map((theme) => ({
+  ...theme,
+  expressions: [...theme.expressions, ...UNIVERSAL_USEFUL_EXPRESSIONS].slice(0, 30)
+}));
+
+const USEFUL_EXPRESSION_LANGUAGES = [
+  { id: 'spanish', label: 'Español', index: 0 },
+  { id: 'english', label: 'English', index: 1 },
+  { id: 'french', label: 'Français', index: 2 },
+  { id: 'italian', label: 'Italiano', index: 3 },
+  { id: 'portuguese', label: 'Português' },
+  { id: 'german', label: 'Deutsch' }
+];
+
+// Portuguese and German are authored supports for the shared expression bank,
+// rather than browser-translated text. The key is the Spanish source phrase.
+const USEFUL_EXPRESSION_ADDITIONAL_TRANSLATIONS = new Map([
+  ['¿Puede ayudarme, por favor?', ['Pode me ajudar, por favor?', 'Können Sie mir bitte helfen?']], ['No entiendo.', ['Não entendo.', 'Ich verstehe nicht.']], ['¿Puede repetirlo, por favor?', ['Pode repetir, por favor?', 'Können Sie das bitte wiederholen?']], ['¿Puede hablar más despacio?', ['Pode falar mais devagar?', 'Können Sie bitte langsamer sprechen?']], ['¿Qué significa eso?', ['O que isso significa?', 'Was bedeutet das?']], ['¿Cómo se dice esto en inglés?', ['Como se diz isto em inglês?', 'Wie sagt man das auf Englisch?']], ['¿Puede escribirlo, por favor?', ['Pode escrever, por favor?', 'Können Sie das bitte aufschreiben?']], ['¿Dónde puedo encontrarlo?', ['Onde posso encontrá-lo?', 'Wo kann ich das finden?']], ['¿Qué me recomienda?', ['O que recomenda?', 'Was empfehlen Sie mir?']], ['Me gustaría saber más.', ['Gostaria de saber mais.', 'Ich möchte mehr wissen.']], ['¿Tiene otra opción?', ['Tem outra opção?', 'Haben Sie eine andere Option?']], ['Eso suena bien.', ['Isso parece bom.', 'Das klingt gut.']], ['No estoy seguro/a.', ['Não tenho certeza.', 'Ich bin mir nicht sicher.']], ['Déjeme pensarlo.', ['Deixe-me pensar.', 'Lassen Sie mich darüber nachdenken.']], ['Un momento, por favor.', ['Um momento, por favor.', 'Einen Moment, bitte.']], ['Ahora mismo vuelvo.', ['Já volto.', 'Ich bin gleich wieder da.']], ['¿Podemos hacerlo más tarde?', ['Podemos fazer isso mais tarde?', 'Können wir das später machen?']], ['¿A qué hora?', ['A que horas?', 'Um wie viel Uhr?']], ['¿Dónde nos encontramos?', ['Onde nos encontramos?', 'Wo treffen wir uns?']], ['Estoy listo/a.', ['Estou pronto/a.', 'Ich bin bereit.']], ['Necesito más tiempo.', ['Preciso de mais tempo.', 'Ich brauche mehr Zeit.']], ['No hay problema.', ['Sem problema.', 'Kein Problem.']], ['Gracias por su paciencia.', ['Obrigado/a pela sua paciência.', 'Danke für Ihre Geduld.']], ['Lo agradezco mucho.', ['Agradeço muito.', 'Ich weiß das sehr zu schätzen.']], ['Tiene razón.', ['Você tem razão.', 'Sie haben recht.']], ['No estoy de acuerdo, pero respeto su opinión.', ['Não concordo, mas respeito a sua opinião.', 'Ich bin anderer Meinung, aber ich respektiere Ihre Meinung.']], ['¿Podemos intentarlo de nuevo?', ['Podemos tentar de novo?', 'Können wir es noch einmal versuchen?']], ['Fue un placer hablar con usted.', ['Foi um prazer falar com você.', 'Es war mir ein Vergnügen, mit Ihnen zu sprechen.']],
+  ['Hola, ¿cómo estás?', ['Olá, como está?', 'Hallo, wie geht es dir?']], ['Muchas gracias.', ['Muito obrigado/a.', 'Vielen Dank.']], ['Mi familia está bien.', ['Minha família está bem.', 'Meiner Familie geht es gut.']], ['¿Tienes hermanos?', ['Você tem irmãos?', 'Hast du Geschwister?']], ['Me levanto temprano.', ['Levanto cedo.', 'Ich stehe früh auf.']], ['¿Qué planes tienes hoy?', ['Quais são seus planos para hoje?', 'Was hast du heute vor?']], ['Quisiera pedir, por favor.', ['Gostaria de pedir, por favor.', 'Ich möchte bitte bestellen.']], ['La cuenta, por favor.', ['A conta, por favor.', 'Die Rechnung, bitte.']], ['Tengo una reunión hoy.', ['Tenho uma reunião hoje.', 'Ich habe heute ein Treffen.']], ['Necesito terminar esta tarea.', ['Preciso terminar esta tarefa.', 'Ich muss diese Aufgabe fertigstellen.']], ['¿Dónde está la parada de autobús?', ['Onde fica a parada de ônibus?', 'Wo ist die Bushaltestelle?']], ['¿A qué hora sale el tren?', ['A que horas sai o trem?', 'Um wie viel Uhr fährt der Zug ab?']], ['No me siento bien.', ['Não me sinto bem.', 'Ich fühle mich nicht gut.']], ['Necesito un médico.', ['Preciso de um médico.', 'Ich brauche einen Arzt.']], ['Hace buen tiempo.', ['O tempo está bom.', 'Das Wetter ist schön.']], ['Parece que va a llover.', ['Parece que vai chover.', 'Es sieht so aus, als würde es regnen.']], ['¿Cuánto cuesta?', ['Quanto custa?', 'Wie viel kostet das?']], ['¿Aceptan tarjetas?', ['Aceitam cartões?', 'Akzeptieren Sie Karten?']], ['Te llamo más tarde.', ['Ligo para você mais tarde.', 'Ich rufe dich später an.']], ['Envíame un mensaje.', ['Mande-me uma mensagem.', 'Schick mir eine Nachricht.']], ['Me parece una buena idea.', ['Acho que é uma boa ideia.', 'Ich finde, das ist eine gute Idee.']], ['Estoy de acuerdo.', ['Concordo.', 'Ich stimme zu.']], ['¿Me puede ayudar, por favor?', ['Pode me ajudar, por favor?', 'Können Sie mir bitte helfen?']], ['¿Qué lo qué?', ['E aí?', 'Was geht?']], ['Estoy chilling.', ['Estou de boa.', 'Ich chille gerade.']], ['¡Qué apero!', ['Que legal!', 'Das ist cool!']], ['Dame un chance.', ['Me dá um minuto.', 'Gib mir eine Minute.']], ['Vamos a juntarnos.', ['Vamos sair juntos.', 'Lass uns zusammen abhängen.']], ['Está fuerte la cosa.', ['A coisa está difícil.', 'Die Lage ist gerade schwierig.']]
+]);
+const USEFUL_EXPRESSION_LANGUAGE_PAIR_STORAGE_KEY = 'andergo-useful-expression-language-pair';
+
+function getUsefulExpressionLanguagePair() {
+  const allowed = new Set(USEFUL_EXPRESSION_LANGUAGES.map((language) => language.id));
+  try {
+    const saved = JSON.parse(localStorage.getItem(USEFUL_EXPRESSION_LANGUAGE_PAIR_STORAGE_KEY) || 'null');
+    if (allowed.has(saved?.l1) && allowed.has(saved?.l2) && saved.l1 !== saved.l2) return saved;
+  } catch {
+    // Use the learner's current pair below when preferences are unavailable.
+  }
+  const l1 = allowed.has(learningPathState?.bridgeLanguage) ? learningPathState.bridgeLanguage : 'spanish';
+  const preferredL2 = allowed.has(learningPathState?.language) ? learningPathState.language : 'english';
+  const l2 = preferredL2 !== l1 ? preferredL2 : USEFUL_EXPRESSION_LANGUAGES.find((language) => language.id !== l1)?.id || 'english';
+  return { l1, l2 };
+}
+
+let usefulExpressionsLanguagePair = getUsefulExpressionLanguagePair();
+
+function getUsefulExpressionTranslation(expression, language) {
+  if (Number.isInteger(language.index)) return expression[language.index] || '';
+  const translations = USEFUL_EXPRESSION_ADDITIONAL_TRANSLATIONS.get(expression[0]) || [];
+  return language.id === 'portuguese' ? translations[0] || '' : translations[1] || '';
+}
+
+// A compact, authored library of everyday situations.  It deliberately favours
+// short phrases a learner can say on the street, at home, at work, or in a shop
+// over dictionary-like vocabulary lists.  The six patterns per group produce a
+// practical 500-phrase library without relying on machine translation.
+const DAILY_EXPRESSION_LANGUAGE_IDS = ['spanish', 'english', 'french', 'italian', 'portuguese', 'german'];
+const DAILY_EXPRESSION_PATTERNS = {
+  need: { spanish: 'Necesito', english: 'I need', french: "J’ai besoin de", italian: 'Ho bisogno di', portuguese: 'Preciso de', german: 'Ich brauche' },
+  want: { spanish: 'Quisiera', english: 'I would like', french: 'Je voudrais', italian: 'Vorrei', portuguese: 'Eu gostaria de', german: 'Ich hätte gern' },
+  lookingFor: { spanish: 'Estoy buscando', english: 'I am looking for', french: 'Je cherche', italian: 'Sto cercando', portuguese: 'Estou procurando', german: 'Ich suche' },
+  findItem: { spanish: '¿Dónde consigo', english: 'Where can I get', french: 'Où puis-je trouver', italian: 'Dove posso trovare', portuguese: 'Onde posso encontrar', german: 'Wo bekomme ich' },
+  haveItem: { spanish: '¿Venden', english: 'Do you sell', french: 'Vendez-vous', italian: 'Vendete', portuguese: 'Vocês vendem', german: 'Verkaufen Sie' },
+  wouldLikeItem: { spanish: '¿Podría darme', english: 'Could I have', french: 'Puis-je avoir', italian: 'Potrei avere', portuguese: 'Poderia me dar', german: 'Könnte ich bitte' },
+  availableItem: { spanish: '¿Tienen disponible', english: 'Do you have', french: 'Avez-vous', italian: 'Avete', portuguese: 'Vocês têm', german: 'Haben Sie' },
+  recommendItem: { spanish: '¿Me recomienda', english: 'Would you recommend', french: 'Me recommandez-vous', italian: 'Mi consiglia', portuguese: 'Você recomenda', german: 'Empfehlen Sie' },
+  chooseItem: { spanish: 'Voy a elegir', english: 'I will choose', french: 'Je vais choisir', italian: 'Sceglierò', portuguese: 'Vou escolher', german: 'Ich wähle' },
+  payItem: { spanish: 'Necesito pagar', english: 'I need to pay for', french: 'Je dois payer', italian: 'Devo pagare', portuguese: 'Preciso pagar', german: 'Ich muss bezahlen für' },
+  nearby: { spanish: '¿Hay', english: 'Is there', french: 'Y a-t-il', italian: 'C’è', portuguese: 'Há', german: 'Gibt es' },
+  where: { spanish: '¿Dónde está', english: 'Where is', french: 'Où est', italian: 'Dov’è', portuguese: 'Onde fica', german: 'Wo ist' },
+  findPlace: { spanish: 'Necesito encontrar', english: 'I need to find', french: 'Je dois trouver', italian: 'Devo trovare', portuguese: 'Preciso encontrar', german: 'Ich muss' },
+  showMap: { spanish: '¿Puede mostrarme', english: 'Can you show me', french: 'Pouvez-vous me montrer', italian: 'Può mostrarmi', portuguese: 'Pode me mostrar', german: 'Können Sie mir' },
+  tellWhere: { spanish: '¿Puede decirme dónde está', english: 'Can you tell me where', french: 'Pouvez-vous me dire où est', italian: 'Può dirmi dov’è', portuguese: 'Pode me dizer onde fica', german: 'Können Sie mir sagen, wo' },
+  goTo: { spanish: 'Quiero ir a', english: 'I want to go to', french: 'Je veux aller à', italian: 'Voglio andare a', portuguese: 'Quero ir para', german: 'Ich möchte zu' },
+  openPlace: { spanish: '¿Está abierto', english: 'Is', french: 'Est-ce que', italian: 'È aperto', portuguese: 'Está aberto', german: 'Ist' },
+  farPlace: { spanish: '¿Está lejos', english: 'Is it far from', french: 'Est-ce loin de', italian: 'È lontano da', portuguese: 'Fica longe de', german: 'Ist es weit bis' },
+  routePlace: { spanish: '¿Cuál es la mejor ruta hacia', english: 'What is the best route to', french: 'Quel est le meilleur itinéraire vers', italian: 'Qual è il percorso migliore per', portuguese: 'Qual é a melhor rota para', german: 'Was ist der beste Weg zu' },
+  walkPlace: { spanish: '¿Puedo llegar caminando a', english: 'Can I walk to', french: 'Puis-je aller à pied à', italian: 'Posso andare a piedi a', portuguese: 'Posso ir a pé até', german: 'Kann ich zu Fuß gehen zu' },
+  activityWant: { spanish: 'Quiero', english: 'I want to', french: 'Je veux', italian: 'Voglio', portuguese: 'Quero', german: 'Ich möchte' },
+  activityNeed: { spanish: 'Necesito', english: 'I need to', french: 'Je dois', italian: 'Devo', portuguese: 'Preciso', german: 'Ich muss' },
+  activityCan: { spanish: '¿Podemos', english: 'Can we', french: 'Pouvons-nous', italian: 'Possiamo', portuguese: 'Podemos', german: 'Können wir' },
+  activityPrefer: { spanish: 'Prefiero', english: 'I prefer to', french: 'Je préfère', italian: 'Preferisco', portuguese: 'Prefiro', german: 'Ich möchte lieber' },
+  activityGoing: { spanish: 'Voy a', english: 'I am going to', french: 'Je vais', italian: 'Sto per', portuguese: 'Vou', german: 'Ich werde' },
+  activityWouldLike: { spanish: 'Me gustaría', english: 'I would like to', french: "J’aimerais", italian: 'Mi piacerebbe', portuguese: 'Gostaria de', german: 'Ich würde gerne' },
+  activityPossible: { spanish: '¿Es posible', english: 'Is it possible to', french: 'Est-il possible de', italian: 'È possibile', portuguese: 'É possível', german: 'Ist es möglich zu' },
+  activityWhen: { spanish: '¿Cuándo puedo', english: 'When can I', french: 'Quand puis-je', italian: 'Quando posso', portuguese: 'Quando posso', german: 'Wann kann ich' },
+  activityWhere: { spanish: '¿Dónde puedo', english: 'Where can I', french: 'Où puis-je', italian: 'Dove posso', portuguese: 'Onde posso', german: 'Wo kann ich' },
+  activityTime: { spanish: 'Tengo tiempo para', english: 'I have time to', french: 'J’ai le temps de', italian: 'Ho tempo per', portuguese: 'Tenho tempo para', german: 'Ich habe Zeit zu' },
+  speakTo: { spanish: 'Necesito hablar con', english: 'I need to speak with', french: 'Je dois parler à', italian: 'Devo parlare con', portuguese: 'Preciso falar com', german: 'Ich muss mit' },
+  call: { spanish: '¿Puedo llamar a', english: 'Can I call', french: 'Puis-je appeler', italian: 'Posso chiamare', portuguese: 'Posso ligar para', german: 'Kann ich' },
+  helpFrom: { spanish: 'Necesito ayuda de', english: 'I need help from', french: "J’ai besoin de l’aide de", italian: 'Ho bisogno dell’aiuto di', portuguese: 'Preciso da ajuda de', german: 'Ich brauche Hilfe von' },
+  notify: { spanish: '¿Puede avisar a', english: 'Can you notify', french: 'Pouvez-vous prévenir', italian: 'Può avvisare', portuguese: 'Pode avisar', german: 'Können Sie' },
+  contact: { spanish: 'Quiero contactar a', english: 'I want to contact', french: 'Je veux contacter', italian: 'Voglio contattare', portuguese: 'Quero entrar em contato com', german: 'Ich möchte' },
+  talkTo: { spanish: '¿Puedo hablar con', english: 'Can I talk to', french: 'Puis-je parler à', italian: 'Posso parlare con', portuguese: 'Posso falar com', german: 'Kann ich mit' }
+  ,availableContact: { spanish: '¿Está disponible', english: 'Is available', french: 'Est disponible', italian: 'È disponibile', portuguese: 'Está disponível', german: 'Ist verfügbar' }
+  ,appointmentContact: { spanish: 'Necesito una cita con', english: 'I need an appointment with', french: 'J’ai besoin d’un rendez-vous avec', italian: 'Ho bisogno di un appuntamento con', portuguese: 'Preciso de um horário com', german: 'Ich brauche einen Termin bei' }
+  ,messageContact: { spanish: 'Quiero dejarle un mensaje a', english: 'I want to leave a message for', french: 'Je veux laisser un message à', italian: 'Voglio lasciare un messaggio a', portuguese: 'Quero deixar uma mensagem para', german: 'Ich möchte eine Nachricht hinterlassen für' }
+  ,waitContact: { spanish: 'Puedo esperar a', english: 'I can wait for', french: 'Je peux attendre', italian: 'Posso aspettare', portuguese: 'Posso esperar por', german: 'Ich kann warten auf' }
+  ,supportExplain: { spanish: 'Necesito explicar', english: 'I need to explain', french: 'Je dois expliquer', italian: 'Devo spiegare', portuguese: 'Preciso explicar', german: 'Ich muss erklären' }
+  ,supportClarify: { spanish: '¿Puede aclarar', english: 'Can you clarify', french: 'Pouvez-vous clarifier', italian: 'Può chiarire', portuguese: 'Pode esclarecer', german: 'Können Sie klären' }
+  ,supportRepeat: { spanish: '¿Puede repetir', english: 'Can you repeat', french: 'Pouvez-vous répéter', italian: 'Può ripetere', portuguese: 'Pode repetir', german: 'Können Sie wiederholen' }
+  ,supportUnderstand: { spanish: 'Quiero entender', english: 'I want to understand', french: 'Je veux comprendre', italian: 'Voglio capire', portuguese: 'Quero entender', german: 'Ich möchte verstehen' }
+  ,supportCheck: { spanish: 'Necesito comprobar', english: 'I need to check', french: 'Je dois vérifier', italian: 'Devo controllare', portuguese: 'Preciso verificar', german: 'Ich muss prüfen' }
+  ,supportDiscuss: { spanish: 'Podemos conversar sobre', english: 'Can we discuss', french: 'Pouvons-nous discuter de', italian: 'Possiamo parlare di', portuguese: 'Podemos conversar sobre', german: 'Können wir besprechen' }
+  ,supportAnswer: { spanish: '¿Puede responder', english: 'Can you answer', french: 'Pouvez-vous répondre à', italian: 'Può rispondere a', portuguese: 'Pode responder', german: 'Können Sie beantworten' }
+  ,supportWrite: { spanish: '¿Puede escribir', english: 'Can you write down', french: 'Pouvez-vous écrire', italian: 'Può scrivere', portuguese: 'Pode escrever', german: 'Können Sie aufschreiben' }
+  ,supportExample: { spanish: 'Necesito un ejemplo de', english: 'I need an example of', french: 'J’ai besoin d’un exemple de', italian: 'Ho bisogno di un esempio di', portuguese: 'Preciso de um exemplo de', german: 'Ich brauche ein Beispiel für' }
+  ,supportConfirm: { spanish: 'Quiero confirmar', english: 'I want to confirm', french: 'Je veux confirmer', italian: 'Voglio confermare', portuguese: 'Quero confirmar', german: 'Ich möchte bestätigen' }
+};
+
+const DAILY_EXPRESSION_ITEMS = [
+  ['agua', 'water', 'de l’eau', "dell’acqua", 'água', 'Wasser'], ['un café', 'a coffee', 'un café', 'un caffè', 'um café', 'einen Kaffee'], ['algo de comer', 'something to eat', 'quelque chose à manger', 'qualcosa da mangiare', 'algo para comer', 'etwas zu essen'], ['un taxi', 'a taxi', 'un taxi', 'un taxi', 'um táxi', 'ein Taxi'], ['un cargador', 'a charger', 'un chargeur', 'un caricatore', 'um carregador', 'ein Ladegerät'], ['wifi', 'Wi-Fi', 'du Wi-Fi', 'il Wi-Fi', 'Wi-Fi', 'WLAN'], ['un baño', 'a restroom', 'des toilettes', 'un bagno', 'um banheiro', 'eine Toilette'], ['una farmacia', 'a pharmacy', 'une pharmacie', 'una farmacia', 'uma farmácia', 'eine Apotheke'], ['un cajero automático', 'an ATM', 'un distributeur automatique', 'un bancomat', 'um caixa eletrônico', 'einen Geldautomaten'], ['una botella de agua', 'a bottle of water', "une bouteille d’eau", "una bottiglia d’acqua", 'uma garrafa de água', 'eine Flasche Wasser'], ['un paraguas', 'an umbrella', 'un parapluie', 'un ombrello', 'um guarda-chuva', 'einen Regenschirm'], ['una mesa', 'a table', 'une table', 'un tavolo', 'uma mesa', 'einen Tisch'], ['una silla', 'a chair', 'une chaise', 'una sedia', 'uma cadeira', 'einen Stuhl'], ['un recibo', 'a receipt', 'un reçu', 'uno scontrino', 'um recibo', 'eine Quittung'], ['mi documento de identidad', 'my ID', "ma pièce d’identité", 'il mio documento', 'meu documento de identidade', 'meinen Ausweis'], ['efectivo', 'cash', 'de l’espèce', 'contanti', 'dinheiro em espécie', 'Bargeld'], ['una bolsa', 'a bag', 'un sac', 'un sacchetto', 'uma sacola', 'eine Tasche'], ['mi teléfono', 'my phone', 'mon téléphone', 'il mio telefono', 'meu telefone', 'mein Handy'], ['una copia', 'a copy', 'une copie', 'una copia', 'uma cópia', 'eine Kopie'], ['una cita', 'an appointment', 'un rendez-vous', 'un appuntamento', 'um horário', 'einen Termin']
+];
+
+const DAILY_EXPRESSION_PLACES = [
+  ['un supermercado cerca', 'a supermarket nearby', 'un supermarché près d’ici', 'un supermercato qui vicino', 'um supermercado perto', 'einen Supermarkt in der Nähe'], ['una farmacia cerca', 'a pharmacy nearby', 'une pharmacie près d’ici', 'una farmacia qui vicino', 'uma farmácia perto', 'eine Apotheke in der Nähe'], ['un baño', 'a restroom', 'des toilettes', 'un bagno', 'um banheiro', 'eine Toilette'], ['la estación', 'the station', 'la gare', 'la stazione', 'a estação', 'der Bahnhof'], ['la parada de autobús', 'the bus stop', "l’arrêt de bus", "la fermata dell’autobus", 'o ponto de ônibus', 'die Bushaltestelle'], ['el aeropuerto', 'the airport', "l’aéroport", "l’aeroporto", 'o aeroporto', 'der Flughafen'], ['el banco', 'the bank', 'la banque', 'la banca', 'o banco', 'die Bank'], ['un cajero automático', 'an ATM', 'un distributeur automatique', 'un bancomat', 'um caixa eletrônico', 'einen Geldautomaten'], ['un restaurante', 'a restaurant', 'un restaurant', 'un ristorante', 'um restaurante', 'ein Restaurant'], ['un café', 'a café', 'un café', 'un bar', 'um café', 'ein Café'], ['el hotel', 'the hotel', "l’hôtel", "l’hotel", 'o hotel', 'das Hotel'], ['la recepción', 'the reception desk', 'la réception', 'la reception', 'a recepção', 'die Rezeption'], ['la oficina de información', 'the information desk', "le bureau d’information", "l’ufficio informazioni", 'o balcão de informações', 'die Information'], ['el hospital', 'the hospital', "l’hôpital", "l’ospedale", 'o hospital', 'das Krankenhaus'], ['la clínica', 'the clinic', 'la clinique', 'la clinica', 'a clínica', 'die Klinik'], ['la policía', 'the police station', 'le commissariat', 'la polizia', 'a delegacia', 'die Polizeiwache'], ['la oficina de correos', 'the post office', 'la poste', "l’ufficio postale", 'os correios', 'die Post'], ['la tienda', 'the store', 'le magasin', 'il negozio', 'a loja', 'das Geschäft'], ['el centro de la ciudad', 'the city center', 'le centre-ville', 'il centro città', 'o centro da cidade', 'die Innenstadt'], ['la salida', 'the exit', 'la sortie', "l’uscita", 'a saída', 'der Ausgang']
+];
+
+const DAILY_EXPRESSION_ACTIVITIES = [
+  ['descansar', 'rest', 'me reposer', 'riposarmi', 'descansar', 'mich ausruhen'], ['comer algo', 'eat something', 'manger quelque chose', 'mangiare qualcosa', 'comer algo', 'etwas essen'], ['tomar un café', 'have a coffee', 'prendre un café', 'prendere un caffè', 'tomar um café', 'einen Kaffee trinken'], ['ir a casa', 'go home', 'rentrer à la maison', 'andare a casa', 'ir para casa', 'nach Hause gehen'], ['hacer una llamada', 'make a call', 'passer un appel', 'fare una chiamata', 'fazer uma ligação', 'einen Anruf machen'], ['enviar un mensaje', 'send a message', 'envoyer un message', 'mandare un messaggio', 'enviar uma mensagem', 'eine Nachricht schicken'], ['practicar', 'practice', 'm’entraîner', 'fare pratica', 'praticar', 'üben'], ['estudiar un poco', 'study a little', 'étudier un peu', 'studiare un po’', 'estudar um pouco', 'ein bisschen lernen'], ['trabajar ahora', 'work now', 'travailler maintenant', 'lavorare adesso', 'trabalhar agora', 'jetzt arbeiten'], ['salir un momento', 'go out for a moment', 'sortir un moment', 'uscire un momento', 'sair um momento', 'kurz rausgehen'], ['esperar aquí', 'wait here', 'attendre ici', 'aspettare qui', 'esperar aqui', 'hier warten'], ['caminar un poco', 'walk a little', 'marcher un peu', 'camminare un po’', 'caminhar um pouco', 'ein bisschen spazieren gehen'], ['comprar comida', 'buy food', 'acheter à manger', 'comprare del cibo', 'comprar comida', 'Essen kaufen'], ['cocinar', 'cook', 'cuisiner', 'cucinare', 'cozinhar', 'kochen'], ['limpiar', 'clean up', 'nettoyer', 'pulire', 'limpar', 'aufräumen'], ['dormir temprano', 'sleep early', 'dormir tôt', 'dormire presto', 'dormir cedo', 'früh schlafen gehen'], ['ver una película', 'watch a movie', 'regarder un film', 'guardare un film', 'assistir a um filme', 'einen Film schauen'], ['escuchar música', 'listen to music', 'écouter de la musique', 'ascoltare musica', 'ouvir música', 'Musik hören'], ['hacer ejercicio', 'exercise', 'faire du sport', 'fare esercizio', 'fazer exercício', 'Sport machen'], ['quedar con amigos', 'meet some friends', 'voir des amis', 'vedere gli amici', 'encontrar amigos', 'Freunde treffen']
+];
+
+const DAILY_EXPRESSION_CONTACTS = [
+  ['un médico', 'a doctor', 'un médecin', 'un medico', 'um médico', 'einem Arzt'], ['una enfermera', 'a nurse', 'une infirmière', 'un’infermiera', 'uma enfermeira', 'einer Pflegekraft'], ['un profesor', 'a teacher', 'un professeur', 'un insegnante', 'um professor', 'einem Lehrer'], ['mi jefe', 'my manager', 'mon responsable', 'il mio capo', 'meu chefe', 'meinem Chef'], ['un compañero', 'a coworker', 'un collègue', 'un collega', 'um colega', 'einem Kollegen'], ['recepción', 'the receptionist', 'la réception', 'la reception', 'a recepção', 'der Rezeption'], ['atención al cliente', 'customer service', 'le service client', "l’assistenza clienti", 'o atendimento ao cliente', 'dem Kundenservice'], ['mi familia', 'my family', 'ma famille', 'la mia famiglia', 'minha família', 'meiner Familie'], ['mi amigo', 'my close friend', 'mon ami', 'il mio amico', 'meu amigo', 'meinem Freund'], ['mi amiga', 'a friend of mine', 'mon amie', 'la mia amica', 'minha amiga', 'meiner Freundin'], ['mi pareja', 'my partner', 'mon partenaire', 'il mio partner', 'meu parceiro', 'meinem Partner'], ['un conductor', 'the driver', 'le chauffeur', 'l’autista', 'o motorista', 'dem Fahrer'], ['un agente', 'an agent', 'un agent', 'un agente', 'um atendente', 'einem Mitarbeiter'], ['un policía', 'a police officer', 'un policier', 'un poliziotto', 'um policial', 'einem Polizisten'], ['un vecino', 'a neighbor', 'un voisin', 'un vicino', 'um vizinho', 'einem Nachbarn'], ['el anfitrión', 'the host', "l’hôte", "l’ospite", 'o anfitrião', 'dem Gastgeber'], ['mi cliente', 'my client', 'mon client', 'il mio cliente', 'meu cliente', 'meinem Kunden'], ['mi equipo', 'my team', 'mon équipe', 'la mia squadra', 'minha equipe', 'meinem Team'], ['la persona encargada', 'the person in charge', 'la personne responsable', 'la persona responsabile', 'a pessoa responsável', 'der zuständigen Person'], ['un intérprete', 'an interpreter', 'un interprète', 'un interprete', 'um intérprete', 'einem Dolmetscher']
+];
+
+const DAILY_EXPRESSION_SUPPORT_SITUATIONS = [
+  ['mi pregunta', 'my question', 'ma question', 'la mia domanda', 'minha pergunta', 'meine Frage'], ['el problema', 'the problem', 'le problème', 'il problema', 'o problema', 'das Problem'], ['esta palabra', 'this word', 'ce mot', 'questa parola', 'esta palavra', 'dieses Wort'], ['esta frase', 'this sentence', 'cette phrase', 'questa frase', 'esta frase', 'diesen Satz'], ['la instrucción', 'the instruction', 'l’instruction', 'l’istruzione', 'a instrução', 'die Anweisung'], ['el siguiente paso', 'the next step', 'la prochaine étape', 'il prossimo passo', 'o próximo passo', 'den nächsten Schritt'], ['la información', 'the information', 'l’information', 'l’informazione', 'a informação', 'die Information'], ['la respuesta', 'the answer', 'la réponse', 'la risposta', 'a resposta', 'die Antwort'], ['la dirección', 'the address', 'l’adresse', 'l’indirizzo', 'o endereço', 'die Adresse'], ['el horario', 'the schedule', 'l’horaire', 'l’orario', 'o horário', 'den Zeitplan'], ['el precio', 'the price', 'le prix', 'il prezzo', 'o preço', 'den Preis'], ['la fecha', 'the date', 'la date', 'la data', 'a data', 'das Datum'], ['la diferencia', 'the difference', 'la différence', 'la differenza', 'a diferença', 'den Unterschied'], ['la pronunciación', 'the pronunciation', 'la prononciation', 'la pronuncia', 'a pronúncia', 'die Aussprache'], ['el significado', 'the meaning', 'le sens', 'il significato', 'o significado', 'die Bedeutung'], ['mi solicitud', 'my request', 'ma demande', 'la mia richiesta', 'meu pedido', 'meine Anfrage'], ['la opción disponible', 'the available option', 'l’option disponible', 'l’opzione disponibile', 'a opção disponível', 'die verfügbare Option'], ['el cambio reciente', 'the recent change', 'le changement récent', 'il cambiamento recente', 'a mudança recente', 'die letzte Änderung'], ['lo que ocurrió', 'what happened', 'ce qui s’est passé', 'cosa è successo', 'o que aconteceu', 'was passiert ist'], ['nuestro acuerdo', 'our agreement', 'notre accord', 'il nostro accordo', 'nosso acordo', 'unsere Vereinbarung']
+];
+
+// The original thirteen themes are restored here as independent 200-expression
+// catalogues. Five concrete situations per theme are combined with forty
+// communicative moves, keeping every phrase available in all six L1/L2 languages.
+const AMBITIOUS_USEFUL_EXPRESSION_THEMES = [
+  { id: 'greetings', icon: '👋', label: 'Saludos, despedidas y cortesía', concepts: [['un saludo cordial', 'a warm greeting', 'une salutation chaleureuse', 'un saluto cordiale', 'uma saudação cordial', 'eine freundliche Begrüßung'], ['mi presentación', 'introducing myself', 'ma présentation', 'la mia presentazione', 'minha apresentação', 'meine Vorstellung'], ['una despedida amable', 'a friendly farewell', 'un au revoir chaleureux', 'un saluto amichevole', 'uma despedida amigável', 'eine freundliche Verabschiedung'], ['dar las gracias', 'saying thank you', 'remercier quelqu’un', 'ringraziare qualcuno', 'agradecer', 'das Bedanken'], ['una disculpa sincera', 'a sincere apology', 'des excuses sincères', 'delle scuse sincere', 'um pedido sincero de desculpas', 'eine ehrliche Entschuldigung']] },
+  { id: 'relationships', icon: '👨‍👩‍👧', label: 'Familia, pareja y amistades', concepts: [['los planes familiares', 'the family plans', 'les projets familiaux', 'i programmi familiari', 'os planos da família', 'die Familienpläne'], ['mi relación de pareja', 'my relationship', 'ma relation de couple', 'la mia relazione', 'meu relacionamento', 'meine Beziehung'], ['una amistad cercana', 'a close friendship', 'une amitié proche', 'un’amicizia stretta', 'uma amizade próxima', 'eine enge Freundschaft'], ['el cuidado de los niños', 'childcare', 'la garde des enfants', 'la cura dei bambini', 'o cuidado das crianças', 'die Kinderbetreuung'], ['las responsabilidades del hogar', 'the household responsibilities', 'les responsabilités du foyer', 'le responsabilità domestiche', 'as responsabilidades de casa', 'die Aufgaben im Haushalt']] },
+  { id: 'daily-routine', icon: '🗓️', label: 'Rutina diaria y planes', concepts: [['mi rutina matutina', 'my morning routine', 'ma routine du matin', 'la mia routine mattutina', 'minha rotina matinal', 'meine Morgenroutine'], ['el horario de hoy', 'today’s schedule', 'le programme d’aujourd’hui', 'il programma di oggi', 'a agenda de hoje', 'der heutige Zeitplan'], ['las tareas de la casa', 'the household chores', 'les tâches ménagères', 'le faccende domestiche', 'as tarefas de casa', 'die Hausarbeit'], ['mi tiempo libre', 'my free time', 'mon temps libre', 'il mio tempo libero', 'meu tempo livre', 'meine Freizeit'], ['los planes para mañana', 'tomorrow’s plans', 'les projets de demain', 'i programmi per domani', 'os planos para amanhã', 'die Pläne für morgen']] },
+  { id: 'food-shopping', icon: '🍽️', label: 'Comida, compras y restaurantes', concepts: [['la reserva del restaurante', 'the restaurant reservation', 'la réservation au restaurant', 'la prenotazione al ristorante', 'a reserva no restaurante', 'die Restaurantreservierung'], ['el menú', 'the menu', 'le menu', 'il menù', 'o cardápio', 'die Speisekarte'], ['una alergia alimentaria', 'a food allergy', 'une allergie alimentaire', 'un’allergia alimentare', 'uma alergia alimentar', 'eine Lebensmittelallergie'], ['mi pedido', 'my order', 'ma commande', 'il mio ordine', 'meu pedido', 'meine Bestellung'], ['la cuenta', 'the bill', 'l’addition', 'il conto', 'a conta', 'die Rechnung']] },
+  { id: 'work-study', icon: '💼', label: 'Trabajo, estudios y tareas', concepts: [['la reunión del equipo', 'the team meeting', 'la réunion d’équipe', 'la riunione del team', 'a reunião da equipe', 'die Teambesprechung'], ['la tarea de clase', 'the class assignment', 'le devoir de classe', 'il compito di classe', 'a tarefa da aula', 'die Schulaufgabe'], ['la fecha límite', 'the deadline', 'la date limite', 'la scadenza', 'o prazo', 'die Frist'], ['mi horario de trabajo', 'my work schedule', 'mon horaire de travail', 'il mio orario di lavoro', 'meu horário de trabalho', 'mein Arbeitsplan'], ['el plan de estudio', 'the study plan', 'le plan d’étude', 'il piano di studio', 'o plano de estudos', 'der Lernplan']] },
+  { id: 'transport-travel', icon: '🚌', label: 'Transporte, direcciones y viajes', concepts: [['la ruta del autobús', 'the bus route', 'la ligne de bus', 'il percorso dell’autobus', 'a rota do ônibus', 'die Busroute'], ['el horario del tren', 'the train schedule', 'l’horaire du train', 'l’orario del treno', 'o horário do trem', 'der Zugfahrplan'], ['el traslado al aeropuerto', 'the airport transfer', 'le transfert à l’aéroport', 'il trasferimento in aeroporto', 'o traslado para o aeroporto', 'der Flughafentransfer'], ['la dirección correcta', 'the correct address', 'la bonne adresse', 'l’indirizzo corretto', 'o endereço correto', 'die richtige Adresse'], ['el boleto de viaje', 'the travel ticket', 'le billet de voyage', 'il biglietto di viaggio', 'a passagem', 'die Fahrkarte']] },
+  { id: 'health', icon: '🩺', label: 'Salud y bienestar', concepts: [['la cita médica', 'the medical appointment', 'le rendez-vous médical', 'l’appuntamento medico', 'a consulta médica', 'der Arzttermin'], ['mis síntomas', 'my symptoms', 'mes symptômes', 'i miei sintomi', 'meus sintomas', 'meine Symptome'], ['el medicamento', 'the medication', 'le médicament', 'il farmaco', 'o medicamento', 'das Medikament'], ['los hábitos saludables', 'healthy habits', 'les habitudes saines', 'le abitudini sane', 'os hábitos saudáveis', 'gesunde Gewohnheiten'], ['una emergencia', 'an emergency', 'une urgence', 'un’emergenza', 'uma emergência', 'ein Notfall']] },
+  { id: 'weather', icon: '☀️', label: 'Clima, tiempo y actividades', concepts: [['el clima de hoy', 'today’s weather', 'la météo d’aujourd’hui', 'il tempo di oggi', 'o clima de hoje', 'das heutige Wetter'], ['el pronóstico de lluvia', 'the rain forecast', 'les prévisions de pluie', 'le previsioni di pioggia', 'a previsão de chuva', 'die Regenvorhersage'], ['el plan al aire libre', 'the outdoor plan', 'le projet en plein air', 'il programma all’aperto', 'o plano ao ar livre', 'der Plan im Freien'], ['la temperatura', 'the temperature', 'la température', 'la temperatura', 'a temperatura', 'die Temperatur'], ['la actividad del fin de semana', 'the weekend activity', 'l’activité du week-end', 'l’attività del fine settimana', 'a atividade do fim de semana', 'die Wochenendaktivität']] },
+  { id: 'money-services', icon: '💳', label: 'Dinero, pagos y servicios', concepts: [['el precio final', 'the final price', 'le prix final', 'il prezzo finale', 'o preço final', 'der Endpreis'], ['el pago con tarjeta', 'the card payment', 'le paiement par carte', 'il pagamento con carta', 'o pagamento com cartão', 'die Kartenzahlung'], ['mi cuenta bancaria', 'my bank account', 'mon compte bancaire', 'il mio conto bancario', 'minha conta bancária', 'mein Bankkonto'], ['la factura del servicio', 'the service bill', 'la facture du service', 'la fattura del servizio', 'a conta do serviço', 'die Dienstleistungsrechnung'], ['el recibo de compra', 'the purchase receipt', 'le reçu d’achat', 'la ricevuta d’acquisto', 'o recibo da compra', 'der Kaufbeleg']] },
+  { id: 'phone-networks', icon: '📱', label: 'Teléfono, mensajes y redes', concepts: [['la llamada telefónica', 'the phone call', 'l’appel téléphonique', 'la telefonata', 'a ligação telefônica', 'der Telefonanruf'], ['el mensaje de texto', 'the text message', 'le message texte', 'il messaggio di testo', 'a mensagem de texto', 'die Textnachricht'], ['la conexión a internet', 'the internet connection', 'la connexion internet', 'la connessione internet', 'a conexão com a internet', 'die Internetverbindung'], ['mi cuenta en redes sociales', 'my social media account', 'mon compte sur les réseaux sociaux', 'il mio account social', 'minha conta nas redes sociais', 'mein Social-Media-Konto'], ['la videollamada', 'the video call', 'l’appel vidéo', 'la videochiamata', 'a videochamada', 'der Videoanruf']] },
+  { id: 'opinions-emotions', icon: '💭', label: 'Opiniones, gustos y emociones', concepts: [['mi opinión personal', 'my personal opinion', 'mon avis personnel', 'la mia opinione personale', 'minha opinião pessoal', 'meine persönliche Meinung'], ['mi opción favorita', 'my favorite option', 'mon option préférée', 'la mia opzione preferita', 'minha opção favorita', 'meine bevorzugte Option'], ['cómo me siento', 'how I feel', 'ce que je ressens', 'come mi sento', 'como me sinto', 'wie ich mich fühle'], ['nuestro acuerdo', 'our agreement', 'notre accord', 'il nostro accordo', 'nosso acordo', 'unsere Vereinbarung'], ['un punto de desacuerdo', 'a point of disagreement', 'un point de désaccord', 'un punto di disaccordo', 'um ponto de discordância', 'ein Streitpunkt']] },
+  { id: 'help-problems', icon: '🆘', label: 'Pedir ayuda y resolver problemas', concepts: [['el problema actual', 'the current problem', 'le problème actuel', 'il problema attuale', 'o problema atual', 'das aktuelle Problem'], ['las instrucciones', 'the instructions', 'les instructions', 'le istruzioni', 'as instruções', 'die Anweisungen'], ['el error', 'the mistake', 'l’erreur', 'l’errore', 'o erro', 'der Fehler'], ['el objeto perdido', 'the lost item', 'l’objet perdu', 'l’oggetto smarrito', 'o objeto perdido', 'der verlorene Gegenstand'], ['mi solicitud urgente', 'my urgent request', 'ma demande urgente', 'la mia richiesta urgente', 'meu pedido urgente', 'meine dringende Anfrage']] },
+  { id: 'dominican', icon: '🇩🇴', label: 'Dominicanismos y frases dominicanas en inglés', concepts: [['un saludo informal dominicano', 'a Dominican informal greeting', 'une salutation informelle dominicaine', 'un saluto informale dominicano', 'uma saudação informal dominicana', 'eine informelle dominikanische Begrüßung'], ['juntarse con amigos', 'hanging out with friends', 'sortir avec des amis', 'uscire con gli amici', 'sair com os amigos', 'das Treffen mit Freunden'], ['una expresión local', 'a local expression', 'une expression locale', 'un’espressione locale', 'uma expressão local', 'ein lokaler Ausdruck'], ['el plan del barrio', 'the neighborhood plan', 'le projet du quartier', 'il programma del quartiere', 'o plano do bairro', 'der Plan im Viertel'], ['una broma entre amigos', 'a joke among friends', 'une blague entre amis', 'una battuta tra amici', 'uma piada entre amigos', 'ein Witz unter Freunden']] }
+];
+
+const AMBITIOUS_USEFUL_EXPRESSION_PATTERNS = [
+  ['Necesito ayuda con', 'I need help with', 'J’ai besoin d’aide avec', 'Ho bisogno di aiuto con', 'Preciso de ajuda com', 'Ich brauche Hilfe bei', false],
+  ['Me gustaría hablar sobre', 'I would like to talk about', 'J’aimerais parler de', 'Vorrei parlare di', 'Gostaria de falar sobre', 'Ich möchte sprechen über', false],
+  ['¿Puede explicar', 'Can you explain', 'Pouvez-vous expliquer', 'Può spiegare', 'Pode explicar', 'Können Sie erklären', true],
+  ['Revisemos', 'Let us review', 'Examinons', 'Rivediamo', 'Vamos revisar', 'Lassen Sie uns prüfen', false],
+  ['Tengo una pregunta sobre', 'I have a question about', 'J’ai une question sur', 'Ho una domanda su', 'Tenho uma pergunta sobre', 'Ich habe eine Frage zu', false],
+  ['¿Qué recomienda respecto a', 'What do you recommend regarding', 'Que recommandez-vous concernant', 'Cosa consiglia riguardo a', 'O que recomenda sobre', 'Was empfehlen Sie bezüglich', true],
+  ['¿Podemos mejorar', 'Could we improve', 'Pouvons-nous améliorer', 'Possiamo migliorare', 'Podemos melhorar', 'Können wir verbessern', true],
+  ['Necesito información sobre', 'I need information about', 'J’ai besoin d’informations sur', 'Ho bisogno di informazioni su', 'Preciso de informações sobre', 'Ich brauche Informationen zu', false],
+  ['Ahora entiendo mejor', 'I understand better now', 'Je comprends mieux maintenant', 'Ora capisco meglio', 'Agora entendo melhor', 'Jetzt verstehe ich besser', false],
+  ['No comprendo completamente', 'I do not fully understand', 'Je ne comprends pas complètement', 'Non capisco completamente', 'Não entendo completamente', 'Ich verstehe nicht vollständig', false],
+  ['¿Puede repetir los detalles sobre', 'Can you repeat the details about', 'Pouvez-vous répéter les détails sur', 'Può ripetere i dettagli su', 'Pode repetir os detalhes sobre', 'Können Sie die Einzelheiten wiederholen zu', true],
+  ['¿Dónde puedo preguntar sobre', 'Where can I ask about', 'Où puis-je demander des informations sur', 'Dove posso chiedere informazioni su', 'Onde posso perguntar sobre', 'Wo kann ich nachfragen zu', true],
+  ['¿Quién puede ayudarme con', 'Who can help me with', 'Qui peut m’aider avec', 'Chi può aiutarmi con', 'Quem pode me ajudar com', 'Wer kann mir helfen bei', true],
+  ['¿Cuándo podemos conversar sobre', 'When can we discuss', 'Quand pouvons-nous discuter de', 'Quando possiamo parlare di', 'Quando podemos conversar sobre', 'Wann können wir sprechen über', true],
+  ['¿Puede anotar los detalles de', 'Could you write down the details of', 'Pouvez-vous noter les détails de', 'Può annotare i dettagli di', 'Pode anotar os detalhes de', 'Können Sie die Einzelheiten notieren zu', true],
+  ['Quiero confirmar', 'I want to confirm', 'Je veux confirmer', 'Voglio confermare', 'Quero confirmar', 'Ich möchte bestätigen', false],
+  ['¿Hay otra opción para', 'Is there another option for', 'Existe-t-il une autre option pour', 'C’è un’altra opzione per', 'Há outra opção para', 'Gibt es eine andere Möglichkeit für', true],
+  ['¿Cuál es el próximo paso respecto a', 'What is the next step regarding', 'Quelle est la prochaine étape concernant', 'Qual è il prossimo passo riguardo a', 'Qual é o próximo passo sobre', 'Was ist der nächste Schritt bei', true],
+  ['Avíseme sobre cualquier cambio en', 'Please update me about any change in', 'Tenez-moi au courant de tout changement concernant', 'Mi aggiorni su qualsiasi cambiamento riguardo a', 'Avise-me sobre qualquer mudança em', 'Informieren Sie mich über Änderungen bei', false],
+  ['Gracias por ayudarme con', 'Thank you for helping me with', 'Merci de m’aider avec', 'Grazie per avermi aiutato con', 'Obrigado por me ajudar com', 'Danke für Ihre Hilfe bei', false],
+  ['Tomemos una decisión sobre', 'Let us make a decision about', 'Prenons une décision concernant', 'Prendiamo una decisione su', 'Vamos tomar uma decisão sobre', 'Treffen wir eine Entscheidung zu', false],
+  ['Necesito más tiempo para', 'I need more time for', 'J’ai besoin de plus de temps pour', 'Ho bisogno di più tempo per', 'Preciso de mais tempo para', 'Ich brauche mehr Zeit für', false],
+  ['¿Podemos intentarlo de nuevo con', 'Can we try again with', 'Pouvons-nous réessayer avec', 'Possiamo riprovare con', 'Podemos tentar novamente com', 'Können wir es erneut versuchen mit', true],
+  ['Estoy de acuerdo con lo hablado sobre', 'I agree with what we discussed about', 'Je suis d’accord avec ce que nous avons dit sur', 'Sono d’accordo con quanto discusso su', 'Concordo com o que discutimos sobre', 'Ich stimme dem Besprochenen zu über', false],
+  ['No estoy seguro de', 'I am not sure about', 'Je ne suis pas sûr de', 'Non sono sicuro di', 'Não tenho certeza sobre', 'Ich bin mir nicht sicher bei', false],
+  ['Es importante aclarar', 'It is important to clarify', 'Il est important de clarifier', 'È importante chiarire', 'É importante esclarecer', 'Es ist wichtig zu klären', false],
+  ['Estoy listo para continuar con', 'I am ready to continue with', 'Je suis prêt à continuer avec', 'Sono pronto a continuare con', 'Estou pronto para continuar com', 'Ich bin bereit weiterzumachen mit', false],
+  ['¿Qué cambió respecto a', 'What changed regarding', 'Qu’est-ce qui a changé concernant', 'Cosa è cambiato riguardo a', 'O que mudou em relação a', 'Was hat sich geändert bei', true],
+  ['Prefiero otro enfoque para', 'I prefer a different approach to', 'Je préfère une autre approche pour', 'Preferisco un approccio diverso per', 'Prefiro outra abordagem para', 'Ich bevorzuge einen anderen Ansatz für', false],
+  ['¿Puede mostrarme un ejemplo relacionado con', 'Can you show me an example related to', 'Pouvez-vous me montrer un exemple lié à', 'Può mostrarmi un esempio relativo a', 'Pode me mostrar um exemplo relacionado a', 'Können Sie mir ein Beispiel zeigen zu', true],
+  ['Hagamos un plan para', 'Let us make a plan for', 'Faisons un plan pour', 'Facciamo un piano per', 'Vamos fazer um plano para', 'Machen wir einen Plan für', false],
+  ['Tengo buenas noticias sobre', 'I have good news about', 'J’ai de bonnes nouvelles concernant', 'Ho buone notizie su', 'Tenho boas notícias sobre', 'Ich habe gute Nachrichten zu', false],
+  ['Tengo un problema con', 'I have a problem with', 'J’ai un problème avec', 'Ho un problema con', 'Tenho um problema com', 'Ich habe ein Problem mit', false],
+  ['Todo está listo para', 'Everything is ready for', 'Tout est prêt pour', 'È tutto pronto per', 'Tudo está pronto para', 'Alles ist bereit für', false],
+  ['Daré seguimiento a', 'I will follow up on', 'Je ferai le suivi de', 'Darò seguito a', 'Vou acompanhar', 'Ich kümmere mich weiter um', false],
+  ['Manténgame informado sobre', 'Please keep me informed about', 'Tenez-moi informé de', 'Mi tenga informato su', 'Mantenha-me informado sobre', 'Halten Sie mich auf dem Laufenden über', false],
+  ['¿Podemos retomar más tarde', 'Can we return to this later for', 'Pouvons-nous reprendre plus tard', 'Possiamo riprendere più tardi', 'Podemos retomar mais tarde', 'Können wir später darauf zurückkommen bei', true],
+  ['Agradezco su consejo sobre', 'I appreciate your advice about', 'J’apprécie votre conseil sur', 'Apprezzo il suo consiglio su', 'Agradeço seu conselho sobre', 'Ich schätze Ihren Rat zu', false],
+  ['Eso responde mi pregunta sobre', 'That answers my question about', 'Cela répond à ma question sur', 'Questo risponde alla mia domanda su', 'Isso responde à minha pergunta sobre', 'Das beantwortet meine Frage zu', false],
+  ['Continuemos con', 'Let us continue with', 'Continuons avec', 'Continuiamo con', 'Vamos continuar com', 'Machen wir weiter mit', false]
+];
+
+function buildAmbitiousUsefulExpressionLibrary() {
+  return AMBITIOUS_USEFUL_EXPRESSION_THEMES.flatMap((theme) =>
+    Array.from({ length: 200 }, (_, index) => {
+      const pattern = AMBITIOUS_USEFUL_EXPRESSION_PATTERNS[index % AMBITIOUS_USEFUL_EXPRESSION_PATTERNS.length];
+      const concept = theme.concepts[(index * 3 + Math.floor(index / AMBITIOUS_USEFUL_EXPRESSION_PATTERNS.length)) % theme.concepts.length];
+      const punctuation = pattern[6] ? '?' : '.';
+      return Object.fromEntries(DAILY_EXPRESSION_LANGUAGE_IDS.map((language, languageIndex) => [
+        language,
+        `${pattern[languageIndex]} ${concept[languageIndex]}${punctuation}`.replace(/\s+/g, ' ').trim()
+      ]));
+    })
+  );
+}
+
+function getGermanPlaceNominative(value) {
+  return String(value)
+    .replace(/^einen Supermarkt\b/, 'ein Supermarkt')
+    .replace(/^einen Geldautomaten\b/, 'ein Geldautomat');
+}
+
+function makeDailyExpression(pattern, value, suffix = '') {
+  return Object.fromEntries(DAILY_EXPRESSION_LANGUAGE_IDS.map((language, index) => [
+    language,
+    (language === 'german' && pattern === 'goTo'
+      ? `Mein Ziel ist ${getGermanPlaceNominative(value[index])}.`
+      : language === 'german' && pattern === 'call'
+      ? `Kann ich mit ${value[index]} telefonieren?`
+      : language === 'german' && pattern === 'notify'
+        ? `Können Sie ${value[index]} Bescheid geben?`
+        : language === 'german' && pattern === 'contact'
+          ? `Ich möchte mit ${value[index]} Kontakt aufnehmen.`
+          : `${DAILY_EXPRESSION_PATTERNS[pattern][language]} ${value[index]}${suffix}`
+    ).replace(/\s+/g, ' ').trim()
+  ]));
+}
+
+// Mix the situations rather than placing six near-identical requests beside
+// the same noun. A learner now meets a different communicative intent on the
+// next card, which is both more natural and less tiring to study.
+function buildInterleavedDailySet(values, patterns, questionPatterns = []) {
+  return patterns.flatMap((_, round) => values.map((value, index) => {
+    const pattern = patterns[(round + index) % patterns.length];
+    return makeDailyExpression(pattern, value, questionPatterns.includes(pattern) ? '?' : '.');
+  }));
+}
+
+function buildDailyUsefulExpressionLibrary() {
+  const existing = UNIVERSAL_USEFUL_EXPRESSIONS.map((expression) => Object.fromEntries(
+    DAILY_EXPRESSION_LANGUAGE_IDS.map((id) => [id, getUsefulExpressionTranslation(expression, USEFUL_EXPRESSION_LANGUAGES.find((language) => language.id === id))])
+  ));
+  const support = [...existing, ...buildInterleavedDailySet(DAILY_EXPRESSION_SUPPORT_SITUATIONS, ['supportExplain', 'supportClarify', 'supportRepeat', 'supportUnderstand', 'supportCheck', 'supportDiscuss', 'supportAnswer', 'supportWrite', 'supportExample', 'supportConfirm'], ['supportClarify', 'supportRepeat', 'supportDiscuss', 'supportAnswer', 'supportWrite'])].slice(0, 200);
+  const needs = buildInterleavedDailySet(DAILY_EXPRESSION_ITEMS, ['need', 'want', 'lookingFor', 'findItem', 'haveItem', 'wouldLikeItem', 'availableItem', 'recommendItem', 'chooseItem', 'payItem'], ['findItem', 'haveItem', 'wouldLikeItem', 'availableItem', 'recommendItem']);
+  const places = buildInterleavedDailySet(DAILY_EXPRESSION_PLACES, ['nearby', 'where', 'lookingFor', 'showMap', 'tellWhere', 'goTo', 'openPlace', 'farPlace', 'routePlace', 'walkPlace'], ['nearby', 'where', 'showMap', 'tellWhere', 'openPlace', 'farPlace', 'routePlace', 'walkPlace']);
+  const routine = buildInterleavedDailySet(DAILY_EXPRESSION_ACTIVITIES, ['activityWant', 'activityNeed', 'activityCan', 'activityPrefer', 'activityGoing', 'activityWouldLike', 'activityPossible', 'activityWhen', 'activityWhere', 'activityTime'], ['activityCan', 'activityPossible', 'activityWhen', 'activityWhere']);
+  const people = buildInterleavedDailySet(DAILY_EXPRESSION_CONTACTS, ['speakTo', 'call', 'helpFrom', 'notify', 'contact', 'talkTo', 'availableContact', 'appointmentContact', 'messageContact', 'waitContact'], ['call', 'notify', 'talkTo', 'availableContact']);
+  const library = [...support, ...needs, ...places, ...routine, ...people];
+  const invalidDailyPhrases = library.some((expression) => /^(?:¿Puedo usar|¿Puedo comprar) (?:un taxi|algo de comer|un café|un baño)/i.test(expression.spanish || ''));
+  if (library.length !== 1000 || invalidDailyPhrases || library.some((expression) => DAILY_EXPRESSION_LANGUAGE_IDS.some((language) => !String(expression[language] || '').trim()))) {
+    throw new Error('La biblioteca de expresiones útiles debe contener 1,000 frases completas en cada idioma.');
+  }
+  return library;
+}
+
+const DAILY_USEFUL_EXPRESSION_LIBRARY = buildAmbitiousUsefulExpressionLibrary();
+
+// The daily library is intentionally organised by situation.  Keeping this
+// metadata separate from the phrase text lets learners switch topic without
+// losing the L1/L2 pair they selected.
+const DAILY_USEFUL_EXPRESSION_TOPICS = AMBITIOUS_USEFUL_EXPRESSION_THEMES.map((theme, index) => ({
+  id: theme.id,
+  icon: theme.icon,
+  label: theme.label,
+  start: index * 200,
+  end: (index + 1) * 200,
+  count: 200
+}));
+
+function getDailyUsefulExpressionsForTopic(topicId) {
+  if (topicId === 'all') return DAILY_USEFUL_EXPRESSION_LIBRARY;
+  const topic = DAILY_USEFUL_EXPRESSION_TOPICS.find((candidate) => candidate.id === topicId);
+  return topic ? DAILY_USEFUL_EXPRESSION_LIBRARY.slice(topic.start, topic.end) : DAILY_USEFUL_EXPRESSION_LIBRARY;
 }
 
 function renderSpeakingCorrectorHtml(idPrefix = 'corrector') {
@@ -17110,20 +17746,9 @@ function renderSpeakingView(section, lesson) {
 
   content.innerHTML = `
     <h3>${escapeHtml(lesson.title)}</h3>
-    ${renderSpeakingExpressionsHtml(lesson)}
     ${renderSpeakingModeTabsHtml(speakingViewState.mode)}
     <div id="speakingStage" class="speaking-stage"></div>
   `;
-
-  content.querySelectorAll('.speaking-expression').forEach((button) => {
-    button.addEventListener('click', () => {
-      playModelPhrase(
-        button.dataset.speakingExpression || '',
-        getPronunciationLocale(learningPathState.language),
-        learningPathState.language
-      );
-    });
-  });
   content.querySelectorAll('[data-speaking-expression][data-speaking-language]').forEach((button) => {
     button.addEventListener('click', () => {
       const language = button.dataset.speakingLanguage;
@@ -18679,6 +19304,38 @@ function getVocabularyExampleFallbacks(word, seed, language) {
     'combien ca coute': [
       'Combien ça coûte pour un aller-retour ?',
       'Combien ça coûte, cette baguette ?'
+    ],
+    'lemploi du temps': [
+      'Je consulte l’emploi du temps avant de préparer mon sac.',
+      'Le professeur change l’emploi du temps pour vendredi.'
+    ],
+    'la bibliotheque': [
+      'Après les cours, je vais à la bibliothèque pour travailler.',
+      'À la bibliothèque, on peut emprunter des romans et des dictionnaires.'
+    ],
+    'la calculatrice': [
+      'Ma calculatrice est dans mon sac de mathématiques.',
+      'Pour cet exercice, la calculatrice est autorisée.'
+    ],
+    'la cantine': [
+      'À midi, nous retrouvons nos amis à la cantine.',
+      'La cantine propose un plat végétarien aujourd’hui.'
+    ],
+    'la cour': [
+      'Les élèves jouent dans la cour pendant la récréation.',
+      'On se retrouve dans la cour après le cours de sport.'
+    ],
+    'la gomme': [
+      'J’ai fait une erreur : peux-tu me prêter ta gomme ?',
+      'La gomme est tombée sous la table.'
+    ],
+    'la regle': [
+      'Trace une ligne droite avec la règle.',
+      'La règle de la classe est simple : on écoute les autres.'
+    ],
+    'la table / la chaise': [
+      'Il reste une chaise libre près de la table.',
+      'Après l’activité, nous remettons les chaises sous les tables.'
     ]
   };
   const practicalEnglishContexts = {
@@ -18706,39 +19363,11 @@ function getVocabularyExampleFallbacks(word, seed, language) {
         : null;
   if (curatedContexts) return curatedContexts;
 
-  // Not every imported catalogue entry has its two authored examples yet.
-  // Never leave a learner with a blank card: these are deliberately framed
-  // as short, usable micro-practices (the term is quoted, so they remain
-  // correct for nouns, verbs, adjectives and complete expressions alike).
-  // Authored examples above always take precedence and progressively replace
-  // this bridge content as the catalogue is enriched.
-  const practiceByLanguage = {
-    english: [
-      `In class, I hear the word “${cleanWord}”.`,
-      `I repeat “${cleanWord}” aloud before I continue.`
-    ],
-    french: [
-      `En cours, j’entends le mot « ${cleanWord} » .`,
-      `Je répète « ${cleanWord} » à voix haute avant de continuer.`
-    ],
-    spanish: [
-      `En clase escucho la palabra «${cleanWord}».`,
-      `Repito «${cleanWord}» en voz alta antes de continuar.`
-    ],
-    italian: [
-      `In classe sento la parola «${cleanWord}».`,
-      `Ripeto «${cleanWord}» ad alta voce prima di continuare.`
-    ],
-    portuguese: [
-      `Na aula, ouço a palavra «${cleanWord}».`,
-      `Repito «${cleanWord}» em voz alta antes de continuar.`
-    ],
-    german: [
-      `Im Unterricht höre ich das Wort „${cleanWord}“.`,
-      `Ich wiederhole „${cleanWord}“ laut, bevor ich weitermache.`
-    ]
-  };
-  return practiceByLanguage[language] || practiceByLanguage.english;
+  // A repeated template with the target word quoted looks like an example,
+  // but does not teach usage. When a word has only one verified example, we
+  // show that one instead of inventing a second generic sentence. New curated
+  // contexts are added by topic above as the catalogue is enriched.
+  return [];
 }
 
 const VOCABULARY_L2_UI = {
@@ -19104,8 +19733,12 @@ let vocabTranslationLessonSlug = '';
 const vocabularyCatalogueFilters = {
   search: '',
   mastery: 'all',
-  category: 'all'
+  category: 'all',
+  letter: 'all',
+  view: 'dictionary'
 };
+const vocabularyDictionarySources = new Map();
+let vocabularyDictionaryLimit = 100;
 const vocabL1TranslationCache = new Map();
 const vocabL1TranslationRequests = new Set();
 const vocabBriefDefinitionCache = new Map();
@@ -19305,7 +19938,7 @@ function renderVocabularyPracticePanelHtml(lesson) {
   const question = runtime.questions[currentIndex];
   const selectedOption = runtime.answers[question.id];
   return `
-    <div class="grammar-test-card vocab-practice-card">
+    <div class="vocab-practice-card">
       <header class="grammar-practice-header">
         <div>
           <p class="grammar-test-eyebrow">${feedback('Paso 3 · Desafío', 'Step 3 · Challenge', 'Étape 3 · Défi')}</p>
@@ -20101,6 +20734,79 @@ function buildVocabularyLevelBank(lesson) {
   return bank;
 }
 
+function vocabularyInitial(word) {
+  const initial = String(word || '')
+    .trim()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .charAt(0)
+    .toLocaleUpperCase();
+  return /^[A-Z]$/.test(initial) ? initial : '#';
+}
+
+function getFilteredDictionaryCards(cards) {
+  const search = vocabularyCatalogueFilters.search.trim().toLocaleLowerCase();
+  return cards
+    .filter((card) => {
+      const mastery = card.masteryStatus || 'new';
+      const kind = getVocabularyCardKind(card);
+      const matchesMastery = vocabularyCatalogueFilters.mastery === 'all' || mastery === vocabularyCatalogueFilters.mastery || (vocabularyCatalogueFilters.mastery === 'practicing' && mastery === 'learning');
+      const matchesCategory = vocabularyCatalogueFilters.category === 'all' || kind === vocabularyCatalogueFilters.category;
+      const haystack = `${card.targetWord || ''} ${card.translation || card.l1Translation || ''} ${card.category || ''}`.toLocaleLowerCase();
+      return matchesMastery && matchesCategory && (!search || haystack.includes(search)) && (vocabularyCatalogueFilters.letter === 'all' || vocabularyInitial(card.targetWord) === vocabularyCatalogueFilters.letter);
+    })
+    .sort((a, b) => String(a.targetWord || '').localeCompare(String(b.targetWord || ''), getPronunciationLocale(learningPathState.language), { sensitivity: 'base' }));
+}
+
+function renderVocabularyDictionary(section) {
+  const dictionary = section?.querySelector('.vocab-dictionary');
+  const source = section ? vocabularyDictionarySources.get(section.dataset.activeLessonSlug) : null;
+  if (!dictionary || !source) return;
+  const visible = getFilteredDictionaryCards(source.cards);
+  const letters = [...new Set(source.cards.map((card) => vocabularyInitial(card.targetWord)))].sort();
+  dictionary.querySelector('.vocab-dictionary-alphabet').innerHTML = `<button type="button" data-vocab-letter="all" class="${vocabularyCatalogueFilters.letter === 'all' ? 'is-active' : ''}">Todos</button>${letters.map((letter) => `<button type="button" data-vocab-letter="${letter}" class="${vocabularyCatalogueFilters.letter === letter ? 'is-active' : ''}">${letter}</button>`).join('')}`;
+  const rows = visible.slice(0, vocabularyDictionaryLimit);
+  const isEnglishDictionary = learningPathState.language === 'english';
+  const getPracticalExamples = (card) => {
+    const contexts = (card.contexts || [])
+      .map((item) => String(item?.targetText || item?.text || '').trim())
+      .filter(Boolean);
+    if (!contexts.length && card.example) contexts.push(String(card.example).trim());
+    return [...new Set(contexts)].slice(0, 2);
+  };
+  const renderExamples = (card) => {
+    const examples = getPracticalExamples(card);
+    const locale = escapeHtml(card.pronunciationLocale || getPronunciationLocale(learningPathState.language));
+    return examples.length
+      ? `<div class="vocab-dictionary-examples">${examples
+          .map(
+            (example) => `<div class="vocab-dictionary-expression"><span class="vocab-dictionary-example-text">${escapeHtml(example)}</span>${supportsSpeech() ? `<button type="button" class="vocab-dictionary-example-audio" data-speak-text="${escapeHtml(example)}" data-speak-locale="${locale}" data-speak-rate="${card.pronunciationRate || 1}" aria-label="Escuchar la expresión de ${escapeHtml(card.targetWord)}" title="Escuchar expresión">🔊</button>` : ''}</div>`
+          )
+          .join('')}</div>`
+      : '';
+  };
+  dictionary.classList.toggle('vocab-dictionary--english', isEnglishDictionary);
+  dictionary.querySelector('.vocab-dictionary-list').innerHTML = rows.length
+      ? `<div class="vocab-dictionary-columns" aria-hidden="true"><span>${escapeHtml(languageDisplayNames[learningPathState.language] || 'L2')} · palabra y fonética</span><span>Español · traducción</span>${isEnglishDictionary ? '<span>Inglés en contexto</span>' : ''}</div>${rows.map((card) => {
+        const mastery = card.masteryStatus || 'new';
+        const masteryLabel = mastery === 'mastered' ? 'Dominada' : mastery === 'practicing' || mastery === 'learning' ? 'Practicando' : 'Nueva';
+        const kind = getVocabularyCardKind(card);
+        const kindTag = isEnglishDictionary && kind === 'expressions' ? '<small class="vocab-dictionary-kind">Expresión</small>' : '';
+        const term = supportsSpeech() ? `<button type="button" class="vocab-dictionary-term vocab-dictionary-audio" data-speak-text="${escapeHtml(card.audioText || card.targetWord)}" data-speak-locale="${escapeHtml(card.pronunciationLocale || getPronunciationLocale(learningPathState.language))}" data-speak-rate="${card.pronunciationRate || 1}" aria-label="Escuchar pronunciación de ${escapeHtml(card.targetWord)}" title="Escuchar pronunciación"><span class="vocab-dictionary-word-row"><span class="vocab-dictionary-initial" aria-hidden="true">${escapeHtml(vocabularyInitial(card.targetWord))}</span><strong class="vocab-dictionary-word">${escapeHtml(card.targetWord)}</strong>${kindTag}<i aria-hidden="true">🔊</i></span>${card.phonetic ? `<span class="vocab-dictionary-phonetic">${escapeHtml(card.phonetic)}</span>` : ''}</button>` : `<div class="vocab-dictionary-term"><strong class="vocab-dictionary-word">${escapeHtml(card.targetWord)}</strong>${kindTag}${card.phonetic ? `<span class="vocab-dictionary-phonetic">${escapeHtml(card.phonetic)}</span>` : ''}</div>`;
+        const examples = isEnglishDictionary ? renderExamples(card) : '';
+        const meaning = `<div class="vocab-dictionary-meaning"><span>${escapeHtml(card.translation || card.l1Translation || card.simpleDefinition || '—')}</span>${isEnglishDictionary ? `<small class="vocab-dictionary-status vocab-dictionary-status--${escapeHtml(mastery)}">${escapeHtml(masteryLabel)}</small>` : ''}</div>`;
+        const details = isEnglishDictionary
+          ? `<div class="vocab-dictionary-details">${meaning}${examples ? `<div class="vocab-dictionary-context">${examples}</div>` : ''}</div>`
+          : meaning;
+        return `<article class="vocab-dictionary-row vocab-dictionary-row--${escapeHtml(kind)}${examples ? '' : ' vocab-dictionary-row--without-context'}" data-mastery="${escapeHtml(mastery)}">${term}${details}</article>`;
+      }).join('')}`
+    : '<p class="skill-graph-empty">No encontramos palabras con estos filtros.</p>';
+  const count = dictionary.querySelector('.vocab-dictionary-count');
+  if (count) count.textContent = `${visible.length} ${visible.length === 1 ? 'palabra' : 'palabras'}`;
+  const more = dictionary.querySelector('.vocab-dictionary-more');
+  if (more) more.hidden = rows.length >= visible.length;
+}
+
 function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
   const isFrench = learningPathState.language === 'french';
   const usefulTitle = isFrench ? 'Phrases et expressions utiles' : 'Frases y expresiones útiles';
@@ -20127,7 +20833,8 @@ function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
                           ? `<button type="button" class="vocab-card-catalogue-example-audio" data-speak-text="${escapeHtml(item.text)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}" aria-label="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}" title="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}">🔊</button>`
                           : ''
                       }</p>
-                      ${item.explanation ? `<small>${escapeHtml(item.explanation)}</small>` : ''}
+                      ${item.translation ? `<small class="vocab-expression-card-translation">${escapeHtml(item.translation)}</small>` : ''}
+                      ${item.explanation ? `<small class="vocab-expression-card-example">${escapeHtml(item.explanation)}</small>` : ''}
                     </div>
                   </li>`
                 )
@@ -20395,15 +21102,21 @@ function renderVocabularyMissionHtml(lesson, cards, french) {
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
-  // The catalogue is level-first: it collects the complete authored bank for
-  // A1, A2, B1, etc. rather than limiting a learner to the small list from
-  // the currently open unit.
+  // A route is a focused lesson, not a catalogue. Keep its first screen to
+  // the words authored for that unit; the standalone Vocabulary view remains
+  // level-first for learners who explicitly want to explore.
   const isRouteVocabulary =
     learningPathState.skillEntryContext === 'route' && Boolean(learningPathState.unitId);
+  // English dictionaries can grow into thousands of entries. Start with
+  // individual words, keeping complete expressions one purposeful filter
+  // away instead of mixing both formats into the first scan.
+  if (learningPathState.language === 'english' && vocabularyCatalogueFilters.category === 'all') {
+    vocabularyCatalogueFilters.category = 'words';
+  }
   const catalogueContextLabel = isRouteVocabulary
-    ? 'Vocabulario de la ruta'
+    ? 'Palabras clave de esta lección'
     : 'Vocabulario del nivel';
-  const levelBank = buildVocabularyLevelBank(lesson)
+  const sourceBank = (isRouteVocabulary ? buildVocabularyUnitBank(lesson) : buildVocabularyLevelBank(lesson))
     .map((raw, index) =>
       normalizeVocabularyItem(raw, {
         language: learningPathState.language,
@@ -20417,8 +21130,10 @@ function renderVocabularyView(section, lesson) {
       ...card,
       category: card.category || lesson.title || 'Palabras clave'
     }));
-  const rawCards = levelBank;
-  const catalogueKey = `${learningPathState.language}:${lesson.level}:complete-level-bank`;
+  const rawCards = sourceBank;
+  const catalogueKey = isRouteVocabulary
+    ? `${learningPathState.language}:${lesson.level}:${lesson.slug}:lesson-focus`
+    : `${learningPathState.language}:${lesson.level}:complete-level-bank`;
   if (vocabCardOrder.length !== rawCards.length || vocabCardOrder.lessonSlug !== catalogueKey) {
     vocabCardOrder = rawCards.map((_, index) => index);
     vocabCardOrder.lessonSlug = catalogueKey;
@@ -20466,11 +21181,10 @@ function renderVocabularyView(section, lesson) {
         `<option value="${escapeHtml(level)}"${level === lesson.level ? ' selected' : ''}>${escapeHtml(COURSE_LEVEL_LABELS[level] || level)}</option>`
     )
     .join('');
-  const catalogueTotal = cards.length;
-  const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
-  const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
   const expressionCards = buildVocabularyExpressionCards(lesson, cards);
   const catalogueCardCount = cards.length + expressionCards.length;
+  const masteredCount = [...cards, ...expressionCards].filter((card) => card.masteryStatus === 'mastered').length;
+  const masteryPercent = catalogueCardCount ? Math.round((masteredCount / catalogueCardCount) * 100) : 0;
   // The catalogue can contain an entire CEFR level. Keep Tutor/Translator
   // shortcuts useful without sending an oversized list through either tool.
   const toolVocabulary = cards.slice(0, 60).map((card) => card.targetWord).join(', ');
@@ -20478,11 +21192,13 @@ function renderVocabularyView(section, lesson) {
   content.innerHTML = `
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
       <div class="vocab-catalogue-heading">
-        <div><span>${isRouteVocabulary ? 'PASO 1 · VOCABULARY' : `VOCABULARY · ${escapeHtml(lesson.level)}`}</span><h3>${french ? 'Vocabulaire du niveau' : 'Vocabulario del nivel'}</h3></div>
-        <p><strong>${masteredCount}</strong> de ${catalogueTotal} palabras dominadas</p>
+        <div><span>${isRouteVocabulary ? 'PASO 1 · VOCABULARY' : `VOCABULARY · ${escapeHtml(lesson.level)}`}</span><h3>${isRouteVocabulary ? escapeHtml(lesson.title) : (french ? 'Vocabulaire du niveau' : 'Vocabulario del nivel')}</h3></div>
+        <p><strong>${masteredCount}</strong> de ${catalogueCardCount} entradas dominadas</p>
       </div>
-      <div class="vocab-catalogue-route-selectors no-print" aria-label="Seleccionar idioma y nivel de vocabulario">
-        <label>Idioma<select id="vocabularyLanguageSelect">${vocabularyLanguageOptions}</select></label>
+      ${isRouteVocabulary ? `<p class="vocab-catalogue-active-level">${catalogueContextLabel}. Empieza con estas palabras y continúa con Reading cuando las reconozcas.</p>` : `
+      <div class="vocab-catalogue-route-selectors no-print" aria-label="Seleccionar idiomas y nivel de vocabulario">
+        <label>L1 · Idioma de apoyo<span class="vocab-dictionary-l1">Español</span></label>
+        <label>L2 · Idioma del diccionario<select id="vocabularyLanguageSelect">${vocabularyLanguageOptions}</select></label>
         <label>Nivel<select id="vocabularyLevelSelect">${vocabularyLevelOptions}</select></label>
       </div>
       <div class="vocab-catalogue-toolbar no-print">
@@ -20518,34 +21234,24 @@ function renderVocabularyView(section, lesson) {
           </div>
         </div>
       </div>
-      <div class="vocab-catalogue-progress"><span><strong>${escapeHtml(lesson.level)}</strong> · ${masteryPercent}% dominado</span><div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${masteryPercent}"><i style="width:${masteryPercent}%"></i></div><small class="vocab-catalogue-visible-count">${catalogueCardCount} tarjetas</small></div>
+      `}
+      <div class="vocab-catalogue-progress"><span><strong>${escapeHtml(lesson.level)}</strong> · ${masteryPercent}% dominado</span><div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${masteryPercent}"><i style="width:${masteryPercent}%"></i></div><small class="vocab-catalogue-visible-count">${cards.length} palabras · ${expressionCards.length} expresiones</small></div>
     </section>
     <section class="saved-reading-vocabulary" aria-live="polite" hidden>
       <p class="skill-graph-empty">${french ? 'Chargement des mots enregistrés depuis Reading…' : 'Cargando palabras guardadas desde Reading…'}</p>
     </section>
-    <div class="vocab-card-deck-controls no-print">
-      <button type="button" class="secondary-btn vocab-shuffle-btn">🔀 ${french ? 'Mélanger les cartes' : 'Mezclar tarjetas'}</button>
-      ${
-        advancedDirect
-          ? `<button type="button" class="secondary-btn vocab-l1-translation-btn${vocabL1TranslationVisible ? ' is-active' : ''}" aria-pressed="${vocabL1TranslationVisible}">
-              ${vocabL1TranslationVisible ? '◉' : '◎'} ${french ? (vocabL1TranslationVisible ? 'Masquer la traduction L1' : 'Afficher la traduction L1') : vocabL1TranslationVisible ? 'Desactivar traducción L1' : 'Activar traducción L1'}
-            </button>`
-          : ''
-      }
-    </div>
-    <div class="vocab-card-deck vocab-catalogue-deck" aria-busy="true" aria-live="polite">
-      <p class="skill-graph-empty">${french ? 'Préparation des cartes…' : 'Preparando tarjetas…'}</p>
-    </div>
+    <section class="vocab-dictionary${learningPathState.language === 'english' ? ' vocab-dictionary--english' : ''}${learningPathState.language === 'english' && learningPathState.level === 'A1' ? ' vocab-dictionary--a1' : ''} no-print" aria-label="Diccionario interactivo">
+      <div class="vocab-dictionary-head"><div><span>${learningPathState.language === 'english' ? '✦ ENGLISH WORD LAB' : 'DICCIONARIO INTERACTIVO'}</span><h4>${learningPathState.language === 'english' ? 'Tu diccionario vivo de inglés' : 'Palabras en orden alfabético'}</h4>${learningPathState.language === 'english' ? '<p>Escucha, comprende y usa cada palabra en contexto.</p>' : ''}</div><strong class="vocab-dictionary-count"></strong></div>
+      <div class="vocab-dictionary-alphabet" role="group" aria-label="Filtrar por letra"></div>
+      <div class="vocab-dictionary-list" aria-live="polite"></div>
+      <button type="button" class="secondary-btn vocab-dictionary-more" hidden>Ver más palabras</button>
+    </section>
     <div class="skill-view-tutor-cta no-print">
-      <button type="button" class="primary-btn vocab-practice-start-btn">${french ? 'Pratiquer' : 'Practicar'} ${getVocabularyPracticeCount(lesson.level)} ${french ? 'mots' : 'palabras'}</button>
+      ${advancedDirect && cards.some((item) => item.learningMode === 'direct' && ['C1', 'C2'].includes(lesson.level)) ? `<button type="button" class="secondary-btn vocab-l1-translation-btn">${vocabL1TranslationVisible ? 'Ocultar traducción de apoyo' : 'Mostrar traducción de apoyo'}</button>` : ''}
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(toolVocabulary)}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(toolVocabulary)}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
       <button type="button" class="secondary-btn open-translator-btn vocab-open-translator-btn" data-translate-text="${escapeHtml(toolVocabulary)}" data-return-label="${french ? 'Retour à Vocabulary' : 'Volver a Vocabulary'}">${french ? 'Ouvrir dans le Traducteur' : 'Abrir en el Traductor'}</button>
     </div>
-    <div class="vocab-practice-panel no-print">${renderVocabularyPracticePanelHtml(lesson)}</div>
-    <div class="vocab-test no-print">
-      <h4>${escapeHtml(vocabularyUi.questions)}</h4>
-      ${testExercisesHtml || `<p class="skill-graph-empty">${french ? 'Aucun test de vocabulaire pour cette leçon.' : 'No hay prueba de vocabulario para esta lección.'}</p>`}
-    </div>
+    <p class="route-final-test-note no-print">La evaluación final de la ruta mezcla vocabulario con las demás habilidades de esta lección.</p>
     <div class="skill-print-area print-only">
       ${renderSkillPrintHeaderHtml(lesson)}
       <h3 class="print-only">${escapeHtml(lesson.title)}</h3>
@@ -20569,13 +21275,9 @@ function renderVocabularyView(section, lesson) {
       <button type="button" class="secondary-btn skill-print-btn">${staff ? (french ? 'Télécharger le corrigé' : 'Descargar clave de respuestas') : french ? 'Télécharger le vocabulaire en PDF' : 'Descargar vocabulario en PDF'}</button>
     </div>
   `;
-  queueVocabularyDeckRender(section, {
-    cards,
-    order: vocabCardOrder,
-    expressionCards,
-    canSpeak,
-    isFrench
-  });
+  vocabularyDictionarySources.set(lesson.slug, { cards: [...cards, ...expressionCards] });
+  vocabularyCatalogueFilters.view = 'dictionary';
+  renderVocabularyDictionary(section);
   renderSavedVocabularyShelf(content, lesson);
   const needsL1Gloss = cards.some(
     (card) =>
@@ -20610,6 +21312,21 @@ function getActiveVocabularyPracticeContext(target) {
 
 function applyVocabularyCatalogueFilters(section) {
   if (!section) return;
+  const dictionary = section.querySelector('.vocab-dictionary:not([hidden])');
+  if (dictionary) {
+    renderVocabularyDictionary(section);
+    section.querySelectorAll('[data-vocab-mastery]').forEach((button) => {
+      const active = button.dataset.vocabMastery === vocabularyCatalogueFilters.mastery;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    section.querySelectorAll('[data-vocab-category]').forEach((button) => {
+      const active = button.dataset.vocabCategory === vocabularyCatalogueFilters.category;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    return;
+  }
   const search = vocabularyCatalogueFilters.search.trim().toLocaleLowerCase();
   let visible = 0;
   section.querySelectorAll('.vocab-catalogue-deck .vocab-card').forEach((card) => {
@@ -20648,6 +21365,27 @@ function applyVocabularyCatalogueFilters(section) {
 }
 
 document.addEventListener('click', (event) => {
+  const letterButton = event.target.closest('[data-vocab-letter]');
+  if (letterButton) {
+    vocabularyCatalogueFilters.letter = letterButton.dataset.vocabLetter || 'all';
+    vocabularyDictionaryLimit = 100;
+    applyVocabularyCatalogueFilters(letterButton.closest('.skill-view-section'));
+    return;
+  }
+
+  const dictionaryMore = event.target.closest('.vocab-dictionary-more');
+  if (dictionaryMore) {
+    vocabularyDictionaryLimit += 100;
+    renderVocabularyDictionary(dictionaryMore.closest('.skill-view-section'));
+    return;
+  }
+
+  const dictionaryAudio = event.target.closest('.vocab-dictionary-audio, .vocab-dictionary-example-audio');
+  if (dictionaryAudio) {
+    speakText(dictionaryAudio.dataset.speakText, { locale: dictionaryAudio.dataset.speakLocale, rate: Number(dictionaryAudio.dataset.speakRate) || 1 });
+    return;
+  }
+
   const categoryButton = event.target.closest('[data-vocab-category]');
   if (categoryButton) {
     vocabularyCatalogueFilters.category = categoryButton.dataset.vocabCategory || 'all';
@@ -23017,11 +23755,8 @@ function getLocalFallbackLessons(language, level) {
       .filter((unit) => unit.level === level)
       .map((unit) => [unit.id || unit.slug, Number(unit.order) || 1])
   );
-  // Free access is intentionally governed by unit, never by individual
-  // activities: A1 includes units 1–3 and A2–C2 include units 1–2.
-  // This mirrors lib/accessPolicyService.js, which remains the enforcement
-  // source for server-loaded lessons.
-  const freeUnitLimit = freeUnitLimitForLevel(level);
+  // The full learning catalogue is available in Free. Premium removes the
+  // transition ads instead of restricting course content.
   return (
     lessons
       .filter((lesson) => lesson.level === level)
@@ -23035,14 +23770,12 @@ function getLocalFallbackLessons(language, level) {
           unitOrderById.get(lesson.unitId || lesson.unitSlug) ||
           Math.max(1, Math.floor(Number(lesson.orderIndex || 0) / 10));
         const completed = Boolean(lesson.completed);
-        const isFree = unitOrder <= freeUnitLimit;
-        const shouldLock = !isFree && !hasFullRouteAccess();
         return {
           ...lesson,
           unitOrder,
-          accessTier: isFree ? 'free' : 'premium',
-          isFree,
-          locked: shouldLock,
+          accessTier: 'free',
+          isFree: true,
+          locked: false,
           completed
         };
       })
@@ -23570,6 +24303,8 @@ async function completeActiveLesson() {
     // delaying navigation to the next activity.
     loadDashboard();
 
+    scheduleSpacedReview(activeLesson);
+
     const gamResult = window.AndergoGamification?.recordLessonCompletion({
       slug: activeLesson.slug,
       language: learningPathState.language,
@@ -23967,7 +24702,7 @@ const lessonTestState = {
   result: null
 };
 let testsLoadRequestId = 0;
-const LESSON_TEST_MIN_QUESTIONS = 15;
+const LESSON_TEST_MIN_QUESTIONS = 16;
 
 function shuffleTestItems(items, seed = 0) {
   return [...items].sort((a, b) => {
@@ -24090,7 +24825,9 @@ const TEST_LANGUAGE_LABELS = {
 };
 
 function getTestsUiCopy(language = lessonTestState.language) {
-  const standard = lessonTestState.level === 'A1'
+  const standard = ['english', 'french'].includes(language) && ['C1', 'C2'].includes(lessonTestState.level)
+    ? '1–8 Grammar · 9–10 Vocabulary · 11–12 Verbs · 13–14 Adjectives · 15–16 Adverbs'
+    : lessonTestState.level === 'A1'
     ? '1–7 Grammar · 8–10 Vocabulary · 11–13 Verbs · 14–16 Adjectives'
     : '1–7 Grammar · 8–10 Vocabulary · 11–12 Verbs · 13–14 Adjectives · 15–16 Adverbs';
   const copies = {
@@ -24137,16 +24874,10 @@ function syncTestLevelOptions() {
   if (!level) return;
   const requested = level.value;
   const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-  const premium = isPremiumUser();
   level.innerHTML = levels
-    .map((item) => {
-      const locked = !premium && ['B2', 'C1', 'C2'].includes(item);
-      return `<option value="${item}"${locked ? ' disabled' : ''}>${item}${locked ? ' · Premium' : ''}</option>`;
-    })
+    .map((item) => `<option value="${item}">${item}</option>`)
     .join('');
-  level.value = levels.includes(requested) && (premium || !['B2', 'C1', 'C2'].includes(requested))
-    ? requested
-    : 'A1';
+  level.value = levels.includes(requested) ? requested : 'A1';
 }
 
 function renderLessonTest() {
@@ -24177,13 +24908,21 @@ function renderLessonTest() {
       return `<li>${sentence}</li>`;
     })
     .join('');
+  const assessmentHtml = unit.assessment
+    ? `<aside class="tests-assessment-spec"><strong>${escapeHtml(unit.assessment.framework)}</strong><span>${escapeHtml(unit.assessment.purpose)}</span><ul>${(unit.assessment.domains || []).map(([domain, count]) => `<li>${escapeHtml(domain)}: ${count}</li>`).join('')}</ul><small>${escapeHtml(unit.assessment.note)}</small></aside>`
+    : '';
   const questionHtml = lessonTestState.questions
     .map((question, index) => {
-      return `<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`;
+      const stimulus = question.stimulus
+        ? question.stimulusType === 'listening'
+          ? `<div class="tests-listening-stimulus"><button type="button" class="secondary-btn" data-test-listening-text="${escapeHtml(question.stimulus)}">🔊 Listen to the recording</button><small>You may listen twice.</small></div>`
+          : `<div class="tests-reading-stimulus"><strong>Read the short text.</strong><p>${escapeHtml(question.stimulus)}</p></div>`
+        : '';
+      return `<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend>${question.cefrDescriptor ? `<small class="tests-cefr-descriptor">${escapeHtml(question.cefrDescriptor)}</small>` : ''}${stimulus}<div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`;
     })
     .join('');
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
-    <header class="tests-paper-head"><div><span>${escapeHtml(testLanguageLabel(lessonTestState.language))} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} ${lessonTestState.language === 'english' ? 'questions to complete at your own pace.' : 'preguntas para completar a tu ritmo.'}</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>${lessonTestState.language === 'english' ? 'Practical examples' : 'Ejemplos prácticos'}</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>${lessonTestState.language === 'english' ? 'points' : 'puntos'}</small></strong></header>
+    <header class="tests-paper-head"><div><span>${escapeHtml(testLanguageLabel(lessonTestState.language))} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} ${lessonTestState.language === 'english' ? 'questions to complete at your own pace.' : 'preguntas para completar a tu ritmo.'}</p>${assessmentHtml}${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>${lessonTestState.language === 'english' ? 'Practical examples' : 'Ejemplos prácticos'}</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>${lessonTestState.language === 'english' ? 'points' : 'puntos'}</small></strong></header>
     <nav class="tests-challenge-map" aria-label="${lessonTestState.language === 'english' ? 'Challenge progress' : 'Progreso del reto'}">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="${lessonTestState.language === 'english' ? 'Go to question' : 'Ir a la pregunta'} ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} ${lessonTestState.language === 'english' ? 'answered' : 'respondidas'}</span></nav>
     <p class="tests-global-instruction">${lessonTestState.language === 'english' ? 'Choose the option that best completes or answers each situation.' : 'Elige en cada pregunta la opción que mejor complete o responda la situación.'}</p>
     <form id="lessonTestForm" class="tests-question-list">${questionHtml}
@@ -24203,6 +24942,9 @@ function renderLessonTest() {
     })
   );
   stage.querySelector('[data-test-action="pdf"]')?.addEventListener('click', printLessonTest);
+  stage.querySelectorAll('[data-test-listening-text]').forEach((button) => button.addEventListener('click', () => {
+    playModelPhrase(button.dataset.testListeningText || '', getPronunciationLocale('english'), 'english');
+  }));
   stage
     .querySelector('[data-test-action="word"]')
     ?.addEventListener('click', downloadLessonTestWord);
@@ -24270,6 +25012,11 @@ async function handleLessonTestAnswer(event) {
       })
     });
     const data = await response.json().catch(() => ({}));
+    if (response.status === 409 && data.code === 'TEST_CHANGED') {
+      await loadTestsView();
+      renderLessonTest();
+      return;
+    }
     if (!response.ok) throw new Error(data.error || 'No se pudo comprobar la respuesta.');
     fieldset.dataset.checked = 'true';
     fieldset.dataset.selectedAnswer = input.value;
@@ -24609,7 +25356,7 @@ async function loadTestsView() {
     stage.innerHTML =
       '<div class="tests-welcome"><h3>Preparando los tests</h3><p>Cargando las lecciones del idioma seleccionado…</p></div>';
   const response = await authFetch(
-    `${backendBaseUrl}/api/tests?language=${encodeURIComponent(lessonTestState.language)}&level=${encodeURIComponent(lessonTestState.level)}`
+    `${backendBaseUrl}/api/tests?language=${encodeURIComponent(lessonTestState.language)}&level=${encodeURIComponent(lessonTestState.level)}&v=${Date.now()}`
   );
   const data = await response.json().catch(() => ({}));
   if (requestId !== testsLoadRequestId) return;
@@ -26505,10 +27252,71 @@ const gamesState = {
   timerPaused: false,
   timerFinished: false,
   timerInterval: null,
+  competitionInterval: null,
   timerAutoPaused: false,
+  competitionMode: false,
   missionCompleted: new Set(),
-  reviewWords: new Map()
+  reviewWords: new Map(),
+  dailyStorageKey: '',
+  reviewMode: false,
+  hasSelectedLanguage: false
 };
+const GAMES_DAILY_STORAGE_PREFIX = 'andergo-games-daily-v1';
+
+function getGamesLocalDayKey() {
+  const today = new Date();
+  return [today.getFullYear(), String(today.getMonth() + 1).padStart(2, '0'), String(today.getDate()).padStart(2, '0')].join('-');
+}
+
+function getGamesDailyStorageKey() {
+  const learnerId = authStatus.session?.user?.id || 'guest';
+  return `${GAMES_DAILY_STORAGE_PREFIX}:${learnerId}:${getGamesLocalDayKey()}`;
+}
+
+function restoreGamesDailyState() {
+  const storageKey = getGamesDailyStorageKey();
+  if (gamesState.dailyStorageKey === storageKey) return;
+  gamesState.dailyStorageKey = storageKey;
+  gamesState.score = 0;
+  gamesState.missionCompleted = new Set();
+  gamesState.reviewWords = new Map();
+  try {
+    const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');
+    if (!saved || typeof saved !== 'object') return;
+    gamesState.score = Math.max(0, Number(saved.score) || 0);
+    gamesState.missionCompleted = new Set(
+      Array.isArray(saved.missionCompleted)
+        ? saved.missionCompleted.filter((id) => GAMES_CATALOG.some((game) => game.id === id))
+        : []
+    );
+    gamesState.reviewWords = new Map(
+      Array.isArray(saved.reviewWords)
+        ? saved.reviewWords
+            .filter((item) => item && typeof item.term === 'string')
+            .map((item) => [normalizeGameText(item.term), {
+              term: item.term,
+              translation: String(item.translation || ''),
+              misses: Math.max(1, Number(item.misses) || 1)
+            }])
+        : []
+    );
+  } catch {
+    // A learner can still play when local storage is unavailable or corrupted.
+  }
+}
+
+function persistGamesDailyState() {
+  if (!gamesState.dailyStorageKey) return;
+  try {
+    localStorage.setItem(gamesState.dailyStorageKey, JSON.stringify({
+      score: gamesState.score,
+      missionCompleted: [...gamesState.missionCompleted],
+      reviewWords: [...gamesState.reviewWords.values()]
+    }));
+  } catch {
+    // Persistence is an enhancement; gameplay remains available without it.
+  }
+}
 // Compatibility vocabulary for older content/tests: easy: { label: 'Fácil'
 // and challenge: { label: 'Desafío'. The learner-facing scale is now the
 // clearer Fácil / Medio / Difícil while the stable internal ids stay intact.
@@ -26528,8 +27336,11 @@ const GAME_DIFFICULTIES = {
     crosswordFirstLetter: true,
     hangmanLives: 8,
     hangmanHintPenalty: 0,
-    matchPairs: 4,
-    matchDelay: 1050,
+    // 5 pairs keep the first memory board approachable while using the
+    // requested 5 × 2 layout.
+    matchPairs: 5,
+    matchColumns: 5,
+    matchDelay: 1300,
     audioQuestions: 3
   },
   normal: {
@@ -26546,7 +27357,10 @@ const GAME_DIFFICULTIES = {
     crosswordWords: 6,
     hangmanLives: 6,
     hangmanHintPenalty: 1,
-    matchPairs: 5,
+    // 10 pairs make a full 5 × 4 board: enough recall work without making
+    // the learner scan an unwieldy wall of cards.
+    matchPairs: 10,
+    matchColumns: 5,
     matchDelay: 800,
     audioQuestions: 5
   },
@@ -26568,8 +27382,11 @@ const GAME_DIFFICULTIES = {
     hangmanLives: 5,
     hangmanLongWords: true,
     hangmanHintPenalty: null,
-    matchPairs: 6,
-    matchDelay: 550,
+    // Pair games always need an even number of cards, so the large board is
+    // 12 pairs / 24 cards in a balanced 6 × 4 layout (rather than 5 × 5).
+    matchPairs: 12,
+    matchColumns: 6,
+    matchDelay: 500,
     audioQuestions: 6
   }
 };
@@ -27189,6 +28006,7 @@ function getGamesLocale() {
 
 function recordGameSuccess() {
   gamesState.score += getGamesDifficulty().points;
+  persistGamesDailyState();
   window.AndergoGamification?.recordCorrectAnswer();
   window.AndergoGamification?.recordSkillTouched('vocabulary', gamesState.language);
   document.querySelector('#gamesApp .games-score-value')?.replaceChildren(String(gamesState.score));
@@ -27213,6 +28031,16 @@ function recordGamesReviewWord(word) {
     misses: 0
   };
   gamesState.reviewWords.set(key, { ...previous, misses: previous.misses + 1 });
+  persistGamesDailyState();
+}
+
+function resolveGamesReviewWord(word) {
+  const key = normalizeGameText(word?.term || word || '');
+  const previous = gamesState.reviewWords.get(key);
+  if (!previous) return;
+  if (previous.misses <= 1) gamesState.reviewWords.delete(key);
+  else gamesState.reviewWords.set(key, { ...previous, misses: previous.misses - 1 });
+  persistGamesDailyState();
 }
 
 function updateGamesMissionUi() {
@@ -27237,6 +28065,7 @@ function completeGamesMissionStep() {
   const next = steps.find((step) => !gamesState.missionCompleted.has(step));
   if (next !== gamesState.gameId) return { completed: false, allDone: false };
   gamesState.missionCompleted.add(next);
+  persistGamesDailyState();
   updateGamesMissionUi();
   return { completed: true, allDone: gamesState.missionCompleted.size === steps.length };
 }
@@ -27244,7 +28073,9 @@ function completeGamesMissionStep() {
 function renderGamesCompletionCard(summary) {
   const card = document.querySelector('#gamesApp .games-completion-card');
   if (!card) return;
-  const mission = completeGamesMissionStep();
+  const mission = gamesState.reviewMode
+    ? { completed: false, allDone: false }
+    : completeGamesMissionStep();
   const nextGame = getGamesMissionSteps().find((step) => !gamesState.missionCompleted.has(step));
   const reviewWords = [...gamesState.reviewWords.values()]
     .sort((a, b) => b.misses - a.misses)
@@ -27361,6 +28192,10 @@ function updateGamesTimerUi() {
   const value = countdown > 0 ? gamesState.timerRemaining : gamesState.timerElapsed;
   display.textContent = gamesState.timerMode === 'off' ? 'Sin límite' : formatGamesTime(value);
   display.classList.toggle('is-warning', countdown > 0 && value <= 30);
+  display.classList.toggle(
+    'is-running',
+    gamesState.timerMode !== 'off' && !gamesState.timerPaused && !gamesState.timerFinished
+  );
   if (pauseButton) {
     pauseButton.hidden = gamesState.timerMode === 'off' || gamesState.timerFinished;
     pauseButton.textContent = gamesState.timerPaused ? '▶ Continuar' : 'Ⅱ Pausar';
@@ -27423,6 +28258,7 @@ function finishGamesTimer(success = true) {
   if (success && gamesState.timerMode !== 'off') {
     bonus = gamesState.difficulty === 'challenge' ? 15 : 5;
     gamesState.score += bonus;
+    persistGamesDailyState();
     document
       .querySelector('#gamesApp .games-score-value')
       ?.replaceChildren(String(gamesState.score));
@@ -27477,13 +28313,16 @@ function renderGamesView() {
   };
   const availableGames = getAvailableGames();
   if (!availableGames.some((item) => item.id === gamesState.gameId)) gamesState.gameId = availableGames[0].id;
-  const game = availableGames.find((item) => item.id === gamesState.gameId) || availableGames[0];
+  const selectedGame = availableGames.find((item) => item.id === gamesState.gameId) || availableGames[0];
+  const game = gamesState.reviewMode
+    ? { ...selectedGame, icon: '🔁', title: 'Repaso de palabras', hint: 'Escucha y recupera las palabras que fallaste hoy.' }
+    : selectedGame;
   const difficulty = getGamesDifficulty();
   const missionSteps = getGamesMissionSteps();
   const nextMissionGame = missionSteps.find((step) => !gamesState.missionCompleted.has(step));
   app.innerHTML = `
     <section class="games-daily-mission" aria-label="Misión diaria">
-      <div class="games-mission-intro"><span>✦ Misión diaria</span><strong>Una vuelta breve, tres formas de recordar.</strong><small class="games-mission-progress">${gamesState.missionCompleted.size}/${missionSteps.length} retos</small></div>
+      <div class="games-mission-intro"><span>✦ Misión diaria</span><strong>Una vuelta breve, tres formas de recordar.</strong><small class="games-mission-progress">${gamesState.missionCompleted.size}/${missionSteps.length} retos</small>${gamesState.reviewWords.size ? `<button type="button" class="secondary-btn games-review-words">Repasar ${gamesState.reviewWords.size} palabra${gamesState.reviewWords.size === 1 ? '' : 's'}</button>` : ''}</div>
       <div class="games-mission-steps">${missionSteps
         .map((gameId, index) => {
           const done = gamesState.missionCompleted.has(gameId);
@@ -27514,7 +28353,7 @@ function renderGamesView() {
     </div>
     <div class="games-difficulty-summary games-difficulty-summary--${gamesState.difficulty}"><span aria-hidden="true">${difficulty.icon}</span><div><strong>${difficulty.label} · ${difficulty.cefr}</strong><small>${difficulty.description}</small></div><b>+${difficulty.points} puntos por acierto</b></div>
     <div class="games-play-shell">
-      <div class="games-score-strip" role="region" aria-label="Controles y estado de la partida"><div class="games-score-primary"><span><small>Puntos</small><strong class="games-score-value">${gamesState.score}</strong></span><span><small>Idioma</small><strong>${languageLabels[gamesState.language]}</strong></span><span><small>Nivel</small><strong>${difficulty.label}</strong></span><span><small>Reto</small><strong class="games-round-value">${gamesState.round + 1}</strong></span></div><div class="games-round-meter"><span>Progreso <strong class="games-round-progress-label">0/0 · 0%</strong></span><progress class="games-round-progress" value="0" max="1" aria-label="Progreso de la ronda"></progress></div><div class="games-timer-controls"><label><span>Tiempo</span><select class="games-timer-mode" aria-label="Modo del cronómetro"><option value="stopwatch" ${gamesState.timerMode === 'stopwatch' ? 'selected' : ''}>Cronómetro</option><option value="120" ${gamesState.timerMode === '120' ? 'selected' : ''}>2 minutos</option><option value="180" ${gamesState.timerMode === '180' ? 'selected' : ''}>3 minutos</option><option value="300" ${gamesState.timerMode === '300' ? 'selected' : ''}>5 minutos</option><option value="off" ${gamesState.timerMode === 'off' ? 'selected' : ''}>Sin tiempo</option></select></label><strong class="games-timer-display">00:00</strong><button type="button" class="games-timer-pause" aria-pressed="false">Ⅱ Pausar</button><button type="button" class="secondary-btn games-new-round">↻ Nuevo reto</button><small class="games-timer-result" aria-live="polite"></small></div></div>
+      <div class="games-score-strip" role="region" aria-label="Controles y estado de la partida"><div class="games-score-primary"><span><small>Puntos</small><strong class="games-score-value">${gamesState.score}</strong></span><span><small>Idioma</small><strong>${languageLabels[gamesState.language]}</strong></span><span><small>Nivel</small><strong>${difficulty.label}</strong></span><span><small>Reto</small><strong class="games-round-value">${gamesState.round + 1}</strong></span></div><div class="games-round-meter"><span>Progreso <strong class="games-round-progress-label">0/0 · 0%</strong></span><progress class="games-round-progress" value="0" max="1" aria-label="Progreso de la ronda"></progress></div><div class="games-timer-controls"><label><span>Tiempo</span><select class="games-timer-mode" aria-label="Modo del cronómetro"><option value="stopwatch" ${gamesState.timerMode === 'stopwatch' ? 'selected' : ''}>Cronómetro</option><option value="120" ${gamesState.timerMode === '120' ? 'selected' : ''}>2 minutos</option><option value="180" ${gamesState.timerMode === '180' ? 'selected' : ''}>3 minutos</option><option value="300" ${gamesState.timerMode === '300' ? 'selected' : ''}>5 minutos</option><option value="off" ${gamesState.timerMode === 'off' ? 'selected' : ''}>Sin tiempo</option></select></label><strong class="games-timer-display">00:00</strong><button type="button" class="games-timer-pause" aria-pressed="false">Ⅱ Pausar</button><button type="button" class="secondary-btn games-competition-toggle" aria-pressed="${gamesState.competitionMode}">${gamesState.competitionMode ? '👥 Competencia activa' : '👥 Competir'}</button><button type="button" class="secondary-btn games-new-round">↻ Nuevo reto</button><small class="games-timer-result" aria-live="polite"></small></div></div>
       <div class="games-board"><div class="games-game-card"><div class="games-game-heading"><div><span>${game.icon} Juego de vocabulario</span><h3>${game.title}</h3><p>${game.hint}</p></div></div><div class="games-game-content"></div><p class="games-feedback" aria-live="polite"></p><section class="games-completion-card" hidden aria-live="polite"></section></div></div>
     </div>
   `;
@@ -27522,6 +28361,7 @@ function renderGamesView() {
     button.addEventListener('click', async () => {
       const nextLanguage = button.dataset.gameLanguage;
       if (nextLanguage === gamesState.language) return;
+      gamesState.hasSelectedLanguage = true;
       gamesState.language = nextLanguage;
       gamesState.vocabulary = [];
       await loadGamesView();
@@ -27529,6 +28369,7 @@ function renderGamesView() {
   );
   app.querySelectorAll('[data-mission-game]').forEach((button) =>
     button.addEventListener('click', () => {
+      gamesState.reviewMode = false;
       gamesState.gameId = button.dataset.missionGame;
       gamesState.round += 1;
       renderGamesView();
@@ -27536,6 +28377,7 @@ function renderGamesView() {
   );
   app.querySelectorAll('[data-game-id]').forEach((button) =>
     button.addEventListener('click', () => {
+      gamesState.reviewMode = false;
       gamesState.gameId = button.dataset.gameId;
       gamesState.round += 1;
       renderGamesView();
@@ -27561,11 +28403,27 @@ function renderGamesView() {
     gamesState.timerAutoPaused = false;
     updateGamesTimerUi();
   });
+  app.querySelector('.games-competition-toggle')?.addEventListener('click', () => {
+    if (gamesState.gameId !== 'word-search') {
+      setGamesFeedback('El modo competencia está disponible en Sopa de letras.', 'is-wrong');
+      return;
+    }
+    gamesState.competitionMode = !gamesState.competitionMode;
+    gamesState.round += 1;
+    renderGamesView();
+  });
   app.querySelector('.games-new-round')?.addEventListener('click', () => {
+    gamesState.reviewMode = false;
     gamesState.round += 1;
     app.querySelector('.games-round-value')?.replaceChildren(String(gamesState.round + 1));
     setGamesFeedback('');
     renderSelectedGame();
+  });
+  app.querySelector('.games-review-words')?.addEventListener('click', () => {
+    gamesState.reviewMode = true;
+    gamesState.gameId = 'audio-sprint';
+    gamesState.round += 1;
+    renderGamesView();
   });
   renderSelectedGame();
 }
@@ -27605,24 +28463,36 @@ function renderSelectedGame() {
   const content = document.querySelector('#gamesApp .games-game-content');
   if (!content) return;
   const { topic, words, bridgeTopic } = getCurrentGamesTheme();
+  const reviewWords = gamesState.reviewMode ? [...gamesState.reviewWords.values()] : [];
   const difficulty = getGamesDifficulty();
-  content.innerHTML = `<div class="games-theme-banner"><span>Tema de la ronda</span><strong>${escapeHtml(topic.title)}</strong><small>${difficulty.icon} ${difficulty.label} · ${difficulty.cefr} · ${difficulty.description}</small></div><div class="games-themed-stage"></div>`;
+  const roundTitle = reviewWords.length ? 'Palabras que vas a recuperar' : topic.title;
+  content.innerHTML = `<div class="games-theme-banner"><span>${reviewWords.length ? 'Repaso adaptativo' : 'Tema de la ronda'}</span><strong>${escapeHtml(roundTitle)}</strong><small>${reviewWords.length ? `${reviewWords.length} palabra${reviewWords.length === 1 ? '' : 's'} fallada${reviewWords.length === 1 ? '' : 's'} hoy · responde bien para retirarlas de tu repaso.` : `${difficulty.icon} ${difficulty.label} · ${difficulty.cefr} · ${difficulty.description}`}</small></div><div class="games-themed-stage"></div>`;
   const stage = content.querySelector('.games-themed-stage');
+  window.clearInterval(gamesState.competitionInterval);
+  gamesState.competitionInterval = null;
   resetGamesTimer();
+  if (gamesState.gameId === 'word-search' && gamesState.competitionMode) {
+    return renderCompetitionWordSearch(stage, words);
+  }
   if (gamesState.gameId === 'word-search') return renderWordSearchGame(stage, words);
   if (gamesState.gameId === 'crossword') return renderCrosswordGame(stage, topic, bridgeTopic);
   if (gamesState.gameId === 'hangman') return renderHangmanGame(stage, words);
-  if (gamesState.gameId === 'audio-sprint') return renderAudioSprintGame(stage, words);
+  if (gamesState.gameId === 'audio-sprint') return renderAudioSprintGame(stage, words, reviewWords);
   renderMatchGame(stage, words);
 }
 
-function renderAudioSprintGame(content, words) {
+function renderAudioSprintGame(content, words, reviewWords = []) {
+  const isReview = reviewWords.length > 0;
+  const sourceWords = isReview ? reviewWords : words;
   const roundWords = getGameRoundWords(
-    words,
-    Math.max(4, getGamesDifficulty().audioQuestions + 1),
+    sourceWords,
+    Math.min(sourceWords.length, Math.max(4, getGamesDifficulty().audioQuestions + 1)),
     2
   );
-  const questions = roundWords.slice(0, getGamesDifficulty().audioQuestions);
+  const questions = roundWords.slice(0, Math.min(roundWords.length, getGamesDifficulty().audioQuestions));
+  const optionPool = [...words, ...roundWords].filter((item, index, items) =>
+    items.findIndex((candidate) => normalizeGameText(candidate.term) === normalizeGameText(item.term)) === index
+  );
   let questionIndex = 0;
   let correct = 0;
   let answered = false;
@@ -27630,7 +28500,7 @@ function renderAudioSprintGame(content, words) {
 
   const draw = () => {
     const item = questions[questionIndex];
-    const options = [...roundWords]
+    const options = [...optionPool]
       .filter((word) => word.term !== item.term)
       .slice(0, 3)
       .concat(item)
@@ -27648,6 +28518,7 @@ function renderAudioSprintGame(content, words) {
         button.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
         if (isCorrect) {
           correct += 1;
+          if (isReview) resolveGamesReviewWord(item);
           recordGameSuccess();
           setGamesFeedback('¡Correcto! Esa es la palabra que escuchaste.', 'is-correct');
         } else {
@@ -27684,6 +28555,135 @@ function renderAudioSprintGame(content, words) {
     window.setTimeout(play, 250);
   };
   draw();
+}
+
+function renderCompetitionWordSearch(content, words) {
+  const difficulty = getGamesDifficulty();
+  const puzzle = makeWordSearch(words);
+  const players = [
+    { id: 'a', label: 'Jugador 1', found: new Set(), picked: [], elapsed: 0, finished: false },
+    { id: 'b', label: 'Jugador 2', found: new Set(), picked: [], elapsed: 0, finished: false }
+  ];
+  let winner = null;
+  stopGamesTimer();
+  gamesState.timerFinished = true;
+  document.querySelector('#gamesApp .games-timer-display')?.replaceChildren('VS');
+  document.querySelector('#gamesApp .games-timer-pause')?.setAttribute('hidden', '');
+  const gridHtml = (player) => `<section class="games-competition-player" data-player="${player.id}"><header><span>${player.label}</span><strong class="games-competition-time">00:00</strong><small class="games-competition-progress">0/${puzzle.targets.length}</small></header><div class="games-word-grid games-competition-grid" style="--word-grid-columns:${puzzle.columns};--word-grid-rows:${puzzle.rows}" aria-label="Sopa de letras de ${player.label}">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-competition-words">${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(difficulty.wordSearchMeaningClues ? target.translation : target.term)}</span>`).join('')}</div><button type="button" class="secondary-btn games-competition-clear">Limpiar selección</button></section>`;
+  content.innerHTML = `<div class="games-competition-heading"><span>COMPETENCIA · PANTALLA DIVIDIDA</span><strong>Deslicen en línea recta sobre cada palabra. Gana quien complete primero las ${puzzle.targets.length} palabras.</strong></div><div class="games-competition-board">${players.map(gridHtml).join('')}</div><p class="games-competition-result" aria-live="polite"></p>`;
+  const interval = window.setInterval(() => {
+    if (winner || document.hidden) return;
+    players.forEach((player) => { if (!player.finished) player.elapsed += 1; });
+    players.forEach((player) => {
+      const panel = content.querySelector(`[data-player="${player.id}"]`);
+      panel?.querySelector('.games-competition-time')?.replaceChildren(formatGamesTime(player.elapsed));
+    });
+  }, 1000);
+  gamesState.competitionInterval = interval;
+  const clear = (panel, player) => {
+    player.picked = [];
+    panel.querySelectorAll('.games-letter-cell.is-selected').forEach((cell) => cell.classList.remove('is-selected'));
+  };
+  const check = (panel, player) => {
+    const selected = player.picked.join(',');
+    const targetIndex = puzzle.targets.findIndex((target) => {
+      const forward = target.positions.join(',');
+      const backward = [...target.positions].reverse().join(',');
+      return forward === selected || backward === selected;
+    });
+    if (targetIndex < 0 || player.found.has(targetIndex)) return false;
+    player.found.add(targetIndex);
+    puzzle.targets[targetIndex].positions.forEach((position) => panel.querySelector(`[data-letter-index="${position}"]`)?.classList.add('is-picked'));
+    panel.querySelector(`[data-word-index="${targetIndex}"]`)?.classList.add('is-found');
+    panel.querySelector('.games-competition-progress')?.replaceChildren(`${player.found.size}/${puzzle.targets.length}`);
+    clear(panel, player);
+    if (player.found.size === puzzle.targets.length) {
+      winner = player;
+      player.finished = true;
+      window.clearInterval(interval);
+      gamesState.competitionInterval = null;
+      content.querySelector('.games-competition-result').textContent = `🏆 ${player.label} gana en ${formatGamesTime(player.elapsed)}.`;
+      content.querySelectorAll('button').forEach((button) => { if (!button.classList.contains('games-new-round')) button.disabled = true; });
+    }
+    return true;
+  };
+  const straightPath = (fromIndex, toIndex) => {
+    const fromRow = Math.floor(fromIndex / puzzle.columns);
+    const fromColumn = fromIndex % puzzle.columns;
+    const toRow = Math.floor(toIndex / puzzle.columns);
+    const toColumn = toIndex % puzzle.columns;
+    const rowDelta = toRow - fromRow;
+    const columnDelta = toColumn - fromColumn;
+    if (rowDelta !== 0 && columnDelta !== 0 && Math.abs(rowDelta) !== Math.abs(columnDelta)) return [];
+    const length = Math.max(Math.abs(rowDelta), Math.abs(columnDelta));
+    const rowStep = Math.sign(rowDelta);
+    const columnStep = Math.sign(columnDelta);
+    return Array.from({ length: length + 1 }, (_, offset) =>
+      (fromRow + rowStep * offset) * puzzle.columns + fromColumn + columnStep * offset
+    );
+  };
+
+  players.forEach((player) => {
+    const panel = content.querySelector(`[data-player="${player.id}"]`);
+    const grid = panel.querySelector('.games-competition-grid');
+    let selecting = false;
+    let activePointerId = null;
+    let startIndex = -1;
+    const paintPath = (endIndex) => {
+      const path = straightPath(startIndex, endIndex);
+      clear(panel, player);
+      player.picked = path;
+      path.forEach((index) => panel.querySelector(`[data-letter-index="${index}"]`)?.classList.add('is-selected'));
+    };
+    const finishSelection = (event) => {
+      if (!selecting || event.pointerId !== activePointerId) return;
+      selecting = false;
+      activePointerId = null;
+      grid?.classList.remove('is-selecting');
+      if (!check(panel, player)) {
+        panel.classList.add('is-invalid-selection');
+        window.setTimeout(() => {
+          panel.classList.remove('is-invalid-selection');
+          clear(panel, player);
+        }, 280);
+      }
+    };
+    grid?.addEventListener('pointerdown', (event) => {
+      const cell = event.target.closest('.games-letter-cell');
+      if (!cell || winner || player.finished) return;
+      event.preventDefault();
+      selecting = true;
+      activePointerId = event.pointerId;
+      startIndex = Number(cell.dataset.letterIndex);
+      grid.setPointerCapture?.(event.pointerId);
+      grid.classList.add('is-selecting');
+      paintPath(startIndex);
+    });
+    grid?.addEventListener('pointermove', (event) => {
+      if (!selecting || event.pointerId !== activePointerId) return;
+      event.preventDefault();
+      const hovered = document.elementFromPoint(event.clientX, event.clientY)?.closest?.('.games-letter-cell');
+      if (hovered && grid.contains(hovered)) paintPath(Number(hovered.dataset.letterIndex));
+    });
+    grid?.addEventListener('pointerup', finishSelection);
+    grid?.addEventListener('pointercancel', finishSelection);
+    // Keyboard users retain a click-by-click alternative; pointer users trace a full row.
+    panel.querySelectorAll('.games-letter-cell').forEach((cell) => cell.addEventListener('click', (event) => {
+      if (event.detail !== 0) return;
+      if (winner || player.finished) return;
+      const index = Number(cell.dataset.letterIndex);
+      if (player.picked.includes(index)) return;
+      player.picked.push(index);
+      cell.classList.add('is-selected');
+      if (check(panel, player)) return;
+      // A competition selection is made with taps: once it is no longer a
+      // possible target prefix, reset immediately and keep the board quick.
+      const prefix = player.picked.join(',');
+      const stillPossible = puzzle.targets.some((target) => target.positions.join(',').startsWith(prefix));
+      if (!stillPossible) clear(panel, player);
+    }));
+    panel.querySelector('.games-competition-clear')?.addEventListener('click', () => clear(panel, player));
+  });
 }
 
 function renderWordSearchGame(content, words) {
@@ -28199,7 +29199,18 @@ function renderHangmanGame(content, words) {
 }
 
 function renderMatchGame(content, words) {
-  const pairs = getGameRoundWords(words, getGamesDifficulty().matchPairs, 1);
+  const difficulty = getGamesDifficulty();
+  // Keep the current theme at the front of the pool, then extend it with
+  // lesson vocabulary. This lets medium and difficult boards introduce more
+  // varied terms without repeating the same small themed set.
+  const seenTerms = new Set();
+  const pool = [...words, ...gamesState.vocabulary].filter((item) => {
+    const key = normalizeGameText(item?.term || '');
+    if (!key || !item?.translation || seenTerms.has(key)) return false;
+    seenTerms.add(key);
+    return true;
+  });
+  const pairs = getGameRoundWords(pool, difficulty.matchPairs, 1);
   const cards = pairs.flatMap((item, id) => [
     { id, text: item.term, kind: 'term' },
     { id, text: item.translation, kind: 'meaning' }
@@ -28212,7 +29223,14 @@ function renderMatchGame(content, words) {
   let locked = false;
   const matched = new Set();
   setGamesRoundProgress(0, pairs.length);
-  content.innerHTML = `<p class="games-match-instruction">Memoriza y une ${pairs.length} palabras con su significado. Cada pareja contiene una palabra y una definición.</p><div class="games-match-grid">${cards.map((card, index) => `<button type="button" class="games-match-card" data-pair-id="${card.id}" data-card-kind="${card.kind}" data-card-index="${index}" aria-label="Tarjeta oculta"><span class="games-match-cover" aria-hidden="true">?</span><span class="games-match-value">${escapeHtml(card.text)}</span></button>`).join('')}</div>`;
+  const layoutLabel = `${difficulty.matchColumns || 5} × ${Math.ceil(cards.length / (difficulty.matchColumns || 5))}`;
+  const supportCopy =
+    gamesState.difficulty === 'easy'
+      ? 'Tómate tu tiempo y relaciona cada palabra con su significado.'
+      : gamesState.difficulty === 'normal'
+        ? 'Recuerda las posiciones: las tarjetas se ocultan de nuevo más rápido.'
+        : 'Memoriza con rapidez: tienes menos tiempo al equivocarte y el reloj está activo.';
+  content.innerHTML = `<p class="games-match-instruction"><strong>${pairs.length} parejas · tablero ${layoutLabel}.</strong> ${supportCopy}</p><div class="games-match-grid games-match-grid--${gamesState.difficulty}" style="--games-match-columns: ${difficulty.matchColumns || 5}">${cards.map((card, index) => `<button type="button" class="games-match-card" data-pair-id="${card.id}" data-card-kind="${card.kind}" data-card-index="${index}" aria-label="Tarjeta oculta"><span class="games-match-cover" aria-hidden="true">?</span><span class="games-match-value">${escapeHtml(card.text)}</span></button>`).join('')}</div>`;
   content.querySelectorAll('.games-match-card').forEach((button) =>
     button.addEventListener('click', () => {
       if (locked || button.classList.contains('is-matched') || button === selected) return;
@@ -28266,6 +29284,12 @@ function renderMatchGame(content, words) {
 async function loadGamesView() {
   const app = document.getElementById('gamesApp');
   if (!app) return;
+  if (!gamesState.hasSelectedLanguage && GAME_FALLBACK_VOCABULARY[learningPathState?.language]) {
+    gamesState.language = learningPathState.language;
+    gamesState.vocabulary = [];
+    gamesState.hasSelectedLanguage = true;
+  }
+  restoreGamesDailyState();
   if (!gamesState.vocabulary.length) {
     app.innerHTML = '<p class="skill-graph-empty">Preparando juegos…</p>';
     try {
@@ -28307,6 +29331,8 @@ const VIEW_SECTIONS = {
   writing: ['#writing'],
   grammar: ['#grammar'],
   vocabulary: ['#vocabulary'],
+  'useful-expressions': ['#usefulExpressions'],
+  'technical-english': ['#technicalEnglish'],
   adjectives: ['#adjectives'],
   adverbs: ['#adverbs'],
   'teacher-curriculum': ['#teacherCurriculum'],
@@ -28314,7 +29340,309 @@ const VIEW_SECTIONS = {
   'email-confirmed': ['#emailConfirmedSection']
 };
 
-const ANONYMOUS_PREVIEW_VIEWS = new Set();
+// A classroom or prospective learner must be able to open the learning route
+// without an account.  Account creation remains required only when an action
+// needs persistence (for example, saving progress or completing a lesson).
+// This keeps a large shared display useful from the first tap instead of
+// replacing the lesson route with an authentication dialog.
+const ANONYMOUS_PREVIEW_VIEWS = new Set(['learn', 'useful-expressions', 'technical-english']);
+
+const TECHNICAL_ENGLISH_TOPICS = [
+  ['⚾', 'Prospectos de béisbol', 'baseball scouting', 'prospección de béisbol', [['I am a shortstop with quick hands.', 'Soy campocorto con manos rápidas.'], ['I am ready for a tryout.', 'Estoy listo para una prueba.'], ['What does the scout look for?', '¿Qué busca el cazatalentos?']]],
+  ['💼', 'Negocios', 'business', 'negocios', [['I would like to discuss the proposal.', 'Me gustaría hablar sobre la propuesta.'], ['Could we schedule a meeting?', '¿Podemos programar una reunión?'], ['Please send me the invoice.', 'Por favor envíeme la factura.']]],
+  ['🗂️', 'Gestión administrativa', 'administrative management', 'gestión administrativa', [['Please update the departmental schedule.', 'Por favor actualice el calendario departamental.'], ['The request is pending approval.', 'La solicitud está pendiente de aprobación.'], ['I will file the signed document.', 'Archivaré el documento firmado.']]],
+  ['🩺', 'Medicina y enfermería', 'medicine and nursing', 'medicina y enfermería', [['Where do you feel pain?', '¿Dónde siente dolor?'], ['I will check your vital signs.', 'Revisaré sus signos vitales.'], ['Please take this medicine with food.', 'Tome este medicamento con alimentos, por favor.']]],
+  ['🔧', 'Mecánica automotriz', 'automotive mechanics', 'mecánica automotriz', [['The engine is making an unusual noise.', 'El motor está haciendo un ruido inusual.'], ['We need to inspect the brake system.', 'Necesitamos revisar el sistema de frenos.'], ['The vehicle will be ready this afternoon.', 'El vehículo estará listo esta tarde.']]],
+  ['🏨', 'Hotelería y turismo', 'hospitality and tourism', 'hotelería y turismo', [['Welcome to our hotel.', 'Bienvenido a nuestro hotel.'], ['How may I assist you with your stay?', '¿Cómo puedo ayudarle con su estadía?'], ['Could you recommend a local tour?', '¿Puede recomendarme un tour local?']]],
+  ['🍽️', 'Restaurantes y servicios gastronómicos', 'restaurants and food service', 'restaurantes y servicios gastronómicos', [['May I take your order?', '¿Puedo tomar su orden?'], ['Do you have any food allergies?', '¿Tiene alguna alergia alimentaria?'], ['Your table is ready.', 'Su mesa está lista.']]],
+  ['🛫', 'Tripulación de cabina', 'cabin crew', 'tripulación de cabina', [['Please fasten your seat belt.', 'Por favor abróchese el cinturón de seguridad.'], ['The cabin is ready for departure.', 'La cabina está lista para la salida.'], ['May I offer you something to drink?', '¿Puedo ofrecerle algo de beber?']]],
+  ['🛬', 'Operaciones aeroportuarias', 'airport operations', 'operaciones aeroportuarias', [['The flight is now boarding at gate twelve.', 'El vuelo está abordando por la puerta doce.'], ['Please verify the baggage tag.', 'Por favor verifique la etiqueta del equipaje.'], ['The runway inspection is complete.', 'La inspección de la pista está completa.']]],
+  ['🌐', 'Soporte de redes', 'network support', 'soporte de redes', [['Please restart the router.', 'Por favor reinicie el enrutador.'], ['The connection is unstable.', 'La conexión es inestable.'], ['I will open a support ticket.', 'Abriré un ticket de soporte.']]],
+  ['💻', 'Informática y programación', 'information technology and programming', 'informática y programación', [['The application failed during startup.', 'La aplicación falló durante el inicio.'], ['I will review the source code.', 'Revisaré el código fuente.'], ['Please create a backup before deployment.', 'Cree una copia de seguridad antes del despliegue, por favor.']]],
+  ['📊', 'Contabilidad', 'accounting', 'contabilidad', [['The balance does not match.', 'El balance no coincide.'], ['Please attach the receipt.', 'Por favor adjunte el recibo.'], ['We need to review the expenses.', 'Necesitamos revisar los gastos.']]],
+  ['🌾', 'Agricultura y vida en la granja', 'agriculture and farm life', 'agricultura y vida en la granja', [['The soil is ready for planting.', 'El suelo está listo para sembrar.'], ['We need to feed the livestock.', 'Necesitamos alimentar al ganado.'], ['The harvest begins next week.', 'La cosecha comienza la próxima semana.']]],
+  ['💛', 'Para enamorarse', 'dating and relationships', 'relaciones y citas', [['I enjoy spending time with you.', 'Disfruto pasar tiempo contigo.'], ['Would you like to go out with me?', '¿Te gustaría salir conmigo?'], ['You make me feel special.', 'Me haces sentir especial.']]],
+  ['✈️', 'Viajar', 'travel', 'viajes', [['Where is the boarding gate?', '¿Dónde está la puerta de embarque?'], ['I would like a window seat.', 'Quisiera un asiento junto a la ventana.'], ['Could you call a taxi, please?', '¿Podría llamar un taxi, por favor?']]],
+  ['📖', 'Bíblico y teológico', 'biblical study', 'estudio bíblico', [['Let us read this passage together.', 'Leamos este pasaje juntos.'], ['What is the meaning of this verse?', '¿Cuál es el significado de este versículo?'], ['Faith gives us hope.', 'La fe nos da esperanza.']]],
+  ['🗣️', 'Inglés de calle', 'informal conversation', 'conversación informal', [['What’s up?', '¿Qué tal?'], ['I’m just hanging out.', 'Solo estoy pasando el rato.'], ['That sounds awesome.', 'Eso suena genial.']]]
+];
+
+// Twenty foundational, field-specific lines per area. They are expanded below
+// with additional topic-aware communication scenarios to form 200 expressions
+// for each thematic library.
+const TECHNICAL_ENGLISH_EXPRESSIONS = {
+  'Prospectos de béisbol': [
+    ['I am a shortstop with quick hands.', 'Soy campocorto con manos rápidas.'], ['I am ready for a tryout.', 'Estoy listo para una prueba.'], ['What does the scout look for?', '¿Qué busca el cazatalentos?'], ['My primary position is shortstop.', 'Mi posición principal es campocorto.'], ['I can also play second base.', 'También puedo jugar segunda base.'], ['I bat right-handed and throw right-handed.', 'Bateo y lanzo con la derecha.'], ['My sixty-yard dash time is seven seconds.', 'Mi tiempo en las 60 yardas es de siete segundos.'], ['I work on my speed every day.', 'Trabajo mi velocidad todos los días.'], ['I have a strong and accurate arm.', 'Tengo un brazo fuerte y preciso.'], ['I focus on making routine plays.', 'Me concentro en hacer las jugadas rutinarias.'], ['I watch game film to improve.', 'Veo videos de partidos para mejorar.'], ['I am coachable and open to feedback.', 'Acepto la instrucción y estoy abierto a comentarios.'], ['What time should I report to the field?', '¿A qué hora debo presentarme en el terreno?'], ['May I introduce myself to the coach?', '¿Puedo presentarme al entrenador?'], ['Here is my player profile.', 'Aquí está mi perfil de jugador.'], ['I played in a competitive summer league.', 'Jugué en una liga de verano competitiva.'], ['I am recovering well and cleared to play.', 'Me estoy recuperando bien y tengo autorización para jugar.'], ['Could you evaluate my defense today?', '¿Podría evaluar mi defensa hoy?'], ['I am committed to improving my game.', 'Estoy comprometido a mejorar mi juego.'], ['Thank you for the opportunity to compete.', 'Gracias por la oportunidad de competir.']
+  ],
+  'Negocios': [
+    ['I would like to discuss the proposal.', 'Me gustaría hablar sobre la propuesta.'], ['Could we schedule a meeting?', '¿Podemos programar una reunión?'], ['Please send me the invoice.', 'Por favor envíeme la factura.'], ['Let us review the agenda first.', 'Revisemos primero la agenda.'], ['What is the goal of this meeting?', '¿Cuál es el objetivo de esta reunión?'], ['I will share the updated budget.', 'Compartiré el presupuesto actualizado.'], ['Could you clarify the delivery date?', '¿Podría aclarar la fecha de entrega?'], ['We need approval before moving forward.', 'Necesitamos aprobación antes de avanzar.'], ['I will follow up by email.', 'Daré seguimiento por correo electrónico.'], ['The client asked for a revised quote.', 'El cliente pidió una cotización revisada.'], ['This option is within our budget.', 'Esta opción está dentro de nuestro presupuesto.'], ['Let us agree on the next steps.', 'Acordemos los próximos pasos.'], ['Who is responsible for this task?', '¿Quién es responsable de esta tarea?'], ['Please copy me on that message.', 'Por favor inclúyame en copia en ese mensaje.'], ['We have a tight deadline.', 'Tenemos una fecha límite ajustada.'], ['I need to check with my manager.', 'Necesito consultarlo con mi gerente.'], ['The contract is ready for signature.', 'El contrato está listo para firmar.'], ['Can we negotiate the price?', '¿Podemos negociar el precio?'], ['Thank you for your prompt response.', 'Gracias por su pronta respuesta.'], ['I look forward to working together.', 'Espero trabajar juntos.']
+  ],
+  'Gestión administrativa': [
+    ['Please update the departmental schedule.', 'Por favor actualice el calendario departamental.'], ['The request is pending approval.', 'La solicitud está pendiente de aprobación.'], ['I will file the signed document.', 'Archivaré el documento firmado.'], ['Could you prepare the meeting minutes?', '¿Podría preparar el acta de la reunión?'], ['Please assign this task to the correct team.', 'Por favor asigne esta tarea al equipo correspondiente.'], ['The office procedure has been updated.', 'El procedimiento de la oficina fue actualizado.'], ['We need to coordinate the available resources.', 'Necesitamos coordinar los recursos disponibles.'], ['Who authorized this purchase request?', '¿Quién autorizó esta solicitud de compra?'], ['The deadline is recorded in the calendar.', 'La fecha límite está registrada en el calendario.'], ['Please verify the employee information.', 'Por favor verifique la información del empleado.'], ['I have reserved the conference room.', 'He reservado la sala de reuniones.'], ['The report must follow the approved format.', 'El informe debe seguir el formato aprobado.'], ['Please forward this memo to every department.', 'Por favor reenvíe este memorando a todos los departamentos.'], ['We are reviewing the service provider contract.', 'Estamos revisando el contrato del proveedor de servicios.'], ['The inventory record needs to be corrected.', 'El registro de inventario debe corregirse.'], ['I will coordinate the onboarding process.', 'Coordinaré el proceso de incorporación.'], ['This form requires the director’s signature.', 'Este formulario requiere la firma del director.'], ['The monthly objectives are clearly documented.', 'Los objetivos mensuales están claramente documentados.'], ['Please keep a copy for our records.', 'Por favor conserve una copia para nuestros archivos.'], ['The administrative process is now complete.', 'El proceso administrativo ya está completo.']
+  ],
+  'Medicina y enfermería': [
+    ['Where do you feel pain?', '¿Dónde siente dolor?'], ['I will check your vital signs.', 'Revisaré sus signos vitales.'], ['Please take this medicine with food.', 'Tome este medicamento con alimentos, por favor.'], ['Do you have any medication allergies?', '¿Tiene alergia a algún medicamento?'], ['How long have you had these symptoms?', '¿Desde cuándo tiene estos síntomas?'], ['Your blood pressure is within the normal range.', 'Su presión arterial está dentro del rango normal.'], ['I need to draw a blood sample.', 'Necesito tomarle una muestra de sangre.'], ['Please take a deep breath.', 'Respire profundamente, por favor.'], ['The doctor will examine you shortly.', 'El médico lo examinará en breve.'], ['I will change the dressing on the wound.', 'Cambiaré el vendaje de la herida.'], ['Have you eaten anything today?', '¿Ha comido algo hoy?'], ['This treatment may cause drowsiness.', 'Este tratamiento puede causar somnolencia.'], ['Please call the nurse if you feel dizzy.', 'Llame a la enfermera si siente mareo, por favor.'], ['We need to monitor your temperature.', 'Necesitamos vigilar su temperatura.'], ['Your test results are now available.', 'Los resultados de sus análisis ya están disponibles.'], ['I will explain the procedure before we begin.', 'Le explicaré el procedimiento antes de comenzar.'], ['Please rate your pain from zero to ten.', 'Califique su dolor del cero al diez, por favor.'], ['You should keep the area clean and dry.', 'Debe mantener el área limpia y seca.'], ['When was your last dose?', '¿Cuándo tomó su última dosis?'], ['We will schedule a follow-up appointment.', 'Programaremos una cita de seguimiento.']
+  ],
+  'Mecánica automotriz': [
+    ['The engine is making an unusual noise.', 'El motor está haciendo un ruido inusual.'], ['We need to inspect the brake system.', 'Necesitamos revisar el sistema de frenos.'], ['The vehicle will be ready this afternoon.', 'El vehículo estará listo esta tarde.'], ['When did the warning light come on?', '¿Cuándo se encendió la luz de advertencia?'], ['The battery is not holding a charge.', 'La batería no está reteniendo la carga.'], ['I found a leak under the engine.', 'Encontré una fuga debajo del motor.'], ['The tires need to be rotated.', 'Los neumáticos necesitan rotación.'], ['We should replace the air filter.', 'Debemos reemplazar el filtro de aire.'], ['The transmission fluid is low.', 'El líquido de transmisión está bajo.'], ['I will run a diagnostic scan.', 'Haré un diagnóstico con el escáner.'], ['The spark plugs are worn.', 'Las bujías están desgastadas.'], ['The suspension needs further inspection.', 'La suspensión necesita una revisión más detallada.'], ['Please describe what happens when you accelerate.', 'Describa qué ocurre cuando acelera, por favor.'], ['The repair estimate includes labor and parts.', 'El presupuesto de reparación incluye mano de obra y piezas.'], ['This replacement part has a one-year warranty.', 'Esta pieza de repuesto tiene un año de garantía.'], ['The oil change is now complete.', 'El cambio de aceite ya está completo.'], ['We aligned all four wheels.', 'Alineamos las cuatro ruedas.'], ['The cooling system is working properly.', 'El sistema de enfriamiento funciona correctamente.'], ['Please test-drive the vehicle with me.', 'Hagamos una prueba de manejo juntos, por favor.'], ['The maintenance record has been updated.', 'El registro de mantenimiento fue actualizado.']
+  ],
+  'Hotelería y turismo': [
+    ['Welcome to our hotel.', 'Bienvenido a nuestro hotel.'], ['How may I assist you with your stay?', '¿Cómo puedo ayudarle con su estadía?'], ['I have a reservation under this name.', 'Tengo una reserva a este nombre.'], ['May I see your identification, please?', '¿Puedo ver su identificación, por favor?'], ['Your room is on the third floor.', 'Su habitación está en el tercer piso.'], ['Breakfast is served from seven to ten.', 'El desayuno se sirve de siete a diez.'], ['Housekeeping will come this afternoon.', 'El personal de limpieza vendrá esta tarde.'], ['Would you like a late check-out?', '¿Desea una salida tardía?'], ['I will ask maintenance to check the room.', 'Pediré a mantenimiento que revise la habitación.'], ['May I store your luggage after check-out?', '¿Puedo guardar su equipaje después de la salida?'], ['Could you recommend a local tour?', '¿Puede recomendarme un tour local?'], ['What time does the museum open?', '¿A qué hora abre el museo?'], ['How long does the excursion last?', '¿Cuánto dura la excursión?'], ['Is transportation included in the tour?', '¿El transporte está incluido en el tour?'], ['The guide will meet you in the lobby.', 'El guía se reunirá con usted en el vestíbulo.'], ['Please arrive at the meeting point early.', 'Por favor llegue temprano al punto de encuentro.'], ['This attraction is accessible by bus.', 'Se puede llegar a esta atracción en autobús.'], ['Would you prefer a private or group tour?', '¿Prefiere un tour privado o en grupo?'], ['The beach is a short walk from the hotel.', 'La playa queda a pocos minutos caminando del hotel.'], ['Enjoy the rest of your stay.', 'Disfrute el resto de su estadía.']
+  ],
+  'Restaurantes y servicios gastronómicos': [
+    ['May I take your order?', '¿Puedo tomar su orden?'], ['Do you have any food allergies?', '¿Tiene alguna alergia alimentaria?'], ['Your table is ready.', 'Su mesa está lista.'], ['Would you like still or sparkling water?', '¿Prefiere agua sin gas o con gas?'], ['Our special today is grilled fish.', 'Nuestro especial de hoy es pescado a la parrilla.'], ['How would you like your steak cooked?', '¿Cómo desea que se cocine su carne?'], ['This dish contains nuts.', 'Este plato contiene nueces.'], ['Would you like an appetizer to start?', '¿Le gustaría una entrada para comenzar?'], ['I will bring extra napkins.', 'Le traeré servilletas adicionales.'], ['Is everything tasting good?', '¿Todo está sabiendo bien?'], ['I apologize for the delay.', 'Disculpe la demora.'], ['We can prepare that without dairy.', 'Podemos preparar eso sin lácteos.'], ['Would you like to see the dessert menu?', '¿Le gustaría ver el menú de postres?'], ['The kitchen closes in thirty minutes.', 'La cocina cierra en treinta minutos.'], ['May I clear these plates?', '¿Puedo retirar estos platos?'], ['Your bill will be ready shortly.', 'Su cuenta estará lista enseguida.'], ['Can I split the bill for you?', '¿Puedo dividirle la cuenta?'], ['Service is included in the total.', 'El servicio está incluido en el total.'], ['Thank you for dining with us.', 'Gracias por comer con nosotros.'], ['We hope to see you again soon.', 'Esperamos verlo de nuevo pronto.']
+  ],
+  'Tripulación de cabina': [
+    ['Please fasten your seat belt.', 'Por favor abróchese el cinturón de seguridad.'], ['The cabin is ready for departure.', 'La cabina está lista para la salida.'], ['May I offer you something to drink?', '¿Puedo ofrecerle algo de beber?'], ['Please place your bag in the overhead compartment.', 'Coloque su bolso en el compartimiento superior, por favor.'], ['Your seat must remain upright for takeoff.', 'Su asiento debe permanecer vertical durante el despegue.'], ['The emergency exits are clearly marked.', 'Las salidas de emergencia están claramente señalizadas.'], ['Please pay attention to the safety demonstration.', 'Preste atención a la demostración de seguridad, por favor.'], ['We may experience some turbulence.', 'Es posible que tengamos algo de turbulencia.'], ['Please remain seated until the sign is off.', 'Permanezca sentado hasta que se apague la señal, por favor.'], ['Is there a medical professional on board?', '¿Hay algún profesional médico a bordo?'], ['I will bring you a blanket.', 'Le traeré una manta.'], ['Would you prefer chicken or pasta?', '¿Prefiere pollo o pasta?'], ['We will begin our descent shortly.', 'Comenzaremos el descenso en breve.'], ['Please switch your device to airplane mode.', 'Active el modo avión en su dispositivo, por favor.'], ['I can help you complete the arrival form.', 'Puedo ayudarle a completar el formulario de llegada.'], ['The lavatory is temporarily unavailable.', 'El baño no está disponible temporalmente.'], ['Please keep the aisle clear.', 'Mantenga el pasillo despejado, por favor.'], ['The captain has turned off the seat belt sign.', 'El capitán apagó la señal del cinturón.'], ['We apologize for the delay.', 'Lamentamos la demora.'], ['Thank you for flying with us.', 'Gracias por volar con nosotros.']
+  ],
+  'Operaciones aeroportuarias': [
+    ['The flight is now boarding at gate twelve.', 'El vuelo está abordando por la puerta doce.'], ['Please verify the baggage tag.', 'Por favor verifique la etiqueta del equipaje.'], ['The runway inspection is complete.', 'La inspección de la pista está completa.'], ['The check-in counter closes in twenty minutes.', 'El mostrador de facturación cierra en veinte minutos.'], ['This passenger needs mobility assistance.', 'Este pasajero necesita asistencia de movilidad.'], ['The aircraft has arrived at the assigned stand.', 'La aeronave llegó a la posición asignada.'], ['Ground handling is waiting for clearance.', 'El equipo de asistencia en tierra espera autorización.'], ['The baggage belt has stopped unexpectedly.', 'La cinta de equipaje se detuvo inesperadamente.'], ['Please direct passengers to the security checkpoint.', 'Dirija a los pasajeros al control de seguridad, por favor.'], ['The departure gate has changed.', 'La puerta de salida cambió.'], ['We are coordinating a connecting flight.', 'Estamos coordinando un vuelo de conexión.'], ['The passenger manifest is complete.', 'El manifiesto de pasajeros está completo.'], ['The aircraft requires additional fuel.', 'La aeronave necesita combustible adicional.'], ['The boarding bridge is in position.', 'El puente de embarque está en posición.'], ['Customs has authorized the shipment.', 'Aduanas autorizó el envío.'], ['The weather is affecting airport operations.', 'El clima está afectando las operaciones aeroportuarias.'], ['The lost-and-found report has been registered.', 'El reporte de objetos perdidos fue registrado.'], ['We need a bus for the remote stand.', 'Necesitamos un autobús para la posición remota.'], ['The arrival information is displayed correctly.', 'La información de llegada se muestra correctamente.'], ['The operation was completed without incidents.', 'La operación finalizó sin incidentes.']
+  ],
+  'Soporte de redes': [
+    ['Please restart the router.', 'Por favor reinicie el enrutador.'], ['The connection is unstable.', 'La conexión es inestable.'], ['I will open a support ticket.', 'Abriré un ticket de soporte.'], ['Are you connected to the correct network?', '¿Está conectado a la red correcta?'], ['Please check the network cable.', 'Por favor revise el cable de red.'], ['What error message do you see?', '¿Qué mensaje de error ve?'], ['The service is back online.', 'El servicio está disponible nuevamente.'], ['I need your device name and IP address.', 'Necesito el nombre del equipo y la dirección IP.'], ['Your password has expired.', 'Su contraseña ha expirado.'], ['Please try signing in again.', 'Por favor intente iniciar sesión de nuevo.'], ['We are investigating the outage.', 'Estamos investigando la interrupción.'], ['The issue affects several users.', 'El problema afecta a varios usuarios.'], ['I have escalated this to the network team.', 'He escalado esto al equipo de redes.'], ['Please do not share your password.', 'Por favor no comparta su contraseña.'], ['The VPN must be connected first.', 'Primero debe conectarse la VPN.'], ['Can you test another website?', '¿Puede probar otro sitio web?'], ['The server is responding normally.', 'El servidor está respondiendo con normalidad.'], ['I will update the ticket with the results.', 'Actualizaré el ticket con los resultados.'], ['The estimated resolution time is one hour.', 'El tiempo estimado de resolución es una hora.'], ['Thank you for your patience while we fix this.', 'Gracias por su paciencia mientras solucionamos esto.']
+  ],
+  'Informática y programación': [
+    ['The application failed during startup.', 'La aplicación falló durante el inicio.'], ['I will review the source code.', 'Revisaré el código fuente.'], ['Please create a backup before deployment.', 'Cree una copia de seguridad antes del despliegue, por favor.'], ['The function returns an unexpected value.', 'La función devuelve un valor inesperado.'], ['We need to reproduce the bug locally.', 'Necesitamos reproducir el error localmente.'], ['This change requires a database migration.', 'Este cambio requiere una migración de la base de datos.'], ['Please open a pull request for review.', 'Abra una solicitud de cambios para revisión, por favor.'], ['The automated tests are passing.', 'Las pruebas automatizadas están pasando.'], ['The API request timed out.', 'La solicitud a la API agotó el tiempo de espera.'], ['I will check the server logs.', 'Revisaré los registros del servidor.'], ['This variable should not be public.', 'Esta variable no debe ser pública.'], ['The user interface needs better error handling.', 'La interfaz necesita un mejor manejo de errores.'], ['We should optimize this database query.', 'Debemos optimizar esta consulta de base de datos.'], ['The new version is backward compatible.', 'La nueva versión es compatible con versiones anteriores.'], ['Please document the installation steps.', 'Documente los pasos de instalación, por favor.'], ['The dependency has a security update.', 'La dependencia tiene una actualización de seguridad.'], ['I resolved the merge conflict.', 'Resolví el conflicto de integración.'], ['The service is running in production.', 'El servicio está funcionando en producción.'], ['We need to protect the user’s personal data.', 'Necesitamos proteger los datos personales del usuario.'], ['The release was deployed successfully.', 'La versión fue desplegada correctamente.']
+  ],
+  'Contabilidad': [
+    ['The balance does not match.', 'El balance no coincide.'], ['Please attach the receipt.', 'Por favor adjunte el recibo.'], ['We need to review the expenses.', 'Necesitamos revisar los gastos.'], ['Could you send the purchase order?', '¿Podría enviar la orden de compra?'], ['This invoice is overdue.', 'Esta factura está vencida.'], ['The payment was received today.', 'El pago se recibió hoy.'], ['Please confirm the bank details.', 'Por favor confirme los datos bancarios.'], ['I need to reconcile this account.', 'Necesito conciliar esta cuenta.'], ['The amount was entered incorrectly.', 'El monto se ingresó incorrectamente.'], ['Which cost center should I use?', '¿Qué centro de costo debo usar?'], ['The tax has not been calculated yet.', 'El impuesto todavía no se ha calculado.'], ['We need supporting documents for this expense.', 'Necesitamos documentos de respaldo para este gasto.'], ['The monthly report is almost complete.', 'El informe mensual está casi listo.'], ['Please approve this payment request.', 'Por favor apruebe esta solicitud de pago.'], ['The budget variance needs an explanation.', 'La variación presupuestaria necesita una explicación.'], ['This transaction appears twice.', 'Esta transacción aparece dos veces.'], ['I will correct the journal entry.', 'Corregiré el asiento contable.'], ['The audit team requested more evidence.', 'El equipo de auditoría solicitó más evidencia.'], ['Let us close the books by Friday.', 'Cerremos los libros para el viernes.'], ['The figures have been verified.', 'Las cifras han sido verificadas.']
+  ],
+  'Agricultura y vida en la granja': [
+    ['The soil is ready for planting.', 'El suelo está listo para sembrar.'], ['We need to feed the livestock.', 'Necesitamos alimentar al ganado.'], ['The harvest begins next week.', 'La cosecha comienza la próxima semana.'], ['The irrigation system needs maintenance.', 'El sistema de riego necesita mantenimiento.'], ['These seeds are resistant to drought.', 'Estas semillas son resistentes a la sequía.'], ['The field must be prepared before the rain.', 'El terreno debe prepararse antes de la lluvia.'], ['We should check the animals for signs of illness.', 'Debemos revisar si los animales muestran señales de enfermedad.'], ['The tractor is ready for the morning shift.', 'El tractor está listo para el turno de la mañana.'], ['Please close the gate behind you.', 'Cierre la verja al pasar, por favor.'], ['The hens laid more eggs today.', 'Las gallinas pusieron más huevos hoy.'], ['The calf needs fresh water.', 'El ternero necesita agua fresca.'], ['We are rotating crops this season.', 'Estamos rotando los cultivos esta temporada.'], ['The fertilizer must be applied carefully.', 'El fertilizante debe aplicarse con cuidado.'], ['The greenhouse temperature is too high.', 'La temperatura del invernadero está demasiado alta.'], ['We found pests on the leaves.', 'Encontramos plagas en las hojas.'], ['The produce is ready for the market.', 'Los productos están listos para el mercado.'], ['We need to repair the fence.', 'Necesitamos reparar la cerca.'], ['The weather forecast predicts heavy rain.', 'El pronóstico anuncia lluvias intensas.'], ['Please record today’s milk production.', 'Registre la producción de leche de hoy, por favor.'], ['The barn has been cleaned and disinfected.', 'El establo fue limpiado y desinfectado.']
+  ],
+  'Para enamorarse': [
+    ['I enjoy spending time with you.', 'Disfruto pasar tiempo contigo.'], ['Would you like to go out with me?', '¿Te gustaría salir conmigo?'], ['You make me feel special.', 'Me haces sentir especial.'], ['I would like to get to know you better.', 'Me gustaría conocerte mejor.'], ['Would you like to have coffee sometime?', '¿Te gustaría tomar un café algún día?'], ['I like your sense of humor.', 'Me gusta tu sentido del humor.'], ['You have a beautiful smile.', 'Tienes una sonrisa hermosa.'], ['What do you enjoy doing on weekends?', '¿Qué te gusta hacer los fines de semana?'], ['I had a great time with you.', 'La pasé muy bien contigo.'], ['May I call you later?', '¿Puedo llamarte más tarde?'], ['Thank you for being honest with me.', 'Gracias por ser sincero conmigo.'], ['I want to take things slowly.', 'Quiero tomar las cosas con calma.'], ['I respect your decision.', 'Respeto tu decisión.'], ['You can always be yourself with me.', 'Siempre puedes ser tú mismo conmigo.'], ['I appreciate the time we share.', 'Aprecio el tiempo que compartimos.'], ['Would you like to meet my friends?', '¿Te gustaría conocer a mis amigos?'], ['I am looking for something meaningful.', 'Estoy buscando algo significativo.'], ['Communication is important to me.', 'La comunicación es importante para mí.'], ['I hope you got home safely.', 'Espero que hayas llegado bien a casa.'], ['I am happy we met.', 'Me alegra que nos hayamos conocido.']
+  ],
+  'Viajar': [
+    ['Where is the boarding gate?', '¿Dónde está la puerta de embarque?'], ['I would like a window seat.', 'Quisiera un asiento junto a la ventana.'], ['Could you call a taxi, please?', '¿Podría llamar un taxi, por favor?'], ['Where can I check in?', '¿Dónde puedo hacer el check-in?'], ['Is my flight on time?', '¿Mi vuelo está a tiempo?'], ['How many bags can I check?', '¿Cuántas maletas puedo registrar?'], ['I only have carry-on luggage.', 'Solo tengo equipaje de mano.'], ['Where is the baggage claim area?', '¿Dónde está el área de reclamo de equipaje?'], ['My suitcase did not arrive.', 'Mi maleta no llegó.'], ['Could you help me find my hotel?', '¿Podría ayudarme a encontrar mi hotel?'], ['I have a reservation under this name.', 'Tengo una reserva a este nombre.'], ['What time is check-out?', '¿A qué hora es la salida?'], ['Is breakfast included?', '¿El desayuno está incluido?'], ['Can I pay by card?', '¿Puedo pagar con tarjeta?'], ['How do I get to the city center?', '¿Cómo llego al centro de la ciudad?'], ['Is this seat taken?', '¿Este asiento está ocupado?'], ['Please tell me when we arrive.', 'Por favor avíseme cuando lleguemos.'], ['I need to exchange some money.', 'Necesito cambiar algo de dinero.'], ['Could you take a photo of us?', '¿Podría tomarnos una foto?'], ['I need directions to the airport.', 'Necesito indicaciones para llegar al aeropuerto.']
+  ],
+  'Bíblico y teológico': [
+    ['Let us read this passage together.', 'Leamos este pasaje juntos.'], ['What is the meaning of this verse?', '¿Cuál es el significado de este versículo?'], ['Faith gives us hope.', 'La fe nos da esperanza.'], ['Could you explain the context of this chapter?', '¿Podría explicar el contexto de este capítulo?'], ['This passage speaks about forgiveness.', 'Este pasaje habla sobre el perdón.'], ['Let us take a moment to pray.', 'Tomemos un momento para orar.'], ['What do you learn from this story?', '¿Qué aprendes de esta historia?'], ['The message is about grace and mercy.', 'El mensaje trata sobre la gracia y la misericordia.'], ['Please read the next verse aloud.', 'Por favor lea el siguiente versículo en voz alta.'], ['I would like to share a prayer request.', 'Me gustaría compartir una petición de oración.'], ['We should listen with an open heart.', 'Debemos escuchar con un corazón abierto.'], ['How can we apply this teaching today?', '¿Cómo podemos aplicar esta enseñanza hoy?'], ['This translation uses simple language.', 'Esta traducción usa un lenguaje sencillo.'], ['Let us compare these two passages.', 'Comparemos estos dos pasajes.'], ['The group meets every Wednesday.', 'El grupo se reúne todos los miércoles.'], ['I am grateful for this community.', 'Estoy agradecido por esta comunidad.'], ['May we have wisdom and patience.', 'Que tengamos sabiduría y paciencia.'], ['That is a thoughtful question.', 'Esa es una pregunta reflexiva.'], ['Everyone is welcome to participate.', 'Todos son bienvenidos a participar.'], ['Let us end with a short prayer.', 'Terminemos con una oración breve.']
+  ],
+  'Inglés de calle': [
+    ['What’s up?', '¿Qué tal?'], ['I’m just hanging out.', 'Solo estoy pasando el rato.'], ['That sounds awesome.', 'Eso suena genial.'], ['I’m on my way.', 'Voy de camino.'], ['No worries.', 'No te preocupes.'], ['Give me a second.', 'Dame un segundo.'], ['I’m down for that.', 'Me apunto a eso.'], ['That makes sense.', 'Eso tiene sentido.'], ['I’m running late.', 'Voy tarde.'], ['Let’s catch up soon.', 'Pongámonos al día pronto.'], ['I’m just kidding.', 'Solo estoy bromeando.'], ['You’ve got this.', 'Tú puedes con esto.'], ['That’s not a big deal.', 'No es gran cosa.'], ['I’m not feeling it today.', 'Hoy no tengo ganas.'], ['Can you give me a hand?', '¿Puedes echarme una mano?'], ['I’ll text you later.', 'Te escribiré más tarde.'], ['That’s totally fine.', 'Está totalmente bien.'], ['I’m good, thanks.', 'Estoy bien, gracias.'], ['Take care.', 'Cuídate.'], ['See you around.', 'Nos vemos por ahí.']
+  ]
+};
+
+// Ten topic-specific situations per area, combined with eighteen distinct
+// professional conversation moves. Together with the original twenty
+// essentials, this gives every area a real 200-expression reference instead
+// of reusing one generic bank across unrelated fields.
+const TECHNICAL_ENGLISH_TOPIC_TERMS = {
+  'Prospectos de béisbol': [['my player profile', 'mi perfil de jugador'], ['the tryout schedule', 'el calendario de pruebas'], ['my throwing mechanics', 'mi mecánica de lanzamiento'], ['my batting approach', 'mi enfoque de bateo'], ['the scouting report', 'el informe de cazatalentos'], ['my defensive range', 'mi alcance defensivo'], ['my training plan', 'mi plan de entrenamiento'], ['the game video', 'el video del partido'], ['my recovery progress', 'mi progreso de recuperación'], ['the team opportunity', 'la oportunidad con el equipo']],
+  'Negocios': [['the project timeline', 'el cronograma del proyecto'], ['the client proposal', 'la propuesta para el cliente'], ['the revised budget', 'el presupuesto revisado'], ['the delivery date', 'la fecha de entrega'], ['the contract terms', 'los términos del contrato'], ['the sales forecast', 'el pronóstico de ventas'], ['the next meeting', 'la próxima reunión'], ['the approval process', 'el proceso de aprobación'], ['the customer feedback', 'los comentarios del cliente'], ['the action plan', 'el plan de acción']],
+  'Gestión administrativa': [['the departmental schedule', 'el calendario departamental'], ['the approval request', 'la solicitud de aprobación'], ['the document archive', 'el archivo documental'], ['the meeting minutes', 'el acta de la reunión'], ['the task assignment', 'la asignación de tareas'], ['the office procedure', 'el procedimiento de oficina'], ['the resource allocation', 'la asignación de recursos'], ['the purchase request', 'la solicitud de compra'], ['the deadline calendar', 'el calendario de fechas límite'], ['the employee record', 'el expediente del empleado'], ['the conference room booking', 'la reserva de la sala de reuniones'], ['the reporting format', 'el formato de informes'], ['the internal memo', 'el memorando interno'], ['the service provider contract', 'el contrato del proveedor de servicios'], ['the inventory record', 'el registro de inventario'], ['the onboarding process', 'el proceso de incorporación'], ['the director’s signature', 'la firma del director'], ['the monthly objectives', 'los objetivos mensuales'], ['the records retention policy', 'la política de conservación de archivos'], ['the administrative workflow', 'el flujo de trabajo administrativo']],
+  'Medicina y enfermería': [['the patient’s symptoms', 'los síntomas del paciente'], ['the vital signs', 'los signos vitales'], ['the medication schedule', 'el horario de medicación'], ['the allergy history', 'el historial de alergias'], ['the pain assessment', 'la evaluación del dolor'], ['the blood pressure reading', 'la lectura de la presión arterial'], ['the blood sample', 'la muestra de sangre'], ['the physical examination', 'el examen físico'], ['the wound dressing', 'el vendaje de la herida'], ['the nursing notes', 'las notas de enfermería'], ['the treatment plan', 'el plan de tratamiento'], ['the possible side effects', 'los posibles efectos secundarios'], ['the patient’s temperature', 'la temperatura del paciente'], ['the laboratory results', 'los resultados de laboratorio'], ['the medical procedure', 'el procedimiento médico'], ['the infection risk', 'el riesgo de infección'], ['the last dose', 'la última dosis'], ['the follow-up appointment', 'la cita de seguimiento'], ['the discharge instructions', 'las instrucciones de alta'], ['the emergency response', 'la respuesta de emergencia']],
+  'Mecánica automotriz': [['the engine noise', 'el ruido del motor'], ['the brake system', 'el sistema de frenos'], ['the warning light', 'la luz de advertencia'], ['the battery charge', 'la carga de la batería'], ['the oil leak', 'la fuga de aceite'], ['the tire condition', 'el estado de los neumáticos'], ['the air filter', 'el filtro de aire'], ['the transmission fluid', 'el líquido de transmisión'], ['the diagnostic scan', 'el diagnóstico electrónico'], ['the spark plugs', 'las bujías'], ['the suspension system', 'el sistema de suspensión'], ['the acceleration problem', 'el problema de aceleración'], ['the repair estimate', 'el presupuesto de reparación'], ['the replacement part', 'la pieza de repuesto'], ['the oil change', 'el cambio de aceite'], ['the wheel alignment', 'la alineación de las ruedas'], ['the cooling system', 'el sistema de enfriamiento'], ['the road test', 'la prueba de manejo'], ['the maintenance record', 'el registro de mantenimiento'], ['the vehicle warranty', 'la garantía del vehículo']],
+  'Hotelería y turismo': [['the room reservation', 'la reserva de la habitación'], ['the check-in process', 'el proceso de llegada'], ['the guest identification', 'la identificación del huésped'], ['the room assignment', 'la asignación de la habitación'], ['the breakfast schedule', 'el horario del desayuno'], ['the housekeeping request', 'la solicitud de limpieza'], ['the maintenance report', 'el reporte de mantenimiento'], ['the late check-out', 'la salida tardía'], ['the luggage storage service', 'el servicio de almacenamiento de equipaje'], ['the guest complaint', 'la queja del huésped'], ['the tour schedule', 'el itinerario del tour'], ['the meeting point', 'el punto de encuentro'], ['the entrance ticket', 'el boleto de entrada'], ['the local attraction', 'la atracción local'], ['the airport transfer', 'el traslado al aeropuerto'], ['the weather forecast', 'el pronóstico del tiempo'], ['the group itinerary', 'el itinerario del grupo'], ['the accessibility request', 'la solicitud de accesibilidad'], ['the local transportation option', 'la opción de transporte local'], ['the overall guest experience', 'la experiencia general del huésped']],
+  'Restaurantes y servicios gastronómicos': [['the customer order', 'la orden del cliente'], ['the allergy information', 'la información sobre alergias'], ['the daily special', 'el especial del día'], ['the table reservation', 'la reserva de la mesa'], ['the kitchen delay', 'la demora de la cocina'], ['the beverage selection', 'la selección de bebidas'], ['the appetizer order', 'la orden de entradas'], ['the main course', 'el plato principal'], ['the dessert menu', 'el menú de postres'], ['the payment request', 'la solicitud de pago'], ['the food preparation', 'la preparación de los alimentos'], ['the guest complaint', 'la queja del cliente'], ['the cooking temperature', 'el término de cocción'], ['the dairy-free option', 'la opción sin lácteos'], ['the vegetarian menu', 'el menú vegetariano'], ['the available tables', 'las mesas disponibles'], ['the service charge', 'el cargo por servicio'], ['the split bill', 'la cuenta dividida'], ['the takeout order', 'la orden para llevar'], ['the kitchen closing time', 'la hora de cierre de la cocina']],
+  'Tripulación de cabina': [['the seat belt sign', 'la señal del cinturón'], ['the cabin safety check', 'la revisión de seguridad de la cabina'], ['the overhead compartment', 'el compartimiento superior'], ['the safety demonstration', 'la demostración de seguridad'], ['the emergency exit', 'la salida de emergencia'], ['the turbulence warning', 'la advertencia de turbulencia'], ['the passenger assistance request', 'la solicitud de asistencia del pasajero'], ['the onboard medical situation', 'la situación médica a bordo'], ['the meal service', 'el servicio de comidas'], ['the beverage cart', 'el carrito de bebidas'], ['the arrival form', 'el formulario de llegada'], ['the lavatory status', 'el estado del baño'], ['the clear aisle', 'el pasillo despejado'], ['the cabin announcement', 'el anuncio de cabina'], ['the descent preparation', 'la preparación para el descenso'], ['the electronic device policy', 'la política de dispositivos electrónicos'], ['the connecting passenger', 'el pasajero en conexión'], ['the passenger complaint', 'la queja del pasajero'], ['the final cabin report', 'el informe final de cabina'], ['the arrival procedure', 'el procedimiento de llegada']],
+  'Operaciones aeroportuarias': [['the departure gate', 'la puerta de salida'], ['the baggage tag', 'la etiqueta del equipaje'], ['the runway inspection', 'la inspección de la pista'], ['the check-in counter', 'el mostrador de facturación'], ['the mobility assistance', 'la asistencia de movilidad'], ['the aircraft stand', 'la posición de la aeronave'], ['the ground handling team', 'el equipo de asistencia en tierra'], ['the baggage belt', 'la cinta de equipaje'], ['the security checkpoint', 'el control de seguridad'], ['the connecting flight', 'el vuelo de conexión'], ['the passenger manifest', 'el manifiesto de pasajeros'], ['the aircraft fuel request', 'la solicitud de combustible'], ['the boarding bridge', 'el puente de embarque'], ['the customs clearance', 'la autorización aduanera'], ['the weather disruption', 'la interrupción por clima'], ['the lost-and-found report', 'el reporte de objetos perdidos'], ['the remote stand bus', 'el autobús para la posición remota'], ['the arrival display', 'la pantalla de llegadas'], ['the cargo shipment', 'el envío de carga'], ['the operational incident report', 'el reporte de incidente operacional']],
+  'Soporte de redes': [['the network connection', 'la conexión de red'], ['the support ticket', 'el ticket de soporte'], ['the router configuration', 'la configuración del enrutador'], ['the VPN access', 'el acceso a la VPN'], ['the error message', 'el mensaje de error'], ['the password reset', 'el restablecimiento de contraseña'], ['the server response', 'la respuesta del servidor'], ['the device settings', 'la configuración del dispositivo'], ['the service outage', 'la interrupción del servicio'], ['the security alert', 'la alerta de seguridad']],
+  'Informática y programación': [['the application startup', 'el inicio de la aplicación'], ['the source code', 'el código fuente'], ['the deployment backup', 'la copia de seguridad del despliegue'], ['the function output', 'el resultado de la función'], ['the reproducible bug', 'el error reproducible'], ['the database migration', 'la migración de la base de datos'], ['the pull request', 'la solicitud de cambios'], ['the automated test suite', 'el conjunto de pruebas automatizadas'], ['the API timeout', 'el tiempo de espera de la API'], ['the server logs', 'los registros del servidor'], ['the environment variable', 'la variable de entorno'], ['the error handling', 'el manejo de errores'], ['the database query', 'la consulta de base de datos'], ['the version compatibility', 'la compatibilidad de versiones'], ['the installation guide', 'la guía de instalación'], ['the security update', 'la actualización de seguridad'], ['the merge conflict', 'el conflicto de integración'], ['the production service', 'el servicio de producción'], ['the user data protection', 'la protección de datos del usuario'], ['the software release', 'la versión del software']],
+  'Contabilidad': [['the monthly balance', 'el balance mensual'], ['the outstanding invoice', 'la factura pendiente'], ['the expense report', 'el informe de gastos'], ['the bank details', 'los datos bancarios'], ['the purchase order', 'la orden de compra'], ['the tax calculation', 'el cálculo de impuestos'], ['the audit evidence', 'la evidencia de auditoría'], ['the journal entry', 'el asiento contable'], ['the payment approval', 'la aprobación del pago'], ['the budget variance', 'la variación presupuestaria']],
+  'Agricultura y vida en la granja': [['the soil preparation', 'la preparación del suelo'], ['the livestock feed', 'el alimento del ganado'], ['the harvest schedule', 'el calendario de cosecha'], ['the irrigation system', 'el sistema de riego'], ['the drought-resistant seeds', 'las semillas resistentes a la sequía'], ['the field preparation', 'la preparación del terreno'], ['the animal health check', 'la revisión de salud animal'], ['the tractor maintenance', 'el mantenimiento del tractor'], ['the pasture gate', 'la verja del potrero'], ['the egg production', 'la producción de huevos'], ['the calf care', 'el cuidado del ternero'], ['the crop rotation', 'la rotación de cultivos'], ['the fertilizer application', 'la aplicación del fertilizante'], ['the greenhouse temperature', 'la temperatura del invernadero'], ['the pest control plan', 'el plan de control de plagas'], ['the market produce', 'los productos para el mercado'], ['the farm fence', 'la cerca de la granja'], ['the rainfall forecast', 'el pronóstico de lluvias'], ['the milk production record', 'el registro de producción de leche'], ['the barn sanitation', 'la desinfección del establo']],
+  'Para enamorarse': [['our plans for the weekend', 'nuestros planes para el fin de semana'], ['getting to know each other', 'conocernos mejor'], ['the time we spend together', 'el tiempo que pasamos juntos'], ['an honest conversation', 'una conversación sincera'], ['a place for coffee', 'un lugar para tomar café'], ['your personal boundaries', 'tus límites personales'], ['our communication', 'nuestra comunicación'], ['a meaningful relationship', 'una relación significativa'], ['the next time we meet', 'la próxima vez que nos veamos'], ['how you feel', 'cómo te sientes']],
+  'Viajar': [['the boarding gate', 'la puerta de embarque'], ['my hotel reservation', 'mi reserva de hotel'], ['the baggage claim area', 'el área de reclamo de equipaje'], ['the airport transfer', 'el traslado al aeropuerto'], ['the train schedule', 'el horario del tren'], ['the city center', 'el centro de la ciudad'], ['my travel documents', 'mis documentos de viaje'], ['the check-in desk', 'el mostrador de check-in'], ['the local transportation', 'el transporte local'], ['my return flight', 'mi vuelo de regreso']],
+  'Bíblico y teológico': [['the context of this passage', 'el contexto de este pasaje'], ['the meaning of this verse', 'el significado de este versículo'], ['our prayer request', 'nuestra petición de oración'], ['the study group meeting', 'la reunión del grupo de estudio'], ['this biblical theme', 'este tema bíblico'], ['the historical background', 'el trasfondo histórico'], ['a different interpretation', 'una interpretación diferente'], ['the lesson for today', 'la lección de hoy'], ['the next chapter', 'el próximo capítulo'], ['how we can apply this teaching', 'cómo podemos aplicar esta enseñanza']],
+  'Inglés de calle': [['our plans tonight', 'nuestros planes esta noche'], ['the place to meet', 'el lugar para encontrarnos'], ['the group chat', 'el chat del grupo'], ['what happened earlier', 'lo que pasó antes'], ['the ride home', 'el transporte de regreso a casa'], ['the weekend plan', 'el plan del fin de semana'], ['the message you sent', 'el mensaje que enviaste'], ['the new place downtown', 'el lugar nuevo en el centro'], ['how your day went', 'cómo te fue en el día'], ['the time to leave', 'la hora de irnos']]
+};
+
+const TECHNICAL_ENGLISH_EXPANSION_PATTERNS = [
+  ['I need an update on {en}.', 'Necesito una actualización sobre {es}.'],
+  ['Could you help me with {en}?', '¿Podrías ayudarme con {es}?'],
+  ['Please confirm the details for {en}.', 'Por favor confirma los detalles de {es}.'],
+  ['We need to review {en}.', 'Necesitamos revisar {es}.'],
+  ['I will follow up on {en}.', 'Daré seguimiento a {es}.'],
+  ['Let us discuss {en}.', 'Hablemos de {es}.'],
+  ['I have a question about {en}.', 'Tengo una pregunta sobre {es}.'],
+  ['Can we make a plan for {en}?', '¿Podemos hacer un plan para {es}?'],
+  ['What is the next step for {en}?', '¿Cuál es el próximo paso para {es}?'],
+  ['I would like more information about {en}.', 'Me gustaría más información sobre {es}.'],
+  ['Thank you for clarifying {en}.', 'Gracias por aclarar {es}.'],
+  ['Could you send me the information about {en}?', '¿Podrías enviarme la información sobre {es}?'],
+  ['We should check {en} carefully.', 'Debemos revisar cuidadosamente {es}.'],
+  ['This is important for {en}.', 'Esto es importante para {es}.'],
+  ['I am ready to talk about {en}.', 'Estoy listo para hablar sobre {es}.'],
+  ['Please let me know about changes to {en}.', 'Por favor avísame sobre cambios en {es}.'],
+  ['Can you explain {en} again?', '¿Puedes explicar {es} otra vez?'],
+  ['I appreciate your help with {en}.', 'Agradezco tu ayuda con {es}.'],
+  ['What should I know about {en}?', '¿Qué debo saber sobre {es}?'],
+  ['Is there any problem with {en}?', '¿Hay algún problema con {es}?'],
+  ['Let us compare our notes on {en}.', 'Comparemos nuestras notas sobre {es}.'],
+  ['Who is responsible for {en}?', '¿Quién es responsable de {es}?'],
+  ['When can we finalize {en}?', '¿Cuándo podemos finalizar {es}?'],
+  ['I have already checked {en}.', 'Ya revisé {es}.'],
+  ['We may need to adjust {en}.', 'Quizás tengamos que ajustar {es}.'],
+  ['There is new information about {en}.', 'Hay información nueva sobre {es}.'],
+  ['Could we return to {en} for a moment?', '¿Podemos volver un momento a {es}?'],
+  ['I understand your point about {en}.', 'Entiendo tu punto sobre {es}.'],
+  ['Let me summarize what we know about {en}.', 'Permíteme resumir lo que sabemos sobre {es}.'],
+  ['Do we agree on {en}?', '¿Estamos de acuerdo sobre {es}?'],
+  ['I would handle {en} differently.', 'Yo abordaría {es} de otra manera.'],
+  ['We have two options for {en}.', 'Tenemos dos opciones para {es}.'],
+  ['What caused the issue with {en}?', '¿Qué causó el problema con {es}?'],
+  ['Everything is ready for {en}.', 'Todo está listo para {es}.'],
+  ['I am still waiting for {en}.', 'Todavía estoy esperando {es}.'],
+  ['Could we set a time to address {en}?', '¿Podemos fijar una hora para tratar {es}?'],
+  ['Please keep a record of {en}.', 'Por favor conserva un registro de {es}.'],
+  ['We made good progress on {en}.', 'Avanzamos bastante con {es}.'],
+  ['I noticed a change in {en}.', 'Noté un cambio en {es}.'],
+  ['Let us avoid assumptions about {en}.', 'Evitemos hacer suposiciones sobre {es}.'],
+  ['Can you show me an example involving {en}?', '¿Puedes mostrarme un ejemplo relacionado con {es}?'],
+  ['I need a moment to consider {en}.', 'Necesito un momento para considerar {es}.'],
+  ['What is your opinion on {en}?', '¿Cuál es tu opinión sobre {es}?'],
+  ['We can improve the way we manage {en}.', 'Podemos mejorar la manera en que manejamos {es}.'],
+  ['Please point out anything unusual about {en}.', 'Por favor señala cualquier detalle inusual sobre {es}.'],
+  ['I want to make sure I understood {en}.', 'Quiero asegurarme de haber entendido {es}.'],
+  ['Could you walk me through {en}?', '¿Podrías guiarme paso a paso con {es}?'],
+  ['We should decide how to proceed with {en}.', 'Debemos decidir cómo proceder con {es}.'],
+  ['I will take care of {en}.', 'Me encargaré de {es}.'],
+  ['Let us focus on the key point about {en}.', 'Concentrémonos en el punto clave de {es}.'],
+  ['Has anything changed regarding {en}?', '¿Ha cambiado algo con respecto a {es}?'],
+  ['I can provide more context about {en}.', 'Puedo aportar más contexto sobre {es}.'],
+  ['What would make {en} easier?', '¿Qué facilitaría {es}?'],
+  ['We should verify the facts about {en}.', 'Debemos verificar los datos sobre {es}.'],
+  ['I would like to hear your experience with {en}.', 'Me gustaría conocer tu experiencia con {es}.'],
+  ['Let us write down the decision about {en}.', 'Anotemos la decisión sobre {es}.'],
+  ['Is there a better approach to {en}?', '¿Hay una mejor manera de abordar {es}?'],
+  ['I am concerned about {en}.', 'Me preocupa {es}.'],
+  ['We can revisit {en} later.', 'Podemos retomar {es} más adelante.'],
+  ['That answers my question about {en}.', 'Eso responde mi pregunta sobre {es}.']
+];
+
+function getTechnicalEnglishExpressions(topic) {
+  const [, title] = topic;
+  const essentials = TECHNICAL_ENGLISH_EXPRESSIONS[title] || [];
+  const terms = TECHNICAL_ENGLISH_TOPIC_TERMS[title] || [];
+  const expansionSize = Math.max(0, 200 - essentials.length);
+  // Cycle through communication intents first and rotate the topic terms with
+  // a coprime step. A pattern returns only after sixty intervening expressions,
+  // rather than appearing ten times in one tiring block.
+  const expansion = Array.from({ length: expansionSize }, (_, index) => {
+    const [englishPattern, spanishPattern] = TECHNICAL_ENGLISH_EXPANSION_PATTERNS[index % TECHNICAL_ENGLISH_EXPANSION_PATTERNS.length];
+    const termIndex = (index * 7 + Math.floor(index / TECHNICAL_ENGLISH_EXPANSION_PATTERNS.length)) % terms.length;
+    const [englishTerm, spanishTerm] = terms[termIndex];
+    return [englishPattern.replace('{en}', englishTerm), spanishPattern.replace('{es}', spanishTerm)];
+  });
+  return [...essentials, ...expansion].slice(0, 200);
+}
+
+const TECHNICAL_ENGLISH_GUIDES = [
+  ['Preséntate como atleta y conversa con scouts.', 'Prueba, perfil deportivo y evaluación.', 'Describe tu posición, una fortaleza medible y tu disponibilidad.'],
+  ['Habla con claridad en reuniones y seguimiento.', 'Propuestas, agendas, facturas y acuerdos.', 'Usa “Could we…?” para sonar colaborativo y profesional.'],
+  ['Coordina procesos y documentación administrativa.', 'Solicitudes, archivos, recursos, actas, inventarios y proveedores.', 'Registra responsables, fechas y aprobaciones con precisión.'],
+  ['Comunícate con pacientes y equipos clínicos con precisión.', 'Síntomas, signos vitales, medicamentos, procedimientos y seguimiento.', 'Confirma identidad, alergias y comprensión antes de cada intervención.'],
+  ['Diagnostica y explica servicios automotrices.', 'Motor, frenos, neumáticos, diagnóstico, piezas y mantenimiento.', 'Describe la evidencia encontrada antes de recomendar una reparación.'],
+  ['Atiende huéspedes y visitantes durante toda su experiencia.', 'Reservas, recepción, habitaciones, excursiones y transporte.', 'Confirma la necesidad y ofrece una solución concreta con cortesía profesional.'],
+  ['Sirve alimentos y bebidas con cortesía y seguridad.', 'Reservas, pedidos, alérgenos, cocina, servicio y cuenta.', 'Pregunta antes de asumir: las alergias y restricciones siempre se confirman.'],
+  ['Atiende pasajeros y protege la seguridad en cabina.', 'Embarque, seguridad, servicio a bordo, incidencias y llegada.', 'Da instrucciones breves, firmes y amables durante cada fase del vuelo.'],
+  ['Coordina procesos y equipos en tierra.', 'Puertas, equipaje, pista, asistencia, conexiones y carga.', 'Confirma ubicación, hora y autorización antes de mover personas o equipos.'],
+  ['Diagnostica una incidencia y explica el siguiente paso.', 'Conexión, router, credenciales y tickets.', 'Da una instrucción por vez y confirma el resultado antes de continuar.'],
+  ['Desarrolla, prueba y opera soluciones informáticas.', 'Código, bases de datos, API, pruebas, seguridad y despliegues.', 'Describe el problema reproducible, la evidencia y el cambio propuesto.'],
+  ['Explica documentos y diferencias financieras.', 'Recibos, gastos, saldos y revisión.', 'Evita culpar: describe el dato y propone revisarlo juntos.'],
+  ['Organiza labores agrícolas y cuidado de animales.', 'Suelo, cultivos, riego, maquinaria, ganado y cosecha.', 'Registra condiciones, cantidades y fechas para tomar decisiones seguras.'],
+  ['Expresa interés con respeto y naturalidad.', 'Invitaciones, afecto y límites personales.', 'Haz invitaciones abiertas y acepta la respuesta con amabilidad.'],
+  ['Muévete con confianza en aeropuertos y ciudades.', 'Check-in, asientos, transporte y alojamiento.', 'Di el destino, la hora y tu necesidad en una sola frase.'],
+  ['Participa en conversaciones de fe y estudio.', 'Pasajes, significado, oración y esperanza.', 'Pregunta con humildad y deja espacio para distintas interpretaciones.'],
+  ['Entiende un registro informal sin perder respeto.', 'Saludos, planes, entusiasmo y despedidas.', 'Úsalo con amistades o pares; no en entrevistas ni contextos formales.']
+];
+
+// Every area opens its complete 200-expression catalogue. Results are paged
+// only to keep the view compact and responsive on phones and tablets.
+let technicalEnglishActiveTopic = 0;
+let technicalEnglishPage = 0;
+const TECHNICAL_ENGLISH_EXPRESSIONS_PER_PAGE = 40;
+
+function renderTechnicalEnglishView() {
+  const app = document.getElementById('technicalEnglishApp');
+  if (!app) return;
+  const visibleIndexes = TECHNICAL_ENGLISH_TOPICS.map((_, index) => index);
+  if (!visibleIndexes.includes(technicalEnglishActiveTopic)) {
+    technicalEnglishActiveTopic = visibleIndexes[0];
+  }
+  const active = TECHNICAL_ENGLISH_TOPICS[technicalEnglishActiveTopic] || TECHNICAL_ENGLISH_TOPICS[0];
+  const [icon, title] = active;
+  const allPhrases = getTechnicalEnglishExpressions(active);
+  const totalPages = Math.ceil(allPhrases.length / TECHNICAL_ENGLISH_EXPRESSIONS_PER_PAGE);
+  technicalEnglishPage = Math.max(0, Math.min(technicalEnglishPage, totalPages - 1));
+  const pageStart = technicalEnglishPage * TECHNICAL_ENGLISH_EXPRESSIONS_PER_PAGE;
+  const phrases = allPhrases.slice(pageStart, pageStart + TECHNICAL_ENGLISH_EXPRESSIONS_PER_PAGE);
+  const expressionsPerTopic = phrases.length;
+  const totalLibraryExpressions = TECHNICAL_ENGLISH_TOPICS.length * 200;
+  const printableList = allPhrases
+    .map(([english, spanish], index) => `<li><b>${index + 1}.</b><span lang="en">${escapeHtml(english)}</span><em>${escapeHtml(spanish)}</em></li>`)
+    .join('');
+  app.innerHTML = `<header class="technical-english-header"><span>ENGLISH FOR WORK & LIFE · ${totalLibraryExpressions.toLocaleString('en-US')} EXPRESIONES</span><h2 tabindex="-1">Inglés Técnico</h2><p>Elige un área y practica sus 200 expresiones completas.</p></header><nav class="technical-topic-tabs" aria-label="Áreas de Inglés Técnico">${visibleIndexes.map((index) => { const [topicIcon, topicTitle] = TECHNICAL_ENGLISH_TOPICS[index]; return `<button type="button" class="technical-topic-tab${index === technicalEnglishActiveTopic ? ' is-active' : ''}" data-technical-topic="${index}" aria-pressed="${index === technicalEnglishActiveTopic}"><span>${topicIcon}</span>${topicTitle} <small>200 expresiones</small></button>`; }).join('')}</nav><article class="technical-topic-panel useful-expression-panel"><header><span class="technical-panel-icon" aria-hidden="true">${icon}</span><div><span>${pageStart + 1}–${pageStart + expressionsPerTopic} DE 200 EXPRESIONES</span><h3>${title}</h3><p>Toca cualquiera de las dos expresiones para escucharla.</p></div><button type="button" class="secondary-btn technical-pdf-btn no-print">Descargar vocabulario en PDF</button></header><section class="technical-expression-library" aria-label="${expressionsPerTopic} expresiones prácticas de ${escapeHtml(title)}"><div class="useful-expression-pair-grid technical-expression-pair-grid">${phrases.map(([english, spanish], index) => `<article class="useful-expression-pair"><span class="useful-expression-number">${pageStart + index + 1}</span><button type="button" data-speaking-expression="${escapeHtml(english)}" data-speaking-language="english"><span lang="en">${escapeHtml(english)}</span><i>🔊</i></button><span class="useful-expression-equals" aria-hidden="true">=</span><button type="button" data-speaking-expression="${escapeHtml(spanish)}" data-speaking-language="spanish"><span>${escapeHtml(spanish)}</span><i>🔊</i></button></article>`).join('')}</div><footer class="useful-expression-pagination"><span>Página ${technicalEnglishPage + 1} de ${totalPages}</span><div>${technicalEnglishPage > 0 ? '<button type="button" class="secondary-btn" data-technical-page="previous">← Anterior</button>' : ''}${technicalEnglishPage < totalPages - 1 ? '<button type="button" class="primary-btn" data-technical-page="next">Continuar →</button>' : ''}</div></footer></section></article><section class="skill-print-area technical-vocabulary-print print-only"><header><img src="/andergo-logo.png" alt="Andergo Language Academy" /><strong>ANDERGO LANGUAGE ACADEMY</strong><span>INGLÉS TÉCNICO · VOCABULARIO</span><h1>${icon} ${escapeHtml(title)}</h1><p>200 expresiones inglés-español</p></header><ol>${printableList}</ol></section>`;
+  app.querySelectorAll('[data-technical-topic]').forEach((button) => button.addEventListener('click', () => { technicalEnglishActiveTopic = Number(button.dataset.technicalTopic) || 0; technicalEnglishPage = 0; renderTechnicalEnglishView(); }));
+  app.querySelectorAll('[data-technical-page]').forEach((button) => button.addEventListener('click', () => { technicalEnglishPage += button.dataset.technicalPage === 'next' ? 1 : -1; renderTechnicalEnglishView(); app.scrollIntoView({ block: 'start', behavior: 'smooth' }); }));
+  app.querySelector('.technical-pdf-btn')?.addEventListener('click', () => {
+    try { window.print(); } catch { showHomeToast('No pudimos generar el PDF. Inténtalo nuevamente.'); }
+  });
+  app.querySelectorAll('[data-speaking-expression][data-speaking-language]').forEach((button) => button.addEventListener('click', () => { const language = button.dataset.speakingLanguage; playModelPhrase(button.dataset.speakingExpression || '', getPronunciationLocale(language), language); }));
+}
+
+let usefulExpressionsPage = 0;
+let usefulExpressionsTopic = 'all';
+const USEFUL_EXPRESSIONS_PER_PAGE = 100;
+
+function renderUsefulExpressionsView() {
+  const app = document.getElementById('usefulExpressionsApp');
+  if (!app) return;
+  const visibleLanguages = [usefulExpressionsLanguagePair.l1, usefulExpressionsLanguagePair.l2]
+    .map((id) => USEFUL_EXPRESSION_LANGUAGES.find((language) => language.id === id))
+    .filter(Boolean);
+  const topicExpressions = getDailyUsefulExpressionsForTopic(usefulExpressionsTopic);
+  const activeTopic = DAILY_USEFUL_EXPRESSION_TOPICS.find((topic) => topic.id === usefulExpressionsTopic);
+  const topicLabel = activeTopic?.label || 'Todas las temáticas';
+  const totalPages = Math.ceil(topicExpressions.length / USEFUL_EXPRESSIONS_PER_PAGE);
+  usefulExpressionsPage = Math.max(0, Math.min(usefulExpressionsPage, totalPages - 1));
+  const pageStart = usefulExpressionsPage * USEFUL_EXPRESSIONS_PER_PAGE;
+  const pageExpressions = topicExpressions.slice(pageStart, pageStart + USEFUL_EXPRESSIONS_PER_PAGE);
+  const languageLabel = visibleLanguages.map((language) => language.label).join(' · ');
+  app.innerHTML = `
+    <header class="technical-english-header useful-expressions-header">
+      <span>${DAILY_USEFUL_EXPRESSION_LIBRARY.length.toLocaleString('en-US')} EXPRESIONES COTIDIANAS · ${escapeHtml(languageLabel.toUpperCase())}</span>
+      <h2 tabindex="-1">Expresiones útiles</h2>
+      <p>Frases breves y frecuentes para resolver situaciones reales del día a día.</p>
+    </header>
+    <article class="useful-expression-panel" aria-label="Biblioteca de expresiones útiles"><header><span>💬</span><div><small>BIBLIOTECA DIARIA · ${DAILY_USEFUL_EXPRESSION_LIBRARY.length} EXPRESIONES</small><h3>Habla con naturalidad en situaciones reales</h3><p>Elige una temática, compara L1 y L2, y toca cualquiera de las dos frases para escucharla.</p></div></header>
+      <nav class="useful-expression-topic-picker" aria-label="Selecciona una temática"><span>Temática</span><div><button type="button" class="${usefulExpressionsTopic === 'all' ? 'is-active' : ''}" data-useful-expression-topic="all" aria-pressed="${usefulExpressionsTopic === 'all'}">✨ Todas <small>${DAILY_USEFUL_EXPRESSION_LIBRARY.length}</small></button>${DAILY_USEFUL_EXPRESSION_TOPICS.map((topic) => `<button type="button" class="${topic.id === usefulExpressionsTopic ? 'is-active' : ''}" data-useful-expression-topic="${topic.id}" aria-pressed="${topic.id === usefulExpressionsTopic}"><span>${topic.icon}</span>${escapeHtml(topic.label)} <small>${topic.count}</small></button>`).join('')}</div></nav>
+      <div class="useful-expression-language-picker" role="group" aria-label="Idiomas de las expresiones"><label>L1 · Idioma de apoyo<select data-useful-expression-l1>${USEFUL_EXPRESSION_LANGUAGES.filter((language) => language.id !== usefulExpressionsLanguagePair.l2).map((language) => `<option value="${language.id}" ${language.id === usefulExpressionsLanguagePair.l1 ? 'selected' : ''}>${language.label}</option>`).join('')}</select></label><label>L2 · Idioma que aprendes<select data-useful-expression-l2>${USEFUL_EXPRESSION_LANGUAGES.filter((language) => language.id !== usefulExpressionsLanguagePair.l1).map((language) => `<option value="${language.id}" ${language.id === usefulExpressionsLanguagePair.l2 ? 'selected' : ''}>${language.label}</option>`).join('')}</select></label></div>
+      <section class="useful-expression-library" aria-label="${escapeHtml(topicLabel)}: expresiones ${pageStart + 1} a ${pageStart + pageExpressions.length} en ${escapeHtml(languageLabel)}"><div class="useful-expression-library-heading"><strong>${escapeHtml(topicLabel)} · Expresiones ${pageStart + 1}–${pageStart + pageExpressions.length} de ${topicExpressions.length}</strong><span>${escapeHtml(languageLabel)} · Página ${usefulExpressionsPage + 1} de ${totalPages}</span></div><div class="useful-expression-pair-grid">${pageExpressions.map((expression, index) => { const [l1, l2] = visibleLanguages.map((language) => ({ ...language, phrase: expression[language.id] || '' })); return `<article class="useful-expression-pair"><span class="useful-expression-number">${pageStart + index + 1}</span><button type="button" data-speaking-expression="${escapeHtml(l1.phrase)}" data-speaking-language="${l1.id}"><span lang="${l1.id === 'english' ? 'en' : l1.id === 'french' ? 'fr' : l1.id === 'italian' ? 'it' : l1.id === 'portuguese' ? 'pt' : l1.id === 'german' ? 'de' : 'es'}">${escapeHtml(l1.phrase)}</span><i>🔊</i></button><span class="useful-expression-equals" aria-hidden="true">=</span><button type="button" data-speaking-expression="${escapeHtml(l2.phrase)}" data-speaking-language="${l2.id}"><span lang="${l2.id === 'english' ? 'en' : l2.id === 'french' ? 'fr' : l2.id === 'italian' ? 'it' : l2.id === 'portuguese' ? 'pt' : l2.id === 'german' ? 'de' : 'es'}">${escapeHtml(l2.phrase)}</span><i>🔊</i></button></article>`; }).join('')}</div><footer class="useful-expression-pagination"><span>Página ${usefulExpressionsPage + 1} de ${totalPages}</span><div>${usefulExpressionsPage > 0 ? '<button type="button" class="secondary-btn" data-useful-expression-page="previous">← Anterior</button>' : ''}${usefulExpressionsPage < totalPages - 1 ? '<button type="button" class="primary-btn" data-useful-expression-page="next">Continuar →</button>' : ''}</div></footer></section></article>`;
+  app.querySelectorAll('[data-useful-expression-topic]').forEach((button) => button.addEventListener('click', () => {
+    usefulExpressionsTopic = button.dataset.usefulExpressionTopic || 'all';
+    usefulExpressionsPage = 0;
+    renderUsefulExpressionsView();
+  }));
+  app.querySelectorAll('[data-useful-expression-l1], [data-useful-expression-l2]').forEach((select) => select.addEventListener('change', () => {
+    const selected = select.value;
+    const isL1 = select.hasAttribute('data-useful-expression-l1');
+    const other = isL1 ? usefulExpressionsLanguagePair.l2 : usefulExpressionsLanguagePair.l1;
+    const fallback = USEFUL_EXPRESSION_LANGUAGES.find((language) => language.id !== selected)?.id || 'english';
+    usefulExpressionsLanguagePair = isL1
+      ? { l1: selected, l2: other === selected ? fallback : other }
+      : { l1: other === selected ? fallback : other, l2: selected };
+    try {
+      localStorage.setItem(USEFUL_EXPRESSION_LANGUAGE_PAIR_STORAGE_KEY, JSON.stringify(usefulExpressionsLanguagePair));
+    } catch {
+      // The selection remains available during this visit when storage is unavailable.
+    }
+    usefulExpressionsPage = 0;
+    renderUsefulExpressionsView();
+  }));
+  app.querySelectorAll('[data-useful-expression-page]').forEach((button) => button.addEventListener('click', () => {
+    usefulExpressionsPage += button.dataset.usefulExpressionPage === 'next' ? 1 : -1;
+    renderUsefulExpressionsView();
+    app.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }));
+  app.querySelectorAll('[data-speaking-expression][data-speaking-language]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const language = button.dataset.speakingLanguage;
+      playModelPhrase(button.dataset.speakingExpression || '', getPronunciationLocale(language), language);
+    });
+  });
+}
 
 function isAnonymousVisitor() {
   return !authStatus.session?.access_token;
@@ -28347,6 +29675,8 @@ const VIEW_TITLE_SELECTORS = {
   writing: '#writing .level-tab[data-tab="writing"]',
   grammar: '#grammar .level-tab[data-tab="grammar"]',
   vocabulary: '#vocabulary .level-tab[data-tab="vocabulary"]',
+  'useful-expressions': '#usefulExpressions h2',
+  'technical-english': '#technicalEnglish h2',
   adjectives: '#adjectives .level-tab[data-tab="adjectives"]',
   adverbs: '#adverbs .level-tab[data-tab="adverbs"]',
   'teacher-curriculum': '#teacherCurriculum h2'
@@ -28411,10 +29741,13 @@ function showView(viewId) {
   if (isAnonymousVisitor() && resolved !== 'home' && !ANONYMOUS_PREVIEW_VIEWS.has(resolved)) {
     resolved = 'home';
     if (window.location.hash !== '#home') history.replaceState(null, '', '#home');
+    // A protected deep link may be restored after the learner's session has
+    // expired. Keep the page visible and explain what happened instead of
+    // covering it immediately with the dark auth backdrop; authentication
+    // remains available from the explicit "Iniciar sesión" action.
+    closeAllAuthUI();
     window.requestAnimationFrame(() =>
-      openModal('signup', {
-        message: 'Crea tu cuenta gratis para acceder a los contenidos de ANDERGO.'
-      })
+      showHomeToast('Tu sesión terminó. Inicia sesión para continuar donde estabas.')
     );
   }
   if (
@@ -28565,6 +29898,8 @@ function showView(viewId) {
   if (resolved === 'games') loadGamesView();
   if (resolved === 'readings') renderReadingLibrary();
   if (resolved === 'listenings') renderListeningLibrary();
+  if (resolved === 'useful-expressions') renderUsefulExpressionsView();
+  if (resolved === 'technical-english') renderTechnicalEnglishView();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'teacher-curriculum') loadTeacherCurriculumPanel();
   if (resolved === 'verbs') {
@@ -28647,6 +29982,9 @@ document.addEventListener('click', (event) => {
   const tab = event.target.closest('.level-tab[data-tab]');
   if (!tab || tab.closest('[hidden]')) return;
   const skill = tab.dataset.tab;
+  // These are standalone practice libraries, not unit activities. Let their
+  // regular hash links open their dedicated views.
+  if (skill === 'technical-english' || skill === 'useful-expressions') return;
   if (skill !== 'learn' && skill !== 'verbs' && !SKILL_VIEWS.includes(skill)) return;
   event.preventDefault();
   openLearningRouteTab(skill);
@@ -28693,6 +30031,55 @@ function showCelebration(message = '') {
     celebration.classList.remove('is-visible');
     window.setTimeout(() => celebration.remove(), 400);
   }, 3200);
+}
+
+function showUnitRouteFinalTest({ unitId, xpReward = 30 } = {}) {
+  const unit = learningPathState.units.find((item) => item.id === unitId);
+  const seenSkills = new Set();
+  const questions = getUnitActivities(unitId)
+    .filter((lesson) => !seenSkills.has(lesson.skill) && seenSkills.add(lesson.skill))
+    .map((lesson) => {
+      // Speaking and writing need a production task even if their lesson also
+      // contains a multiple-choice warm-up; otherwise a "mixed" final test
+      // only measures recognition.
+      if (lesson.skill === 'writing') {
+        return { type: 'write', skill: lesson.skill, prompt: `Escribe una frase breve que use lo aprendido en “${lesson.title}”.`, placeholder: 'Escribe en el idioma que estás aprendiendo…' };
+      }
+      if (lesson.skill === 'speaking') {
+        return { type: 'speak', skill: lesson.skill, prompt: `Di en voz alta una frase sobre “${lesson.title}” y marca cuando termines.` };
+      }
+      const exercise = (lesson.exercises || []).find((item) => Array.isArray(item?.options) && item.options.length >= 2 && Number.isInteger(Number(item.answer)));
+      const options = exercise?.options?.map((option) => typeof option === 'string' ? option : option?.text || option?.label || '').filter(Boolean) || [];
+      if (exercise && options[Number(exercise.answer)]) {
+        return { type: 'choice', skill: lesson.skill, prompt: exercise.prompt || exercise.q || lesson.mission || lesson.title, options, answer: Number(exercise.answer) };
+      }
+      return { type: 'reflect', skill: lesson.skill, prompt: `Resume en una frase lo esencial de “${lesson.title}”.`, placeholder: 'Escribe una idea clave…' };
+    }).filter(Boolean);
+  if (!unit || !questions.length) return showUnitCompletionPanel({ unitId, xpReward });
+  document.querySelector('.unit-final-test-overlay')?.remove();
+  const answers = {}; let index = 0;
+  const overlay = document.createElement('div'); overlay.className = 'unit-final-test-overlay';
+  const hasResponse = (questionIndex) => {
+    const value = answers[questionIndex];
+    return questions[questionIndex].type === 'choice' ? Number.isInteger(value) : Boolean(String(value || '').trim());
+  };
+  const render = () => {
+    const question = questions[index];
+    const activity = question.type === 'choice'
+      ? `<div>${question.options.map((option, optionIndex) => `<button type="button" class="unit-final-test-option${answers[index] === optionIndex ? ' is-selected' : ''}" data-final-option="${optionIndex}" aria-pressed="${answers[index] === optionIndex}"><b>${String.fromCharCode(65 + optionIndex)}</b>${escapeHtml(option)}</button>`).join('')}</div>`
+      : question.type === 'speak'
+        ? `<div class="unit-final-production"><p>Hablar también es una respuesta: practica la frase en voz alta antes de continuar.</p><button type="button" class="secondary-btn unit-final-production-done" data-final-production="spoken">Ya la dije en voz alta</button></div>`
+        : `<div class="unit-final-production"><textarea class="unit-final-text-answer" rows="4" placeholder="${escapeHtml(question.placeholder)}">${escapeHtml(answers[index] || '')}</textarea><small>Usa tus propias palabras; esto comprueba que puedes producir el idioma, no solo reconocerlo.</small></div>`;
+    overlay.innerHTML = `<section class="unit-final-test" role="dialog" aria-modal="true" aria-labelledby="unitFinalTestTitle"><button type="button" class="unit-final-test-close" aria-label="Cerrar">×</button><span>CIERRE DE RUTA</span><h2 id="unitFinalTestTitle">Test dinámico · ${escapeHtml(unit.title)}</h2><p>Una actividad por habilidad: comprensión, producción escrita y producción oral cuando corresponda.</p><div class="unit-final-test-progress"><strong>${index + 1}/${questions.length}</strong><div><i style="width:${Math.round(((index + 1) / questions.length) * 100)}%"></i></div></div><article class="unit-final-test-question"><small>${escapeHtml(question.skill)}</small><h3>${escapeHtml(question.prompt)}</h3>${activity}</article><footer><button type="button" class="secondary-btn unit-final-prev" ${index === 0 ? 'disabled' : ''}>← Anterior</button>${index === questions.length - 1 ? `<button type="button" class="primary-btn unit-final-submit" ${questions.every((_, questionIndex) => hasResponse(questionIndex)) ? '' : 'disabled'}>Finalizar test →</button>` : '<button type="button" class="primary-btn unit-final-next">Siguiente →</button>'}</footer></section>`;
+    overlay.querySelector('.unit-final-test-close')?.addEventListener('click', () => overlay.remove());
+    overlay.querySelectorAll('[data-final-option]').forEach((button) => button.addEventListener('click', () => { answers[index] = Number(button.dataset.finalOption); render(); }));
+    overlay.querySelector('.unit-final-production-done')?.addEventListener('click', () => { answers[index] = 'spoken'; render(); });
+    overlay.querySelector('.unit-final-text-answer')?.addEventListener('input', (event) => { answers[index] = event.target.value; const submit = overlay.querySelector('.unit-final-submit'); if (submit) submit.disabled = !questions.every((_, questionIndex) => hasResponse(questionIndex)); });
+    overlay.querySelector('.unit-final-prev')?.addEventListener('click', () => { index -= 1; render(); });
+    overlay.querySelector('.unit-final-next')?.addEventListener('click', () => { index += 1; render(); });
+    overlay.querySelector('.unit-final-submit')?.addEventListener('click', () => { const graded = questions.filter((question) => question.type === 'choice'); const correct = graded.filter((question, questionIndex) => answers[questions.indexOf(question)] === question.answer).length; const production = questions.filter((question) => question.type !== 'choice').length; overlay.remove(); showHomeToast(`Test final: ${correct}/${graded.length} correctas${production ? ` · ${production} producciones completadas` : ''}.`); showUnitCompletionPanel({ unitId, xpReward }); });
+  };
+  document.body.appendChild(overlay); render();
 }
 
 function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
@@ -28842,6 +30229,7 @@ function handleHomeAction(action) {
       document.querySelector('.hero-language-tabs button')?.focus({ preventScroll: true });
     });
   };
+  let openRecommendedAfterRoute = false;
   const openLanguageRoute = async (language) => {
     if (language) {
       const routeLevel = ['italian', 'portuguese', 'german'].includes(language)
@@ -28867,6 +30255,13 @@ function handleHomeAction(action) {
     });
     learningPathState.activeSlug = '';
     renderLearningPath();
+    const recommended = openRecommendedAfterRoute ? getNextRecommendedLesson() : null;
+    openRecommendedAfterRoute = false;
+    if (recommended) {
+      showHomeToast(`Continuamos con ${getSkillLabel(recommended.skill)}.`);
+      openUnitSequenceStep(recommended.skill, recommended.slug);
+      return;
+    }
     window.requestAnimationFrame(() => {
       document
         .getElementById('learning-path')
@@ -28877,7 +30272,8 @@ function handleHomeAction(action) {
 
   switch (action) {
     case 'continue-lesson':
-      goTo('learn', 'Ruta de lecciones abierta. Elige una lección y completa el reto.');
+      openRecommendedAfterRoute = true;
+      void openLanguageRoute(null);
       break;
     case 'start-free':
       void openLanguageSelector();
@@ -29444,6 +30840,7 @@ function enableHomepageActions() {
           renderSkillCards();
           renderLearningPath();
           loadDashboard();
+          scheduleSpacedReview(lesson);
           window.AndergoGamification?.recordLessonCompletion({
             slug: lesson.slug,
             language: learningPathState.language,
@@ -29869,6 +31266,7 @@ function enableHomepageActions() {
         renderSkillCards();
         renderLearningPath();
         loadDashboard();
+        scheduleSpacedReview(lesson);
         window.AndergoGamification?.recordLessonCompletion({
           slug: lesson.slug,
           language: learningPathState.language,
@@ -30051,6 +31449,7 @@ function enableHomepageActions() {
         renderSkillCards();
         renderLearningPath();
         loadDashboard();
+        scheduleSpacedReview(lesson);
         window.AndergoGamification?.recordLessonCompletion({
           slug: lesson.slug,
           language: learningPathState.language,
@@ -30431,6 +31830,15 @@ function enableHomepageActions() {
         (item) => item.slug === section?.dataset.activeLessonSlug
       );
       if (section && lesson) await playNaturalReadingAudio(section, lesson);
+      return;
+    }
+    const readingTtsBtn = event.target.closest('.reading-audio-tts-btn');
+    if (readingTtsBtn) {
+      stopNaturalReadingAudio({ clearSource: false });
+      const snap = readingSpeechPlayer.getSnapshot();
+      if (snap.state === 'playing') readingSpeechPlayer.pauseReading();
+      else if (snap.state === 'paused') readingSpeechPlayer.resumeReading();
+      else readingSpeechPlayer.playReading();
       return;
     }
     const readingAudioPlayPauseBtn = event.target.closest('.reading-audio-playpause-btn');
@@ -31787,7 +33195,7 @@ function setupTranslator() {
       // plan-specific monthly translation allowance before contacting DeepL.
       const data = await postJson(
         '/api/translate',
-        { text, sourceLanguage, targetLanguage },
+        { text, sourceLanguage, targetLanguage, learningDomain: 'general' },
         { auth: true }
       );
 
@@ -31796,10 +33204,12 @@ function setupTranslator() {
         syncTranslatorTextareaHeights();
         const remaining = data.usage?.remaining;
         const limit = data.usage?.limit;
-        setStatus(
+        const translationStatus =
           remaining != null && limit != null
             ? `Completada · te quedan ${remaining} de ${limit} traducciones este mes.`
-            : 'Completada',
+            : 'Completada';
+        setStatus(
+          data.usedGlossary ? `${translationStatus} · Glosario ANDERGO aplicado.` : translationStatus,
           'is-success'
         );
         if (sourceLanguage === 'auto' && data.detectedLanguage) {
@@ -33293,6 +34703,7 @@ document.addEventListener('change', (event) => {
 });
 
 enableHomepageActions();
+initializePdiInputFallback();
 initHeroCopyCarousel();
 loadProgress();
 setupLearningPathControls();

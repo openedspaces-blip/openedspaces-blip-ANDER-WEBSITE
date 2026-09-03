@@ -13,6 +13,7 @@ function activityRow(unit, skill, index) {
   const accessTier = unit.accessTier || 'free';
   const extra = {};
   if (activity.grammarTest) extra.grammarTest = activity.grammarTest;
+  if (activity.listeningComprehension) extra.listeningComprehension = activity.listeningComprehension;
   if (activity.grammarProfile) extra.grammarProfile = activity.grammarProfile;
   if (activity.listeningType) extra.listeningType = activity.listeningType;
   if (activity.difficulty) extra.difficulty = activity.difficulty;

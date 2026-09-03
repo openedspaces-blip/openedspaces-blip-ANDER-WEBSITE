@@ -114,6 +114,51 @@ function copyDirectoryEnsuringDir(srcDir, destDir) {
   });
 }
 
+function listHtmlFiles(dir) {
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const entryPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) return listHtmlFiles(entryPath);
+    return entry.isFile() && entry.name.endsWith('.html') ? [entryPath] : [];
+  });
+}
+
+function injectAdSenseCode() {
+  const client = String(process.env.ADSENSE_CLIENT_ID || '').trim();
+  const transitionSlot = String(process.env.ADSENSE_TRANSITION_SLOT_ID || '').trim();
+  if (!client) {
+    console.log('AdSense is not configured; publishing without ad scripts.');
+    return;
+  }
+  if (!/^ca-pub-\d{10,20}$/.test(client)) {
+    throw new Error('ADSENSE_CLIENT_ID must use the ca-pub-1234567890123456 format.');
+  }
+  if (transitionSlot && !/^\d{8,20}$/.test(transitionSlot)) {
+    throw new Error('ADSENSE_TRANSITION_SLOT_ID must be the numeric AdSense ad-unit ID.');
+  }
+
+  const tag = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}" crossorigin="anonymous"></script>`;
+  const slotMeta = transitionSlot
+    ? `<meta name="adsense-transition-slot" content="${transitionSlot}">`
+    : '';
+  listHtmlFiles(PUBLIC_DIR).forEach((htmlPath) => {
+    const html = fs.readFileSync(htmlPath, 'utf8');
+    if (html.includes('pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')) return;
+    if (!html.includes('</head>')) {
+      throw new Error(`Cannot add AdSense code: missing </head> in ${path.relative(ROOT, htmlPath)}.`);
+    }
+    fs.writeFileSync(htmlPath, html.replace('</head>', `  ${tag}\n  ${slotMeta}\n</head>`));
+  });
+
+  // Google checks this file at https://www.andergo.online/ads.txt.
+  const publisherId = client.replace(/^ca-/, '');
+  fs.writeFileSync(
+    path.join(PUBLIC_DIR, 'ads.txt'),
+    `google.com, ${publisherId}, DIRECT, f08c47fec0942fa0\n`
+  );
+  console.log('Injected AdSense code and ads.txt for the configured publisher.');
+}
+
 function main() {
   // Vercel's build container has a constrained memory budget. Curriculum
   // generation and the full lexicon audit load every authored catalogue at
@@ -250,6 +295,8 @@ function main() {
     .replace(/(src="\/src\/js\/script\.js)\?v=[^"]*(")/, `$1?v=${scriptHash}$2`)
     .replace(/(href="\/src\/css\/styles\.css)\?v=[^"]*(")/, `$1?v=${stylesHash}$2`);
   fs.writeFileSync(publicIndexPath, indexHtml);
+
+  injectAdSenseCode();
 
   console.log('Build complete: root and public/ are in sync.');
 }

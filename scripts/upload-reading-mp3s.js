@@ -57,7 +57,8 @@ function readWorldLessons(language) {
 }
 
 function readingText(lesson) {
-  return String(lesson?.reading?.text || lesson?.extra?.mainTranscript || lesson?.transcript || '')
+  const readingParts = Array.isArray(lesson?.reading?.parts) ? lesson.reading.parts.join(' ') : '';
+  return String(lesson?.reading?.text || readingParts || lesson?.extra?.mainTranscript || lesson?.transcript || '')
     .replace(/\s+/g, ' ')
     .trim();
 }

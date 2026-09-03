@@ -384,12 +384,19 @@ function grammarExercises(topic) {
     ]
   }[topic.slug];
   if (contextualExamples) {
+    const answerPositions = [0, 0, 1, 1, 2, 2, 3, 3];
+    let shuffleState = [...topic.slug].reduce((hash, character) => ((hash * 31 + character.charCodeAt(0)) >>> 0), 7);
+    for (let position = answerPositions.length - 1; position > 0; position -= 1) {
+      shuffleState = (shuffleState * 1664525 + 1013904223) >>> 0;
+      const swapIndex = shuffleState % (position + 1);
+      [answerPositions[position], answerPositions[swapIndex]] = [answerPositions[swapIndex], answerPositions[position]];
+    }
     const applications = contextualExamples.map((correct, index) => {
-      const answer = index % 4;
+      const answer = answerPositions[index * 2];
       const options = [
-        'Les données prouve donc certainement toutes les conclusions possibles.',
-        'Parce que la question complexe, alors le résultat forcément.',
-        'La thèse est étant vraie par les mots qui ont utilisé.'
+        'Les résultats méritent une interprétation prudente, compte tenu des limites méthodologiques.',
+        'Le phénomène observé appelle une analyse qui distingue corrélation et causalité.',
+        'L’intervention pourrait être utile si ses conditions de mise en œuvre étaient explicitées.'
       ];
       options.splice(answer, 0, correct);
       return mcq(
@@ -400,11 +407,11 @@ function grammarExercises(topic) {
       );
     });
     const analyses = contextualExamples.map((example, index) => {
-      const answer = (index + 1) % 4;
+      const answer = answerPositions[index * 2 + 1];
       const options = [
-        'Elle remplace les preuves par une affirmation absolue.',
-        'Elle adopte un registre familier sans relation grammaticale précise.',
-        'Elle change de sujet sans clarifier la portée ni la responsabilité.'
+        `Elle conserve le thème, mais modifie la portée ou le degré de certitude : « ${example} »`,
+        `Elle emploie une forme voisine tout en modifiant l’agent, le temps ou la relation logique : « ${example} »`,
+        `Elle reprend le lexique sans atteindre l’objectif grammatical demandé dans cette unité : « ${example} »`
       ];
       options.splice(answer, 0, `Elle emploie ${topic.grammar.toLowerCase()} afin de ${topic.purpose} : « ${example} »`);
       return mcq(

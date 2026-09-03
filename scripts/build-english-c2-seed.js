@@ -9,6 +9,7 @@ const skills=['reading','listening','speaking','writing','grammar','vocabulary']
 function row(unit,skill,index){
   const a=unit.activities[skill],extra={};
   if(a.grammarTest)extra.grammarTest=a.grammarTest;
+  if(a.listeningComprehension)extra.listeningComprehension=a.listeningComprehension;
   if(a.grammarProfile)extra.grammarProfile=a.grammarProfile;
   if(a.reading?.references?.length)extra.readingReferences=a.reading.references;
   if(a.listeningType)extra.listeningType=a.listeningType;

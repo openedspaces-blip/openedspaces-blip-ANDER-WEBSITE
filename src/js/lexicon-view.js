@@ -6,8 +6,6 @@
     english: 'Inglés', spanish: 'Español', french: 'Francés', italian: 'Italiano',
     portuguese: 'Portugués', german: 'Alemán'
   };
-  const FREE_ADJECTIVE_LIMIT = 25;
-  const FREE_ADVERB_CATEGORIES = new Set(['frecuencia', 'modo', 'lugar']);
   const renderedReferences = new Map();
   const adjectiveRows = {
     english: [
@@ -581,24 +579,14 @@ worthwhile|que vale la pena|worthless`.trim().split('\n').map((line) => {
     const language = languages[selectedLanguage] ? selectedLanguage : 'english';
     renderedReferences.set(section, { kind, language });
     const allRows = kind === 'adjectives' ? adjectiveRows[language] : adverbSeeds[language];
-    const anonymousPreview = typeof authStatus === 'undefined' || !authStatus.session?.access_token;
-    const isFreeMember = !anonymousPreview && !document.body.classList.contains('is-premium-user');
-    const previewCount = Math.max(1, Math.floor(allRows.length * 0.25));
-    let rows = allRows;
-    if (anonymousPreview) rows = allRows.slice(0, previewCount);
-    if (isFreeMember) {
-      rows = kind === 'adjectives'
-        ? allRows.slice(0, FREE_ADJECTIVE_LIMIT)
-        : allRows.filter((row) => FREE_ADVERB_CATEGORIES.has(row[2]));
-    }
+    // The complete academic catalogue is available in Free and Premium.
+    // Premium removes transition advertising and retains its enhanced tools.
+    const anonymousPreview = false;
+    const rows = allRows;
     const allCategories = ['todos', ...new Set(allRows.map((row) => row[2]))];
-    const categories = kind === 'adverbs'
-      ? (isFreeMember ? allCategories.filter((category) => category === 'todos' || FREE_ADVERB_CATEGORIES.has(category)) : allCategories)
-      : ['todos'];
+    const categories = kind === 'adverbs' ? allCategories : ['todos'];
     const countLabel = kind === 'adjectives' ? 'adjetivos' : 'adverbios y conectores';
-    const freeNotice = isFreeMember
-      ? `<p class="lexicon-access-note"><strong>Plan Free:</strong> ${kind === 'adjectives' ? `acceso a ${FREE_ADJECTIVE_LIMIT} adjetivos esenciales por idioma.` : 'acceso a adverbios de frecuencia, modo y lugar.'} <button type="button" class="inline-link upgrade-btn">Ver Premium</button></p>`
-      : '';
+    const freeNotice = '';
     content.innerHTML = `<section class="lexicon-reference" data-kind="${kind}" data-language="${language}"><header class="lexicon-reference-head"><div><span>FLASHCARDS DE VOCABULARIO</span><h2>${kind === 'adjectives' ? 'Adjetivos: comparativo y superlativo' : 'Adverbios por función'}</h2><p>${kind === 'adjectives' ? 'Gira cada tarjeta para comparar sus formas y descubrir el antónimo.' : 'Cada tarjeta muestra el adverbio, su guía fonética y significado. Tócala para escucharlo y abre «Ver más» para los ejemplos.'}</p></div><label>Idioma <select class="lexicon-language">${Object.entries(languages).map(([key,label]) => `<option value="${key}"${key === language ? ' selected' : ''}>${label}</option>`).join('')}</select></label></header><div class="lexicon-toolbar"><label>Buscar <input class="lexicon-search" type="search" placeholder="Escribe una palabra…"></label>${kind === 'adverbs' ? `<div class="lexicon-categories">${categories.map((category) => `<button type="button" data-category="${category}" class="${category === 'todos' ? 'is-active' : ''}">${category}</button>`).join('')}</div>` : ''}</div>${freeNotice}<p class="lexicon-count"><strong>${rows.length}</strong> ${countLabel} en ${languages[language]}${anonymousPreview ? ` · muestra gratuita del 25%` : ''}</p><div class="lexicon-flashcard-grid">${rows.map((row) => flashcardHtml(row, kind, language)).join('')}</div>${anonymousPreview ? '<button type="button" class="secondary-btn upgrade-btn lexicon-preview-upgrade">Desbloquear el contenido completo</button>' : ''}<p class="lexicon-source-note">Fuentes léxicas: <a href="https://kaikki.org/" target="_blank" rel="noopener">Kaikki/Wiktionary</a>. Ejemplos de uso: <a href="https://tatoeba.org/" target="_blank" rel="noopener">Tatoeba</a>.</p></section>`;
     const apply = () => { const query = content.querySelector('.lexicon-search').value.trim().toLowerCase(); const active = content.querySelector('.lexicon-categories .is-active')?.dataset.category || 'todos'; let count = 0; content.querySelectorAll('.lexicon-flashcard').forEach((row) => { const show = (!query || row.dataset.search.includes(query)) && (active === 'todos' || row.dataset.category === active); row.hidden = !show; if (show) count += 1; }); content.querySelector('.lexicon-count').innerHTML = `<strong>${count}</strong> ${kind === 'adjectives' ? 'adjetivos visibles' : 'adverbios y conectores visibles'} en ${languages[language]}`; };
     content.querySelector('.lexicon-search').addEventListener('input', apply);

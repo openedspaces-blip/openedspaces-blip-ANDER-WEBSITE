@@ -203,6 +203,20 @@ function vocab(topic) {
 
 function grammarExercises(topic) {
   const name=topic[7], purpose=topic[8], rule=topic[9];
+  const contextualDistractors={
+    'adult-neuroplasticity':['Age affects learning, so individual outcomes follow a fixed timetable.','The average difference is large because every learner develops in the same way.','The evidence is incomplete, and no comparison can therefore be made.'],
+    'retrieval-spacing':['Learners retrieved the vocabulary repeatedly, and their recall improved a week later.','The researchers tested the spaced group after a delay, and retention was higher.','The researchers required each word to be produced because familiarity and recall differ.'],
+    'sleep-consolidation':['Participants completed the learning session and then slept before the delayed test.','The researchers measured consolidation after they encoded the words.','The protocol collects three measurements before it ends.'],
+    'incidental-acquisition':['Repeated exposure supports acquisition, and noticing follows automatically.','The results prove complete mastery rather than partial learning.','The glosses caused the gains in the comparison group.'],
+    'multimodal-learning':['The narrated diagram reduced search time, and the text-only version also did.','The second explanation repeated the first explanation with additional visual signalling.','The audio and diagram repeated the same information in every respect.'],
+    'interaction-output':['One participant said, “Negotiation improved comprehension.”','The teacher told the group, “Successful completion demonstrates acquisition.”','Learners noticed gaps, and their partners asked follow-up questions.'],
+    'corrective-feedback':['The researchers recommend that feedback is specific enough to prompt self-correction.','It is essential that the learner has time to respond before correction.','The protocol requires that each correction is coded by its interactional function.'],
+    'speech-perception':['The researchers increased speaker variability, and listeners identified the contrast more accurately.','Technicians normalised the recordings before listeners completed the task.','The model generated categories, and two phoneticians checked them.'],
+    'anxiety-attention':['Anxiety consumed fewer resources, so participants performed more consistently.','The task was less evaluative, so the observed difference did not persist.','The researchers measured prior anxiety and interpreted the contrast confidently.'],
+    'individual-differences':['Learners with stronger phonological memory recalled more unfamiliar forms.','The aptitude measure predicted part of the variation after instruction.','Several profiles emerged, and none justified a deficit label.'],
+    'contextual-vocabulary':['Repeated encounters supported richer connections between form and meaning.','The researchers measured lexical depth through collocation, register and polysemy.','Teachers recycled the words, and learners formed stronger associations.'],
+    'ai-language-tutoring':['The developer reports that the tutor improves fluency, and the gains are proven.','The system provides adaptive feedback, and the evaluation included a control group.','The pilot report proves that reminders caused learners to practise more.']
+  };
   const contextualExamples = {
     'adult-neuroplasticity': [
       'Although younger learners may progress faster on average, individual outcomes vary substantially.',
@@ -278,13 +292,16 @@ function grammarExercises(topic) {
     ]
   }[topic[0]];
   if (contextualExamples) {
+    const answerPositions=[0,0,1,1,2,2,3,3];
+    let shuffleState=[...topic[0]].reduce((hash,character)=>((hash*31+character.charCodeAt(0))>>>0),7);
+    for(let position=answerPositions.length-1;position>0;position-=1){
+      shuffleState=(shuffleState*1664525+1013904223)>>>0;
+      const swapIndex=shuffleState%(position+1);
+      [answerPositions[position],answerPositions[swapIndex]]=[answerPositions[swapIndex],answerPositions[position]];
+    }
     const applicationItems = contextualExamples.map((correct, index) => {
-      const answer = index % 4;
-      const options = [
-        'Even though the evidence is limited, it fixes development as a universal deadline.',
-        'While the issue is complex, it treats one result as definitively conclusive.',
-        'Although the claim needs support, it assumes every learner follows the same path.'
-      ];
+      const answer = answerPositions[index*2];
+      const options = [...contextualDistractors[topic[0]]];
       options.splice(answer, 0, correct);
       return q(
         `In grammar context ${index + 1} from “${topic[2]}”, which sentence applies ${name} accurately?`,
@@ -294,11 +311,11 @@ function grammarExercises(topic) {
       );
     });
     const analysisItems = contextualExamples.map((example, index) => {
-      const answer = (index + 1) % 4;
+      const answer = answerPositions[index*2+1];
       const options = [
-        `It treats “${example}” as proof that every learner follows the same fixed developmental path.`,
-        `It uses “${example}” to replace a qualified comparison with an absolute conclusion.`,
-        `It presents “${example}” as stylistic contrast without preserving the claim’s scope or limitation.`
+        `It preserves the topic but changes the claim’s evidential strength or scope: “${example}”`,
+        `It uses a related form while changing the agency, timing or logical relationship in the claim: “${example}”`,
+        `It retains the vocabulary but does not achieve the grammatical purpose required in this unit: “${example}”`
       ];
       options.splice(answer, 0, `It uses ${name} to ${purpose}: “${example}”`);
       return q(

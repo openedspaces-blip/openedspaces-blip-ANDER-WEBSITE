@@ -233,16 +233,26 @@ const grammar = {
 };
 
 function grammarTest(slug, exercises) {
+  const answerPositions = [0, 0, 1, 1, 2, 2, 3, 3];
+  let shuffleState = [...slug].reduce((hash, character) => ((hash * 31 + character.charCodeAt(0)) >>> 0), 7);
+  for (let index = answerPositions.length - 1; index > 0; index -= 1) {
+    shuffleState = (shuffleState * 1664525 + 1013904223) >>> 0;
+    const swapIndex = shuffleState % (index + 1);
+    [answerPositions[index], answerPositions[swapIndex]] = [answerPositions[swapIndex], answerPositions[index]];
+  }
   return {
     id: `english-b1-${slug}-grammar-test`,
     passingScore: 70,
     questions: exercises.map((exercise, index) => {
-      const correctId = `o${exercise.answer + 1}`;
+      const answer = answerPositions[index] ?? exercise.answer;
+      const options = exercise.options.filter((_, optionIndex) => optionIndex !== exercise.answer);
+      options.splice(answer, 0, exercise.options[exercise.answer]);
+      const correctId = `o${answer + 1}`;
       return {
         id: `q${index + 1}`,
         type: 'mcq',
         prompt: exercise.prompt,
-        options: exercise.options.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
+        options: options.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
         correctOptionId: correctId,
         explanation: exercise.explanation,
         difficulty: index < 2 ? 'easy' : index < 6 ? 'medium' : 'hard'

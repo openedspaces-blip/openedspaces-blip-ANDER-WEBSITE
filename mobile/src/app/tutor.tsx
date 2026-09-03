@@ -1,41 +1,124 @@
-import { router } from 'expo-router';
 import * as Speech from 'expo-speech';
 import { Image } from 'expo-image';
 import { ExpoSpeechRecognitionModule, useSpeechRecognitionEvent } from 'expo-speech-recognition';
-import { useMemo, useState } from 'react';
+import { router } from 'expo-router';
+import { useEffect, useMemo, useState } from 'react';
 import { KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
+import { useAuth } from '@/context/auth';
 import { useGame } from '@/context/game';
 
-type Message={role:'student'|'tutor';text:string};
-const CONFIG={english:{label:'Inglés',locale:'en-US',welcome:'Hello! I am your ANDERGO tutor. Tell me about your day.',suggestions:['Hello! My name is…','How are you?','Help me practice English']},french:{label:'Francés',locale:'fr-FR',welcome:'Bonjour ! Je suis ton tuteur ANDERGO. Parle-moi de ta journée.',suggestions:['Bonjour ! Je m’appelle…','Comment ça va ?','Aide-moi à pratiquer le français']},spanish:{label:'Español',locale:'es-ES',welcome:'¡Hola! Soy tu tutor ANDERGO. Cuéntame cómo fue tu día.',suggestions:['Hola, me llamo…','¿Cómo estás?','Ayúdame a practicar español']},italian:{label:'Italiano',locale:'it-IT',welcome:'Ciao! Sono il tuo tutor ANDERGO. Raccontami della tua giornata.',suggestions:['Ciao! Mi chiamo…','Come stai?','Aiutami a praticare italiano']},portuguese:{label:'Portugués',locale:'pt-BR',welcome:'Olá! Sou seu tutor ANDERGO. Conte-me como foi seu dia.',suggestions:['Olá! Meu nome é…','Como você está?','Ajude-me a praticar português']},german:{label:'Alemán',locale:'de-DE',welcome:'Hallo! Ich bin dein ANDERGO Tutor. Erzähl mir von deinem Tag.',suggestions:['Hallo! Ich heiße…','Wie geht es dir?','Hilf mir, Deutsch zu üben']}} as const;
+const API = 'https://andergo.online';
+type Message = { role: 'student' | 'tutor'; text: string };
+const CONFIG = {
+  english: { label: 'Inglés', locale: 'en-US', welcome: 'Hello! I am your ANDERGO tutor. What would you like to practice today?', suggestions: ['Help me practice English', 'Correct this sentence', 'Give me a short conversation'] },
+  french: { label: 'Francés', locale: 'fr-FR', welcome: 'Bonjour ! Je suis ton tuteur ANDERGO. Que veux-tu pratiquer aujourd’hui ?', suggestions: ['Aide-moi à pratiquer le français', 'Corrige cette phrase', 'Créons un dialogue court'] },
+  spanish: { label: 'Español', locale: 'es-ES', welcome: '¡Hola! Soy tu tutor ANDERGO. ¿Qué quieres practicar hoy?', suggestions: ['Ayúdame a practicar español', 'Corrige esta frase', 'Hagamos un diálogo corto'] },
+  italian: { label: 'Italiano', locale: 'it-IT', welcome: 'Ciao! Sono il tuo tutor ANDERGO. Che cosa vuoi praticare oggi?', suggestions: ['Aiutami a praticare italiano', 'Correggi questa frase', 'Facciamo un dialogo breve'] },
+  portuguese: { label: 'Portugués', locale: 'pt-BR', welcome: 'Olá! Sou seu tutor ANDERGO. O que você quer praticar hoje?', suggestions: ['Ajude-me a praticar português', 'Corrija esta frase', 'Vamos criar um diálogo curto'] },
+  german: { label: 'Alemán', locale: 'de-DE', welcome: 'Hallo! Ich bin dein ANDERGO Tutor. Was möchtest du heute üben?', suggestions: ['Hilf mir, Deutsch zu üben', 'Korrigiere diesen Satz', 'Lass uns einen kurzen Dialog machen'] },
+} as const;
 
-function localReply(language:keyof typeof CONFIG,input:string){
- const text=input.toLowerCase();
- if(language==='french'){if(text.includes('comment')||text.includes('ça va'))return 'Ça va très bien, merci ! Et toi, comment vas-tu aujourd’hui ?';if(text.includes('m’appelle')||text.includes('appelle'))return 'Enchanté ! Ton introduction est très claire. De quelle ville viens-tu ?';return 'Très bien ! Continue en français. Peux-tu me donner un exemple avec cette expression ?';}
- if(language==='spanish'){if(text.includes('cómo estás'))return '¡Estoy muy bien, gracias! ¿Y tú, cómo te sientes hoy?';if(text.includes('me llamo'))return '¡Mucho gusto! Tu presentación está muy bien. ¿De qué ciudad eres?';return '¡Muy bien! Sigue practicando. ¿Puedes contarme un poco más?';}
- if(language==='italian'){if(text.includes('come stai'))return 'Sto molto bene, grazie! E tu, come stai oggi?';if(text.includes('mi chiamo'))return 'Piacere di conoscerti! Di quale città sei?';return 'Benissimo! Continua in italiano. Puoi raccontarmi qualcosa in più?';}
- if(language==='portuguese'){if(text.includes('como você está')||text.includes('como voce esta'))return 'Estou muito bem, obrigado! E você, como está hoje?';if(text.includes('meu nome'))return 'Prazer em conhecer você! Sua apresentação está muito clara. De que cidade você é?';return 'Muito bem! Continue praticando em português. Pode me contar mais um pouco?';}
- if(language==='german'){if(text.includes('wie geht'))return 'Mir geht es sehr gut, danke! Und dir, wie geht es heute?';if(text.includes('ich heiße')||text.includes('ich heisse'))return 'Freut mich! Deine Vorstellung ist sehr klar. Aus welcher Stadt kommst du?';return 'Sehr gut! Sprich weiter auf Deutsch. Kannst du mir noch ein Beispiel geben?';}
- if(text.includes('how are'))return 'I am great, thank you! How are you feeling today?';if(text.includes('my name'))return 'Nice to meet you! Your introduction is correct. Where are you from?';return 'Good job! Keep speaking in English. Can you tell me a little more?';
+function readTutorEvents(raw: string) {
+  let reply = '';
+  let error = '';
+  for (const line of raw.split(/\r?\n/)) {
+    if (!line.startsWith('data:')) continue;
+    try {
+      const event = JSON.parse(line.slice(5).trim()) as { delta?: string; error?: boolean; message?: string };
+      if (event.delta) reply += event.delta;
+      if (event.error) error = event.message || 'No se pudo conectar con el Tutor I.A.';
+    } catch { /* Ignore malformed stream fragments. */ }
+  }
+  return { reply: reply.trim(), error };
 }
 
-export default function TutorScreen(){
- const game=useGame(); const config=CONFIG[game.targetLanguage]; const welcome=config.welcome; const [messages,setMessages]=useState<Message[]>([{role:'tutor',text:welcome}]); const [input,setInput]=useState(''); const [listening,setListening]=useState(false); const [voiceError,setVoiceError]=useState(''); const suggestions=useMemo(()=>config.suggestions,[config]);
- function speak(text:string){Speech.stop();Speech.speak(text,{language:config.locale,rate:.82});}
- function send(value=input){const clean=value.trim();if(!clean)return;const reply=localReply(game.targetLanguage,clean);setMessages(current=>[...current,{role:'student',text:clean},{role:'tutor',text:reply}]);setInput('');setTimeout(()=>speak(reply),250);}
- useSpeechRecognitionEvent('start',()=>{setListening(true);setVoiceError('');});
- useSpeechRecognitionEvent('end',()=>setListening(false));
- useSpeechRecognitionEvent('result',event=>{const transcript=event.results[0]?.transcript??'';setInput(transcript);if(event.isFinal&&transcript.trim())send(transcript);});
- useSpeechRecognitionEvent('error',event=>{setListening(false);setVoiceError(event.error==='not-allowed'?'Activa el permiso del micrófono para hablar.':'No pude escuchar con claridad. Inténtalo de nuevo.');});
- const talk=async()=>{if(listening){ExpoSpeechRecognitionModule.stop();return;}Speech.stop();const permission=await ExpoSpeechRecognitionModule.requestPermissionsAsync();if(!permission.granted){setVoiceError('Necesito permiso para usar el micrófono.');return;}ExpoSpeechRecognitionModule.start({lang:config.locale,interimResults:true,continuous:false,maxAlternatives:1});};
- return <ThemedView style={s.screen}><SafeAreaView style={s.safe}><KeyboardAvoidingView style={s.safe} behavior={Platform.OS==='ios'?'padding':undefined}>
-  <View style={s.header}><Pressable onPress={()=>router.back()} style={s.back}><ThemedText style={s.backText}>‹</ThemedText></Pressable><Image source={require('@/assets/images/andergo-tutor-official.png')} style={s.avatar} contentFit="cover" contentPosition="top"/><View style={s.titleCopy}><ThemedText style={s.kicker}>ANDERGO TUTOR</ThemedText><ThemedText style={s.title}>Conversación en {config.label}</ThemedText><ThemedText style={s.online}>{listening?'● Escuchando…':'● Disponible para practicar'}</ThemedText></View></View>
-  <ScrollView contentContainerStyle={s.messages}>{messages.map((message,index)=><View key={`${message.role}-${index}`} style={[s.bubble,message.role==='student'?s.student:s.tutor]}><ThemedText style={[s.messageText,message.role==='student'&&s.studentText]}>{message.text}</ThemedText>{message.role==='tutor'?<Pressable accessibilityLabel="Escuchar respuesta" onPress={()=>speak(message.text)} style={s.speak}><ThemedText style={s.speakText}>🔊 Escuchar</ThemedText></Pressable>:null}</View>)}</ScrollView>
-  <View style={s.suggestions}>{suggestions.map(item=><Pressable key={item} onPress={()=>send(item)} style={s.chip}><ThemedText style={s.chipText}>{item}</ThemedText></Pressable>)}</View>
-  {voiceError?<ThemedText style={s.voiceError}>{voiceError}</ThemedText>:null}<View style={s.composer}><Pressable accessibilityLabel={listening?'Detener micrófono':'Hablar con Andergo Tutor'} onPress={talk} style={[s.mic,listening&&s.micActive]}><ThemedText style={s.micIcon}>{listening?'■':'🎙️'}</ThemedText></Pressable><TextInput value={input} onChangeText={setInput} onSubmitEditing={()=>send()} placeholder={listening?'Estoy escuchando…':`Escribe o habla en ${config.label.toLowerCase()}…`} style={s.input} returnKeyType="send"/><Pressable onPress={()=>send()} style={s.send}><ThemedText style={s.sendText}>➤</ThemedText></Pressable></View>
- </KeyboardAvoidingView></SafeAreaView></ThemedView>;
+export default function TutorScreen() {
+  const { session } = useAuth();
+  const { targetLanguage } = useGame();
+  const config = CONFIG[targetLanguage];
+  const [messages, setMessages] = useState<Message[]>([{ role: 'tutor', text: config.welcome }]);
+  const [input, setInput] = useState('');
+  const [listening, setListening] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [voiceError, setVoiceError] = useState('');
+  const [requestError, setRequestError] = useState('');
+  const suggestions = useMemo(() => config.suggestions, [config]);
+
+  // Keep the opening prompt coherent when the learner changes language
+  // before beginning a conversation, without discarding an active chat.
+  useEffect(() => {
+    setMessages((current) => current.length === 1 && current[0].role === 'tutor'
+      ? [{ role: 'tutor', text: config.welcome }]
+      : current);
+  }, [config.welcome]);
+  useEffect(() => () => { Speech.stop(); }, []);
+
+  const speak = (text: string) => { Speech.stop(); Speech.speak(text, { language: config.locale, rate: 0.82 }); };
+  const send = async (value = input) => {
+    const clean = value.trim();
+    if (!clean || busy) return;
+    if (!session?.access_token) {
+      setRequestError('Inicia sesión para usar el Tutor I.A. de ANDERGO.');
+      return;
+    }
+    const previousHistory = messages.slice(-12).map((message) => ({ role: message.role, content: message.text }));
+    setMessages((current) => [...current, { role: 'student', text: clean }]);
+    setInput('');
+    setBusy(true);
+    setRequestError('');
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 30_000);
+    try {
+      const response = await fetch(`${API}/api/ai/tutor`, {
+        method: 'POST',
+        signal: controller.signal,
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${session.access_token}` },
+        body: JSON.stringify({
+          task: 'general', language: targetLanguage, nativeLanguage: 'spanish', learningMode: 'bilingual',
+          skill: 'speaking', level: 'A1', contextScope: 'general', prompt: clean, history: previousHistory,
+        }),
+      });
+      const raw = await response.text();
+      if (!response.ok) {
+        const body = JSON.parse(raw || '{}') as { error?: string };
+        throw new Error(body.error || 'No se pudo conectar con el Tutor I.A.');
+      }
+      const result = readTutorEvents(raw);
+      if (result.error) throw new Error(result.error);
+      if (!result.reply) throw new Error('El Tutor I.A. no devolvió una respuesta. Inténtalo de nuevo.');
+      setMessages((current) => [...current, { role: 'tutor', text: result.reply }]);
+      speak(result.reply);
+    } catch (reason) {
+      const timedOut = reason instanceof Error && reason.name === 'AbortError';
+      setRequestError(timedOut ? 'El Tutor tardó demasiado. Comprueba tu conexión e inténtalo de nuevo.' : reason instanceof Error ? reason.message : 'No se pudo conectar con el Tutor I.A.');
+    } finally {
+      clearTimeout(timeout);
+      setBusy(false);
+    }
+  };
+
+  useSpeechRecognitionEvent('start', () => { setListening(true); setVoiceError(''); });
+  useSpeechRecognitionEvent('end', () => setListening(false));
+  useSpeechRecognitionEvent('result', (event) => { const transcript = event.results[0]?.transcript ?? ''; setInput(transcript); if (event.isFinal && transcript.trim()) void send(transcript); });
+  useSpeechRecognitionEvent('error', (event) => { setListening(false); setVoiceError(event.error === 'not-allowed' ? 'Activa el permiso del micrófono para hablar.' : 'No pude escuchar con claridad. Inténtalo de nuevo.'); });
+  const talk = async () => {
+    if (listening) { ExpoSpeechRecognitionModule.stop(); return; }
+    Speech.stop();
+    const permission = await ExpoSpeechRecognitionModule.requestPermissionsAsync();
+    if (!permission.granted) { setVoiceError('Necesito permiso para usar el micrófono.'); return; }
+    ExpoSpeechRecognitionModule.start({ lang: config.locale, interimResults: true, continuous: false, maxAlternatives: 1 });
+  };
+
+
+  return <SafeAreaView style={s.safe} edges={['top']}><KeyboardAvoidingView style={s.safe} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+    <View style={s.header}><Pressable onPress={() => router.back()} style={s.back}><ThemedText style={s.backText}>‹</ThemedText></Pressable><Image source={require('@/assets/images/andergo-tutor-official.png')} style={s.avatar} contentFit="cover" contentPosition="top" /><View style={s.titleCopy}><ThemedText style={s.kicker}>TUTOR I.A. OFICIAL</ThemedText><ThemedText style={s.title}>Conversación en {config.label}</ThemedText><ThemedText style={s.online}>{busy ? '● Consultando ANDERGO…' : listening ? '● Escuchando…' : '● Disponible'}</ThemedText></View></View>
+    <ScrollView contentContainerStyle={s.messages}>{messages.map((message, index) => <View key={`${message.role}-${index}`} style={[s.bubble, message.role === 'student' ? s.student : s.tutor]}><ThemedText style={[s.messageText, message.role === 'student' && s.studentText]}>{message.text}</ThemedText>{message.role === 'tutor' ? <Pressable accessibilityLabel="Escuchar respuesta" onPress={() => speak(message.text)} style={s.speak}><ThemedText style={s.speakText}>🔊 Escuchar</ThemedText></Pressable> : null}</View>)}</ScrollView>
+    <View style={s.suggestions}>{suggestions.map((item) => <Pressable disabled={busy} key={item} onPress={() => void send(item)} style={[s.chip, busy && s.disabled]}><ThemedText style={s.chipText}>{item}</ThemedText></Pressable>)}</View>
+    {voiceError ? <ThemedText style={s.error}>{voiceError}</ThemedText> : null}{requestError ? <ThemedText style={s.error}>{requestError}</ThemedText> : null}
+    <View style={s.composer}><Pressable accessibilityLabel={listening ? 'Detener micrófono' : 'Hablar con Andergo Tutor'} onPress={talk} style={[s.mic, listening && s.micActive]}><ThemedText style={s.micIcon}>{listening ? '■' : '🎙️'}</ThemedText></Pressable><TextInput editable={!busy} value={input} onChangeText={setInput} onSubmitEditing={() => void send()} placeholder={listening ? 'Estoy escuchando…' : `Escribe o habla en ${config.label.toLowerCase()}…`} style={s.input} returnKeyType="send" /><Pressable disabled={busy} onPress={() => void send()} style={[s.send, busy && s.disabled]}><ThemedText style={s.sendText}>➤</ThemedText></Pressable></View>
+  </KeyboardAvoidingView></SafeAreaView>;
 }
-const s=StyleSheet.create({screen:{flex:1},safe:{flex:1},header:{padding:14,flexDirection:'row',alignItems:'center',gap:11,borderBottomWidth:1,borderColor:'#E2E8F0'},back:{width:42,height:42,borderRadius:21,alignItems:'center',justifyContent:'center',backgroundColor:'#FFF'},backText:{fontSize:32,color:'#2563EB'},avatar:{width:54,height:54,borderRadius:18,backgroundColor:'#EAF2FF'},titleCopy:{flex:1},kicker:{fontSize:10,fontWeight:'900',letterSpacing:1.1,color:'#2563EB'},title:{fontSize:18,fontWeight:'900'},online:{fontSize:10,fontWeight:'700',color:'#059669',marginTop:2},messages:{padding:18,gap:12},bubble:{maxWidth:'86%',padding:14,borderRadius:20},tutor:{alignSelf:'flex-start',backgroundColor:'#FFF',borderWidth:1,borderColor:'#BFDBFE'},student:{alignSelf:'flex-end',backgroundColor:'#2563EB'},messageText:{fontSize:15,lineHeight:21},studentText:{color:'#FFF'},speak:{marginTop:9,alignSelf:'flex-start'},speakText:{fontSize:11,fontWeight:'900',color:'#2563EB'},suggestions:{paddingHorizontal:14,paddingVertical:8,flexDirection:'row',gap:7},chip:{flex:1,minHeight:48,padding:7,borderRadius:14,alignItems:'center',justifyContent:'center',backgroundColor:'#EAF2FF'},chipText:{fontSize:10,fontWeight:'800',textAlign:'center',color:'#173F91'},voiceError:{paddingHorizontal:16,paddingVertical:5,fontSize:11,fontWeight:'700',color:'#DC2626',backgroundColor:'#FEF2F2'},composer:{padding:12,flexDirection:'row',gap:8,borderTopWidth:1,borderColor:'#E2E8F0',backgroundColor:'#FFF'},mic:{width:50,height:50,borderRadius:17,alignItems:'center',justifyContent:'center',backgroundColor:'#DBEAFE'},micActive:{backgroundColor:'#FEE2E2',borderWidth:2,borderColor:'#EF4444'},micIcon:{fontSize:21},input:{flex:1,minHeight:50,borderRadius:17,paddingHorizontal:13,backgroundColor:'#F1F5F9',fontSize:14},send:{width:50,height:50,borderRadius:17,alignItems:'center',justifyContent:'center',backgroundColor:'#2563EB'},sendText:{fontSize:20,color:'#FFF'}});
+
+const s = StyleSheet.create({ safe:{flex:1,backgroundColor:'#F6F8FD'},loading:{flex:1,alignItems:'center',justifyContent:'center'},loadingText:{fontSize:14,fontWeight:'800',color:'#64748B'},header:{padding:14,flexDirection:'row',alignItems:'center',gap:11,borderBottomWidth:1,borderColor:'#E2E8F0',backgroundColor:'#FFF'},back:{width:42,height:42,borderRadius:21,alignItems:'center',justifyContent:'center',backgroundColor:'#F1F5F9'},backText:{fontSize:32,color:'#2563EB'},avatar:{width:54,height:54,borderRadius:18,backgroundColor:'#EAF2FF'},titleCopy:{flex:1},kicker:{fontSize:10,fontWeight:'900',letterSpacing:1.1,color:'#2563EB'},title:{fontSize:18,fontWeight:'900',color:'#172554'},online:{fontSize:10,fontWeight:'700',color:'#059669',marginTop:2},messages:{padding:18,gap:12},bubble:{maxWidth:'86%',padding:14,borderRadius:20},tutor:{alignSelf:'flex-start',backgroundColor:'#FFF',borderWidth:1,borderColor:'#BFDBFE'},student:{alignSelf:'flex-end',backgroundColor:'#2563EB'},messageText:{fontSize:15,lineHeight:21,color:'#172554'},studentText:{color:'#FFF'},speak:{marginTop:9,alignSelf:'flex-start'},speakText:{fontSize:11,fontWeight:'900',color:'#2563EB'},suggestions:{paddingHorizontal:14,paddingVertical:8,flexDirection:'row',gap:7},chip:{flex:1,minHeight:48,padding:7,borderRadius:14,alignItems:'center',justifyContent:'center',backgroundColor:'#EAF2FF'},chipText:{fontSize:10,fontWeight:'800',textAlign:'center',color:'#173F91'},error:{paddingHorizontal:16,paddingVertical:7,fontSize:11,fontWeight:'700',color:'#B91C1C',backgroundColor:'#FEF2F2'},composer:{padding:12,flexDirection:'row',gap:8,borderTopWidth:1,borderColor:'#E2E8F0',backgroundColor:'#FFF'},mic:{width:50,height:50,borderRadius:17,alignItems:'center',justifyContent:'center',backgroundColor:'#DBEAFE'},micActive:{backgroundColor:'#FEE2E2',borderWidth:2,borderColor:'#EF4444'},micIcon:{fontSize:21},input:{flex:1,minHeight:50,borderRadius:17,paddingHorizontal:13,backgroundColor:'#F1F5F9',fontSize:14,color:'#172554'},send:{width:50,height:50,borderRadius:17,alignItems:'center',justifyContent:'center',backgroundColor:'#2563EB'},sendText:{fontSize:20,color:'#FFF'},disabled:{opacity:.45} });

@@ -12,6 +12,7 @@ function activityRow(unit, skill, index) {
   const activity = unit.activities[skill];
   const extra = {};
   if (activity.grammarTest) extra.grammarTest = activity.grammarTest;
+  if (activity.listeningComprehension) extra.listeningComprehension = activity.listeningComprehension;
   if (activity.grammarProfile) extra.grammarProfile = activity.grammarProfile;
   if (activity.reading?.references?.length) extra.readingReferences = activity.reading.references;
   if (activity.listeningType) extra.listeningType = activity.listeningType;

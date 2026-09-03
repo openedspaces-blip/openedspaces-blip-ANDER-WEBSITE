@@ -46,7 +46,7 @@
     ],
     "reading": {
       "title": "Português (Brasil) A1 Reading",
-      "text": "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem.",
+      "text": "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.",
       "questions": [
         "Onde está Luana?",
         "Com quem Luana conversa?",
@@ -97,7 +97,7 @@
     ],
     "reading": {
       "title": "Português (Brasil) A2 Reading",
-      "text": "Luana está em Recife. Hoje ela aprende a contar experiência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Foi uma viagem importante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lembrança, encontro, mudar e futuro.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Foi uma viagem importante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.",
+      "text": "Luana está em Recife. Hoje ela aprende a contar experiência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Foi uma viagem importante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lembrança, encontro, mudar e futuro.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Foi uma viagem importante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.",
       "questions": [
         "Onde está Luana?",
         "Com quem Luana conversa?",
@@ -843,53 +843,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a cumprimentar e apresentar-se. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Oi, tudo bem?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: oi, bom dia, prazer e obrigada.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Oi, tudo bem?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a cumprimentar e apresentar-se. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Oi, tudo bem?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: oi, bom dia, prazer e obrigada.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Oi, tudo bem?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "cumprimentar e apresentar-se",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "cumprimentar e apresentar-se",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -925,64 +901,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a descrever rotina. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Normalmente vou de ônibus.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: bairro, parada, trabalho e serviço.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Normalmente vou de ônibus.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a descrever rotina. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Normalmente vou de ônibus.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: bairro, parada, trabalho e serviço.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Normalmente vou de ônibus.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "ônibus",
-          "bairro",
-          "parada"
+          "descrever rotina",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ vou de ônibus.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "participar",
-          "Normalmente",
-          "situações",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "vou",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "vou",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "vou",
-          "rua"
+          "descrever rotina",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -1066,9 +1007,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Período condicional",
-        "definition": "Práctica guiada de Período condicional.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -2647,185 +2588,40 @@
       "bom dia"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Olá! Meu nome é Ana e eu sou de Portugal. Hoje chego ao Brasil pela primeira vez. No aeroporto, um motorista pergunta: “Você vai para o hotel?” Eu digo: “Sim, por favor.” O hotel fica no centro de São Paulo. Estou cansada, mas muito feliz. Amanhã quero conhecer a cidade e provar comida brasileira. Depois de deixar as malas no hotel, eu ligo para minha família. Digo que a viagem foi tranquila e que estou segura. À noite, descanso um pouco e olho a cidade pela janela do quarto.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-chegando-ao-brasil-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Olá…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Meu nome é Ana e eu sou de Portugal."
-              },
-              {
-                "id": "o2",
-                "text": "Olá!"
-              },
-              {
-                "id": "o3",
-                "text": "Hoje chego ao Brasil pela primeira vez."
-              },
-              {
-                "id": "o4",
-                "text": "No aeroporto, um motorista pergunta: “Você vai para o hotel?”"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “No aeroporto um motorista…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Olá!"
-              },
-              {
-                "id": "o2",
-                "text": "Meu nome é Ana e eu sou de Portugal."
-              },
-              {
-                "id": "o3",
-                "text": "No aeroporto, um motorista pergunta: “Você vai para o hotel?”"
-              },
-              {
-                "id": "o4",
-                "text": "Hoje chego ao Brasil pela primeira vez."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Amanhã quero conhecer…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Olá!"
-              },
-              {
-                "id": "o2",
-                "text": "Meu nome é Ana e eu sou de Portugal."
-              },
-              {
-                "id": "o3",
-                "text": "Hoje chego ao Brasil pela primeira vez."
-              },
-              {
-                "id": "o4",
-                "text": "Amanhã quero conhecer a cidade e provar comida brasileira."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “À noite descanso um pouco…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "À noite, descanso um pouco e olho a cidade pela janela do quarto."
-              },
-              {
-                "id": "o2",
-                "text": "Olá!"
-              },
-              {
-                "id": "o3",
-                "text": "Meu nome é Ana e eu sou de Portugal."
-              },
-              {
-                "id": "o4",
-                "text": "Hoje chego ao Brasil pela primeira vez."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Oi, tudo bem?",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Olá! Meu nome é Ana e eu sou de Portugal. Hoje chego ao Brasil pela primeira vez. No aeroporto, um motorista pergunta: “Você vai para o hotel?” Eu digo: “Sim, por favor.” O hotel fica no centro de São Paulo. Estou cansada, mas muito feliz. Amanhã quero conhecer a cidade e provar comida brasileira. Depois de deixar as malas no hotel, eu ligo para minha família. Digo que a viagem foi tranquila e que estou segura. À noite, descanso um pouco e olho a cidade pela janela do quarto.",
-      "transcriptSegments": [
-        {
-          "text": "Olá!"
-        },
-        {
-          "text": "Meu nome é Ana e eu sou de Portugal."
-        },
-        {
-          "text": "Hoje chego ao Brasil pela primeira vez."
-        },
-        {
-          "text": "No aeroporto, um motorista pergunta: “Você vai para o hotel?”"
-        },
-        {
-          "text": "Eu digo: “Sim, por favor.”"
-        },
-        {
-          "text": "O hotel fica no centro de São Paulo."
-        },
-        {
-          "text": "Estou cansada, mas muito feliz."
-        },
-        {
-          "text": "Amanhã quero conhecer a cidade e provar comida brasileira."
-        },
-        {
-          "text": "Depois de deixar as malas no hotel, eu ligo para minha família."
-        },
-        {
-          "text": "Digo que a viagem foi tranquila e que estou segura."
-        },
-        {
-          "text": "À noite, descanso um pouco e olho a cidade pela janela do quarto."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de oi.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Oi, tudo bem? Falamos de oi. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Olá…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Meu nome é Ana e eu sou de Portugal.",
-          "Olá!",
-          "Hoje chego ao Brasil pela primeira vez.",
-          "No aeroporto, um motorista pergunta: “Você vai para o hotel?”"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “No aeroporto um motorista…”",
-        "options": [
-          "Olá!",
-          "Meu nome é Ana e eu sou de Portugal.",
-          "No aeroporto, um motorista pergunta: “Você vai para o hotel?”",
-          "Hoje chego ao Brasil pela primeira vez."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Amanhã quero conhecer…”",
-        "options": [
-          "Olá!",
-          "Meu nome é Ana e eu sou de Portugal.",
-          "Hoje chego ao Brasil pela primeira vez.",
-          "Amanhã quero conhecer a cidade e provar comida brasileira."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “À noite descanso um pouco…”",
-        "options": [
-          "À noite, descanso um pouco e olho a cidade pela janela do quarto.",
-          "Olá!",
-          "Meu nome é Ana e eu sou de Portugal.",
-          "Hoje chego ao Brasil pela primeira vez."
+          "Oi, tudo bem?",
+          "oi",
+          "bom dia",
+          "prazer"
         ]
       }
     ]
@@ -2851,179 +2647,40 @@
       "parada"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto. Acordo cedo, preparo um café simples e pego o ônibus para o trabalho. No caminho, escuto um podcast em português para aprender palavras novas. Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório. Às vezes almoçamos em um restaurante por quilo; outras vezes levamos comida de casa. No fim da tarde, passo no mercado ou na academia antes de voltar. A cidade é movimentada, mas encontrei lugares tranquilos que fazem parte do meu dia. No fim de semana, gosto de cozinhar com calma e ligar para minha família. Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-rotina-na-cidade-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Moro em Belo Horizonte há…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
-              },
-              {
-                "id": "o2",
-                "text": "No caminho, escuto um podcast em português para aprender palavras novas."
-              },
-              {
-                "id": "o3",
-                "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
-              },
-              {
-                "id": "o4",
-                "text": "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Na hora do almoço normalmente…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
-              },
-              {
-                "id": "o2",
-                "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
-              },
-              {
-                "id": "o3",
-                "text": "No caminho, escuto um podcast em português para aprender palavras novas."
-              },
-              {
-                "id": "o4",
-                "text": "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “No fim da tarde passo…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No fim da tarde, passo no mercado ou na academia antes de voltar."
-              },
-              {
-                "id": "o2",
-                "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
-              },
-              {
-                "id": "o3",
-                "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
-              },
-              {
-                "id": "o4",
-                "text": "No caminho, escuto um podcast em português para aprender palavras novas."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Ainda descubro lugares novos mas…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
-              },
-              {
-                "id": "o2",
-                "text": "Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui."
-              },
-              {
-                "id": "o3",
-                "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
-              },
-              {
-                "id": "o4",
-                "text": "No caminho, escuto um podcast em português para aprender palavras novas."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Normalmente vou de ônibus.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto. Acordo cedo, preparo um café simples e pego o ônibus para o trabalho. No caminho, escuto um podcast em português para aprender palavras novas. Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório. Às vezes almoçamos em um restaurante por quilo; outras vezes levamos comida de casa. No fim da tarde, passo no mercado ou na academia antes de voltar. A cidade é movimentada, mas encontrei lugares tranquilos que fazem parte do meu dia. No fim de semana, gosto de cozinhar com calma e ligar para minha família. Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui.",
-      "transcriptSegments": [
-        {
-          "text": "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto."
-        },
-        {
-          "text": "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho."
-        },
-        {
-          "text": "No caminho, escuto um podcast em português para aprender palavras novas."
-        },
-        {
-          "text": "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
-        },
-        {
-          "text": "Às vezes almoçamos em um restaurante por quilo; outras vezes levamos comida de casa."
-        },
-        {
-          "text": "No fim da tarde, passo no mercado ou na academia antes de voltar."
-        },
-        {
-          "text": "A cidade é movimentada, mas encontrei lugares tranquilos que fazem parte do meu dia."
-        },
-        {
-          "text": "No fim de semana, gosto de cozinhar com calma e ligar para minha família."
-        },
-        {
-          "text": "Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de bairro.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Normalmente vou de ônibus. Falamos de bairro. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Moro em Belo Horizonte há…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho.",
-          "No caminho, escuto um podcast em português para aprender palavras novas.",
-          "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
-          "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Na hora do almoço normalmente…”",
-        "options": [
-          "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
-          "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho.",
-          "No caminho, escuto um podcast em português para aprender palavras novas.",
-          "Na hora do almoço, normalmente caminho com uma colega até uma praça perto do escritório."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “No fim da tarde passo…”",
-        "options": [
-          "No fim da tarde, passo no mercado ou na academia antes de voltar.",
-          "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
-          "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho.",
-          "No caminho, escuto um podcast em português para aprender palavras novas."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Ainda descubro lugares novos mas…”",
-        "options": [
-          "Moro em Belo Horizonte há oito meses e já tenho uma rotina de que gosto.",
-          "Ainda descubro lugares novos, mas também aprendi a apreciar a rotina que construí aqui.",
-          "Acordo cedo, preparo um café simples e pego o ônibus para o trabalho.",
-          "No caminho, escuto um podcast em português para aprender palavras novas."
+          "Normalmente vou de ônibus.",
+          "bairro",
+          "parada",
+          "trabalho"
         ]
       }
     ]
@@ -3181,100 +2838,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "prioridade",
-        "translation": "prioridad",
-        "example": "A prioridade é terminar o relatório até sexta."
-      },
-      {
-        "word": "planejamento",
-        "translation": "planificación",
-        "example": "O planejamento ajudou a distribuir tarefas."
-      },
-      {
-        "word": "recurso",
-        "translation": "recurso",
-        "example": "Precisamos mais recursos para concluir o projeto."
-      },
-      {
-        "word": "antecipar",
-        "translation": "adelantar",
-        "example": "Podemos antecipar a reunião para amanhã."
-      },
-      {
-        "word": "contingência",
-        "translation": "contingencia",
-        "example": "Criamos um plano de contingência para imprevistos."
-      },
-      {
-        "word": "delegar",
-        "translation": "delegar",
-        "example": "Vou delegar essa tarefa ao colega."
-      },
-      {
-        "word": "prático",
-        "translation": "práctico",
-        "example": "Precisamos de uma solução prática e rápida."
-      },
-      {
-        "word": "revisar",
-        "translation": "revisar",
-        "example": "Vamos revisar o cronograma hoje."
-      },
-      {
-        "word": "compromisso",
-        "translation": "compromiso",
-        "example": "Tenho um compromisso com o cliente na terça."
-      },
-      {
-        "word": "viável",
-        "translation": "viable",
-        "example": "A proposta parece viável financeiramente."
-      },
-      {
-        "word": "Pode me ajudar?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Pode me ajudar com o relatório?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião",
-        "translation": "En mi opinión",
-        "example": "Na minha opinião, devemos priorizar isso.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você",
-        "translation": "Estoy de acuerdo contigo",
-        "example": "Concordo com você, é melhor começar agora.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida",
-        "translation": "Tengo una duda",
-        "example": "Tenho uma dúvida sobre o prazo.",
-        "category": "expression"
-      },
-      {
-        "word": "agendar",
-        "translation": "agendar",
-        "example": "Preciso agendar a próxima reunião."
-      },
-      {
-        "word": "fluxo de trabalho",
-        "translation": "flujo de trabajo",
-        "example": "O fluxo de trabalho precisa ser mais claro."
-      },
-      {
-        "word": "solução",
-        "translation": "solución",
-        "example": "Encontramos uma solução para o problema."
-      },
-      {
-        "word": "otimizar",
-        "translation": "optimizar",
-        "example": "Precisamos otimizar o processo de aprovação."
       }
     ],
     "dialogue": [],
@@ -4684,57 +4247,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Ser e estar: apresentações",
-        "definition": "Use ser para identidade e estar para estado ou localização.",
-        "structure": "Eu sou Luana. / Estou em Recife.",
-        "function": "Apresentar-se e dizer onde você está.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Eu sou Luana. / Estou em Recife.",
-          "Oi, tudo bem?"
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu sou Luana. / Estou em Recife.",
-          "Oi, tudo bem?",
-          "oi",
-          "bom dia"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "oi",
-          "bom dia",
-          "prazer",
-          "obrigada"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "bom dia",
-          "oi",
-          "prazer",
-          "obrigada"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Oi, tudo bem?",
-          "prazer",
-          "obrigada",
-          "oi"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -4764,57 +4674,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Rotina: advérbios de frequência",
-        "definition": "Use normalmente, sempre e às vezes antes do verbo principal.",
-        "structure": "Normalmente vou de ônibus.",
-        "function": "Descrever hábitos e rotina.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Normalmente vou de ônibus.",
-          "Normalmente vou de ônibus."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Normalmente vou de ônibus.",
-          "Normalmente vou de ônibus.",
-          "bairro",
-          "parada"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "bairro",
-          "parada",
-          "trabalho",
-          "serviço"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "parada",
-          "bairro",
-          "trabalho",
-          "serviço"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Normalmente vou de ônibus.",
-          "trabalho",
-          "serviço",
-          "bairro"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -4921,23 +5178,135 @@
     "vocabulary": [
       {
         "word": "oi",
-        "translation": "palabra cultural",
-        "example": "Oi, tudo bem?"
+        "translation": "hola",
+        "definition": "hola",
+        "example": "Uso “oi” em uma frase.",
+        "contexts": [
+          "oi · tema",
+          "oi · conversación",
+          "oi · práctica"
+        ]
       },
       {
         "word": "bom dia",
-        "translation": "acción cotidiana",
-        "example": "Oi, tudo bem?"
+        "translation": "buenos días",
+        "definition": "buenos días",
+        "example": "Uso “bom dia” em uma frase.",
+        "contexts": [
+          "bom dia · tema",
+          "bom dia · conversación",
+          "bom dia · práctica"
+        ]
       },
       {
         "word": "prazer",
-        "translation": "lugar o cosa",
-        "example": "Oi, tudo bem?"
+        "translation": "placer / gusto",
+        "definition": "placer / gusto",
+        "example": "Uso “prazer” em uma frase.",
+        "contexts": [
+          "prazer · tema",
+          "prazer · conversación",
+          "prazer · práctica"
+        ]
       },
       {
         "word": "obrigada",
-        "translation": "expresión útil",
-        "example": "Oi, tudo bem?"
+        "translation": "gracias",
+        "definition": "gracias",
+        "example": "Uso “obrigada” em uma frase.",
+        "contexts": [
+          "obrigada · tema",
+          "obrigada · conversación",
+          "obrigada · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -4947,13 +5316,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "oi",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "oi"
+          },
+          {
+            "id": "o2",
+            "text": "bom dia"
+          },
+          {
+            "id": "o3",
+            "text": "prazer"
+          },
+          {
+            "id": "o4",
+            "text": "obrigada"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "oi"
+          },
+          {
+            "id": "o2",
+            "text": "bom dia"
+          },
+          {
+            "id": "o3",
+            "text": "prazer"
+          },
+          {
+            "id": "o4",
+            "text": "obrigada"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bom dia"
+          },
+          {
+            "id": "o2",
+            "text": "oi"
+          },
+          {
+            "id": "o3",
+            "text": "prazer"
+          },
+          {
+            "id": "o4",
+            "text": "obrigada"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "prazer"
+          },
+          {
+            "id": "o2",
+            "text": "oi"
+          },
+          {
+            "id": "o3",
+            "text": "bom dia"
+          },
+          {
+            "id": "o4",
+            "text": "obrigada"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "oi"
+          },
+          {
+            "id": "o3",
+            "text": "bom dia"
+          },
+          {
+            "id": "o4",
+            "text": "prazer"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "oi"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "bom dia"
+          },
+          {
+            "id": "o4",
+            "text": "prazer"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bom dia"
+          },
+          {
+            "id": "o2",
+            "text": "oi"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "prazer"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "prazer"
+          },
+          {
+            "id": "o2",
+            "text": "oi"
+          },
+          {
+            "id": "o3",
+            "text": "bom dia"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "oi"
+          },
+          {
+            "id": "o3",
+            "text": "bom dia"
+          },
+          {
+            "id": "o4",
+            "text": "prazer"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "oi"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "bom dia"
+          },
+          {
+            "id": "o4",
+            "text": "prazer"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bom dia"
+          },
+          {
+            "id": "o2",
+            "text": "oi"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "prazer"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "prazer"
+          },
+          {
+            "id": "o2",
+            "text": "oi"
+          },
+          {
+            "id": "o3",
+            "text": "bom dia"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -4976,23 +5611,135 @@
     "vocabulary": [
       {
         "word": "bairro",
-        "translation": "palabra cultural",
-        "example": "Normalmente vou de ônibus."
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
       },
       {
         "word": "parada",
-        "translation": "acción cotidiana",
-        "example": "Normalmente vou de ônibus."
+        "translation": "parada",
+        "definition": "parada",
+        "example": "Uso “parada” em uma frase.",
+        "contexts": [
+          "parada · tema",
+          "parada · conversación",
+          "parada · práctica"
+        ]
       },
       {
         "word": "trabalho",
-        "translation": "lugar o cosa",
-        "example": "Normalmente vou de ônibus."
+        "translation": "trabajo",
+        "definition": "trabajo",
+        "example": "Uso “trabalho” em uma frase.",
+        "contexts": [
+          "trabalho · tema",
+          "trabalho · conversación",
+          "trabalho · práctica"
+        ]
       },
       {
         "word": "serviço",
-        "translation": "expresión útil",
-        "example": "Normalmente vou de ônibus."
+        "translation": "servicio",
+        "definition": "servicio",
+        "example": "Uso “serviço” em uma frase.",
+        "contexts": [
+          "serviço · tema",
+          "serviço · conversación",
+          "serviço · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
+      },
+      {
+        "word": "proposta",
+        "translation": "propuesta",
+        "definition": "propuesta",
+        "example": "Uso “proposta” em uma frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -5002,13 +5749,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "bairro",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "bairro"
+          },
+          {
+            "id": "o2",
+            "text": "parada"
+          },
+          {
+            "id": "o3",
+            "text": "trabalho"
+          },
+          {
+            "id": "o4",
+            "text": "serviço"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bairro"
+          },
+          {
+            "id": "o2",
+            "text": "parada"
+          },
+          {
+            "id": "o3",
+            "text": "trabalho"
+          },
+          {
+            "id": "o4",
+            "text": "serviço"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "parada"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "trabalho"
+          },
+          {
+            "id": "o4",
+            "text": "serviço"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "trabalho"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "serviço"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "trabalho"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bairro"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "trabalho"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "parada"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "pergunta"
+          },
+          {
+            "id": "o4",
+            "text": "trabalho"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "trabalho"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "resposta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "experiência"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "trabalho"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bairro"
+          },
+          {
+            "id": "o2",
+            "text": "escolher"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "trabalho"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "parada"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "entender"
+          },
+          {
+            "id": "o4",
+            "text": "trabalho"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "trabalho"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "proposta"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -5458,53 +6471,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a pedir com cortesia. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um café, por favor.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: café, pão, água e por favor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Um café, por favor.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a pedir com cortesia. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um café, por favor.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: café, pão, água e por favor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Um café, por favor.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "pedir com cortesia",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "pedir com cortesia",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -5540,64 +6529,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a fazer planos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Gostaria de visitar o museu.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: museu, passeio, reserva e visita.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Gostaria de visitar o museu.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a fazer planos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Gostaria de visitar o museu.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: museu, passeio, reserva e visita.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Gostaria de visitar o museu.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "visita",
-          "escola",
-          "amanhã"
+          "fazer planos",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ de visitar o museu.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "conversa",
-          "Gostaria",
-          "aprendem",
-          "palavras"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
+          "fazer planos",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -5681,9 +6635,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Pronomes oblíquos",
-        "definition": "Práctica guiada de Pronomes oblíquos.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -7262,179 +8216,40 @@
       "pão"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "De manhã, eu vou à padaria perto da minha casa. A atendente diz: “Bom dia!” Eu peço um café com leite e um pão de queijo. A padaria está cheia, mas as pessoas são simpáticas. Eu sento perto da janela, tomo meu café e leio uma mensagem da minha irmã. É um começo de dia muito agradável. Antes de sair, eu compro uma garrafa de água para o caminho. A atendente pergunta se está tudo bem, e eu respondo: “Sim, obrigada. Está tudo ótimo.”",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-um-cafe-na-padaria-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “De manhã eu vou…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "A atendente diz: “Bom dia!”"
-              },
-              {
-                "id": "o2",
-                "text": "Eu peço um café com leite e um pão de queijo."
-              },
-              {
-                "id": "o3",
-                "text": "De manhã, eu vou à padaria perto da minha casa."
-              },
-              {
-                "id": "o4",
-                "text": "A padaria está cheia, mas as pessoas são simpáticas."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “A padaria está…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "De manhã, eu vou à padaria perto da minha casa."
-              },
-              {
-                "id": "o2",
-                "text": "A atendente diz: “Bom dia!”"
-              },
-              {
-                "id": "o3",
-                "text": "Eu peço um café com leite e um pão de queijo."
-              },
-              {
-                "id": "o4",
-                "text": "A padaria está cheia, mas as pessoas são simpáticas."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “É um começo…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "É um começo de dia muito agradável."
-              },
-              {
-                "id": "o2",
-                "text": "De manhã, eu vou à padaria perto da minha casa."
-              },
-              {
-                "id": "o3",
-                "text": "A atendente diz: “Bom dia!”"
-              },
-              {
-                "id": "o4",
-                "text": "Eu peço um café com leite e um pão de queijo."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Está tudo ótimo…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "De manhã, eu vou à padaria perto da minha casa."
-              },
-              {
-                "id": "o2",
-                "text": "Está tudo ótimo.”"
-              },
-              {
-                "id": "o3",
-                "text": "A atendente diz: “Bom dia!”"
-              },
-              {
-                "id": "o4",
-                "text": "Eu peço um café com leite e um pão de queijo."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Um café, por favor.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "De manhã, eu vou à padaria perto da minha casa. A atendente diz: “Bom dia!” Eu peço um café com leite e um pão de queijo. A padaria está cheia, mas as pessoas são simpáticas. Eu sento perto da janela, tomo meu café e leio uma mensagem da minha irmã. É um começo de dia muito agradável. Antes de sair, eu compro uma garrafa de água para o caminho. A atendente pergunta se está tudo bem, e eu respondo: “Sim, obrigada. Está tudo ótimo.”",
-      "transcriptSegments": [
-        {
-          "text": "De manhã, eu vou à padaria perto da minha casa."
-        },
-        {
-          "text": "A atendente diz: “Bom dia!”"
-        },
-        {
-          "text": "Eu peço um café com leite e um pão de queijo."
-        },
-        {
-          "text": "A padaria está cheia, mas as pessoas são simpáticas."
-        },
-        {
-          "text": "Eu sento perto da janela, tomo meu café e leio uma mensagem da minha irmã."
-        },
-        {
-          "text": "É um começo de dia muito agradável."
-        },
-        {
-          "text": "Antes de sair, eu compro uma garrafa de água para o caminho."
-        },
-        {
-          "text": "A atendente pergunta se está tudo bem, e eu respondo: “Sim, obrigada."
-        },
-        {
-          "text": "Está tudo ótimo.”"
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de café.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Um café, por favor. Falamos de café. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “De manhã eu vou…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "A atendente diz: “Bom dia!”",
-          "Eu peço um café com leite e um pão de queijo.",
-          "De manhã, eu vou à padaria perto da minha casa.",
-          "A padaria está cheia, mas as pessoas são simpáticas."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “A padaria está…”",
-        "options": [
-          "De manhã, eu vou à padaria perto da minha casa.",
-          "A atendente diz: “Bom dia!”",
-          "Eu peço um café com leite e um pão de queijo.",
-          "A padaria está cheia, mas as pessoas são simpáticas."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “É um começo…”",
-        "options": [
-          "É um começo de dia muito agradável.",
-          "De manhã, eu vou à padaria perto da minha casa.",
-          "A atendente diz: “Bom dia!”",
-          "Eu peço um café com leite e um pão de queijo."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Está tudo ótimo…”",
-        "options": [
-          "De manhã, eu vou à padaria perto da minha casa.",
-          "Está tudo ótimo.”",
-          "A atendente diz: “Bom dia!”",
-          "Eu peço um café com leite e um pão de queijo."
+          "Um café, por favor.",
+          "café",
+          "pão",
+          "água"
         ]
       }
     ]
@@ -7460,179 +8275,40 @@
       "passeio"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "No último feriado, passei três dias em Salvador com meu irmão. Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico. Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas. Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez. Também fomos ao Mercado Modelo e compramos lembranças feitas por artesãos locais. À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade. Salvador estava cheia de turistas, mas tentamos respeitar os moradores, evitar lugares muito barulhentos e apoiar pequenos negócios. Na volta, percebemos que três dias não eram suficientes para conhecer tudo. Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “No último feriado passei…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
-              },
-              {
-                "id": "o2",
-                "text": "No último feriado, passei três dias em Salvador com meu irmão."
-              },
-              {
-                "id": "o3",
-                "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
-              },
-              {
-                "id": "o4",
-                "text": "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Depois almoçamos em um…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No último feriado, passei três dias em Salvador com meu irmão."
-              },
-              {
-                "id": "o2",
-                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
-              },
-              {
-                "id": "o3",
-                "text": "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez."
-              },
-              {
-                "id": "o4",
-                "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “À noite ouvimos música em…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No último feriado, passei três dias em Salvador com meu irmão."
-              },
-              {
-                "id": "o2",
-                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
-              },
-              {
-                "id": "o3",
-                "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
-              },
-              {
-                "id": "o4",
-                "text": "À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Fizemos uma lista de lugares que…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular."
-              },
-              {
-                "id": "o2",
-                "text": "No último feriado, passei três dias em Salvador com meu irmão."
-              },
-              {
-                "id": "o3",
-                "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
-              },
-              {
-                "id": "o4",
-                "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Gostaria de visitar o museu.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "No último feriado, passei três dias em Salvador com meu irmão. Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico. Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas. Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez. Também fomos ao Mercado Modelo e compramos lembranças feitas por artesãos locais. À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade. Salvador estava cheia de turistas, mas tentamos respeitar os moradores, evitar lugares muito barulhentos e apoiar pequenos negócios. Na volta, percebemos que três dias não eram suficientes para conhecer tudo. Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular.",
-      "transcriptSegments": [
-        {
-          "text": "No último feriado, passei três dias em Salvador com meu irmão."
-        },
-        {
-          "text": "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico."
-        },
-        {
-          "text": "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
-        },
-        {
-          "text": "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez."
-        },
-        {
-          "text": "Também fomos ao Mercado Modelo e compramos lembranças feitas por artesãos locais."
-        },
-        {
-          "text": "À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade."
-        },
-        {
-          "text": "Salvador estava cheia de turistas, mas tentamos respeitar os moradores, evitar lugares muito barulhentos e apoiar pequenos negócios."
-        },
-        {
-          "text": "Na volta, percebemos que três dias não eram suficientes para conhecer tudo."
-        },
-        {
-          "text": "Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de museu.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Gostaria de visitar o museu. Falamos de museu. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “No último feriado passei…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico.",
-          "No último feriado, passei três dias em Salvador com meu irmão.",
-          "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas.",
-          "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Depois almoçamos em um…”",
-        "options": [
-          "No último feriado, passei três dias em Salvador com meu irmão.",
-          "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico.",
-          "Depois almoçamos em um restaurante pequeno, onde provamos acarajé pela primeira vez.",
-          "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “À noite ouvimos música em…”",
-        "options": [
-          "No último feriado, passei três dias em Salvador com meu irmão.",
-          "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico.",
-          "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas.",
-          "À noite, ouvimos música em uma praça e conversamos com pessoas que moram na cidade."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Fizemos uma lista de lugares que…”",
-        "options": [
-          "Fizemos uma lista de lugares que queremos visitar em outra viagem, talvez durante uma festa popular.",
-          "No último feriado, passei três dias em Salvador com meu irmão.",
-          "Ficamos em uma pousada no Pelourinho e caminhamos muito pelo centro histórico.",
-          "Na primeira manhã, visitamos igrejas antigas e tiramos fotos das casas coloridas."
+          "Gostaria de visitar o museu.",
+          "museu",
+          "passeio",
+          "reserva"
         ]
       }
     ]
@@ -7790,100 +8466,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "itinerário",
-        "translation": "itinerario",
-        "example": "O itinerário inclui duas cidades."
-      },
-      {
-        "word": "check-in",
-        "translation": "registro",
-        "example": "Fiz o check-in online."
-      },
-      {
-        "word": "guia local",
-        "translation": "guía local",
-        "example": "Contratamos um guia local para o bairro."
-      },
-      {
-        "word": "voluntariado",
-        "translation": "voluntariado",
-        "example": "Participamos de um voluntariado ambiental."
-      },
-      {
-        "word": "ecoturismo",
-        "translation": "ecoturismo",
-        "example": "O ecoturismo respeita o meio ambiente."
-      },
-      {
-        "word": "respeito",
-        "translation": "respeto",
-        "example": "O respeito pelas comunidades é essencial."
-      },
-      {
-        "word": "cultura",
-        "translation": "cultura",
-        "example": "Aprendemos sobre a cultura local."
-      },
-      {
-        "word": "costume",
-        "translation": "costumbre",
-        "example": "É importante conhecer os costumes."
-      },
-      {
-        "word": "reciclagem",
-        "translation": "reciclaje",
-        "example": "Leve sacos para a reciclagem."
-      },
-      {
-        "word": "transporte público",
-        "translation": "transporte público",
-        "example": "Usamos transporte público para nos deslocar."
-      },
-      {
-        "word": "regra",
-        "translation": "regla",
-        "example": "Siga as regras do parque."
-      },
-      {
-        "word": "planejar",
-        "translation": "planear",
-        "example": "Vamos planejar a viagem com antecedência."
-      },
-      {
-        "word": "orçamento",
-        "translation": "presupuesto",
-        "example": "Meu orçamento é limitado para essa viagem."
-      },
-      {
-        "word": "segurança",
-        "translation": "seguridad",
-        "example": "Priorize a segurança do grupo."
-      },
-      {
-        "word": "Poderia me ajudar?",
-        "translation": "¿Podría ayudarme?",
-        "example": "Poderia me ajudar com a rota?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião",
-        "translation": "En mi opinión",
-        "example": "Na minha opinião, devemos visitar o mercado.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo",
-        "translation": "Estoy de acuerdo",
-        "example": "Concordo, é melhor sair cedo.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida",
-        "translation": "Tengo una duda",
-        "example": "Tenho uma dúvida sobre os horários.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -9293,57 +9875,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Artigos e gênero",
-        "definition": "Os artigos acompanham o gênero e o número do substantivo.",
-        "structure": "um café / uma água / os pães",
-        "function": "Pedir produtos com precisão.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "um café / uma água / os pães",
-          "Um café, por favor."
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "um café / uma água / os pães",
-          "Um café, por favor.",
-          "café",
-          "pão"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "café",
-          "pão",
-          "água",
-          "por favor"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "pão",
-          "café",
-          "água",
-          "por favor"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Um café, por favor.",
-          "água",
-          "por favor",
-          "café"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -9373,57 +10302,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Futuro com ir + infinitivo",
-        "definition": "Use ir + infinitivo para planos próximos.",
-        "structure": "Vou visitar o museu amanhã.",
-        "function": "Fazer planos.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Vou visitar o museu amanhã.",
-          "Gostaria de visitar o museu."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Vou visitar o museu amanhã.",
-          "Gostaria de visitar o museu.",
-          "museu",
-          "passeio"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "museu",
-          "passeio",
-          "reserva",
-          "visita"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "passeio",
-          "museu",
-          "reserva",
-          "visita"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Gostaria de visitar o museu.",
-          "reserva",
-          "visita",
-          "museu"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -9530,23 +10806,135 @@
     "vocabulary": [
       {
         "word": "café",
-        "translation": "palabra cultural",
-        "example": "Um café, por favor."
+        "translation": "café",
+        "definition": "café",
+        "example": "Uso “café” em uma frase.",
+        "contexts": [
+          "café · tema",
+          "café · conversación",
+          "café · práctica"
+        ]
       },
       {
         "word": "pão",
-        "translation": "acción cotidiana",
-        "example": "Um café, por favor."
+        "translation": "pan",
+        "definition": "pan",
+        "example": "Uso “pão” em uma frase.",
+        "contexts": [
+          "pão · tema",
+          "pão · conversación",
+          "pão · práctica"
+        ]
       },
       {
         "word": "água",
-        "translation": "lugar o cosa",
-        "example": "Um café, por favor."
+        "translation": "agua",
+        "definition": "agua",
+        "example": "Uso “água” em uma frase.",
+        "contexts": [
+          "água · tema",
+          "água · conversación",
+          "água · práctica"
+        ]
       },
       {
         "word": "por favor",
-        "translation": "expresión útil",
-        "example": "Um café, por favor."
+        "translation": "por favor",
+        "definition": "por favor",
+        "example": "Uso “por favor” em uma frase.",
+        "contexts": [
+          "por favor · tema",
+          "por favor · conversación",
+          "por favor · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -9556,13 +10944,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "café",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "café"
+          },
+          {
+            "id": "o2",
+            "text": "pão"
+          },
+          {
+            "id": "o3",
+            "text": "água"
+          },
+          {
+            "id": "o4",
+            "text": "por favor"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "café"
+          },
+          {
+            "id": "o2",
+            "text": "pão"
+          },
+          {
+            "id": "o3",
+            "text": "água"
+          },
+          {
+            "id": "o4",
+            "text": "por favor"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "pão"
+          },
+          {
+            "id": "o2",
+            "text": "café"
+          },
+          {
+            "id": "o3",
+            "text": "água"
+          },
+          {
+            "id": "o4",
+            "text": "por favor"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "água"
+          },
+          {
+            "id": "o2",
+            "text": "café"
+          },
+          {
+            "id": "o3",
+            "text": "pão"
+          },
+          {
+            "id": "o4",
+            "text": "por favor"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "café"
+          },
+          {
+            "id": "o3",
+            "text": "pão"
+          },
+          {
+            "id": "o4",
+            "text": "água"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "café"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "pão"
+          },
+          {
+            "id": "o4",
+            "text": "água"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "pão"
+          },
+          {
+            "id": "o2",
+            "text": "café"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "água"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "água"
+          },
+          {
+            "id": "o2",
+            "text": "café"
+          },
+          {
+            "id": "o3",
+            "text": "pão"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "café"
+          },
+          {
+            "id": "o3",
+            "text": "pão"
+          },
+          {
+            "id": "o4",
+            "text": "água"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "café"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "pão"
+          },
+          {
+            "id": "o4",
+            "text": "água"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "pão"
+          },
+          {
+            "id": "o2",
+            "text": "café"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "água"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "água"
+          },
+          {
+            "id": "o2",
+            "text": "café"
+          },
+          {
+            "id": "o3",
+            "text": "pão"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -9585,23 +11239,135 @@
     "vocabulary": [
       {
         "word": "museu",
-        "translation": "palabra cultural",
-        "example": "Gostaria de visitar o museu."
+        "translation": "museo",
+        "definition": "museo",
+        "example": "Uso “museu” em uma frase.",
+        "contexts": [
+          "museu · tema",
+          "museu · conversación",
+          "museu · práctica"
+        ]
       },
       {
         "word": "passeio",
-        "translation": "acción cotidiana",
-        "example": "Gostaria de visitar o museu."
+        "translation": "paseo",
+        "definition": "paseo",
+        "example": "Uso “passeio” em uma frase.",
+        "contexts": [
+          "passeio · tema",
+          "passeio · conversación",
+          "passeio · práctica"
+        ]
       },
       {
         "word": "reserva",
-        "translation": "lugar o cosa",
-        "example": "Gostaria de visitar o museu."
+        "translation": "reserva",
+        "definition": "reserva",
+        "example": "Uso “reserva” em uma frase.",
+        "contexts": [
+          "reserva · tema",
+          "reserva · conversación",
+          "reserva · práctica"
+        ]
       },
       {
         "word": "visita",
-        "translation": "expresión útil",
-        "example": "Gostaria de visitar o museu."
+        "translation": "visita",
+        "definition": "visita",
+        "example": "Uso “visita” em uma frase.",
+        "contexts": [
+          "visita · tema",
+          "visita · conversación",
+          "visita · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -9611,13 +11377,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "museu",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "museu"
+          },
+          {
+            "id": "o2",
+            "text": "passeio"
+          },
+          {
+            "id": "o3",
+            "text": "reserva"
+          },
+          {
+            "id": "o4",
+            "text": "visita"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "museu"
+          },
+          {
+            "id": "o2",
+            "text": "passeio"
+          },
+          {
+            "id": "o3",
+            "text": "reserva"
+          },
+          {
+            "id": "o4",
+            "text": "visita"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "passeio"
+          },
+          {
+            "id": "o2",
+            "text": "museu"
+          },
+          {
+            "id": "o3",
+            "text": "reserva"
+          },
+          {
+            "id": "o4",
+            "text": "visita"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reserva"
+          },
+          {
+            "id": "o2",
+            "text": "museu"
+          },
+          {
+            "id": "o3",
+            "text": "passeio"
+          },
+          {
+            "id": "o4",
+            "text": "visita"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "museu"
+          },
+          {
+            "id": "o3",
+            "text": "passeio"
+          },
+          {
+            "id": "o4",
+            "text": "reserva"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "museu"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "passeio"
+          },
+          {
+            "id": "o4",
+            "text": "reserva"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "passeio"
+          },
+          {
+            "id": "o2",
+            "text": "museu"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "reserva"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reserva"
+          },
+          {
+            "id": "o2",
+            "text": "museu"
+          },
+          {
+            "id": "o3",
+            "text": "passeio"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "museu"
+          },
+          {
+            "id": "o3",
+            "text": "passeio"
+          },
+          {
+            "id": "o4",
+            "text": "reserva"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "museu"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "passeio"
+          },
+          {
+            "id": "o4",
+            "text": "reserva"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "passeio"
+          },
+          {
+            "id": "o2",
+            "text": "museu"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "reserva"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reserva"
+          },
+          {
+            "id": "o2",
+            "text": "museu"
+          },
+          {
+            "id": "o3",
+            "text": "passeio"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -10067,53 +12099,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar da família. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A família almoça junta.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: família, almoço, mesa e juntos.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A família almoça junta.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a falar da família. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A família almoça junta.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: família, almoço, mesa e juntos.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A família almoça junta.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "falar da família",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "falar da família",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -10149,64 +12157,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a explicar sequência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Primeiro corto os legumes.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: receita, ingrediente, primeiro e depois.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Primeiro corto os legumes.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a explicar sequência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Primeiro corto os legumes.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: receita, ingrediente, primeiro e depois.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Primeiro corto os legumes.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "depois",
-          "escola",
-          "amanhã"
+          "explicar sequência",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ corto os legumes.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "conversa",
-          "Primeiro",
-          "aprendem",
-          "palavras"
-        ]
-      },
-      {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
-        ]
-      },
-      {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
-        ]
-      },
-      {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
+          "explicar sequência",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -10290,9 +12263,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Subjuntivo presente",
-        "definition": "Práctica guiada de Subjuntivo presente.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -11871,182 +13844,40 @@
       "almoço"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "No domingo, minha família almoça junta. Minha mãe faz arroz, feijão, frango e salada. Meu pai prepara o suco. Minha irmã traz uma sobremesa pequena. Nós conversamos sobre a semana e rimos muito. Depois do almoço, meu avô conta histórias da sua infância. Eu gosto desses domingos em família. Depois, lavamos os pratos juntos. Minha mãe prepara café, e nós ficamos mais um pouco na mesa. É um momento simples, mas muito importante para todos.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-familia-e-almoco-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “No domingo minha…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Minha mãe faz arroz, feijão, frango e salada."
-              },
-              {
-                "id": "o2",
-                "text": "Meu pai prepara o suco."
-              },
-              {
-                "id": "o3",
-                "text": "No domingo, minha família almoça junta."
-              },
-              {
-                "id": "o4",
-                "text": "Minha irmã traz uma sobremesa pequena."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Minha irmã traz…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No domingo, minha família almoça junta."
-              },
-              {
-                "id": "o2",
-                "text": "Minha mãe faz arroz, feijão, frango e salada."
-              },
-              {
-                "id": "o3",
-                "text": "Meu pai prepara o suco."
-              },
-              {
-                "id": "o4",
-                "text": "Minha irmã traz uma sobremesa pequena."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Eu gosto desses…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu gosto desses domingos em família."
-              },
-              {
-                "id": "o2",
-                "text": "No domingo, minha família almoça junta."
-              },
-              {
-                "id": "o3",
-                "text": "Minha mãe faz arroz, feijão, frango e salada."
-              },
-              {
-                "id": "o4",
-                "text": "Meu pai prepara o suco."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “É um momento…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No domingo, minha família almoça junta."
-              },
-              {
-                "id": "o2",
-                "text": "É um momento simples, mas muito importante para todos."
-              },
-              {
-                "id": "o3",
-                "text": "Minha mãe faz arroz, feijão, frango e salada."
-              },
-              {
-                "id": "o4",
-                "text": "Meu pai prepara o suco."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "A família almoça junta.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "No domingo, minha família almoça junta. Minha mãe faz arroz, feijão, frango e salada. Meu pai prepara o suco. Minha irmã traz uma sobremesa pequena. Nós conversamos sobre a semana e rimos muito. Depois do almoço, meu avô conta histórias da sua infância. Eu gosto desses domingos em família. Depois, lavamos os pratos juntos. Minha mãe prepara café, e nós ficamos mais um pouco na mesa. É um momento simples, mas muito importante para todos.",
-      "transcriptSegments": [
-        {
-          "text": "No domingo, minha família almoça junta."
-        },
-        {
-          "text": "Minha mãe faz arroz, feijão, frango e salada."
-        },
-        {
-          "text": "Meu pai prepara o suco."
-        },
-        {
-          "text": "Minha irmã traz uma sobremesa pequena."
-        },
-        {
-          "text": "Nós conversamos sobre a semana e rimos muito."
-        },
-        {
-          "text": "Depois do almoço, meu avô conta histórias da sua infância."
-        },
-        {
-          "text": "Eu gosto desses domingos em família."
-        },
-        {
-          "text": "Depois, lavamos os pratos juntos."
-        },
-        {
-          "text": "Minha mãe prepara café, e nós ficamos mais um pouco na mesa."
-        },
-        {
-          "text": "É um momento simples, mas muito importante para todos."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de família.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "A família almoça junta. Falamos de família. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “No domingo minha…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Minha mãe faz arroz, feijão, frango e salada.",
-          "Meu pai prepara o suco.",
-          "No domingo, minha família almoça junta.",
-          "Minha irmã traz uma sobremesa pequena."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Minha irmã traz…”",
-        "options": [
-          "No domingo, minha família almoça junta.",
-          "Minha mãe faz arroz, feijão, frango e salada.",
-          "Meu pai prepara o suco.",
-          "Minha irmã traz uma sobremesa pequena."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Eu gosto desses…”",
-        "options": [
-          "Eu gosto desses domingos em família.",
-          "No domingo, minha família almoça junta.",
-          "Minha mãe faz arroz, feijão, frango e salada.",
-          "Meu pai prepara o suco."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “É um momento…”",
-        "options": [
-          "No domingo, minha família almoça junta.",
-          "É um momento simples, mas muito importante para todos.",
-          "Minha mãe faz arroz, feijão, frango e salada.",
-          "Meu pai prepara o suco."
+          "A família almoça junta.",
+          "família",
+          "almoço",
+          "mesa"
         ]
       }
     ]
@@ -12072,179 +13903,40 @@
       "ingrediente"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Minha avó sempre fazia bolo de milho quando a família se reunia. A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela. Primeiro, misturamos milho, leite, açúcar e ovos. Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha. Quando eu era criança, ajudava a mexer a massa e queria provar tudo antes de o bolo ficar pronto. Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais. Quando faço esse bolo, lembro das conversas, das risadas e da mesa cheia de gente. Também compartilhei a receita com meus colegas de trabalho. Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-receitas-e-memorias-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Minha avó sempre fazia…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
-              },
-              {
-                "id": "o2",
-                "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
-              },
-              {
-                "id": "o3",
-                "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
-              },
-              {
-                "id": "o4",
-                "text": "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Depois colocamos a massa em…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
-              },
-              {
-                "id": "o2",
-                "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
-              },
-              {
-                "id": "o3",
-                "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
-              },
-              {
-                "id": "o4",
-                "text": "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Hoje moro longe da minha…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais."
-              },
-              {
-                "id": "o2",
-                "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
-              },
-              {
-                "id": "o3",
-                "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
-              },
-              {
-                "id": "o4",
-                "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Eles quiseram provar o bolo…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
-              },
-              {
-                "id": "o2",
-                "text": "Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias."
-              },
-              {
-                "id": "o3",
-                "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
-              },
-              {
-                "id": "o4",
-                "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Primeiro corto os legumes.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Minha avó sempre fazia bolo de milho quando a família se reunia. A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela. Primeiro, misturamos milho, leite, açúcar e ovos. Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha. Quando eu era criança, ajudava a mexer a massa e queria provar tudo antes de o bolo ficar pronto. Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais. Quando faço esse bolo, lembro das conversas, das risadas e da mesa cheia de gente. Também compartilhei a receita com meus colegas de trabalho. Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias.",
-      "transcriptSegments": [
-        {
-          "text": "Minha avó sempre fazia bolo de milho quando a família se reunia."
-        },
-        {
-          "text": "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela."
-        },
-        {
-          "text": "Primeiro, misturamos milho, leite, açúcar e ovos."
-        },
-        {
-          "text": "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
-        },
-        {
-          "text": "Quando eu era criança, ajudava a mexer a massa e queria provar tudo antes de o bolo ficar pronto."
-        },
-        {
-          "text": "Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais."
-        },
-        {
-          "text": "Quando faço esse bolo, lembro das conversas, das risadas e da mesa cheia de gente."
-        },
-        {
-          "text": "Também compartilhei a receita com meus colegas de trabalho."
-        },
-        {
-          "text": "Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de receita.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Primeiro corto os legumes. Falamos de receita. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Minha avó sempre fazia…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela.",
-          "Primeiro, misturamos milho, leite, açúcar e ovos.",
-          "Minha avó sempre fazia bolo de milho quando a família se reunia.",
-          "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Depois colocamos a massa em…”",
-        "options": [
-          "Minha avó sempre fazia bolo de milho quando a família se reunia.",
-          "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela.",
-          "Primeiro, misturamos milho, leite, açúcar e ovos.",
-          "Depois colocamos a massa em uma forma e esperamos o cheiro doce aparecer na cozinha."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Hoje moro longe da minha…”",
-        "options": [
-          "Hoje moro longe da minha avó, mas ainda preparo a receita em dias especiais.",
-          "Minha avó sempre fazia bolo de milho quando a família se reunia.",
-          "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela.",
-          "Primeiro, misturamos milho, leite, açúcar e ovos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Eles quiseram provar o bolo…”",
-        "options": [
-          "Minha avó sempre fazia bolo de milho quando a família se reunia.",
-          "Eles quiseram provar o bolo e me contaram quais comidas lembram suas próprias famílias.",
-          "A receita parece simples, mas cada pessoa da casa tem uma lembrança ligada a ela.",
-          "Primeiro, misturamos milho, leite, açúcar e ovos."
+          "Primeiro corto os legumes.",
+          "receita",
+          "ingrediente",
+          "primeiro"
         ]
       }
     ]
@@ -12372,8 +14064,8 @@
       },
       {
         "word": "escolha",
-        "translation": "elegir",
-        "definition": "elegir",
+        "translation": "elección",
+        "definition": "elección",
         "example": "Uso “escolha” em uma frase.",
         "contexts": [
           "escolha · tema",
@@ -12402,102 +14094,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "alimentação",
-        "translation": "alimentación",
-        "example": "Uma alimentação equilibrada melhora a saúde."
-      },
-      {
-        "word": "hidratação",
-        "translation": "hidratación",
-        "example": "Beber água regularmente ajuda na hidratação."
-      },
-      {
-        "word": "sono",
-        "translation": "sueño",
-        "example": "Ter uma boa noite de sono é essencial."
-      },
-      {
-        "word": "meditação",
-        "translation": "meditación",
-        "example": "Faço meditação por dez minutos todas as manhãs."
-      },
-      {
-        "word": "estresse",
-        "translation": "estrés",
-        "example": "O estresse afeta o sono e a concentração."
-      },
-      {
-        "word": "ansiedade",
-        "translation": "ansiedad",
-        "example": "Ela aprendeu técnicas para controlar a ansiedade."
-      },
-      {
-        "word": "rotina",
-        "translation": "rutina",
-        "example": "Criar uma rotina facilita mudanças de hábito."
-      },
-      {
-        "word": "alongamento",
-        "translation": "estiramiento",
-        "example": "O alongamento antes do exercício ajuda a prevenir lesões."
-      },
-      {
-        "word": "postura",
-        "translation": "postura",
-        "example": "Manter boa postura reduz dores nas costas."
-      },
-      {
-        "word": "caminhada",
-        "translation": "caminata",
-        "example": "Uma caminhada diária melhora o humor."
-      },
-      {
-        "word": "respiração",
-        "translation": "respiración",
-        "example": "Praticar respiração profunda reduz a ansiedade."
-      },
-      {
-        "word": "autocuidado",
-        "translation": "autocuidado",
-        "example": "O autocuidado inclui descansar e dizer não quando preciso."
-      },
-      {
-        "word": "Você pode me ajudar?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Você pode me ajudar a organizar minha rotina?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião",
-        "translation": "En mi opinión",
-        "example": "Na minha opinião, começar devagar é melhor.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você",
-        "translation": "Estoy de acuerdo contigo",
-        "example": "Concordo com você; isso facilita o progresso.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida",
-        "translation": "Tengo una duda",
-        "example": "Tenho uma dúvida sobre os horários de exercícios.",
-        "category": "expression"
-      },
-      {
-        "word": "Com licença",
-        "translation": "Con permiso / Disculpe",
-        "example": "Com licença, posso entrar?",
-        "category": "expression"
-      },
-      {
-        "word": "Por causa de",
-        "translation": "a causa de",
-        "example": "Por causa do trabalho, não dormi bem.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -13907,57 +15503,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Presente do indicativo",
-        "definition": "Use o presente para rotinas e ações habituais.",
-        "structure": "A família almoça junta.",
-        "function": "Falar sobre ações do dia a dia.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "A família almoça junta.",
-          "A família almoça junta."
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "A família almoça junta.",
-          "A família almoça junta.",
-          "família",
-          "almoço"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "família",
-          "almoço",
-          "mesa",
-          "juntos"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "almoço",
-          "família",
-          "mesa",
-          "juntos"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "A família almoça junta.",
-          "mesa",
-          "juntos",
-          "família"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -13987,57 +15930,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Sequência com primeiro, depois e por fim",
-        "definition": "Use conectores para organizar ações.",
-        "structure": "Primeiro corto os legumes; depois cozinho.",
-        "function": "Explicar uma receita ou processo.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Primeiro corto os legumes; depois cozinho.",
-          "Primeiro corto os legumes."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Primeiro corto os legumes; depois cozinho.",
-          "Primeiro corto os legumes.",
-          "receita",
-          "ingrediente"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "receita",
-          "ingrediente",
-          "primeiro",
-          "depois"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "ingrediente",
-          "receita",
-          "primeiro",
-          "depois"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Primeiro corto os legumes.",
-          "primeiro",
-          "depois",
-          "receita"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -14144,23 +16434,135 @@
     "vocabulary": [
       {
         "word": "família",
-        "translation": "palabra cultural",
-        "example": "A família almoça junta."
+        "translation": "familia",
+        "definition": "familia",
+        "example": "Uso “família” em uma frase.",
+        "contexts": [
+          "família · tema",
+          "família · conversación",
+          "família · práctica"
+        ]
       },
       {
         "word": "almoço",
-        "translation": "acción cotidiana",
-        "example": "A família almoça junta."
+        "translation": "almuerzo",
+        "definition": "almuerzo",
+        "example": "Uso “almoço” em uma frase.",
+        "contexts": [
+          "almoço · tema",
+          "almoço · conversación",
+          "almoço · práctica"
+        ]
       },
       {
         "word": "mesa",
-        "translation": "lugar o cosa",
-        "example": "A família almoça junta."
+        "translation": "mesa",
+        "definition": "mesa",
+        "example": "Uso “mesa” em uma frase.",
+        "contexts": [
+          "mesa · tema",
+          "mesa · conversación",
+          "mesa · práctica"
+        ]
       },
       {
         "word": "juntos",
-        "translation": "expresión útil",
-        "example": "A família almoça junta."
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
+      },
+      {
+        "word": "proposta",
+        "translation": "propuesta",
+        "definition": "propuesta",
+        "example": "Uso “proposta” em uma frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -14170,13 +16572,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "família",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "família"
+          },
+          {
+            "id": "o2",
+            "text": "almoço"
+          },
+          {
+            "id": "o3",
+            "text": "mesa"
+          },
+          {
+            "id": "o4",
+            "text": "juntos"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "família"
+          },
+          {
+            "id": "o2",
+            "text": "almoço"
+          },
+          {
+            "id": "o3",
+            "text": "mesa"
+          },
+          {
+            "id": "o4",
+            "text": "juntos"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "almoço"
+          },
+          {
+            "id": "o2",
+            "text": "família"
+          },
+          {
+            "id": "o3",
+            "text": "mesa"
+          },
+          {
+            "id": "o4",
+            "text": "juntos"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mesa"
+          },
+          {
+            "id": "o2",
+            "text": "família"
+          },
+          {
+            "id": "o3",
+            "text": "almoço"
+          },
+          {
+            "id": "o4",
+            "text": "juntos"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "família"
+          },
+          {
+            "id": "o3",
+            "text": "almoço"
+          },
+          {
+            "id": "o4",
+            "text": "mesa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "família"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "almoço"
+          },
+          {
+            "id": "o4",
+            "text": "mesa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "almoço"
+          },
+          {
+            "id": "o2",
+            "text": "família"
+          },
+          {
+            "id": "o3",
+            "text": "pergunta"
+          },
+          {
+            "id": "o4",
+            "text": "mesa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mesa"
+          },
+          {
+            "id": "o2",
+            "text": "família"
+          },
+          {
+            "id": "o3",
+            "text": "almoço"
+          },
+          {
+            "id": "o4",
+            "text": "resposta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "experiência"
+          },
+          {
+            "id": "o2",
+            "text": "família"
+          },
+          {
+            "id": "o3",
+            "text": "almoço"
+          },
+          {
+            "id": "o4",
+            "text": "mesa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "família"
+          },
+          {
+            "id": "o2",
+            "text": "escolher"
+          },
+          {
+            "id": "o3",
+            "text": "almoço"
+          },
+          {
+            "id": "o4",
+            "text": "mesa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "almoço"
+          },
+          {
+            "id": "o2",
+            "text": "família"
+          },
+          {
+            "id": "o3",
+            "text": "entender"
+          },
+          {
+            "id": "o4",
+            "text": "mesa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mesa"
+          },
+          {
+            "id": "o2",
+            "text": "família"
+          },
+          {
+            "id": "o3",
+            "text": "almoço"
+          },
+          {
+            "id": "o4",
+            "text": "proposta"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -14199,23 +16867,135 @@
     "vocabulary": [
       {
         "word": "receita",
-        "translation": "palabra cultural",
-        "example": "Primeiro corto os legumes."
+        "translation": "receta",
+        "definition": "receta",
+        "example": "Uso “receita” em uma frase.",
+        "contexts": [
+          "receita · tema",
+          "receita · conversación",
+          "receita · práctica"
+        ]
       },
       {
         "word": "ingrediente",
-        "translation": "acción cotidiana",
-        "example": "Primeiro corto os legumes."
+        "translation": "ingrediente",
+        "definition": "ingrediente",
+        "example": "Uso “ingrediente” em uma frase.",
+        "contexts": [
+          "ingrediente · tema",
+          "ingrediente · conversación",
+          "ingrediente · práctica"
+        ]
       },
       {
         "word": "primeiro",
-        "translation": "lugar o cosa",
-        "example": "Primeiro corto os legumes."
+        "translation": "primero",
+        "definition": "primero",
+        "example": "Uso “primeiro” em uma frase.",
+        "contexts": [
+          "primeiro · tema",
+          "primeiro · conversación",
+          "primeiro · práctica"
+        ]
       },
       {
         "word": "depois",
-        "translation": "expresión útil",
-        "example": "Primeiro corto os legumes."
+        "translation": "después",
+        "definition": "después",
+        "example": "Uso “depois” em uma frase.",
+        "contexts": [
+          "depois · tema",
+          "depois · conversación",
+          "depois · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -14225,13 +17005,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "receita",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "receita"
+          },
+          {
+            "id": "o2",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o3",
+            "text": "primeiro"
+          },
+          {
+            "id": "o4",
+            "text": "depois"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "receita"
+          },
+          {
+            "id": "o2",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o3",
+            "text": "primeiro"
+          },
+          {
+            "id": "o4",
+            "text": "depois"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o2",
+            "text": "receita"
+          },
+          {
+            "id": "o3",
+            "text": "primeiro"
+          },
+          {
+            "id": "o4",
+            "text": "depois"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "primeiro"
+          },
+          {
+            "id": "o2",
+            "text": "receita"
+          },
+          {
+            "id": "o3",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o4",
+            "text": "depois"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "receita"
+          },
+          {
+            "id": "o3",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o4",
+            "text": "primeiro"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "receita"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o4",
+            "text": "primeiro"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o2",
+            "text": "receita"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "primeiro"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "primeiro"
+          },
+          {
+            "id": "o2",
+            "text": "receita"
+          },
+          {
+            "id": "o3",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "receita"
+          },
+          {
+            "id": "o3",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o4",
+            "text": "primeiro"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "receita"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o4",
+            "text": "primeiro"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o2",
+            "text": "receita"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "primeiro"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "primeiro"
+          },
+          {
+            "id": "o2",
+            "text": "receita"
+          },
+          {
+            "id": "o3",
+            "text": "ingrediente"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -14681,53 +17727,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a comprar na feira. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quanto custa um quilo?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: banana, tomate, quilo e real.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quanto custa um quilo?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a comprar na feira. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quanto custa um quilo?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: banana, tomate, quilo e real.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quanto custa um quilo?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "comprar na feira",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "comprar na feira",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -14763,64 +17785,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a interagir no trabalho. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Posso fazer uma pausa?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: colega, pausa, reunião e horário.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Posso fazer uma pausa?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a interagir no trabalho. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Posso fazer uma pausa?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: colega, pausa, reunião e horário.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Posso fazer uma pausa?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "colega",
-          "escola",
-          "amanhã"
+          "interagir no trabalho",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ fazer uma pausa?”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "Luana",
-          "Posso",
-          "fazer",
-          "pausa"
-        ]
-      },
-      {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
-        ]
-      },
-      {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
-        ]
-      },
-      {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
+          "interagir no trabalho",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -14904,9 +17891,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Discurso indireto",
-        "definition": "Práctica guiada de Discurso indireto.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -16485,176 +19472,40 @@
       "tomate"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Toda terça-feira tem uma feira no meu bairro. Eu compro bananas, tomates, pão e flores. Os vendedores falam alto e chamam os clientes. Uma mulher vende frutas muito doces. Eu compro manga e laranja para fazer suco. A feira é colorida, animada e sempre tem muitas pessoas. Quando volto para casa, mostro as frutas para minha irmã. Nós preparamos o suco juntas e guardamos as flores em um vaso na sala.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-a-feira-do-bairro-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Toda terça-feira tem…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu compro bananas, tomates, pão e flores."
-              },
-              {
-                "id": "o2",
-                "text": "Os vendedores falam alto e chamam os clientes."
-              },
-              {
-                "id": "o3",
-                "text": "Toda terça-feira tem uma feira no meu bairro."
-              },
-              {
-                "id": "o4",
-                "text": "Uma mulher vende frutas muito doces."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Os vendedores falam…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Toda terça-feira tem uma feira no meu bairro."
-              },
-              {
-                "id": "o2",
-                "text": "Eu compro bananas, tomates, pão e flores."
-              },
-              {
-                "id": "o3",
-                "text": "Uma mulher vende frutas muito doces."
-              },
-              {
-                "id": "o4",
-                "text": "Os vendedores falam alto e chamam os clientes."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “A feira é colorida…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "A feira é colorida, animada e sempre tem muitas pessoas."
-              },
-              {
-                "id": "o2",
-                "text": "Toda terça-feira tem uma feira no meu bairro."
-              },
-              {
-                "id": "o3",
-                "text": "Eu compro bananas, tomates, pão e flores."
-              },
-              {
-                "id": "o4",
-                "text": "Os vendedores falam alto e chamam os clientes."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Nós preparamos o suco juntas…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Toda terça-feira tem uma feira no meu bairro."
-              },
-              {
-                "id": "o2",
-                "text": "Nós preparamos o suco juntas e guardamos as flores em um vaso na sala."
-              },
-              {
-                "id": "o3",
-                "text": "Eu compro bananas, tomates, pão e flores."
-              },
-              {
-                "id": "o4",
-                "text": "Os vendedores falam alto e chamam os clientes."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Quanto custa um quilo?",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Toda terça-feira tem uma feira no meu bairro. Eu compro bananas, tomates, pão e flores. Os vendedores falam alto e chamam os clientes. Uma mulher vende frutas muito doces. Eu compro manga e laranja para fazer suco. A feira é colorida, animada e sempre tem muitas pessoas. Quando volto para casa, mostro as frutas para minha irmã. Nós preparamos o suco juntas e guardamos as flores em um vaso na sala.",
-      "transcriptSegments": [
-        {
-          "text": "Toda terça-feira tem uma feira no meu bairro."
-        },
-        {
-          "text": "Eu compro bananas, tomates, pão e flores."
-        },
-        {
-          "text": "Os vendedores falam alto e chamam os clientes."
-        },
-        {
-          "text": "Uma mulher vende frutas muito doces."
-        },
-        {
-          "text": "Eu compro manga e laranja para fazer suco."
-        },
-        {
-          "text": "A feira é colorida, animada e sempre tem muitas pessoas."
-        },
-        {
-          "text": "Quando volto para casa, mostro as frutas para minha irmã."
-        },
-        {
-          "text": "Nós preparamos o suco juntas e guardamos as flores em um vaso na sala."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de banana.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Quanto custa um quilo? Falamos de banana. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Toda terça-feira tem…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Eu compro bananas, tomates, pão e flores.",
-          "Os vendedores falam alto e chamam os clientes.",
-          "Toda terça-feira tem uma feira no meu bairro.",
-          "Uma mulher vende frutas muito doces."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Os vendedores falam…”",
-        "options": [
-          "Toda terça-feira tem uma feira no meu bairro.",
-          "Eu compro bananas, tomates, pão e flores.",
-          "Uma mulher vende frutas muito doces.",
-          "Os vendedores falam alto e chamam os clientes."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “A feira é colorida…”",
-        "options": [
-          "A feira é colorida, animada e sempre tem muitas pessoas.",
-          "Toda terça-feira tem uma feira no meu bairro.",
-          "Eu compro bananas, tomates, pão e flores.",
-          "Os vendedores falam alto e chamam os clientes."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Nós preparamos o suco juntas…”",
-        "options": [
-          "Toda terça-feira tem uma feira no meu bairro.",
-          "Nós preparamos o suco juntas e guardamos as flores em um vaso na sala.",
-          "Eu compro bananas, tomates, pão e flores.",
-          "Os vendedores falam alto e chamam os clientes."
+          "Quanto custa um quilo?",
+          "banana",
+          "tomate",
+          "quilo"
         ]
       }
     ]
@@ -16680,182 +19531,40 @@
       "pausa"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Trabalho em uma empresa de design e passo muitas horas diante do computador. Por isso, tento fazer pequenas pausas durante o dia. De manhã, organizo minhas tarefas e respondo às mensagens mais importantes. Depois de duas horas, levanto, tomo água e converso alguns minutos com meus colegas. Na hora do almoço, evito comer na mesa de trabalho. Prefiro sair, mesmo que seja só para caminhar até a padaria. Essas pausas não atrasam meu trabalho; pelo contrário, ajudam-me a voltar com mais atenção. Quando tenho uma semana muito cheia, lembro que descansar alguns minutos também faz parte de trabalhar bem. Nos dias mais difíceis, faço uma pausa um pouco maior e observo a rua. Volto para o escritório mais tranquilo e consigo terminar as tarefas com menos pressa.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-trabalho-e-pausa-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Trabalho em uma empresa de…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Trabalho em uma empresa de design e passo muitas horas diante do computador."
-              },
-              {
-                "id": "o2",
-                "text": "Por isso, tento fazer pequenas pausas durante o dia."
-              },
-              {
-                "id": "o3",
-                "text": "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Depois de duas horas, levanto, tomo água e converso alguns minutos com meus colegas."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Depois de duas horas levanto…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Trabalho em uma empresa de design e passo muitas horas diante do computador."
-              },
-              {
-                "id": "o2",
-                "text": "Depois de duas horas, levanto, tomo água e converso alguns minutos com meus colegas."
-              },
-              {
-                "id": "o3",
-                "text": "Por isso, tento fazer pequenas pausas durante o dia."
-              },
-              {
-                "id": "o4",
-                "text": "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Essas pausas não atrasam meu…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Trabalho em uma empresa de design e passo muitas horas diante do computador."
-              },
-              {
-                "id": "o2",
-                "text": "Por isso, tento fazer pequenas pausas durante o dia."
-              },
-              {
-                "id": "o3",
-                "text": "Essas pausas não atrasam meu trabalho; pelo contrário, ajudam-me a voltar com mais atenção."
-              },
-              {
-                "id": "o4",
-                "text": "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Volto para o escritório mais…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Trabalho em uma empresa de design e passo muitas horas diante do computador."
-              },
-              {
-                "id": "o2",
-                "text": "Por isso, tento fazer pequenas pausas durante o dia."
-              },
-              {
-                "id": "o3",
-                "text": "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Volto para o escritório mais tranquilo e consigo terminar as tarefas com menos pressa."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Posso fazer uma pausa?",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Trabalho em uma empresa de design e passo muitas horas diante do computador. Por isso, tento fazer pequenas pausas durante o dia. De manhã, organizo minhas tarefas e respondo às mensagens mais importantes. Depois de duas horas, levanto, tomo água e converso alguns minutos com meus colegas. Na hora do almoço, evito comer na mesa de trabalho. Prefiro sair, mesmo que seja só para caminhar até a padaria. Essas pausas não atrasam meu trabalho; pelo contrário, ajudam-me a voltar com mais atenção. Quando tenho uma semana muito cheia, lembro que descansar alguns minutos também faz parte de trabalhar bem. Nos dias mais difíceis, faço uma pausa um pouco maior e observo a rua. Volto para o escritório mais tranquilo e consigo terminar as tarefas com menos pressa.",
-      "transcriptSegments": [
-        {
-          "text": "Trabalho em uma empresa de design e passo muitas horas diante do computador."
-        },
-        {
-          "text": "Por isso, tento fazer pequenas pausas durante o dia."
-        },
-        {
-          "text": "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes."
-        },
-        {
-          "text": "Depois de duas horas, levanto, tomo água e converso alguns minutos com meus colegas."
-        },
-        {
-          "text": "Na hora do almoço, evito comer na mesa de trabalho."
-        },
-        {
-          "text": "Prefiro sair, mesmo que seja só para caminhar até a padaria."
-        },
-        {
-          "text": "Essas pausas não atrasam meu trabalho; pelo contrário, ajudam-me a voltar com mais atenção."
-        },
-        {
-          "text": "Quando tenho uma semana muito cheia, lembro que descansar alguns minutos também faz parte de trabalhar bem."
-        },
-        {
-          "text": "Nos dias mais difíceis, faço uma pausa um pouco maior e observo a rua."
-        },
-        {
-          "text": "Volto para o escritório mais tranquilo e consigo terminar as tarefas com menos pressa."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de colega.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Posso fazer uma pausa? Falamos de colega. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Trabalho em uma empresa de…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Trabalho em uma empresa de design e passo muitas horas diante do computador.",
-          "Por isso, tento fazer pequenas pausas durante o dia.",
-          "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes.",
-          "Depois de duas horas, levanto, tomo água e converso alguns minutos com meus colegas."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Depois de duas horas levanto…”",
-        "options": [
-          "Trabalho em uma empresa de design e passo muitas horas diante do computador.",
-          "Depois de duas horas, levanto, tomo água e converso alguns minutos com meus colegas.",
-          "Por isso, tento fazer pequenas pausas durante o dia.",
-          "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Essas pausas não atrasam meu…”",
-        "options": [
-          "Trabalho em uma empresa de design e passo muitas horas diante do computador.",
-          "Por isso, tento fazer pequenas pausas durante o dia.",
-          "Essas pausas não atrasam meu trabalho; pelo contrário, ajudam-me a voltar com mais atenção.",
-          "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Volto para o escritório mais…”",
-        "options": [
-          "Trabalho em uma empresa de design e passo muitas horas diante do computador.",
-          "Por isso, tento fazer pequenas pausas durante o dia.",
-          "De manhã, organizo minhas tarefas e respondo às mensagens mais importantes.",
-          "Volto para o escritório mais tranquilo e consigo terminar as tarefas com menos pressa."
+          "Posso fazer uma pausa?",
+          "colega",
+          "pausa",
+          "reunião"
         ]
       }
     ]
@@ -17013,102 +19722,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "mídia",
-        "translation": "medios (de comunicación)",
-        "example": "A mídia publicou vários artigos sobre o evento."
-      },
-      {
-        "word": "reportagem",
-        "translation": "reportaje",
-        "example": "Li uma reportagem interessante hoje."
-      },
-      {
-        "word": "entrevista",
-        "translation": "entrevista",
-        "example": "A entrevista foi ao ar ontem."
-      },
-      {
-        "word": "veracidade",
-        "translation": "veracidad",
-        "example": "É importante checar a veracidade das informações."
-      },
-      {
-        "word": "viés",
-        "translation": "sesgo",
-        "example": "O texto mostra um viés claro."
-      },
-      {
-        "word": "análise",
-        "translation": "análisis",
-        "example": "Preciso de uma análise mais profunda."
-      },
-      {
-        "word": "crítica",
-        "translation": "crítica",
-        "example": "A crítica do filme foi positiva."
-      },
-      {
-        "word": "divulgação",
-        "translation": "divulgación",
-        "example": "A divulgação do relatório foi rápida."
-      },
-      {
-        "word": "sensacionalismo",
-        "translation": "sensacionalismo",
-        "example": "Evite o sensacionalismo nas notícias."
-      },
-      {
-        "word": "imparcial",
-        "translation": "imparcial",
-        "example": "O jornal tentou ser imparcial."
-      },
-      {
-        "word": "fonte primária",
-        "translation": "fuente primaria",
-        "example": "Usei a fonte primária para confirmar os fatos."
-      },
-      {
-        "word": "editorial",
-        "translation": "editorial",
-        "example": "O editorial defende mudanças culturais."
-      },
-      {
-        "word": "Na minha opinião",
-        "translation": "en mi opinión",
-        "example": "Na minha opinião, a cultura local é muito rica.",
-        "category": "expression"
-      },
-      {
-        "word": "Você pode me ajudar?",
-        "translation": "¿puedes ayudarme?",
-        "example": "Você pode me ajudar a encontrar a fonte?",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você",
-        "translation": "concuerdo contigo",
-        "example": "Concordo com você sobre a importância da educação.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho dúvidas",
-        "translation": "tengo dudas",
-        "example": "Tenho dúvidas sobre a veracidade dessa notícia.",
-        "category": "expression"
-      },
-      {
-        "word": "Desculpe, pode repetir?",
-        "translation": "Disculpe, ¿puede repetir?",
-        "example": "Desculpe, pode repetir o nome do autor?",
-        "category": "expression"
-      },
-      {
-        "word": "Depende do contexto",
-        "translation": "depende del contexto",
-        "example": "Depende do contexto, a opinião pode variar.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -18518,57 +21131,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Perguntas com quanto e qual",
-        "definition": "Use quanto para preço ou quantidade e qual para escolher.",
-        "structure": "Quanto custa um quilo?",
-        "function": "Fazer compras e pedir informação.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Quanto custa um quilo?",
-          "Quanto custa um quilo?"
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Quanto custa um quilo?",
-          "Quanto custa um quilo?",
-          "banana",
-          "tomate"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "banana",
-          "tomate",
-          "quilo",
-          "real"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "tomate",
-          "banana",
-          "quilo",
-          "real"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Quanto custa um quilo?",
-          "quilo",
-          "real",
-          "banana"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -18598,57 +21558,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Poder e dever",
-        "definition": "Use poder para pedir permissão e dever para dar conselho.",
-        "structure": "Posso fazer uma pausa? Você deve descansar.",
-        "function": "Interagir no trabalho.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Posso fazer uma pausa? Você deve descansar.",
-          "Posso fazer uma pausa?"
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Posso fazer uma pausa? Você deve descansar.",
-          "Posso fazer uma pausa?",
-          "colega",
-          "pausa"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "colega",
-          "pausa",
-          "reunião",
-          "horário"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "pausa",
-          "colega",
-          "reunião",
-          "horário"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Posso fazer uma pausa?",
-          "reunião",
-          "horário",
-          "colega"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -18755,23 +22062,135 @@
     "vocabulary": [
       {
         "word": "banana",
-        "translation": "palabra cultural",
-        "example": "Quanto custa um quilo?"
+        "translation": "banana",
+        "definition": "banana",
+        "example": "Uso “banana” em uma frase.",
+        "contexts": [
+          "banana · tema",
+          "banana · conversación",
+          "banana · práctica"
+        ]
       },
       {
         "word": "tomate",
-        "translation": "acción cotidiana",
-        "example": "Quanto custa um quilo?"
+        "translation": "tomate",
+        "definition": "tomate",
+        "example": "Uso “tomate” em uma frase.",
+        "contexts": [
+          "tomate · tema",
+          "tomate · conversación",
+          "tomate · práctica"
+        ]
       },
       {
         "word": "quilo",
-        "translation": "lugar o cosa",
-        "example": "Quanto custa um quilo?"
+        "translation": "kilo",
+        "definition": "kilo",
+        "example": "Uso “quilo” em uma frase.",
+        "contexts": [
+          "quilo · tema",
+          "quilo · conversación",
+          "quilo · práctica"
+        ]
       },
       {
         "word": "real",
-        "translation": "expresión útil",
-        "example": "Quanto custa um quilo?"
+        "translation": "real brasileño",
+        "definition": "real brasileño",
+        "example": "Uso “real” em uma frase.",
+        "contexts": [
+          "real · tema",
+          "real · conversación",
+          "real · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -18781,13 +22200,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "banana",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "banana"
+          },
+          {
+            "id": "o2",
+            "text": "tomate"
+          },
+          {
+            "id": "o3",
+            "text": "quilo"
+          },
+          {
+            "id": "o4",
+            "text": "real"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "banana"
+          },
+          {
+            "id": "o2",
+            "text": "tomate"
+          },
+          {
+            "id": "o3",
+            "text": "quilo"
+          },
+          {
+            "id": "o4",
+            "text": "real"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomate"
+          },
+          {
+            "id": "o2",
+            "text": "banana"
+          },
+          {
+            "id": "o3",
+            "text": "quilo"
+          },
+          {
+            "id": "o4",
+            "text": "real"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quilo"
+          },
+          {
+            "id": "o2",
+            "text": "banana"
+          },
+          {
+            "id": "o3",
+            "text": "tomate"
+          },
+          {
+            "id": "o4",
+            "text": "real"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "banana"
+          },
+          {
+            "id": "o3",
+            "text": "tomate"
+          },
+          {
+            "id": "o4",
+            "text": "quilo"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "banana"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "tomate"
+          },
+          {
+            "id": "o4",
+            "text": "quilo"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomate"
+          },
+          {
+            "id": "o2",
+            "text": "banana"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "quilo"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quilo"
+          },
+          {
+            "id": "o2",
+            "text": "banana"
+          },
+          {
+            "id": "o3",
+            "text": "tomate"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "banana"
+          },
+          {
+            "id": "o3",
+            "text": "tomate"
+          },
+          {
+            "id": "o4",
+            "text": "quilo"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "banana"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "tomate"
+          },
+          {
+            "id": "o4",
+            "text": "quilo"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomate"
+          },
+          {
+            "id": "o2",
+            "text": "banana"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "quilo"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quilo"
+          },
+          {
+            "id": "o2",
+            "text": "banana"
+          },
+          {
+            "id": "o3",
+            "text": "tomate"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -18810,23 +22495,135 @@
     "vocabulary": [
       {
         "word": "colega",
-        "translation": "palabra cultural",
-        "example": "Posso fazer uma pausa?"
+        "translation": "compañero",
+        "definition": "compañero",
+        "example": "Uso “colega” em uma frase.",
+        "contexts": [
+          "colega · tema",
+          "colega · conversación",
+          "colega · práctica"
+        ]
       },
       {
         "word": "pausa",
-        "translation": "acción cotidiana",
-        "example": "Posso fazer uma pausa?"
+        "translation": "pausa",
+        "definition": "pausa",
+        "example": "Uso “pausa” em uma frase.",
+        "contexts": [
+          "pausa · tema",
+          "pausa · conversación",
+          "pausa · práctica"
+        ]
       },
       {
         "word": "reunião",
-        "translation": "lugar o cosa",
-        "example": "Posso fazer uma pausa?"
+        "translation": "reunión",
+        "definition": "reunión",
+        "example": "Uso “reunião” em uma frase.",
+        "contexts": [
+          "reunião · tema",
+          "reunião · conversación",
+          "reunião · práctica"
+        ]
       },
       {
         "word": "horário",
-        "translation": "expresión útil",
-        "example": "Posso fazer uma pausa?"
+        "translation": "horario",
+        "definition": "horario",
+        "example": "Uso “horário” em uma frase.",
+        "contexts": [
+          "horário · tema",
+          "horário · conversación",
+          "horário · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -18836,13 +22633,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "colega",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "colega"
+          },
+          {
+            "id": "o2",
+            "text": "pausa"
+          },
+          {
+            "id": "o3",
+            "text": "reunião"
+          },
+          {
+            "id": "o4",
+            "text": "horário"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "colega"
+          },
+          {
+            "id": "o2",
+            "text": "pausa"
+          },
+          {
+            "id": "o3",
+            "text": "reunião"
+          },
+          {
+            "id": "o4",
+            "text": "horário"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "pausa"
+          },
+          {
+            "id": "o2",
+            "text": "colega"
+          },
+          {
+            "id": "o3",
+            "text": "reunião"
+          },
+          {
+            "id": "o4",
+            "text": "horário"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reunião"
+          },
+          {
+            "id": "o2",
+            "text": "colega"
+          },
+          {
+            "id": "o3",
+            "text": "pausa"
+          },
+          {
+            "id": "o4",
+            "text": "horário"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "colega"
+          },
+          {
+            "id": "o3",
+            "text": "pausa"
+          },
+          {
+            "id": "o4",
+            "text": "reunião"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "colega"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "pausa"
+          },
+          {
+            "id": "o4",
+            "text": "reunião"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "pausa"
+          },
+          {
+            "id": "o2",
+            "text": "colega"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "reunião"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reunião"
+          },
+          {
+            "id": "o2",
+            "text": "colega"
+          },
+          {
+            "id": "o3",
+            "text": "pausa"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "colega"
+          },
+          {
+            "id": "o3",
+            "text": "pausa"
+          },
+          {
+            "id": "o4",
+            "text": "reunião"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "colega"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "pausa"
+          },
+          {
+            "id": "o4",
+            "text": "reunião"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "pausa"
+          },
+          {
+            "id": "o2",
+            "text": "colega"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "reunião"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reunião"
+          },
+          {
+            "id": "o2",
+            "text": "colega"
+          },
+          {
+            "id": "o3",
+            "text": "pausa"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -19292,53 +23355,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a pedir informações. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Onde fica a parada?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: rua, praça, parada e bicicleta.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Onde fica a parada?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a pedir informações. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Onde fica a parada?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: rua, praça, parada e bicicleta.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Onde fica a parada?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "pedir informações",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "pedir informações",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -19374,64 +23413,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a dar opinião. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A exposição foi interessante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: exposição, artista, praça e opinião.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A exposição foi interessante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a dar opinião. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A exposição foi interessante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: exposição, artista, praça e opinião.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A exposição foi interessante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "escola",
-          "amanhã",
-          "Rafael"
+          "dar opinião",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “A _____ foi interessante.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "situações",
-          "exposição",
-          "conversa",
-          "aprendem"
-        ]
-      },
-      {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "foi",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "foi",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "foi",
-          "rua"
+          "dar opinião",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -19515,9 +23519,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Voz passiva e índice de indeterminação",
-        "definition": "Práctica guiada de Voz passiva e índice de indeterminação.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -21096,179 +25100,40 @@
       "praça"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Hoje eu preciso ir ao museu. Primeiro, saio da estação de metrô e sigo em frente. Depois, viro à direita na praça. O museu fica ao lado de uma livraria grande. Eu olho o mapa no celular, mas também pergunto a um senhor na rua. Ele explica o caminho com muita gentileza. Chego ao museu alguns minutos depois. Na entrada, agradeço ao senhor e compro um ingresso. Estou contente porque consigo encontrar lugares novos na cidade.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-caminhos-da-cidade-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Hoje eu preciso…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje eu preciso ir ao museu."
-              },
-              {
-                "id": "o2",
-                "text": "Primeiro, saio da estação de metrô e sigo em frente."
-              },
-              {
-                "id": "o3",
-                "text": "Depois, viro à direita na praça."
-              },
-              {
-                "id": "o4",
-                "text": "O museu fica ao lado de uma livraria grande."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “O museu fica…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje eu preciso ir ao museu."
-              },
-              {
-                "id": "o2",
-                "text": "O museu fica ao lado de uma livraria grande."
-              },
-              {
-                "id": "o3",
-                "text": "Primeiro, saio da estação de metrô e sigo em frente."
-              },
-              {
-                "id": "o4",
-                "text": "Depois, viro à direita na praça."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Ele explica o…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje eu preciso ir ao museu."
-              },
-              {
-                "id": "o2",
-                "text": "Primeiro, saio da estação de metrô e sigo em frente."
-              },
-              {
-                "id": "o3",
-                "text": "Ele explica o caminho com muita gentileza."
-              },
-              {
-                "id": "o4",
-                "text": "Depois, viro à direita na praça."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Estou contente porque…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje eu preciso ir ao museu."
-              },
-              {
-                "id": "o2",
-                "text": "Primeiro, saio da estação de metrô e sigo em frente."
-              },
-              {
-                "id": "o3",
-                "text": "Depois, viro à direita na praça."
-              },
-              {
-                "id": "o4",
-                "text": "Estou contente porque consigo encontrar lugares novos na cidade."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Onde fica a parada?",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Hoje eu preciso ir ao museu. Primeiro, saio da estação de metrô e sigo em frente. Depois, viro à direita na praça. O museu fica ao lado de uma livraria grande. Eu olho o mapa no celular, mas também pergunto a um senhor na rua. Ele explica o caminho com muita gentileza. Chego ao museu alguns minutos depois. Na entrada, agradeço ao senhor e compro um ingresso. Estou contente porque consigo encontrar lugares novos na cidade.",
-      "transcriptSegments": [
-        {
-          "text": "Hoje eu preciso ir ao museu."
-        },
-        {
-          "text": "Primeiro, saio da estação de metrô e sigo em frente."
-        },
-        {
-          "text": "Depois, viro à direita na praça."
-        },
-        {
-          "text": "O museu fica ao lado de uma livraria grande."
-        },
-        {
-          "text": "Eu olho o mapa no celular, mas também pergunto a um senhor na rua."
-        },
-        {
-          "text": "Ele explica o caminho com muita gentileza."
-        },
-        {
-          "text": "Chego ao museu alguns minutos depois."
-        },
-        {
-          "text": "Na entrada, agradeço ao senhor e compro um ingresso."
-        },
-        {
-          "text": "Estou contente porque consigo encontrar lugares novos na cidade."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de rua.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Onde fica a parada? Falamos de rua. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Hoje eu preciso…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Hoje eu preciso ir ao museu.",
-          "Primeiro, saio da estação de metrô e sigo em frente.",
-          "Depois, viro à direita na praça.",
-          "O museu fica ao lado de uma livraria grande."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “O museu fica…”",
-        "options": [
-          "Hoje eu preciso ir ao museu.",
-          "O museu fica ao lado de uma livraria grande.",
-          "Primeiro, saio da estação de metrô e sigo em frente.",
-          "Depois, viro à direita na praça."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Ele explica o…”",
-        "options": [
-          "Hoje eu preciso ir ao museu.",
-          "Primeiro, saio da estação de metrô e sigo em frente.",
-          "Ele explica o caminho com muita gentileza.",
-          "Depois, viro à direita na praça."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Estou contente porque…”",
-        "options": [
-          "Hoje eu preciso ir ao museu.",
-          "Primeiro, saio da estação de metrô e sigo em frente.",
-          "Depois, viro à direita na praça.",
-          "Estou contente porque consigo encontrar lugares novos na cidade."
+          "Onde fica a parada?",
+          "rua",
+          "praça",
+          "parada"
         ]
       }
     ]
@@ -21294,179 +25159,40 @@
       "artista"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade. Agora há exposições, aulas de desenho, cinema e oficinas de música. No sábado, fui ver uma mostra de fotografias feitas por jovens da região. As imagens mostravam ruas, famílias, festas e problemas do bairro. Depois da visita, conversei com uma das fotógrafas. Ela disse que começou a usar a câmera emprestada da escola e que a arte ajudou a olhar sua própria cidade de outra forma. Gostei dessa ideia: um espaço cultural não serve apenas para mostrar obras bonitas; ele pode criar oportunidades para quem ainda não tem voz. No próximo mês haverá uma oficina de fotografia para adolescentes. Quero ajudar como voluntário, porque acredito que mais pessoas devem ter acesso a esse tipo de espaço.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-arte-na-comunidade-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “No meu bairro um galpão…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade."
-              },
-              {
-                "id": "o2",
-                "text": "Agora há exposições, aulas de desenho, cinema e oficinas de música."
-              },
-              {
-                "id": "o3",
-                "text": "No sábado, fui ver uma mostra de fotografias feitas por jovens da região."
-              },
-              {
-                "id": "o4",
-                "text": "As imagens mostravam ruas, famílias, festas e problemas do bairro."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “As imagens mostravam ruas…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade."
-              },
-              {
-                "id": "o2",
-                "text": "As imagens mostravam ruas, famílias, festas e problemas do bairro."
-              },
-              {
-                "id": "o3",
-                "text": "Agora há exposições, aulas de desenho, cinema e oficinas de música."
-              },
-              {
-                "id": "o4",
-                "text": "No sábado, fui ver uma mostra de fotografias feitas por jovens da região."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Ela disse que começou a usar a…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade."
-              },
-              {
-                "id": "o2",
-                "text": "Agora há exposições, aulas de desenho, cinema e oficinas de música."
-              },
-              {
-                "id": "o3",
-                "text": "Ela disse que começou a usar a câmera emprestada da escola e que a arte ajudou a olhar sua própria cidade de outra forma."
-              },
-              {
-                "id": "o4",
-                "text": "No sábado, fui ver uma mostra de fotografias feitas por jovens da região."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Quero ajudar como voluntário porque acredito…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade."
-              },
-              {
-                "id": "o2",
-                "text": "Agora há exposições, aulas de desenho, cinema e oficinas de música."
-              },
-              {
-                "id": "o3",
-                "text": "No sábado, fui ver uma mostra de fotografias feitas por jovens da região."
-              },
-              {
-                "id": "o4",
-                "text": "Quero ajudar como voluntário, porque acredito que mais pessoas devem ter acesso a esse tipo de espaço."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "A exposição foi interessante.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade. Agora há exposições, aulas de desenho, cinema e oficinas de música. No sábado, fui ver uma mostra de fotografias feitas por jovens da região. As imagens mostravam ruas, famílias, festas e problemas do bairro. Depois da visita, conversei com uma das fotógrafas. Ela disse que começou a usar a câmera emprestada da escola e que a arte ajudou a olhar sua própria cidade de outra forma. Gostei dessa ideia: um espaço cultural não serve apenas para mostrar obras bonitas; ele pode criar oportunidades para quem ainda não tem voz. No próximo mês haverá uma oficina de fotografia para adolescentes. Quero ajudar como voluntário, porque acredito que mais pessoas devem ter acesso a esse tipo de espaço.",
-      "transcriptSegments": [
-        {
-          "text": "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade."
-        },
-        {
-          "text": "Agora há exposições, aulas de desenho, cinema e oficinas de música."
-        },
-        {
-          "text": "No sábado, fui ver uma mostra de fotografias feitas por jovens da região."
-        },
-        {
-          "text": "As imagens mostravam ruas, famílias, festas e problemas do bairro."
-        },
-        {
-          "text": "Depois da visita, conversei com uma das fotógrafas."
-        },
-        {
-          "text": "Ela disse que começou a usar a câmera emprestada da escola e que a arte ajudou a olhar sua própria cidade de outra forma."
-        },
-        {
-          "text": "Gostei dessa ideia: um espaço cultural não serve apenas para mostrar obras bonitas; ele pode criar oportunidades para quem ainda não tem voz."
-        },
-        {
-          "text": "No próximo mês haverá uma oficina de fotografia para adolescentes."
-        },
-        {
-          "text": "Quero ajudar como voluntário, porque acredito que mais pessoas devem ter acesso a esse tipo de espaço."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de exposição.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "A exposição foi interessante. Falamos de exposição. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “No meu bairro um galpão…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade.",
-          "Agora há exposições, aulas de desenho, cinema e oficinas de música.",
-          "No sábado, fui ver uma mostra de fotografias feitas por jovens da região.",
-          "As imagens mostravam ruas, famílias, festas e problemas do bairro."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “As imagens mostravam ruas…”",
-        "options": [
-          "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade.",
-          "As imagens mostravam ruas, famílias, festas e problemas do bairro.",
-          "Agora há exposições, aulas de desenho, cinema e oficinas de música.",
-          "No sábado, fui ver uma mostra de fotografias feitas por jovens da região."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Ela disse que começou a usar a…”",
-        "options": [
-          "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade.",
-          "Agora há exposições, aulas de desenho, cinema e oficinas de música.",
-          "Ela disse que começou a usar a câmera emprestada da escola e que a arte ajudou a olhar sua própria cidade de outra forma.",
-          "No sábado, fui ver uma mostra de fotografias feitas por jovens da região."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Quero ajudar como voluntário porque acredito…”",
-        "options": [
-          "No meu bairro, um galpão antigo virou um espaço cultural para a comunidade.",
-          "Agora há exposições, aulas de desenho, cinema e oficinas de música.",
-          "No sábado, fui ver uma mostra de fotografias feitas por jovens da região.",
-          "Quero ajudar como voluntário, porque acredito que mais pessoas devem ter acesso a esse tipo de espaço."
+          "A exposição foi interessante.",
+          "exposição",
+          "artista",
+          "praça"
         ]
       }
     ]
@@ -21624,100 +25350,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "lixo",
-        "translation": "basura",
-        "example": "Coloque o lixo no contêiner correto."
-      },
-      {
-        "word": "reciclagem",
-        "translation": "reciclaje",
-        "example": "A reciclagem reduz o consumo de recursos."
-      },
-      {
-        "word": "compostagem",
-        "translation": "compostaje",
-        "example": "Fazemos compostagem dos restos de comida."
-      },
-      {
-        "word": "separar",
-        "translation": "separar",
-        "example": "É importante separar o plástico do papel."
-      },
-      {
-        "word": "poluição",
-        "translation": "contaminación",
-        "example": "A poluição do ar afeta a saúde das pessoas."
-      },
-      {
-        "word": "entulho",
-        "translation": "escombros",
-        "example": "O entulho deve ser levado ao ponto de recolha."
-      },
-      {
-        "word": "saneamento",
-        "translation": "saneamiento",
-        "example": "O bairro precisa de melhores sistemas de saneamento."
-      },
-      {
-        "word": "cooperativa",
-        "translation": "cooperativa",
-        "example": "A cooperativa organiza a coleta seletiva."
-      },
-      {
-        "word": "praça",
-        "translation": "plaza",
-        "example": "A praça precisa de mais árvores."
-      },
-      {
-        "word": "calçada",
-        "translation": "acera",
-        "example": "A calçada foi ocupada por lixo e caixas."
-      },
-      {
-        "word": "denúncia",
-        "translation": "denuncia",
-        "example": "Você pode fazer uma denúncia ao serviço municipal."
-      },
-      {
-        "word": "sensibilizar",
-        "translation": "sensibilizar/concientizar",
-        "example": "Queremos sensibilizar os vizinhos para reciclar."
-      },
-      {
-        "word": "plantio",
-        "translation": "plantación",
-        "example": "O plantio de árvores começou no sábado."
-      },
-      {
-        "word": "mutirão",
-        "translation": "jornada comunitaria",
-        "example": "Fizemos um mutirão para limpar o terreno."
-      },
-      {
-        "word": "Você pode me ajudar?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Você pode me ajudar com a limpeza do terreno?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião",
-        "translation": "En mi opinión",
-        "example": "Na minha opinião, precisamos de mais lixeiras.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo",
-        "translation": "Estoy de acuerdo",
-        "example": "Concordo, precisamos agir logo.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida",
-        "translation": "Tengo una duda",
-        "example": "Tenho uma dúvida sobre a coleta de recicláveis.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -23127,57 +26759,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Onde fica? e preposições de lugar",
-        "definition": "Use em, perto de e ao lado de para localizar lugares.",
-        "structure": "Onde fica a parada? Fica perto da praça.",
-        "function": "Pedir e dar direções simples.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Onde fica a parada? Fica perto da praça.",
-          "Onde fica a parada?"
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Onde fica a parada? Fica perto da praça.",
-          "Onde fica a parada?",
-          "rua",
-          "praça"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "rua",
-          "praça",
-          "parada",
-          "bicicleta"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "praça",
-          "rua",
-          "parada",
-          "bicicleta"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Onde fica a parada?",
-          "parada",
-          "bicicleta",
-          "rua"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -23207,57 +27186,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Pretérito perfeito: foi e era",
-        "definition": "Use foi para um fato concluído e era para descrever.",
-        "structure": "A exposição foi interessante.",
-        "function": "Dar opinião e contexto.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "A exposição foi interessante.",
-          "A exposição foi interessante."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "A exposição foi interessante.",
-          "A exposição foi interessante.",
-          "exposição",
-          "artista"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "exposição",
-          "artista",
-          "praça",
-          "opinião"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "artista",
-          "exposição",
-          "praça",
-          "opinião"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "A exposição foi interessante.",
-          "praça",
-          "opinião",
-          "exposição"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -23364,23 +27690,135 @@
     "vocabulary": [
       {
         "word": "rua",
-        "translation": "palabra cultural",
-        "example": "Onde fica a parada?"
+        "translation": "calle",
+        "definition": "calle",
+        "example": "Uso “rua” em uma frase.",
+        "contexts": [
+          "rua · tema",
+          "rua · conversación",
+          "rua · práctica"
+        ]
       },
       {
         "word": "praça",
-        "translation": "acción cotidiana",
-        "example": "Onde fica a parada?"
+        "translation": "plaza",
+        "definition": "plaza",
+        "example": "Uso “praça” em uma frase.",
+        "contexts": [
+          "praça · tema",
+          "praça · conversación",
+          "praça · práctica"
+        ]
       },
       {
         "word": "parada",
-        "translation": "lugar o cosa",
-        "example": "Onde fica a parada?"
+        "translation": "parada",
+        "definition": "parada",
+        "example": "Uso “parada” em uma frase.",
+        "contexts": [
+          "parada · tema",
+          "parada · conversación",
+          "parada · práctica"
+        ]
       },
       {
         "word": "bicicleta",
-        "translation": "expresión útil",
-        "example": "Onde fica a parada?"
+        "translation": "bicicleta",
+        "definition": "bicicleta",
+        "example": "Uso “bicicleta” em uma frase.",
+        "contexts": [
+          "bicicleta · tema",
+          "bicicleta · conversación",
+          "bicicleta · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -23390,13 +27828,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "rua",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "rua"
+          },
+          {
+            "id": "o2",
+            "text": "praça"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "bicicleta"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "rua"
+          },
+          {
+            "id": "o2",
+            "text": "praça"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "bicicleta"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "praça"
+          },
+          {
+            "id": "o2",
+            "text": "rua"
+          },
+          {
+            "id": "o3",
+            "text": "parada"
+          },
+          {
+            "id": "o4",
+            "text": "bicicleta"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "parada"
+          },
+          {
+            "id": "o2",
+            "text": "rua"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "bicicleta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "rua"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "parada"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "rua"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "parada"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "praça"
+          },
+          {
+            "id": "o2",
+            "text": "rua"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "parada"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "parada"
+          },
+          {
+            "id": "o2",
+            "text": "rua"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "rua"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "parada"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "rua"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "parada"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "praça"
+          },
+          {
+            "id": "o2",
+            "text": "rua"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "parada"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "parada"
+          },
+          {
+            "id": "o2",
+            "text": "rua"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -23419,23 +28123,135 @@
     "vocabulary": [
       {
         "word": "exposição",
-        "translation": "palabra cultural",
-        "example": "A exposição foi interessante."
+        "translation": "exposición",
+        "definition": "exposición",
+        "example": "Uso “exposição” em uma frase.",
+        "contexts": [
+          "exposição · tema",
+          "exposição · conversación",
+          "exposição · práctica"
+        ]
       },
       {
         "word": "artista",
-        "translation": "acción cotidiana",
-        "example": "A exposição foi interessante."
+        "translation": "artista",
+        "definition": "artista",
+        "example": "Uso “artista” em uma frase.",
+        "contexts": [
+          "artista · tema",
+          "artista · conversación",
+          "artista · práctica"
+        ]
       },
       {
         "word": "praça",
-        "translation": "lugar o cosa",
-        "example": "A exposição foi interessante."
+        "translation": "plaza",
+        "definition": "plaza",
+        "example": "Uso “praça” em uma frase.",
+        "contexts": [
+          "praça · tema",
+          "praça · conversación",
+          "praça · práctica"
+        ]
       },
       {
         "word": "opinião",
-        "translation": "expresión útil",
-        "example": "A exposição foi interessante."
+        "translation": "opinión",
+        "definition": "opinión",
+        "example": "Uso “opinião” em uma frase.",
+        "contexts": [
+          "opinião · tema",
+          "opinião · conversación",
+          "opinião · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -23445,13 +28261,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "exposição",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "exposição"
+          },
+          {
+            "id": "o2",
+            "text": "artista"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "opinião"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "exposição"
+          },
+          {
+            "id": "o2",
+            "text": "artista"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "opinião"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "artista"
+          },
+          {
+            "id": "o2",
+            "text": "exposição"
+          },
+          {
+            "id": "o3",
+            "text": "praça"
+          },
+          {
+            "id": "o4",
+            "text": "opinião"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "praça"
+          },
+          {
+            "id": "o2",
+            "text": "exposição"
+          },
+          {
+            "id": "o3",
+            "text": "artista"
+          },
+          {
+            "id": "o4",
+            "text": "opinião"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "exposição"
+          },
+          {
+            "id": "o3",
+            "text": "artista"
+          },
+          {
+            "id": "o4",
+            "text": "praça"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "exposição"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "artista"
+          },
+          {
+            "id": "o4",
+            "text": "praça"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "artista"
+          },
+          {
+            "id": "o2",
+            "text": "exposição"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "praça"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "praça"
+          },
+          {
+            "id": "o2",
+            "text": "exposição"
+          },
+          {
+            "id": "o3",
+            "text": "artista"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "exposição"
+          },
+          {
+            "id": "o3",
+            "text": "artista"
+          },
+          {
+            "id": "o4",
+            "text": "praça"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "exposição"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "artista"
+          },
+          {
+            "id": "o4",
+            "text": "praça"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "artista"
+          },
+          {
+            "id": "o2",
+            "text": "exposição"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "praça"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "praça"
+          },
+          {
+            "id": "o2",
+            "text": "exposição"
+          },
+          {
+            "id": "o3",
+            "text": "artista"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -23901,53 +28983,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar de gostos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Qual matéria você gosta?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: escola, amigo, aula e tarefa.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Qual matéria você gosta?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a falar de gostos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Qual matéria você gosta?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: escola, amigo, aula e tarefa.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Qual matéria você gosta?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "falar de gostos",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "falar de gostos",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -23983,64 +29041,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a expressar intenção. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Não quero incomodar os moradores.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: morador, respeito, mapa e escolha.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Não quero incomodar os moradores.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a expressar intenção. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Não quero incomodar os moradores.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: morador, respeito, mapa e escolha.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Não quero incomodar os moradores.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "escola",
-          "amanhã",
-          "Rafael"
+          "expressar intenção",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ quero incomodar os moradores.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "diz",
-          "Não",
-          "rua",
-          "Ela"
-        ]
-      },
-      {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "Não",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "Não",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "Não",
-          "rua"
+          "expressar intenção",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -24124,9 +29147,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Mais-que-perfeito e narrativa",
-        "definition": "Práctica guiada de Mais-que-perfeito e narrativa.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -25705,179 +30728,40 @@
       "amigo"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Eu estudo português em uma escola pequena. Minha professora se chama Carla e fala devagar. Na minha turma há alunos de vários países. Minha melhor amiga é a Yuki. Nós fazemos exercícios juntas e tomamos café depois da aula. Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes. Depois da aula, Yuki e eu revisamos as palavras novas. Quando não entendemos uma frase, perguntamos à professora. Assim, aprendemos com mais confiança.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-escola-e-amizade-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Eu estudo português…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Minha professora se chama Carla e fala devagar."
-              },
-              {
-                "id": "o2",
-                "text": "Na minha turma há alunos de vários países."
-              },
-              {
-                "id": "o3",
-                "text": "Eu estudo português em uma escola pequena."
-              },
-              {
-                "id": "o4",
-                "text": "Minha melhor amiga é a Yuki."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Minha melhor amiga…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu estudo português em uma escola pequena."
-              },
-              {
-                "id": "o2",
-                "text": "Minha professora se chama Carla e fala devagar."
-              },
-              {
-                "id": "o3",
-                "text": "Na minha turma há alunos de vários países."
-              },
-              {
-                "id": "o4",
-                "text": "Minha melhor amiga é a Yuki."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Eu gosto da escola porque…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes."
-              },
-              {
-                "id": "o2",
-                "text": "Eu estudo português em uma escola pequena."
-              },
-              {
-                "id": "o3",
-                "text": "Minha professora se chama Carla e fala devagar."
-              },
-              {
-                "id": "o4",
-                "text": "Na minha turma há alunos de vários países."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Assim aprendemos com…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu estudo português em uma escola pequena."
-              },
-              {
-                "id": "o2",
-                "text": "Assim, aprendemos com mais confiança."
-              },
-              {
-                "id": "o3",
-                "text": "Minha professora se chama Carla e fala devagar."
-              },
-              {
-                "id": "o4",
-                "text": "Na minha turma há alunos de vários países."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Qual matéria você gosta?",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Eu estudo português em uma escola pequena. Minha professora se chama Carla e fala devagar. Na minha turma há alunos de vários países. Minha melhor amiga é a Yuki. Nós fazemos exercícios juntas e tomamos café depois da aula. Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes. Depois da aula, Yuki e eu revisamos as palavras novas. Quando não entendemos uma frase, perguntamos à professora. Assim, aprendemos com mais confiança.",
-      "transcriptSegments": [
-        {
-          "text": "Eu estudo português em uma escola pequena."
-        },
-        {
-          "text": "Minha professora se chama Carla e fala devagar."
-        },
-        {
-          "text": "Na minha turma há alunos de vários países."
-        },
-        {
-          "text": "Minha melhor amiga é a Yuki."
-        },
-        {
-          "text": "Nós fazemos exercícios juntas e tomamos café depois da aula."
-        },
-        {
-          "text": "Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes."
-        },
-        {
-          "text": "Depois da aula, Yuki e eu revisamos as palavras novas."
-        },
-        {
-          "text": "Quando não entendemos uma frase, perguntamos à professora."
-        },
-        {
-          "text": "Assim, aprendemos com mais confiança."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de escola.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Qual matéria você gosta? Falamos de escola. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Eu estudo português…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Minha professora se chama Carla e fala devagar.",
-          "Na minha turma há alunos de vários países.",
-          "Eu estudo português em uma escola pequena.",
-          "Minha melhor amiga é a Yuki."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Minha melhor amiga…”",
-        "options": [
-          "Eu estudo português em uma escola pequena.",
-          "Minha professora se chama Carla e fala devagar.",
-          "Na minha turma há alunos de vários países.",
-          "Minha melhor amiga é a Yuki."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Eu gosto da escola porque…”",
-        "options": [
-          "Eu gosto da escola porque aprendo uma língua nova e conheço pessoas interessantes.",
-          "Eu estudo português em uma escola pequena.",
-          "Minha professora se chama Carla e fala devagar.",
-          "Na minha turma há alunos de vários países."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Assim aprendemos com…”",
-        "options": [
-          "Eu estudo português em uma escola pequena.",
-          "Assim, aprendemos com mais confiança.",
-          "Minha professora se chama Carla e fala devagar.",
-          "Na minha turma há alunos de vários países."
+          "Qual matéria você gosta?",
+          "escola",
+          "amigo",
+          "aula"
         ]
       }
     ]
@@ -25903,179 +30787,40 @@
       "respeito"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais. Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado. Não quero fazer um roteiro correndo de um ponto turístico para outro. Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais. Também vou levar uma garrafa de água e uma sacola reutilizável para produzir menos lixo. Quando viajamos, usamos ruas, praias e serviços que pertencem a outras pessoas. Por isso, acho importante respeitar os horários, as regras e o ritmo da comunidade que nos recebe. Também quero aprender algumas palavras e histórias sobre a região antes de ir. Assim, minha visita será mais respeitosa e mais interessante para mim.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-viajar-com-respeito-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Nas próximas férias quero conhecer…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado."
-              },
-              {
-                "id": "o2",
-                "text": "Não quero fazer um roteiro correndo de um ponto turístico para outro."
-              },
-              {
-                "id": "o3",
-                "text": "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais."
-              },
-              {
-                "id": "o4",
-                "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Prefiro passar mais tempo no…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais."
-              },
-              {
-                "id": "o2",
-                "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
-              },
-              {
-                "id": "o3",
-                "text": "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado."
-              },
-              {
-                "id": "o4",
-                "text": "Não quero fazer um roteiro correndo de um ponto turístico para outro."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Quando viajamos usamos ruas…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
-              },
-              {
-                "id": "o2",
-                "text": "Quando viajamos, usamos ruas, praias e serviços que pertencem a outras pessoas."
-              },
-              {
-                "id": "o3",
-                "text": "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado."
-              },
-              {
-                "id": "o4",
-                "text": "Não quero fazer um roteiro correndo de um ponto turístico para outro."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Assim minha visita será…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
-              },
-              {
-                "id": "o2",
-                "text": "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado."
-              },
-              {
-                "id": "o3",
-                "text": "Assim, minha visita será mais respeitosa e mais interessante para mim."
-              },
-              {
-                "id": "o4",
-                "text": "Não quero fazer um roteiro correndo de um ponto turístico para outro."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Não quero incomodar os moradores.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais. Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado. Não quero fazer um roteiro correndo de um ponto turístico para outro. Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais. Também vou levar uma garrafa de água e uma sacola reutilizável para produzir menos lixo. Quando viajamos, usamos ruas, praias e serviços que pertencem a outras pessoas. Por isso, acho importante respeitar os horários, as regras e o ritmo da comunidade que nos recebe. Também quero aprender algumas palavras e histórias sobre a região antes de ir. Assim, minha visita será mais respeitosa e mais interessante para mim.",
-      "transcriptSegments": [
-        {
-          "text": "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
-        },
-        {
-          "text": "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado."
-        },
-        {
-          "text": "Não quero fazer um roteiro correndo de um ponto turístico para outro."
-        },
-        {
-          "text": "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais."
-        },
-        {
-          "text": "Também vou levar uma garrafa de água e uma sacola reutilizável para produzir menos lixo."
-        },
-        {
-          "text": "Quando viajamos, usamos ruas, praias e serviços que pertencem a outras pessoas."
-        },
-        {
-          "text": "Por isso, acho importante respeitar os horários, as regras e o ritmo da comunidade que nos recebe."
-        },
-        {
-          "text": "Também quero aprender algumas palavras e histórias sobre a região antes de ir."
-        },
-        {
-          "text": "Assim, minha visita será mais respeitosa e mais interessante para mim."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de morador.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Não quero incomodar os moradores. Falamos de morador. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Nas próximas férias quero conhecer…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
-          "Não quero fazer um roteiro correndo de um ponto turístico para outro.",
-          "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais.",
-          "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Prefiro passar mais tempo no…”",
-        "options": [
-          "Prefiro passar mais tempo no mesmo lugar, conversar com moradores e comer em restaurantes locais.",
-          "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais.",
-          "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
-          "Não quero fazer um roteiro correndo de um ponto turístico para outro."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Quando viajamos usamos ruas…”",
-        "options": [
-          "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais.",
-          "Quando viajamos, usamos ruas, praias e serviços que pertencem a outras pessoas.",
-          "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
-          "Não quero fazer um roteiro correndo de um ponto turístico para outro."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Assim minha visita será…”",
-        "options": [
-          "Nas próximas férias, quero conhecer uma cidade pequena no interior de Minas Gerais.",
-          "Antes de viajar, estou pesquisando como chegar, onde ficar e quais lugares precisam de mais cuidado.",
-          "Assim, minha visita será mais respeitosa e mais interessante para mim.",
-          "Não quero fazer um roteiro correndo de um ponto turístico para outro."
+          "Não quero incomodar os moradores.",
+          "morador",
+          "respeito",
+          "mapa"
         ]
       }
     ]
@@ -26233,102 +30978,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "saudade",
-        "translation": "nostalgia",
-        "example": "Sinto saudade dos verões da infância."
-      },
-      {
-        "word": "lembrança",
-        "translation": "recuerdo",
-        "example": "Guardei uma lembrança daquele dia."
-      },
-      {
-        "word": "lembrar",
-        "translation": "recordar",
-        "example": "É fácil lembrar dos detalhes agora."
-      },
-      {
-        "word": "relato",
-        "translation": "relato",
-        "example": "Ela fez um relato emocionante."
-      },
-      {
-        "word": "biografia",
-        "translation": "biografía",
-        "example": "Ele escreveu a biografia da avó."
-      },
-      {
-        "word": "testemunho",
-        "translation": "testimonio",
-        "example": "O testemunho trouxe mais informações."
-      },
-      {
-        "word": "arquivo",
-        "translation": "archivo",
-        "example": "Encontrei fotos no arquivo da família."
-      },
-      {
-        "word": "época",
-        "translation": "época",
-        "example": "Naquela época, morávamos na cidade."
-      },
-      {
-        "word": "celebração",
-        "translation": "celebración",
-        "example": "Fizemos uma celebração simples."
-      },
-      {
-        "word": "reencontro",
-        "translation": "reencuentro",
-        "example": "O reencontro foi emocionante."
-      },
-      {
-        "word": "registro",
-        "translation": "registro",
-        "example": "Conservamos um registro dos acontecimentos."
-      },
-      {
-        "word": "detalhe",
-        "translation": "detalle",
-        "example": "Preste atenção em cada detalhe."
-      },
-      {
-        "word": "Você pode me ajudar?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Você pode me ajudar?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião,",
-        "translation": "En mi opinión,",
-        "example": "Na minha opinião, essa história é verdadeira.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você.",
-        "translation": "Estoy de acuerdo contigo.",
-        "example": "Concordo com você sobre as lembranças.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida.",
-        "translation": "Tengo una duda.",
-        "example": "Tenho uma dúvida sobre as datas.",
-        "category": "expression"
-      },
-      {
-        "word": "Com licença.",
-        "translation": "Con permiso.",
-        "example": "Com licença, posso ver suas fotos?",
-        "category": "expression"
-      },
-      {
-        "word": "Por isso,",
-        "translation": "Por eso,",
-        "example": "Ele guardou as cartas; por isso, lembramos melhor do passado.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -27738,57 +32387,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Gostar de + infinitivo",
-        "definition": "Depois de gostar de, use o verbo no infinitivo.",
-        "structure": "Eu gosto de estudar português.",
-        "function": "Falar de gostos e preferências.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Eu gosto de estudar português.",
-          "Qual matéria você gosta?"
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu gosto de estudar português.",
-          "Qual matéria você gosta?",
-          "escola",
-          "amigo"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "escola",
-          "amigo",
-          "aula",
-          "tarefa"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "amigo",
-          "escola",
-          "aula",
-          "tarefa"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Qual matéria você gosta?",
-          "aula",
-          "tarefa",
-          "escola"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -27818,57 +32814,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Querer, gostar e preferir com respeito",
-        "definition": "Use formas suaves para expressar intenção e preferência.",
-        "structure": "Não quero incomodar os moradores.",
-        "function": "Falar de decisiones responsables.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Não quero incomodar os moradores.",
-          "Não quero incomodar os moradores."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Não quero incomodar os moradores.",
-          "Não quero incomodar os moradores.",
-          "morador",
-          "respeito"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "morador",
-          "respeito",
-          "mapa",
-          "escolha"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "respeito",
-          "morador",
-          "mapa",
-          "escolha"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Não quero incomodar os moradores.",
-          "mapa",
-          "escolha",
-          "morador"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -27975,23 +33318,135 @@
     "vocabulary": [
       {
         "word": "escola",
-        "translation": "palabra cultural",
-        "example": "Qual matéria você gosta?"
+        "translation": "escuela",
+        "definition": "escuela",
+        "example": "Uso “escola” em uma frase.",
+        "contexts": [
+          "escola · tema",
+          "escola · conversación",
+          "escola · práctica"
+        ]
       },
       {
         "word": "amigo",
-        "translation": "acción cotidiana",
-        "example": "Qual matéria você gosta?"
+        "translation": "amigo",
+        "definition": "amigo",
+        "example": "Uso “amigo” em uma frase.",
+        "contexts": [
+          "amigo · tema",
+          "amigo · conversación",
+          "amigo · práctica"
+        ]
       },
       {
         "word": "aula",
-        "translation": "lugar o cosa",
-        "example": "Qual matéria você gosta?"
+        "translation": "clase",
+        "definition": "clase",
+        "example": "Uso “aula” em uma frase.",
+        "contexts": [
+          "aula · tema",
+          "aula · conversación",
+          "aula · práctica"
+        ]
       },
       {
         "word": "tarefa",
-        "translation": "expresión útil",
-        "example": "Qual matéria você gosta?"
+        "translation": "tarea",
+        "definition": "tarea",
+        "example": "Uso “tarefa” em uma frase.",
+        "contexts": [
+          "tarefa · tema",
+          "tarefa · conversación",
+          "tarefa · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -28001,13 +33456,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "escola",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "escola"
+          },
+          {
+            "id": "o2",
+            "text": "amigo"
+          },
+          {
+            "id": "o3",
+            "text": "aula"
+          },
+          {
+            "id": "o4",
+            "text": "tarefa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "escola"
+          },
+          {
+            "id": "o2",
+            "text": "amigo"
+          },
+          {
+            "id": "o3",
+            "text": "aula"
+          },
+          {
+            "id": "o4",
+            "text": "tarefa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "amigo"
+          },
+          {
+            "id": "o2",
+            "text": "escola"
+          },
+          {
+            "id": "o3",
+            "text": "aula"
+          },
+          {
+            "id": "o4",
+            "text": "tarefa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "aula"
+          },
+          {
+            "id": "o2",
+            "text": "escola"
+          },
+          {
+            "id": "o3",
+            "text": "amigo"
+          },
+          {
+            "id": "o4",
+            "text": "tarefa"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "escola"
+          },
+          {
+            "id": "o3",
+            "text": "amigo"
+          },
+          {
+            "id": "o4",
+            "text": "aula"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "escola"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "amigo"
+          },
+          {
+            "id": "o4",
+            "text": "aula"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "amigo"
+          },
+          {
+            "id": "o2",
+            "text": "escola"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "aula"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "aula"
+          },
+          {
+            "id": "o2",
+            "text": "escola"
+          },
+          {
+            "id": "o3",
+            "text": "amigo"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "escola"
+          },
+          {
+            "id": "o3",
+            "text": "amigo"
+          },
+          {
+            "id": "o4",
+            "text": "aula"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "escola"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "amigo"
+          },
+          {
+            "id": "o4",
+            "text": "aula"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "amigo"
+          },
+          {
+            "id": "o2",
+            "text": "escola"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "aula"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "aula"
+          },
+          {
+            "id": "o2",
+            "text": "escola"
+          },
+          {
+            "id": "o3",
+            "text": "amigo"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -28030,23 +33751,135 @@
     "vocabulary": [
       {
         "word": "morador",
-        "translation": "palabra cultural",
-        "example": "Não quero incomodar os moradores."
+        "translation": "residente",
+        "definition": "residente",
+        "example": "Uso “morador” em uma frase.",
+        "contexts": [
+          "morador · tema",
+          "morador · conversación",
+          "morador · práctica"
+        ]
       },
       {
         "word": "respeito",
-        "translation": "acción cotidiana",
-        "example": "Não quero incomodar os moradores."
+        "translation": "respeto",
+        "definition": "respeto",
+        "example": "Uso “respeito” em uma frase.",
+        "contexts": [
+          "respeito · tema",
+          "respeito · conversación",
+          "respeito · práctica"
+        ]
       },
       {
         "word": "mapa",
-        "translation": "lugar o cosa",
-        "example": "Não quero incomodar os moradores."
+        "translation": "mapa",
+        "definition": "mapa",
+        "example": "Uso “mapa” em uma frase.",
+        "contexts": [
+          "mapa · tema",
+          "mapa · conversación",
+          "mapa · práctica"
+        ]
       },
       {
         "word": "escolha",
-        "translation": "expresión útil",
-        "example": "Não quero incomodar os moradores."
+        "translation": "elección",
+        "definition": "elección",
+        "example": "Uso “escolha” em uma frase.",
+        "contexts": [
+          "escolha · tema",
+          "escolha · conversación",
+          "escolha · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -28056,13 +33889,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "morador",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "morador"
+          },
+          {
+            "id": "o2",
+            "text": "respeito"
+          },
+          {
+            "id": "o3",
+            "text": "mapa"
+          },
+          {
+            "id": "o4",
+            "text": "escolha"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "morador"
+          },
+          {
+            "id": "o2",
+            "text": "respeito"
+          },
+          {
+            "id": "o3",
+            "text": "mapa"
+          },
+          {
+            "id": "o4",
+            "text": "escolha"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "respeito"
+          },
+          {
+            "id": "o2",
+            "text": "morador"
+          },
+          {
+            "id": "o3",
+            "text": "mapa"
+          },
+          {
+            "id": "o4",
+            "text": "escolha"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mapa"
+          },
+          {
+            "id": "o2",
+            "text": "morador"
+          },
+          {
+            "id": "o3",
+            "text": "respeito"
+          },
+          {
+            "id": "o4",
+            "text": "escolha"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "morador"
+          },
+          {
+            "id": "o3",
+            "text": "respeito"
+          },
+          {
+            "id": "o4",
+            "text": "mapa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "morador"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "respeito"
+          },
+          {
+            "id": "o4",
+            "text": "mapa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "respeito"
+          },
+          {
+            "id": "o2",
+            "text": "morador"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "mapa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mapa"
+          },
+          {
+            "id": "o2",
+            "text": "morador"
+          },
+          {
+            "id": "o3",
+            "text": "respeito"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "morador"
+          },
+          {
+            "id": "o3",
+            "text": "respeito"
+          },
+          {
+            "id": "o4",
+            "text": "mapa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "morador"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "respeito"
+          },
+          {
+            "id": "o4",
+            "text": "mapa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "respeito"
+          },
+          {
+            "id": "o2",
+            "text": "morador"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "mapa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mapa"
+          },
+          {
+            "id": "o2",
+            "text": "morador"
+          },
+          {
+            "id": "o3",
+            "text": "respeito"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -28512,53 +34611,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a descrever lugares. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A cozinha é clara.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: cozinha, quarto, janela e varanda.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A cozinha é clara.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a descrever lugares. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A cozinha é clara.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: cozinha, quarto, janela e varanda.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A cozinha é clara.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "descrever lugares",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "descrever lugares",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -28594,64 +34669,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar do passado. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quando era criança, eu nadava.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: natação, corrida, equipe e treino.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quando era criança, eu nadava.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a falar do passado. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quando era criança, eu nadava.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: natação, corrida, equipe e treino.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quando era criança, eu nadava.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Quando",
-          "nadava",
-          "equipe"
+          "falar do passado",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ era criança, eu nadava.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "Recife",
-          "Quando",
-          "nadava",
-          "equipe"
-        ]
-      },
-      {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "era",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "era",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "era",
-          "rua"
+          "falar do passado",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -28735,9 +34775,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Conectores argumentativos",
-        "definition": "Práctica guiada de Conectores argumentativos.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -30316,179 +36356,40 @@
       "quarto"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Eu moro em um apartamento pequeno, mas confortável. Tem uma sala, uma cozinha, um quarto e uma varanda. Meu vizinho se chama Paulo. Ele tem um cachorro muito alegre. À tarde, nós conversamos na entrada do prédio. A rua é tranquila e tem uma farmácia, um mercado e uma praça perto daqui. Nos fins de semana, Paulo passeia com o cachorro na praça. Às vezes eu vou com eles. Conheço outros vizinhos e pratico português enquanto conversamos.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-casa-e-vizinhanca-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Eu moro em…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Tem uma sala, uma cozinha, um quarto e uma varanda."
-              },
-              {
-                "id": "o2",
-                "text": "Meu vizinho se chama Paulo."
-              },
-              {
-                "id": "o3",
-                "text": "Ele tem um cachorro muito alegre."
-              },
-              {
-                "id": "o4",
-                "text": "Eu moro em um apartamento pequeno, mas confortável."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Ele tem um…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Ele tem um cachorro muito alegre."
-              },
-              {
-                "id": "o2",
-                "text": "Eu moro em um apartamento pequeno, mas confortável."
-              },
-              {
-                "id": "o3",
-                "text": "Tem uma sala, uma cozinha, um quarto e uma varanda."
-              },
-              {
-                "id": "o4",
-                "text": "Meu vizinho se chama Paulo."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “A rua é tranquila e…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu moro em um apartamento pequeno, mas confortável."
-              },
-              {
-                "id": "o2",
-                "text": "A rua é tranquila e tem uma farmácia, um mercado e uma praça perto daqui."
-              },
-              {
-                "id": "o3",
-                "text": "Tem uma sala, uma cozinha, um quarto e uma varanda."
-              },
-              {
-                "id": "o4",
-                "text": "Meu vizinho se chama Paulo."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Conheço outros vizinhos…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu moro em um apartamento pequeno, mas confortável."
-              },
-              {
-                "id": "o2",
-                "text": "Tem uma sala, uma cozinha, um quarto e uma varanda."
-              },
-              {
-                "id": "o3",
-                "text": "Conheço outros vizinhos e pratico português enquanto conversamos."
-              },
-              {
-                "id": "o4",
-                "text": "Meu vizinho se chama Paulo."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "A cozinha é clara.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Eu moro em um apartamento pequeno, mas confortável. Tem uma sala, uma cozinha, um quarto e uma varanda. Meu vizinho se chama Paulo. Ele tem um cachorro muito alegre. À tarde, nós conversamos na entrada do prédio. A rua é tranquila e tem uma farmácia, um mercado e uma praça perto daqui. Nos fins de semana, Paulo passeia com o cachorro na praça. Às vezes eu vou com eles. Conheço outros vizinhos e pratico português enquanto conversamos.",
-      "transcriptSegments": [
-        {
-          "text": "Eu moro em um apartamento pequeno, mas confortável."
-        },
-        {
-          "text": "Tem uma sala, uma cozinha, um quarto e uma varanda."
-        },
-        {
-          "text": "Meu vizinho se chama Paulo."
-        },
-        {
-          "text": "Ele tem um cachorro muito alegre."
-        },
-        {
-          "text": "À tarde, nós conversamos na entrada do prédio."
-        },
-        {
-          "text": "A rua é tranquila e tem uma farmácia, um mercado e uma praça perto daqui."
-        },
-        {
-          "text": "Nos fins de semana, Paulo passeia com o cachorro na praça."
-        },
-        {
-          "text": "Às vezes eu vou com eles."
-        },
-        {
-          "text": "Conheço outros vizinhos e pratico português enquanto conversamos."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de cozinha.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "A cozinha é clara. Falamos de cozinha. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Eu moro em…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Tem uma sala, uma cozinha, um quarto e uma varanda.",
-          "Meu vizinho se chama Paulo.",
-          "Ele tem um cachorro muito alegre.",
-          "Eu moro em um apartamento pequeno, mas confortável."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Ele tem um…”",
-        "options": [
-          "Ele tem um cachorro muito alegre.",
-          "Eu moro em um apartamento pequeno, mas confortável.",
-          "Tem uma sala, uma cozinha, um quarto e uma varanda.",
-          "Meu vizinho se chama Paulo."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “A rua é tranquila e…”",
-        "options": [
-          "Eu moro em um apartamento pequeno, mas confortável.",
-          "A rua é tranquila e tem uma farmácia, um mercado e uma praça perto daqui.",
-          "Tem uma sala, uma cozinha, um quarto e uma varanda.",
-          "Meu vizinho se chama Paulo."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Conheço outros vizinhos…”",
-        "options": [
-          "Eu moro em um apartamento pequeno, mas confortável.",
-          "Tem uma sala, uma cozinha, um quarto e uma varanda.",
-          "Conheço outros vizinhos e pratico português enquanto conversamos.",
-          "Meu vizinho se chama Paulo."
+          "A cozinha é clara.",
+          "cozinha",
+          "quarto",
+          "janela"
         ]
       }
     ]
@@ -30514,182 +36415,40 @@
       "corrida"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa. Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro. Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas. Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos. Levamos frutas, água e uma caixa de som pequena. Às vezes só conversamos; outras vezes participamos de aulas gratuitas de dança. Para mim, o lazer não é perder tempo. É uma forma de cuidar do corpo, conhecer a cidade e manter contato com as pessoas. Quando não consigo sair, convido alguém para tomar café ou assistir a um filme em casa. O importante é não passar todo o tempo livre preocupado com tarefas.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-esporte-e-lazer-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Depois de uma semana de…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
-              },
-              {
-                "id": "o2",
-                "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
-              },
-              {
-                "id": "o3",
-                "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
-              },
-              {
-                "id": "o4",
-                "text": "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Aos domingos quando o tempo está…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
-              },
-              {
-                "id": "o2",
-                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
-              },
-              {
-                "id": "o3",
-                "text": "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos."
-              },
-              {
-                "id": "o4",
-                "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Para mim o…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
-              },
-              {
-                "id": "o2",
-                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
-              },
-              {
-                "id": "o3",
-                "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
-              },
-              {
-                "id": "o4",
-                "text": "Para mim, o lazer não é perder tempo."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “O importante é não…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "O importante é não passar todo o tempo livre preocupado com tarefas."
-              },
-              {
-                "id": "o2",
-                "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
-              },
-              {
-                "id": "o3",
-                "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
-              },
-              {
-                "id": "o4",
-                "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Quando era criança, eu nadava.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa. Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro. Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas. Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos. Levamos frutas, água e uma caixa de som pequena. Às vezes só conversamos; outras vezes participamos de aulas gratuitas de dança. Para mim, o lazer não é perder tempo. É uma forma de cuidar do corpo, conhecer a cidade e manter contato com as pessoas. Quando não consigo sair, convido alguém para tomar café ou assistir a um filme em casa. O importante é não passar todo o tempo livre preocupado com tarefas.",
-      "transcriptSegments": [
-        {
-          "text": "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa."
-        },
-        {
-          "text": "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro."
-        },
-        {
-          "text": "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
-        },
-        {
-          "text": "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos."
-        },
-        {
-          "text": "Levamos frutas, água e uma caixa de som pequena."
-        },
-        {
-          "text": "Às vezes só conversamos; outras vezes participamos de aulas gratuitas de dança."
-        },
-        {
-          "text": "Para mim, o lazer não é perder tempo."
-        },
-        {
-          "text": "É uma forma de cuidar do corpo, conhecer a cidade e manter contato com as pessoas."
-        },
-        {
-          "text": "Quando não consigo sair, convido alguém para tomar café ou assistir a um filme em casa."
-        },
-        {
-          "text": "O importante é não passar todo o tempo livre preocupado com tarefas."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de natação.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Quando era criança, eu nadava. Falamos de natação. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Depois de uma semana de…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro.",
-          "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
-          "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas.",
-          "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Aos domingos quando o tempo está…”",
-        "options": [
-          "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
-          "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro.",
-          "Aos domingos, quando o tempo está bom, vou de bicicleta até o parque com alguns amigos.",
-          "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Para mim o…”",
-        "options": [
-          "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
-          "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro.",
-          "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas.",
-          "Para mim, o lazer não é perder tempo."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “O importante é não…”",
-        "options": [
-          "O importante é não passar todo o tempo livre preocupado com tarefas.",
-          "Depois de uma semana de trabalho, gosto de fazer atividades que me tiram de casa.",
-          "Duas vezes por semana jogo vôlei em uma quadra pública perto do meu bairro.",
-          "Não somos atletas, mas levamos o jogo a sério e sempre convidamos pessoas novas."
+          "Quando era criança, eu nadava.",
+          "natação",
+          "corrida",
+          "equipe"
         ]
       }
     ]
@@ -30847,102 +36606,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "planejamento",
-        "translation": "planificación",
-        "example": "O planejamento é essencial para o projeto."
-      },
-      {
-        "word": "prazo",
-        "translation": "plazo",
-        "example": "O prazo final é na próxima sexta-feira."
-      },
-      {
-        "word": "equipe",
-        "translation": "equipo",
-        "example": "Nossa equipe se reuniu hoje de manhã."
-      },
-      {
-        "word": "reunião",
-        "translation": "reunión",
-        "example": "Marcamos uma reunião para discutir ideias."
-      },
-      {
-        "word": "líder",
-        "translation": "líder",
-        "example": "O líder delegou as tarefas."
-      },
-      {
-        "word": "voluntário",
-        "translation": "voluntario",
-        "example": "Precisamos de um voluntário para organizar o evento."
-      },
-      {
-        "word": "divisão",
-        "translation": "división",
-        "example": "A divisão do trabalho foi justa."
-      },
-      {
-        "word": "cronograma",
-        "translation": "cronograma",
-        "example": "Vou atualizar o cronograma semanalmente."
-      },
-      {
-        "word": "recurso",
-        "translation": "recurso",
-        "example": "Temos recursos limitados para este projeto."
-      },
-      {
-        "word": "comunicação",
-        "translation": "comunicación",
-        "example": "A comunicação entre os membros melhorou."
-      },
-      {
-        "word": "feedback",
-        "translation": "retroalimentación",
-        "example": "Ela pediu feedback sobre a proposta."
-      },
-      {
-        "word": "prioridade",
-        "translation": "prioridad",
-        "example": "A prioridade agora é terminar a pesquisa."
-      },
-      {
-        "word": "Pode me ajudar?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Pode me ajudar com esta tarefa, por favor?",
-        "category": "expression"
-      },
-      {
-        "word": "Eu acho que...",
-        "translation": "Yo creo que...",
-        "example": "Eu acho que devemos focar no objetivo.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo",
-        "translation": "De acuerdo",
-        "example": "Concordo, é uma boa solução.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida",
-        "translation": "Tengo una duda",
-        "example": "Tenho uma dúvida sobre o cronograma.",
-        "category": "expression"
-      },
-      {
-        "word": "Por favor",
-        "translation": "Por favor",
-        "example": "Por favor, envie o relatório até amanhã.",
-        "category": "expression"
-      },
-      {
-        "word": "Por isso",
-        "translation": "Por eso",
-        "example": "Por isso, precisamos ajustar o plano.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -32352,57 +38015,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Adjetivos e concordância",
-        "definition": "O adjetivo concorda com o substantivo em gênero e número.",
-        "structure": "A cozinha é clara. As janelas são claras.",
-        "function": "Descrever a casa e o bairro.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "A cozinha é clara. As janelas são claras.",
-          "A cozinha é clara."
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "A cozinha é clara. As janelas são claras.",
-          "A cozinha é clara.",
-          "cozinha",
-          "quarto"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "cozinha",
-          "quarto",
-          "janela",
-          "varanda"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "quarto",
-          "cozinha",
-          "janela",
-          "varanda"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "A cozinha é clara.",
-          "janela",
-          "varanda",
-          "cozinha"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -32432,57 +38442,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Pretérito imperfeito",
-        "definition": "Use o imperfeito para hábitos e descrições no passado.",
-        "structure": "Quando era criança, eu nadava.",
-        "function": "Contar hábitos do passado.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Quando era criança, eu nadava.",
-          "Quando era criança, eu nadava."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Quando era criança, eu nadava.",
-          "Quando era criança, eu nadava.",
-          "natação",
-          "corrida"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "natação",
-          "corrida",
-          "equipe",
-          "treino"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "corrida",
-          "natação",
-          "equipe",
-          "treino"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Quando era criança, eu nadava.",
-          "equipe",
-          "treino",
-          "natação"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -32589,23 +38946,135 @@
     "vocabulary": [
       {
         "word": "cozinha",
-        "translation": "palabra cultural",
-        "example": "A cozinha é clara."
+        "translation": "cocina",
+        "definition": "cocina",
+        "example": "Uso “cozinha” em uma frase.",
+        "contexts": [
+          "cozinha · tema",
+          "cozinha · conversación",
+          "cozinha · práctica"
+        ]
       },
       {
         "word": "quarto",
-        "translation": "acción cotidiana",
-        "example": "A cozinha é clara."
+        "translation": "habitación",
+        "definition": "habitación",
+        "example": "Uso “quarto” em uma frase.",
+        "contexts": [
+          "quarto · tema",
+          "quarto · conversación",
+          "quarto · práctica"
+        ]
       },
       {
         "word": "janela",
-        "translation": "lugar o cosa",
-        "example": "A cozinha é clara."
+        "translation": "ventana",
+        "definition": "ventana",
+        "example": "Uso “janela” em uma frase.",
+        "contexts": [
+          "janela · tema",
+          "janela · conversación",
+          "janela · práctica"
+        ]
       },
       {
         "word": "varanda",
-        "translation": "expresión útil",
-        "example": "A cozinha é clara."
+        "translation": "balcón",
+        "definition": "balcón",
+        "example": "Uso “varanda” em uma frase.",
+        "contexts": [
+          "varanda · tema",
+          "varanda · conversación",
+          "varanda · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -32615,13 +39084,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "cozinha",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "cozinha"
+          },
+          {
+            "id": "o2",
+            "text": "quarto"
+          },
+          {
+            "id": "o3",
+            "text": "janela"
+          },
+          {
+            "id": "o4",
+            "text": "varanda"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "cozinha"
+          },
+          {
+            "id": "o2",
+            "text": "quarto"
+          },
+          {
+            "id": "o3",
+            "text": "janela"
+          },
+          {
+            "id": "o4",
+            "text": "varanda"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quarto"
+          },
+          {
+            "id": "o2",
+            "text": "cozinha"
+          },
+          {
+            "id": "o3",
+            "text": "janela"
+          },
+          {
+            "id": "o4",
+            "text": "varanda"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "janela"
+          },
+          {
+            "id": "o2",
+            "text": "cozinha"
+          },
+          {
+            "id": "o3",
+            "text": "quarto"
+          },
+          {
+            "id": "o4",
+            "text": "varanda"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "cozinha"
+          },
+          {
+            "id": "o3",
+            "text": "quarto"
+          },
+          {
+            "id": "o4",
+            "text": "janela"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "cozinha"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "quarto"
+          },
+          {
+            "id": "o4",
+            "text": "janela"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quarto"
+          },
+          {
+            "id": "o2",
+            "text": "cozinha"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "janela"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "janela"
+          },
+          {
+            "id": "o2",
+            "text": "cozinha"
+          },
+          {
+            "id": "o3",
+            "text": "quarto"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "cozinha"
+          },
+          {
+            "id": "o3",
+            "text": "quarto"
+          },
+          {
+            "id": "o4",
+            "text": "janela"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "cozinha"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "quarto"
+          },
+          {
+            "id": "o4",
+            "text": "janela"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quarto"
+          },
+          {
+            "id": "o2",
+            "text": "cozinha"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "janela"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "janela"
+          },
+          {
+            "id": "o2",
+            "text": "cozinha"
+          },
+          {
+            "id": "o3",
+            "text": "quarto"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -32644,23 +39379,135 @@
     "vocabulary": [
       {
         "word": "natação",
-        "translation": "palabra cultural",
-        "example": "Quando era criança, eu nadava."
+        "translation": "natación",
+        "definition": "natación",
+        "example": "Uso “natação” em uma frase.",
+        "contexts": [
+          "natação · tema",
+          "natação · conversación",
+          "natação · práctica"
+        ]
       },
       {
         "word": "corrida",
-        "translation": "acción cotidiana",
-        "example": "Quando era criança, eu nadava."
+        "translation": "carrera",
+        "definition": "carrera",
+        "example": "Uso “corrida” em uma frase.",
+        "contexts": [
+          "corrida · tema",
+          "corrida · conversación",
+          "corrida · práctica"
+        ]
       },
       {
         "word": "equipe",
-        "translation": "lugar o cosa",
-        "example": "Quando era criança, eu nadava."
+        "translation": "equipo",
+        "definition": "equipo",
+        "example": "Uso “equipe” em uma frase.",
+        "contexts": [
+          "equipe · tema",
+          "equipe · conversación",
+          "equipe · práctica"
+        ]
       },
       {
         "word": "treino",
-        "translation": "expresión útil",
-        "example": "Quando era criança, eu nadava."
+        "translation": "entrenamiento",
+        "definition": "entrenamiento",
+        "example": "Uso “treino” em uma frase.",
+        "contexts": [
+          "treino · tema",
+          "treino · conversación",
+          "treino · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -32670,13 +39517,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "natação",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "natação"
+          },
+          {
+            "id": "o2",
+            "text": "corrida"
+          },
+          {
+            "id": "o3",
+            "text": "equipe"
+          },
+          {
+            "id": "o4",
+            "text": "treino"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "natação"
+          },
+          {
+            "id": "o2",
+            "text": "corrida"
+          },
+          {
+            "id": "o3",
+            "text": "equipe"
+          },
+          {
+            "id": "o4",
+            "text": "treino"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "corrida"
+          },
+          {
+            "id": "o2",
+            "text": "natação"
+          },
+          {
+            "id": "o3",
+            "text": "equipe"
+          },
+          {
+            "id": "o4",
+            "text": "treino"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "equipe"
+          },
+          {
+            "id": "o2",
+            "text": "natação"
+          },
+          {
+            "id": "o3",
+            "text": "corrida"
+          },
+          {
+            "id": "o4",
+            "text": "treino"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "natação"
+          },
+          {
+            "id": "o3",
+            "text": "corrida"
+          },
+          {
+            "id": "o4",
+            "text": "equipe"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "natação"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "corrida"
+          },
+          {
+            "id": "o4",
+            "text": "equipe"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "corrida"
+          },
+          {
+            "id": "o2",
+            "text": "natação"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "equipe"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "equipe"
+          },
+          {
+            "id": "o2",
+            "text": "natação"
+          },
+          {
+            "id": "o3",
+            "text": "corrida"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "natação"
+          },
+          {
+            "id": "o3",
+            "text": "corrida"
+          },
+          {
+            "id": "o4",
+            "text": "equipe"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "natação"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "corrida"
+          },
+          {
+            "id": "o4",
+            "text": "equipe"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "corrida"
+          },
+          {
+            "id": "o2",
+            "text": "natação"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "equipe"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "equipe"
+          },
+          {
+            "id": "o2",
+            "text": "natação"
+          },
+          {
+            "id": "o3",
+            "text": "corrida"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -33126,53 +40239,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar do tempo. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje está quente.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: sol, chuva, quente e vento.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje está quente.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a falar do tempo. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje está quente.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: sol, chuva, quente e vento.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje está quente.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "falar do tempo",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "falar do tempo",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -33208,64 +40297,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar de mal-estar. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Minha garganta está doendo.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: farmácia, dor, descanso e conselho.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Minha garganta está doendo.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a falar de mal-estar. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Minha garganta está doendo.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: farmácia, dor, descanso e conselho.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Minha garganta está doendo.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "doendo",
-          "escola",
-          "amanhã"
+          "falar de mal-estar",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ garganta está doendo.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "Luana",
-          "Minha",
-          "úteis",
-          "novas"
-        ]
-      },
-      {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "dor",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "dor",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "dor",
-          "rua"
+          "falar de mal-estar",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -33349,9 +40403,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Subjuntivo e opinião",
-        "definition": "Práctica guiada de Subjuntivo e opinião.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -34930,176 +41984,40 @@
       "chuva"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Hoje faz sol no Recife, mas ontem choveu muito. De manhã, o céu está azul e faz calor. Eu uso uma camiseta leve e levo água na bolsa. À tarde, talvez chova de novo, então também levo um guarda-chuva. Gosto do Recife quando o tempo está bonito e posso caminhar perto da praia. Quando a chuva começa, entro em uma cafeteria perto da praia. Peço um suco gelado e espero alguns minutos. Depois, o sol volta e eu continuo meu passeio.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-tempo-no-recife-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Hoje faz sol…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "De manhã, o céu está azul e faz calor."
-              },
-              {
-                "id": "o2",
-                "text": "Eu uso uma camiseta leve e levo água na bolsa."
-              },
-              {
-                "id": "o3",
-                "text": "À tarde, talvez chova de novo, então também levo um guarda-chuva."
-              },
-              {
-                "id": "o4",
-                "text": "Hoje faz sol no Recife, mas ontem choveu muito."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Eu uso uma camiseta…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu uso uma camiseta leve e levo água na bolsa."
-              },
-              {
-                "id": "o2",
-                "text": "Hoje faz sol no Recife, mas ontem choveu muito."
-              },
-              {
-                "id": "o3",
-                "text": "De manhã, o céu está azul e faz calor."
-              },
-              {
-                "id": "o4",
-                "text": "À tarde, talvez chova de novo, então também levo um guarda-chuva."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Quando a chuva começa…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje faz sol no Recife, mas ontem choveu muito."
-              },
-              {
-                "id": "o2",
-                "text": "Quando a chuva começa, entro em uma cafeteria perto da praia."
-              },
-              {
-                "id": "o3",
-                "text": "De manhã, o céu está azul e faz calor."
-              },
-              {
-                "id": "o4",
-                "text": "Eu uso uma camiseta leve e levo água na bolsa."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Depois o sol…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje faz sol no Recife, mas ontem choveu muito."
-              },
-              {
-                "id": "o2",
-                "text": "De manhã, o céu está azul e faz calor."
-              },
-              {
-                "id": "o3",
-                "text": "Depois, o sol volta e eu continuo meu passeio."
-              },
-              {
-                "id": "o4",
-                "text": "Eu uso uma camiseta leve e levo água na bolsa."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Hoje está quente.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Hoje faz sol no Recife, mas ontem choveu muito. De manhã, o céu está azul e faz calor. Eu uso uma camiseta leve e levo água na bolsa. À tarde, talvez chova de novo, então também levo um guarda-chuva. Gosto do Recife quando o tempo está bonito e posso caminhar perto da praia. Quando a chuva começa, entro em uma cafeteria perto da praia. Peço um suco gelado e espero alguns minutos. Depois, o sol volta e eu continuo meu passeio.",
-      "transcriptSegments": [
-        {
-          "text": "Hoje faz sol no Recife, mas ontem choveu muito."
-        },
-        {
-          "text": "De manhã, o céu está azul e faz calor."
-        },
-        {
-          "text": "Eu uso uma camiseta leve e levo água na bolsa."
-        },
-        {
-          "text": "À tarde, talvez chova de novo, então também levo um guarda-chuva."
-        },
-        {
-          "text": "Gosto do Recife quando o tempo está bonito e posso caminhar perto da praia."
-        },
-        {
-          "text": "Quando a chuva começa, entro em uma cafeteria perto da praia."
-        },
-        {
-          "text": "Peço um suco gelado e espero alguns minutos."
-        },
-        {
-          "text": "Depois, o sol volta e eu continuo meu passeio."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de sol.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Hoje está quente. Falamos de sol. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Hoje faz sol…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "De manhã, o céu está azul e faz calor.",
-          "Eu uso uma camiseta leve e levo água na bolsa.",
-          "À tarde, talvez chova de novo, então também levo um guarda-chuva.",
-          "Hoje faz sol no Recife, mas ontem choveu muito."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Eu uso uma camiseta…”",
-        "options": [
-          "Eu uso uma camiseta leve e levo água na bolsa.",
-          "Hoje faz sol no Recife, mas ontem choveu muito.",
-          "De manhã, o céu está azul e faz calor.",
-          "À tarde, talvez chova de novo, então também levo um guarda-chuva."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Quando a chuva começa…”",
-        "options": [
-          "Hoje faz sol no Recife, mas ontem choveu muito.",
-          "Quando a chuva começa, entro em uma cafeteria perto da praia.",
-          "De manhã, o céu está azul e faz calor.",
-          "Eu uso uma camiseta leve e levo água na bolsa."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Depois o sol…”",
-        "options": [
-          "Hoje faz sol no Recife, mas ontem choveu muito.",
-          "De manhã, o céu está azul e faz calor.",
-          "Depois, o sol volta e eu continuo meu passeio.",
-          "Eu uso uma camiseta leve e levo água na bolsa."
+          "Hoje está quente.",
+          "sol",
+          "chuva",
+          "quente"
         ]
       }
     ]
@@ -35125,179 +42043,40 @@
       "dor"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho. Primeiro pensei que fosse apenas cansaço, mas a dor continuou. Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves. Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar. Não foi uma mudança rápida, porque é difícil alterar a rotina. Porém, aos poucos, percebi que tenho mais energia durante o dia. Aprendi que cuidar da saúde não significa esperar ficar muito doente; significa prestar atenção aos sinais pequenos do corpo. Agora, antes de começar o trabalho, faço alguns alongamentos. São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-saude-e-bem-estar-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Há algumas semanas comecei…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Primeiro pensei que fosse apenas cansaço, mas a dor continuou."
-              },
-              {
-                "id": "o2",
-                "text": "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
-              },
-              {
-                "id": "o3",
-                "text": "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar."
-              },
-              {
-                "id": "o4",
-                "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Também comecei a dormir melhor…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar."
-              },
-              {
-                "id": "o2",
-                "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
-              },
-              {
-                "id": "o3",
-                "text": "Primeiro pensei que fosse apenas cansaço, mas a dor continuou."
-              },
-              {
-                "id": "o4",
-                "text": "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Porém aos poucos percebi…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
-              },
-              {
-                "id": "o2",
-                "text": "Porém, aos poucos, percebi que tenho mais energia durante o dia."
-              },
-              {
-                "id": "o3",
-                "text": "Primeiro pensei que fosse apenas cansaço, mas a dor continuou."
-              },
-              {
-                "id": "o4",
-                "text": "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “São poucos minutos mas ajudam a evitar…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
-              },
-              {
-                "id": "o2",
-                "text": "Primeiro pensei que fosse apenas cansaço, mas a dor continuou."
-              },
-              {
-                "id": "o3",
-                "text": "São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina."
-              },
-              {
-                "id": "o4",
-                "text": "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Minha garganta está doendo.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho. Primeiro pensei que fosse apenas cansaço, mas a dor continuou. Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves. Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar. Não foi uma mudança rápida, porque é difícil alterar a rotina. Porém, aos poucos, percebi que tenho mais energia durante o dia. Aprendi que cuidar da saúde não significa esperar ficar muito doente; significa prestar atenção aos sinais pequenos do corpo. Agora, antes de começar o trabalho, faço alguns alongamentos. São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina.",
-      "transcriptSegments": [
-        {
-          "text": "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
-        },
-        {
-          "text": "Primeiro pensei que fosse apenas cansaço, mas a dor continuou."
-        },
-        {
-          "text": "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
-        },
-        {
-          "text": "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar."
-        },
-        {
-          "text": "Não foi uma mudança rápida, porque é difícil alterar a rotina."
-        },
-        {
-          "text": "Porém, aos poucos, percebi que tenho mais energia durante o dia."
-        },
-        {
-          "text": "Aprendi que cuidar da saúde não significa esperar ficar muito doente; significa prestar atenção aos sinais pequenos do corpo."
-        },
-        {
-          "text": "Agora, antes de começar o trabalho, faço alguns alongamentos."
-        },
-        {
-          "text": "São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de farmácia.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Minha garganta está doendo. Falamos de farmácia. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Há algumas semanas comecei…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
-          "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves.",
-          "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar.",
-          "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Também comecei a dormir melhor…”",
-        "options": [
-          "Também comecei a dormir melhor e a diminuir o tempo no celular antes de deitar.",
-          "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho.",
-          "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
-          "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Porém aos poucos percebi…”",
-        "options": [
-          "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho.",
-          "Porém, aos poucos, percebi que tenho mais energia durante o dia.",
-          "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
-          "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “São poucos minutos mas ajudam a evitar…”",
-        "options": [
-          "Há algumas semanas, comecei a sentir dor nas costas depois do trabalho.",
-          "Primeiro pensei que fosse apenas cansaço, mas a dor continuou.",
-          "São poucos minutos, mas ajudam a evitar que a dor volte e me lembram de cuidar da minha rotina.",
-          "Marquei uma consulta e o médico explicou que eu precisava mudar alguns hábitos: ajustar a cadeira, levantar mais vezes e fazer exercícios leves."
+          "Minha garganta está doendo.",
+          "farmácia",
+          "dor",
+          "descanso"
         ]
       }
     ]
@@ -35455,103 +42234,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "aplicativo",
-        "translation": "aplicación (app)",
-        "example": "Instalei um aplicativo de finanças no celular."
-      },
-      {
-        "word": "privacidade",
-        "translation": "privacidad",
-        "example": "A privacidade dos meus dados me preocupa."
-      },
-      {
-        "word": "senha",
-        "translation": "contraseña",
-        "example": "Mudei a senha do meu e-mail ontem."
-      },
-      {
-        "word": "atualizar",
-        "translation": "actualizar",
-        "example": "Preciso atualizar o sistema antes de usar."
-      },
-      {
-        "word": "armazenamento",
-        "translation": "almacenamiento",
-        "example": "O armazenamento do celular está quase cheio."
-      },
-      {
-        "word": "nuvem",
-        "translation": "nube",
-        "example": "Salvei o documento na nuvem para acessar depois."
-      },
-      {
-        "word": "notificação",
-        "translation": "notificación",
-        "example": "Desativei as notificações durante a reunião."
-      },
-      {
-        "word": "viciar",
-        "translation": "volver adicto",
-        "example": "Jogos sem limite podem viciar os jovens."
-      },
-      {
-        "word": "ferramenta",
-        "translation": "herramienta",
-        "example": "Essa ferramenta facilita o trabalho em equipe."
-      },
-      {
-        "word": "segurança",
-        "translation": "seguridad",
-        "example": "A segurança online depende de senhas fortes."
-      },
-      {
-        "word": "consciência",
-        "translation": "conciencia",
-        "example": "Precisamos ter consciência do tempo de tela."
-      },
-      {
-        "word": "Você pode me ajudar?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Você pode me ajudar a configurar este aplicativo?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião",
-        "translation": "En mi opinión",
-        "example": "Na minha opinião, limites são importantes para crianças.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você",
-        "translation": "Estoy de acuerdo contigo",
-        "example": "Concordo com você sobre os riscos das redes sociais.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho dúvidas",
-        "translation": "Tengo dudas",
-        "example": "Tenho dúvidas sobre a configuração de privacidade.",
-        "category": "expression"
-      },
-      {
-        "word": "Por favor, explique",
-        "translation": "Por favor, explíquelo",
-        "example": "Por favor, explique o motivo da atualização automática.",
-        "category": "expression"
-      },
-      {
-        "word": "Isso pode causar...",
-        "translation": "Esto puede causar...",
-        "example": "Isso pode causar perda de dados se não fizer backup.",
-        "category": "expression"
-      },
-      {
-        "word": "Podemos conversar mais tarde?",
-        "translation": "¿Podemos hablar más tarde?",
-        "example": "Podemos conversar mais tarde sobre a política de uso?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -36961,57 +43643,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Fazer e estar para o tempo",
-        "definition": "Use fazer para temperatura e estar para condições do tempo.",
-        "structure": "Hoje faz calor. O céu está nublado.",
-        "function": "Falar sobre o clima.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Hoje faz calor. O céu está nublado.",
-          "Hoje está quente."
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Hoje faz calor. O céu está nublado.",
-          "Hoje está quente.",
-          "sol",
-          "chuva"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "sol",
-          "chuva",
-          "quente",
-          "vento"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "chuva",
-          "sol",
-          "quente",
-          "vento"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Hoje está quente.",
-          "quente",
-          "vento",
-          "sol"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -37041,57 +44070,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Estar + gerúndio",
-        "definition": "Use estar + gerúndio para uma ação em andamento.",
-        "structure": "Minha garganta está doendo.",
-        "function": "Descrever como você se sente agora.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Minha garganta está doendo.",
-          "Minha garganta está doendo."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Minha garganta está doendo.",
-          "Minha garganta está doendo.",
-          "farmácia",
-          "dor"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "farmácia",
-          "dor",
-          "descanso",
-          "conselho"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "dor",
-          "farmácia",
-          "descanso",
-          "conselho"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Minha garganta está doendo.",
-          "descanso",
-          "conselho",
-          "farmácia"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -37198,23 +44574,135 @@
     "vocabulary": [
       {
         "word": "sol",
-        "translation": "palabra cultural",
-        "example": "Hoje está quente."
+        "translation": "sol",
+        "definition": "sol",
+        "example": "Uso “sol” em uma frase.",
+        "contexts": [
+          "sol · tema",
+          "sol · conversación",
+          "sol · práctica"
+        ]
       },
       {
         "word": "chuva",
-        "translation": "acción cotidiana",
-        "example": "Hoje está quente."
+        "translation": "lluvia",
+        "definition": "lluvia",
+        "example": "Uso “chuva” em uma frase.",
+        "contexts": [
+          "chuva · tema",
+          "chuva · conversación",
+          "chuva · práctica"
+        ]
       },
       {
         "word": "quente",
-        "translation": "lugar o cosa",
-        "example": "Hoje está quente."
+        "translation": "caluroso",
+        "definition": "caluroso",
+        "example": "Uso “quente” em uma frase.",
+        "contexts": [
+          "quente · tema",
+          "quente · conversación",
+          "quente · práctica"
+        ]
       },
       {
         "word": "vento",
-        "translation": "expresión útil",
-        "example": "Hoje está quente."
+        "translation": "viento",
+        "definition": "viento",
+        "example": "Uso “vento” em uma frase.",
+        "contexts": [
+          "vento · tema",
+          "vento · conversación",
+          "vento · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -37224,13 +44712,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "sol",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "sol"
+          },
+          {
+            "id": "o2",
+            "text": "chuva"
+          },
+          {
+            "id": "o3",
+            "text": "quente"
+          },
+          {
+            "id": "o4",
+            "text": "vento"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "sol"
+          },
+          {
+            "id": "o2",
+            "text": "chuva"
+          },
+          {
+            "id": "o3",
+            "text": "quente"
+          },
+          {
+            "id": "o4",
+            "text": "vento"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "chuva"
+          },
+          {
+            "id": "o2",
+            "text": "sol"
+          },
+          {
+            "id": "o3",
+            "text": "quente"
+          },
+          {
+            "id": "o4",
+            "text": "vento"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quente"
+          },
+          {
+            "id": "o2",
+            "text": "sol"
+          },
+          {
+            "id": "o3",
+            "text": "chuva"
+          },
+          {
+            "id": "o4",
+            "text": "vento"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "sol"
+          },
+          {
+            "id": "o3",
+            "text": "chuva"
+          },
+          {
+            "id": "o4",
+            "text": "quente"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "sol"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "chuva"
+          },
+          {
+            "id": "o4",
+            "text": "quente"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "chuva"
+          },
+          {
+            "id": "o2",
+            "text": "sol"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "quente"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quente"
+          },
+          {
+            "id": "o2",
+            "text": "sol"
+          },
+          {
+            "id": "o3",
+            "text": "chuva"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "sol"
+          },
+          {
+            "id": "o3",
+            "text": "chuva"
+          },
+          {
+            "id": "o4",
+            "text": "quente"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "sol"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "chuva"
+          },
+          {
+            "id": "o4",
+            "text": "quente"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "chuva"
+          },
+          {
+            "id": "o2",
+            "text": "sol"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "quente"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "quente"
+          },
+          {
+            "id": "o2",
+            "text": "sol"
+          },
+          {
+            "id": "o3",
+            "text": "chuva"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -37253,23 +45007,135 @@
     "vocabulary": [
       {
         "word": "farmácia",
-        "translation": "palabra cultural",
-        "example": "Minha garganta está doendo."
+        "translation": "farmacia",
+        "definition": "farmacia",
+        "example": "Uso “farmácia” em uma frase.",
+        "contexts": [
+          "farmácia · tema",
+          "farmácia · conversación",
+          "farmácia · práctica"
+        ]
       },
       {
         "word": "dor",
-        "translation": "acción cotidiana",
-        "example": "Minha garganta está doendo."
+        "translation": "dolor",
+        "definition": "dolor",
+        "example": "Uso “dor” em uma frase.",
+        "contexts": [
+          "dor · tema",
+          "dor · conversación",
+          "dor · práctica"
+        ]
       },
       {
         "word": "descanso",
-        "translation": "lugar o cosa",
-        "example": "Minha garganta está doendo."
+        "translation": "descanso",
+        "definition": "descanso",
+        "example": "Uso “descanso” em uma frase.",
+        "contexts": [
+          "descanso · tema",
+          "descanso · conversación",
+          "descanso · práctica"
+        ]
       },
       {
         "word": "conselho",
-        "translation": "expresión útil",
-        "example": "Minha garganta está doendo."
+        "translation": "consejo",
+        "definition": "consejo",
+        "example": "Uso “conselho” em uma frase.",
+        "contexts": [
+          "conselho · tema",
+          "conselho · conversación",
+          "conselho · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -37279,13 +45145,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "farmácia",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "farmácia"
+          },
+          {
+            "id": "o2",
+            "text": "dor"
+          },
+          {
+            "id": "o3",
+            "text": "descanso"
+          },
+          {
+            "id": "o4",
+            "text": "conselho"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "farmácia"
+          },
+          {
+            "id": "o2",
+            "text": "dor"
+          },
+          {
+            "id": "o3",
+            "text": "descanso"
+          },
+          {
+            "id": "o4",
+            "text": "conselho"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "dor"
+          },
+          {
+            "id": "o2",
+            "text": "farmácia"
+          },
+          {
+            "id": "o3",
+            "text": "descanso"
+          },
+          {
+            "id": "o4",
+            "text": "conselho"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "descanso"
+          },
+          {
+            "id": "o2",
+            "text": "farmácia"
+          },
+          {
+            "id": "o3",
+            "text": "dor"
+          },
+          {
+            "id": "o4",
+            "text": "conselho"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "farmácia"
+          },
+          {
+            "id": "o3",
+            "text": "dor"
+          },
+          {
+            "id": "o4",
+            "text": "descanso"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "farmácia"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "dor"
+          },
+          {
+            "id": "o4",
+            "text": "descanso"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "dor"
+          },
+          {
+            "id": "o2",
+            "text": "farmácia"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "descanso"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "descanso"
+          },
+          {
+            "id": "o2",
+            "text": "farmácia"
+          },
+          {
+            "id": "o3",
+            "text": "dor"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "farmácia"
+          },
+          {
+            "id": "o3",
+            "text": "dor"
+          },
+          {
+            "id": "o4",
+            "text": "descanso"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "farmácia"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "dor"
+          },
+          {
+            "id": "o4",
+            "text": "descanso"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "dor"
+          },
+          {
+            "id": "o2",
+            "text": "farmácia"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "descanso"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "descanso"
+          },
+          {
+            "id": "o2",
+            "text": "farmácia"
+          },
+          {
+            "id": "o3",
+            "text": "dor"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -37735,53 +45867,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a convidar alguém. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Vamos à roda no sábado.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: roda, música, bairro e sábado.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Vamos à roda no sábado.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a convidar alguém. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Vamos à roda no sábado.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: roda, música, bairro e sábado.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Vamos à roda no sábado.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "convidar alguém",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "convidar alguém",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -37817,64 +45925,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a contar história simples. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A família chegou há muitos anos.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: origem, chegar, família e comunidade.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A família chegou há muitos anos.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a contar história simples. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A família chegou há muitos anos.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: origem, chegar, família e comunidade.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A família chegou há muitos anos.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "chegou",
-          "muitos",
-          "origem"
+          "contar história simples",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “A _____ chegou há muitos anos.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "Durante",
-          "família",
-          "Recife",
-          "chegou"
-        ]
-      },
-      {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "anos"
-        ]
-      },
-      {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "anos"
-        ]
-      },
-      {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "anos"
+          "contar história simples",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -37958,9 +46031,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Comparação e consequência",
-        "definition": "Práctica guiada de Comparação e consequência.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -39539,176 +47612,40 @@
       "música"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "No sábado, vou a uma roda cultural na praça. Há música, dança e pessoas de todas as idades. Um grupo toca tambores e muitas crianças dançam. Eu não conheço os passos, mas uma mulher me ensina um pouco. Depois, todos aplaudem os músicos. É uma tarde alegre e especial. No fim, compro uma água e agradeço à mulher que me ensinou a dançar. Volto para casa cansada, mas quero participar da próxima roda cultural.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-uma-roda-cultural-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “No sábado vou…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No sábado, vou a uma roda cultural na praça."
-              },
-              {
-                "id": "o2",
-                "text": "Há música, dança e pessoas de todas as idades."
-              },
-              {
-                "id": "o3",
-                "text": "Um grupo toca tambores e muitas crianças dançam."
-              },
-              {
-                "id": "o4",
-                "text": "Eu não conheço os passos, mas uma mulher me ensina um pouco."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Um grupo toca…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No sábado, vou a uma roda cultural na praça."
-              },
-              {
-                "id": "o2",
-                "text": "Um grupo toca tambores e muitas crianças dançam."
-              },
-              {
-                "id": "o3",
-                "text": "Há música, dança e pessoas de todas as idades."
-              },
-              {
-                "id": "o4",
-                "text": "Eu não conheço os passos, mas uma mulher me ensina um pouco."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “É uma tarde…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No sábado, vou a uma roda cultural na praça."
-              },
-              {
-                "id": "o2",
-                "text": "Há música, dança e pessoas de todas as idades."
-              },
-              {
-                "id": "o3",
-                "text": "É uma tarde alegre e especial."
-              },
-              {
-                "id": "o4",
-                "text": "Um grupo toca tambores e muitas crianças dançam."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Volto para casa cansada…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No sábado, vou a uma roda cultural na praça."
-              },
-              {
-                "id": "o2",
-                "text": "Há música, dança e pessoas de todas as idades."
-              },
-              {
-                "id": "o3",
-                "text": "Um grupo toca tambores e muitas crianças dançam."
-              },
-              {
-                "id": "o4",
-                "text": "Volto para casa cansada, mas quero participar da próxima roda cultural."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Vamos à roda no sábado.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "No sábado, vou a uma roda cultural na praça. Há música, dança e pessoas de todas as idades. Um grupo toca tambores e muitas crianças dançam. Eu não conheço os passos, mas uma mulher me ensina um pouco. Depois, todos aplaudem os músicos. É uma tarde alegre e especial. No fim, compro uma água e agradeço à mulher que me ensinou a dançar. Volto para casa cansada, mas quero participar da próxima roda cultural.",
-      "transcriptSegments": [
-        {
-          "text": "No sábado, vou a uma roda cultural na praça."
-        },
-        {
-          "text": "Há música, dança e pessoas de todas as idades."
-        },
-        {
-          "text": "Um grupo toca tambores e muitas crianças dançam."
-        },
-        {
-          "text": "Eu não conheço os passos, mas uma mulher me ensina um pouco."
-        },
-        {
-          "text": "Depois, todos aplaudem os músicos."
-        },
-        {
-          "text": "É uma tarde alegre e especial."
-        },
-        {
-          "text": "No fim, compro uma água e agradeço à mulher que me ensinou a dançar."
-        },
-        {
-          "text": "Volto para casa cansada, mas quero participar da próxima roda cultural."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de roda.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Vamos à roda no sábado. Falamos de roda. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “No sábado vou…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "No sábado, vou a uma roda cultural na praça.",
-          "Há música, dança e pessoas de todas as idades.",
-          "Um grupo toca tambores e muitas crianças dançam.",
-          "Eu não conheço os passos, mas uma mulher me ensina um pouco."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Um grupo toca…”",
-        "options": [
-          "No sábado, vou a uma roda cultural na praça.",
-          "Um grupo toca tambores e muitas crianças dançam.",
-          "Há música, dança e pessoas de todas as idades.",
-          "Eu não conheço os passos, mas uma mulher me ensina um pouco."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “É uma tarde…”",
-        "options": [
-          "No sábado, vou a uma roda cultural na praça.",
-          "Há música, dança e pessoas de todas as idades.",
-          "É uma tarde alegre e especial.",
-          "Um grupo toca tambores e muitas crianças dançam."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Volto para casa cansada…”",
-        "options": [
-          "No sábado, vou a uma roda cultural na praça.",
-          "Há música, dança e pessoas de todas as idades.",
-          "Um grupo toca tambores e muitas crianças dançam.",
-          "Volto para casa cansada, mas quero participar da próxima roda cultural."
+          "Vamos à roda no sábado.",
+          "roda",
+          "música",
+          "bairro"
         ]
       }
     ]
@@ -39734,179 +47671,40 @@
       "chegar"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem. Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina. Durante muitos anos, voltou à cidade natal apenas nas férias. Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó. Seus filhos nasceram em Brasília, mas conhecem a Bahia pelas viagens e pelas receitas que ele prepara aos domingos. Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa. Ela também está nas memórias e nas pessoas. Meu vizinho diz que pretende levar os filhos para passar mais tempo com os avós. Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-historias-de-origem-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Meu vizinho nasceu no interior…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
-              },
-              {
-                "id": "o2",
-                "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
-              },
-              {
-                "id": "o3",
-                "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
-              },
-              {
-                "id": "o4",
-                "text": "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Hoje ele diz que tem duas casas…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
-              },
-              {
-                "id": "o2",
-                "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
-              },
-              {
-                "id": "o3",
-                "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
-              },
-              {
-                "id": "o4",
-                "text": "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Ouvir essa história me fez pensar…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa."
-              },
-              {
-                "id": "o2",
-                "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
-              },
-              {
-                "id": "o3",
-                "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
-              },
-              {
-                "id": "o4",
-                "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Ele quer que eles conheçam…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
-              },
-              {
-                "id": "o2",
-                "text": "Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias."
-              },
-              {
-                "id": "o3",
-                "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
-              },
-              {
-                "id": "o4",
-                "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "A família chegou há muitos anos.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem. Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina. Durante muitos anos, voltou à cidade natal apenas nas férias. Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó. Seus filhos nasceram em Brasília, mas conhecem a Bahia pelas viagens e pelas receitas que ele prepara aos domingos. Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa. Ela também está nas memórias e nas pessoas. Meu vizinho diz que pretende levar os filhos para passar mais tempo com os avós. Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias.",
-      "transcriptSegments": [
-        {
-          "text": "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem."
-        },
-        {
-          "text": "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina."
-        },
-        {
-          "text": "Durante muitos anos, voltou à cidade natal apenas nas férias."
-        },
-        {
-          "text": "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
-        },
-        {
-          "text": "Seus filhos nasceram em Brasília, mas conhecem a Bahia pelas viagens e pelas receitas que ele prepara aos domingos."
-        },
-        {
-          "text": "Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa."
-        },
-        {
-          "text": "Ela também está nas memórias e nas pessoas."
-        },
-        {
-          "text": "Meu vizinho diz que pretende levar os filhos para passar mais tempo com os avós."
-        },
-        {
-          "text": "Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de origem.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "A família chegou há muitos anos. Falamos de origem. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Meu vizinho nasceu no interior…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina.",
-          "Durante muitos anos, voltou à cidade natal apenas nas férias.",
-          "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
-          "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Hoje ele diz que tem duas casas…”",
-        "options": [
-          "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
-          "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina.",
-          "Durante muitos anos, voltou à cidade natal apenas nas férias.",
-          "Hoje ele diz que tem duas casas: uma é onde mora com a família; a outra é onde aprendeu a pescar com o pai e a ouvir histórias da avó."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Ouvir essa história me fez pensar…”",
-        "options": [
-          "Ouvir essa história me fez pensar que a origem não é apenas um ponto no mapa.",
-          "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
-          "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina.",
-          "Durante muitos anos, voltou à cidade natal apenas nas férias."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Ele quer que eles conheçam…”",
-        "options": [
-          "Meu vizinho nasceu no interior da Bahia, mas vive em Brasília desde jovem.",
-          "Ele quer que eles conheçam as histórias da família diretamente, e não apenas por fotografias.",
-          "Ele chegou à capital para estudar e depois encontrou trabalho em uma oficina.",
-          "Durante muitos anos, voltou à cidade natal apenas nas férias."
+          "A família chegou há muitos anos.",
+          "origem",
+          "chegar",
+          "família"
         ]
       }
     ]
@@ -40064,102 +47862,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "ônibus",
-        "translation": "autobús",
-        "example": "O ônibus passa a cada quinze minutos."
-      },
-      {
-        "word": "metrô",
-        "translation": "metro",
-        "example": "O metrô é rápido nos horários de pico."
-      },
-      {
-        "word": "carro",
-        "translation": "auto",
-        "example": "Prefiro ir de carro quando chove."
-      },
-      {
-        "word": "moto",
-        "translation": "moto",
-        "example": "A moto é ágil no trânsito congestionado."
-      },
-      {
-        "word": "pedestre",
-        "translation": "peatón",
-        "example": "O pedestre atravessou pela faixa."
-      },
-      {
-        "word": "calçada",
-        "translation": "acera",
-        "example": "A calçada está em bom estado."
-      },
-      {
-        "word": "faixa de pedestres",
-        "translation": "cruce peatonal",
-        "example": "Pare na faixa de pedestres."
-      },
-      {
-        "word": "semáforo",
-        "translation": "semáforo",
-        "example": "O semáforo virou verde."
-      },
-      {
-        "word": "estacionamento",
-        "translation": "estacionamiento",
-        "example": "O estacionamento fica atrás do prédio."
-      },
-      {
-        "word": "ciclofaixa",
-        "translation": "ciclovía",
-        "example": "A cidade abriu uma nova ciclofaixa."
-      },
-      {
-        "word": "tarifa",
-        "translation": "tarifa",
-        "example": "A tarifa do transporte aumentou."
-      },
-      {
-        "word": "aplicativo",
-        "translation": "aplicación (app)",
-        "example": "Usei um aplicativo para chamar um carro."
-      },
-      {
-        "word": "Pode me ajudar?",
-        "translation": "¿Puede ayudarme?",
-        "example": "Pode me ajudar a achar a estação de metrô?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião",
-        "translation": "En mi opinión",
-        "example": "Na minha opinião, a ciclovia precisa de melhorias.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você",
-        "translation": "Estoy de acuerdo contigo",
-        "example": "Concordo com você sobre ampliar o transporte público.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida",
-        "translation": "Tengo una duda",
-        "example": "Tenho uma dúvida sobre o horário do ônibus.",
-        "category": "expression"
-      },
-      {
-        "word": "Com licença",
-        "translation": "Con permiso",
-        "example": "Com licença, posso passar?",
-        "category": "expression"
-      },
-      {
-        "word": "Por causa de",
-        "translation": "debido a",
-        "example": "O ônibus atrasou por causa do acidente.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -41569,57 +49271,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Ir + a / para",
-        "definition": "Use ir para indicar movimento e destino.",
-        "structure": "Vamos à roda no sábado.",
-        "function": "Convidar alguém e combinar um encontro.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Vamos à roda no sábado.",
-          "Vamos à roda no sábado."
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Vamos à roda no sábado.",
-          "Vamos à roda no sábado.",
-          "roda",
-          "música"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "roda",
-          "música",
-          "bairro",
-          "sábado"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "música",
-          "roda",
-          "bairro",
-          "sábado"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Vamos à roda no sábado.",
-          "bairro",
-          "sábado",
-          "roda"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -41649,57 +49698,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Há + tempo",
-        "definition": "Use há para dizer há quanto tempo algo aconteceu.",
-        "structure": "A família chegou há muitos anos.",
-        "function": "Contar histórias familiares.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "A família chegou há muitos anos.",
-          "A família chegou há muitos anos."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "A família chegou há muitos anos.",
-          "A família chegou há muitos anos.",
-          "origem",
-          "chegar"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "origem",
-          "chegar",
-          "família",
-          "comunidade"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "chegar",
-          "origem",
-          "família",
-          "comunidade"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "A família chegou há muitos anos.",
-          "família",
-          "comunidade",
-          "origem"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -41806,23 +50202,135 @@
     "vocabulary": [
       {
         "word": "roda",
-        "translation": "palabra cultural",
-        "example": "Vamos à roda no sábado."
+        "translation": "círculo / rueda",
+        "definition": "círculo / rueda",
+        "example": "Uso “roda” em uma frase.",
+        "contexts": [
+          "roda · tema",
+          "roda · conversación",
+          "roda · práctica"
+        ]
       },
       {
         "word": "música",
-        "translation": "acción cotidiana",
-        "example": "Vamos à roda no sábado."
+        "translation": "música",
+        "definition": "música",
+        "example": "Uso “música” em uma frase.",
+        "contexts": [
+          "música · tema",
+          "música · conversación",
+          "música · práctica"
+        ]
       },
       {
         "word": "bairro",
-        "translation": "lugar o cosa",
-        "example": "Vamos à roda no sábado."
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
       },
       {
         "word": "sábado",
-        "translation": "expresión útil",
-        "example": "Vamos à roda no sábado."
+        "translation": "sábado",
+        "definition": "sábado",
+        "example": "Uso “sábado” em uma frase.",
+        "contexts": [
+          "sábado · tema",
+          "sábado · conversación",
+          "sábado · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
+      },
+      {
+        "word": "proposta",
+        "translation": "propuesta",
+        "definition": "propuesta",
+        "example": "Uso “proposta” em uma frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -41832,13 +50340,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "roda",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "roda"
+          },
+          {
+            "id": "o2",
+            "text": "música"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "sábado"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "roda"
+          },
+          {
+            "id": "o2",
+            "text": "música"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "sábado"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "música"
+          },
+          {
+            "id": "o2",
+            "text": "roda"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "sábado"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bairro"
+          },
+          {
+            "id": "o2",
+            "text": "roda"
+          },
+          {
+            "id": "o3",
+            "text": "música"
+          },
+          {
+            "id": "o4",
+            "text": "sábado"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "roda"
+          },
+          {
+            "id": "o3",
+            "text": "música"
+          },
+          {
+            "id": "o4",
+            "text": "bairro"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "roda"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "música"
+          },
+          {
+            "id": "o4",
+            "text": "bairro"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "música"
+          },
+          {
+            "id": "o2",
+            "text": "roda"
+          },
+          {
+            "id": "o3",
+            "text": "pergunta"
+          },
+          {
+            "id": "o4",
+            "text": "bairro"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bairro"
+          },
+          {
+            "id": "o2",
+            "text": "roda"
+          },
+          {
+            "id": "o3",
+            "text": "música"
+          },
+          {
+            "id": "o4",
+            "text": "resposta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "experiência"
+          },
+          {
+            "id": "o2",
+            "text": "roda"
+          },
+          {
+            "id": "o3",
+            "text": "música"
+          },
+          {
+            "id": "o4",
+            "text": "bairro"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "roda"
+          },
+          {
+            "id": "o2",
+            "text": "escolher"
+          },
+          {
+            "id": "o3",
+            "text": "música"
+          },
+          {
+            "id": "o4",
+            "text": "bairro"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "música"
+          },
+          {
+            "id": "o2",
+            "text": "roda"
+          },
+          {
+            "id": "o3",
+            "text": "entender"
+          },
+          {
+            "id": "o4",
+            "text": "bairro"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bairro"
+          },
+          {
+            "id": "o2",
+            "text": "roda"
+          },
+          {
+            "id": "o3",
+            "text": "música"
+          },
+          {
+            "id": "o4",
+            "text": "proposta"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -41861,23 +50635,135 @@
     "vocabulary": [
       {
         "word": "origem",
-        "translation": "palabra cultural",
-        "example": "A família chegou há muitos anos."
+        "translation": "origen",
+        "definition": "origen",
+        "example": "Uso “origem” em uma frase.",
+        "contexts": [
+          "origem · tema",
+          "origem · conversación",
+          "origem · práctica"
+        ]
       },
       {
         "word": "chegar",
-        "translation": "acción cotidiana",
-        "example": "A família chegou há muitos anos."
+        "translation": "llegar",
+        "definition": "llegar",
+        "example": "Uso “chegar” em uma frase.",
+        "contexts": [
+          "chegar · tema",
+          "chegar · conversación",
+          "chegar · práctica"
+        ]
       },
       {
         "word": "família",
-        "translation": "lugar o cosa",
-        "example": "A família chegou há muitos anos."
+        "translation": "familia",
+        "definition": "familia",
+        "example": "Uso “família” em uma frase.",
+        "contexts": [
+          "família · tema",
+          "família · conversación",
+          "família · práctica"
+        ]
       },
       {
         "word": "comunidade",
-        "translation": "expresión útil",
-        "example": "A família chegou há muitos anos."
+        "translation": "comunidad",
+        "definition": "comunidad",
+        "example": "Uso “comunidade” em uma frase.",
+        "contexts": [
+          "comunidade · tema",
+          "comunidade · conversación",
+          "comunidade · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -41887,13 +50773,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "origem",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "origem"
+          },
+          {
+            "id": "o2",
+            "text": "chegar"
+          },
+          {
+            "id": "o3",
+            "text": "família"
+          },
+          {
+            "id": "o4",
+            "text": "comunidade"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "origem"
+          },
+          {
+            "id": "o2",
+            "text": "chegar"
+          },
+          {
+            "id": "o3",
+            "text": "família"
+          },
+          {
+            "id": "o4",
+            "text": "comunidade"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "chegar"
+          },
+          {
+            "id": "o2",
+            "text": "origem"
+          },
+          {
+            "id": "o3",
+            "text": "família"
+          },
+          {
+            "id": "o4",
+            "text": "comunidade"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "família"
+          },
+          {
+            "id": "o2",
+            "text": "origem"
+          },
+          {
+            "id": "o3",
+            "text": "chegar"
+          },
+          {
+            "id": "o4",
+            "text": "comunidade"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "origem"
+          },
+          {
+            "id": "o3",
+            "text": "chegar"
+          },
+          {
+            "id": "o4",
+            "text": "família"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "origem"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "chegar"
+          },
+          {
+            "id": "o4",
+            "text": "família"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "chegar"
+          },
+          {
+            "id": "o2",
+            "text": "origem"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "família"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "família"
+          },
+          {
+            "id": "o2",
+            "text": "origem"
+          },
+          {
+            "id": "o3",
+            "text": "chegar"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "origem"
+          },
+          {
+            "id": "o3",
+            "text": "chegar"
+          },
+          {
+            "id": "o4",
+            "text": "família"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "origem"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "chegar"
+          },
+          {
+            "id": "o4",
+            "text": "família"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "chegar"
+          },
+          {
+            "id": "o2",
+            "text": "origem"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "família"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "família"
+          },
+          {
+            "id": "o2",
+            "text": "origem"
+          },
+          {
+            "id": "o3",
+            "text": "chegar"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -42343,53 +51495,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a usar transporte. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um bilhete para o centro.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: ônibus, bilhete, ponto e viagem.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Um bilhete para o centro.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a usar transporte. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um bilhete para o centro.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: ônibus, bilhete, ponto e viagem.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Um bilhete para o centro.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-de-onibus-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "usar transporte",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-de-onibus-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-de-onibus-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-de-onibus-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "usar transporte",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -42425,64 +51553,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a propor e colaborar. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Podemos dividir as tarefas.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: projeto, tarefa, ideia e grupo.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Podemos dividir as tarefas.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a propor e colaborar. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Podemos dividir as tarefas.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: projeto, tarefa, ideia e grupo.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Podemos dividir as tarefas.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "tarefa",
-          "escola",
-          "amanhã"
+          "propor e colaborar",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ dividir as tarefas.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "dividir",
-          "Podemos",
-          "tarefas",
-          "Durante"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "Eles"
+          "propor e colaborar",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -42566,9 +51659,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Futuro do subjuntivo",
-        "definition": "Práctica guiada de Futuro do subjuntivo.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -44147,173 +53240,40 @@
       "bilhete"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Eu vou de ônibus para o trabalho todos os dias. A parada fica perto da minha casa. Quando o ônibus chega, eu entro e pago a passagem. Às vezes encontro uma colega e nós conversamos. O trânsito é lento pela manhã, mas eu gosto de olhar as ruas e as pessoas pela janela. Quando chego ao trabalho, sinto que já conheço um pouco a cidade. Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-de-onibus-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Eu vou de ônibus…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "A parada fica perto da minha casa."
-              },
-              {
-                "id": "o2",
-                "text": "Quando o ônibus chega, eu entro e pago a passagem."
-              },
-              {
-                "id": "o3",
-                "text": "Às vezes encontro uma colega e nós conversamos."
-              },
-              {
-                "id": "o4",
-                "text": "Eu vou de ônibus para o trabalho todos os dias."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Quando o ônibus chega…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quando o ônibus chega, eu entro e pago a passagem."
-              },
-              {
-                "id": "o2",
-                "text": "Eu vou de ônibus para o trabalho todos os dias."
-              },
-              {
-                "id": "o3",
-                "text": "A parada fica perto da minha casa."
-              },
-              {
-                "id": "o4",
-                "text": "Às vezes encontro uma colega e nós conversamos."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “O trânsito é lento pela manhã…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu vou de ônibus para o trabalho todos os dias."
-              },
-              {
-                "id": "o2",
-                "text": "O trânsito é lento pela manhã, mas eu gosto de olhar as ruas e as pessoas pela janela."
-              },
-              {
-                "id": "o3",
-                "text": "A parada fica perto da minha casa."
-              },
-              {
-                "id": "o4",
-                "text": "Quando o ônibus chega, eu entro e pago a passagem."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Às vezes o ônibus está…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Eu vou de ônibus para o trabalho todos os dias."
-              },
-              {
-                "id": "o2",
-                "text": "A parada fica perto da minha casa."
-              },
-              {
-                "id": "o3",
-                "text": "Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar."
-              },
-              {
-                "id": "o4",
-                "text": "Quando o ônibus chega, eu entro e pago a passagem."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Um bilhete para o centro.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Eu vou de ônibus para o trabalho todos os dias. A parada fica perto da minha casa. Quando o ônibus chega, eu entro e pago a passagem. Às vezes encontro uma colega e nós conversamos. O trânsito é lento pela manhã, mas eu gosto de olhar as ruas e as pessoas pela janela. Quando chego ao trabalho, sinto que já conheço um pouco a cidade. Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar.",
-      "transcriptSegments": [
-        {
-          "text": "Eu vou de ônibus para o trabalho todos os dias."
-        },
-        {
-          "text": "A parada fica perto da minha casa."
-        },
-        {
-          "text": "Quando o ônibus chega, eu entro e pago a passagem."
-        },
-        {
-          "text": "Às vezes encontro uma colega e nós conversamos."
-        },
-        {
-          "text": "O trânsito é lento pela manhã, mas eu gosto de olhar as ruas e as pessoas pela janela."
-        },
-        {
-          "text": "Quando chego ao trabalho, sinto que já conheço um pouco a cidade."
-        },
-        {
-          "text": "Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de ônibus.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Um bilhete para o centro. Falamos de ônibus. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Eu vou de ônibus…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "A parada fica perto da minha casa.",
-          "Quando o ônibus chega, eu entro e pago a passagem.",
-          "Às vezes encontro uma colega e nós conversamos.",
-          "Eu vou de ônibus para o trabalho todos os dias."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Quando o ônibus chega…”",
-        "options": [
-          "Quando o ônibus chega, eu entro e pago a passagem.",
-          "Eu vou de ônibus para o trabalho todos os dias.",
-          "A parada fica perto da minha casa.",
-          "Às vezes encontro uma colega e nós conversamos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “O trânsito é lento pela manhã…”",
-        "options": [
-          "Eu vou de ônibus para o trabalho todos os dias.",
-          "O trânsito é lento pela manhã, mas eu gosto de olhar as ruas e as pessoas pela janela.",
-          "A parada fica perto da minha casa.",
-          "Quando o ônibus chega, eu entro e pago a passagem."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Às vezes o ônibus está…”",
-        "options": [
-          "Eu vou de ônibus para o trabalho todos os dias.",
-          "A parada fica perto da minha casa.",
-          "Às vezes o ônibus está cheio, mas eu sempre encontro alguma coisa interessante para observar.",
-          "Quando o ônibus chega, eu entro e pago a passagem."
+          "Um bilhete para o centro.",
+          "ônibus",
+          "bilhete",
+          "ponto"
         ]
       }
     ]
@@ -44339,179 +53299,40 @@
       "tarefa"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca. Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores. Depois fizeram uma campanha de doação no bairro. Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos. A biblioteca também ganhou almofadas e uma estante nova. O melhor resultado não foi apenas ter mais livros. Muitos estudantes passaram a usar aquele espaço no intervalo e começaram a recomendar leituras uns aos outros. No final do semestre, os alunos fizeram uma pequena feira de leitura. Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-um-projeto-coletivo-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Na escola do meu sobrinho…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
-              },
-              {
-                "id": "o2",
-                "text": "Depois fizeram uma campanha de doação no bairro."
-              },
-              {
-                "id": "o3",
-                "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
-              },
-              {
-                "id": "o4",
-                "text": "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Alguns alunos criaram cartazes outros falaram…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
-              },
-              {
-                "id": "o2",
-                "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
-              },
-              {
-                "id": "o3",
-                "text": "Depois fizeram uma campanha de doação no bairro."
-              },
-              {
-                "id": "o4",
-                "text": "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “O melhor resultado…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "O melhor resultado não foi apenas ter mais livros."
-              },
-              {
-                "id": "o2",
-                "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
-              },
-              {
-                "id": "o3",
-                "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
-              },
-              {
-                "id": "o4",
-                "text": "Depois fizeram uma campanha de doação no bairro."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Cada um escolheu um livro…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
-              },
-              {
-                "id": "o2",
-                "text": "Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas."
-              },
-              {
-                "id": "o3",
-                "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
-              },
-              {
-                "id": "o4",
-                "text": "Depois fizeram uma campanha de doação no bairro."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Podemos dividir as tarefas.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca. Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores. Depois fizeram uma campanha de doação no bairro. Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos. A biblioteca também ganhou almofadas e uma estante nova. O melhor resultado não foi apenas ter mais livros. Muitos estudantes passaram a usar aquele espaço no intervalo e começaram a recomendar leituras uns aos outros. No final do semestre, os alunos fizeram uma pequena feira de leitura. Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas.",
-      "transcriptSegments": [
-        {
-          "text": "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca."
-        },
-        {
-          "text": "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores."
-        },
-        {
-          "text": "Depois fizeram uma campanha de doação no bairro."
-        },
-        {
-          "text": "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
-        },
-        {
-          "text": "A biblioteca também ganhou almofadas e uma estante nova."
-        },
-        {
-          "text": "O melhor resultado não foi apenas ter mais livros."
-        },
-        {
-          "text": "Muitos estudantes passaram a usar aquele espaço no intervalo e começaram a recomendar leituras uns aos outros."
-        },
-        {
-          "text": "No final do semestre, os alunos fizeram uma pequena feira de leitura."
-        },
-        {
-          "text": "Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de projeto.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Podemos dividir as tarefas. Falamos de projeto. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Na escola do meu sobrinho…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores.",
-          "Depois fizeram uma campanha de doação no bairro.",
-          "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
-          "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Alguns alunos criaram cartazes outros falaram…”",
-        "options": [
-          "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
-          "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores.",
-          "Depois fizeram uma campanha de doação no bairro.",
-          "Alguns alunos criaram cartazes, outros falaram com as famílias e um grupo organizou os livros recebidos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “O melhor resultado…”",
-        "options": [
-          "O melhor resultado não foi apenas ter mais livros.",
-          "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
-          "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores.",
-          "Depois fizeram uma campanha de doação no bairro."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Cada um escolheu um livro…”",
-        "options": [
-          "Na escola do meu sobrinho, os alunos criaram um projeto para melhorar a biblioteca.",
-          "Cada um escolheu um livro e explicou por que recomendava aquela história aos colegas.",
-          "Primeiro, eles perguntaram quais livros as turmas queriam ler e perceberam que faltavam histórias em quadrinhos, livros de ciência e títulos em letras maiores.",
-          "Depois fizeram uma campanha de doação no bairro."
+          "Podemos dividir as tarefas.",
+          "projeto",
+          "tarefa",
+          "ideia"
         ]
       }
     ]
@@ -44628,8 +53449,8 @@
       },
       {
         "word": "escolha",
-        "translation": "elegir",
-        "definition": "elegir",
+        "translation": "elección",
+        "definition": "elección",
         "example": "Uso “escolha” em uma frase.",
         "contexts": [
           "escolha · tema",
@@ -44669,102 +53490,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "plano",
-        "translation": "plan",
-        "example": "Meu plano para o próximo ano é estudar outro idioma."
-      },
-      {
-        "word": "meta",
-        "translation": "meta",
-        "example": "Minha meta é terminar o curso em seis meses."
-      },
-      {
-        "word": "previsão",
-        "translation": "previsión",
-        "example": "A previsão é que eu comece o trabalho em março."
-      },
-      {
-        "word": "possibilidade",
-        "translation": "posibilidad",
-        "example": "Há possibilidade de mudar de cidade no futuro."
-      },
-      {
-        "word": "projeto",
-        "translation": "proyecto",
-        "example": "Estou desenvolvendo um projeto para abrir uma pequena empresa."
-      },
-      {
-        "word": "ambição",
-        "translation": "ambición",
-        "example": "Minha ambição é crescer na minha carreira."
-      },
-      {
-        "word": "prazo",
-        "translation": "plazo",
-        "example": "O prazo para inscrição é dia 15."
-      },
-      {
-        "word": "orçamento",
-        "translation": "presupuesto",
-        "example": "Preciso revisar o orçamento do curso."
-      },
-      {
-        "word": "mudança",
-        "translation": "cambio",
-        "example": "A mudança será difícil, mas necessária."
-      },
-      {
-        "word": "compromisso",
-        "translation": "compromiso",
-        "example": "Tenho um compromisso profissional na próxima semana."
-      },
-      {
-        "word": "desafio",
-        "translation": "desafío",
-        "example": "O maior desafio é conciliar trabalho e estudo."
-      },
-      {
-        "word": "apoio",
-        "translation": "apoyo",
-        "example": "Posso contar com o apoio da minha família."
-      },
-      {
-        "word": "Você pode me ajudar?",
-        "translation": "¿Me puedes ayudar?",
-        "example": "Você pode me ajudar com essa tarefa, por favor?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião,",
-        "translation": "En mi opinión,",
-        "example": "Na minha opinião, devemos definir prioridades antes de começar.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você.",
-        "translation": "Estoy de acuerdo contigo.",
-        "example": "Concordo com você sobre a importância do planejamento.",
-        "category": "expression"
-      },
-      {
-        "word": "Não tenho certeza.",
-        "translation": "No estoy seguro.",
-        "example": "Não tenho certeza se consigo terminar até o prazo.",
-        "category": "expression"
-      },
-      {
-        "word": "Se você quiser, posso ajudar.",
-        "translation": "Si quieres, puedo ayudarte.",
-        "example": "Se você quiser, posso ajudar a revisar seu currículo.",
-        "category": "expression"
-      },
-      {
-        "word": "Por que não tentamos?",
-        "translation": "¿Por qué no lo intentamos?",
-        "example": "Por que não tentamos uma abordagem diferente no próximo mês?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -46174,57 +54899,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Querer e poder",
-        "definition": "Use querer para pedir ou desejar e poder para possibilidade.",
-        "structure": "Quero um bilhete. Posso pagar aqui?",
-        "function": "Usar transporte com cortesia.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Quero um bilhete. Posso pagar aqui?",
-          "Um bilhete para o centro."
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Quero um bilhete. Posso pagar aqui?",
-          "Um bilhete para o centro.",
-          "ônibus",
-          "bilhete"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "ônibus",
-          "bilhete",
-          "ponto",
-          "viagem"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "bilhete",
-          "ônibus",
-          "ponto",
-          "viagem"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Um bilhete para o centro.",
-          "ponto",
-          "viagem",
-          "ônibus"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -46254,57 +55326,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Podemos e vamos + infinitivo",
-        "definition": "Use estas formas para propor ações em grupo.",
-        "structure": "Podemos dividir as tarefas.",
-        "function": "Colaborar em um projeto.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Podemos dividir as tarefas.",
-          "Podemos dividir as tarefas."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Podemos dividir as tarefas.",
-          "Podemos dividir as tarefas.",
-          "projeto",
-          "tarefa"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "projeto",
-          "tarefa",
-          "ideia",
-          "grupo"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "tarefa",
-          "projeto",
-          "ideia",
-          "grupo"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Podemos dividir as tarefas.",
-          "ideia",
-          "grupo",
-          "projeto"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -46411,23 +55830,135 @@
     "vocabulary": [
       {
         "word": "ônibus",
-        "translation": "palabra cultural",
-        "example": "Um bilhete para o centro."
+        "translation": "autobús",
+        "definition": "autobús",
+        "example": "Uso “ônibus” em uma frase.",
+        "contexts": [
+          "ônibus · tema",
+          "ônibus · conversación",
+          "ônibus · práctica"
+        ]
       },
       {
         "word": "bilhete",
-        "translation": "acción cotidiana",
-        "example": "Um bilhete para o centro."
+        "translation": "billete",
+        "definition": "billete",
+        "example": "Uso “bilhete” em uma frase.",
+        "contexts": [
+          "bilhete · tema",
+          "bilhete · conversación",
+          "bilhete · práctica"
+        ]
       },
       {
         "word": "ponto",
-        "translation": "lugar o cosa",
-        "example": "Um bilhete para o centro."
+        "translation": "parada",
+        "definition": "parada",
+        "example": "Uso “ponto” em uma frase.",
+        "contexts": [
+          "ponto · tema",
+          "ponto · conversación",
+          "ponto · práctica"
+        ]
       },
       {
         "word": "viagem",
-        "translation": "expresión útil",
-        "example": "Um bilhete para o centro."
+        "translation": "viaje",
+        "definition": "viaje",
+        "example": "Uso “viagem” em uma frase.",
+        "contexts": [
+          "viagem · tema",
+          "viagem · conversación",
+          "viagem · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -46437,13 +55968,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "ônibus",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "ônibus"
+          },
+          {
+            "id": "o2",
+            "text": "bilhete"
+          },
+          {
+            "id": "o3",
+            "text": "ponto"
+          },
+          {
+            "id": "o4",
+            "text": "viagem"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ônibus"
+          },
+          {
+            "id": "o2",
+            "text": "bilhete"
+          },
+          {
+            "id": "o3",
+            "text": "ponto"
+          },
+          {
+            "id": "o4",
+            "text": "viagem"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bilhete"
+          },
+          {
+            "id": "o2",
+            "text": "ônibus"
+          },
+          {
+            "id": "o3",
+            "text": "ponto"
+          },
+          {
+            "id": "o4",
+            "text": "viagem"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ponto"
+          },
+          {
+            "id": "o2",
+            "text": "ônibus"
+          },
+          {
+            "id": "o3",
+            "text": "bilhete"
+          },
+          {
+            "id": "o4",
+            "text": "viagem"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "ônibus"
+          },
+          {
+            "id": "o3",
+            "text": "bilhete"
+          },
+          {
+            "id": "o4",
+            "text": "ponto"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ônibus"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "bilhete"
+          },
+          {
+            "id": "o4",
+            "text": "ponto"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bilhete"
+          },
+          {
+            "id": "o2",
+            "text": "ônibus"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "ponto"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ponto"
+          },
+          {
+            "id": "o2",
+            "text": "ônibus"
+          },
+          {
+            "id": "o3",
+            "text": "bilhete"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "ônibus"
+          },
+          {
+            "id": "o3",
+            "text": "bilhete"
+          },
+          {
+            "id": "o4",
+            "text": "ponto"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ônibus"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "bilhete"
+          },
+          {
+            "id": "o4",
+            "text": "ponto"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "bilhete"
+          },
+          {
+            "id": "o2",
+            "text": "ônibus"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "ponto"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ponto"
+          },
+          {
+            "id": "o2",
+            "text": "ônibus"
+          },
+          {
+            "id": "o3",
+            "text": "bilhete"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -46466,23 +56263,135 @@
     "vocabulary": [
       {
         "word": "projeto",
-        "translation": "palabra cultural",
-        "example": "Podemos dividir as tarefas."
+        "translation": "proyecto",
+        "definition": "proyecto",
+        "example": "Uso “projeto” em uma frase.",
+        "contexts": [
+          "projeto · tema",
+          "projeto · conversación",
+          "projeto · práctica"
+        ]
       },
       {
         "word": "tarefa",
-        "translation": "acción cotidiana",
-        "example": "Podemos dividir as tarefas."
+        "translation": "tarea",
+        "definition": "tarea",
+        "example": "Uso “tarefa” em uma frase.",
+        "contexts": [
+          "tarefa · tema",
+          "tarefa · conversación",
+          "tarefa · práctica"
+        ]
       },
       {
         "word": "ideia",
-        "translation": "lugar o cosa",
-        "example": "Podemos dividir as tarefas."
+        "translation": "idea",
+        "definition": "idea",
+        "example": "Uso “ideia” em uma frase.",
+        "contexts": [
+          "ideia · tema",
+          "ideia · conversación",
+          "ideia · práctica"
+        ]
       },
       {
         "word": "grupo",
-        "translation": "expresión útil",
-        "example": "Podemos dividir as tarefas."
+        "translation": "grupo",
+        "definition": "grupo",
+        "example": "Uso “grupo” em uma frase.",
+        "contexts": [
+          "grupo · tema",
+          "grupo · conversación",
+          "grupo · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -46492,13 +56401,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "projeto",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "projeto"
+          },
+          {
+            "id": "o2",
+            "text": "tarefa"
+          },
+          {
+            "id": "o3",
+            "text": "ideia"
+          },
+          {
+            "id": "o4",
+            "text": "grupo"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "projeto"
+          },
+          {
+            "id": "o2",
+            "text": "tarefa"
+          },
+          {
+            "id": "o3",
+            "text": "ideia"
+          },
+          {
+            "id": "o4",
+            "text": "grupo"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tarefa"
+          },
+          {
+            "id": "o2",
+            "text": "projeto"
+          },
+          {
+            "id": "o3",
+            "text": "ideia"
+          },
+          {
+            "id": "o4",
+            "text": "grupo"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ideia"
+          },
+          {
+            "id": "o2",
+            "text": "projeto"
+          },
+          {
+            "id": "o3",
+            "text": "tarefa"
+          },
+          {
+            "id": "o4",
+            "text": "grupo"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "projeto"
+          },
+          {
+            "id": "o3",
+            "text": "tarefa"
+          },
+          {
+            "id": "o4",
+            "text": "ideia"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "projeto"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "tarefa"
+          },
+          {
+            "id": "o4",
+            "text": "ideia"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tarefa"
+          },
+          {
+            "id": "o2",
+            "text": "projeto"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "ideia"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ideia"
+          },
+          {
+            "id": "o2",
+            "text": "projeto"
+          },
+          {
+            "id": "o3",
+            "text": "tarefa"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "projeto"
+          },
+          {
+            "id": "o3",
+            "text": "tarefa"
+          },
+          {
+            "id": "o4",
+            "text": "ideia"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "projeto"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "tarefa"
+          },
+          {
+            "id": "o4",
+            "text": "ideia"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tarefa"
+          },
+          {
+            "id": "o2",
+            "text": "projeto"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "ideia"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ideia"
+          },
+          {
+            "id": "o2",
+            "text": "projeto"
+          },
+          {
+            "id": "o3",
+            "text": "tarefa"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -46948,53 +57123,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a expressar preferências. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Eu gosto desta sopa.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: arroz, feijão, sopa e sabor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Eu gosto desta sopa.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a expressar preferências. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Eu gosto desta sopa.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: arroz, feijão, sopa e sabor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Eu gosto desta sopa.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "expressar preferências",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "expressar preferências",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -47030,64 +57181,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar de hábitos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quero usar menos plástico.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lixo, plástico, reciclar e ambiente.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quero usar menos plástico.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a falar de hábitos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quero usar menos plástico.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lixo, plástico, reciclar e ambiente.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quero usar menos plástico.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "escola",
-          "amanhã",
-          "Rafael"
+          "falar de hábitos",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ usar menos plástico.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "Luana",
-          "Quero",
-          "menos",
-          "úteis"
-        ]
-      },
-      {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "usar"
-        ]
-      },
-      {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "usar"
-        ]
-      },
-      {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "rua",
-          "usar"
+          "falar de hábitos",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -47171,9 +57287,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Relações: pronomes e discurso indireto",
-        "definition": "Práctica guiada de Relações: pronomes e discurso indireto.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -48752,179 +58868,40 @@
       "feijão"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Hoje vou experimentar uma comida brasileira nova. No restaurante, peço moqueca com arroz e salada. O prato tem peixe, tomate, cebola e leite de coco. O cheiro é muito bom. Para beber, eu peço suco de maracujá. A comida é diferente da comida da minha casa, mas eu gosto muito. Depois da refeição, o garçom pergunta se eu quero uma sobremesa. Eu escolho um pedaço pequeno de bolo de coco. Quero voltar a esse restaurante com meus amigos.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-sabores-do-brasil-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Hoje vou experimentar…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No restaurante, peço moqueca com arroz e salada."
-              },
-              {
-                "id": "o2",
-                "text": "O prato tem peixe, tomate, cebola e leite de coco."
-              },
-              {
-                "id": "o3",
-                "text": "Hoje vou experimentar uma comida brasileira nova."
-              },
-              {
-                "id": "o4",
-                "text": "O cheiro é muito bom."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “O cheiro é…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje vou experimentar uma comida brasileira nova."
-              },
-              {
-                "id": "o2",
-                "text": "No restaurante, peço moqueca com arroz e salada."
-              },
-              {
-                "id": "o3",
-                "text": "O prato tem peixe, tomate, cebola e leite de coco."
-              },
-              {
-                "id": "o4",
-                "text": "O cheiro é muito bom."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “A comida é diferente da…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "A comida é diferente da comida da minha casa, mas eu gosto muito."
-              },
-              {
-                "id": "o2",
-                "text": "Hoje vou experimentar uma comida brasileira nova."
-              },
-              {
-                "id": "o3",
-                "text": "No restaurante, peço moqueca com arroz e salada."
-              },
-              {
-                "id": "o4",
-                "text": "O prato tem peixe, tomate, cebola e leite de coco."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Quero voltar a…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Hoje vou experimentar uma comida brasileira nova."
-              },
-              {
-                "id": "o2",
-                "text": "Quero voltar a esse restaurante com meus amigos."
-              },
-              {
-                "id": "o3",
-                "text": "No restaurante, peço moqueca com arroz e salada."
-              },
-              {
-                "id": "o4",
-                "text": "O prato tem peixe, tomate, cebola e leite de coco."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Eu gosto desta sopa.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Hoje vou experimentar uma comida brasileira nova. No restaurante, peço moqueca com arroz e salada. O prato tem peixe, tomate, cebola e leite de coco. O cheiro é muito bom. Para beber, eu peço suco de maracujá. A comida é diferente da comida da minha casa, mas eu gosto muito. Depois da refeição, o garçom pergunta se eu quero uma sobremesa. Eu escolho um pedaço pequeno de bolo de coco. Quero voltar a esse restaurante com meus amigos.",
-      "transcriptSegments": [
-        {
-          "text": "Hoje vou experimentar uma comida brasileira nova."
-        },
-        {
-          "text": "No restaurante, peço moqueca com arroz e salada."
-        },
-        {
-          "text": "O prato tem peixe, tomate, cebola e leite de coco."
-        },
-        {
-          "text": "O cheiro é muito bom."
-        },
-        {
-          "text": "Para beber, eu peço suco de maracujá."
-        },
-        {
-          "text": "A comida é diferente da comida da minha casa, mas eu gosto muito."
-        },
-        {
-          "text": "Depois da refeição, o garçom pergunta se eu quero uma sobremesa."
-        },
-        {
-          "text": "Eu escolho um pedaço pequeno de bolo de coco."
-        },
-        {
-          "text": "Quero voltar a esse restaurante com meus amigos."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de arroz.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Eu gosto desta sopa. Falamos de arroz. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Hoje vou experimentar…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "No restaurante, peço moqueca com arroz e salada.",
-          "O prato tem peixe, tomate, cebola e leite de coco.",
-          "Hoje vou experimentar uma comida brasileira nova.",
-          "O cheiro é muito bom."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “O cheiro é…”",
-        "options": [
-          "Hoje vou experimentar uma comida brasileira nova.",
-          "No restaurante, peço moqueca com arroz e salada.",
-          "O prato tem peixe, tomate, cebola e leite de coco.",
-          "O cheiro é muito bom."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “A comida é diferente da…”",
-        "options": [
-          "A comida é diferente da comida da minha casa, mas eu gosto muito.",
-          "Hoje vou experimentar uma comida brasileira nova.",
-          "No restaurante, peço moqueca com arroz e salada.",
-          "O prato tem peixe, tomate, cebola e leite de coco."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Quero voltar a…”",
-        "options": [
-          "Hoje vou experimentar uma comida brasileira nova.",
-          "Quero voltar a esse restaurante com meus amigos.",
-          "No restaurante, peço moqueca com arroz e salada.",
-          "O prato tem peixe, tomate, cebola e leite de coco."
+          "Eu gosto desta sopa.",
+          "arroz",
+          "feijão",
+          "sopa"
         ]
       }
     ]
@@ -48950,182 +58927,40 @@
       "plástico"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos. No início, alguns moradores reclamaram porque achavam que seria complicado. Então uma vizinha preparou cartazes simples para explicar onde colocar cada material. Depois de algumas semanas, o lixo comum diminuiu bastante. Também combinamos de usar lâmpadas mais econômicas nas áreas do prédio e de cuidar das plantas da entrada. São mudanças pequenas, mas ajudam a tornar o lugar mais agradável. Acredito que melhorar o ambiente da cidade não depende só de grandes decisões. As escolhas feitas por cada comunidade também podem criar bons resultados. Depois da reunião, vários moradores começaram a trocar ideias sobre como economizar água em casa. Percebemos que falar sobre essas práticas também incentiva outras pessoas.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-cidade-e-ambiente-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “No prédio onde moro começamos…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos."
-              },
-              {
-                "id": "o2",
-                "text": "No início, alguns moradores reclamaram porque achavam que seria complicado."
-              },
-              {
-                "id": "o3",
-                "text": "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material."
-              },
-              {
-                "id": "o4",
-                "text": "Depois de algumas semanas, o lixo comum diminuiu bastante."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Depois de algumas…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos."
-              },
-              {
-                "id": "o2",
-                "text": "Depois de algumas semanas, o lixo comum diminuiu bastante."
-              },
-              {
-                "id": "o3",
-                "text": "No início, alguns moradores reclamaram porque achavam que seria complicado."
-              },
-              {
-                "id": "o4",
-                "text": "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Acredito que melhorar o ambiente…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos."
-              },
-              {
-                "id": "o2",
-                "text": "No início, alguns moradores reclamaram porque achavam que seria complicado."
-              },
-              {
-                "id": "o3",
-                "text": "Acredito que melhorar o ambiente da cidade não depende só de grandes decisões."
-              },
-              {
-                "id": "o4",
-                "text": "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Percebemos que falar sobre…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos."
-              },
-              {
-                "id": "o2",
-                "text": "No início, alguns moradores reclamaram porque achavam que seria complicado."
-              },
-              {
-                "id": "o3",
-                "text": "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material."
-              },
-              {
-                "id": "o4",
-                "text": "Percebemos que falar sobre essas práticas também incentiva outras pessoas."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Quero usar menos plástico.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos. No início, alguns moradores reclamaram porque achavam que seria complicado. Então uma vizinha preparou cartazes simples para explicar onde colocar cada material. Depois de algumas semanas, o lixo comum diminuiu bastante. Também combinamos de usar lâmpadas mais econômicas nas áreas do prédio e de cuidar das plantas da entrada. São mudanças pequenas, mas ajudam a tornar o lugar mais agradável. Acredito que melhorar o ambiente da cidade não depende só de grandes decisões. As escolhas feitas por cada comunidade também podem criar bons resultados. Depois da reunião, vários moradores começaram a trocar ideias sobre como economizar água em casa. Percebemos que falar sobre essas práticas também incentiva outras pessoas.",
-      "transcriptSegments": [
-        {
-          "text": "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos."
-        },
-        {
-          "text": "No início, alguns moradores reclamaram porque achavam que seria complicado."
-        },
-        {
-          "text": "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material."
-        },
-        {
-          "text": "Depois de algumas semanas, o lixo comum diminuiu bastante."
-        },
-        {
-          "text": "Também combinamos de usar lâmpadas mais econômicas nas áreas do prédio e de cuidar das plantas da entrada."
-        },
-        {
-          "text": "São mudanças pequenas, mas ajudam a tornar o lugar mais agradável."
-        },
-        {
-          "text": "Acredito que melhorar o ambiente da cidade não depende só de grandes decisões."
-        },
-        {
-          "text": "As escolhas feitas por cada comunidade também podem criar bons resultados."
-        },
-        {
-          "text": "Depois da reunião, vários moradores começaram a trocar ideias sobre como economizar água em casa."
-        },
-        {
-          "text": "Percebemos que falar sobre essas práticas também incentiva outras pessoas."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de lixo.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Quero usar menos plástico. Falamos de lixo. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “No prédio onde moro começamos…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos.",
-          "No início, alguns moradores reclamaram porque achavam que seria complicado.",
-          "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material.",
-          "Depois de algumas semanas, o lixo comum diminuiu bastante."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Depois de algumas…”",
-        "options": [
-          "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos.",
-          "Depois de algumas semanas, o lixo comum diminuiu bastante.",
-          "No início, alguns moradores reclamaram porque achavam que seria complicado.",
-          "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Acredito que melhorar o ambiente…”",
-        "options": [
-          "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos.",
-          "No início, alguns moradores reclamaram porque achavam que seria complicado.",
-          "Acredito que melhorar o ambiente da cidade não depende só de grandes decisões.",
-          "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Percebemos que falar sobre…”",
-        "options": [
-          "No prédio onde moro, começamos a separar papel, vidro, plástico e resíduos orgânicos.",
-          "No início, alguns moradores reclamaram porque achavam que seria complicado.",
-          "Então uma vizinha preparou cartazes simples para explicar onde colocar cada material.",
-          "Percebemos que falar sobre essas práticas também incentiva outras pessoas."
+          "Quero usar menos plástico.",
+          "lixo",
+          "plástico",
+          "reciclar"
         ]
       }
     ]
@@ -49283,101 +59118,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "dialogar",
-        "translation": "dialogar",
-        "example": "Precisamos dialogar sobre o problema."
-      },
-      {
-        "word": "debate",
-        "translation": "debate",
-        "example": "O debate foi produtivo."
-      },
-      {
-        "word": "sugerir",
-        "translation": "sugerir",
-        "example": "Posso sugerir uma solução?"
-      },
-      {
-        "word": "discordar",
-        "translation": "estar en desacuerdo",
-        "example": "Eu discordo dessa ideia."
-      },
-      {
-        "word": "apoio",
-        "translation": "apoyo",
-        "example": "Preciso do seu apoio."
-      },
-      {
-        "word": "ajuda",
-        "translation": "ayuda",
-        "example": "Peça ajuda quando precisar."
-      },
-      {
-        "word": "amizade",
-        "translation": "amistad",
-        "example": "Nossa amizade é importante."
-      },
-      {
-        "word": "compreender",
-        "translation": "comprender",
-        "example": "Consigo compreender seu ponto de vista."
-      },
-      {
-        "word": "mal-entendido",
-        "translation": "malentendido",
-        "example": "Houve um mal-entendido ontem."
-      },
-      {
-        "word": "reconhecer",
-        "translation": "reconocer",
-        "example": "É importante reconhecer os erros."
-      },
-      {
-        "word": "silêncio",
-        "translation": "silencio",
-        "example": "Houve um silêncio na reunião."
-      },
-      {
-        "word": "feedback",
-        "translation": "retroalimentación / comentario",
-        "example": "Posso dar um feedback sobre seu texto."
-      },
-      {
-        "word": "intenção",
-        "translation": "intención",
-        "example": "Minha intenção não é ofender."
-      },
-      {
-        "word": "Posso ajudar?",
-        "translation": "¿Puedo ayudar?",
-        "example": "Posso ajudar com isso?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião",
-        "translation": "En mi opinión",
-        "example": "Na minha opinião, devemos tentar outra abordagem.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você",
-        "translation": "Estoy de acuerdo contigo",
-        "example": "Concordo com você nessa questão.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida",
-        "translation": "Tengo una duda",
-        "example": "Tenho uma dúvida sobre o prazo.",
-        "category": "expression"
-      },
-      {
-        "word": "Sinto muito",
-        "translation": "Lo siento",
-        "example": "Sinto muito pelo erro.",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -50787,57 +60527,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Gostar, preferir e não gostar",
-        "definition": "Use estes verbos para expressar preferências.",
-        "structure": "Eu gosto desta sopa, mas prefiro arroz.",
-        "function": "Falar sobre comidas e gostos.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Eu gosto desta sopa, mas prefiro arroz.",
-          "Eu gosto desta sopa."
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu gosto desta sopa, mas prefiro arroz.",
-          "Eu gosto desta sopa.",
-          "arroz",
-          "feijão"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "arroz",
-          "feijão",
-          "sopa",
-          "sabor"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "feijão",
-          "arroz",
-          "sopa",
-          "sabor"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Eu gosto desta sopa.",
-          "sopa",
-          "sabor",
-          "arroz"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -50867,57 +60954,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Menos, mais e comparativos",
-        "definition": "Use mais/menos ... do que para comparar hábitos.",
-        "structure": "Quero usar menos plástico do que antes.",
-        "function": "Falar de mudanças e ambiente.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Quero usar menos plástico do que antes.",
-          "Quero usar menos plástico."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Quero usar menos plástico do que antes.",
-          "Quero usar menos plástico.",
-          "lixo",
-          "plástico"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "lixo",
-          "plástico",
-          "reciclar",
-          "ambiente"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "plástico",
-          "lixo",
-          "reciclar",
-          "ambiente"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Quero usar menos plástico.",
-          "reciclar",
-          "ambiente",
-          "lixo"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -51024,23 +61458,135 @@
     "vocabulary": [
       {
         "word": "arroz",
-        "translation": "palabra cultural",
-        "example": "Eu gosto desta sopa."
+        "translation": "arroz",
+        "definition": "arroz",
+        "example": "Uso “arroz” em uma frase.",
+        "contexts": [
+          "arroz · tema",
+          "arroz · conversación",
+          "arroz · práctica"
+        ]
       },
       {
         "word": "feijão",
-        "translation": "acción cotidiana",
-        "example": "Eu gosto desta sopa."
+        "translation": "frijoles",
+        "definition": "frijoles",
+        "example": "Uso “feijão” em uma frase.",
+        "contexts": [
+          "feijão · tema",
+          "feijão · conversación",
+          "feijão · práctica"
+        ]
       },
       {
         "word": "sopa",
-        "translation": "lugar o cosa",
-        "example": "Eu gosto desta sopa."
+        "translation": "sopa",
+        "definition": "sopa",
+        "example": "Uso “sopa” em uma frase.",
+        "contexts": [
+          "sopa · tema",
+          "sopa · conversación",
+          "sopa · práctica"
+        ]
       },
       {
         "word": "sabor",
-        "translation": "expresión útil",
-        "example": "Eu gosto desta sopa."
+        "translation": "sabor",
+        "definition": "sabor",
+        "example": "Uso “sabor” em uma frase.",
+        "contexts": [
+          "sabor · tema",
+          "sabor · conversación",
+          "sabor · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -51050,13 +61596,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "arroz",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "arroz"
+          },
+          {
+            "id": "o2",
+            "text": "feijão"
+          },
+          {
+            "id": "o3",
+            "text": "sopa"
+          },
+          {
+            "id": "o4",
+            "text": "sabor"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "arroz"
+          },
+          {
+            "id": "o2",
+            "text": "feijão"
+          },
+          {
+            "id": "o3",
+            "text": "sopa"
+          },
+          {
+            "id": "o4",
+            "text": "sabor"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "feijão"
+          },
+          {
+            "id": "o2",
+            "text": "arroz"
+          },
+          {
+            "id": "o3",
+            "text": "sopa"
+          },
+          {
+            "id": "o4",
+            "text": "sabor"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "sopa"
+          },
+          {
+            "id": "o2",
+            "text": "arroz"
+          },
+          {
+            "id": "o3",
+            "text": "feijão"
+          },
+          {
+            "id": "o4",
+            "text": "sabor"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "arroz"
+          },
+          {
+            "id": "o3",
+            "text": "feijão"
+          },
+          {
+            "id": "o4",
+            "text": "sopa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "arroz"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "feijão"
+          },
+          {
+            "id": "o4",
+            "text": "sopa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "feijão"
+          },
+          {
+            "id": "o2",
+            "text": "arroz"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "sopa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "sopa"
+          },
+          {
+            "id": "o2",
+            "text": "arroz"
+          },
+          {
+            "id": "o3",
+            "text": "feijão"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "arroz"
+          },
+          {
+            "id": "o3",
+            "text": "feijão"
+          },
+          {
+            "id": "o4",
+            "text": "sopa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "arroz"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "feijão"
+          },
+          {
+            "id": "o4",
+            "text": "sopa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "feijão"
+          },
+          {
+            "id": "o2",
+            "text": "arroz"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "sopa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "sopa"
+          },
+          {
+            "id": "o2",
+            "text": "arroz"
+          },
+          {
+            "id": "o3",
+            "text": "feijão"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -51079,23 +61891,135 @@
     "vocabulary": [
       {
         "word": "lixo",
-        "translation": "palabra cultural",
-        "example": "Quero usar menos plástico."
+        "translation": "basura",
+        "definition": "basura",
+        "example": "Uso “lixo” em uma frase.",
+        "contexts": [
+          "lixo · tema",
+          "lixo · conversación",
+          "lixo · práctica"
+        ]
       },
       {
         "word": "plástico",
-        "translation": "acción cotidiana",
-        "example": "Quero usar menos plástico."
+        "translation": "plástico",
+        "definition": "plástico",
+        "example": "Uso “plástico” em uma frase.",
+        "contexts": [
+          "plástico · tema",
+          "plástico · conversación",
+          "plástico · práctica"
+        ]
       },
       {
         "word": "reciclar",
-        "translation": "lugar o cosa",
-        "example": "Quero usar menos plástico."
+        "translation": "reciclar",
+        "definition": "reciclar",
+        "example": "Uso “reciclar” em uma frase.",
+        "contexts": [
+          "reciclar · tema",
+          "reciclar · conversación",
+          "reciclar · práctica"
+        ]
       },
       {
         "word": "ambiente",
-        "translation": "expresión útil",
-        "example": "Quero usar menos plástico."
+        "translation": "medio ambiente",
+        "definition": "medio ambiente",
+        "example": "Uso “ambiente” em uma frase.",
+        "contexts": [
+          "ambiente · tema",
+          "ambiente · conversación",
+          "ambiente · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -51105,13 +62029,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "lixo",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "lixo"
+          },
+          {
+            "id": "o2",
+            "text": "plástico"
+          },
+          {
+            "id": "o3",
+            "text": "reciclar"
+          },
+          {
+            "id": "o4",
+            "text": "ambiente"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "lixo"
+          },
+          {
+            "id": "o2",
+            "text": "plástico"
+          },
+          {
+            "id": "o3",
+            "text": "reciclar"
+          },
+          {
+            "id": "o4",
+            "text": "ambiente"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "plástico"
+          },
+          {
+            "id": "o2",
+            "text": "lixo"
+          },
+          {
+            "id": "o3",
+            "text": "reciclar"
+          },
+          {
+            "id": "o4",
+            "text": "ambiente"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reciclar"
+          },
+          {
+            "id": "o2",
+            "text": "lixo"
+          },
+          {
+            "id": "o3",
+            "text": "plástico"
+          },
+          {
+            "id": "o4",
+            "text": "ambiente"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "lixo"
+          },
+          {
+            "id": "o3",
+            "text": "plástico"
+          },
+          {
+            "id": "o4",
+            "text": "reciclar"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "lixo"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "plástico"
+          },
+          {
+            "id": "o4",
+            "text": "reciclar"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "plástico"
+          },
+          {
+            "id": "o2",
+            "text": "lixo"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "reciclar"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reciclar"
+          },
+          {
+            "id": "o2",
+            "text": "lixo"
+          },
+          {
+            "id": "o3",
+            "text": "plástico"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "lixo"
+          },
+          {
+            "id": "o3",
+            "text": "plástico"
+          },
+          {
+            "id": "o4",
+            "text": "reciclar"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "lixo"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "plástico"
+          },
+          {
+            "id": "o4",
+            "text": "reciclar"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "plástico"
+          },
+          {
+            "id": "o2",
+            "text": "lixo"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "reciclar"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "reciclar"
+          },
+          {
+            "id": "o2",
+            "text": "lixo"
+          },
+          {
+            "id": "o3",
+            "text": "plástico"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -51561,53 +62751,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nDepois da leitura, o estudante pode escolher uma ideia e usá-la numa situação próxima. Pode dizer uma frase curta, fazer uma pergunta simples e ouvir a resposta. No final, anota duas expressões úteis para praticá-las novamente no dia seguinte.\n\nNão é preciso compreender tudo de uma vez. Ler devagar, reconhecer palavras conhecidas e relacioná-las com a situação ajuda a ganhar segurança. Cada nova leitura permite acrescentar um detalhe e compreender melhor a mensagem."
+      "text": "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "Rafael",
-          "amanhã",
-          "Luana"
+          "escrever mensagem curta",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Rafael _____ com um sorriso e os dois conversam devagar.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "pergunta",
-          "responde",
-          "contente",
-          "conversa"
-        ]
-      },
-      {
-        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
-        "options": [
-          "frase",
-          "curta",
-          "Luana",
-          "Recife"
-        ]
-      },
-      {
-        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Ela está contente porque pode participar da conversa e quer praticar de novo _____ com Rafael.”",
-        "options": [
-          "Recife",
-          "Rafael",
-          "Luana",
-          "amanhã"
+          "escrever mensagem curta",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -51643,64 +62809,29 @@
         "Qual frase Luana usa?",
         "Por que a experiência é importante?"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a contar experiência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Foi uma viagem importante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lembrança, encontro, mudar e futuro.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Foi uma viagem importante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa.\n\nTambém é útil pensar num exemplo pessoal ou próximo. Quando uma ideia está ligada a uma decisão, a uma rotina ou a uma conversa real, torna-se mais fácil lembrá-la e reutilizá-la.\n\nUma segunda leitura ajuda a distinguir a ideia principal dos detalhes. O leitor pode sublinhar uma expressão útil, explicar com as próprias palavras o que acontece e comparar a explicação com o texto. Esta estratégia transforma a leitura numa prática ativa."
+      "text": "Luana está em Recife. Hoje ela aprende a contar experiência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Foi uma viagem importante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lembrança, encontro, mudar e futuro.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Foi uma viagem importante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "prompt": "O que a unidade pratica?",
         "options": [
-          "Recife",
-          "viagem",
-          "futuro",
-          "escola"
+          "contar experiência",
+          "Uma regra isolada",
+          "Um exame técnico",
+          "Um tema sem contexto"
         ]
       },
       {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ uma viagem importante.”.”",
+        "prompt": "O que o estudante faz?",
         "options": [
-          "diz",
-          "Foi",
-          "rua",
-          "Ela"
-        ]
-      },
-      {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "Foi",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "Foi",
-          "rua"
-        ]
-      },
-      {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
-        "options": [
-          "Ela",
-          "diz",
-          "Foi",
-          "rua"
+          "contar experiência",
+          "Memoriza sem usar",
+          "Evita falar",
+          "Só traduz"
         ]
       }
     ]
@@ -51784,9 +62915,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Cidadania: subjuntivo e propostas",
-        "definition": "Práctica guiada de Cidadania: subjuntivo e propostas.",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -53365,185 +64496,40 @@
       "amanhã"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Boa noite, mãe! Estou bem no Brasil. Hoje tive aula de português, almocei com amigos e comprei frutas na feira. A cidade é grande e interessante. Sinto saudades de casa, mas também estou feliz aqui. Amanhã vou visitar um parque. Depois mando fotos para você. Um beijo! Minha mãe responde rapidamente e diz que todos estão bem. Antes de dormir, organizo a mochila para o dia seguinte. Mesmo longe, sinto que minha família acompanha essa experiência comigo.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a1-mensagem-para-casa-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Boa noite mãe…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Boa noite, mãe!"
-              },
-              {
-                "id": "o2",
-                "text": "Estou bem no Brasil."
-              },
-              {
-                "id": "o3",
-                "text": "Hoje tive aula de português, almocei com amigos e comprei frutas na feira."
-              },
-              {
-                "id": "o4",
-                "text": "A cidade é grande e interessante."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “A cidade é…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Boa noite, mãe!"
-              },
-              {
-                "id": "o2",
-                "text": "A cidade é grande e interessante."
-              },
-              {
-                "id": "o3",
-                "text": "Estou bem no Brasil."
-              },
-              {
-                "id": "o4",
-                "text": "Hoje tive aula de português, almocei com amigos e comprei frutas na feira."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Um beijo…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Boa noite, mãe!"
-              },
-              {
-                "id": "o2",
-                "text": "Estou bem no Brasil."
-              },
-              {
-                "id": "o3",
-                "text": "Um beijo!"
-              },
-              {
-                "id": "o4",
-                "text": "Hoje tive aula de português, almocei com amigos e comprei frutas na feira."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Mesmo longe sinto que…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Boa noite, mãe!"
-              },
-              {
-                "id": "o2",
-                "text": "Estou bem no Brasil."
-              },
-              {
-                "id": "o3",
-                "text": "Hoje tive aula de português, almocei com amigos e comprei frutas na feira."
-              },
-              {
-                "id": "o4",
-                "text": "Mesmo longe, sinto que minha família acompanha essa experiência comigo."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Hoje eu aprendi muito.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "Boa noite, mãe! Estou bem no Brasil. Hoje tive aula de português, almocei com amigos e comprei frutas na feira. A cidade é grande e interessante. Sinto saudades de casa, mas também estou feliz aqui. Amanhã vou visitar um parque. Depois mando fotos para você. Um beijo! Minha mãe responde rapidamente e diz que todos estão bem. Antes de dormir, organizo a mochila para o dia seguinte. Mesmo longe, sinto que minha família acompanha essa experiência comigo.",
-      "transcriptSegments": [
-        {
-          "text": "Boa noite, mãe!"
-        },
-        {
-          "text": "Estou bem no Brasil."
-        },
-        {
-          "text": "Hoje tive aula de português, almocei com amigos e comprei frutas na feira."
-        },
-        {
-          "text": "A cidade é grande e interessante."
-        },
-        {
-          "text": "Sinto saudades de casa, mas também estou feliz aqui."
-        },
-        {
-          "text": "Amanhã vou visitar um parque."
-        },
-        {
-          "text": "Depois mando fotos para você."
-        },
-        {
-          "text": "Um beijo!"
-        },
-        {
-          "text": "Minha mãe responde rapidamente e diz que todos estão bem."
-        },
-        {
-          "text": "Antes de dormir, organizo a mochila para o dia seguinte."
-        },
-        {
-          "text": "Mesmo longe, sinto que minha família acompanha essa experiência comigo."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de hoje.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Hoje eu aprendi muito. Falamos de hoje. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Boa noite mãe…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "Boa noite, mãe!",
-          "Estou bem no Brasil.",
-          "Hoje tive aula de português, almocei com amigos e comprei frutas na feira.",
-          "A cidade é grande e interessante."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “A cidade é…”",
-        "options": [
-          "Boa noite, mãe!",
-          "A cidade é grande e interessante.",
-          "Estou bem no Brasil.",
-          "Hoje tive aula de português, almocei com amigos e comprei frutas na feira."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Um beijo…”",
-        "options": [
-          "Boa noite, mãe!",
-          "Estou bem no Brasil.",
-          "Um beijo!",
-          "Hoje tive aula de português, almocei com amigos e comprei frutas na feira."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Mesmo longe sinto que…”",
-        "options": [
-          "Boa noite, mãe!",
-          "Estou bem no Brasil.",
-          "Hoje tive aula de português, almocei com amigos e comprei frutas na feira.",
-          "Mesmo longe, sinto que minha família acompanha essa experiência comigo."
+          "Hoje eu aprendi muito.",
+          "hoje",
+          "amanhã",
+          "casa"
         ]
       }
     ]
@@ -53569,179 +64555,40 @@
       "encontro"
     ],
     "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países. No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém. A professora começou explicando os ingredientes e dividiu a turma em grupos. Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita. Enquanto cozinhávamos, falamos sobre nossos pratos favoritos e contamos histórias de família. No fim, todos jantamos juntos e trocamos contatos. Foi uma experiência simples, mas importante para mim. Além de aprender receitas novas, percebi que cozinhar pode aproximar pessoas diferentes. Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros.",
-    "extra": {
-      "listeningComprehension": {
-        "id": "portuguese-a2-contar-uma-experiencia-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “No ano passado participei de…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém."
-              },
-              {
-                "id": "o2",
-                "text": "A professora começou explicando os ingredientes e dividiu a turma em grupos."
-              },
-              {
-                "id": "o3",
-                "text": "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita."
-              },
-              {
-                "id": "o4",
-                "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Meu grupo preparou uma moqueca de…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita."
-              },
-              {
-                "id": "o2",
-                "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
-              },
-              {
-                "id": "o3",
-                "text": "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém."
-              },
-              {
-                "id": "o4",
-                "text": "A professora começou explicando os ingredientes e dividiu a turma em grupos."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “No fim todos…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
-              },
-              {
-                "id": "o2",
-                "text": "No fim, todos jantamos juntos e trocamos contatos."
-              },
-              {
-                "id": "o3",
-                "text": "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém."
-              },
-              {
-                "id": "o4",
-                "text": "A professora começou explicando os ingredientes e dividiu a turma em grupos."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Depois do curso alguns participantes…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
-              },
-              {
-                "id": "o2",
-                "text": "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém."
-              },
-              {
-                "id": "o3",
-                "text": "Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros."
-              },
-              {
-                "id": "o4",
-                "text": "A professora começou explicando os ingredientes e dividiu a turma em grupos."
-              }
-            ]
-          }
-        ]
+    "dialogue": [
+      {
+        "speaker": "Luana",
+        "line": "Foi uma viagem importante.",
+        "translation": "Expresión del día."
       },
-      "mainTranscript": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países. No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém. A professora começou explicando os ingredientes e dividiu a turma em grupos. Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita. Enquanto cozinhávamos, falamos sobre nossos pratos favoritos e contamos histórias de família. No fim, todos jantamos juntos e trocamos contatos. Foi uma experiência simples, mas importante para mim. Além de aprender receitas novas, percebi que cozinhar pode aproximar pessoas diferentes. Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros.",
-      "transcriptSegments": [
-        {
-          "text": "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
-        },
-        {
-          "text": "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém."
-        },
-        {
-          "text": "A professora começou explicando os ingredientes e dividiu a turma em grupos."
-        },
-        {
-          "text": "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita."
-        },
-        {
-          "text": "Enquanto cozinhávamos, falamos sobre nossos pratos favoritos e contamos histórias de família."
-        },
-        {
-          "text": "No fim, todos jantamos juntos e trocamos contatos."
-        },
-        {
-          "text": "Foi uma experiência simples, mas importante para mim."
-        },
-        {
-          "text": "Além de aprender receitas novas, percebi que cozinhar pode aproximar pessoas diferentes."
-        },
-        {
-          "text": "Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros."
-        }
-      ],
-      "grammarTest": null
-    },
+      {
+        "speaker": "Rafael",
+        "line": "Falamos de lembrança.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Luana",
+        "line": "Gosto de aprender com a comunidade.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Rafael",
+        "line": "Vamos praticar juntos amanhã.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Foi uma viagem importante. Falamos de lembrança. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
+    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “No ano passado participei de…”",
+        "prompt": "¿Qué expresión escuchas?",
         "options": [
-          "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
-          "A professora começou explicando os ingredientes e dividiu a turma em grupos.",
-          "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita.",
-          "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Meu grupo preparou uma moqueca de…”",
-        "options": [
-          "Meu grupo preparou uma moqueca de legumes, e cada pessoa ficou responsável por uma parte da receita.",
-          "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países.",
-          "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
-          "A professora começou explicando os ingredientes e dividiu a turma em grupos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “No fim todos…”",
-        "options": [
-          "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países.",
-          "No fim, todos jantamos juntos e trocamos contatos.",
-          "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
-          "A professora começou explicando os ingredientes e dividiu a turma em grupos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Depois do curso alguns participantes…”",
-        "options": [
-          "No ano passado, participei de um curso de culinária brasileira com pessoas de vários países.",
-          "No primeiro dia, eu estava um pouco nervosa porque não conhecia ninguém.",
-          "Depois do curso, alguns participantes criaram um grupo para trocar receitas e marcar novos encontros.",
-          "A professora começou explicando os ingredientes e dividiu a turma em grupos."
+          "Foi uma viagem importante.",
+          "lembrança",
+          "encontro",
+          "mudar"
         ]
       }
     ]
@@ -53899,102 +64746,6 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
-      },
-      {
-        "word": "votar",
-        "translation": "votar",
-        "example": "Os moradores vão votar amanhã."
-      },
-      {
-        "word": "assembleia",
-        "translation": "asamblea",
-        "example": "Vou participar da assembleia do bairro."
-      },
-      {
-        "word": "debate",
-        "translation": "debate",
-        "example": "Houve um debate sobre segurança no parque."
-      },
-      {
-        "word": "comitê",
-        "translation": "comité",
-        "example": "O comitê organizou a limpeza do parque."
-      },
-      {
-        "word": "consulta pública",
-        "translation": "consulta pública",
-        "example": "A prefeitura abriu uma consulta pública sobre o projeto."
-      },
-      {
-        "word": "campanha",
-        "translation": "campaña",
-        "example": "A campanha arrecadou alimentos para famílias."
-      },
-      {
-        "word": "representante",
-        "translation": "representante",
-        "example": "Ela foi eleita representante dos moradores."
-      },
-      {
-        "word": "colaboração",
-        "translation": "colaboración",
-        "example": "A colaboração entre vizinhos facilitou o trabalho."
-      },
-      {
-        "word": "reunião",
-        "translation": "reunión",
-        "example": "Marcaram uma reunião para discutir o projeto."
-      },
-      {
-        "word": "protesto",
-        "translation": "protesta",
-        "example": "Houve um protesto pacífico na praça central."
-      },
-      {
-        "word": "recursos",
-        "translation": "recursos",
-        "example": "Os recursos para o projeto são limitados."
-      },
-      {
-        "word": "benefício",
-        "translation": "beneficio",
-        "example": "O projeto trouxe benefício para a comunidade."
-      },
-      {
-        "word": "Pode me ajudar?",
-        "translation": "¿Puedes ayudarme?",
-        "example": "Pode me ajudar a organizar a reunião?",
-        "category": "expression"
-      },
-      {
-        "word": "Na minha opinião,",
-        "translation": "En mi opinión,",
-        "example": "Na minha opinião, devemos começar pelo parque.",
-        "category": "expression"
-      },
-      {
-        "word": "Concordo com você",
-        "translation": "Estoy de acuerdo contigo",
-        "example": "Concordo com você sobre a prioridade das ações.",
-        "category": "expression"
-      },
-      {
-        "word": "Tenho uma dúvida",
-        "translation": "Tengo una duda",
-        "example": "Tenho uma dúvida sobre o cronograma da campanha.",
-        "category": "expression"
-      },
-      {
-        "word": "Com licença",
-        "translation": "Con permiso",
-        "example": "Com licença, posso falar com o comitê?",
-        "category": "expression"
-      },
-      {
-        "word": "E se fizéssemos...",
-        "translation": "¿Y si hiciéramos...?",
-        "example": "E se fizéssemos uma limpeza no fim de semana?",
-        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -55404,57 +66155,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Passado recente com ontem",
-        "definition": "Use o pretérito perfeito para ações concluídas.",
-        "structure": "Ontem eu aprendi muito.",
-        "function": "Contar algo que aconteceu.",
+        "definition": "O presente descreve rotinas e informações simples.",
+        "structure": "sujeito + verbo no presente",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
-          "Ontem eu aprendi muito.",
-          "Hoje eu aprendi muito."
+          "Eu moro no bairro.",
+          "Rafael fala com Luana."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Eu ___ no bairro.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "moro"
+              },
+              {
+                "id": "o2",
+                "text": "mora"
+              },
+              {
+                "id": "o3",
+                "text": "morar"
+              },
+              {
+                "id": "o4",
+                "text": "moramos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Rafael falar com Luana."
+              },
+              {
+                "id": "o2",
+                "text": "Rafael fala com Luana."
+              },
+              {
+                "id": "o3",
+                "text": "Rafael falo com Luana."
+              },
+              {
+                "id": "o4",
+                "text": "Rafael falam com Luana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ português todos os dias.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "estudar"
+              },
+              {
+                "id": "o2",
+                "text": "estuda"
+              },
+              {
+                "id": "o3",
+                "text": "estudamos"
+              },
+              {
+                "id": "o4",
+                "text": "estudam"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual pergunta está correta?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde você moram?"
+              },
+              {
+                "id": "o2",
+                "text": "Onde você morar?"
+              },
+              {
+                "id": "o3",
+                "text": "Onde mora você?"
+              },
+              {
+                "id": "o4",
+                "text": "Onde você mora?"
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Ela ___ uma pergunta.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "faz"
+              },
+              {
+                "id": "o2",
+                "text": "faço"
+              },
+              {
+                "id": "o3",
+                "text": "fazer"
+              },
+              {
+                "id": "o4",
+                "text": "fazem"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase que descreve uma casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "O casa é clara."
+              },
+              {
+                "id": "o2",
+                "text": "A casa é clara."
+              },
+              {
+                "id": "o3",
+                "text": "A casa são clara."
+              },
+              {
+                "id": "o4",
+                "text": "A casa é claro."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ café?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "tomar"
+              },
+              {
+                "id": "o2",
+                "text": "tomam"
+              },
+              {
+                "id": "o3",
+                "text": "toma"
+              },
+              {
+                "id": "o4",
+                "text": "tomamos"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase fala de uma rotina?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Toda manhã trabalham eu no centro."
+              },
+              {
+                "id": "o2",
+                "text": "Ontem trabalhar no centro."
+              },
+              {
+                "id": "o3",
+                "text": "Amanhã trabalhei no centro."
+              },
+              {
+                "id": "o4",
+                "text": "Toda manhã trabalho no centro."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Ontem eu aprendi muito.",
-          "Hoje eu aprendi muito.",
-          "hoje",
-          "amanhã"
-        ]
+          {
+            "id": "o1",
+            "text": "moro"
+          },
+          {
+            "id": "o2",
+            "text": "mora"
+          },
+          {
+            "id": "o3",
+            "text": "morar"
+          },
+          {
+            "id": "o4",
+            "text": "moramos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "hoje",
-          "amanhã",
-          "casa",
-          "experiência"
-        ]
+          {
+            "id": "o1",
+            "text": "Rafael falar com Luana."
+          },
+          {
+            "id": "o2",
+            "text": "Rafael fala com Luana."
+          },
+          {
+            "id": "o3",
+            "text": "Rafael falo com Luana."
+          },
+          {
+            "id": "o4",
+            "text": "Rafael falam com Luana."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "amanhã",
-          "hoje",
-          "casa",
-          "experiência"
-        ]
+          {
+            "id": "o1",
+            "text": "estudar"
+          },
+          {
+            "id": "o2",
+            "text": "estuda"
+          },
+          {
+            "id": "o3",
+            "text": "estudamos"
+          },
+          {
+            "id": "o4",
+            "text": "estudam"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Hoje eu aprendi muito.",
-          "casa",
-          "experiência",
-          "hoje"
-        ]
+          {
+            "id": "o1",
+            "text": "Onde você moram?"
+          },
+          {
+            "id": "o2",
+            "text": "Onde você morar?"
+          },
+          {
+            "id": "o3",
+            "text": "Onde mora você?"
+          },
+          {
+            "id": "o4",
+            "text": "Onde você mora?"
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Ela ___ uma pergunta.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "faz"
+          },
+          {
+            "id": "o2",
+            "text": "faço"
+          },
+          {
+            "id": "o3",
+            "text": "fazer"
+          },
+          {
+            "id": "o4",
+            "text": "fazem"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase que descreve uma casa.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "O casa é clara."
+          },
+          {
+            "id": "o2",
+            "text": "A casa é clara."
+          },
+          {
+            "id": "o3",
+            "text": "A casa são clara."
+          },
+          {
+            "id": "o4",
+            "text": "A casa é claro."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ café?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "tomar"
+          },
+          {
+            "id": "o2",
+            "text": "tomam"
+          },
+          {
+            "id": "o3",
+            "text": "toma"
+          },
+          {
+            "id": "o4",
+            "text": "tomamos"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O presente descreve rotinas e informações simples."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase fala de uma rotina?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Toda manhã trabalham eu no centro."
+          },
+          {
+            "id": "o2",
+            "text": "Ontem trabalhar no centro."
+          },
+          {
+            "id": "o3",
+            "text": "Amanhã trabalhei no centro."
+          },
+          {
+            "id": "o4",
+            "text": "Toda manhã trabalho no centro."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O presente descreve rotinas e informações simples."
       }
     ]
   },
@@ -55484,57 +66582,404 @@
     "extra": {
       "grammarProfile": {
         "name": "Pretérito perfeito para experiências",
-        "definition": "Use o pretérito perfeito para narrar fatos concluídos.",
-        "structure": "Foi uma viagem importante.",
-        "function": "Contar uma experiência pessoal.",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "structure": "sujeito + verbo no passado + conector",
+        "function": "Contar experiências e planos.",
         "examples": [
-          "Foi uma viagem importante.",
-          "Foi uma viagem importante."
+          "Ontem visitei o museu.",
+          "Depois conversamos juntos."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complete: Ontem eu ___ o museu.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "visitei"
+              },
+              {
+                "id": "o2",
+                "text": "visito"
+              },
+              {
+                "id": "o3",
+                "text": "visitar"
+              },
+              {
+                "id": "o4",
+                "text": "visitamos"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Escolha a frase correta no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nós jantar juntos."
+              },
+              {
+                "id": "o2",
+                "text": "Nós jantamos juntos."
+              },
+              {
+                "id": "o3",
+                "text": "Nós jantou juntos."
+              },
+              {
+                "id": "o4",
+                "text": "Nós jantaremos ontem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Complete: Marta ___ tarde para casa.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "voltar"
+              },
+              {
+                "id": "o2",
+                "text": "volta"
+              },
+              {
+                "id": "o3",
+                "text": "voltou"
+              },
+              {
+                "id": "o4",
+                "text": "voltaram"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual frase mostra sequência?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Primeiro estudamos, se saímos."
+              },
+              {
+                "id": "o2",
+                "text": "Primeiro estudamos, porque saímos."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro estudamos, porém saímos."
+              },
+              {
+                "id": "o4",
+                "text": "Primeiro estudamos, depois saímos."
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "prompt": "Complete: Você ___ a mensagem?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "leu"
+              },
+              {
+                "id": "o2",
+                "text": "lê"
+              },
+              {
+                "id": "o3",
+                "text": "ler"
+              },
+              {
+                "id": "o4",
+                "text": "leram"
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "type": "mcq",
+            "prompt": "Escolha a frase com o verbo no passado.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Meus amigos pegar o ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Meus amigos pegaram o ônibus."
+              },
+              {
+                "id": "o3",
+                "text": "Meus amigos pegou o ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "Meus amigos pegam ontem o ônibus."
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ter"
+              },
+              {
+                "id": "o2",
+                "text": "temos"
+              },
+              {
+                "id": "o3",
+                "text": "tivemos"
+              },
+              {
+                "id": "o4",
+                "text": "teve"
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "type": "mcq",
+            "prompt": "Qual frase conta uma ação concluída?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No sábado encontro eu minha prima."
+              },
+              {
+                "id": "o2",
+                "text": "No sábado encontro minha prima amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "No sábado encontrar minha prima."
+              },
+              {
+                "id": "o4",
+                "text": "No sábado encontrei minha prima."
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
-        "prompt": "Elige el ejemplo que corresponde al tema.",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Foi uma viagem importante.",
-          "Foi uma viagem importante.",
-          "lembrança",
-          "encontro"
-        ]
+          {
+            "id": "o1",
+            "text": "visitei"
+          },
+          {
+            "id": "o2",
+            "text": "visito"
+          },
+          {
+            "id": "o3",
+            "text": "visitar"
+          },
+          {
+            "id": "o4",
+            "text": "visitamos"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q2",
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "lembrança",
-          "encontro",
-          "mudar",
-          "futuro"
-        ]
+          {
+            "id": "o1",
+            "text": "Nós jantar juntos."
+          },
+          {
+            "id": "o2",
+            "text": "Nós jantamos juntos."
+          },
+          {
+            "id": "o3",
+            "text": "Nós jantou juntos."
+          },
+          {
+            "id": "o4",
+            "text": "Nós jantaremos ontem."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q3",
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "encontro",
-          "lembrança",
-          "mudar",
-          "futuro"
-        ]
+          {
+            "id": "o1",
+            "text": "voltar"
+          },
+          {
+            "id": "o2",
+            "text": "volta"
+          },
+          {
+            "id": "o3",
+            "text": "voltou"
+          },
+          {
+            "id": "o4",
+            "text": "voltaram"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
+        "id": "q4",
         "type": "mcq",
-        "prompt": "¿Qué opción se usa en este contexto?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Foi uma viagem importante.",
-          "mudar",
-          "futuro",
-          "lembrança"
-        ]
+          {
+            "id": "o1",
+            "text": "Primeiro estudamos, se saímos."
+          },
+          {
+            "id": "o2",
+            "text": "Primeiro estudamos, porque saímos."
+          },
+          {
+            "id": "o3",
+            "text": "Primeiro estudamos, porém saímos."
+          },
+          {
+            "id": "o4",
+            "text": "Primeiro estudamos, depois saímos."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Complete: Você ___ a mensagem?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "leu"
+          },
+          {
+            "id": "o2",
+            "text": "lê"
+          },
+          {
+            "id": "o3",
+            "text": "ler"
+          },
+          {
+            "id": "o4",
+            "text": "leram"
+          }
+        ],
+        "correctOptionId": "o1",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Escolha a frase com o verbo no passado.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Meus amigos pegar o ônibus."
+          },
+          {
+            "id": "o2",
+            "text": "Meus amigos pegaram o ônibus."
+          },
+          {
+            "id": "o3",
+            "text": "Meus amigos pegou o ônibus."
+          },
+          {
+            "id": "o4",
+            "text": "Meus amigos pegam ontem o ônibus."
+          }
+        ],
+        "correctOptionId": "o2",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "ter"
+          },
+          {
+            "id": "o2",
+            "text": "temos"
+          },
+          {
+            "id": "o3",
+            "text": "tivemos"
+          },
+          {
+            "id": "o4",
+            "text": "teve"
+          }
+        ],
+        "correctOptionId": "o3",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Qual frase conta uma ação concluída?",
+        "options": [
+          {
+            "id": "o1",
+            "text": "No sábado encontro eu minha prima."
+          },
+          {
+            "id": "o2",
+            "text": "No sábado encontro minha prima amanhã."
+          },
+          {
+            "id": "o3",
+            "text": "No sábado encontrar minha prima."
+          },
+          {
+            "id": "o4",
+            "text": "No sábado encontrei minha prima."
+          }
+        ],
+        "correctOptionId": "o4",
+        "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
     ]
   },
@@ -55641,23 +67086,135 @@
     "vocabulary": [
       {
         "word": "hoje",
-        "translation": "palabra cultural",
-        "example": "Hoje eu aprendi muito."
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
       },
       {
         "word": "amanhã",
-        "translation": "acción cotidiana",
-        "example": "Hoje eu aprendi muito."
+        "translation": "mañana",
+        "definition": "mañana",
+        "example": "Uso “amanhã” em uma frase.",
+        "contexts": [
+          "amanhã · tema",
+          "amanhã · conversación",
+          "amanhã · práctica"
+        ]
       },
       {
         "word": "casa",
-        "translation": "lugar o cosa",
-        "example": "Hoje eu aprendi muito."
+        "translation": "casa",
+        "definition": "casa",
+        "example": "Uso “casa” em uma frase.",
+        "contexts": [
+          "casa · tema",
+          "casa · conversación",
+          "casa · práctica"
+        ]
       },
       {
         "word": "experiência",
-        "translation": "expresión útil",
-        "example": "Hoje eu aprendi muito."
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
+      },
+      {
+        "word": "proposta",
+        "translation": "propuesta",
+        "definition": "propuesta",
+        "example": "Uso “proposta” em uma frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
+      },
+      {
+        "word": "importante",
+        "translation": "importante",
+        "definition": "importante",
+        "example": "Uso “importante” em uma frase.",
+        "contexts": [
+          "importante · tema",
+          "importante · conversación",
+          "importante · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -55667,13 +67224,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "hoje",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "amanhã"
+          },
+          {
+            "id": "o3",
+            "text": "casa"
+          },
+          {
+            "id": "o4",
+            "text": "experiência"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "amanhã"
+          },
+          {
+            "id": "o3",
+            "text": "casa"
+          },
+          {
+            "id": "o4",
+            "text": "experiência"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "amanhã"
+          },
+          {
+            "id": "o2",
+            "text": "hoje"
+          },
+          {
+            "id": "o3",
+            "text": "casa"
+          },
+          {
+            "id": "o4",
+            "text": "experiência"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "casa"
+          },
+          {
+            "id": "o2",
+            "text": "hoje"
+          },
+          {
+            "id": "o3",
+            "text": "amanhã"
+          },
+          {
+            "id": "o4",
+            "text": "experiência"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "juntos"
+          },
+          {
+            "id": "o2",
+            "text": "hoje"
+          },
+          {
+            "id": "o3",
+            "text": "amanhã"
+          },
+          {
+            "id": "o4",
+            "text": "casa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "bairro"
+          },
+          {
+            "id": "o3",
+            "text": "amanhã"
+          },
+          {
+            "id": "o4",
+            "text": "casa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "amanhã"
+          },
+          {
+            "id": "o2",
+            "text": "hoje"
+          },
+          {
+            "id": "o3",
+            "text": "pergunta"
+          },
+          {
+            "id": "o4",
+            "text": "casa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "casa"
+          },
+          {
+            "id": "o2",
+            "text": "hoje"
+          },
+          {
+            "id": "o3",
+            "text": "amanhã"
+          },
+          {
+            "id": "o4",
+            "text": "resposta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "escolher"
+          },
+          {
+            "id": "o2",
+            "text": "hoje"
+          },
+          {
+            "id": "o3",
+            "text": "amanhã"
+          },
+          {
+            "id": "o4",
+            "text": "casa"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "entender"
+          },
+          {
+            "id": "o3",
+            "text": "amanhã"
+          },
+          {
+            "id": "o4",
+            "text": "casa"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "amanhã"
+          },
+          {
+            "id": "o2",
+            "text": "hoje"
+          },
+          {
+            "id": "o3",
+            "text": "proposta"
+          },
+          {
+            "id": "o4",
+            "text": "casa"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "casa"
+          },
+          {
+            "id": "o2",
+            "text": "hoje"
+          },
+          {
+            "id": "o3",
+            "text": "amanhã"
+          },
+          {
+            "id": "o4",
+            "text": "importante"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -55696,23 +67519,135 @@
     "vocabulary": [
       {
         "word": "lembrança",
-        "translation": "palabra cultural",
-        "example": "Foi uma viagem importante."
+        "translation": "recuerdo",
+        "definition": "recuerdo",
+        "example": "Uso “lembrança” em uma frase.",
+        "contexts": [
+          "lembrança · tema",
+          "lembrança · conversación",
+          "lembrança · práctica"
+        ]
       },
       {
         "word": "encontro",
-        "translation": "acción cotidiana",
-        "example": "Foi uma viagem importante."
+        "translation": "encuentro",
+        "definition": "encuentro",
+        "example": "Uso “encontro” em uma frase.",
+        "contexts": [
+          "encontro · tema",
+          "encontro · conversación",
+          "encontro · práctica"
+        ]
       },
       {
         "word": "mudar",
-        "translation": "lugar o cosa",
-        "example": "Foi uma viagem importante."
+        "translation": "cambiar",
+        "definition": "cambiar",
+        "example": "Uso “mudar” em uma frase.",
+        "contexts": [
+          "mudar · tema",
+          "mudar · conversación",
+          "mudar · práctica"
+        ]
       },
       {
         "word": "futuro",
-        "translation": "expresión útil",
-        "example": "Foi uma viagem importante."
+        "translation": "futuro",
+        "definition": "futuro",
+        "example": "Uso “futuro” em uma frase.",
+        "contexts": [
+          "futuro · tema",
+          "futuro · conversación",
+          "futuro · práctica"
+        ]
+      },
+      {
+        "word": "hoje",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso “hoje” em uma frase.",
+        "contexts": [
+          "hoje · tema",
+          "hoje · conversación",
+          "hoje · práctica"
+        ]
+      },
+      {
+        "word": "juntos",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso “juntos” em uma frase.",
+        "contexts": [
+          "juntos · tema",
+          "juntos · conversación",
+          "juntos · práctica"
+        ]
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso “bairro” em uma frase.",
+        "contexts": [
+          "bairro · tema",
+          "bairro · conversación",
+          "bairro · práctica"
+        ]
+      },
+      {
+        "word": "pergunta",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso “pergunta” em uma frase.",
+        "contexts": [
+          "pergunta · tema",
+          "pergunta · conversación",
+          "pergunta · práctica"
+        ]
+      },
+      {
+        "word": "resposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso “resposta” em uma frase.",
+        "contexts": [
+          "resposta · tema",
+          "resposta · conversación",
+          "resposta · práctica"
+        ]
+      },
+      {
+        "word": "experiência",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso “experiência” em uma frase.",
+        "contexts": [
+          "experiência · tema",
+          "experiência · conversación",
+          "experiência · práctica"
+        ]
+      },
+      {
+        "word": "escolher",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso “escolher” em uma frase.",
+        "contexts": [
+          "escolher · tema",
+          "escolher · conversación",
+          "escolher · práctica"
+        ]
+      },
+      {
+        "word": "entender",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso “entender” em uma frase.",
+        "contexts": [
+          "entender · tema",
+          "entender · conversación",
+          "entender · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -55722,13 +67657,279 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Escolha uma palavra desta unidade.",
         "options": [
-          "lembrança",
-          "computadora",
-          "laboratorio",
-          "satélite"
-        ]
+          {
+            "id": "o1",
+            "text": "lembrança"
+          },
+          {
+            "id": "o2",
+            "text": "encontro"
+          },
+          {
+            "id": "o3",
+            "text": "mudar"
+          },
+          {
+            "id": "o4",
+            "text": "futuro"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "lembrança"
+          },
+          {
+            "id": "o2",
+            "text": "encontro"
+          },
+          {
+            "id": "o3",
+            "text": "mudar"
+          },
+          {
+            "id": "o4",
+            "text": "futuro"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "encontro"
+          },
+          {
+            "id": "o2",
+            "text": "lembrança"
+          },
+          {
+            "id": "o3",
+            "text": "mudar"
+          },
+          {
+            "id": "o4",
+            "text": "futuro"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mudar"
+          },
+          {
+            "id": "o2",
+            "text": "lembrança"
+          },
+          {
+            "id": "o3",
+            "text": "encontro"
+          },
+          {
+            "id": "o4",
+            "text": "futuro"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "hoje"
+          },
+          {
+            "id": "o2",
+            "text": "lembrança"
+          },
+          {
+            "id": "o3",
+            "text": "encontro"
+          },
+          {
+            "id": "o4",
+            "text": "mudar"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "lembrança"
+          },
+          {
+            "id": "o2",
+            "text": "juntos"
+          },
+          {
+            "id": "o3",
+            "text": "encontro"
+          },
+          {
+            "id": "o4",
+            "text": "mudar"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "encontro"
+          },
+          {
+            "id": "o2",
+            "text": "lembrança"
+          },
+          {
+            "id": "o3",
+            "text": "bairro"
+          },
+          {
+            "id": "o4",
+            "text": "mudar"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mudar"
+          },
+          {
+            "id": "o2",
+            "text": "lembrança"
+          },
+          {
+            "id": "o3",
+            "text": "encontro"
+          },
+          {
+            "id": "o4",
+            "text": "pergunta"
+          }
+        ],
+        "correctOptionId": "o4"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "resposta"
+          },
+          {
+            "id": "o2",
+            "text": "lembrança"
+          },
+          {
+            "id": "o3",
+            "text": "encontro"
+          },
+          {
+            "id": "o4",
+            "text": "mudar"
+          }
+        ],
+        "correctOptionId": "o1"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "lembrança"
+          },
+          {
+            "id": "o2",
+            "text": "experiência"
+          },
+          {
+            "id": "o3",
+            "text": "encontro"
+          },
+          {
+            "id": "o4",
+            "text": "mudar"
+          }
+        ],
+        "correctOptionId": "o2"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "encontro"
+          },
+          {
+            "id": "o2",
+            "text": "lembrança"
+          },
+          {
+            "id": "o3",
+            "text": "escolher"
+          },
+          {
+            "id": "o4",
+            "text": "mudar"
+          }
+        ],
+        "correctOptionId": "o3"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha uma palavra desta unidade.",
+        "options": [
+          {
+            "id": "o1",
+            "text": "mudar"
+          },
+          {
+            "id": "o2",
+            "text": "lembrança"
+          },
+          {
+            "id": "o3",
+            "text": "encontro"
+          },
+          {
+            "id": "o4",
+            "text": "entender"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   }

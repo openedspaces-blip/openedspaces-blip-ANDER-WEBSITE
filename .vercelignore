@@ -13,3 +13,4 @@ mobile/node_modules/
 .reading-cache-worktree/
 .vocab-minimum-worktree/
 tmp/
+*.josephine-backup

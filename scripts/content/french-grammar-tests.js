@@ -7,15 +7,25 @@ function completedPrompt(prompt, answer) {
 }
 
 function mcqQuestion(level, unitSlug, exercise, index) {
+  const positions = [0, 0, 1, 1, 2, 2, 3, 3];
+  let state = [...unitSlug].reduce((hash, character) => ((hash * 31 + character.charCodeAt(0)) >>> 0), 7);
+  for (let position = positions.length - 1; position > 0; position -= 1) {
+    state = (state * 1664525 + 1013904223) >>> 0;
+    const swapIndex = state % (position + 1);
+    [positions[position], positions[swapIndex]] = [positions[swapIndex], positions[position]];
+  }
+  const answer = positions[index] ?? exercise.answer;
+  const rawOptions = (exercise.options || []).filter((_, optionIndex) => optionIndex !== exercise.answer);
+  rawOptions.splice(answer, 0, (exercise.options || [])[exercise.answer]);
   return {
     id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 1}`,
     type: 'mcq',
     prompt: exercise.prompt,
-    options: (exercise.options || []).map((text, optionIndex) => ({
+    options: rawOptions.map((text, optionIndex) => ({
       id: OPTION_IDS[optionIndex] || `o${optionIndex + 1}`,
       text
     })),
-    correctOptionId: OPTION_IDS[exercise.answer] || `o${exercise.answer + 1}`,
+    correctOptionId: OPTION_IDS[answer] || `o${answer + 1}`,
     explanation:
       `${exercise.explanation ||
       `La bonne réponse est « ${(exercise.options || [])[exercise.answer]} » : elle respecte la structure étudiée dans cette leçon.`}`,
