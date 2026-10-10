@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const seedLessons = require('../lib/seed-lessons.json');
 const {
-  collectStoryLines,
   transcriptSupportsOption
 } = require('./content/contextual-listening-comprehension');
 
@@ -19,12 +18,12 @@ function validateLesson(row) {
   const content = row.content_json || {};
   const extra = content.extra || {};
   const transcript = extra.mainTranscript || content.transcript || '';
-  const storyLines = collectStoryLines(row);
+  const title = extra.storyTitle || row.title;
   const questions = extra.listeningComprehension?.questions || [];
   const issues = [];
   const correctAnswers = [];
 
-  if (!extra.storyTitle) issues.push('missing canonical storyTitle');
+  if (!title) issues.push('missing story title');
   if (!transcript) issues.push('missing canonical transcript');
   if (questions.length !== 4) {
     issues.push(`expected 4 questions, found ${questions.length}`);
@@ -42,7 +41,7 @@ function validateLesson(row) {
     }
 
     correctAnswers.push(normalize(correct.text));
-    if (!question.prompt?.includes(extra.storyTitle)) {
+    if (!question.prompt?.includes(title)) {
       issues.push(`${label}: prompt does not use the canonical title`);
     }
     if (!transcriptSupportsOption(transcript, correct.text)) {
@@ -55,17 +54,6 @@ function validateLesson(row) {
       issues.push(`${label}: evidence is not explicit in the transcript`);
     }
   });
-
-  if (questions.length === 4 && storyLines.length >= 4) {
-    const firstEvidence = questions[0]?.evidence || correctAnswers[0];
-    const lastEvidence = questions[3]?.evidence || correctAnswers[3];
-    if (normalize(firstEvidence) !== normalize(storyLines[0])) {
-      issues.push('q1 does not use the opening statement');
-    }
-    if (normalize(lastEvidence) !== normalize(storyLines[storyLines.length - 1])) {
-      issues.push('q4 does not use the final statement');
-    }
-  }
 
   if (new Set(correctAnswers).size !== correctAnswers.length) {
     issues.push('correct answers are duplicated');

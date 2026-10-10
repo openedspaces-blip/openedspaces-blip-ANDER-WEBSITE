@@ -2017,48 +2017,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-la-rentree-universitaire-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Personne ne viendra vous…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
+              },
+              {
+                "id": "o2",
+                "text": "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays."
+              },
+              {
+                "id": "o3",
+                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : un amphithéâtre, une unité d’enseignement, un syllabus, l’autonomie académique, décrocher et galvanisé."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Contrairement au lycée où l'élève est suivi…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
+              },
+              {
+                "id": "o2",
+                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
+              },
+              {
+                "id": "o3",
+                "text": "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : un amphithéâtre, une unité d’enseignement, un syllabus, l’autonomie académique, décrocher et galvanisé."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “C’est la différence entre le lycée et…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
+              },
+              {
+                "id": "o2",
+                "text": "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays."
+              },
+              {
+                "id": "o3",
+                "text": "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer."
+              },
+              {
+                "id": "o4",
+                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
+              },
+              {
+                "id": "o2",
+                "text": "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays."
+              },
+              {
+                "id": "o3",
+                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
+              },
+              {
+                "id": "o4",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Personne ne viendra vous…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
+          "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays.",
+          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
+          "Six notions permettent de suivre le raisonnement : un amphithéâtre, une unité d’enseignement, un syllabus, l’autonomie académique, décrocher et galvanisé."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Contrairement au lycée où l'élève est suivi…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
+          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
+          "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays.",
+          "Six notions permettent de suivre le raisonnement : un amphithéâtre, une unité d’enseignement, un syllabus, l’autonomie académique, décrocher et galvanisé."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “C’est la différence entre le lycée et…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
+          "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays.",
+          "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.",
+          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "un amphithéâtre, une unité d’enseignement, un syllabus",
-          "les objets de la classe",
-          "les aliments"
+          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
+          "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays.",
+          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -2186,48 +2283,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-intelligence-artificielle-et-creativite-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Un jury peine parfois à distinguer une…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
+              },
+              {
+                "id": "o3",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o4",
+                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o2",
+                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
+              },
+              {
+                "id": "o3",
+                "text": "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Il semblerait qu’un modèle génératif produise une…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
+              },
+              {
+                "id": "o2",
+                "text": "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable."
+              },
+              {
+                "id": "o3",
+                "text": "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
+              },
+              {
+                "id": "o2",
+                "text": "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o4",
+                "text": "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Un jury peine parfois à distinguer une…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
+          "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Il semblerait qu’un modèle génératif produise une…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
+          "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.",
+          "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "une œuvre générative, l’agentivité, un corpus d’entraînement",
-          "les objets de la classe",
-          "les aliments"
+          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
+          "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
         ]
       }
     ]
@@ -4350,6 +4544,18 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La mise en relief (c’est... qui/que) et le subjonctif d’opinion nuancée",
+        "definition": "La mise en relief avec « c’est... qui » (pour un sujet) ou « c’est... que » (pour un complément) permet d’insister sur un élément précis de la phrase à l’écrit soutenu : « C’est cette différence d’échelle qui la déstabilise. » « C’est à elle qu’il revient d’organiser son parcours. » Après certains verbes d’opinion nuancée (il semble que, il se peut que, il n’est pas certain que), on utilise le subjonctif pour marquer un degré d’incertitude, même en registre soutenu.",
+        "structure": "C’est... qui... · C’est... que... · Il semble que... · Il n’est pas certain que...",
+        "function": "Mettre en valeur un élément de la phrase et exprimer une opinion nuancée avec le subjonctif.",
+        "examples": [
+          "C’est... qui...",
+          "C’est... que...",
+          "Il semble que...",
+          "Il n’est pas certain que..."
         ]
       },
       "listeningComprehension": null
@@ -8173,48 +8379,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-un-exposer-a-preparer-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Un mot deux syllabes et pourtant des…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
+              },
+              {
+                "id": "o2",
+                "text": "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles."
+              },
+              {
+                "id": "o3",
+                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : une soutenance, la diversité linguistique, un consensus, une problématique, interdisciplinaire et univoque."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Confrontées à un français administratif qu'elles ne…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
+              },
+              {
+                "id": "o2",
+                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
+              },
+              {
+                "id": "o3",
+                "text": "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : une soutenance, la diversité linguistique, un consensus, une problématique, interdisciplinaire et univoque."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Le professeur avait répondu que la diversité…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
+              },
+              {
+                "id": "o2",
+                "text": "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles."
+              },
+              {
+                "id": "o3",
+                "text": "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus."
+              },
+              {
+                "id": "o4",
+                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
+              },
+              {
+                "id": "o2",
+                "text": "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles."
+              },
+              {
+                "id": "o3",
+                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
+              },
+              {
+                "id": "o4",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Un mot deux syllabes et pourtant des…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
+          "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles.",
+          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
+          "Six notions permettent de suivre le raisonnement : une soutenance, la diversité linguistique, un consensus, une problématique, interdisciplinaire et univoque."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Confrontées à un français administratif qu'elles ne…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
+          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
+          "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles.",
+          "Six notions permettent de suivre le raisonnement : une soutenance, la diversité linguistique, un consensus, une problématique, interdisciplinaire et univoque."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Le professeur avait répondu que la diversité…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
+          "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles.",
+          "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.",
+          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "une soutenance, la diversité linguistique, un consensus",
-          "les objets de la classe",
-          "les aliments"
+          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
+          "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles.",
+          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -8342,48 +8645,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-climat-et-transition-energetique-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Chaque rapport annuel sur le climat répète…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
+              },
+              {
+                "id": "o3",
+                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Si la trajectoire actuelle des émissions s’était…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses."
+              },
+              {
+                "id": "o2",
+                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
+              },
+              {
+                "id": "o2",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Chaque rapport annuel sur le climat répète…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris.",
+          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
+          "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Si la trajectoire actuelle des émissions s’était…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.",
+          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
+          "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "la décarbonation, un seuil de réchauffement, la tarification carbone",
-          "les objets de la classe",
-          "les aliments"
+          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
         ]
       }
     ]
@@ -10499,6 +10899,18 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le discours rapporté complexe et l’expression de la probabilité soutenue",
+        "definition": "Au discours rapporté avec un verbe introducteur au passé, la concordance des temps est complète : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent : « Il avait répondu qu’il n’était pas exclu qu’un travail interdisciplinaire produise un résultat plus riche. » En registre soutenu, la probabilité s’exprime avec des tournures comme « il est probable que », « il n’est pas exclu que » (suivies du subjonctif ou de l’indicatif selon le degré de certitude).",
+        "structure": "Il avait répondu que... · Il avait ajouté que... · Il est probable que... · Il n’est pas exclu que...",
+        "function": "Rapporter des propos avec une concordance des temps complète et exprimer la probabilité en registre soutenu.",
+        "examples": [
+          "Il avait répondu que...",
+          "Il avait ajouté que...",
+          "Il est probable que...",
+          "Il n’est pas exclu que..."
         ]
       },
       "listeningComprehension": null
@@ -14126,48 +14538,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-les-medias-et-la-fabrique-de-lopinion-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Un chiffre deux mots trois traitements radicalement…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote »."
+              },
+              {
+                "id": "o2",
+                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
+              },
+              {
+                "id": "o3",
+                "text": "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
+              },
+              {
+                "id": "o4",
+                "text": "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Les rédactions citaient les mêmes projections démographiques…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
+              },
+              {
+                "id": "o2",
+                "text": "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote »."
+              },
+              {
+                "id": "o3",
+                "text": "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
+              },
+              {
+                "id": "o4",
+                "text": "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Elles ne constituent pas une simple…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
+              },
+              {
+                "id": "o2",
+                "text": "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote »."
+              },
+              {
+                "id": "o3",
+                "text": "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
+              },
+              {
+                "id": "o4",
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o2",
+                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
+              },
+              {
+                "id": "o3",
+                "text": "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote »."
+              },
+              {
+                "id": "o4",
+                "text": "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Un chiffre deux mots trois traitements radicalement…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ».",
+          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
+          "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe.",
+          "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Les rédactions citaient les mêmes projections démographiques…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
+          "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ».",
+          "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.",
+          "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Elles ne constituent pas une simple…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
+          "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ».",
+          "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "le cadrage, un présupposé, une ligne éditoriale",
-          "les objets de la classe",
-          "les aliments"
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
+          "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ».",
+          "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
         ]
       }
     ]
@@ -14295,48 +14804,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-geopolitique-et-conflits-contemporains-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Deux puissances dominantes ou plusieurs pôles rivaux…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
+              },
+              {
+                "id": "o3",
+                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
+              },
+              {
+                "id": "o2",
+                "text": "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Selon certains analystes la multipolarité multiplierait les…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles."
+              },
+              {
+                "id": "o2",
+                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
+              },
+              {
+                "id": "o3",
+                "text": "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
+              },
+              {
+                "id": "o2",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Deux puissances dominantes ou plusieurs pôles rivaux…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements.",
+          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
+          "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Selon certains analystes la multipolarité multiplierait les…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.",
+          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
+          "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "la dissuasion, un ordre multipolaire, un hégémon",
-          "les objets de la classe",
-          "les aliments"
+          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
         ]
       }
     ]
@@ -16438,6 +17044,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La nominalisation et les tournures impersonnelles",
+        "definition": "La nominalisation condense une proposition et densifie le registre analytique : « le gouvernement réforme » devient « la réforme gouvernementale ». Les tournures « il ressort que », « il convient de » et « force est de constater que » permettent de structurer une analyse sans effacer la responsabilité des acteurs.",
+        "structure": "La nominalisation et les tournures impersonnelles",
+        "function": "Maîtriser la nominalisation et les tournures impersonnelles dans un contexte argumentatif C1.",
+        "examples": [
+          "La nominalisation et les tournures impersonnelles"
         ]
       },
       "listeningComprehension": null
@@ -20390,48 +21005,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-intelligence-artificielle-et-traduction-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Soumettre une page de Patrick Chamoiseau à…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde."
+              },
+              {
+                "id": "o2",
+                "text": "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
+              },
+              {
+                "id": "o3",
+                "text": "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
+              },
+              {
+                "id": "o4",
+                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Les défenseurs de ces outils rappellent à…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
+              },
+              {
+                "id": "o2",
+                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
+              },
+              {
+                "id": "o3",
+                "text": "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde."
+              },
+              {
+                "id": "o4",
+                "text": "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Elles ne constituent pas une simple…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
+              },
+              {
+                "id": "o2",
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+              },
+              {
+                "id": "o3",
+                "text": "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde."
+              },
+              {
+                "id": "o4",
+                "text": "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
+              },
+              {
+                "id": "o2",
+                "text": "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde."
+              },
+              {
+                "id": "o3",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o4",
+                "text": "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Soumettre une page de Patrick Chamoiseau à…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde.",
+          "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse.",
+          "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.",
+          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Les défenseurs de ces outils rappellent à…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.",
+          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
+          "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde.",
+          "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Elles ne constituent pas une simple…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
+          "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde.",
+          "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "aplatir une voix, un sous-entendu, vraisemblable",
-          "les objets de la classe",
-          "les aliments"
+          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
+          "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
         ]
       }
     ]
@@ -20559,48 +21271,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-reseaux-sociaux-et-sante-mentale-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Sur un même écran un adolescent défile…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
+              },
+              {
+                "id": "o3",
+                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Pour autant que l’usage demeure actif plutôt…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend."
+              },
+              {
+                "id": "o2",
+                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
+              },
+              {
+                "id": "o2",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Sur un même écran un adolescent défile…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré.",
+          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
+          "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Pour autant que l’usage demeure actif plutôt…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.",
+          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
+          "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "un usage passif, la comparaison sociale ascendante, une donnée autorapportée",
-          "les objets de la classe",
-          "les aliments"
+          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
         ]
       }
     ]
@@ -22701,6 +23510,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La concession avancée : quoique, quand bien même, avoir beau",
+        "definition": "La concession met en relation deux faits dont le second résiste au premier : « Quoique l’outil soit rapide, il simplifie le style. » « Quand bien même il progresserait, une révision resterait nécessaire. » « Elle a beau corriger le texte, certaines nuances lui échappent. »",
+        "structure": "La concession avancée : quoique, quand bien même, avoir beau",
+        "function": "Maîtriser la concession avancée : quoique, quand bien même, avoir beau dans un contexte argumentatif C1.",
+        "examples": [
+          "La concession avancée : quoique, quand bien même, avoir beau"
         ]
       },
       "listeningComprehension": null
@@ -26632,48 +27450,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-memoire-migration-et-identite-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Une boîte à chaussures cent trente-sept lettres…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
+              },
+              {
+                "id": "o2",
+                "text": "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes."
+              },
+              {
+                "id": "o3",
+                "text": "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Six notions permettent de suivre le raisonnement…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
+              },
+              {
+                "id": "o2",
+                "text": "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
+              },
+              {
+                "id": "o3",
+                "text": "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes."
+              },
+              {
+                "id": "o4",
+                "text": "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “La grand-mère avait longtemps minimisé cette…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
+              },
+              {
+                "id": "o2",
+                "text": "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes."
+              },
+              {
+                "id": "o3",
+                "text": "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial."
+              },
+              {
+                "id": "o4",
+                "text": "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
+              },
+              {
+                "id": "o2",
+                "text": "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes."
+              },
+              {
+                "id": "o3",
+                "text": "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
+              },
+              {
+                "id": "o4",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Une boîte à chaussures cent trente-sept lettres…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
+          "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.",
+          "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent.",
+          "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Six notions permettent de suivre le raisonnement…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
+          "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.",
+          "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.",
+          "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “La grand-mère avait longtemps minimisé cette…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
+          "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.",
+          "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial.",
+          "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "une archive, un récit linéaire, minimiser",
-          "les objets de la classe",
-          "les aliments"
+          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
+          "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.",
+          "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -26801,48 +27716,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-economie-et-inegalites-mondiales-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Pendant que l’extrême pauvreté recule la part…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
+              },
+              {
+                "id": "o3",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o4",
+                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o2",
+                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
+              },
+              {
+                "id": "o3",
+                "text": "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “La concentration de la richesse mondiale s’explique…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
+              },
+              {
+                "id": "o2",
+                "text": "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période."
+              },
+              {
+                "id": "o3",
+                "text": "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
+              },
+              {
+                "id": "o2",
+                "text": "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Pendant que l’extrême pauvreté recule la part…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
+          "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “La concentration de la richesse mondiale s’explique…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
+          "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.",
+          "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "l’extrême pauvreté, le coefficient de Gini, un paradis fiscal",
-          "les objets de la classe",
-          "les aliments"
+          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
+          "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
         ]
       }
     ]
@@ -28939,6 +29951,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les temps du récit et le discours indirect libre",
+        "definition": "Le passé simple structure les événements d’un récit soutenu, l’imparfait installe le cadre et le plus-que-parfait marque l’antériorité. Le discours indirect libre rapporte une pensée sans verbe introducteur ni guillemets, en conservant la perspective du personnage.",
+        "structure": "Les temps du récit et le discours indirect libre",
+        "function": "Maîtriser les temps du récit et le discours indirect libre dans un contexte argumentatif C1.",
+        "examples": [
+          "Les temps du récit et le discours indirect libre"
         ]
       },
       "listeningComprehension": null
@@ -32860,48 +33881,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-justice-sociale-et-inegalites-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Chaque printemps depuis 2018 environ neuf cent…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail."
+              },
+              {
+                "id": "o2",
+                "text": "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
+              },
+              {
+                "id": "o3",
+                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Six notions permettent de suivre le raisonnement…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
+              },
+              {
+                "id": "o2",
+                "text": "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail."
+              },
+              {
+                "id": "o3",
+                "text": "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Certes la méritocratie promet une égalité…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal."
+              },
+              {
+                "id": "o2",
+                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
+              },
+              {
+                "id": "o3",
+                "text": "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail."
+              },
+              {
+                "id": "o4",
+                "text": "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
+              },
+              {
+                "id": "o2",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o3",
+                "text": "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail."
+              },
+              {
+                "id": "o4",
+                "text": "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Chaque printemps depuis 2018 environ neuf cent…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail.",
+          "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première.",
+          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
+          "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Six notions permettent de suivre le raisonnement…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
+          "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail.",
+          "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première.",
+          "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Certes la méritocratie promet une égalité…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.",
+          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
+          "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail.",
+          "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "la méritocratie, l’équité, déterministe",
-          "les objets de la classe",
-          "les aliments"
+          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail.",
+          "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
         ]
       }
     ]
@@ -33029,48 +34147,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-espace-et-exploration-scientifique-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Un télescope capte la lumière filtrée…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
+              },
+              {
+                "id": "o3",
+                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Lorsque les astronomes auront confirmé une biosignature…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique."
+              },
+              {
+                "id": "o2",
+                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
+              },
+              {
+                "id": "o2",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Un télescope capte la lumière filtrée…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre.",
+          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
+          "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Lorsque les astronomes auront confirmé une biosignature…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.",
+          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
+          "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "une biosignature, une origine abiotique, la spectroscopie de transit",
-          "les objets de la classe",
-          "les aliments"
+          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
         ]
       }
     ]
@@ -35161,6 +36376,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les articulateurs logiques et la réfutation",
+        "definition": "Une argumentation C1 articule concession, réfutation et reformulation : « certes..., néanmoins... », « encore faut-il que... », « loin de..., cette mesure... ». Ces structures évitent la juxtaposition d’opinions et rendent explicite le rapport logique entre les propositions.",
+        "structure": "Les articulateurs logiques et la réfutation",
+        "function": "Maîtriser les articulateurs logiques et la réfutation dans un contexte argumentatif C1.",
+        "examples": [
+          "Les articulateurs logiques et la réfutation"
         ]
       },
       "listeningComprehension": null
@@ -39071,48 +40295,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-ecologie-et-responsabilite-collective-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Réduire le chauffage à dix-neuf degrés éteindre…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée."
+              },
+              {
+                "id": "o2",
+                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
+              },
+              {
+                "id": "o3",
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+              },
+              {
+                "id": "o4",
+                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Six notions permettent de suivre le…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
+              },
+              {
+                "id": "o2",
+                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
+              },
+              {
+                "id": "o3",
+                "text": "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée."
+              },
+              {
+                "id": "o4",
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Si le campus avait mesuré plus tôt…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
+              },
+              {
+                "id": "o2",
+                "text": "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts."
+              },
+              {
+                "id": "o3",
+                "text": "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
+              },
+              {
+                "id": "o2",
+                "text": "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée."
+              },
+              {
+                "id": "o3",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Réduire le chauffage à dix-neuf degrés éteindre…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée.",
+          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
+          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Six notions permettent de suivre le…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
+          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
+          "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Si le campus avait mesuré plus tôt…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
+          "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts.",
+          "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée.",
+          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "la sobriété énergétique, énergivore, un arbitrage",
-          "les objets de la classe",
-          "les aliments"
+          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
+          "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
         ]
       }
     ]
@@ -39240,48 +40561,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-bioethique-edition-genetique-et-ia-medicale-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Modifier un gène avant la naissance entraîner…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
+              },
+              {
+                "id": "o3",
+                "text": "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o4",
+                "text": "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Quoique l’édition somatique soit désormais bien…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
+              },
+              {
+                "id": "o4",
+                "text": "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o2",
+                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Modifier un gène avant la naissance entraîner…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine.",
+          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
+          "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
+          "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Quoique l’édition somatique soit désormais bien…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
+          "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine.",
+          "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue.",
+          "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "l’édition germinale, l’édition somatique, un effet hors cible",
-          "les objets de la classe",
-          "les aliments"
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
+          "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine.",
+          "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
         ]
       }
     ]
@@ -41372,6 +42790,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "L’hypothèse complexe et le conditionnel passé",
+        "definition": "Les hypothèses irréelles du passé utilisent si + plus-que-parfait, puis conditionnel passé : « Si l’université avait isolé les bâtiments, elle aurait réduit sa consommation. » Le conditionnel peut aussi rapporter une information non confirmée.",
+        "structure": "L’hypothèse complexe et le conditionnel passé",
+        "function": "Maîtriser l’hypothèse complexe et le conditionnel passé dans un contexte argumentatif C1.",
+        "examples": [
+          "L’hypothèse complexe et le conditionnel passé"
         ]
       },
       "listeningComprehension": null
@@ -45288,48 +46715,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-langues-pouvoir-et-inclusion-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “En 2020 l’Assemblée nationale française a inscrit…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs."
+              },
+              {
+                "id": "o2",
+                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
+              },
+              {
+                "id": "o3",
+                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : une norme linguistique, une variété, la légitimité, stigmatiser, un registre et en connaissance de cause."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “Ce n’est donc pas la prononciation elle-même…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
+              },
+              {
+                "id": "o2",
+                "text": "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs."
+              },
+              {
+                "id": "o3",
+                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : une norme linguistique, une variété, la légitimité, stigmatiser, un registre et en connaissance de cause."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “La norme linguistique dont l’institution se réclame…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
+              },
+              {
+                "id": "o2",
+                "text": "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs."
+              },
+              {
+                "id": "o3",
+                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
+              },
+              {
+                "id": "o4",
+                "text": "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o2",
+                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
+              },
+              {
+                "id": "o3",
+                "text": "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs."
+              },
+              {
+                "id": "o4",
+                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “En 2020 l’Assemblée nationale française a inscrit…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs.",
+          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
+          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
+          "Six notions permettent de suivre le raisonnement : une norme linguistique, une variété, la légitimité, stigmatiser, un registre et en connaissance de cause."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “Ce n’est donc pas la prononciation elle-même…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
+          "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs.",
+          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
+          "Six notions permettent de suivre le raisonnement : une norme linguistique, une variété, la légitimité, stigmatiser, un registre et en connaissance de cause."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “La norme linguistique dont l’institution se réclame…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
+          "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs.",
+          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
+          "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "une norme linguistique, une variété, la légitimité",
-          "les objets de la classe",
-          "les aliments"
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
+          "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs.",
+          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
         ]
       }
     ]
@@ -45457,48 +46981,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-culture-du-travail-et-epuisement-professionnel-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Une charge de travail qui ne diminue…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
+              },
+              {
+                "id": "o3",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o4",
+                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o2",
+                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
+              },
+              {
+                "id": "o3",
+                "text": "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “L’épuisement professionnel est décrit par l’OMS comme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
+              },
+              {
+                "id": "o2",
+                "text": "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu."
+              },
+              {
+                "id": "o3",
+                "text": "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
+              },
+              {
+                "id": "o2",
+                "text": "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o4",
+                "text": "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Une charge de travail qui ne diminue…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
+          "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “L’épuisement professionnel est décrit par l’OMS comme…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
+          "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.",
+          "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "un risque psychosocial, le détachement mental, une ressource adaptative",
-          "les objets de la classe",
-          "les aliments"
+          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
+          "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
         ]
       }
     ]
@@ -47589,6 +49210,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les relatives complexes : dont, lequel, ce à quoi, ce dont",
+        "definition": "Les pronoms relatifs complexes évitent les répétitions et précisent les rapports syntaxiques : « la norme à laquelle on se conforme », « ce dont elle doute », « le contexte dans lequel elle parle ». Le choix dépend de la préposition exigée.",
+        "structure": "Les relatives complexes : dont, lequel, ce à quoi, ce dont",
+        "function": "Maîtriser les relatives complexes : dont, lequel, ce à quoi, ce dont dans un contexte argumentatif C1.",
+        "examples": [
+          "Les relatives complexes : dont, lequel, ce à quoi, ce dont"
         ]
       },
       "listeningComprehension": null
@@ -51537,48 +53167,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-science-doute-et-esprit-critique-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “En mars 2020 l’Organisation mondiale de la…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles »."
+              },
+              {
+                "id": "o2",
+                "text": "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
+              },
+              {
+                "id": "o3",
+                "text": "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
+              },
+              {
+                "id": "o4",
+                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “La première suggère un vide la seconde…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
+              },
+              {
+                "id": "o2",
+                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
+              },
+              {
+                "id": "o3",
+                "text": "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles »."
+              },
+              {
+                "id": "o4",
+                "text": "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “Elles ne constituent pas une simple…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
+              },
+              {
+                "id": "o2",
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+              },
+              {
+                "id": "o3",
+                "text": "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles »."
+              },
+              {
+                "id": "o4",
+                "text": "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
+              },
+              {
+                "id": "o2",
+                "text": "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles »."
+              },
+              {
+                "id": "o3",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o4",
+                "text": "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “En mars 2020 l’Organisation mondiale de la…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ».",
+          "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes.",
+          "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.",
+          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “La première suggère un vide la seconde…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.",
+          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
+          "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ».",
+          "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “Elles ne constituent pas une simple…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
+          "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ».",
+          "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "une hypothèse, la réfutation, provisoire",
-          "les objets de la classe",
-          "les aliments"
+          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
+          "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ».",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
         ]
       }
     ]
@@ -51706,48 +53433,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-migrations-et-frontieres-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “La plupart des personnes déplacées de force…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
+              },
+              {
+                "id": "o2",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “La plupart des personnes déplacées dont le…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
+              },
+              {
+                "id": "o4",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “La plupart des personnes déplacées de force…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
+          "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “La plupart des personnes déplacées dont le…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
+          "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine.",
+          "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.",
+          "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "un déplacement forcé, le principe de non-refoulement, l’externalisation migratoire",
-          "les objets de la classe",
-          "les aliments"
+          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
+          "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -53837,6 +55661,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les modalisateurs de certitude et le subjonctif",
+        "definition": "Les modalisateurs calibrent l’engagement du locuteur : « il est établi que » + indicatif ; « il est peu probable que », « rien ne prouve que » + subjonctif. Le choix du mode dépend de la manière dont le fait est présenté, non d’une simple liste mécanique.",
+        "structure": "Les modalisateurs de certitude et le subjonctif",
+        "function": "Maîtriser les modalisateurs de certitude et le subjonctif dans un contexte argumentatif C1.",
+        "examples": [
+          "Les modalisateurs de certitude et le subjonctif"
         ]
       },
       "listeningComprehension": null
@@ -57748,48 +59581,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-art-censure-et-liberte-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “En novembre 2014 l’installation Exhibit B du…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations."
+              },
+              {
+                "id": "o2",
+                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
+              },
+              {
+                "id": "o3",
+                "text": "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
+              },
+              {
+                "id": "o4",
+                "text": "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Les enquêtes journalistiques menées sur cette affaire…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
+              },
+              {
+                "id": "o2",
+                "text": "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations."
+              },
+              {
+                "id": "o3",
+                "text": "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
+              },
+              {
+                "id": "o4",
+                "text": "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Elles ne constituent pas une simple…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
+              },
+              {
+                "id": "o2",
+                "text": "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations."
+              },
+              {
+                "id": "o3",
+                "text": "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
+              },
+              {
+                "id": "o4",
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o2",
+                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
+              },
+              {
+                "id": "o3",
+                "text": "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations."
+              },
+              {
+                "id": "o4",
+                "text": "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “En novembre 2014 l’installation Exhibit B du…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations.",
+          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
+          "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat.",
+          "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Les enquêtes journalistiques menées sur cette affaire…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
+          "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations.",
+          "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.",
+          "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Elles ne constituent pas une simple…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
+          "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations.",
+          "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "déprogrammer, une médiation, un adoucissement",
-          "les objets de la classe",
-          "les aliments"
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
+          "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations.",
+          "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
         ]
       }
     ]
@@ -57917,48 +59847,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-desinformation-et-democratie-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Un contenu trompeur se diffuse en quelques…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
+              },
+              {
+                "id": "o3",
+                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
+              },
+              {
+                "id": "o2",
+                "text": "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o4",
+                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Puisque la désinformation vise surtout des convictions…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
+              },
+              {
+                "id": "o2",
+                "text": "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
+              },
+              {
+                "id": "o4",
+                "text": "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o2",
+                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
+              },
+              {
+                "id": "o3",
+                "text": "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Un contenu trompeur se diffuse en quelques…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
+          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
+          "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Puisque la désinformation vise surtout des convictions…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
+          "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public.",
+          "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "la désinformation, une chambre d’écho, la modération algorithmique",
-          "les objets de la classe",
-          "les aliments"
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
+          "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
         ]
       }
     ]
@@ -60049,6 +62076,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La voix passive, le passif pronominal et faire + infinitif",
+        "definition": "Le passif met l’accent sur le résultat ou l’objet : « l’exposition a été annulée ». Le passif pronominal décrit un usage : « cette œuvre se lit à plusieurs niveaux ». Faire + infinitif distingue le commanditaire de l’exécutant : « le musée a fait retirer l’affiche ».",
+        "structure": "La voix passive, le passif pronominal et faire + infinitif",
+        "function": "Maîtriser la voix passive, le passif pronominal et faire + infinitif dans un contexte argumentatif C1.",
+        "examples": [
+          "La voix passive, le passif pronominal et faire + infinitif"
         ]
       },
       "listeningComprehension": null
@@ -63657,48 +65693,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-avenir-incertitude-et-choix-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Plus de dix millions de personnes ont…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement."
+              },
+              {
+                "id": "o2",
+                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
+              },
+              {
+                "id": "o3",
+                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
+              },
+              {
+                "id": "o4",
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Six notions permettent de suivre le raisonnement…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
+              },
+              {
+                "id": "o2",
+                "text": "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement."
+              },
+              {
+                "id": "o3",
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Lorsque l’étudiante aura comparé chaque voie elle…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible."
+              },
+              {
+                "id": "o2",
+                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
+              },
+              {
+                "id": "o3",
+                "text": "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
+              },
+              {
+                "id": "o2",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o3",
+                "text": "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Plus de dix millions de personnes ont…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.",
+          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.",
+          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Six notions permettent de suivre le raisonnement…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
+          "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
+          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Lorsque l’étudiante aura comparé chaque voie elle…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.",
+          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
+          "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.",
+          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "une voie, une unité de comparaison, irréversible",
-          "les objets de la classe",
-          "les aliments"
+          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.",
+          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
         ]
       }
     ]
@@ -63826,48 +65959,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-art-contemporain-et-marche-culturel-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Une toile se vend à un prix…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
+              },
+              {
+                "id": "o3",
+                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Les trois légitimations critique institutionnelle et marchande…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser."
+              },
+              {
+                "id": "o2",
+                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
+              },
+              {
+                "id": "o2",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Une toile se vend à un prix…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions.",
+          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
+          "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Les trois légitimations critique institutionnelle et marchande…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.",
+          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
+          "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "un marché superstar, le marché primaire, le marché secondaire",
-          "les objets de la classe",
-          "les aliments"
+          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
         ]
       }
     ]
@@ -65536,6 +67766,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le futur antérieur et les projections dans le passé",
+        "definition": "Le futur antérieur marque l’accomplissement avant un repère futur ou une supposition : « quand elle aura terminé ». Dans un récit au passé, le conditionnel exprime le futur dans le passé : « elle savait qu’elle devrait choisir ». Ces temps structurent les projections complexes.",
+        "structure": "Le futur antérieur et les projections dans le passé",
+        "function": "Maîtriser le futur antérieur et les projections dans le passé dans un contexte argumentatif C1.",
+        "examples": [
+          "Le futur antérieur et les projections dans le passé"
         ]
       },
       "listeningComprehension": null
@@ -68964,48 +71203,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c1-bilan-identite-et-transmission-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Selon l’agence Campus France plus de quatre…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
+              },
+              {
+                "id": "o2",
+                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
+              },
+              {
+                "id": "o3",
+                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : un parcours uniforme, un retour en arrière, un code implicite, dégager une idée, une manière de regarder et reproduire un chemin."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Le mot réussite suggère un parcours mesurable…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
+              },
+              {
+                "id": "o2",
+                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
+              },
+              {
+                "id": "o3",
+                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
+              },
+              {
+                "id": "o4",
+                "text": "Six notions permettent de suivre le raisonnement : un parcours uniforme, un retour en arrière, un code implicite, dégager une idée, une manière de regarder et reproduire un chemin."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Une ancienne étudiante mobile relit son…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
+              },
+              {
+                "id": "o2",
+                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
+              },
+              {
+                "id": "o3",
+                "text": "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme."
+              },
+              {
+                "id": "o4",
+                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
+              },
+              {
+                "id": "o2",
+                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
+              },
+              {
+                "id": "o3",
+                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
+              },
+              {
+                "id": "o4",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Selon l’agence Campus France plus de quatre…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
+          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
+          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
+          "Six notions permettent de suivre le raisonnement : un parcours uniforme, un retour en arrière, un code implicite, dégager une idée, une manière de regarder et reproduire un chemin."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Le mot réussite suggère un parcours mesurable…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
+          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
+          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
+          "Six notions permettent de suivre le raisonnement : un parcours uniforme, un retour en arrière, un code implicite, dégager une idée, une manière de regarder et reproduire un chemin."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Une ancienne étudiante mobile relit son…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
+          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
+          "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.",
+          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "un parcours uniforme, un retour en arrière, un code implicite",
-          "les objets de la classe",
-          "les aliments"
+          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
+          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
+          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -69133,48 +71469,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-c2-philosophie-de-la-technologie-et-ethique-algorithmique-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Un algorithme paraît neutre parce qu’il calcule…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o2",
+                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
+              },
+              {
+                "id": "o3",
+                "text": "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
+              },
+              {
+                "id": "o4",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Une réponse sérieuse doit distinguer ce que…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+              },
+              {
+                "id": "o4",
+                "text": "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Il se pourrait qu’un système paraisse neutre…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
+              },
+              {
+                "id": "o2",
+                "text": "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o3",
+                "text": "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
+              },
+              {
+                "id": "o4",
+                "text": "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Ce cadre permet enfin…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+              },
+              {
+                "id": "o2",
+                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
+              },
+              {
+                "id": "o3",
+                "text": "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine."
+              },
+              {
+                "id": "o4",
+                "text": "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi la question résiste-t-elle aux réponses trop simples ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Un algorithme paraît neutre parce qu’il calcule…”",
         "options": [
-          "Parce qu’aucune preuve n’existe",
-          "Parce qu’il faut distinguer faits établis, inférences et jugements",
-          "Parce que le sujet manque de vocabulaire",
-          "Parce que l’animatrice change de sujet"
+          "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
+          "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle objection l’invité juge-t-il solide ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "Une impression répétée",
-          "Une objection qui conteste une prémisse avec des éléments vérifiables",
-          "Une objection sans rapport avec le sujet",
-          "Une affirmation catégorique"
+          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
+          "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit préciser une conclusion responsable ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Il se pourrait qu’un système paraisse neutre…”",
         "options": [
-          "Seulement l’opinion de l’auteur",
-          "Sa longueur exacte",
-          "Sa portée, ses limites et les preuves qui permettraient de la réviser",
-          "Une certitude absolue"
+          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
+          "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs.",
+          "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel lexique appartient à cette unité ?",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "les loisirs du week-end",
-          "un proxy, la parité statistique, l’explicabilité",
-          "les objets de la classe",
-          "les aliments"
+          "Ce cadre permet enfin de relier les faits à une décision argumentée.",
+          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
+          "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
         ]
       }
     ]
@@ -70843,6 +73276,15 @@
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La reprise et la cohésion d’un texte complexe",
+        "definition": "Un texte C1 évite la répétition par des reprises nominales, pronominales et conceptuelles : « cette expérience », « un tel déplacement », « ce constat ». Les connecteurs organisent la progression sans devenir mécaniques. Chaque reprise doit avoir un antécédent clair.",
+        "structure": "La reprise et la cohésion d’un texte complexe",
+        "function": "Maîtriser la reprise et la cohésion d’un texte complexe dans un contexte argumentatif C1.",
+        "examples": [
+          "La reprise et la cohésion d’un texte complexe"
         ]
       },
       "listeningComprehension": null

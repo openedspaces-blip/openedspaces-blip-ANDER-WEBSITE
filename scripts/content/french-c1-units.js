@@ -211,6 +211,14 @@ units.push(...require('./french-c1-advanced-units'));
 // unit's own exercises so it always reflects that unit's specific text.
 units.forEach((unit) => {
   const activity = unit.activities?.reading;
+  const grammar = unit.activities.grammar;
+  grammar.grammarProfile ||= {
+    name: grammar.title,
+    definition: grammar.grammarNote.split(/\n\n+/)[0],
+    structure: grammar.phrases.join(' · '),
+    function: grammar.description,
+    examples: grammar.phrases
+  };
   if (activity?.reading && Array.isArray(activity.exercises)) {
     activity.reading.questions = activity.exercises.slice(0, 5).map((exercise) => exercise.prompt);
   }

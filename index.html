@@ -89,7 +89,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="andergo-modern">
     <a class="skip-link" href="#content" data-i18n="skipLink">Saltar al contenido</a>
 
     <header class="navbar">
@@ -107,15 +107,11 @@
       </div>
 
       <nav class="mobile-header-tabs" aria-label="Acceso principal de aprendizaje">
-        <a class="nav-learn-cta" href="#learn" aria-label="Abrir mi ruta de aprendizaje"><span aria-hidden="true">📘</span><strong>Aprender</strong><small>Ruta de aprendizaje</small></a>
-        <a href="#tests"><span aria-hidden="true">✓</span>Tests</a>
-        <a href="#verbs" data-guest-preview><span aria-hidden="true">Aa</span>Verbos</a>
-        <a href="#adjectives" data-guest-preview><span aria-hidden="true">A+</span>Adjetivos</a>
-        <a href="#adverbs" data-guest-preview><span aria-hidden="true">↗</span>Adverbios</a>
-        <a href="#infographics" data-guest-preview><span aria-hidden="true">◉</span>Infografías</a>
-        <a href="#games" data-guest-preview><span aria-hidden="true">♟</span>Juegos</a>
+        <a class="nav-learn-cta" href="#learn" aria-label="Abrir mi ruta de aprendizaje"><span aria-hidden="true">📘</span><strong>Aprender</strong><small>Ruta principal</small></a>
         <a href="#tutor"><span aria-hidden="true">✦</span>Tutor</a>
+        <a href="#tests"><span aria-hidden="true">✓</span>Pruebas</a>
         <a href="#translator"><span aria-hidden="true">文</span>Traductor</a>
+        <a href="#premium"><span aria-hidden="true">★</span>Premium</a>
       </nav>
 
       <button
@@ -134,53 +130,17 @@
       <nav class="menu" id="siteMenu">
         <span class="nav-group nav-group-visitor">
           <a class="nav-learn-cta" href="#learn" data-i18n="navLearnVisitor">Aprender</a>
-          <a href="#readings">Lecturas</a>
+          <a href="#tutor" data-i18n="navTutor">Tutor IA</a>
+          <a href="#tests">Pruebas</a>
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
           <a href="#premium" data-i18n="navPremium">Premium</a>
-          <details class="nav-more nav-explore">
-            <summary>Más</summary>
-            <span class="nav-more-menu">
-              <a href="#dictionary">Vocabulario</a>
-              <a href="#listenings">Audios</a>
-              <a href="#verbs" data-guest-preview>Verbos</a>
-              <a href="#adjectives" data-guest-preview>Adjetivos</a>
-              <a href="#adverbs" data-guest-preview>Adverbios</a>
-              <a href="#tests">Pruebas</a>
-              <a href="#games" data-guest-preview>Juegos</a>
-              <a href="#infographics" data-guest-preview>Infografías</a>
-              <a href="#useful-expressions">Expresiones útiles</a>
-              <a href="#technical-english">Inglés técnico</a>
-              <a href="#downloads">Descargas</a>
-              <a href="#about" data-i18n="navAbout">Acerca de</a>
-            </span>
-          </details>
         </span>
         <span class="nav-group nav-group-member" hidden>
           <a class="nav-learn-cta" href="#learn" data-i18n="navLearnMember">Aprender</a>
-          <a href="#dictionary" data-i18n="navVocabulary">Vocabulario</a>
-          <a href="#readings">Lecturas</a>
-          <a href="#verbs" data-i18n="navVerbs" data-guest-preview>Verbos</a>
+          <a href="#tutor" data-i18n="navTutor">Tutor IA</a>
+          <a href="#progress" data-i18n="navProgress">Progreso</a>
           <a href="#tests">Pruebas</a>
-          <a href="#translator" data-i18n="navTranslator">Traductor</a>
-          <a href="#games" data-guest-preview>Juegos</a>
-          <details class="nav-more nav-explore">
-            <summary>Más</summary>
-            <span class="nav-more-menu">
-              <a href="#listenings">Audios</a>
-              <a href="#adjectives" data-guest-preview>Adjetivos</a>
-              <a href="#adverbs" data-guest-preview>Adverbios</a>
-              <a href="#infographics" data-guest-preview>Infografías</a>
-              <a href="#useful-expressions">Expresiones útiles</a>
-              <a href="#technical-english">Inglés técnico</a>
-              <a href="#tutor" data-i18n="navTutor">Tutor I.A.</a>
-              <a href="#progress" data-i18n="navProgress">Progreso</a>
-              <a href="#goals" data-i18n="navGoals">Objetivos</a>
-              <a href="#security" data-i18n="navSecurity">Seguridad</a>
-              <a href="#downloads" data-i18n="navDownloads">Descargas</a>
-              <a href="#about" data-i18n="navAbout">Acerca de</a>
-              <a href="#teacher-curriculum" class="teacher-only-nav" hidden>Panel docente</a>
-            </span>
-          </details>
+          <a href="#premium" data-i18n="navPremium">Premium</a>
         </span>
       </nav>
 
@@ -214,49 +174,19 @@
     <main id="content">
       <section class="hero">
         <div class="hero-content">
-          <span class="pill"><span aria-hidden="true">✦</span> Una academia. Seis idiomas. Un mundo por descubrir.</span>
-          <div class="hero-copy-carousel" aria-roledescription="carrusel" aria-label="Características de ANDERGO">
+          <span class="pill"><span aria-hidden="true">✦</span> Aprende idiomas con una ruta clara.</span>
+          <div class="hero-copy-carousel" aria-label="Presentación de ANDERGO">
             <article class="hero-copy-slide is-active" data-hero-slide aria-hidden="false">
-              <h1 tabindex="-1">Aprende idiomas <span class="hero-title-accent">con una ruta clara</span></h1>
+              <h1 tabindex="-1">Aprende inglés, español, francés, italiano, portugués o alemán <span class="hero-title-accent">sin perderte</span></h1>
               <p>
-                ANDERGO Language Academy es una plataforma educativa digital para aprender y practicar seis idiomas mediante rutas organizadas de A1 a C2. La plataforma incluye lecciones, actividades de lectura y comprensión auditiva, vocabulario, gramática, canciones, pruebas, herramientas de traducción y un Tutor IA como apoyo al aprendizaje.
+                Elige tu idioma, sigue tu nivel y avanza paso a paso con lecciones, práctica, tutor IA y seguimiento real de progreso.
               </p>
             </article>
-            <article class="hero-copy-slide" data-hero-slide aria-hidden="true">
-              <h2>30 minutos al día. <span class="hero-title-accent">Se aprende o se aprende.</span></h2>
-              <p>
-                Con ANDERGO Premium, comprométete a practicar al menos media hora diaria y avanza
-                paso a paso con todas las rutas y herramientas. Accede a todos los beneficios de
-                ANDERGO Language Academy y cancela tu suscripción cuando quieras. Si
-                consideras que el servicio no cumplió lo esperado, puedes solicitar una revisión de
-                reembolso conforme a nuestra <a href="/refund-policy.html">Política de reembolso</a>.
-                <a href="#premium">Suscríbete a ANDERGO Premium</a> y disfruta de todos sus beneficios.
-              </p>
-            </article>
-            <article class="hero-copy-slide" data-hero-slide aria-hidden="true">
-              <h2>Traduce, escucha y corrige tus textos desde un mismo lugar</h2>
-              <p>
-                Usa el traductor, la voz y el corrector para comprender mejor y expresarte con más
-                confianza.
-              </p>
-            </article>
-            <article class="hero-copy-slide" data-hero-slide aria-hidden="true">
-              <h2>Niveles alineados al Marco Común Europeo de Referencia</h2>
-              <p>
-                Avanza de A1 a C2 con objetivos claros y actividades de Reading, Listening,
-                Speaking, Writing, Grammar y Vocabulary.
-              </p>
-            </article>
-            <div class="hero-carousel-controls" aria-label="Controles del carrusel">
-              <button type="button" class="hero-carousel-arrow" data-hero-carousel="previous" aria-label="Característica anterior">←</button>
-              <div class="hero-carousel-dots" role="tablist" aria-label="Características de ANDERGO">
-                <button type="button" class="is-active" data-hero-carousel="0" aria-label="Ver ruta de aprendizaje" aria-selected="true"></button>
-                <button type="button" data-hero-carousel="1" aria-label="Ver compromiso Premium" aria-selected="false"></button>
-                <button type="button" data-hero-carousel="2" aria-label="Ver traductor y corrector" aria-selected="false"></button>
-                <button type="button" data-hero-carousel="3" aria-label="Ver niveles MCER" aria-selected="false"></button>
-              </div>
-              <button type="button" class="hero-carousel-arrow" data-hero-carousel="next" aria-label="Siguiente característica">→</button>
-            </div>
+          </div>
+
+          <div class="hero-buttons">
+            <a class="primary-btn" href="#learn">Empezar ahora</a>
+            <a class="secondary-btn" href="#premium">Ver planes</a>
           </div>
 
           <div class="hero-buttons">
@@ -266,6 +196,7 @@
             </button>
           </div>
 
+          <div class="hero-language-heading"><span>Elige tu idioma</span><p>Rutas completas de A1 a C2 para aprender a tu ritmo.</p></div>
           <nav class="hero-language-tabs" aria-label="Explorar un idioma">
             <button type="button" data-home-action="explore-english" data-preview-language="english">
               <b>US</b><span><strong>English</strong><small>Path A1–C2</small></span><i aria-hidden="true">→</i>
@@ -288,30 +219,23 @@
           </nav>
 
           <div class="quick-stats" id="homeBenefits">
-            <div><strong>Rutas completas</strong><span>A1–C2 en seis idiomas</span></div>
-            <div><strong>Progreso real</strong><span>medible cada semana</span></div>
-            <div><strong>Práctica personalizada</strong><span>según tu nivel</span></div>
+            <div><i aria-hidden="true">◎</i><span><strong>Rutas completas</strong><small>A1–C2 en seis idiomas</small></span></div>
+            <div><i aria-hidden="true">↗</i><span><strong>Progreso real</strong><small>medible cada semana</small></span></div>
+            <div><i aria-hidden="true">✦</i><span><strong>Práctica personalizada</strong><small>según tu nivel</small></span></div>
           </div>
         </div>
 
         <div class="hero-card">
-          <div class="hero-cover-art" aria-hidden="true">
-            <img
-              src="assets/home/andergo-cover-race.png?v=20260831"
-              alt=""
-              width="1024"
-              height="1536"
-              decoding="async"
-              fetchpriority="high"
-            />
-            <div class="hero-cover-shine"></div>
-            <span class="hero-cover-edition">EDICIÓN 2026</span>
-            <p class="hero-cover-greetings" aria-label="Saludos en los seis idiomas de ANDERGO">
-              <span>Hello</span><span>Hola</span><span>Bonjour</span><span>Ciao</span><span>Olá</span><span>Hallo</span>
-            </p>
-            <div class="hero-cover-caption">
-              <span>ANDERGO ACADEMY</span>
-              <strong>Abre el mundo.<br />Habla sin fronteras.</strong>
+          <div class="hero-cover-art hero-play-post">
+            <span class="hero-cover-edition">PRÓXIMAMENTE</span>
+            <div class="hero-play-orbit hero-play-orbit-one" aria-hidden="true"></div>
+            <div class="hero-play-orbit hero-play-orbit-two" aria-hidden="true"></div>
+            <div class="hero-play-icon" aria-hidden="true"><span></span></div>
+            <div class="hero-play-post-copy">
+              <span class="hero-play-kicker">ANDERGO PRESENTA</span>
+              <strong>ANDERGO<br />PLAY</strong>
+              <p>Juegos breves para practicar, avanzar y disfrutar cada idioma.</p>
+              <span class="hero-play-coming">MUY PRONTO</span>
             </div>
           </div>
           <article class="course-card">
@@ -423,7 +347,7 @@
                   <li>Conversación por voz: 10 al mes.</li>
                 </ul>
               </details>
-              <p class="price-annual">Free mantiene todo el aprendizaje abierto con publicidad discreta y no intrusiva cuando esté disponible. Si prefieres estudiar sin anuncios, Premium ofrece una experiencia continua por USD 7 al mes. También puedes apoyar desde USD 1.</p>
+              <p class="price-annual">Free mantiene todo el aprendizaje abierto con publicidad discreta y no intrusiva cuando esté disponible. Si prefieres estudiar sin anuncios, Premium ofrece una experiencia continua por USD 4.99 al mes. También puedes apoyar desde USD 1.</p>
               <a
                 class="secondary-btn donation-link"
                 href="https://www.paypal.com/donate/?hosted_button_id=8J5CWKN8WCLU2"
@@ -436,9 +360,9 @@
               <span class="plan-badge" data-premium-plan-badge>Recomendado</span>
               <h3>ANDERGO Premium</h3>
               <p class="price">
-                <span data-premium-monthly-price>USD 7.00</span> <small>/ mes</small>
+                <span data-premium-monthly-price>USD 4.99</span> <small>/ mes</small>
               </p>
-              <p class="price-annual">O elige el plan trimestral por <span data-premium-quarterly-price>USD 14.99</span> cada tres meses.</p>
+              <p class="price-annual">O elige el plan trimestral por <span data-premium-quarterly-price>USD 12.99</span> cada tres meses.</p>
               <ul class="plan-benefits plan-benefits--desktop">
                 <li>Todo el currículo A1–C2, sin anuncios de terceros.</li>
                 <li>Lecciones, evaluaciones, juegos y práctica guiada sin límites de ruta.</li>
@@ -462,10 +386,10 @@
               </details>
               <div class="premium-checkout-actions">
                 <button type="button" class="primary-btn premium-checkout-btn" data-billing-cycle="monthly">
-                  Elegir mensual · <span data-premium-monthly-price>USD 7.00</span>
+                  Elegir mensual · <span data-premium-monthly-price>USD 4.99</span>
                 </button>
                 <button type="button" class="secondary-btn premium-checkout-btn" data-billing-cycle="quarterly">
-                  Elegir trimestral · <span data-premium-quarterly-price>USD 14.99</span>
+                  Elegir trimestral · <span data-premium-quarterly-price>USD 12.99</span>
                 </button>
                 <button type="button" class="secondary-btn azul-checkout-btn" data-billing-cycle="monthly" hidden>
                   Pagar con tarjeta mediante Azul
@@ -887,8 +811,8 @@
         <div class="general-dictionary-shell">
           <header class="general-dictionary-header">
             <span>ANDERGO · DICCIONARIO GENERAL</span>
-            <h2 id="dictionaryTitle" tabindex="-1">5,000 palabras por idioma</h2>
-            <p>Consulta palabras en orden alfabético y su traducción al español. Este diccionario es independiente de las rutas de aprendizaje.</p>
+            <h2 id="dictionaryTitle" tabindex="-1">Tu diccionario de idiomas</h2>
+            <p>Elige un idioma, busca por palabra o por español, escucha la pronunciación y copia la entrada. Sin salir de Andergo.</p>
           </header>
           <div id="generalDictionaryApp" aria-live="polite"><p class="skill-graph-empty">Preparando diccionario general…</p></div>
         </div>
@@ -1423,10 +1347,16 @@
             </div>
             <div class="tutor-output-companion">
               <div class="tutor-hero-bot tutor-output-bot" aria-hidden="true">
-                <img class="tutor-realistic-robot" src="/images/tutor/andergo-tutor-robot-v5-transparent.png" alt="" />
-                <span class="tutor-brand-badge tutor-brand-badge--cap"></span>
-                <span class="tutor-brand-badge tutor-brand-badge--chest"></span>
-                <span class="tutor-avatar-mouth"></span>
+                <img class="tutor-realistic-robot tutor-mentor-portrait" src="/images/tutor/andergo-tutor-female-teacher-v2.png" alt="" />
+                <svg class="tutor-mentor-speech" viewBox="0 0 1254 1254" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
+                  <g transform="translate(625 535) rotate(-12)">
+                    <g class="tutor-mentor-lips">
+                      <ellipse rx="45" ry="12" fill="#713329" stroke="#c66b54" stroke-width="5" />
+                      <path d="M-34 -6 Q0 -13 34 -6 Q25 0 0 0 Q-25 0 -34 -6" fill="#fff0df" />
+                      <path d="M-22 7 Q0 0 22 7 Q0 15 -22 7" fill="#d98578" />
+                    </g>
+                  </g>
+                </svg>
                 <span class="tutor-avatar-voice"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
               </div>
               <div class="tutor-avatar-controls" aria-label="Controles de voz del Tutor">
@@ -1592,7 +1522,7 @@
                   id="translatorInput"
                   class="tutor-input"
                   rows="6"
-                  maxlength="1000"
+                  maxlength="2000"
                   placeholder="Escribe el texto que quieres traducir…"
                   role="combobox"
                   aria-expanded="false"
@@ -1648,7 +1578,7 @@
                 </button>
               </div>
               <p class="translator-char-count" id="translatorCharCount" aria-live="polite">
-                0 / 1000
+                0 / 2000
               </p>
               <label class="translator-suggestions-toggle">
                 <input type="checkbox" id="translatorSuggestionsToggle" checked />
@@ -2440,8 +2370,8 @@
         <p>Continúa tu recorrido con todas las unidades y herramientas Premium.</p>
         <ul class="paywall-features" id="paywallFeatures"></ul>
         <p class="paywall-price-line">
-          <span data-premium-monthly-price>USD 7.00</span><small>/mes</small>
-          &nbsp;·&nbsp; <span data-premium-quarterly-price>USD 14.99</span> cada tres meses
+          <span data-premium-monthly-price>USD 4.99</span><small>/mes</small>
+          &nbsp;·&nbsp; <span data-premium-quarterly-price>USD 12.99</span> cada tres meses
         </p>
         <div class="confirm-actions">
           <button type="button" class="secondary-btn" data-action="dismiss-paywall">
@@ -2557,8 +2487,8 @@
     </div>
 
     <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA ANDERGO">
-      <span class="tutor-bot-mark tutor-bot-mark--fab tutor-bot-mark--realistic" aria-hidden="true">
-        <img src="/images/tutor/andergo-tutor-robot-v3-uniform.png" alt="" />
+      <span class="tutor-bot-mark tutor-bot-mark--fab tutor-bot-mark--realistic tutor-bot-mark--mentor" aria-hidden="true">
+        <img src="/images/tutor/andergo-tutor-female-teacher-v2.png" alt="" />
         <span class="tutor-bot-status"></span>
       </span>
     </button>

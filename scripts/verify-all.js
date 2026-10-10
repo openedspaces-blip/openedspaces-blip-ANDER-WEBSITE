@@ -62,7 +62,7 @@ function run(label, command) {
     return true;
   } catch (error) {
     console.log('FAILED');
-    console.error(error.stdout?.toString() || error.message);
+    console.error([error.stdout?.toString(), error.stderr?.toString()].filter(Boolean).join('\n') || error.message);
     return false;
   }
 }
@@ -80,7 +80,7 @@ function main() {
     allOk = allOk && ok;
   });
 
-  const testsOk = run('node --test server.test.js', 'node --test server.test.js');
+  const testsOk = run('npm test', 'npm test');
   allOk = allOk && testsOk;
 
   console.log('\n' + (allOk ? 'All checks passed.' : 'Some checks FAILED - see output above.'));

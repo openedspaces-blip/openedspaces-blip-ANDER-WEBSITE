@@ -128,13 +128,16 @@ function englishActivities(unit, level) {
         },
         {
           type: 'mcq',
-          prompt: `In Listening Lab: ${context.title}, what should listeners distinguish before reaching a conclusion?`,
-          options: ['A title, a date and a location', 'They should distinguish an established finding from a plausible inference and a value judgement.', 'Only the host’s opinion', 'A spelling rule and a pronunciation rule'],
+          prompt: `In Listening Lab: ${context.title}, what does the guest say about the relationship between these categories?`,
+          options: ['The categories are identical.', 'Those categories may interact, but they are not interchangeable.', 'They must never interact.', 'Only one category can exist.'],
           answer: 1
         }
         ].map((question, index) => ({
           id: `english-${level.toLowerCase()}-${unit.slug}-listening-q${index + 1}`,
           ...question,
+          answer: index,
+          evidence: question.options[question.answer],
+          explanation: `The audio states: “${question.options[question.answer]}”`,
           correctOptionId: `o${index + 1}`,
           options: (() => {
             const options = [...question.options];
@@ -148,7 +151,7 @@ function englishActivities(unit, level) {
         { type: 'mcq', prompt: `In Listening Lab: ${context.title}, why does the guest say the issue resists a simple answer?`, options: ['Because no evidence exists', 'Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.', 'Because the topic has no vocabulary', 'Because the host changes the subject'], answer: 1 },
         { type: 'mcq', prompt: `In Listening Lab: ${context.title}, which three categories does the guest distinguish?`, options: ['Fact, spelling and pronunciation', 'They should distinguish an established finding from a plausible inference and a value judgement.', 'Cause, date and location', 'Question, title and summary'], answer: 1 },
         { type: 'mcq', prompt: `In Listening Lab: ${context.title}, what makes the discussion responsible?`, options: ['Avoiding every objection', 'Repeating the strongest claim', 'We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.', 'Speaking with absolute certainty'], answer: 2 },
-        { type: 'mcq', prompt: `In Listening Lab: ${context.title}, what should listeners distinguish before reaching a conclusion?`, options: ['A title, a date and a location', 'They should distinguish an established finding from a plausible inference and a value judgement.', 'Only the host’s opinion', 'A spelling rule and a pronunciation rule'], answer: 1 }
+        { type: 'mcq', prompt: `In Listening Lab: ${context.title}, what does the guest say about the relationship between these categories?`, options: ['The categories are identical.', 'Those categories may interact, but they are not interchangeable.', 'They must never interact.', 'Only one category can exist.'], answer: 1 }
       ]
     },
     speaking: {

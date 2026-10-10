@@ -46,12 +46,12 @@
     ],
     "reading": {
       "title": "Português (Brasil) A1 Reading",
-      "text": "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.",
+      "text": "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: hoje e amanhã. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno.",
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: hoje, amanhã, casa e experiência.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ]
     }
   },
@@ -99,10 +99,11 @@
       "title": "Português (Brasil) A2 Reading",
       "text": "Luana está em Recife. Hoje ela aprende a contar experiência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Foi uma viagem importante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lembrança, encontro, mudar e futuro.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Foi uma viagem importante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.",
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ uma viagem importante.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: lembrança, encontro, mudar e futuro.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ]
     }
   },
@@ -834,38 +835,62 @@
       "title": "Chegando ao Brasil",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a cumprimentar e apresentar-se. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Oi, tudo bem?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: oi, bom dia, prazer e obrigada.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Oi, tudo bem?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: oi e bom dia. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Oi, tudo bem?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: oi, bom dia, prazer e obrigada.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a cumprimentar e apresentar-se. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Oi, tudo bem?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: oi, bom dia, prazer e obrigada.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Oi, tudo bem?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a cumprimentar e apresentar-se. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Oi, tudo bem?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: oi, bom dia, prazer e obrigada.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: oi e bom dia. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Oi, tudo bem?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "cumprimentar e apresentar-se",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "prazer",
+          "Depois",
+          "Luana"
         ]
       },
       {
+        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: oi, bom dia, prazer e obrigada.”",
         "options": [
-          "cumprimentar e apresentar-se",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "obrigada"
+        ]
+      },
+      {
+        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -896,10 +921,11 @@
         "No final, Luana escreve: “Normalmente vou de ônibus.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ vou de ônibus.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: bairro, parada, trabalho e serviço.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a descrever rotina. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Normalmente vou de ônibus.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: bairro, parada, trabalho e serviço.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Normalmente vou de ônibus.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -907,23 +933,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "descrever rotina",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "ônibus",
+          "bairro",
+          "parada"
         ]
       },
       {
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ vou de ônibus.”.”",
         "options": [
-          "descrever rotina",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "participar",
+          "Normalmente",
+          "situações",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: bairro, parada, trabalho e serviço.”",
+        "options": [
+          "conversa",
+          "aprendem",
+          "palavras",
+          "trabalho"
+        ]
+      },
+      {
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "vou",
+          "rua"
         ]
       }
     ]
@@ -2612,16 +2673,146 @@
     ],
     "reading": null,
     "transcript": "Oi, tudo bem? Falamos de oi. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-chegando-ao-brasil-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Oi tudo bem…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Oi, tudo bem?"
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Falamos de oi…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Falamos de oi."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Gosto de aprender com a comunidade."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Oi tudo bem…”",
         "options": [
+          "Ninguém conta a própria experiência.",
           "Oi, tudo bem?",
-          "oi",
-          "bom dia",
-          "prazer"
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Falamos de oi…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Falamos de oi.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Gosto de aprender com a comunidade."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Vamos praticar juntos amanhã.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -2671,16 +2862,146 @@
     ],
     "reading": null,
     "transcript": "Normalmente vou de ônibus. Falamos de bairro. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-rotina-na-cidade-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Normalmente vou de…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Normalmente vou de ônibus."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Falamos de bairro…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de bairro."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Normalmente vou de…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Normalmente vou de ônibus.",
-          "bairro",
-          "parada",
-          "trabalho"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Falamos de bairro…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de bairro."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -6462,38 +6783,62 @@
       "title": "Um café na padaria",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a pedir com cortesia. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um café, por favor.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: café, pão, água e por favor.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Um café, por favor.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: café e pão. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Um café, por favor.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: café, pão, água e por favor.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a pedir com cortesia. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um café, por favor.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: café, pão, água e por favor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Um café, por favor.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a pedir com cortesia. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um café, por favor.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: café, pão, água e por favor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: café e pão. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Um café, por favor.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "pedir com cortesia",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "Depois",
+          "Luana",
+          "Durante"
         ]
       },
       {
+        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: café, pão, água e por favor.”",
         "options": [
-          "pedir com cortesia",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -6524,10 +6869,11 @@
         "No final, Luana escreve: “Gostaria de visitar o museu.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ de visitar o museu.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: museu, passeio, reserva e visita.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a fazer planos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Gostaria de visitar o museu.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: museu, passeio, reserva e visita.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Gostaria de visitar o museu.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -6535,23 +6881,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "fazer planos",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "visita",
+          "escola",
+          "amanhã"
         ]
       },
       {
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ de visitar o museu.”.”",
         "options": [
-          "fazer planos",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "conversa",
+          "Gostaria",
+          "aprendem",
+          "palavras"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: museu, passeio, reserva e visita.”",
+        "options": [
+          "Gostaria",
+          "conversa",
+          "palavras",
+          "aprendem"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "rua",
+          "Eles"
         ]
       }
     ]
@@ -8240,16 +8621,146 @@
     ],
     "reading": null,
     "transcript": "Um café, por favor. Falamos de café. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-um-cafe-na-padaria-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Um café por…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Um café, por favor."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Falamos de café…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de café."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Um café por…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Um café, por favor.",
-          "café",
-          "pão",
-          "água"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Falamos de café…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de café."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -8299,16 +8810,146 @@
     ],
     "reading": null,
     "transcript": "Gostaria de visitar o museu. Falamos de museu. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Gostaria de visitar…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Gostaria de visitar o museu."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Falamos de museu…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Falamos de museu."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Gosto de aprender com a comunidade."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Gostaria de visitar…”",
         "options": [
+          "Ninguém conta a própria experiência.",
           "Gostaria de visitar o museu.",
-          "museu",
-          "passeio",
-          "reserva"
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Falamos de museu…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Falamos de museu.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Gosto de aprender com a comunidade."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Vamos praticar juntos amanhã.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -12090,38 +12731,62 @@
       "title": "Família e almoço",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a falar da família. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A família almoça junta.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: família, almoço, mesa e juntos.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “A família almoça junta.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: família e almoço. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “A família almoça junta.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: família, almoço, mesa e juntos.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar da família. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A família almoça junta.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: família, almoço, mesa e juntos.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A família almoça junta.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a falar da família. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A família almoça junta.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: família, almoço, mesa e juntos.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: família e almoço. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “A família almoça junta.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "falar da família",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "almoço",
+          "juntos",
+          "Depois"
         ]
       },
       {
+        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: família, almoço, mesa e juntos.”",
         "options": [
-          "falar da família",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "família",
+          "repetir",
+          "caderno"
+        ]
+      },
+      {
+        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "família",
+          "repetir",
+          "caderno"
         ]
       }
     ]
@@ -12152,10 +12817,11 @@
         "No final, Luana escreve: “Primeiro corto os legumes.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ corto os legumes.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: receita, ingrediente, primeiro e depois.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a explicar sequência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Primeiro corto os legumes.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: receita, ingrediente, primeiro e depois.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Primeiro corto os legumes.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -12163,23 +12829,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "explicar sequência",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "depois",
+          "escola",
+          "amanhã"
         ]
       },
       {
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ corto os legumes.”.”",
         "options": [
-          "explicar sequência",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "conversa",
+          "Primeiro",
+          "aprendem",
+          "palavras"
+        ]
+      },
+      {
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: receita, ingrediente, primeiro e depois.”",
+        "options": [
+          "Primeiro",
+          "conversa",
+          "palavras",
+          "aprendem"
+        ]
+      },
+      {
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "rua",
+          "Eles"
         ]
       }
     ]
@@ -13868,16 +14569,146 @@
     ],
     "reading": null,
     "transcript": "A família almoça junta. Falamos de família. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-familia-e-almoco-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “A família almoça…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A família almoça junta."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Falamos de família…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de família."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “A família almoça…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "A família almoça junta.",
-          "família",
-          "almoço",
-          "mesa"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Falamos de família…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de família."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -13927,16 +14758,146 @@
     ],
     "reading": null,
     "transcript": "Primeiro corto os legumes. Falamos de receita. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-receitas-e-memorias-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Primeiro corto os…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Primeiro corto os legumes."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Falamos de receita…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de receita."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Primeiro corto os…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Primeiro corto os legumes.",
-          "receita",
-          "ingrediente",
-          "primeiro"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Falamos de receita…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de receita."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -17718,38 +18679,62 @@
       "title": "A feira do bairro",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a comprar na feira. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quanto custa um quilo?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: banana, tomate, quilo e real.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Quanto custa um quilo?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: banana e tomate. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Quanto custa um quilo?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: banana, tomate, quilo e real.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a comprar na feira. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quanto custa um quilo?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: banana, tomate, quilo e real.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quanto custa um quilo?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a comprar na feira. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quanto custa um quilo?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: banana, tomate, quilo e real.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: banana e tomate. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Quanto custa um quilo?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "comprar na feira",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "banana",
+          "tomate",
+          "Depois"
         ]
       },
       {
+        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: banana, tomate, quilo e real.”",
         "options": [
-          "comprar na feira",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -17780,10 +18765,11 @@
         "No final, Luana escreve: “Posso fazer uma pausa?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ fazer uma pausa?”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: colega, pausa, reunião e horário.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a interagir no trabalho. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Posso fazer uma pausa?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: colega, pausa, reunião e horário.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Posso fazer uma pausa?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -17791,23 +18777,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "interagir no trabalho",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "colega",
+          "escola",
+          "amanhã"
         ]
       },
       {
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ fazer uma pausa?”.”",
         "options": [
-          "interagir no trabalho",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "Luana",
+          "Posso",
+          "fazer",
+          "pausa"
+        ]
+      },
+      {
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: colega, pausa, reunião e horário.”",
+        "options": [
+          "conversa",
+          "aprendem",
+          "palavras",
+          "pequenas"
+        ]
+      },
+      {
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "rua",
+          "Eles"
         ]
       }
     ]
@@ -19496,16 +20517,146 @@
     ],
     "reading": null,
     "transcript": "Quanto custa um quilo? Falamos de banana. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-a-feira-do-bairro-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Quanto custa um…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Quanto custa um quilo?"
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Falamos de banana…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de banana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Quanto custa um…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Quanto custa um quilo?",
-          "banana",
-          "tomate",
-          "quilo"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Falamos de banana…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de banana."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -19555,16 +20706,146 @@
     ],
     "reading": null,
     "transcript": "Posso fazer uma pausa? Falamos de colega. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-trabalho-e-pausa-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Posso fazer uma…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Posso fazer uma pausa?"
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Falamos de colega…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Falamos de colega."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Vamos praticar juntos amanhã."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Posso fazer uma…”",
         "options": [
           "Posso fazer uma pausa?",
-          "colega",
-          "pausa",
-          "reunião"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Falamos de colega…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Falamos de colega.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Gosto de aprender com a comunidade.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -23346,38 +24627,62 @@
       "title": "Caminhos da cidade",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a pedir informações. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Onde fica a parada?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: rua, praça, parada e bicicleta.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Onde fica a parada?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: rua e praça. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Onde fica a parada?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: rua, praça, parada e bicicleta.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a pedir informações. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Onde fica a parada?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: rua, praça, parada e bicicleta.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Onde fica a parada?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a pedir informações. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Onde fica a parada?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: rua, praça, parada e bicicleta.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: rua e praça. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Onde fica a parada?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "pedir informações",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "parada",
+          "Depois",
+          "Luana"
         ]
       },
       {
+        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: rua, praça, parada e bicicleta.”",
         "options": [
-          "pedir informações",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -23408,10 +24713,11 @@
         "No final, Luana escreve: “A exposição foi interessante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “A _____ foi interessante.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: exposição, artista, praça e opinião.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a dar opinião. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A exposição foi interessante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: exposição, artista, praça e opinião.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A exposição foi interessante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -23419,23 +24725,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "dar opinião",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "escola",
+          "amanhã",
+          "Rafael"
         ]
       },
       {
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “A _____ foi interessante.”.”",
         "options": [
-          "dar opinião",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "situações",
+          "exposição",
+          "conversa",
+          "aprendem"
+        ]
+      },
+      {
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: exposição, artista, praça e opinião.”",
+        "options": [
+          "conversa",
+          "aprendem",
+          "palavras",
+          "pequenas"
+        ]
+      },
+      {
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "foi",
+          "rua"
         ]
       }
     ]
@@ -25124,16 +26465,146 @@
     ],
     "reading": null,
     "transcript": "Onde fica a parada? Falamos de rua. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-caminhos-da-cidade-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Onde fica a…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Onde fica a parada?"
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Falamos de rua…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Falamos de rua."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Vamos praticar juntos amanhã."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Onde fica a…”",
         "options": [
           "Onde fica a parada?",
-          "rua",
-          "praça",
-          "parada"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Falamos de rua…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Falamos de rua.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Gosto de aprender com a comunidade.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -25183,16 +26654,146 @@
     ],
     "reading": null,
     "transcript": "A exposição foi interessante. Falamos de exposição. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-arte-na-comunidade-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “A exposição foi…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "A exposição foi interessante."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Falamos de exposição…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Falamos de exposição."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Vamos praticar juntos amanhã."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “A exposição foi…”",
         "options": [
           "A exposição foi interessante.",
-          "exposição",
-          "artista",
-          "praça"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Falamos de exposição…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Falamos de exposição.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Gosto de aprender com a comunidade.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -28974,38 +30575,62 @@
       "title": "Escola e amizade",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a falar de gostos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Qual matéria você gosta?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: escola, amigo, aula e tarefa.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Qual matéria você gosta?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: escola e amigo. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Qual matéria você gosta?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: escola, amigo, aula e tarefa.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar de gostos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Qual matéria você gosta?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: escola, amigo, aula e tarefa.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Qual matéria você gosta?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a falar de gostos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Qual matéria você gosta?”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: escola, amigo, aula e tarefa.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: escola e amigo. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Qual matéria você gosta?”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "falar de gostos",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "escola",
+          "tarefa",
+          "Depois"
         ]
       },
       {
+        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: escola, amigo, aula e tarefa.”",
         "options": [
-          "falar de gostos",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -29036,10 +30661,11 @@
         "No final, Luana escreve: “Não quero incomodar os moradores.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ quero incomodar os moradores.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: morador, respeito, mapa e escolha.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a expressar intenção. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Não quero incomodar os moradores.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: morador, respeito, mapa e escolha.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Não quero incomodar os moradores.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -29047,23 +30673,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "expressar intenção",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "escola",
+          "amanhã",
+          "Rafael"
         ]
       },
       {
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ quero incomodar os moradores.”.”",
         "options": [
-          "expressar intenção",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "diz",
+          "Não",
+          "rua",
+          "Ela"
+        ]
+      },
+      {
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: morador, respeito, mapa e escolha.”",
+        "options": [
+          "conversa",
+          "aprendem",
+          "palavras",
+          "respeito"
+        ]
+      },
+      {
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "mapa",
+          "usam",
+          "café",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "Não",
+          "rua"
         ]
       }
     ]
@@ -30752,16 +32413,146 @@
     ],
     "reading": null,
     "transcript": "Qual matéria você gosta? Falamos de escola. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-escola-e-amizade-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Qual matéria você…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Qual matéria você gosta?"
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Falamos de escola…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de escola."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Qual matéria você…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Qual matéria você gosta?",
-          "escola",
-          "amigo",
-          "aula"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Falamos de escola…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de escola."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -30811,16 +32602,146 @@
     ],
     "reading": null,
     "transcript": "Não quero incomodar os moradores. Falamos de morador. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-viajar-com-respeito-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Não quero incomodar…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Não quero incomodar os moradores."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Falamos de morador…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Falamos de morador."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Não quero incomodar…”",
         "options": [
-          "Não quero incomodar os moradores.",
-          "morador",
-          "respeito",
-          "mapa"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Não quero incomodar os moradores."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Falamos de morador…”",
+        "options": [
+          "Falamos de morador.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Gosto de aprender com a comunidade.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Vamos praticar juntos amanhã.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -34602,38 +36523,62 @@
       "title": "Casa e vizinhança",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a descrever lugares. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A cozinha é clara.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: cozinha, quarto, janela e varanda.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “A cozinha é clara.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: cozinha e quarto. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “A cozinha é clara.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: cozinha, quarto, janela e varanda.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a descrever lugares. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A cozinha é clara.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: cozinha, quarto, janela e varanda.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A cozinha é clara.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a descrever lugares. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A cozinha é clara.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: cozinha, quarto, janela e varanda.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: cozinha e quarto. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “A cozinha é clara.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "descrever lugares",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "quarto",
+          "janela",
+          "Depois"
         ]
       },
       {
+        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: cozinha, quarto, janela e varanda.”",
         "options": [
-          "descrever lugares",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "cozinha",
+          "repetir",
+          "varanda"
+        ]
+      },
+      {
+        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "cozinha",
+          "varanda",
+          "caderno"
         ]
       }
     ]
@@ -34664,10 +36609,11 @@
         "No final, Luana escreve: “Quando era criança, eu nadava.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ era criança, eu nadava.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: natação, corrida, equipe e treino.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a falar do passado. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quando era criança, eu nadava.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: natação, corrida, equipe e treino.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quando era criança, eu nadava.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -34675,23 +36621,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "falar do passado",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "Quando",
+          "nadava",
+          "equipe"
         ]
       },
       {
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ era criança, eu nadava.”.”",
         "options": [
-          "falar do passado",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "Recife",
+          "Quando",
+          "nadava",
+          "equipe"
+        ]
+      },
+      {
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: natação, corrida, equipe e treino.”",
+        "options": [
+          "conversa",
+          "aprendem",
+          "palavras",
+          "pequenas"
+        ]
+      },
+      {
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "era",
+          "rua"
         ]
       }
     ]
@@ -36380,16 +38361,146 @@
     ],
     "reading": null,
     "transcript": "A cozinha é clara. Falamos de cozinha. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-casa-e-vizinhanca-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “A cozinha é…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "A cozinha é clara."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Falamos de cozinha…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Falamos de cozinha."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “A cozinha é…”",
         "options": [
-          "A cozinha é clara.",
-          "cozinha",
-          "quarto",
-          "janela"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "A cozinha é clara."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Falamos de cozinha…”",
+        "options": [
+          "Falamos de cozinha.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Gosto de aprender com a comunidade.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Vamos praticar juntos amanhã.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -36439,16 +38550,146 @@
     ],
     "reading": null,
     "transcript": "Quando era criança, eu nadava. Falamos de natação. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-esporte-e-lazer-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Quando era criança…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Quando era criança, eu nadava."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Falamos de natação…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Falamos de natação."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Gosto de aprender com a comunidade."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Quando era criança…”",
         "options": [
+          "Ninguém conta a própria experiência.",
           "Quando era criança, eu nadava.",
-          "natação",
-          "corrida",
-          "equipe"
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Falamos de natação…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Falamos de natação.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Gosto de aprender com a comunidade."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Vamos praticar juntos amanhã.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -40230,38 +42471,62 @@
       "title": "Tempo no Recife",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a falar do tempo. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje está quente.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: sol, chuva, quente e vento.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Hoje está quente.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: sol e chuva. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Hoje está quente.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: sol, chuva, quente e vento.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a falar do tempo. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje está quente.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: sol, chuva, quente e vento.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje está quente.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a falar do tempo. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje está quente.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: sol, chuva, quente e vento.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: sol e chuva. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Hoje está quente.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "falar do tempo",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "quente",
+          "Depois",
+          "Luana"
         ]
       },
       {
+        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: sol, chuva, quente e vento.”",
         "options": [
-          "falar do tempo",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -40292,10 +42557,11 @@
         "No final, Luana escreve: “Minha garganta está doendo.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ garganta está doendo.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: farmácia, dor, descanso e conselho.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a falar de mal-estar. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Minha garganta está doendo.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: farmácia, dor, descanso e conselho.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Minha garganta está doendo.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -40303,23 +42569,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "falar de mal-estar",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "doendo",
+          "escola",
+          "amanhã"
         ]
       },
       {
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ garganta está doendo.”.”",
         "options": [
-          "falar de mal-estar",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "Luana",
+          "Minha",
+          "úteis",
+          "novas"
+        ]
+      },
+      {
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: farmácia, dor, descanso e conselho.”",
+        "options": [
+          "garganta",
+          "conversa",
+          "palavras",
+          "aprendem"
+        ]
+      },
+      {
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "dor",
+          "rua"
         ]
       }
     ]
@@ -42008,16 +44309,146 @@
     ],
     "reading": null,
     "transcript": "Hoje está quente. Falamos de sol. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-tempo-no-recife-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Hoje está quente…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Hoje está quente."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Falamos de sol…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Falamos de sol."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Hoje está quente…”",
         "options": [
-          "Hoje está quente.",
-          "sol",
-          "chuva",
-          "quente"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Hoje está quente."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Falamos de sol…”",
+        "options": [
+          "Falamos de sol.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Gosto de aprender com a comunidade.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Vamos praticar juntos amanhã.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -42067,16 +44498,146 @@
     ],
     "reading": null,
     "transcript": "Minha garganta está doendo. Falamos de farmácia. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-saude-e-bem-estar-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Minha garganta está…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Minha garganta está doendo."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Falamos de farmácia…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Falamos de farmácia."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Minha garganta está…”",
         "options": [
-          "Minha garganta está doendo.",
-          "farmácia",
-          "dor",
-          "descanso"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Minha garganta está doendo."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Falamos de farmácia…”",
+        "options": [
+          "Falamos de farmácia.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Gosto de aprender com a comunidade.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Vamos praticar juntos amanhã.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -45858,38 +48419,62 @@
       "title": "Uma roda cultural",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a convidar alguém. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Vamos à roda no sábado.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: roda, música, bairro e sábado.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Vamos à roda no sábado.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: roda e música. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Vamos à roda no sábado.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: roda, música, bairro e sábado.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a convidar alguém. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Vamos à roda no sábado.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: roda, música, bairro e sábado.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Vamos à roda no sábado.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a convidar alguém. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Vamos à roda no sábado.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: roda, música, bairro e sábado.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: roda e música. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Vamos à roda no sábado.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "convidar alguém",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "música",
+          "bairro",
+          "sábado"
         ]
       },
       {
+        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: roda, música, bairro e sábado.”",
         "options": [
-          "convidar alguém",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -45920,10 +48505,11 @@
         "No final, Luana escreve: “A família chegou há muitos anos.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “A _____ chegou há muitos anos.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: origem, chegar, família e comunidade.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a contar história simples. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “A família chegou há muitos anos.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: origem, chegar, família e comunidade.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “A família chegou há muitos anos.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -45931,23 +48517,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "contar história simples",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "chegou",
+          "muitos",
+          "origem"
         ]
       },
       {
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “A _____ chegou há muitos anos.”.”",
         "options": [
-          "contar história simples",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "Durante",
+          "família",
+          "Recife",
+          "chegou"
+        ]
+      },
+      {
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: origem, chegar, família e comunidade.”",
+        "options": [
+          "conversa",
+          "aprendem",
+          "palavras",
+          "pequenas"
+        ]
+      },
+      {
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "anos",
+          "usam",
+          "café",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "rua",
+          "anos"
         ]
       }
     ]
@@ -47636,16 +50257,146 @@
     ],
     "reading": null,
     "transcript": "Vamos à roda no sábado. Falamos de roda. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-uma-roda-cultural-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Vamos à roda…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vamos à roda no sábado."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Falamos de roda…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Falamos de roda."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Vamos praticar juntos amanhã."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Vamos à roda…”",
         "options": [
           "Vamos à roda no sábado.",
-          "roda",
-          "música",
-          "bairro"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Falamos de roda…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Falamos de roda.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Gosto de aprender com a comunidade.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -47695,16 +50446,146 @@
     ],
     "reading": null,
     "transcript": "A família chegou há muitos anos. Falamos de origem. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-historias-de-origem-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “A família chegou…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A família chegou há muitos anos."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Falamos de origem…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de origem."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “A família chegou…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "A família chegou há muitos anos.",
-          "origem",
-          "chegar",
-          "família"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Falamos de origem…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de origem."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -51486,38 +54367,62 @@
       "title": "De ônibus",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a usar transporte. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um bilhete para o centro.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: ônibus, bilhete, ponto e viagem.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Um bilhete para o centro.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: ônibus e bilhete. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Um bilhete para o centro.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: ônibus, bilhete, ponto e viagem.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a usar transporte. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um bilhete para o centro.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: ônibus, bilhete, ponto e viagem.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Um bilhete para o centro.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a usar transporte. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Um bilhete para o centro.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: ônibus, bilhete, ponto e viagem.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: ônibus e bilhete. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Um bilhete para o centro.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-de-onibus-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "usar transporte",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "ônibus",
+          "viagem",
+          "Depois"
         ]
       },
       {
+        "id": "portuguese-a1-de-onibus-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: ônibus, bilhete, ponto e viagem.”",
         "options": [
-          "usar transporte",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-de-onibus-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "bilhete",
+          "repetir",
+          "caderno"
+        ]
+      },
+      {
+        "id": "portuguese-a1-de-onibus-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "bilhete",
+          "repetir",
+          "caderno"
         ]
       }
     ]
@@ -51548,10 +54453,11 @@
         "No final, Luana escreve: “Podemos dividir as tarefas.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ dividir as tarefas.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: projeto, tarefa, ideia e grupo.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a propor e colaborar. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Podemos dividir as tarefas.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: projeto, tarefa, ideia e grupo.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Podemos dividir as tarefas.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -51559,23 +54465,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "propor e colaborar",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "tarefa",
+          "escola",
+          "amanhã"
         ]
       },
       {
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ dividir as tarefas.”.”",
         "options": [
-          "propor e colaborar",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "dividir",
+          "Podemos",
+          "tarefas",
+          "Durante"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: projeto, tarefa, ideia e grupo.”",
+        "options": [
+          "conversa",
+          "aprendem",
+          "palavras",
+          "pequenas"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "rua",
+          "Eles"
         ]
       }
     ]
@@ -53264,16 +56205,146 @@
     ],
     "reading": null,
     "transcript": "Um bilhete para o centro. Falamos de ônibus. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-de-onibus-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Um bilhete para…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Um bilhete para o centro."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Falamos de ônibus…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Falamos de ônibus."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Um bilhete para…”",
         "options": [
-          "Um bilhete para o centro.",
-          "ônibus",
-          "bilhete",
-          "ponto"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Um bilhete para o centro."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Falamos de ônibus…”",
+        "options": [
+          "Falamos de ônibus.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Gosto de aprender com a comunidade.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Vamos praticar juntos amanhã.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -53323,16 +56394,146 @@
     ],
     "reading": null,
     "transcript": "Podemos dividir as tarefas. Falamos de projeto. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-um-projeto-coletivo-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Podemos dividir as…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Podemos dividir as tarefas."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Falamos de projeto…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de projeto."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Podemos dividir as…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Podemos dividir as tarefas.",
-          "projeto",
-          "tarefa",
-          "ideia"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Falamos de projeto…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de projeto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -57114,38 +60315,62 @@
       "title": "Sabores do Brasil",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a expressar preferências. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Eu gosto desta sopa.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: arroz, feijão, sopa e sabor.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Eu gosto desta sopa.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: arroz e feijão. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Eu gosto desta sopa.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: arroz, feijão, sopa e sabor.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a expressar preferências. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Eu gosto desta sopa.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: arroz, feijão, sopa e sabor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Eu gosto desta sopa.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a expressar preferências. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Eu gosto desta sopa.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: arroz, feijão, sopa e sabor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: arroz e feijão. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Eu gosto desta sopa.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "expressar preferências",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "feijão",
+          "Depois",
+          "Luana"
         ]
       },
       {
+        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: arroz, feijão, sopa e sabor.”",
         "options": [
-          "expressar preferências",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -57176,10 +60401,11 @@
         "No final, Luana escreve: “Quero usar menos plástico.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ usar menos plástico.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: lixo, plástico, reciclar e ambiente.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a falar de hábitos. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Quero usar menos plástico.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lixo, plástico, reciclar e ambiente.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Quero usar menos plástico.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -57187,23 +60413,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "falar de hábitos",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "escola",
+          "amanhã",
+          "Rafael"
         ]
       },
       {
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ usar menos plástico.”.”",
         "options": [
-          "falar de hábitos",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "Luana",
+          "Quero",
+          "menos",
+          "úteis"
+        ]
+      },
+      {
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: lixo, plástico, reciclar e ambiente.”",
+        "options": [
+          "plástico",
+          "conversa",
+          "palavras",
+          "aprendem"
+        ]
+      },
+      {
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usar",
+          "lixo",
+          "usam",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "rua",
+          "usar"
         ]
       }
     ]
@@ -58892,16 +62153,146 @@
     ],
     "reading": null,
     "transcript": "Eu gosto desta sopa. Falamos de arroz. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-sabores-do-brasil-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Eu gosto desta…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Eu gosto desta sopa."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Falamos de arroz…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Falamos de arroz."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Eu gosto desta…”",
         "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
           "Eu gosto desta sopa.",
-          "arroz",
-          "feijão",
-          "sopa"
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Falamos de arroz…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Falamos de arroz."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Gosto de aprender com a comunidade.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Vamos praticar juntos amanhã.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]
@@ -58951,16 +62342,146 @@
     ],
     "reading": null,
     "transcript": "Quero usar menos plástico. Falamos de lixo. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-cidade-e-ambiente-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Quero usar menos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quero usar menos plástico."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Falamos de lixo…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Falamos de lixo."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Vamos praticar juntos amanhã."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Quero usar menos…”",
         "options": [
           "Quero usar menos plástico.",
-          "lixo",
-          "plástico",
-          "reciclar"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Falamos de lixo…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Falamos de lixo.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Gosto de aprender com a comunidade.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -62742,38 +66263,62 @@
       "title": "Mensagem para casa",
       "parts": [
         "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.",
-        "No final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: hoje e amanhã. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.",
+        "No final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: hoje, amanhã, casa e experiência.”",
+        "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”"
       ],
-      "text": "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
+      "text": "Luana está em Recife. Hoje ela aprende a escrever mensagem curta. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Hoje eu aprendi muito.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar. Luana abre o caderno e anota duas palavras: hoje e amanhã. Depois pergunta: “Você pode repetir, por favor?”. Rafael repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael. Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "escrever mensagem curta",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "amanhã",
+          "Depois",
+          "Luana"
         ]
       },
       {
+        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Durante a _____, aprendem palavras úteis: hoje, amanhã, casa e experiência.”",
         "options": [
-          "escrever mensagem curta",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "aprendem",
+          "conversa",
+          "palavras",
+          "pergunta"
+        ]
+      },
+      {
+        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois pergunta: “Você pode _____, por favor?”.”",
+        "options": [
+          "Durante",
+          "caderno",
+          "repetir",
+          "Recife"
+        ]
+      },
+      {
+        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No dia seguinte, quer usar as palavras sem olhar o _____.”",
+        "options": [
+          "Durante",
+          "repetir",
+          "Recife",
+          "caderno"
         ]
       }
     ]
@@ -62804,10 +66349,11 @@
         "No final, Luana escreve: “Foi uma viagem importante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
       ],
       "questions": [
-        "Onde está Luana?",
-        "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
+        "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ uma viagem importante.”.”",
+        "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: lembrança, encontro, mudar e futuro.”",
+        "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”"
       ],
       "text": "Luana está em Recife. Hoje ela aprende a contar experiência. Ela encontra Rafael perto de um lugar conhecido do bairro. Luana diz: “Foi uma viagem importante.”. Rafael responde com um sorriso e os dois conversam devagar. Eles escutam as pessoas, observam o lugar e repetem frases simples. Durante a conversa, aprendem palavras úteis: lembrança, encontro, mudar e futuro.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. Eles usam as palavras novas em pequenas situações: no café, na escola ou na rua. Assim, cada expressão ganha um sentido claro e fácil de lembrar.\n\nNo final, Luana escreve: “Foi uma viagem importante.”. Ela está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael."
     },
@@ -62815,23 +66361,58 @@
     "extra": null,
     "exercises": [
       {
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "O que a unidade pratica?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
-          "contar experiência",
-          "Uma regra isolada",
-          "Um exame técnico",
-          "Um tema sem contexto"
+          "Recife",
+          "viagem",
+          "futuro",
+          "escola"
         ]
       },
       {
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "O que o estudante faz?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ uma viagem importante.”.”",
         "options": [
-          "contar experiência",
-          "Memoriza sem usar",
-          "Evita falar",
-          "Só traduz"
+          "diz",
+          "Foi",
+          "rua",
+          "Ela"
+        ]
+      },
+      {
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Durante a conversa, aprendem _____ úteis: lembrança, encontro, mudar e futuro.”",
+        "options": [
+          "conversa",
+          "aprendem",
+          "palavras",
+          "encontro"
+        ]
+      },
+      {
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "options": [
+          "usam",
+          "café",
+          "pode",
+          "Eles"
+        ]
+      },
+      {
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
+        "options": [
+          "Ela",
+          "diz",
+          "Foi",
+          "rua"
         ]
       }
     ]
@@ -64520,16 +68101,146 @@
     ],
     "reading": null,
     "transcript": "Hoje eu aprendi muito. Falamos de hoje. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a1-mensagem-para-casa-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Hoje eu aprendi…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hoje eu aprendi muito."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Falamos de hoje…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Falamos de hoje."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Vamos praticar juntos amanhã."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Hoje eu aprendi…”",
         "options": [
           "Hoje eu aprendi muito.",
-          "hoje",
-          "amanhã",
-          "casa"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Falamos de hoje…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Falamos de hoje.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Gosto de aprender com a comunidade.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -64579,16 +68290,146 @@
     ],
     "reading": null,
     "transcript": "Foi uma viagem importante. Falamos de lembrança. Gosto de aprender com a comunidade. Vamos praticar juntos amanhã.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-a2-contar-uma-experiencia-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Foi uma viagem…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "A conversa termina sem uma proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Foi uma viagem importante."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Falamos de lembrança…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Falamos de lembrança."
+              },
+              {
+                "id": "o2",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Gosto de aprender…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "Gosto de aprender com a comunidade."
+              },
+              {
+                "id": "o3",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Vamos praticar juntos…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ninguém conta a própria experiência."
+              },
+              {
+                "id": "o2",
+                "text": "O grupo decide não colaborar."
+              },
+              {
+                "id": "o3",
+                "text": "Vamos praticar juntos amanhã."
+              },
+              {
+                "id": "o4",
+                "text": "A conversa termina sem uma proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Foi uma viagem…”",
         "options": [
-          "Foi uma viagem importante.",
-          "lembrança",
-          "encontro",
-          "mudar"
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta.",
+          "Foi uma viagem importante."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Falamos de lembrança…”",
+        "options": [
+          "Falamos de lembrança.",
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Gosto de aprender…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "Gosto de aprender com a comunidade.",
+          "O grupo decide não colaborar.",
+          "A conversa termina sem uma proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Vamos praticar juntos…”",
+        "options": [
+          "Ninguém conta a própria experiência.",
+          "O grupo decide não colaborar.",
+          "Vamos praticar juntos amanhã.",
+          "A conversa termina sem uma proposta."
         ]
       }
     ]

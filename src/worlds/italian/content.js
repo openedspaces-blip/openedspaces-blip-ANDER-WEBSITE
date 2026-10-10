@@ -46,12 +46,12 @@
     ],
     "reading": {
       "title": "Italiano A1 Reading",
-      "text": "Sofia è a Bologna. Oggi impara a escribir un mensaje breve. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi ho imparato molto.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.",
+      "text": "Sofia è a Bologna. Oggi impara a escribir un mensaje breve. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi ho imparato molto.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: oggi e domani. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno.",
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ]
     }
   },
@@ -99,10 +99,11 @@
       "title": "Italiano A2 Reading",
       "text": "Sofia è a Bologna. Oggi impara a narrar una experiencia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “È stato un viaggio importante.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ricordo, incontro, cambiare e futuro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “È stato un viaggio importante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.",
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: ricordo, incontro, cambiare e futuro.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ]
     }
   },
@@ -845,16 +846,16 @@
       "title": "Benvenuti in Italia",
       "parts": [
         "Sofia è a Bologna. Oggi impara a salutare e presentarsi. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ciao, come stai?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ciao, buongiorno, piacere e grazie.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Ciao, come stai?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: ciao e buongiorno. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Ciao, come stai?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a salutare e presentarsi. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ciao, come stai?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ciao, buongiorno, piacere e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Ciao, come stai?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a salutare e presentarsi. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ciao, come stai?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ciao, buongiorno, piacere e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: ciao e buongiorno. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Ciao, come stai?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -877,6 +878,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "guardare",
+          "ripetere",
+          "quaderno"
+        ]
+      },
+      {
+        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "grazie",
+          "chiede",
+          "favore",
+          "parole"
         ]
       }
     ]
@@ -907,10 +930,11 @@
         "Alla fine, Sofia scrive: “Di solito prendo l’autobus.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: quartiere, fermata, ufficio e servizio.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a describir una rutina. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Di solito prendo l’autobus.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: quartiere, fermata, ufficio e servizio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Di solito prendo l’autobus.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -935,6 +959,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-vita-in-citta-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: quartiere, fermata, ufficio e servizio.”",
+        "options": [
+          "solito",
+          "prendo",
+          "parole",
+          "scuola"
+        ]
+      },
+      {
+        "id": "italian-a2-vita-in-citta-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "solito",
+          "prendo",
+          "parole",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-vita-in-citta-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "imparano",
+          "servizio",
+          "Bologna"
         ]
       }
     ]
@@ -2533,16 +2590,146 @@
     ],
     "reading": null,
     "transcript": "Ciao, come stai? Parliamo di ciao. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-benvenuti-in-italia-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Ciao come stai…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Ciao, come stai?"
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Parliamo di ciao…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Parliamo di ciao."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi piace imparare con la comunità."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Ciao come stai…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Ciao, come stai?",
-          "ciao",
-          "buongiorno",
-          "piacere"
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Parliamo di ciao…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Parliamo di ciao.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -2592,16 +2779,146 @@
     ],
     "reading": null,
     "transcript": "Di solito prendo l’autobus. Parliamo di quartiere. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-vita-in-citta-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Di solito prendo…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Di solito prendo l’autobus."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Parliamo di quartiere…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Parliamo di quartiere."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Di solito prendo…”",
         "options": [
-          "Di solito prendo l’autobus.",
-          "quartiere",
-          "fermata",
-          "ufficio"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Di solito prendo l’autobus."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Parliamo di quartiere…”",
+        "options": [
+          "Parliamo di quartiere.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Mi piace imparare con la comunità.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Facciamo pratica insieme domani.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -6379,16 +6696,16 @@
       "title": "Un caffè al bar",
       "parts": [
         "Sofia è a Bologna. Oggi impara a ordinare con cortesia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un caffè, per favore.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: caffè, acqua, per favore e grazie.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Un caffè, per favore.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: caffè e acqua. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Un caffè, per favore.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a ordinare con cortesia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un caffè, per favore.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: caffè, acqua, per favore e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Un caffè, per favore.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a ordinare con cortesia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un caffè, per favore.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: caffè, acqua, per favore e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: caffè e acqua. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Un caffè, per favore.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -6411,6 +6728,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "guardare",
+          "ripetere",
+          "quaderno"
+        ]
+      },
+      {
+        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "favore",
+          "grazie",
+          "chiede",
+          "parole"
         ]
       }
     ]
@@ -6441,10 +6780,11 @@
         "Alla fine, Sofia scrive: “Vorrei visitare il museo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: museo, passeggiata, prenotazione e visita.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a hacer planes. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Vorrei visitare il museo.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: museo, passeggiata, prenotazione e visita.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Vorrei visitare il museo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -6469,6 +6809,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: museo, passeggiata, prenotazione e visita.”",
+        "options": [
+          "Vorrei",
+          "visita",
+          "parole",
+          "scuola"
+        ]
+      },
+      {
+        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "Vorrei",
+          "parole",
+          "visita",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "visitare",
+          "imparano",
+          "Bologna"
         ]
       }
     ]
@@ -8067,16 +8440,146 @@
     ],
     "reading": null,
     "transcript": "Un caffè, per favore. Parliamo di caffè. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-un-caffe-al-bar-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Un caffè per…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Un caffè, per favore."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Parliamo di caffè…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Parliamo di caffè."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi piace imparare con la comunità."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Un caffè per…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Un caffè, per favore.",
-          "caffè",
-          "acqua",
-          "per favore"
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Parliamo di caffè…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Parliamo di caffè.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -8126,16 +8629,146 @@
     ],
     "reading": null,
     "transcript": "Vorrei visitare il museo. Parliamo di museo. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-un-fine-settimana-a-napoli-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Vorrei visitare il…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei visitare il museo."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Parliamo di museo…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di museo."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Vorrei visitare il…”",
         "options": [
           "Vorrei visitare il museo.",
-          "museo",
-          "passeggiata",
-          "prenotazione"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Parliamo di museo…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Parliamo di museo.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Mi piace imparare con la comunità.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -11913,16 +12546,16 @@
       "title": "La famiglia a tavola",
       "parts": [
         "Sofia è a Bologna. Oggi impara a parlare della famiglia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ceniamo insieme.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: famiglia, cena, tavola e insieme.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Ceniamo insieme.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: famiglia e cena. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Ceniamo insieme.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a parlare della famiglia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ceniamo insieme.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: famiglia, cena, tavola e insieme.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Ceniamo insieme.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a parlare della famiglia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ceniamo insieme.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: famiglia, cena, tavola e insieme.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: famiglia e cena. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Ceniamo insieme.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -11945,6 +12578,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "famiglia",
+          "ripetere",
+          "guardare"
+        ]
+      },
+      {
+        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "tavola",
+          "chiede",
+          "favore",
+          "parole"
         ]
       }
     ]
@@ -11975,10 +12630,11 @@
         "Alla fine, Sofia scrive: “Prima taglio le verdure.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: ricetta, ingrediente, prima e dopo.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a explicar una secuencia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Prima taglio le verdure.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ricetta, ingrediente, prima e dopo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Prima taglio le verdure.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -12003,6 +12659,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: ricetta, ingrediente, prima e dopo.”",
+        "options": [
+          "taglio",
+          "scuola",
+          "parole",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "taglio",
+          "parole",
+          "scuola",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "imparano",
+          "Bologna",
+          "verdure"
         ]
       }
     ]
@@ -13601,16 +14290,146 @@
     ],
     "reading": null,
     "transcript": "Ceniamo insieme. Parliamo di famiglia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-la-famiglia-a-tavola-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Ceniamo insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Ceniamo insieme."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Parliamo di famiglia…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Parliamo di famiglia."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Ceniamo insieme…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Ceniamo insieme.",
-          "famiglia",
-          "cena",
-          "tavola"
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Parliamo di famiglia…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di famiglia."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -13660,16 +14479,146 @@
     ],
     "reading": null,
     "transcript": "Prima taglio le verdure. Parliamo di ricetta. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-ricette-di-famiglia-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Prima taglio le…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Prima taglio le verdure."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Parliamo di ricetta…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Parliamo di ricetta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Prima taglio le…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Prima taglio le verdure.",
-          "ricetta",
-          "ingrediente",
-          "prima"
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Parliamo di ricetta…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di ricetta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -17447,16 +18396,16 @@
       "title": "Il mercato del sabato",
       "parts": [
         "Sofia è a Bologna. Oggi impara a comprare al mercato. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Quanto costa un chilo?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pomodoro, mela, chilo e euro.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Quanto costa un chilo?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: pomodoro e mela. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Quanto costa un chilo?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a comprare al mercato. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Quanto costa un chilo?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pomodoro, mela, chilo e euro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Quanto costa un chilo?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a comprare al mercato. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Quanto costa un chilo?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pomodoro, mela, chilo e euro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: pomodoro e mela. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Quanto costa un chilo?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -17479,6 +18428,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "pomodoro",
+          "ripetere",
+          "guardare"
+        ]
+      },
+      {
+        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "chiede",
+          "favore",
+          "giorno",
+          "parole"
         ]
       }
     ]
@@ -17509,10 +18480,11 @@
         "Alla fine, Sofia scrive: “Posso fare una pausa?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: collega, pausa, riunione e orario.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a interactuar en el trabajo. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Posso fare una pausa?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: collega, pausa, riunione e orario.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Posso fare una pausa?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -17537,6 +18509,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: collega, pausa, riunione e orario.”",
+        "options": [
+          "orario",
+          "scuola",
+          "parole",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "parole",
+          "orario",
+          "scuola",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "imparano",
+          "riunione",
+          "Bologna"
         ]
       }
     ]
@@ -19135,16 +20140,146 @@
     ],
     "reading": null,
     "transcript": "Quanto costa un chilo? Parliamo di pomodoro. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-il-mercato-del-sabato-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Quanto costa un…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Parliamo di pomodoro…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Parliamo di pomodoro."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Quanto costa un…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Quanto costa un chilo?",
-          "pomodoro",
-          "mela",
-          "chilo"
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Parliamo di pomodoro…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di pomodoro."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -19194,16 +20329,146 @@
     ],
     "reading": null,
     "transcript": "Posso fare una pausa? Parliamo di collega. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-il-lavoro-e-il-caffe-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Posso fare una…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Parliamo di collega…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di collega."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Posso fare una…”",
         "options": [
           "Posso fare una pausa?",
-          "collega",
-          "pausa",
-          "riunione"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Parliamo di collega…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Parliamo di collega.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Mi piace imparare con la comunità.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -22981,16 +24246,16 @@
       "title": "In bicicletta",
       "parts": [
         "Sofia è a Bologna. Oggi impara a chiedere indicazioni. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Dov’è la stazione?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: strada, piazza, stazione e bicicletta.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Dov’è la stazione?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: strada e piazza. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Dov’è la stazione?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a chiedere indicazioni. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Dov’è la stazione?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: strada, piazza, stazione e bicicletta.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Dov’è la stazione?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a chiedere indicazioni. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Dov’è la stazione?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: strada, piazza, stazione e bicicletta.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: strada e piazza. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Dov’è la stazione?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -23013,6 +24278,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-in-bicicletta-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "stazione",
+          "ripetere",
+          "guardare"
+        ]
+      },
+      {
+        "id": "italian-a1-in-bicicletta-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "strada",
+          "piazza",
+          "chiede",
+          "parole"
         ]
       }
     ]
@@ -23043,10 +24330,11 @@
         "Alla fine, Sofia scrive: “La mostra era interessante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: mostra, artista, piazza e opinione.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a dar una opinión. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La mostra era interessante.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: mostra, artista, piazza e opinione.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “La mostra era interessante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -23071,6 +24359,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: mostra, artista, piazza e opinione.”",
+        "options": [
+          "mostra",
+          "piazza",
+          "parole",
+          "scuola"
+        ]
+      },
+      {
+        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "mostra",
+          "parole",
+          "piazza",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "imparano",
+          "opinione",
+          "Bologna"
         ]
       }
     ]
@@ -24669,16 +25990,146 @@
     ],
     "reading": null,
     "transcript": "Dov’è la stazione? Parliamo di strada. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-in-bicicletta-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Dov’è la stazione…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Parliamo di strada…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di strada."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Dov’è la stazione…”",
         "options": [
           "Dov’è la stazione?",
-          "strada",
-          "piazza",
-          "stazione"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Parliamo di strada…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Parliamo di strada.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Mi piace imparare con la comunità.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -24728,16 +26179,146 @@
     ],
     "reading": null,
     "transcript": "La mostra era interessante. Parliamo di mostra. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-arte-nel-quartiere-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “La mostra era…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Parliamo di mostra…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di mostra."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “La mostra era…”",
         "options": [
           "La mostra era interessante.",
-          "mostra",
-          "artista",
-          "piazza"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Parliamo di mostra…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Parliamo di mostra.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Mi piace imparare con la comunità.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -28515,16 +30096,16 @@
       "title": "Scuola e amici",
       "parts": [
         "Sofia è a Bologna. Oggi impara a hablar de gustos. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Che materia ti piace?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: scuola, amico, lezione e compito.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Che materia ti piace?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: scuola e amico. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Che materia ti piace?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a hablar de gustos. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Che materia ti piace?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: scuola, amico, lezione e compito.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Che materia ti piace?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a hablar de gustos. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Che materia ti piace?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: scuola, amico, lezione e compito.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: scuola e amico. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Che materia ti piace?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -28547,6 +30128,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-scuola-e-amici-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "guardare",
+          "ripetere",
+          "quaderno"
+        ]
+      },
+      {
+        "id": "italian-a1-scuola-e-amici-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "scuola",
+          "chiede",
+          "favore",
+          "parole"
         ]
       }
     ]
@@ -28577,10 +30180,11 @@
         "Alla fine, Sofia scrive: “Non voglio disturbare i residenti.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: residente, rispetto, mappa e scelta.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a expresar intención. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Non voglio disturbare i residenti.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: residente, rispetto, mappa e scelta.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Non voglio disturbare i residenti.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -28605,6 +30209,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: residente, rispetto, mappa e scelta.”",
+        "options": [
+          "voglio",
+          "scelta",
+          "parole",
+          "scuola"
+        ]
+      },
+      {
+        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "voglio",
+          "parole",
+          "scelta",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "imparano",
+          "rispetto",
+          "Bologna"
         ]
       }
     ]
@@ -30203,16 +31840,146 @@
     ],
     "reading": null,
     "transcript": "Che materia ti piace? Parliamo di scuola. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-scuola-e-amici-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Che materia ti…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Che materia ti piace?"
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Parliamo di scuola…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Parliamo di scuola."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi piace imparare con la comunità."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Che materia ti…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Che materia ti piace?",
-          "scuola",
-          "amico",
-          "lezione"
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Parliamo di scuola…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Parliamo di scuola.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -30262,16 +32029,146 @@
     ],
     "reading": null,
     "transcript": "Non voglio disturbare i residenti. Parliamo di residente. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-viaggiare-con-responsabilita-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Non voglio disturbare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Parliamo di residente…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Parliamo di residente."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Non voglio disturbare…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Non voglio disturbare i residenti.",
-          "residente",
-          "rispetto",
-          "mappa"
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Parliamo di residente…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di residente."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -34049,16 +35946,16 @@
       "title": "Una casa italiana",
       "parts": [
         "Sofia è a Bologna. Oggi impara a describir una casa. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La cucina è luminosa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: cucina, camera, finestra e balcone.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “La cucina è luminosa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: cucina e camera. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “La cucina è luminosa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a describir una casa. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La cucina è luminosa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: cucina, camera, finestra e balcone.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “La cucina è luminosa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a describir una casa. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La cucina è luminosa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: cucina, camera, finestra e balcone.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: cucina e camera. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “La cucina è luminosa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -34081,6 +35978,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-una-casa-italiana-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "finestra",
+          "ripetere",
+          "guardare"
+        ]
+      },
+      {
+        "id": "italian-a1-una-casa-italiana-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "cucina",
+          "camera",
+          "chiede",
+          "parole"
         ]
       }
     ]
@@ -34111,10 +36030,11 @@
         "Alla fine, Sofia scrive: “Da giovane giocavo spesso.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: nuoto, corsa, squadra e allenamento.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a hablar del pasado. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Da giovane giocavo spesso.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: nuoto, corsa, squadra e allenamento.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Da giovane giocavo spesso.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -34139,6 +36059,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: nuoto, corsa, squadra e allenamento.”",
+        "options": [
+          "spesso",
+          "scuola",
+          "parole",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "spesso",
+          "parole",
+          "scuola",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "imparano",
+          "Bologna",
+          "giovane"
         ]
       }
     ]
@@ -35737,16 +37690,146 @@
     ],
     "reading": null,
     "transcript": "La cucina è luminosa. Parliamo di cucina. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-una-casa-italiana-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “La cucina è…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Parliamo di cucina…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Parliamo di cucina."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi piace imparare con la comunità."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “La cucina è…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "La cucina è luminosa.",
-          "cucina",
-          "camera",
-          "finestra"
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Parliamo di cucina…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Parliamo di cucina.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -35796,16 +37879,146 @@
     ],
     "reading": null,
     "transcript": "Da giovane giocavo spesso. Parliamo di nuoto. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-sport-e-tempo-libero-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Da giovane giocavo…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Da giovane giocavo spesso."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Parliamo di nuoto…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Parliamo di nuoto."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Da giovane giocavo…”",
         "options": [
-          "Da giovane giocavo spesso.",
-          "nuoto",
-          "corsa",
-          "squadra"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Da giovane giocavo spesso."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Parliamo di nuoto…”",
+        "options": [
+          "Parliamo di nuoto.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Mi piace imparare con la comunità.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Facciamo pratica insieme domani.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -39583,16 +41796,16 @@
       "title": "Il tempo e le stagioni",
       "parts": [
         "Sofia è a Bologna. Oggi impara a hablar del tiempo. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi fa caldo.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: sole, pioggia, caldo e freddo.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Oggi fa caldo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: sole e pioggia. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Oggi fa caldo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a hablar del tiempo. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi fa caldo.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: sole, pioggia, caldo e freddo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Oggi fa caldo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a hablar del tiempo. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi fa caldo.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: sole, pioggia, caldo e freddo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: sole e pioggia. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Oggi fa caldo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -39615,6 +41828,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "guardare",
+          "ripetere",
+          "quaderno"
+        ]
+      },
+      {
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "freddo",
+          "chiede",
+          "favore",
+          "parole"
         ]
       }
     ]
@@ -39645,10 +41880,11 @@
         "Alla fine, Sofia scrive: “Mi fa male la gola.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: farmacia, dolore, riposo e consiglio.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a expresar malestar simple. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Mi fa male la gola.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: farmacia, dolore, riposo e consiglio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Mi fa male la gola.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -39673,6 +41909,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: farmacia, dolore, riposo e consiglio.”",
+        "options": [
+          "dolore",
+          "riposo",
+          "parole",
+          "scuola"
+        ]
+      },
+      {
+        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "parole",
+          "dolore",
+          "riposo",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "imparano",
+          "farmacia",
+          "Bologna"
         ]
       }
     ]
@@ -41271,16 +43540,146 @@
     ],
     "reading": null,
     "transcript": "Oggi fa caldo. Parliamo di sole. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-il-tempo-e-le-stagioni-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Oggi fa caldo…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Parliamo di sole…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Parliamo di sole."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Oggi fa caldo…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Oggi fa caldo.",
-          "sole",
-          "pioggia",
-          "caldo"
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Parliamo di sole…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di sole."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -41330,16 +43729,146 @@
     ],
     "reading": null,
     "transcript": "Mi fa male la gola. Parliamo di farmacia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-la-salute-ogni-giorno-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi fa male…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Parliamo di farmacia…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Parliamo di farmacia."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi fa male…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Mi fa male la gola.",
-          "farmacia",
-          "dolore",
-          "riposo"
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Parliamo di farmacia…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di farmacia."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -45117,16 +47646,16 @@
       "title": "Una festa di quartiere",
       "parts": [
         "Sofia è a Bologna. Oggi impara a invitar y aceptar. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ci vediamo alla festa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: festa, musica, vicino e sabato.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Ci vediamo alla festa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: festa e musica. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Ci vediamo alla festa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a invitar y aceptar. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ci vediamo alla festa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: festa, musica, vicino e sabato.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Ci vediamo alla festa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a invitar y aceptar. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ci vediamo alla festa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: festa, musica, vicino e sabato.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: festa e musica. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Ci vediamo alla festa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -45149,6 +47678,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "guardare",
+          "ripetere",
+          "quaderno"
+        ]
+      },
+      {
+        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "musica",
+          "vicino",
+          "sabato",
+          "parole"
         ]
       }
     ]
@@ -45179,10 +47730,11 @@
         "Alla fine, Sofia scrive: “La sua famiglia è arrivata anni fa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: famiglia, origine, arrivare e comunità.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a contar una historia sencilla. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La sua famiglia è arrivata anni fa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: famiglia, origine, arrivare e comunità.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “La sua famiglia è arrivata anni fa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -45207,6 +47759,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-storie-di-migrazione-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: famiglia, origine, arrivare e comunità.”",
+        "options": [
+          "scuola",
+          "strada",
+          "parole",
+          "perché"
+        ]
+      },
+      {
+        "id": "italian-a2-storie-di-migrazione-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "parole",
+          "scuola",
+          "perché",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-storie-di-migrazione-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "famiglia",
+          "arrivata",
+          "imparano"
         ]
       }
     ]
@@ -46805,16 +49390,146 @@
     ],
     "reading": null,
     "transcript": "Ci vediamo alla festa. Parliamo di festa. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-una-festa-di-quartiere-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Ci vediamo alla…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Parliamo di festa…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Parliamo di festa."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Mi piace imparare con la comunità."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Ci vediamo alla…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
           "Ci vediamo alla festa.",
-          "festa",
-          "musica",
-          "vicino"
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Parliamo di festa…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Parliamo di festa.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Mi piace imparare con la comunità."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Facciamo pratica insieme domani.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -46864,16 +49579,146 @@
     ],
     "reading": null,
     "transcript": "La sua famiglia è arrivata anni fa. Parliamo di famiglia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-storie-di-migrazione-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “La sua famiglia…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "La sua famiglia è arrivata anni fa."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Parliamo di famiglia…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “La sua famiglia…”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "famiglia",
-          "origine",
-          "arrivare"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "La sua famiglia è arrivata anni fa."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Parliamo di famiglia…”",
+        "options": [
+          "Parliamo di famiglia.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Mi piace imparare con la comunità.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Facciamo pratica insieme domani.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -50651,16 +53496,16 @@
       "title": "In treno",
       "parts": [
         "Sofia è a Bologna. Oggi impara a comprar un billete. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un biglietto per Firenze.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: treno, biglietto, binario e viaggio.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Un biglietto per Firenze.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: treno e biglietto. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Un biglietto per Firenze.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a comprar un billete. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un biglietto per Firenze.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: treno, biglietto, binario e viaggio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Un biglietto per Firenze.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a comprar un billete. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un biglietto per Firenze.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: treno, biglietto, binario e viaggio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: treno e biglietto. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Un biglietto per Firenze.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -50683,6 +53528,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-in-treno-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "guardare",
+          "ripetere",
+          "quaderno"
+        ]
+      },
+      {
+        "id": "italian-a1-in-treno-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "chiede",
+          "favore",
+          "giorno",
+          "parole"
         ]
       }
     ]
@@ -50713,10 +53580,11 @@
         "Alla fine, Sofia scrive: “Possiamo dividere i compiti.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: progetto, compito, idea e gruppo.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a proponer y colaborar. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Possiamo dividere i compiti.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: progetto, compito, idea e gruppo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Possiamo dividere i compiti.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -50741,6 +53609,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: progetto, compito, idea e gruppo.”",
+        "options": [
+          "gruppo",
+          "scuola",
+          "parole",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "parole",
+          "gruppo",
+          "scuola",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "Possiamo",
+          "dividere",
+          "imparano"
         ]
       }
     ]
@@ -52339,16 +55240,146 @@
     ],
     "reading": null,
     "transcript": "Un biglietto per Firenze. Parliamo di treno. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-in-treno-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Un biglietto per…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un biglietto per Firenze."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Parliamo di treno…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di treno."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Un biglietto per…”",
         "options": [
           "Un biglietto per Firenze.",
-          "treno",
-          "biglietto",
-          "binario"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Parliamo di treno…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Parliamo di treno.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Mi piace imparare con la comunità.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -52398,16 +55429,146 @@
     ],
     "reading": null,
     "transcript": "Possiamo dividere i compiti. Parliamo di progetto. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-un-progetto-di-classe-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Possiamo dividere i…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Possiamo dividere i compiti."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Parliamo di progetto…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Parliamo di progetto."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Possiamo dividere i…”",
         "options": [
-          "Possiamo dividere i compiti.",
-          "progetto",
-          "compito",
-          "idea"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Possiamo dividere i compiti."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Parliamo di progetto…”",
+        "options": [
+          "Parliamo di progetto.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Mi piace imparare con la comunità.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Facciamo pratica insieme domani.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -56185,16 +59346,16 @@
       "title": "Sapori d'Italia",
       "parts": [
         "Sofia è a Bologna. Oggi impara a expresar preferencias. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Mi piace questa zuppa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pane, zuppa, formaggio e gusto.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Mi piace questa zuppa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: pane e zuppa. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Mi piace questa zuppa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a expresar preferencias. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Mi piace questa zuppa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pane, zuppa, formaggio e gusto.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Mi piace questa zuppa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a expresar preferencias. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Mi piace questa zuppa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pane, zuppa, formaggio e gusto.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: pane e zuppa. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Mi piace questa zuppa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -56217,6 +59378,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-sapori-d-italia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "guardare",
+          "ripetere",
+          "quaderno"
+        ]
+      },
+      {
+        "id": "italian-a1-sapori-d-italia-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "chiede",
+          "favore",
+          "giorno",
+          "parole"
         ]
       }
     ]
@@ -56247,10 +59430,11 @@
         "Alla fine, Sofia scrive: “Vorrei usare meno plastica.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: rifiuti, plastica, riciclare e ambiente.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a hablar de hábitos. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Vorrei usare meno plastica.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: rifiuti, plastica, riciclare e ambiente.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Vorrei usare meno plastica.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -56275,6 +59459,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-ambiente-e-citta-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: rifiuti, plastica, riciclare e ambiente.”",
+        "options": [
+          "Vorrei",
+          "scuola",
+          "parole",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-ambiente-e-citta-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "Vorrei",
+          "parole",
+          "scuola",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-ambiente-e-citta-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "plastica",
+          "imparano",
+          "ambiente"
         ]
       }
     ]
@@ -57873,16 +61090,146 @@
     ],
     "reading": null,
     "transcript": "Mi piace questa zuppa. Parliamo di pane. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-sapori-d-italia-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace questa…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Parliamo di pane…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pane."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace questa…”",
         "options": [
           "Mi piace questa zuppa.",
-          "pane",
-          "zuppa",
-          "formaggio"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Parliamo di pane…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Parliamo di pane.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Mi piace imparare con la comunità.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -57932,16 +61279,146 @@
     ],
     "reading": null,
     "transcript": "Vorrei usare meno plastica. Parliamo di rifiuti. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-ambiente-e-citta-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Vorrei usare meno…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Parliamo di rifiuti…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Parliamo di rifiuti."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Vorrei usare meno…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Vorrei usare meno plastica.",
-          "rifiuti",
-          "plastica",
-          "riciclare"
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Parliamo di rifiuti…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di rifiuti."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -61719,16 +65196,16 @@
       "title": "Un messaggio a casa",
       "parts": [
         "Sofia è a Bologna. Oggi impara a escribir un mensaje breve. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi ho imparato molto.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: oggi, domani, casa e esperienza.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
-        "Alla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: oggi e domani. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.",
+        "Alla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”"
       ],
-      "text": "Sofia è a Bologna. Oggi impara a escribir un mensaje breve. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi ho imparato molto.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
+      "text": "Sofia è a Bologna. Oggi impara a escribir un mensaje breve. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi ho imparato molto.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare. Sofia apre il quaderno e scrive due parole: oggi e domani. Poi chiede: “Puoi ripetere, per favore?”. Marco ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.\n\nAlla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco. A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno."
     },
     "transcript": "",
     "extra": null,
@@ -61751,6 +65228,28 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Poi chiede: “Puoi _____, per favore?”.”",
+        "options": [
+          "imparano",
+          "guardare",
+          "ripetere",
+          "quaderno"
+        ]
+      },
+      {
+        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Il giorno dopo vuole usare le _____ senza guardare il quaderno.”",
+        "options": [
+          "domani",
+          "chiede",
+          "favore",
+          "parole"
         ]
       }
     ]
@@ -61781,10 +65280,11 @@
         "Alla fine, Sofia scrive: “È stato un viaggio importante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
-        "Dove è Sofia?",
-        "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa pratica l’unità?",
+        "Che cosa fa lo studente?",
+        "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: ricordo, incontro, cambiare e futuro.”",
+        "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”"
       ],
       "text": "Sofia è a Bologna. Oggi impara a narrar una experiencia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “È stato un viaggio importante.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ricordo, incontro, cambiare e futuro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “È stato un viaggio importante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
@@ -61809,6 +65309,39 @@
           "Memorizza senza usare",
           "Evita di parlare",
           "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: ricordo, incontro, cambiare e futuro.”",
+        "options": [
+          "futuro",
+          "scuola",
+          "parole",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
+        "options": [
+          "parole",
+          "futuro",
+          "scuola",
+          "strada"
+        ]
+      },
+      {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
+        "options": [
+          "contenta",
+          "imparano",
+          "incontro",
+          "cambiare"
         ]
       }
     ]
@@ -63407,16 +66940,146 @@
     ],
     "reading": null,
     "transcript": "Oggi ho imparato molto. Parliamo di oggi. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-un-messaggio-a-casa-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Oggi ho imparato…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Parliamo di oggi…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Parliamo di oggi."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Facciamo pratica insieme domani."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Oggi ho imparato…”",
         "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
           "Oggi ho imparato molto.",
-          "oggi",
-          "domani",
-          "casa"
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Parliamo di oggi…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Parliamo di oggi."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Mi piace imparare con la comunità.",
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Facciamo pratica insieme domani.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
         ]
       }
     ]
@@ -63466,16 +67129,146 @@
     ],
     "reading": null,
     "transcript": "È stato un viaggio importante. Parliamo di ricordo. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
-    "extra": null,
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “È stato un…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "o2",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Parliamo di ricordo…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricordo."
+              },
+              {
+                "id": "o3",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Mi piace imparare…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "La conversazione termina senza una proposta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Facciamo pratica insieme…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Nessuno racconta la propria esperienza."
+              },
+              {
+                "id": "o2",
+                "text": "Il gruppo decide di non collaborare."
+              },
+              {
+                "id": "o3",
+                "text": "La conversazione termina senza una proposta."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué expresión escuchas?",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “È stato un…”",
         "options": [
           "È stato un viaggio importante.",
-          "ricordo",
-          "incontro",
-          "cambiare"
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Parliamo di ricordo…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Parliamo di ricordo.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Mi piace imparare…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "Mi piace imparare con la comunità.",
+          "La conversazione termina senza una proposta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Facciamo pratica insieme…”",
+        "options": [
+          "Nessuno racconta la propria esperienza.",
+          "Il gruppo decide di non collaborare.",
+          "La conversazione termina senza una proposta.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]

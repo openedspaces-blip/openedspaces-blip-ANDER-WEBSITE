@@ -1735,23 +1735,23 @@
           {
             "id": "english-b2-social-media-public-opinion-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Social Media and Public Opinion, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Social Media and Public Opinion, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -1785,8 +1785,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Social Media and Public Opinion, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -1813,12 +1813,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Social Media and Public Opinion, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Social Media and Public Opinion, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -1955,23 +1955,23 @@
           {
             "id": "english-c1-antimicrobial-resistance-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Antimicrobial Resistance and One Health, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Antimicrobial Resistance and One Health, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -2005,8 +2005,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Antimicrobial Resistance and One Health, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -2033,12 +2033,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Antimicrobial Resistance and One Health, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Antimicrobial Resistance and One Health, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -2175,23 +2175,23 @@
           {
             "id": "english-c2-adult-neuroplasticity-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Adult Neuroplasticity and Second-Language Mastery, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Adult Neuroplasticity and Second-Language Mastery, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -2225,8 +2225,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Adult Neuroplasticity and Second-Language Mastery, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -2253,12 +2253,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Adult Neuroplasticity and Second-Language Mastery, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Adult Neuroplasticity and Second-Language Mastery, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -2319,38 +2319,145 @@
           "text": "Sarah smiles because his second answer sounds much more natural."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-new-challenges-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Practising for the Interview”? “Daniel is practising…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel is practising for his hotel interview with Sarah."
+              },
+              {
+                "id": "o2",
+                "text": "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah tells him to give more details and to finish with what he learned."
+              },
+              {
+                "id": "o4",
+                "text": "Daniel repeats the answer, this time more clearly."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Practising for the Interview”? “Sarah tells him to give…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel is practising for his hotel interview with Sarah."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah tells him to give more details and to finish with what he learned."
+              },
+              {
+                "id": "o3",
+                "text": "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm."
+              },
+              {
+                "id": "o4",
+                "text": "Daniel repeats the answer, this time more clearly."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Practising for the Interview”? “Daniel repeats the…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel is practising for his hotel interview with Sarah."
+              },
+              {
+                "id": "o2",
+                "text": "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel repeats the answer, this time more clearly."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah tells him to give more details and to finish with what he learned."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Practising for the Interview”? “Sarah smiles because his…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel is practising for his hotel interview with Sarah."
+              },
+              {
+                "id": "o2",
+                "text": "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah tells him to give more details and to finish with what he learned."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah smiles because his second answer sounds much more natural."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “Practising for the Interview”? “Daniel is practising…”",
         "options": [
-          "New Challenges",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Daniel is practising for his hotel interview with Sarah.",
+          "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm.",
+          "Sarah tells him to give more details and to finish with what he learned.",
+          "Daniel repeats the answer, this time more clearly."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “Practising for the Interview”? “Sarah tells him to give…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Daniel is practising for his hotel interview with Sarah.",
+          "Sarah tells him to give more details and to finish with what he learned.",
+          "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm.",
+          "Daniel repeats the answer, this time more clearly."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “Practising for the Interview”? “Daniel repeats the…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Daniel is practising for his hotel interview with Sarah.",
+          "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm.",
+          "Daniel repeats the answer, this time more clearly.",
+          "Sarah tells him to give more details and to finish with what he learned."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “Practising for the Interview”? “Sarah smiles because his…”",
+        "options": [
+          "Daniel is practising for his hotel interview with Sarah.",
+          "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm.",
+          "Sarah tells him to give more details and to finish with what he learned.",
+          "Sarah smiles because his second answer sounds much more natural."
         ]
       }
     ]
@@ -8201,23 +8308,23 @@
           {
             "id": "english-b2-plastic-pollution-cities-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Plastic Pollution in Our Cities, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Plastic Pollution in Our Cities, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -8251,8 +8358,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Plastic Pollution in Our Cities, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -8279,12 +8386,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Plastic Pollution in Our Cities, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Plastic Pollution in Our Cities, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -8421,23 +8528,23 @@
           {
             "id": "english-c1-ai-energy-demand-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Artificial Intelligence and Energy Demand, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Artificial Intelligence and Energy Demand, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -8471,8 +8578,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Artificial Intelligence and Energy Demand, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -8499,12 +8606,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Artificial Intelligence and Energy Demand, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Artificial Intelligence and Energy Demand, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -8641,23 +8748,23 @@
           {
             "id": "english-c2-retrieval-spacing-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Retrieval Practice, Spacing and Durable Learning, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Retrieval Practice, Spacing and Durable Learning, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -8691,8 +8798,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Retrieval Practice, Spacing and Durable Learning, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -8719,12 +8826,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Retrieval Practice, Spacing and Durable Learning, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Retrieval Practice, Spacing and Durable Learning, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -8780,38 +8887,145 @@
           "text": "They agree to spend the evening preparing her application."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-work-and-ambition-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Career Conversation”? “Sarah tells Daniel that…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says she wants to grow, but she is afraid of making mistakes."
+              },
+              {
+                "id": "o4",
+                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Career Conversation”? “Daniel asks whether she really…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says she wants to grow, but she is afraid of making mistakes."
+              },
+              {
+                "id": "o4",
+                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Career Conversation”? “Sarah says she wants to…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says she wants to grow, but she is afraid of making mistakes."
+              },
+              {
+                "id": "o4",
+                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Career Conversation”? “They agree to…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says she wants to grow, but she is afraid of making mistakes."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to spend the evening preparing her application."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “A Career Conversation”? “Sarah tells Daniel that…”",
         "options": [
-          "Work and Ambition",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah tells Daniel that she is thinking about applying for a promotion.",
+          "Daniel asks whether she really wants the job or only feels pushed by other people.",
+          "Sarah says she wants to grow, but she is afraid of making mistakes.",
+          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “A Career Conversation”? “Daniel asks whether she really…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah tells Daniel that she is thinking about applying for a promotion.",
+          "Daniel asks whether she really wants the job or only feels pushed by other people.",
+          "Sarah says she wants to grow, but she is afraid of making mistakes.",
+          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “A Career Conversation”? “Sarah says she wants to…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah tells Daniel that she is thinking about applying for a promotion.",
+          "Daniel asks whether she really wants the job or only feels pushed by other people.",
+          "Sarah says she wants to grow, but she is afraid of making mistakes.",
+          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “A Career Conversation”? “They agree to…”",
+        "options": [
+          "Sarah tells Daniel that she is thinking about applying for a promotion.",
+          "Daniel asks whether she really wants the job or only feels pushed by other people.",
+          "Sarah says she wants to grow, but she is afraid of making mistakes.",
+          "They agree to spend the evening preparing her application."
         ]
       }
     ]
@@ -14563,23 +14777,23 @@
           {
             "id": "english-b2-climate-change-daily-decisions-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Climate Change and Everyday Decisions, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Climate Change and Everyday Decisions, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -14613,8 +14827,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Climate Change and Everyday Decisions, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -14641,12 +14855,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Climate Change and Everyday Decisions, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Climate Change and Everyday Decisions, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -14783,23 +14997,23 @@
           {
             "id": "english-c1-gene-editing-access-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Gene Editing, Treatment and Access, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Gene Editing, Treatment and Access, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -14833,8 +15047,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Gene Editing, Treatment and Access, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -14861,12 +15075,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Gene Editing, Treatment and Access, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Gene Editing, Treatment and Access, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -15003,23 +15217,23 @@
           {
             "id": "english-c2-sleep-consolidation-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Sleep, Memory and Vocabulary Consolidation, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Sleep, Memory and Vocabulary Consolidation, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -15053,8 +15267,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Sleep, Memory and Vocabulary Consolidation, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -15081,12 +15295,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Sleep, Memory and Vocabulary Consolidation, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Sleep, Memory and Vocabulary Consolidation, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -15137,38 +15351,145 @@
           "text": "Everyone agrees that the event must be safe, organised and friendly for families."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-community-life-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Planning the Clean-up”? “At the community centre Sarah…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+              },
+              {
+                "id": "o2",
+                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests creating a simple online form so people can choose a task."
+              },
+              {
+                "id": "o4",
+                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Planning the Clean-up”? “They decide that volunteers should arrive…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+              },
+              {
+                "id": "o2",
+                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests creating a simple online form so people can choose a task."
+              },
+              {
+                "id": "o4",
+                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Planning the Clean-up”? “Daniel suggests creating a simple…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+              },
+              {
+                "id": "o2",
+                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests creating a simple online form so people can choose a task."
+              },
+              {
+                "id": "o4",
+                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Planning the Clean-up”? “Everyone agrees that the event…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+              },
+              {
+                "id": "o2",
+                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests creating a simple online form so people can choose a task."
+              },
+              {
+                "id": "o4",
+                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “Planning the Clean-up”? “At the community centre Sarah…”",
         "options": [
-          "Community Life",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
+          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
+          "Daniel suggests creating a simple online form so people can choose a task.",
+          "Everyone agrees that the event must be safe, organised and friendly for families."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “Planning the Clean-up”? “They decide that volunteers should arrive…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
+          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
+          "Daniel suggests creating a simple online form so people can choose a task.",
+          "Everyone agrees that the event must be safe, organised and friendly for families."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “Planning the Clean-up”? “Daniel suggests creating a simple…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
+          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
+          "Daniel suggests creating a simple online form so people can choose a task.",
+          "Everyone agrees that the event must be safe, organised and friendly for families."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “Planning the Clean-up”? “Everyone agrees that the event…”",
+        "options": [
+          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
+          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
+          "Daniel suggests creating a simple online form so people can choose a task.",
+          "Everyone agrees that the event must be safe, organised and friendly for families."
         ]
       }
     ]
@@ -20925,23 +21246,23 @@
           {
             "id": "english-b2-corruption-public-trust-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Corruption and Public Trust in Latin America and the Caribbean, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Corruption and Public Trust in Latin America and the Caribbean, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -20975,8 +21296,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Corruption and Public Trust in Latin America and the Caribbean, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -21003,12 +21324,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Corruption and Public Trust in Latin America and the Caribbean, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Corruption and Public Trust in Latin America and the Caribbean, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -21145,23 +21466,23 @@
           {
             "id": "english-c1-climate-health-air-pollution-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Climate, Air Pollution and Health, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Climate, Air Pollution and Health, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -21195,8 +21516,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Climate, Air Pollution and Health, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -21223,12 +21544,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Climate, Air Pollution and Health, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Climate, Air Pollution and Health, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -21365,23 +21686,23 @@
           {
             "id": "english-c2-incidental-acquisition-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Comprehensible Input and Incidental Acquisition, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Comprehensible Input and Incidental Acquisition, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -21415,8 +21736,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Comprehensible Input and Incidental Acquisition, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -21443,12 +21764,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Comprehensible Input and Incidental Acquisition, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Comprehensible Input and Incidental Acquisition, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -21494,38 +21815,145 @@
           "text": "They decide to have breakfast, check the new arrival time and choose one activity to remove from the itinerary."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-travel-with-purpose-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Changing the Plan: Why do they need to change their plan?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "the train is delayed"
+              },
+              {
+                "id": "o2",
+                "text": "the museum is closed"
+              },
+              {
+                "id": "o3",
+                "text": "Sarah has lost her ticket"
+              },
+              {
+                "id": "o4",
+                "text": "Daniel is ill"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Changing the Plan: Why is Sarah frustrated?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "she dislikes museums"
+              },
+              {
+                "id": "o2",
+                "text": "she wanted to arrive early"
+              },
+              {
+                "id": "o3",
+                "text": "she missed breakfast"
+              },
+              {
+                "id": "o4",
+                "text": "she forgot her luggage"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Changing the Plan: When can they visit the main museum?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "before sunrise"
+              },
+              {
+                "id": "o2",
+                "text": "next week"
+              },
+              {
+                "id": "o3",
+                "text": "in the afternoon"
+              },
+              {
+                "id": "o4",
+                "text": "at midnight"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Changing the Plan: What do they decide to remove from the itinerary?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "every museum visit"
+              },
+              {
+                "id": "o2",
+                "text": "their breakfast"
+              },
+              {
+                "id": "o3",
+                "text": "the entire trip"
+              },
+              {
+                "id": "o4",
+                "text": "one activity"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Changing the Plan: Why do they need to change their plan?",
         "options": [
-          "Travel with Purpose",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "the train is delayed",
+          "the museum is closed",
+          "Sarah has lost her ticket",
+          "Daniel is ill"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Changing the Plan: Why is Sarah frustrated?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "she dislikes museums",
+          "she wanted to arrive early",
+          "she missed breakfast",
+          "she forgot her luggage"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Changing the Plan: When can they visit the main museum?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "before sunrise",
+          "next week",
+          "in the afternoon",
+          "at midnight"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Changing the Plan: What do they decide to remove from the itinerary?",
+        "options": [
+          "every museum visit",
+          "their breakfast",
+          "the entire trip",
+          "one activity"
         ]
       }
     ]
@@ -27267,23 +27695,23 @@
           {
             "id": "english-b2-fourth-of-july-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: The Fourth of July: Freedom and Contradictions, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: The Fourth of July: Freedom and Contradictions, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -27317,8 +27745,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: The Fourth of July: Freedom and Contradictions, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -27345,12 +27773,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: The Fourth of July: Freedom and Contradictions, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: The Fourth of July: Freedom and Contradictions, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -27487,23 +27915,23 @@
           {
             "id": "english-c1-loneliness-public-health-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Loneliness as a Public-Health Issue, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Loneliness as a Public-Health Issue, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -27537,8 +27965,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Loneliness as a Public-Health Issue, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -27565,12 +27993,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Loneliness as a Public-Health Issue, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Loneliness as a Public-Health Issue, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -27707,23 +28135,23 @@
           {
             "id": "english-c2-multimodal-learning-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Reading, Listening and Multimodal Learning, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Reading, Listening and Multimodal Learning, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -27757,8 +28185,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Reading, Listening and Multimodal Learning, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -27785,12 +28213,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Reading, Listening and Multimodal Learning, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Reading, Listening and Multimodal Learning, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -27841,38 +28269,145 @@
           "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-health-and-balance-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Healthier Routine”? “Sarah and Daniel…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their evening routines."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she needs to stop checking emails late at night."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+              },
+              {
+                "id": "o4",
+                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Healthier Routine”? “Sarah says she needs…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their evening routines."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she needs to stop checking emails late at night."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+              },
+              {
+                "id": "o4",
+                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Healthier Routine”? “Daniel says he wants to…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their evening routines."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she needs to stop checking emails late at night."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+              },
+              {
+                "id": "o4",
+                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Healthier Routine”? “They agree that small habits…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their evening routines."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she needs to stop checking emails late at night."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+              },
+              {
+                "id": "o4",
+                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “A Healthier Routine”? “Sarah and Daniel…”",
         "options": [
-          "Health and Balance",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah and Daniel discuss their evening routines.",
+          "Sarah says she needs to stop checking emails late at night.",
+          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
+          "They agree that small habits can reduce stress more effectively than dramatic promises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “A Healthier Routine”? “Sarah says she needs…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah and Daniel discuss their evening routines.",
+          "Sarah says she needs to stop checking emails late at night.",
+          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
+          "They agree that small habits can reduce stress more effectively than dramatic promises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “A Healthier Routine”? “Daniel says he wants to…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah and Daniel discuss their evening routines.",
+          "Sarah says she needs to stop checking emails late at night.",
+          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
+          "They agree that small habits can reduce stress more effectively than dramatic promises."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “A Healthier Routine”? “They agree that small habits…”",
+        "options": [
+          "Sarah and Daniel discuss their evening routines.",
+          "Sarah says she needs to stop checking emails late at night.",
+          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
+          "They agree that small habits can reduce stress more effectively than dramatic promises."
         ]
       }
     ]
@@ -33613,23 +34148,23 @@
           {
             "id": "english-b2-migration-cultural-identity-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Migration and Cultural Identity, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Migration and Cultural Identity, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -33663,8 +34198,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Migration and Cultural Identity, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -33691,12 +34226,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Migration and Cultural Identity, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Migration and Cultural Identity, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -33833,23 +34368,23 @@
           {
             "id": "english-c1-ageing-care-economy-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Ageing and the Care Economy, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Ageing and the Care Economy, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -33883,8 +34418,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Ageing and the Care Economy, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -33911,12 +34446,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Ageing and the Care Economy, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Ageing and the Care Economy, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -34053,23 +34588,23 @@
           {
             "id": "english-c2-interaction-output-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Interaction, Output and Negotiation of Meaning, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Interaction, Output and Negotiation of Meaning, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -34103,8 +34638,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Interaction, Output and Negotiation of Meaning, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -34131,12 +34666,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Interaction, Output and Negotiation of Meaning, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Interaction, Output and Negotiation of Meaning, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -34187,38 +34722,145 @@
           "text": "They agree to review the budget again after one month."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-money-and-choices-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Making the Numbers Work”? “Sarah explains the…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah explains the price of the course to Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to review the budget again after one month."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Making the Numbers Work”? “Daniel suggests looking at the…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah explains the price of the course to Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to review the budget again after one month."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Making the Numbers Work”? “Sarah says that if they plan…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah explains the price of the course to Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to review the budget again after one month."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Making the Numbers Work”? “They agree to review…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah explains the price of the course to Daniel."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to review the budget again after one month."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “Making the Numbers Work”? “Sarah explains the…”",
         "options": [
-          "Money and Choices",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah explains the price of the course to Daniel.",
+          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
+          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
+          "They agree to review the budget again after one month."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “Making the Numbers Work”? “Daniel suggests looking at the…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah explains the price of the course to Daniel.",
+          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
+          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
+          "They agree to review the budget again after one month."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “Making the Numbers Work”? “Sarah says that if they plan…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah explains the price of the course to Daniel.",
+          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
+          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
+          "They agree to review the budget again after one month."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “Making the Numbers Work”? “They agree to review…”",
+        "options": [
+          "Sarah explains the price of the course to Daniel.",
+          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
+          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
+          "They agree to review the budget again after one month."
         ]
       }
     ]
@@ -39964,23 +40606,23 @@
           {
             "id": "english-b2-housing-inequality-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Housing Inequality, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Housing Inequality, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -40014,8 +40656,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Housing Inequality, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -40042,12 +40684,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Housing Inequality, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Housing Inequality, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -40184,23 +40826,23 @@
           {
             "id": "english-c1-critical-minerals-transition-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Critical Minerals and the Energy Transition, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Critical Minerals and the Energy Transition, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -40234,8 +40876,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Critical Minerals and the Energy Transition, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -40262,12 +40904,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Critical Minerals and the Energy Transition, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Critical Minerals and the Energy Transition, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -40404,23 +41046,23 @@
           {
             "id": "english-c2-corrective-feedback-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Corrective Feedback and the Productive Role of Error, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Corrective Feedback and the Productive Role of Error, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -40454,8 +41096,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Corrective Feedback and the Productive Role of Error, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -40482,12 +41124,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Corrective Feedback and the Productive Role of Error, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Corrective Feedback and the Productive Role of Error, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -40538,38 +41180,145 @@
           "text": "They decide to switch off non-urgent notifications and enjoy the meal."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-digital-life-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Phone-Free Dinner”? “Daniel asks Sarah whether they…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah agrees, although she worries about missing an important message."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says that people who really need her can call."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Phone-Free Dinner”? “Sarah agrees although she…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah agrees, although she worries about missing an important message."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says that people who really need her can call."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Phone-Free Dinner”? “Daniel says that people…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah agrees, although she worries about missing an important message."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says that people who really need her can call."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “A Phone-Free Dinner”? “They decide to switch…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah agrees, although she worries about missing an important message."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says that people who really need her can call."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “A Phone-Free Dinner”? “Daniel asks Sarah whether they…”",
         "options": [
-          "Digital Life",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Daniel asks Sarah whether they can have dinner without phones on the table.",
+          "Sarah agrees, although she worries about missing an important message.",
+          "Daniel says that people who really need her can call.",
+          "They decide to switch off non-urgent notifications and enjoy the meal."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “A Phone-Free Dinner”? “Sarah agrees although she…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Daniel asks Sarah whether they can have dinner without phones on the table.",
+          "Sarah agrees, although she worries about missing an important message.",
+          "Daniel says that people who really need her can call.",
+          "They decide to switch off non-urgent notifications and enjoy the meal."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “A Phone-Free Dinner”? “Daniel says that people…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Daniel asks Sarah whether they can have dinner without phones on the table.",
+          "Sarah agrees, although she worries about missing an important message.",
+          "Daniel says that people who really need her can call.",
+          "They decide to switch off non-urgent notifications and enjoy the meal."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “A Phone-Free Dinner”? “They decide to switch…”",
+        "options": [
+          "Daniel asks Sarah whether they can have dinner without phones on the table.",
+          "Sarah agrees, although she worries about missing an important message.",
+          "Daniel says that people who really need her can call.",
+          "They decide to switch off non-urgent notifications and enjoy the meal."
         ]
       }
     ]
@@ -46320,23 +47069,23 @@
           {
             "id": "english-b2-ai-and-employment-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Artificial Intelligence and Employment, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Artificial Intelligence and Employment, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -46370,8 +47119,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Artificial Intelligence and Employment, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -46398,12 +47147,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Artificial Intelligence and Employment, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Artificial Intelligence and Employment, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -46540,23 +47289,23 @@
           {
             "id": "english-c1-deepfakes-democracy-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Deepfakes, Evidence and Democracy, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Deepfakes, Evidence and Democracy, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -46590,8 +47339,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Deepfakes, Evidence and Democracy, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -46618,12 +47367,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Deepfakes, Evidence and Democracy, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Deepfakes, Evidence and Democracy, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -46760,23 +47509,23 @@
           {
             "id": "english-c2-speech-perception-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Speech Perception, Accent and Pronunciation Training, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Speech Perception, Accent and Pronunciation Training, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -46810,8 +47559,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Speech Perception, Accent and Pronunciation Training, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -46838,12 +47587,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Speech Perception, Accent and Pronunciation Training, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Speech Perception, Accent and Pronunciation Training, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -46894,38 +47643,145 @@
           "text": "Sarah says yes, especially to people who enjoy realistic stories."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-culture-and-media-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “After the Film”? “Sarah says the film…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah says the film was more moving than she expected."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Priya asks them whether they would recommend it."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “After the Film”? “Daniel says it was slower…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah says the film was more moving than she expected."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Priya asks them whether they would recommend it."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “After the Film”? “Priya asks them…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah says the film was more moving than she expected."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Priya asks them whether they would recommend it."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “After the Film”? “Sarah says yes especially…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah says the film was more moving than she expected."
+              },
+              {
+                "id": "o2",
+                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Priya asks them whether they would recommend it."
+              },
+              {
+                "id": "o4",
+                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “After the Film”? “Sarah says the film…”",
         "options": [
-          "Culture and Media",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah says the film was more moving than she expected.",
+          "Daniel says it was slower than his usual choice, but the main character was interesting.",
+          "Priya asks them whether they would recommend it.",
+          "Sarah says yes, especially to people who enjoy realistic stories."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “After the Film”? “Daniel says it was slower…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah says the film was more moving than she expected.",
+          "Daniel says it was slower than his usual choice, but the main character was interesting.",
+          "Priya asks them whether they would recommend it.",
+          "Sarah says yes, especially to people who enjoy realistic stories."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “After the Film”? “Priya asks them…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah says the film was more moving than she expected.",
+          "Daniel says it was slower than his usual choice, but the main character was interesting.",
+          "Priya asks them whether they would recommend it.",
+          "Sarah says yes, especially to people who enjoy realistic stories."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “After the Film”? “Sarah says yes especially…”",
+        "options": [
+          "Sarah says the film was more moving than she expected.",
+          "Daniel says it was slower than his usual choice, but the main character was interesting.",
+          "Priya asks them whether they would recommend it.",
+          "Sarah says yes, especially to people who enjoy realistic stories."
         ]
       }
     ]
@@ -52682,23 +53538,23 @@
           {
             "id": "english-b2-fast-fashion-hidden-costs-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Fast Fashion and Hidden Costs, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Fast Fashion and Hidden Costs, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -52732,8 +53588,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Fast Fashion and Hidden Costs, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -52760,12 +53616,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Fast Fashion and Hidden Costs, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Fast Fashion and Hidden Costs, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -52902,23 +53758,23 @@
           {
             "id": "english-c1-climate-migration-cities-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Climate Migration and Cities, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Climate Migration and Cities, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -52952,8 +53808,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Climate Migration and Cities, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -52980,12 +53836,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Climate Migration and Cities, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Climate Migration and Cities, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -53122,23 +53978,23 @@
           {
             "id": "english-c2-anxiety-attention-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Language Anxiety, Attention and Working Memory, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Language Anxiety, Attention and Working Memory, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -53172,8 +54028,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Language Anxiety, Attention and Working Memory, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -53200,12 +54056,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Language Anxiety, Attention and Working Memory, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Language Anxiety, Attention and Working Memory, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -53256,38 +54112,145 @@
           "text": "They agree to talk again when the offer becomes clearer."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-relationships-and-decisions-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Talking About Liverpool”? “Daniel tells Sarah that…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that a Liverpool position might become available."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests collecting more information before making a decision."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to talk again when the offer becomes clearer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Talking About Liverpool”? “Sarah says she wants to support…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that a Liverpool position might become available."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests collecting more information before making a decision."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to talk again when the offer becomes clearer."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Talking About Liverpool”? “Daniel suggests collecting…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that a Liverpool position might become available."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests collecting more information before making a decision."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to talk again when the offer becomes clearer."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Talking About Liverpool”? “They agree to talk…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Daniel tells Sarah that a Liverpool position might become available."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel suggests collecting more information before making a decision."
+              },
+              {
+                "id": "o4",
+                "text": "They agree to talk again when the offer becomes clearer."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “Talking About Liverpool”? “Daniel tells Sarah that…”",
         "options": [
-          "Relationships and Decisions",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Daniel tells Sarah that a Liverpool position might become available.",
+          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
+          "Daniel suggests collecting more information before making a decision.",
+          "They agree to talk again when the offer becomes clearer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “Talking About Liverpool”? “Sarah says she wants to support…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Daniel tells Sarah that a Liverpool position might become available.",
+          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
+          "Daniel suggests collecting more information before making a decision.",
+          "They agree to talk again when the offer becomes clearer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “Talking About Liverpool”? “Daniel suggests collecting…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Daniel tells Sarah that a Liverpool position might become available.",
+          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
+          "Daniel suggests collecting more information before making a decision.",
+          "They agree to talk again when the offer becomes clearer."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “Talking About Liverpool”? “They agree to talk…”",
+        "options": [
+          "Daniel tells Sarah that a Liverpool position might become available.",
+          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
+          "Daniel suggests collecting more information before making a decision.",
+          "They agree to talk again when the offer becomes clearer."
         ]
       }
     ]
@@ -59028,23 +59991,23 @@
           {
             "id": "english-b2-education-social-mobility-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Education and Social Mobility, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Education and Social Mobility, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -59078,8 +60041,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Education and Social Mobility, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -59106,12 +60069,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Education and Social Mobility, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Education and Social Mobility, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -59248,23 +60211,23 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Neurotechnology and Mental Privacy, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Neurotechnology and Mental Privacy, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -59298,8 +60261,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Neurotechnology and Mental Privacy, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -59326,12 +60289,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Neurotechnology and Mental Privacy, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Neurotechnology and Mental Privacy, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -59468,23 +60431,23 @@
           {
             "id": "english-c2-individual-differences-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Age, Aptitude and Individual Differences, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Age, Aptitude and Individual Differences, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -59518,8 +60481,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Age, Aptitude and Individual Differences, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -59546,12 +60509,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Age, Aptitude and Individual Differences, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Age, Aptitude and Individual Differences, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -59602,38 +60565,145 @@
           "text": "They decide to write realistic goals instead of vague promises."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-looking-ahead-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Three Goals”? “Sarah and Daniel discuss…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their goals for the next six months."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says Priya told her she was ready for leadership."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says his manager told him that his communication had improved."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to write realistic goals instead of vague promises."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Three Goals”? “Sarah says Priya told…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their goals for the next six months."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says Priya told her she was ready for leadership."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says his manager told him that his communication had improved."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to write realistic goals instead of vague promises."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Three Goals”? “Daniel says his manager…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their goals for the next six months."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says Priya told her she was ready for leadership."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says his manager told him that his communication had improved."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to write realistic goals instead of vague promises."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which statement completes this moment from “Three Goals”? “They decide to write…”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sarah and Daniel discuss their goals for the next six months."
+              },
+              {
+                "id": "o2",
+                "text": "Sarah says Priya told her she was ready for leadership."
+              },
+              {
+                "id": "o3",
+                "text": "Daniel says his manager told him that his communication had improved."
+              },
+              {
+                "id": "o4",
+                "text": "They decide to write realistic goals instead of vague promises."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Which statement completes this moment from “Three Goals”? “Sarah and Daniel discuss…”",
         "options": [
-          "Looking Ahead",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "Sarah and Daniel discuss their goals for the next six months.",
+          "Sarah says Priya told her she was ready for leadership.",
+          "Daniel says his manager told him that his communication had improved.",
+          "They decide to write realistic goals instead of vague promises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Which statement completes this moment from “Three Goals”? “Sarah says Priya told…”",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "Sarah and Daniel discuss their goals for the next six months.",
+          "Sarah says Priya told her she was ready for leadership.",
+          "Daniel says his manager told him that his communication had improved.",
+          "They decide to write realistic goals instead of vague promises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Which statement completes this moment from “Three Goals”? “Daniel says his manager…”",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "Sarah and Daniel discuss their goals for the next six months.",
+          "Sarah says Priya told her she was ready for leadership.",
+          "Daniel says his manager told him that his communication had improved.",
+          "They decide to write realistic goals instead of vague promises."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement completes this moment from “Three Goals”? “They decide to write…”",
+        "options": [
+          "Sarah and Daniel discuss their goals for the next six months.",
+          "Sarah says Priya told her she was ready for leadership.",
+          "Daniel says his manager told him that his communication had improved.",
+          "They decide to write realistic goals instead of vague promises."
         ]
       }
     ]
@@ -65029,23 +66099,23 @@
           {
             "id": "english-b2-free-speech-misinformation-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Freedom of Speech and Misinformation, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Freedom of Speech and Misinformation, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -65079,8 +66149,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Freedom of Speech and Misinformation, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -65107,12 +66177,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Freedom of Speech and Misinformation, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Freedom of Speech and Misinformation, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -65249,23 +66319,23 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Synthetic Biology and Biosecurity, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Synthetic Biology and Biosecurity, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -65299,8 +66369,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Synthetic Biology and Biosecurity, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -65327,12 +66397,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Synthetic Biology and Biosecurity, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Synthetic Biology and Biosecurity, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -65469,23 +66539,23 @@
           {
             "id": "english-c2-contextual-vocabulary-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -65519,8 +66589,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -65547,12 +66617,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -65598,38 +66668,145 @@
           "text": "They discuss which tasks can be completed by volunteers and which services must be provided by the council."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-sustainable-futures-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Planning a Greener Event: What are Sarah and Daniel planning?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "a community event"
+              },
+              {
+                "id": "o2",
+                "text": "a private holiday"
+              },
+              {
+                "id": "o3",
+                "text": "a university exam"
+              },
+              {
+                "id": "o4",
+                "text": "a shopping trip"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Planning a Greener Event: What will the food be served on?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "paper bags"
+              },
+              {
+                "id": "o2",
+                "text": "reusable plates"
+              },
+              {
+                "id": "o3",
+                "text": "plastic trays"
+              },
+              {
+                "id": "o4",
+                "text": "disposable cups"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Planning a Greener Event: Where will the recycling points be placed?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "inside the council office"
+              },
+              {
+                "id": "o2",
+                "text": "behind the stage only"
+              },
+              {
+                "id": "o3",
+                "text": "near every entrance"
+              },
+              {
+                "id": "o4",
+                "text": "outside the town"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Planning a Greener Event: What will happen to leftover food?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "it will be sold tomorrow"
+              },
+              {
+                "id": "o2",
+                "text": "it will be thrown away"
+              },
+              {
+                "id": "o3",
+                "text": "volunteers will cook it again"
+              },
+              {
+                "id": "o4",
+                "text": "leftover food will be donated"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Planning a Greener Event: What are Sarah and Daniel planning?",
         "options": [
-          "Sustainable Futures",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "a community event",
+          "a private holiday",
+          "a university exam",
+          "a shopping trip"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Planning a Greener Event: What will the food be served on?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "paper bags",
+          "reusable plates",
+          "plastic trays",
+          "disposable cups"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Planning a Greener Event: Where will the recycling points be placed?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "inside the council office",
+          "behind the stage only",
+          "near every entrance",
+          "outside the town"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Planning a Greener Event: What will happen to leftover food?",
+        "options": [
+          "it will be sold tomorrow",
+          "it will be thrown away",
+          "volunteers will cook it again",
+          "leftover food will be donated"
         ]
       }
     ]
@@ -70217,23 +71394,23 @@
           {
             "id": "english-b2-community-action-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Community Action and Local Change, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Community Action and Local Change, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -70267,8 +71444,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Community Action and Local Change, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -70295,12 +71472,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Community Action and Local Change, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Community Action and Local Change, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -70437,23 +71614,23 @@
           {
             "id": "english-c1-global-health-inequality-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Global Health Progress and Inequality, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Global Health Progress and Inequality, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -70487,8 +71664,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Global Health Progress and Inequality, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -70515,12 +71692,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Global Health Progress and Inequality, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Global Health Progress and Inequality, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -70657,23 +71834,23 @@
           {
             "id": "english-c2-ai-language-tutoring-listening-q4",
             "type": "mcq",
-            "prompt": "In Listening Lab: Artificial Intelligence and the Future of Language Tutoring, what should listeners distinguish before reaching a conclusion?",
+            "prompt": "In Listening Lab: Artificial Intelligence and the Future of Language Tutoring, what does the guest say about the relationship between these categories?",
             "options": [
               {
                 "id": "o1",
-                "text": "A title, a date and a location"
+                "text": "The categories are identical."
               },
               {
                 "id": "o2",
-                "text": "Only the host’s opinion"
+                "text": "They must never interact."
               },
               {
                 "id": "o3",
-                "text": "A spelling rule and a pronunciation rule"
+                "text": "Only one category can exist."
               },
               {
                 "id": "o4",
-                "text": "They should distinguish an established finding from a plausible inference and a value judgement."
+                "text": "Those categories may interact, but they are not interchangeable."
               }
             ]
           }
@@ -70707,8 +71884,8 @@
         "type": "mcq",
         "prompt": "In Listening Lab: Artificial Intelligence and the Future of Language Tutoring, why does the guest say the issue resists a simple answer?",
         "options": [
-          "Because no evidence exists",
           "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
+          "Because no evidence exists",
           "Because the topic has no vocabulary",
           "Because the host changes the subject"
         ]
@@ -70735,12 +71912,12 @@
       },
       {
         "type": "mcq",
-        "prompt": "In Listening Lab: Artificial Intelligence and the Future of Language Tutoring, what should listeners distinguish before reaching a conclusion?",
+        "prompt": "In Listening Lab: Artificial Intelligence and the Future of Language Tutoring, what does the guest say about the relationship between these categories?",
         "options": [
-          "A title, a date and a location",
-          "They should distinguish an established finding from a plausible inference and a value judgement.",
-          "Only the host’s opinion",
-          "A spelling rule and a pronunciation rule"
+          "The categories are identical.",
+          "They must never interact.",
+          "Only one category can exist.",
+          "Those categories may interact, but they are not interchangeable."
         ]
       }
     ]
@@ -70786,38 +71963,145 @@
           "text": "The tutor answers each question and recommends that Sarah organise the information in a short checklist."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "english-b1-learning-and-communication-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Could You Explain That?: What does Sarah ask about?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "how the final project will be assessed"
+              },
+              {
+                "id": "o2",
+                "text": "how to book a holiday"
+              },
+              {
+                "id": "o3",
+                "text": "where to buy a textbook"
+              },
+              {
+                "id": "o4",
+                "text": "when the tutor is retiring"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Could You Explain That?: What kind of questions does she use?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "rhetorical questions"
+              },
+              {
+                "id": "o2",
+                "text": "indirect questions"
+              },
+              {
+                "id": "o3",
+                "text": "multiple-choice questions"
+              },
+              {
+                "id": "o4",
+                "text": "questions about prices"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Could You Explain That?: Which three details does she want to clarify?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "the classroom, the weather and the bus route"
+              },
+              {
+                "id": "o2",
+                "text": "the price, the colour and the size"
+              },
+              {
+                "id": "o3",
+                "text": "the deadline, the presentation format and the marking criteria"
+              },
+              {
+                "id": "o4",
+                "text": "the teacher, the textbook and the library"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Could You Explain That?: How does the tutor recommend organising the information?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "in a long essay"
+              },
+              {
+                "id": "o2",
+                "text": "in a video diary"
+              },
+              {
+                "id": "o3",
+                "text": "in a travel brochure"
+              },
+              {
+                "id": "o4",
+                "text": "in a short checklist"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "What is the listening mainly about?",
+        "prompt": "Could You Explain That?: What does Sarah ask about?",
         "options": [
-          "Learning and Communication",
-          "Buying a train ticket only",
-          "A weather report",
-          "A recipe"
+          "how the final project will be assessed",
+          "how to book a holiday",
+          "where to buy a textbook",
+          "when the tutor is retiring"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What should you listen for?",
+        "prompt": "Could You Explain That?: What kind of questions does she use?",
         "options": [
-          "Only names",
-          "The problem, suggestion and result",
-          "Only numbers",
-          "Silent pauses"
+          "rhetorical questions",
+          "indirect questions",
+          "multiple-choice questions",
+          "questions about prices"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "What kind of language appears in the audio?",
+        "prompt": "Could You Explain That?: Which three details does she want to clarify?",
         "options": [
-          "Connected B1 sentences",
-          "Only alphabet practice",
-          "Only slang",
-          "Only commands"
+          "the classroom, the weather and the bus route",
+          "the price, the colour and the size",
+          "the deadline, the presentation format and the marking criteria",
+          "the teacher, the textbook and the library"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Could You Explain That?: How does the tutor recommend organising the information?",
+        "options": [
+          "in a long essay",
+          "in a video diary",
+          "in a travel brochure",
+          "in a short checklist"
         ]
       }
     ]

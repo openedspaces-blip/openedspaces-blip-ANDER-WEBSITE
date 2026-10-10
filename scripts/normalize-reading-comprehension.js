@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 
 const seedPath = path.join(__dirname, '..', 'lib', 'seed-lessons.json');
-const lessons = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
 
 const PROMPTS = {
   english: [
@@ -168,20 +167,16 @@ function contextualQuestion(row, index, sourceLines) {
   };
 }
 
-let changed = 0;
-let replacedGeneric = 0;
-for (const row of lessons) {
-  if (String(row.skill).toLowerCase() !== 'reading') continue;
+function normalizeReading(row, targetCount) {
+  if (String(row.skill).toLowerCase() !== 'reading') return false;
   // Legacy language-lab placeholders are not exposed through a learning
   // route and do not contain a reading text from which a valid question can
   // be derived.
-  if (!row.unit_slug) continue;
-  const targetCount = row.level === 'A1' ? 4 : 5;
+  if (!row.unit_slug) return false;
   const current = row.content_json?.exercises || [];
   const candidates = current.filter(
     (exercise) => isComprehensionQuestion(exercise) && !isGenericExercise(exercise) && !hasForeignCopy(exercise, row.target_language)
   );
-  replacedGeneric += current.filter(isGenericExercise).length;
   const selected = candidates.slice(0, targetCount);
   const sourceLines = selectSpread(sentencesFromReading(row), targetCount);
   if (sourceLines.length < targetCount - selected.length) {
@@ -191,8 +186,19 @@ for (const row of lessons) {
     selected.push(contextualQuestion(row, selected.length, sourceLines));
   }
   row.content_json.exercises = selected;
-  changed += 1;
+  row.content_json.reading.questions = selected.map((exercise) => exercise.prompt);
+  return true;
 }
 
-fs.writeFileSync(seedPath, `${JSON.stringify(lessons, null, 2)}\n`, 'utf8');
-console.log(`Normalized ${changed} reading lessons and replaced ${replacedGeneric} generic questions with text-grounded items.`);
+if (require.main === module) {
+  const lessons = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
+  let changed = 0;
+  for (const row of lessons) {
+    // Keep larger authored banks; normalization must not truncate reviewed exams.
+    const targetCount = Math.max(row.level === 'A1' ? 4 : 5, row.content_json?.exercises?.length || 0);
+    if (normalizeReading(row, targetCount)) changed += 1;
+  }
+  fs.writeFileSync(seedPath, `${JSON.stringify(lessons, null, 2)}\n`, 'utf8');
+  console.log(`Normalized ${changed} reading lessons with text-grounded items.`);
+}
+module.exports = { normalizeReading };

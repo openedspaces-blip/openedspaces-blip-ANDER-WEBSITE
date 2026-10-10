@@ -18,11 +18,7 @@ import { useAuth } from '@/context/auth';
 
 const LOCALES: Record<string, string> = {
   english: 'en-US',
-  french: 'fr-FR',
-  spanish: 'es-ES',
-  italian: 'it-IT',
-  portuguese: 'pt-BR',
-  german: 'de-DE'
+  french: 'fr-FR'
 };
 type Skill = 'listening' | 'speaking' | 'reading' | 'writing' | 'grammar' | 'vocabulary';
 
@@ -51,6 +47,13 @@ export default function ActivityScreen() {
   });
   const playerStatus = useAudioPlayerStatus(player);
   useEffect(() => {
+    if (!auth.session) router.replace('/account');
+  }, [auth.session]);
+  useEffect(() => {
+    if (!auth.session) {
+      setLoading(false);
+      return;
+    }
     let active = true;
     setLoading(true);
     setLoadError('');
@@ -79,6 +82,7 @@ export default function ActivityScreen() {
     params.lessonId,
     params.language,
     params.level,
+    auth.session,
     auth.session?.access_token,
     retryKey
   ]);

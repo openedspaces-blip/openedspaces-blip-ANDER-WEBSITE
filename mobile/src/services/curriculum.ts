@@ -26,6 +26,8 @@ export type CurriculumLesson = {
   description?: string;
   unitId?: string;
   unitOrder?: number;
+  unitTitle?: string;
+  unitDescription?: string;
   xpReward?: number;
   estimated_minutes?: number;
   accessTier?: 'free' | 'premium';
@@ -111,6 +113,9 @@ export async function loadCurriculum(
         description: typeof lesson.description === 'string' ? lesson.description : undefined,
         unitId: typeof lesson.unitId === 'string' ? lesson.unitId : undefined,
         unitOrder: typeof lesson.unitOrder === 'number' ? lesson.unitOrder : undefined,
+        unitTitle: typeof lesson.unitTitle === 'string' ? lesson.unitTitle : undefined,
+        unitDescription:
+          typeof lesson.unitDescription === 'string' ? lesson.unitDescription : undefined,
         xpReward: typeof lesson.xpReward === 'number' ? lesson.xpReward : undefined,
         estimated_minutes:
           typeof lesson.estimated_minutes === 'number' ? lesson.estimated_minutes : undefined,
@@ -154,6 +159,7 @@ export async function loadCurriculum(
           description: lesson.description,
           unitId: lesson.course_units?.slug,
           unitOrder: lesson.course_units?.order_index,
+          unitTitle: lesson.course_units?.slug,
           xpReward: lesson.xp_reward,
           estimated_minutes: lesson.estimated_minutes,
           accessTier: 'free',

@@ -290,6 +290,16 @@ function applyFrenchC1C2Listening(units, level) {
       grammar: clean(unit.activities?.grammar?.title),
       grammarModels
     };
+    // Derive assessment from this exact transcript; never rewrite recorded audio
+    // to make it fit an unrelated question bank.
+    const row = {
+      slug: `french-${level.toLowerCase()}-${unit.slug}-listening`,
+      target_language: 'french', level, title: listening.title,
+      content_json: { transcript, extra: { mainTranscript: transcript } }
+    };
+    require('./contextual-listening-comprehension').applyContextualListeningBank(row);
+    listening.listeningComprehension = row.content_json.extra.listeningComprehension;
+    listening.exercises = row.content_json.exercises;
   });
   return units;
 }

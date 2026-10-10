@@ -158,10 +158,10 @@ let translatorReturnContext = null;
 // Fallback values only, used for the very first paint before GET /api/plans
 // resolves below - lib/plansConfig.js on the server is the single source of
 // truth for these numbers; nothing in this file should hardcode a price
-// anywhere else. Kept as strings (already formatted, e.g. '7.00') since
+// anywhere else. Kept as strings (already formatted, e.g. '4.99') since
 // every call site below just interpolates them into "USD ${...}" text.
-let premiumMonthlyPriceUsd = '7.00';
-let premiumQuarterlyPriceUsd = '14.99';
+let premiumMonthlyPriceUsd = '4.99';
+let premiumQuarterlyPriceUsd = '12.99';
 // Back-compat alias for the few call sites below that only ever showed the
 // monthly figure - avoids touching every interpolation site individually.
 let premiumPriceUsd = premiumMonthlyPriceUsd;
@@ -658,7 +658,17 @@ function getDisplayName() {
   return '';
 }
 
+function syncTranslatorCharacterLimit() {
+  const input = document.getElementById('translatorInput');
+  if (!input) return;
+  const premium = Boolean(authStatus.session?.access_token && authStatus.entitlements?.isPremium);
+  input.maxLength = premium ? 5000 : 2000;
+  const counter = document.getElementById('translatorCharCount');
+  if (counter) counter.textContent = `${input.value.length} / ${input.maxLength}`;
+}
+
 function renderAuthState() {
+  syncTranslatorCharacterLimit();
   const isSignedIn = Boolean(authStatus.session?.access_token);
   document.body?.classList.toggle('is-signed-in', isSignedIn);
   document.body?.classList.toggle('is-anonymous-visitor', !isSignedIn);
@@ -1838,14 +1848,25 @@ document.addEventListener('keydown', (event) => {
 });
 
 async function postJson(path, payload, { auth = false } = {}) {
-  const response = await fetch(`${backendBaseUrl}${path}`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      ...(auth ? authHeaders() : {})
-    },
-    body: JSON.stringify(payload)
-  });
+  const request = auth ? authFetch : fetch;
+  let response;
+  try {
+    response = await request(`${backendBaseUrl}${path}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        ...(auth ? authHeaders() : {})
+      },
+      body: JSON.stringify(payload)
+    });
+  } catch (cause) {
+    if (cause.name !== 'TypeError') throw cause;
+    const error = new Error(
+      'No se pudo conectar con ANDERGO. Comprueba tu conexión e inténtalo de nuevo.'
+    );
+    error.code = 'NETWORK_ERROR';
+    throw error;
+  }
 
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -3051,6 +3072,14 @@ async function afterAuthSuccess() {
   // progreso guard (verbs-view.js) - restores that exact subtab instead of
   // leaving it on the access-required panel it briefly showed.
   window.restoreVerbsPendingRoute?.();
+
+  // Return the learner to the protected area they selected before signing in.
+  if (pendingProtectedView && VIEW_SECTIONS[pendingProtectedView]) {
+    const destination = pendingProtectedView;
+    pendingProtectedView = null;
+    history.replaceState(null, '', `#${destination}`);
+    showView(destination);
+  }
 }
 
 function attachAuthHandlers() {
@@ -6201,12 +6230,13 @@ function showSkillTransitionAd(resume) {
   const day = new Date().toISOString().slice(0, 10);
   let cadence = {};
   try { cadence = JSON.parse(sessionStorage.getItem('andergo-ad-cadence-v1') || '{}') || {}; } catch { cadence = {}; }
-  if (cadence.day !== day) cadence = { day, transitions: 0, shown: 0 };
+  if (cadence.day !== day) cadence = { day, transitions: 0 };
   cadence.transitions = Number(cadence.transitions || 0) + 1;
-  // A break belongs between study blocks, not after every single activity:
-  // at most three per day and never on the first transition of a session.
-  const shouldShow = cadence.transitions % 2 === 0 && Number(cadence.shown || 0) < 3;
-  if (shouldShow) cadence.shown = Number(cadence.shown || 0) + 1;
+  // A regular Free experience includes ads at natural breaks, not a tiny
+  // daily quota. Keep the cadence to one out of every two skill changes so
+  // they support the open curriculum without interrupting a question, audio
+  // player, or the Tutor. Premium never reaches this branch.
+  const shouldShow = cadence.transitions % 2 === 0;
   sessionStorage.setItem('andergo-ad-cadence-v1', JSON.stringify(cadence));
   resume();
   if (!shouldShow) return;
@@ -6470,12 +6500,12 @@ function getReadingLibraryCardType(language) {
 
 function getReadingFreeAccessNote(language, level) {
   const messages = {
-    english: `All ${level} readings are available. Free includes device TTS; Premium also includes official audio.`,
-    spanish: `Todas las lecturas de ${level} están disponibles. Free incluye TTS del dispositivo; Premium también incluye audio oficial.`,
-    french: `Toutes les lectures de niveau ${level} sont disponibles. Free inclut la synthèse vocale de l’appareil ; Premium inclut aussi l’audio officiel.`,
-    italian: `Tutte le letture di ${level} sono disponibili. Free include il TTS del dispositivo; Premium include anche l’audio ufficiale.`,
-    portuguese: `Todas as leituras de ${level} estão disponíveis. Free inclui TTS do dispositivo; Premium também inclui áudio oficial.`,
-    german: `Alle Lesetexte auf ${level} sind verfügbar. Free enthält die Geräte-Sprachausgabe; Premium enthält zusätzlich offizielles Audio.`
+    english: `All ${level} readings are available. Play 1: official audio. Play 2: device voice.`,
+    spanish: `Todas las lecturas de ${level} están disponibles. Play 1: audio oficial. Play 2: voz del dispositivo.`,
+    french: `Toutes les lectures de niveau ${level} sont disponibles. Play 1 : audio officiel. Play 2 : voix de l’appareil.`,
+    italian: `Tutte le letture di ${level} sono disponibili. Play 1: audio ufficiale. Play 2: voce del dispositivo.`,
+    portuguese: `Todas as leituras de ${level} estão disponíveis. Play 1: áudio oficial. Play 2: voz do dispositivo.`,
+    german: `Alle Lesetexte auf ${level} sind verfügbar. Play 1: offizielles Audio. Play 2: Gerätestimme.`
   };
   return messages[language] || messages.english;
 }
@@ -6515,7 +6545,13 @@ function renderReadingLibrary() {
       });
     return;
   }
-  const readings = getSkillActivities('reading').sort(
+  // Never let lessons from the previously selected course appear under the
+  // new language/level heading while an asynchronous reload is settling.
+  const readings = getSkillActivities('reading').filter((lesson) => {
+    const lessonLevel = String(lesson.level || '').toUpperCase();
+    const lessonLanguage = String(lesson.targetLanguage || lesson.language || '').toLowerCase();
+    return (!lessonLevel || lessonLevel === level) && (!lessonLanguage || lessonLanguage === language);
+  }).sort(
     (a, b) => Number(a.unitOrder || 0) - Number(b.unitOrder || 0)
   );
   const languageOptions = READING_LIBRARY_LANGUAGES.map(
@@ -6530,6 +6566,29 @@ function renderReadingLibrary() {
     .join('');
 
   if (!readings.length) {
+    const containsReadingFromAnotherCourse = learningPathState.lessons.some((lesson) => {
+      if (lesson.skill !== 'reading') return false;
+      const lessonLevel = String(lesson.level || '').toUpperCase();
+      const lessonLanguage = String(lesson.targetLanguage || lesson.language || '').toLowerCase();
+      return (
+        (lessonLevel && lessonLevel !== level) ||
+        (lessonLanguage && lessonLanguage !== language)
+      );
+    });
+    if (containsReadingFromAnotherCourse) {
+      learningPathState.lessons = [];
+      host.innerHTML = '<p class="skill-graph-empty">Actualizando lecturas del nivel seleccionado…</p>';
+      loadLearningPath({ language, level })
+        .then(() => {
+          if (getViewFromHash() === 'readings') renderReadingLibrary();
+        })
+        .catch((error) => {
+          if (getViewFromHash() === 'readings') {
+            host.innerHTML = `<p class="skill-graph-empty">${escapeHtml(error.message || 'No se pudieron cargar las lecturas.')}</p>`;
+          }
+        });
+      return;
+    }
     host.innerHTML =
       '<p class="skill-graph-empty">No hay lecturas disponibles para esta combinación todavía.</p>';
     return;
@@ -8146,6 +8205,7 @@ const readingSpeechPlayer = (() => {
   }
 
   function teardown() {
+    stopNaturalReadingAudio({ clearSource: true });
     playbackToken += 1;
     currentUtterance = null;
     retriedCurrentSegmentWithoutVoice = false;
@@ -8196,16 +8256,28 @@ const readingSpeechPlayer = (() => {
 const naturalReadingAudioState = {
   audio: null,
   objectUrl: '',
-  requestInFlight: false
+  requestInFlight: false,
+  request: null
 };
 
 function stopNaturalReadingAudio({ clearSource = false } = {}) {
+  const request = naturalReadingAudioState.request;
+  if (request) {
+    request.cancelled = true;
+    if (request.button) {
+      request.button.disabled = false;
+      request.button.textContent = '▶ Play 1';
+    }
+    naturalReadingAudioState.request = null;
+    naturalReadingAudioState.requestInFlight = false;
+  }
   const audio = naturalReadingAudioState.audio;
   if (audio) {
     audio.pause();
     audio.onended = null;
     audio.onerror = null;
     if (clearSource) {
+      audio.onplay = null;
       audio.removeAttribute('src');
       audio.load();
       audio.hidden = true;
@@ -8232,21 +8304,20 @@ async function playNaturalReadingAudio(section, lesson) {
   const button = section?.querySelector('.reading-audio-natural-btn');
   const audio = section?.querySelector('.reading-natural-audio');
   if (!section || !lesson || !audio || naturalReadingAudioState.requestInFlight) return;
-  if (!isPremiumUser()) {
-    openPaywallModal({
-      title: 'La voz natural de Reading es Premium.',
-      message: 'Con ANDERGO Premium puedes escuchar los audios oficiales de las lecturas.'
-    });
+  if (!authStatus.session?.access_token) {
+    openModal('login', { message: 'Inicia sesión para escuchar el audio oficial.' });
     return;
   }
+  readingSpeechPlayer.stopReading();
 
+  stopNaturalReadingAudio({ clearSource: true });
+  const request = { button, cancelled: false };
+  naturalReadingAudioState.request = request;
   naturalReadingAudioState.requestInFlight = true;
   if (button) {
     button.disabled = true;
     button.textContent = 'Preparando…';
   }
-
-  stopNaturalReadingAudio({ clearSource: true });
 
   try {
     const unitNumber = getReadingUnitNumber(lesson);
@@ -8256,14 +8327,15 @@ async function playNaturalReadingAudio(section, lesson) {
       level: String(lesson.level || '').toUpperCase(),
       unit: String(unitNumber)
     });
-    const officialResponse = await fetch(`${backendBaseUrl}/api/tts/reading?${query.toString()}`, {
-      headers: authHeaders()
-    });
+    const officialResponse = await authFetch(`${backendBaseUrl}/api/tts/reading?${query.toString()}`);
+    if (request.cancelled || !section.isConnected) return;
     if (!officialResponse.ok) throw new Error('El audio oficial de esta lectura aún no está disponible.');
     const payload = await officialResponse.json();
+    if (request.cancelled || !section.isConnected) return;
     const audioSource = String(payload?.audioUrl || '');
     if (!audioSource) throw new Error('No se pudo obtener el audio seguro.');
     naturalReadingAudioState.audio = audio;
+    audio.onplay = () => readingSpeechPlayer.stopReading();
     audio.src = audioSource;
     audio.hidden = false;
     audio.onended = () => {
@@ -8278,14 +8350,18 @@ async function playNaturalReadingAudio(section, lesson) {
     if (sourceNote) sourceNote.textContent = 'Audio oficial de ANDERGO.';
     await audio.play();
   } catch (error) {
+    if (request.cancelled || !section.isConnected) return;
     const sourceNote = section.querySelector('.reading-audio-source');
     if (sourceNote) sourceNote.textContent = 'El audio oficial de esta lectura aún no está disponible.';
     showHomeToast(error.message || 'No se pudo reproducir esta lectura.');
   } finally {
-    naturalReadingAudioState.requestInFlight = false;
-    if (button) {
-      button.disabled = false;
-      button.textContent = '▶ Escuchar audio';
+    if (naturalReadingAudioState.request === request) {
+      naturalReadingAudioState.request = null;
+      naturalReadingAudioState.requestInFlight = false;
+      if (button) {
+        button.disabled = false;
+        button.textContent = '▶ Play 1';
+      }
     }
   }
 }
@@ -8790,6 +8866,7 @@ function toggleTutorVoicePause(messageEl) {
       window.speechSynthesis.resume();
       if (pauseBtn) pauseBtn.textContent = '⏸ Pausar';
       messageEl.classList.remove('is-tts-paused');
+      setTutorRobotState('speaking');
     } else {
       window.speechSynthesis.pause();
       if (pauseBtn) pauseBtn.textContent = '▶ Continuar';
@@ -8798,6 +8875,7 @@ function toggleTutorVoicePause(messageEl) {
       // here clears it), this class just gives it a paused look in CSS
       // (e.g. drop the pulse) instead of a separate status label.
       messageEl.classList.add('is-tts-paused');
+      setTutorRobotState('idle');
     }
   }
 }
@@ -8959,14 +9037,16 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
   const tokens = messageEl._tutorHighlightTokens || null;
 
   currentTutorAudio = { element: null, messageEl };
-  setTutorRobotState('speaking');
-  if (messageEl.closest('#tutor')) updateTutorPresenceState('El Tutor está hablando…');
+  setTutorRobotState('idle');
   const utterance = speakText(text, {
     locale,
     rate: speed === 'slow' ? 0.75 : 1,
     onEnd,
     onStart: () => {
+      if (currentTutorAudio.messageEl !== messageEl) return;
       playbackStarted = true;
+      setTutorRobotState('speaking');
+      if (messageEl.closest('#tutor')) updateTutorPresenceState('El Tutor está hablando…');
       if (mobileStartTimer) window.clearTimeout(mobileStartTimer);
       if (limitMsg) limitMsg.hidden = true;
     },
@@ -12433,14 +12513,13 @@ function isTrueFalseExercise(item) {
 // errors) when the browser has no speechSynthesis at all - same
 // graceful-degradation rule as flashcard pronunciation.
 function renderReadingAudioPlayerHtml(snapshot) {
-  const hasNaturalReadingVoice = isPremiumUser();
   return `
-    <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de audio: escucha el texto completo de esta lectura">
+    <div class="reading-audio-player no-print" role="group" aria-label="Reproductor de audio de la lectura">
       <div class="reading-audio-controls">
-        <button type="button" class="reading-audio-btn reading-audio-natural-btn${hasNaturalReadingVoice ? '' : ' is-locked'}" aria-label="${hasNaturalReadingVoice ? 'Escuchar audio oficial' : 'Audio oficial disponible con Premium'}" title="${hasNaturalReadingVoice ? 'Audio oficial de ANDERGO' : 'Disponible con ANDERGO Premium'}">${hasNaturalReadingVoice ? '▶ Escuchar audio' : '🔒 Audio oficial · Premium'}</button>
-        <button type="button" class="reading-audio-btn reading-audio-tts-btn" aria-label="Reproducir esta lectura con la voz del dispositivo" ${readingSpeechPlayer.isSupported() ? '' : 'disabled'}>🗣️ TTS opcional</button>
+        <button type="button" class="reading-audio-btn reading-audio-natural-btn" aria-label="Play 1: escuchar audio oficial" title="Audio oficial de ANDERGO">▶ Play 1</button>
+        <button type="button" class="reading-audio-btn reading-audio-tts-btn" aria-label="Play 2: escuchar con la voz del dispositivo" ${readingSpeechPlayer.isSupported() ? '' : 'disabled'}>▶ Play 2</button>
       </div>
-      <p class="reading-audio-source">${hasNaturalReadingVoice ? 'Reproduce el audio oficial cargado para esta lectura. Si no está disponible, puedes usar la voz de tu dispositivo.' : 'El audio oficial de las lecturas está disponible con ANDERGO Premium. También puedes usar la voz de tu dispositivo.'}</p>
+      <p class="reading-audio-source">Play 1: audio oficial. Play 2: voz del dispositivo.${readingSpeechPlayer.isSupported() ? '' : ' Tu navegador no admite Play 2.'}</p>
       <audio class="reading-natural-audio" controls preload="none" hidden aria-label="Audio oficial de la lectura"></audio>
     </div>
   `;
@@ -12478,6 +12557,14 @@ function updateReadingPlayerUI(section, snapshot) {
   const pctEl = player.querySelector('.reading-audio-percent');
   if (pctEl) pctEl.textContent = `${snapshot.progressPct}%`;
 
+  const devicePlayBtn = player.querySelector('.reading-audio-tts-btn');
+  if (devicePlayBtn) {
+    const playing = snapshot.state === 'playing';
+    const paused = snapshot.state === 'paused';
+    devicePlayBtn.textContent = playing ? '⏸ Pausar 2' : paused ? '▶ Continuar 2' : '▶ Play 2';
+    devicePlayBtn.setAttribute('aria-label', playing ? 'Pausar voz del dispositivo' : paused ? 'Continuar voz del dispositivo' : 'Play 2: escuchar con la voz del dispositivo');
+    devicePlayBtn.setAttribute('aria-pressed', String(playing));
+  }
   const playPauseBtn = player.querySelector('.reading-audio-playpause-btn');
   if (playPauseBtn) {
     const isPlaying = snapshot.state === 'playing';
@@ -13122,9 +13209,16 @@ function renderReadingIllustrationHtml(lesson) {
   `;
 }
 
-// The library uses the same cover resolver as the reader, so a learner can
-// recognize a text before opening it without a second illustration system.
+// The library first reuses the unit artwork shown in the learning route, so
+// the same text is visually recognizable in both places. Courses without a
+// route artwork sheet still fall back to the reading-specific resolver.
 function renderReadingLibraryCoverHtml(lesson) {
+  const routeUnit = learningPathState.units.find((unit) => unit.id === lesson.unitId);
+  const routeArtwork = routeUnit ? getUnitArtwork(routeUnit) : null;
+  if (routeArtwork?.sprite) {
+    return `<span class="reading-library-card-cover" role="img" aria-label="${escapeHtml(`Ilustración de ${routeArtwork.label}`)}" style="--reading-illustration-image:url('${escapeHtml(routeArtwork.sprite.image)}');--reading-illustration-position:${routeArtwork.sprite.position};"></span>`;
+  }
+
   const { src, alt, theme } = resolveReadingIllustration(lesson);
   const customImage = src
     ? `<img src="${escapeHtml(src)}" alt="" loading="lazy" onerror="this.remove();">`
@@ -24096,6 +24190,9 @@ async function performLearningPathLoad(options = {}) {
     requestedLanguage,
     options.level || learningPathState.level
   );
+  const courseChanged =
+    learningPathState.language !== requestedLanguage ||
+    learningPathState.level !== requestedLevel;
   const isCurrentRequest = () =>
     learningPathState.language === requestedLanguage &&
     learningPathState.level === requestedLevel;
@@ -24104,6 +24201,14 @@ async function performLearningPathLoad(options = {}) {
   // the Reading view right now - no reading audio should keep playing
   // in the background across a language/level switch.
   readingSpeechPlayer.teardown();
+  if (courseChanged) {
+    // Remove the old course atomically with the selector change. Keeping its
+    // lessons here allowed C2 readings to be rendered beneath an A1 heading.
+    learningPathState.lessons = [];
+    learningPathState.units = [];
+    learningPathState.unitId = null;
+    learningPathState.activeSlug = null;
+  }
   learningPathState.language = requestedLanguage;
   learningPathState.level = requestedLevel;
   syncCourseLevelSelect(document.getElementById('pathLevelSelect'), learningPathState.language);
@@ -24188,9 +24293,22 @@ async function performLearningPathLoad(options = {}) {
     if (!isCurrentRequest()) return;
     if (!response.ok) throw new Error(data.error || 'Could not load lessons');
 
-    const loadedLessons = data.lessons?.length
+    const receivedLessons = data.lessons?.length
       ? data.lessons
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
+    // Treat the selected course as a trust boundary. A stale cache or an old
+    // backend response must not leak lessons from another CEFR level into it.
+    const matchingLessons = receivedLessons.filter((lesson) => {
+      const lessonLevel = String(lesson.level || '').toUpperCase();
+      const lessonLanguage = String(lesson.targetLanguage || lesson.language || '').toLowerCase();
+      return (
+        (!lessonLevel || lessonLevel === requestedLevel) &&
+        (!lessonLanguage || lessonLanguage === requestedLanguage)
+      );
+    });
+    const loadedLessons = matchingLessons.length
+      ? matchingLessons
+      : getLocalFallbackLessons(requestedLanguage, requestedLevel);
     learningPathState.units = getUnitsForLanguageLevel(
       learningPathState.language,
       learningPathState.level
@@ -29360,12 +29478,10 @@ const VIEW_SECTIONS = {
   'email-confirmed': ['#emailConfirmedSection']
 };
 
-// A classroom or prospective learner must be able to open the learning route
-// without an account.  Account creation remains required only when an action
-// needs persistence (for example, saving progress or completing a lesson).
-// This keeps a large shared display useful from the first tap instead of
-// replacing the lesson route with an authentication dialog.
-const ANONYMOUS_PREVIEW_VIEWS = new Set(['learn', 'dictionary', 'useful-expressions', 'technical-english']);
+// All learning content and tools require an authenticated account. The public
+// home view remains only as the sign-in/sign-up entry point.
+const ANONYMOUS_PREVIEW_VIEWS = new Set();
+let pendingProtectedView = null;
 
 const TECHNICAL_ENGLISH_TOPICS = [
   ['⚾', 'Prospectos de béisbol', 'baseball scouting', 'prospección de béisbol', [['I am a shortstop with quick hands.', 'Soy campocorto con manos rápidas.'], ['I am ready for a tryout.', 'Estoy listo para una prueba.'], ['What does the scout look for?', '¿Qué busca el cazatalentos?']]],
@@ -29705,6 +29821,19 @@ const VIEW_TITLE_SELECTORS = {
 
 const generalDictionaryState = { language: 'english', query: '', letter: '', offset: 0, limit: 60 };
 
+// Reference dictionaries are opened on their own official domains. Their
+// entries are copyrighted and commonly block iframe embedding, so a deep
+// search link is the reliable, licence-respecting way to offer complete
+// definitions while keeping Andergo open in the current tab.
+const DICTIONARY_REFERENCES = {
+  english: { name: 'Cambridge Dictionary', search: (term) => `https://dictionary.cambridge.org/dictionary/english/${encodeURIComponent(term)}` },
+  spanish: { name: 'Diccionario de la lengua española (RAE)', search: (term) => `https://dle.rae.es/${encodeURIComponent(term)}` },
+  french: { name: 'Larousse', search: (term) => `https://www.larousse.fr/dictionnaires/francais/${encodeURIComponent(term)}` },
+  italian: { name: 'Treccani', search: (term) => `https://www.treccani.it/vocabolario/ricerca/${encodeURIComponent(term)}/` },
+  portuguese: { name: 'Priberam', search: (term) => `https://dicionario.priberam.org/${encodeURIComponent(term)}` },
+  german: { name: 'Duden', search: (term) => `https://www.duden.de/suchen/dudenonline/${encodeURIComponent(term)}` }
+};
+
 function generalDictionaryInitial(term) {
   return String(term || '').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '').charAt(0).toLocaleUpperCase();
 }
@@ -29718,7 +29847,7 @@ async function renderGeneralDictionary() {
   if (generalDictionaryState.letter) params.set('letter', generalDictionaryState.letter);
   app.innerHTML = '<p class="skill-graph-empty">Cargando palabras…</p>';
   try {
-    const response = await fetch(`${backendBaseUrl}/api/dictionary?${params.toString()}`);
+    const response = await authFetch(`${backendBaseUrl}/api/dictionary?${params.toString()}`);
     const data = await response.json().catch(() => ({}));
     if (!response.ok || !data.ok) throw new Error(data.error || 'El diccionario está temporalmente en preparación.');
     const languageOptions = Object.entries(languageDisplayNames)
@@ -29731,7 +29860,7 @@ async function renderGeneralDictionary() {
     app.innerHTML = `
       <div class="general-dictionary-controls no-print">
         <label>Idioma<select data-dictionary-language>${languageOptions}</select></label>
-        <label class="general-dictionary-search">Buscar<input type="search" data-dictionary-search value="${escapeHtml(generalDictionaryState.query)}" placeholder="Palabra o traducción al español" autocomplete="off"></label>
+        <label class="general-dictionary-search">Busca una palabra o su traducción<input type="search" data-dictionary-search value="${escapeHtml(generalDictionaryState.query)}" placeholder="Ej.: travel, viajar, bonjour…" autocomplete="off"></label>
       </div>
       <div class="general-dictionary-alpha" role="group" aria-label="Filtrar por letra">
         <button type="button" data-dictionary-letter="" class="${!generalDictionaryState.letter ? 'is-active' : ''}">Todas</button>
@@ -29739,9 +29868,8 @@ async function renderGeneralDictionary() {
       </div>
       <div class="general-dictionary-result-bar"><p class="general-dictionary-meta"><strong>${data.total.toLocaleString('es-DO')}</strong> entradas · ${escapeHtml(languageDisplayNames[language])} → Español</p><span>Página ${page} de ${pages}</span></div>
       <section class="general-dictionary-results" aria-label="Resultados del diccionario">
-        <div class="general-dictionary-column-head" aria-hidden="true"><span>Palabra</span><span>Significado en español</span></div>
         <div class="general-dictionary-list">
-          ${entries.length ? entries.map((entry) => `<article class="general-dictionary-entry"><span class="general-dictionary-initial" aria-hidden="true">${escapeHtml(generalDictionaryInitial(entry.term))}</span><div class="general-dictionary-term"><strong>${escapeHtml(entry.term)}</strong>${entry.part_of_speech ? `<small>${escapeHtml(entry.part_of_speech)}</small>` : '<small>Palabra</small>'}</div><button type="button" class="general-dictionary-speak" data-speak-text="${escapeHtml(entry.term)}" data-speak-locale="${escapeHtml(getPronunciationLocale(language))}" aria-label="Escuchar la pronunciación de ${escapeHtml(entry.term)}" title="Escuchar pronunciación">🔊</button><span class="general-dictionary-meaning">${escapeHtml(entry.spanish_meaning)}</span></article>`).join('') : '<p class="skill-graph-empty">No encontramos palabras con estos filtros.</p>'}
+          ${entries.length ? entries.map((entry) => `<article class="general-dictionary-entry"><span class="general-dictionary-initial" aria-hidden="true">${escapeHtml(generalDictionaryInitial(entry.term))}</span><div class="general-dictionary-term"><strong>${escapeHtml(entry.term)}</strong></div><div class="general-dictionary-translation"><span>${escapeHtml(entry.spanish_meaning)}</span></div><div class="general-dictionary-actions"><button type="button" class="general-dictionary-speak" data-speak-text="${escapeHtml(entry.term)}" data-speak-locale="${escapeHtml(getPronunciationLocale(language))}" aria-label="Escuchar la pronunciación de ${escapeHtml(entry.term)}" title="Escuchar pronunciación">🔊</button><button type="button" class="general-dictionary-copy" data-dictionary-copy="${escapeHtml(`${entry.term} — ${entry.spanish_meaning}`)}" aria-label="Copiar ${escapeHtml(entry.term)} y su traducción" title="Copiar entrada">⧉</button></div></article>`).join('') : '<p class="skill-graph-empty">No encontramos palabras con estos filtros.</p>'}
         </div>
       </section>
       <div class="general-dictionary-pagination no-print"><button type="button" class="secondary-btn" data-dictionary-page="previous" ${page <= 1 ? 'disabled' : ''}>← Anterior</button><button type="button" class="secondary-btn" data-dictionary-page="next" ${page >= pages ? 'disabled' : ''}>Siguiente →</button></div>`;
@@ -29758,6 +29886,17 @@ async function renderGeneralDictionary() {
           button.dataset.speakLocale || getPronunciationLocale(selectedLanguage),
           selectedLanguage
         );
+      });
+    });
+    app.querySelectorAll('[data-dictionary-copy]').forEach((button) => {
+      button.addEventListener('click', async () => {
+        const text = button.dataset.dictionaryCopy || '';
+        try {
+          await navigator.clipboard?.writeText(text);
+          showHomeToast('Entrada copiada.');
+        } catch {
+          showHomeToast(text);
+        }
       });
     });
   } catch (error) {
@@ -29822,15 +29961,11 @@ function updateLearnHash(viewOverride) {
 function showView(viewId) {
   let resolved = VIEW_SECTIONS[viewId] ? viewId : 'home';
   if (isAnonymousVisitor() && resolved !== 'home' && !ANONYMOUS_PREVIEW_VIEWS.has(resolved)) {
+    pendingProtectedView = resolved;
     resolved = 'home';
     if (window.location.hash !== '#home') history.replaceState(null, '', '#home');
-    // A protected deep link may be restored after the learner's session has
-    // expired. Keep the page visible and explain what happened instead of
-    // covering it immediately with the dark auth backdrop; authentication
-    // remains available from the explicit "Iniciar sesión" action.
-    closeAllAuthUI();
     window.requestAnimationFrame(() =>
-      showHomeToast('Tu sesión terminó. Inicia sesión para continuar donde estabas.')
+      openModal('login', { message: 'Debes iniciar sesión para acceder a esta sección.' })
     );
   }
   if (
@@ -32643,7 +32778,7 @@ function openTranslator(overrides = {}) {
     translatorUserAdjustedPair = true;
 
     if (input && overrides.text) {
-      const maxLength = Number(input.getAttribute('maxlength')) || 1000;
+      const maxLength = Number(input.getAttribute('maxlength')) || 2000;
       input.value = String(overrides.text).slice(0, maxLength);
       input.dispatchEvent(new Event('input'));
     }
@@ -32752,7 +32887,7 @@ function setupTranslator() {
   const suggestionsToggle = document.getElementById('translatorSuggestionsToggle');
   if (!input || !output || !submitBtn || !status) return;
 
-  const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
+  syncTranslatorCharacterLimit();
   let translatorPlayback = null;
 
   function setTranslatorListenState(button, playing) {
@@ -32843,7 +32978,7 @@ function setupTranslator() {
   };
 
   const updateCharCount = () => {
-    if (charCount) charCount.textContent = `${input.value.length} / ${MAX_LENGTH}`;
+    syncTranslatorCharacterLimit();
   };
 
   // Keep short translations compact, then expand both columns together as

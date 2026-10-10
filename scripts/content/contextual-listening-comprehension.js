@@ -60,7 +60,9 @@ function collectStoryLines(row) {
       .map(cleanText)
       .filter((clause) => clause.split(/\s+/).length >= 2)
   );
-  return uniqueTexts([...lines, ...clauses]);
+  // Consider clauses first: otherwise uniqueTexts treats every clause as a
+  // truncated duplicate of its parent sentence and the fallback adds nothing.
+  return uniqueTexts([...clauses, ...lines]);
 }
 
 function collectA1StoryLines(row) {
@@ -278,6 +280,8 @@ function buildEnglishMeaningBank(row, lines) {
 }
 
 function buildContextualListeningBank(row) {
+  const reviewed = require('./english-b1-short-listening').shortListeningBank(row, transcriptSupportsOption);
+  if (reviewed) return reviewed;
   const language = row.target_language || 'english';
   const storyLines = collectStoryLines(row);
   if (storyLines.length < 4) {

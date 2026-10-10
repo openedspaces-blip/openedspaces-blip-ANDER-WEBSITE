@@ -19,6 +19,7 @@ function lessonRow(unit, skill, index) {
   const lesson = unit.activities[skill];
   const extra = {};
   if (lesson.grammarTest) extra.grammarTest = lesson.grammarTest;
+  if (lesson.listeningComprehension) extra.listeningComprehension = lesson.listeningComprehension;
   if (lesson.grammarProfile) extra.grammarProfile = lesson.grammarProfile;
   if (lesson.listeningType) extra.listeningType = lesson.listeningType;
   if (lesson.listeningFormat) extra.listeningFormat = lesson.listeningFormat;

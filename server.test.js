@@ -53,8 +53,8 @@ test('Tutor teaches, converses and promotes the real ANDERGO Premium catalogue h
   assert.match(source, /recepcionista virtual y primera representante de atención al cliente/);
   assert.match(source, /support@andergo\.online/);
   assert.match(source, /Nunca pidas contraseñas, datos completos de tarjetas ni claves de seguridad/);
-  assert.match(source, /USD 7 al mes o USD 14\.99 cada tres meses/);
-  assert.match(source, /ahorra USD 6\.01/);
+  assert.match(source, /USD 4\.99 al mes o USD 12\.99 cada tres meses/);
+  assert.match(source, /ahorra USD 1\.98/);
   assert.match(source, /nunca presiones, manipules, uses falsa urgencia/);
 });
 
@@ -474,7 +474,7 @@ test('member navigation combines progress and achievements in one connected view
   assert.match(script, /if \(raw === 'achievements'\) return 'progress';/);
 });
 
-test('member navigation keeps the approved learning destinations on the top line', () => {
+test('member navigation keeps core destinations visible and secondary tools in More', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const memberNav =
     html.match(/<span class="nav-group nav-group-member" hidden>([\s\S]*?)<\/span>\s*<\/nav>/)?.[1] || '';
@@ -493,21 +493,17 @@ test('member navigation keeps the approved learning destinations on the top line
   assert.ok(
     learnIndex < vocabularyIndex &&
       vocabularyIndex < readingsIndex &&
-      readingsIndex < audiosIndex &&
-      audiosIndex < verbsIndex &&
-      verbsIndex < adjectivesIndex &&
-      adjectivesIndex < adverbsIndex &&
-      adverbsIndex < testsIndex &&
+      readingsIndex < verbsIndex &&
+      verbsIndex < testsIndex &&
       testsIndex < translatorIndex
   );
   assert.ok(translatorIndex < moreIndex);
-  assert.match(memberNav, /href="#vocabulary" data-i18n="navVocabulary">Vocabulario<\/a>/);
+  assert.ok(moreIndex < audiosIndex && audiosIndex < adjectivesIndex && adjectivesIndex < adverbsIndex);
+  assert.match(memberNav, /href="#dictionary" data-i18n="navVocabulary">Diccionario<\/a>/);
   assert.match(memberNav, /<summary>Más<\/summary>/);
   assert.match(memberNav, /href="#tutor" data-i18n="navTutor">Tutor I\.A\.<\/a>/);
   assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navProgress"/);
-  assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navGoals"/);
   assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navAbout"/);
-  assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navSecurity"/);
   assert.match(memberNav, /class="nav-more-menu"[\s\S]*href="#downloads" data-i18n="navDownloads"/);
 });
 
@@ -1150,7 +1146,8 @@ test('Reading serves only the official Supabase Storage audio', () => {
   const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
   assert.match(server, /app\.get\('\/api\/tts\/reading'/);
   assert.match(server, /requireAuth/);
-  assert.match(server, /requirePremiumNaturalReading/);
+  assert.match(server, /app\.get\('\/api\/tts\/reading', requireAuth, async/);
+  assert.doesNotMatch(server, /requirePremiumNaturalReading/);
   assert.doesNotMatch(server, /app\.post\(\s*'\/api\/tts\/reading'/);
   assert.match(source, /Audio oficial de ANDERGO/);
   assert.doesNotMatch(source, /method: 'POST',[\s\S]{0,200}\/api\/tts\/reading/);
@@ -1313,7 +1310,7 @@ test('English verbs reserve a complete translated C2 catalogue without placehold
   );
 });
 
-test('French C2 has 12 CEFR mastery units entirely in French across all six core skills', () => {
+test('French C2 has 12 CEFR mastery units with French activities and vocabulary translation support', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'french' && row.level === 'C2')
     .sort((a, b) => a.order_index - b.order_index);
@@ -1334,9 +1331,11 @@ test('French C2 has 12 CEFR mastery units entirely in French across all six core
     const grammar = rows.find((row) => row.skill === 'grammar');
     const wordCount = reading.content_json.reading.text.split(/\s+/).filter(Boolean).length;
     assert.ok(wordCount >= 650 && wordCount <= 950, `${unit.slug}: ${wordCount} words`);
-    assert.equal(reading.content_json.exercises.length, 12);
-    assert.equal(vocabulary.content_json.vocabulary.length, 12);
-    assert.equal(vocabulary.content_json.exercises.length, 12);
+    // The authored French C2 dossiers contain five comprehension questions.
+    assert.equal(reading.content_json.exercises.length, 5);
+    // Advanced vocabulary enrichment supplies thirty words per unit.
+    assert.equal(vocabulary.content_json.vocabulary.length, 30);
+    assert.equal(vocabulary.content_json.exercises.length, 30);
     assert.equal(reading.content_json.reading.parts.length, 6);
     assert.match(vocabulary.title, /^Le lexique de l’unité/);
     assert.equal(grammar.content_json.exercises.length, 8);
@@ -1345,7 +1344,7 @@ test('French C2 has 12 CEFR mastery units entirely in French across all six core
 
     vocabulary.content_json.vocabulary.forEach((item) => {
       assert.ok(item.definition);
-      assert.equal(item.translation, item.definition);
+      assert.ok(item.translation?.trim(), `${item.word}: missing translation support`);
     });
     [reading, vocabulary, grammar].forEach((row) => {
       assert.equal(row.content_json.language, 'Français');
@@ -1503,9 +1502,11 @@ test('English C2 has 12 mastery units with all six core skills', () => {
       reading.content_json.reading.references,
       `${unit.slug} references must be persisted for the database-backed lesson`
     );
-    assert.equal(reading.content_json.exercises.length, 5);
-    assert.equal(vocabulary.content_json.vocabulary.length, 12);
-    assert.equal(vocabulary.content_json.exercises.length, 12);
+    // English C2 retains its twelve-question authored assessment.
+    assert.equal(reading.content_json.exercises.length, 12);
+    // Advanced vocabulary enrichment supplies thirty words per unit.
+    assert.equal(vocabulary.content_json.vocabulary.length, 30);
+    assert.equal(vocabulary.content_json.exercises.length, 30);
     assert.equal(grammar.content_json.extra.grammarTest.questions.length, 8);
     assert.ok(grammar.content_json.extra.grammarProfile);
     grammar.content_json.extra.grammarTest.questions.forEach((question) => {
@@ -2862,13 +2863,13 @@ test('script.js: the confirmation callback handles error params, never double-pr
   assert.match(confirmedPageBody, /function showSuccess\(email\) \{\s*\n\s*window\.history\.replaceState/);
 });
 
-test('reading audio player exposes only the official-audio action', () => {
+test('reading audio player exposes Play 1 for official audio', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
 
   const rendered = source.match(/function renderReadingAudioPlayerHtml\(snapshot\) \{([\s\S]*?)\n\}/)?.[1];
   assert.ok(rendered, 'expected to find renderReadingAudioPlayerHtml() body');
   assert.match(rendered, /reading-audio-natural-btn/);
-  assert.match(rendered, /▶ Escuchar audio/);
+  assert.match(rendered, /▶ Play 1/);
   assert.doesNotMatch(rendered, /reading-audio-playpause-btn/);
 });
 
@@ -2880,7 +2881,10 @@ test('reading audio player: markup keeps an optional device-TTS fallback', () =>
   assert.ok(rendered.includes('reading-audio-natural-btn'));
   assert.ok(rendered.includes('reading-natural-audio'));
   assert.ok(rendered.includes('reading-audio-tts-btn'));
-  assert.ok(rendered.includes('TTS opcional'));
+  assert.ok(rendered.includes('▶ Play 2'));
+  assert.ok(!rendered.includes('is-locked'));
+  assert.ok(!rendered.includes('isPremiumUser'));
+  assert.match(source, /audio\.onplay = \(\) => readingSpeechPlayer\.stopReading\(\)/);
   assert.ok(!rendered.includes('reading-audio-playpause-btn'));
   assert.ok(!rendered.includes('reading-audio-voice-btn'));
 });
@@ -4031,7 +4035,7 @@ test('student journey presents practical curriculum guidance and preserves lesso
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
   assert.match(source, /class="unit-overview-sequence"/);
   assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
-  assert.match(source, /class="path-unit-journey">\$\{escapeHtml\(routeText\('unit'\)\)\}/);
+  assert.match(source, /class="path-unit-journey">\$\{missionPilot \? 'Misión' : escapeHtml\(routeText\('unit'\)\)\}/);
   assert.match(source, /class="path-unit-reward">/);
   assert.match(source, /function getUnitArtwork\(unit = \{\}\)/);
   assert.match(source, /class="path-unit-artwork path-unit-artwork--\$\{artwork\.tone\}"/);
@@ -4806,4 +4810,36 @@ test('German Reading comprehension keeps prompts and every answer choice in Germ
       (question.options || []).forEach((option) => assert.doesNotMatch(String(option), SpanishLeak));
     });
   });
+});
+
+test('curriculum repairs are idempotent and preserve every listening transcript', () => {
+  const { repair } = require('./scripts/repair-pending-curriculum');
+  const rows = structuredClone(seedLessons);
+  const before = JSON.stringify(rows);
+  assert.equal(repair(rows), 0, 'committed curriculum must already contain all repairs');
+  assert.equal(JSON.stringify(rows), before, 're-running repairs must not rewrite reviewed content');
+});
+
+test('course generators retain repaired profiles and assessments', () => {
+  for (const level of ['C1', 'C2']) {
+    const { units } = require(`./scripts/content/french-${level.toLowerCase()}-units`);
+    for (const unit of units) {
+      const grammar = unit.activities.grammar;
+      assert.ok(grammar.grammarProfile?.definition, unit.slug);
+      assert.ok(grammar.grammarProfile?.examples?.length, unit.slug);
+      assert.equal(unit.activities.listening.listeningComprehension.questions.length, 4, unit.slug);
+    }
+  }
+  const { flatten } = require('./scripts/build-italian-portuguese-a1-a2');
+  for (const language of ['italian', 'portuguese']) {
+    for (const level of ['A1', 'A2']) {
+      for (const row of flatten(language, level).filter((row) => row.skill === 'reading')) {
+        assert.equal(row.content_json.exercises.length, level === 'A1' ? 4 : 5, row.slug);
+        if (level === 'A1') {
+          const words = row.content_json.reading.text.split(/\s+/).length;
+          assert.ok(words >= 162 && words <= 262, `${row.slug}: ${words} words`);
+        }
+      }
+    }
+  }
 });

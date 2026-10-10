@@ -7,98 +7,46 @@ import { useSubscription } from '@/context/subscription';
 import { TargetLanguage, useGame } from '@/context/game';
 
 const LANGUAGES: { id: TargetLanguage; label: string; flag: string; levels: string }[] = [
-  { id: 'english', label: 'Inglés', flag: '🇺🇸', levels: 'A1–C2' },
-  { id: 'french', label: 'Francés', flag: '🇫🇷', levels: 'A1–C2' },
-  { id: 'spanish', label: 'Español', flag: '🇪🇸', levels: 'A1–C2' },
-  { id: 'italian', label: 'Italiano', flag: '🇮🇹', levels: 'A1–B1' },
-  { id: 'portuguese', label: 'Portugués', flag: '🇧🇷', levels: 'A1–B1' },
-  { id: 'german', label: 'Alemán', flag: '🇩🇪', levels: 'A1–B1' }
+  { id: 'english', label: 'Inglés', flag: '🇺🇸', levels: 'A1–A2' },
+  { id: 'french', label: 'Francés', flag: '🇫🇷', levels: 'A1–A2' }
 ];
 
 const PLATFORM_TILES = [
   {
     number: '01',
-    title: 'Misiones',
-    copy: 'Tu ruta y lecciones',
-    color: 'blue',
-    destination: '/library'
-  },
-  {
-    number: '02',
-    title: 'Historias',
-    copy: 'Lee y comprende',
+    title: 'Historias y audios',
+    copy: 'Escucha, lee y comprende',
     color: 'violet',
     destination: '/library?tab=reading'
   },
   {
+    number: '02',
+    title: 'Jugar',
+    copy: 'Trivia, escucha y letras',
+    color: 'rose',
+    destination: '/platform?section=games&title=Juegos'
+  },
+  {
     number: '03',
-    title: 'Escucha',
-    copy: 'Audios oficiales',
-    color: 'cyan',
-    destination: '/library?tab=listening'
-  },
-  {
-    number: '04',
-    title: 'Palabras',
-    copy: 'Colecciona vocabulario',
-    color: 'emerald',
-    destination: '/library?tab=vocabulary'
-  },
-  {
-    number: '05',
-    title: 'Superpoderes',
-    copy: 'Gramática y verbos',
-    color: 'orange',
-    destination: '/library?tab=grammar'
-  },
-  {
-    number: '06',
-    title: 'Entrena con Tutor',
-    copy: 'Práctica guiada',
+    title: 'Tutor IA',
+    copy: 'Habla y recibe ayuda',
     color: 'indigo',
     destination: '/tutor'
   },
   {
-    number: '07',
-    title: 'Traductor',
-    copy: 'Traduce y escucha',
-    color: 'rose',
-    destination: '/translator'
-  },
-  {
-    number: '08',
-    title: 'Juegos',
-    copy: 'Reto rápido',
+    number: '04',
+    title: 'Mi ruta',
+    copy: 'Palabras, poderes y retos',
     color: 'blue',
-    destination: '/platform?section=games&title=Juegos'
-  },
-  {
-    number: '09',
-    title: 'Descubre',
-    copy: 'Infografías visuales',
-    color: 'violet',
-    destination: '/platform?section=infographics&title=Infografías'
-  },
-  {
-    number: '10',
-    title: 'Frases útiles',
-    copy: 'Habla como un pro',
-    color: 'cyan',
-    destination: '/platform?section=useful-expressions&title=Useful%20expressions'
-  },
-  {
-    number: '11',
-    title: 'Inglés técnico',
-    copy: 'Para el mundo real',
-    color: 'emerald',
-    destination: '/platform?section=technical-english&title=Inglés%20técnico'
+    destination: '/library'
   }
 ] as const;
 
 export default function HomeScreen() {
   const { session } = useAuth();
   const { isPremium } = useSubscription();
-  const { targetLanguage, setTargetLanguage } = useGame();
+  const { targetLanguage, setTargetLanguage, lastMission: savedMission } = useGame();
+  const lastMission = targetLanguage === savedMission?.language ? savedMission : undefined;
   const current = LANGUAGES.find((language) => language.id === targetLanguage) ?? LANGUAGES[0];
   const firstName = session?.displayName?.split(' ')[0];
   return (
@@ -152,15 +100,28 @@ export default function HomeScreen() {
             {'\n'}aprender y ganar!
           </ThemedText>
           <ThemedText style={s.heroCopy}>
-            Completa misiones reales de ANDERGO, consigue puntos y practica hablando con tu Tutor.
+            {lastMission
+              ? `Tu siguiente reto: ${lastMission.title}`
+              : 'Aprende inglés o francés desde español: juega, escucha historias y conversa con tu Tutor.'}
           </ThemedText>
-          <Pressable onPress={() => router.push('/library' as never)} style={s.heroAction}>
-            <ThemedText style={s.heroActionText}>Comenzar mi misión →</ThemedText>
+          <Pressable
+            onPress={() =>
+              lastMission
+                ? router.push(
+                    `/activity?language=${lastMission.language}&level=${lastMission.level}&slug=${encodeURIComponent(lastMission.slug)}&lessonId=${lastMission.lessonId}&skill=${lastMission.skill}` as never
+                  )
+                : router.push('/library' as never)
+            }
+            style={s.heroAction}
+          >
+            <ThemedText style={s.heroActionText}>
+              {lastMission ? 'Continuar mi aventura →' : 'Comenzar mi misión →'}
+            </ThemedText>
           </Pressable>
         </View>
         <View style={s.sectionHead}>
-          <ThemedText style={s.sectionTitle}>Selecciona tu idioma</ThemedText>
-          <ThemedText style={s.sectionHint}>Puedes cambiarlo después</ThemedText>
+          <ThemedText style={s.sectionTitle}>Elige tu aventura</ThemedText>
+          <ThemedText style={s.sectionHint}>Todo explicado desde español</ThemedText>
         </View>
         <ScrollView
           horizontal
@@ -189,10 +150,10 @@ export default function HomeScreen() {
         </ScrollView>
         <View style={s.platformHead}>
           <View>
-            <ThemedText style={s.sectionTitle}>Elige tu próxima aventura</ThemedText>
-            <ThemedText style={s.platformHint}>Aprende, juega y practica con tu Tutor</ThemedText>
+            <ThemedText style={s.sectionTitle}>Accesos rápidos</ThemedText>
+            <ThemedText style={s.platformHint}>Lo esencial para aprender y jugar</ThemedText>
           </View>
-          <ThemedText style={s.platformCount}>11</ThemedText>
+          <ThemedText style={s.platformCount}>{PLATFORM_TILES.length}</ThemedText>
         </View>
         <View style={s.tileGrid}>
           {PLATFORM_TILES.map((tile) => (
@@ -224,22 +185,12 @@ function PlatformTile({
   color,
   destination
 }: (typeof PLATFORM_TILES)[number]) {
-  const tone =
-    color === 'blue'
-      ? s.tileBlue
-      : color === 'violet'
-        ? s.tileViolet
-        : color === 'cyan'
-          ? s.tileCyan
-          : color === 'emerald'
-            ? s.tileEmerald
-            : color === 'orange'
-              ? s.tileOrange
-              : color === 'indigo'
-                ? s.tileIndigo
-                : color === 'rose'
-                  ? s.tileRose
-                  : s.tileSlate;
+  const tone = {
+    blue: s.tileBlue,
+    violet: s.tileViolet,
+    indigo: s.tileIndigo,
+    rose: s.tileRose
+  }[color];
   return (
     <Pressable onPress={() => router.push(destination as never)} style={[s.tile, tone]}>
       <ThemedText style={s.tileNumber}>{number}</ThemedText>

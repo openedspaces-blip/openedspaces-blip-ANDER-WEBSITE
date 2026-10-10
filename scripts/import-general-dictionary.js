@@ -35,8 +35,18 @@ const PROPER_NAMES = new Set([
   'isabel', 'javier', 'juan', 'luis', 'manuel', 'miguel', 'pablo', 'pedro', 'raúl'
 ]);
 
+// Spoken-corpus fillers are useful for transcription research but not as
+// standalone dictionary learning targets. Remove them in every language.
+const NON_LEXICAL_TERMS = new Set([
+  'aah', 'aaah', 'ahh', 'ahhh', 'ehh', 'ehhh', 'hmm', 'hmmm', 'huh', 'uh', 'uhh', 'uhm', 'um', 'umm',
+  'mm', 'mmm', 'mmm', 'pff', 'psst', 'shh', 'tsk', 'ugh', 'er', 'erm', 'eh', 'ah', 'oh', 'ooh', 'oops',
+  'yeah', 'yep', 'nope', 'ok', 'okay', 'gonna', 'wanna', 'gotta', 'dunno', 'ain', 'don', 'doesn', 'didn',
+  'isn', 'wasn', 'weren', 'wouldn', 'couldn', 'shouldn', 'haven', 'hasn', 'hadn', 'aren', 'cant', 'wont'
+]);
+
 function isExcludedTerm(term) {
-  return PROPER_NAMES.has(normalise(term));
+  const normalised = normalise(term);
+  return PROPER_NAMES.has(normalised) || NON_LEXICAL_TERMS.has(normalised);
 }
 
 function normalise(value) { return String(value || '').normalize('NFKC').trim().toLocaleLowerCase(); }

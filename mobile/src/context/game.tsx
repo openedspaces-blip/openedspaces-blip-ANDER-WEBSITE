@@ -3,17 +3,31 @@ import { createContext, PropsWithChildren, useContext, useEffect, useMemo, useSt
 
 const STORAGE_KEY = 'andergo.learning-preferences.v1';
 
-export type TargetLanguage = 'english' | 'french' | 'spanish' | 'italian' | 'portuguese' | 'german';
+/** ANDERGO Play teaches English and French from Spanish through A1–A2 play. */
+export type TargetLanguage = 'english' | 'french';
 
-const TARGET_LANGUAGES: TargetLanguage[] = ['english', 'french', 'spanish', 'italian', 'portuguese', 'german'];
+const TARGET_LANGUAGES: TargetLanguage[] = ['english', 'french'];
 
 type LearningPreferences = {
   targetLanguage: TargetLanguage;
+  lastMission?: LastMission;
+};
+
+export type LastMission = {
+  language: TargetLanguage;
+  slug: string;
+  lessonId: string;
+  skill: 'listening' | 'speaking' | 'reading' | 'writing' | 'grammar' | 'vocabulary';
+  title: string;
+  level: 'A1' | 'A2';
+  unitId?: string;
+  unitTitle?: string;
 };
 
 type LearningContextValue = LearningPreferences & {
   ready: boolean;
   setTargetLanguage: (language: TargetLanguage) => void;
+  setLastMission: (mission: LastMission) => void;
 };
 
 const initialState: LearningPreferences = { targetLanguage: 'english' };
@@ -33,7 +47,14 @@ export function GameProvider({ children }: PropsWithChildren) {
         if (!value) return;
         const saved = JSON.parse(value) as Partial<LearningPreferences>;
         if (TARGET_LANGUAGES.includes(saved.targetLanguage as TargetLanguage)) {
-          setState({ targetLanguage: saved.targetLanguage as TargetLanguage });
+          setState({
+            targetLanguage: saved.targetLanguage as TargetLanguage,
+            lastMission: saved.lastMission
+          });
+        } else {
+          // Older installations may have saved an unavailable language.
+          // Keep Play inside its three intentional worlds.
+          setState(initialState);
         }
       })
       .finally(() => setReady(true));
@@ -43,13 +64,19 @@ export function GameProvider({ children }: PropsWithChildren) {
     if (ready) void AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   }, [ready, state]);
 
-  const value = useMemo<LearningContextValue>(() => ({
-    ...state,
-    ready,
-    setTargetLanguage(targetLanguage) {
-      setState({ targetLanguage });
-    },
-  }), [ready, state]);
+  const value = useMemo<LearningContextValue>(
+    () => ({
+      ...state,
+      ready,
+      setTargetLanguage(targetLanguage) {
+        setState((current) => ({ ...current, targetLanguage }));
+      },
+      setLastMission(lastMission) {
+        setState((current) => ({ ...current, lastMission }));
+      }
+    }),
+    [ready, state]
+  );
 
   return <GameContext.Provider value={value}>{children}</GameContext.Provider>;
 }

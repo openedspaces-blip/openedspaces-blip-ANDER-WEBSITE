@@ -240,6 +240,14 @@ function buildUnit(language, level, raw, order) {
         `${c.friend} fa una domanda semplice e ${c.person} risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.`,
         `Alla fine, ${c.person} scrive: “${phrase}”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con ${c.friend}.`
       ];
+  if (!isA2) {
+    readingParts[1] += pt
+      ? ` ${c.person} abre o caderno e anota duas palavras: ${w1} e ${w2}. Depois pergunta: “Você pode repetir, por favor?”. ${c.friend} repete e dá um exemplo. Ela lê o exemplo em voz alta e faz uma nova pergunta.`
+      : ` ${c.person} apre il quaderno e scrive due parole: ${w1} e ${w2}. Poi chiede: “Puoi ripetere, per favore?”. ${c.friend} ripete e fa un esempio. Sofia legge l'esempio ad alta voce e fa una nuova domanda.`;
+    readingParts[2] += pt
+      ? ' Em casa, ela lê as notas durante dez minutos. No dia seguinte, quer usar as palavras sem olhar o caderno.'
+      : ' A casa legge gli appunti per dieci minuti. Il giorno dopo vuole usare le parole senza guardare il quaderno.';
+  }
   const vocab = [w1,w2,w3,w4].map((word, i) => ({
     word,
     translation: pt
@@ -260,7 +268,25 @@ function buildUnit(language, level, raw, order) {
   }};
 }
 
-function rowsFor(language, level) { return CULTURES[language][level.toLowerCase()].map((raw,i)=>buildUnit(language,level,raw,i+1)); }
+function rowsFor(language, level) {
+  return CULTURES[language][level.toLowerCase()].map((raw, i) => {
+    const unit = buildUnit(language, level, raw, i + 1);
+    const activity = unit.activities.reading;
+    const row = {
+      slug: `${language}-${level.toLowerCase()}-${unit.slug}-reading`,
+      target_language: language, level, skill: 'reading', unit_slug: unit.slug,
+      content_json: {
+        reading: { ...activity.reading, text: activity.reading.parts.join('\n\n') },
+        exercises: activity.exercises
+      }
+    };
+    require('./normalize-reading-comprehension').normalizeReading(row, level === 'A1' ? 4 : 5);
+    activity.reading = row.content_json.reading;
+    activity.exercises = row.content_json.exercises;
+    return unit;
+  });
+}
 function flatten(language, level) { return rowsFor(language,level).flatMap(unit=>SKILLS.map((skill,index)=>{ const a=unit.activities[skill]; return { slug:`${language}-${level.toLowerCase()}-${unit.slug}-${skill}`, target_language:language, level, skill, unit_slug:unit.slug, title:a.title, description:a.description, order_index:unit.order*10+index, estimated_minutes:a.duration, is_free:unit.accessTier!=='premium', access_tier:unit.accessTier, content_json:{language:CULTURES[language].label,language_key:language,level_title:`${CULTURES[language].label} ${level}`,intro:a.intro||'',mission:a.mission||'',grammar:a.grammarNote||'',phrases:a.phrases||[],vocabulary:a.vocabulary||[],dialogue:a.dialogue||[],reading:a.reading ? {...a.reading,text:a.reading.parts.join('\n\n')} : null,transcript:a.transcript||'',extra:a.extra||null,exercises:a.exercises||[],xp_reward:a.xp} }; })); }
 function main(){ const lessons=JSON.parse(fs.readFileSync(LESSONS,'utf8')); const units=JSON.parse(fs.readFileSync(UNITS,'utf8')); const courses=[['italian','A1'],['italian','A2'],['portuguese','A1'],['portuguese','A2']]; const keep=lessons.filter(row=>!courses.some(([l,v])=>row.target_language===l&&row.level===v)); const keepUnits=units.filter(row=>!courses.some(([l,v])=>row.target_language===l&&row.level===v)); const newUnits=courses.flatMap(([l,v])=>rowsFor(l,v).map(u=>({slug:u.slug,target_language:l,level:v,title:u.title,title_es:u.titleEs,description:u.description,order_index:u.order,unit_overview:u.unitOverview}))); fs.writeFileSync(LESSONS,JSON.stringify([...keep,...courses.flatMap(([l,v])=>flatten(l,v))],null,2)+'\n'); fs.writeFileSync(UNITS,JSON.stringify([...keepUnits,...newUnits],null,2)+'\n'); console.log(`Built ${newUnits.length} units and ${courses.length*72} activities.`); }
-main();
+if (require.main === module) main();
+module.exports = { rowsFor, flatten };
