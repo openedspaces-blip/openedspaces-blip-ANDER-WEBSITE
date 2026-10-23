@@ -39,7 +39,7 @@
   // verified verbs: students can progressively reveal more, or all at once.
   // A scan-first catalogue benefits from showing a substantial portion of
   // each 100-verb language list immediately, while the grid keeps it compact.
-  const PAGE_SIZE = 60;
+  const PAGE_SIZE = 30;
   const ANONYMOUS_PREVIEW_RATIO = 0.25;
   const VERB_LANGUAGES = new Set(['english', 'french', 'spanish', 'italian', 'portuguese', 'german']);
 

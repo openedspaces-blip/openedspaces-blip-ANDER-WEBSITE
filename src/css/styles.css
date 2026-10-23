@@ -8111,6 +8111,10 @@ footer small {
   margin: 1rem 0 1.5rem;
 }
 
+.course-progress-skills {
+  margin: 1rem 0 1.5rem;
+}
+
 .course-progress-heading {
   display: flex;
   align-items: baseline;
@@ -8146,6 +8150,39 @@ footer small {
   font-size: 0.75rem;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+.course-progress-skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.85rem;
+}
+
+.course-progress-skill-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+
+.course-progress-skill-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.course-progress-skill-heading span,
+.course-progress-skill-card p {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.course-progress-skill-card p {
+  margin: 0;
 }
 
 .course-progress-unit-bar {
@@ -38913,6 +38950,23 @@ footer small {
 .learning-extra-nav a { display: inline-flex; align-items: center; min-height: 30px; padding: .25rem .65rem; border: 1px solid rgba(37, 99, 235, .18); border-radius: 999px; color: var(--blue); font-weight: 750; text-decoration: none; }
 .learning-extra-nav a:hover, .learning-extra-nav a:focus-visible { border-color: var(--blue); background: #eff6ff; }
 .learning-extra-nav--standalone { max-width: 1180px; margin: 0 auto 1rem; padding: 0 .2rem; }
+.learning-category-explorer { margin: .9rem 0 1.15rem; padding: 1rem; border: 1px solid #dbe7fa; border-radius: 18px; background: linear-gradient(135deg, #f8fbff, #fff 68%); }
+.learning-category-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .8rem; }
+.learning-category-heading > div > span { color: #2563eb; font-size: .72rem; font-weight: 850; letter-spacing: .09em; text-transform: uppercase; }
+.learning-category-heading h3 { margin: .12rem 0 0; color: #162443; font-size: 1.05rem; }
+.learning-category-heading > p { flex: 0 0 auto; margin: 0; padding: .38rem .68rem; border-radius: 999px; background: #eaf2ff; color: #1d4ed8; font-size: .78rem; font-weight: 800; }
+.learning-category-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: .7rem; }
+.learning-category-card { min-width: 0; padding: .75rem; border: 1px solid #e0e8f5; border-radius: 14px; background: rgba(255, 255, 255, .94); }
+.learning-category-card > summary { display: flex; align-items: center; justify-content: space-between; gap: .5rem; color: #172554; font-size: .87rem; font-weight: 850; cursor: pointer; list-style: none; }
+.learning-category-card > summary::-webkit-details-marker { display: none; }
+.learning-category-card > summary::after { content: '+'; color: #2563eb; font-size: 1.1rem; }
+.learning-category-card[open] > summary::after { content: '−'; }
+.learning-category-links { display: grid; gap: .38rem; margin-top: .62rem; }
+.learning-category-links a { display: flex; flex-direction: column; gap: .08rem; padding: .48rem .58rem; border-radius: 10px; color: #1d4ed8; font-size: .82rem; font-weight: 800; text-decoration: none; }
+.learning-category-links a small { color: #64748b; font-size: .72rem; font-weight: 550; }
+.learning-category-links a:hover, .learning-category-links a:focus-visible { outline: none; background: #eff6ff; }
+@media (max-width: 900px) { .learning-category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .learning-category-explorer { padding: .75rem; } .learning-category-grid { grid-template-columns: 1fr; } .learning-category-heading { align-items: flex-start; flex-direction: column; gap: .45rem; } }
 .technical-mode-switch { display: flex; justify-content: center; gap: .35rem; margin: -.55rem auto 1rem; }
 .technical-mode-switch button { min-height: 34px; padding: .35rem .72rem; border: 1px solid #bfd4f8; border-radius: 999px; background: #fff; color: #43638e; font: inherit; font-size: .75rem; font-weight: 800; cursor: pointer; }
 .technical-mode-switch button.is-active { border-color: #2563eb; background: #2563eb; color: #fff; }

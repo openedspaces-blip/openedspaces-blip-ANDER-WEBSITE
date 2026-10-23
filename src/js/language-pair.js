@@ -219,7 +219,8 @@
       aboutStep4Text: 'Consulta tu avance, racha, objetivos y las actividades que te toca retomar.',
       aboutStartFreeBtn: 'Comenzar gratis',
       aboutIncludesTitle: 'Qué incluye la plataforma',
-      aboutIncludesItem1: 'Rutas de A1 a C2 en inglés, francés, español, italiano, portugués y alemán.',
+      aboutIncludesItem1:
+        'Rutas hasta C2 en inglés, francés y español; hasta B1 en italiano, portugués y alemán.',
       aboutIncludesItem2: 'Una secuencia por unidad: Vocabulary, Reading, Listening, Speaking, Writing, Grammar y Verbos.',
       aboutIncludesItem3: 'Tutor IA para explicaciones docentes, ejemplos, pistas y práctica guiada.',
       aboutIncludesItem4: 'Reproductor de escucha con repetir, saltar, velocidad y texto de apoyo cuando lo necesites.',
@@ -422,7 +423,8 @@
       aboutStep4Text: 'Consultez votre progression, votre série, vos objectifs et les activités à reprendre.',
       aboutStartFreeBtn: 'Commencer gratuitement',
       aboutIncludesTitle: 'Ce que la plateforme inclut',
-      aboutIncludesItem1: 'Des parcours complets de A1 à C2 en anglais, français et espagnol.',
+      aboutIncludesItem1:
+        'Parcours jusqu’au C2 en anglais, français et espagnol ; jusqu’au B1 en italien, portugais et allemand.',
       aboutIncludesItem2: 'Une séquence dans chaque unité : Vocabulary, Reading, Listening, Speaking, Writing, Grammar et Verbes.',
       aboutIncludesItem3: 'Un Tuteur IA pour des explications pédagogiques, des exemples, des indices et une pratique guidée.',
       aboutIncludesItem4: "Un lecteur d'écoute avec répétition, saut, vitesse et texte d'appui selon vos besoins.",

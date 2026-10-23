@@ -1170,6 +1170,14 @@ function updatePathPairPreview() {
   syncLanguagePairSelectOptions();
   refreshLanguagePairChrome();
   updateStartLearningButton();
+  const categoryContext = document.getElementById('learningCategoryContext');
+  if (categoryContext) {
+    const language =
+      languageDisplayNames[learningPathState.language] || learningPathState.language;
+    const level =
+      document.getElementById('pathLevelSelect')?.value || learningPathState.level || 'A1';
+    categoryContext.textContent = `${language} · ${level}`;
+  }
   const preview = document.getElementById('pathPairPreview');
   if (preview) {
     preview.textContent = LanguagePair
@@ -2188,7 +2196,7 @@ function renderDashboardStats(data) {
       ['Progreso', `${data.progress}%`],
       ['Próxima lección', escapeHtml(data.nextLesson || '—')],
       [
-        'Actividades evaluadas',
+        'Actividades completadas',
         courseProgress
           ? `${courseProgress.completedActivities}/${courseProgress.totalActivities}`
           : `${data.completedLessonsCount}`
@@ -2227,6 +2235,42 @@ function renderDashboardStats(data) {
             .join('')}
         </div>`
       : '<p class="skill-graph-empty">El progreso por lección aparecerá cuando comiences una ruta organizada por unidades.</p>';
+  }
+  const skillGrid = document.getElementById('courseProgressSkills');
+  if (skillGrid) {
+    skillGrid.innerHTML = courseProgress?.skills?.length
+      ? `
+        <div class="course-progress-heading">
+          <h3>Avance por habilidad</h3>
+          <span>Resultados del nivel seleccionado</span>
+        </div>
+        <div class="course-progress-skill-grid">
+          ${courseProgress.skills
+            .map((skill) => {
+              const completionPercent = skill.totalActivities
+                ? Math.round((skill.completedActivities / skill.totalActivities) * 100)
+                : 0;
+              const result =
+                skill.scorePercent === null
+                  ? 'Aún no hay actividades evaluadas'
+                  : `${skill.scoredActivities} evaluadas · promedio ${skill.scorePercent}/100`;
+              const skillLabel = getSkillLabel(skill.skill);
+              return `
+                <article class="course-progress-skill-card">
+                  <div class="course-progress-skill-heading">
+                    <strong>${escapeHtml(skillLabel)}</strong>
+                    <span>${skill.completedActivities}/${skill.totalActivities}</span>
+                  </div>
+                  <div class="course-progress-unit-bar" role="progressbar" aria-label="Avance en ${escapeHtml(skillLabel)}" aria-valuenow="${completionPercent}" aria-valuemin="0" aria-valuemax="100">
+                    <div style="width:${completionPercent}%"></div>
+                  </div>
+                  <p>${escapeHtml(result)}</p>
+                </article>
+              `;
+            })
+            .join('')}
+        </div>`
+      : '<p class="skill-graph-empty">El avance por habilidad aparecerá al iniciar una ruta.</p>';
   }
   renderProgressGamificationSummary();
 }
@@ -2361,6 +2405,10 @@ function renderDashboardSignedOut() {
   if (courseProgressUnits)
     courseProgressUnits.innerHTML =
       '<p class="skill-graph-empty">Inicia sesión para ver el score y progreso de cada lección.</p>';
+  const courseProgressSkills = document.getElementById('courseProgressSkills');
+  if (courseProgressSkills)
+    courseProgressSkills.innerHTML =
+      '<p class="skill-graph-empty">Inicia sesión para ver tu avance por habilidad.</p>';
 }
 
 let dashboardPreferences = null;
@@ -21088,8 +21136,16 @@ function queueVocabularyDeckRender(section, { cards, order, expressionCards, can
   if (!deck) return;
   const renderToken = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
   deck.dataset.renderToken = renderToken;
+  const routeMode = Boolean(section?.dataset?.activeLessonSlug);
   const groups = getVocabularyDeckGroups(cards, order, expressionCards, { isFrench });
-  deck.innerHTML = groups
+  const initialGroups = routeMode
+    ? groups.map((group) => ({
+        ...group,
+        cards: group.cards.slice(0, Math.min(4, group.cards.length))
+      }))
+    : groups;
+
+  deck.innerHTML = initialGroups
     .map(
       (group) => `
         <section class="vocab-card-group" data-vocab-group="${group.kind}" aria-labelledby="vocab-group-${group.kind}">
@@ -21103,7 +21159,10 @@ function queueVocabularyDeckRender(section, { cards, order, expressionCards, can
     )
     .join('');
 
-  const work = groups.flatMap((group) =>
+  const fullWork = groups.flatMap((group) =>
+    group.cards.map((card) => ({ kind: group.kind, card }))
+  );
+  const work = initialGroups.flatMap((group) =>
     group.cards.map((card) => ({ kind: group.kind, card }))
   );
   const batchSize = 6;
@@ -21127,6 +21186,26 @@ function queueVocabularyDeckRender(section, { cards, order, expressionCards, can
     applyVocabularyCatalogueFilters(section);
   };
   window.requestAnimationFrame(appendBatch);
+
+  if (routeMode && fullWork.length > work.length) {
+    const revealMore = document.createElement('button');
+    revealMore.type = 'button';
+    revealMore.className = 'secondary-btn vocab-route-show-more';
+    revealMore.textContent = 'Mostrar más palabras';
+    revealMore.addEventListener('click', () => {
+      const remaining = fullWork.slice(work.length);
+      if (!remaining.length) return;
+      remaining.forEach(({ kind, card }) => {
+        const grid = deck.querySelector(`[data-vocab-card-grid="${kind}"]`);
+        grid?.insertAdjacentHTML(
+          'beforeend',
+          renderVocabCardHtml(card, { canSpeak, isFrench, showL1Translation: true })
+        );
+      });
+      revealMore.remove();
+    });
+    deck.insertAdjacentElement('afterend', revealMore);
+  }
 }
 
 function isVocabularyTermExercise(exercise, cards) {
@@ -32621,6 +32700,7 @@ function setupLearningPathControls() {
     const selectedLevel = levelSelect.value;
     const level = normalizeCourseLevel(language, selectedLevel);
     loadLearningPath({ language, level });
+    updatePathPairPreview();
     savePreferences(language, level);
   });
   bridgeSelect?.addEventListener('change', () => {

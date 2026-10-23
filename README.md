@@ -1,6 +1,6 @@
 # ANDERGO Update 04 — Backend, Gamificación y 5 Mundos Completos
 
-### (incluye rutas A1–C2 en English, Español, Français, Italiano, Português y Deutsch)
+### (cursos web hasta C2 en English, Español y Français; hasta B1 en Italiano, Português y Deutsch)
 
 ## Dónde insertar
 
@@ -49,7 +49,7 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 
 ## Qué se corrigió
 
-- **La cobertura curricular ahora se comunica por idioma**: English, Español y Français mantienen rutas A1–C2; Italiano, Português y Deutsch se ofrecen inicialmente hasta B1. El frontend ya limita los niveles disponibles mediante `COURSE_LEVELS_BY_LANGUAGE`, evitando presentar B2–C2 como rutas publicadas para esos tres idiomas.
+- **La cobertura curricular está alineada entre rutas y páginas públicas**: English, Español y Français ofrecen Pre-A1–C2; Italiano, Português y Deutsch ofrecen Pre-A1–B1.
 - **Bug de contenido cruzado**: la pestaña de Francés mostraba un texto de lectura en italiano (copiado por error). Corregido.
 - **`worlds/*/content.js` no existían**: `index.html` ya los cargaba con `<script src="worlds/...">`, pero como no existían, esas etiquetas fallaban en silencio en la consola del navegador. Ahora existen y están completos.
 - **`server_test.js` vs `server.test.js`**: `package.json` corre `node --test server.test.js`, pero el archivo se llamaba `server_test.js`. `npm test` no encontraba nada. Renombrado.
@@ -72,7 +72,7 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 - Si configuras `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` en `.env`, el backend usa Supabase Auth de verdad y lee/escribe en tus tablas reales. También acepta `SUPABASE_KEY` como alias de `SUPABASE_ANON_KEY` para snippets frontend de Supabase.
 - Si **no** los configuras, el backend funciona en "modo demo" con usuarios y progreso en memoria (para que `npm test`, `npm run dev` y una demo local funcionen sin ninguna cuenta externa). Esto se anuncia en `/api/health` (`configured: true/false`).
 - Las lecciones se leen primero de Supabase (`lessons` con `target_language`); si no hay filas para ese idioma/nivel, se usa el contenido local en `lib/lessonsData.js` como respaldo, para que la ruta de aprendizaje nunca aparezca vacía en un proyecto recién clonado.
-- **No hay integración de pagos real todavía.** Se agregó `profiles.access_tier` para poder marcar manualmente a un usuario como premium desde el dashboard de Supabase mientras tanto.
+- **PayPal ya está integrado para suscripciones Premium**, incluidos el checkout, la verificación servidor-servidor y la sincronización por webhook. Los cobros se mantienen desactivados hasta configurar credenciales, planes y webhook; consulta [`docs/payments-paypal.md`](./docs/payments-paypal.md).
 
 ## Despliegue en Vercel
 
@@ -115,14 +115,13 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 
 > No se ejecutó contra un proyecto Supabase real (no tengo credenciales); todo lo anterior se validó en modo demo. Antes de producción, corre `npm run db:setup` con `SUPABASE_DATABASE_URL` configurado para aplicar la migración de gamificación, y prueba `npm test` de nuevo con `SUPABASE_URL`/`SUPABASE_SERVICE_ROLE_KEY` reales.
 
-## Fase 2 (completada en esta entrega)
+## Cobertura curricular publicada
 
-- Las rutas publicadas cubren A1–C2 en los seis idiomas: cada idioma reúne 72 actividades por nivel (12 unidades × 6 habilidades) desde A1 hasta C2.
-- Validado curricularmente: las rutas de Italiano, Português y Deutsch cubren A1–C2 con seis habilidades por unidad; English, Español y Français mantienen la misma cobertura completa. La insignia "Políglota" y el bloqueo Premium siguen funcionando por idioma.
+- English, Español y Français tienen rutas Pre-A1–C2; Italiano, Português y Deutsch tienen rutas Pre-A1–B1. Las coberturas auditadas se verifican con `npm run audit:curriculum` y `npm run verify:all`.
+- La app móvil tiene una oferta independiente y no forma parte de esta actualización.
 
-## Qué sigue (fase 3 sugerida)
+## Pagos y pasos de lanzamiento
 
-1. Mantener los procesadores de pago activos para que `profiles.access_tier` se actualice automáticamente.
-2. Ampliar cada idioma más allá de las 8 lecciones actuales (más variedad dentro de cada nivel, no solo una por nivel).
-3. Sonidos/animaciones adicionales para las celebraciones de racha y de subir de nivel.
-4. Tabla de líderes (leaderboard) opcional usando `profiles.xp`.
+1. PayPal ya cuenta con checkout de suscripciones y verificación de suscripción/webhooks. Para probarlo, sigue [`docs/payments-paypal.md`](./docs/payments-paypal.md) y configura primero Sandbox.
+2. Antes de producción, realiza el smoke test de Supabase y PayPal en un entorno de staging con credenciales propias; no habilites cobros reales hasta verificar alta, renovación, cancelación y expiración.
+3. El panel de progreso reporta avance y resultados disponibles por habilidad y nivel; las actividades no evaluadas se identifican como tales, sin inventar puntuaciones.

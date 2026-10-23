@@ -4110,7 +4110,7 @@ test('unit and dashboard progress combine six lesson scores with persisted Verbo
   assert.match(source, /recordUnitVerbScore/);
   assert.match(server, /\/api\/verbs\/unit-progress/);
   assert.match(dashboard, /courseProgress/);
-  assert.match(dashboard, /progressPercent:\s*totalActivities \? Math\.round\(scoreTotal \/ totalActivities\)/);
+  assert.match(dashboard, /progressPercent:\s*scoredActivities \? Math\.round\(scoreTotal \/ scoredActivities\)/);
   assert.match(migration, /enable row level security/);
   assert.match(migration, /\(select auth\.uid\(\)\) = user_id/);
 });
