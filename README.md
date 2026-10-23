@@ -55,6 +55,7 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 - **`server_test.js` vs `server.test.js`**: `package.json` corre `node --test server.test.js`, pero el archivo se llamaba `server_test.js`. `npm test` no encontraba nada. Renombrado.
 - **Backend inexistente**: `package.json` y `vercel.json` ya referenciaban `lib/server.js` y `api/**/*.js`, pero no existían. Se construyó desde cero, usando `server_test.js` como contrato exacto y `SUPABASE_RUN_THIS.sql` como fuente del esquema real (`lessons`, `lesson_completions`, `lesson_progress`, `profiles`, `billing_plans`).
 - **Ruta de aprendizaje fija a "English A1"**: ahora tiene selectores de idioma y nivel, y si el backend no responde, usa contenido local de respaldo (nunca queda vacía).
+- **Explorador de categorías conectado al curso**: las habilidades, pruebas, diccionario, juegos y Tutor heredan el idioma/nivel activo; los recursos de Inglés técnico e Infografías se ocultan para otros idiomas. Las pruebas PRE-A1 muestran que todavía no están disponibles, y los recursos de consulta sin progresión CEFR usan el idioma elegido.
 
 ## Qué se agregó (gamificación)
 

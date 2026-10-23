@@ -590,7 +590,19 @@ worthwhile|que vale la pena|worthless`.trim().split('\n').map((line) => {
     content.innerHTML = `<section class="lexicon-reference" data-kind="${kind}" data-language="${language}"><header class="lexicon-reference-head"><div><span>FLASHCARDS DE VOCABULARIO</span><h2>${kind === 'adjectives' ? 'Adjetivos: comparativo y superlativo' : 'Adverbios por función'}</h2><p>${kind === 'adjectives' ? 'Gira cada tarjeta para comparar sus formas y descubrir el antónimo.' : 'Cada tarjeta muestra el adverbio, su guía fonética y significado. Tócala para escucharlo y abre «Ver más» para los ejemplos.'}</p></div><label>Idioma <select class="lexicon-language">${Object.entries(languages).map(([key,label]) => `<option value="${key}"${key === language ? ' selected' : ''}>${label}</option>`).join('')}</select></label></header><div class="lexicon-toolbar"><label>Buscar <input class="lexicon-search" type="search" placeholder="Escribe una palabra…"></label>${kind === 'adverbs' ? `<div class="lexicon-categories">${categories.map((category) => `<button type="button" data-category="${category}" class="${category === 'todos' ? 'is-active' : ''}">${category}</button>`).join('')}</div>` : ''}</div>${freeNotice}<p class="lexicon-count"><strong>${rows.length}</strong> ${countLabel} en ${languages[language]}${anonymousPreview ? ` · muestra gratuita del 25%` : ''}</p><div class="lexicon-flashcard-grid">${rows.map((row) => flashcardHtml(row, kind, language)).join('')}</div>${anonymousPreview ? '<button type="button" class="secondary-btn upgrade-btn lexicon-preview-upgrade">Desbloquear el contenido completo</button>' : ''}<p class="lexicon-source-note">Fuentes léxicas: <a href="https://kaikki.org/" target="_blank" rel="noopener">Kaikki/Wiktionary</a>. Ejemplos de uso: <a href="https://tatoeba.org/" target="_blank" rel="noopener">Tatoeba</a>.</p></section>`;
     const apply = () => { const query = content.querySelector('.lexicon-search').value.trim().toLowerCase(); const active = content.querySelector('.lexicon-categories .is-active')?.dataset.category || 'todos'; let count = 0; content.querySelectorAll('.lexicon-flashcard').forEach((row) => { const show = (!query || row.dataset.search.includes(query)) && (active === 'todos' || row.dataset.category === active); row.hidden = !show; if (show) count += 1; }); content.querySelector('.lexicon-count').innerHTML = `<strong>${count}</strong> ${kind === 'adjectives' ? 'adjetivos visibles' : 'adverbios y conectores visibles'} en ${languages[language]}`; };
     content.querySelector('.lexicon-search').addEventListener('input', apply);
-    content.querySelector('.lexicon-language').addEventListener('change', (event) => render(section, kind, event.target.value));
+    content.querySelector('.lexicon-language').addEventListener('change', (event) => {
+      const previousLanguage = language;
+      const request = new CustomEvent('andergo:course-language-request', {
+        bubbles: true,
+        cancelable: true,
+        detail: { language: event.target.value }
+      });
+      if (!section.dispatchEvent(request)) {
+        render(section, kind, previousLanguage);
+        return;
+      }
+      render(section, kind, event.target.value);
+    });
     content.querySelectorAll('[data-category]').forEach((button) => button.addEventListener('click', () => { content.querySelectorAll('[data-category]').forEach((item) => item.classList.toggle('is-active', item === button)); apply(); }));
     const speak = (text) => { if (!window.speechSynthesis) return; window.speechSynthesis.cancel(); const utterance = new SpeechSynthesisUtterance(text); utterance.lang = locales[language]; window.speechSynthesis.speak(utterance); };
     content.querySelectorAll('.lexicon-flashcard').forEach((card) => { card.addEventListener('click', (event) => { if (!event.target.closest('.lexicon-speak, .lexicon-example-speak, .lexicon-more-btn, .lexicon-examples-btn')) speak(card.dataset.speak); }); card.addEventListener('keydown', (event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); speak(card.dataset.speak); } }); });

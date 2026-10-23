@@ -1178,6 +1178,11 @@ function updatePathPairPreview() {
       document.getElementById('pathLevelSelect')?.value || learningPathState.level || 'A1';
     categoryContext.textContent = `${language} · ${level}`;
   }
+  document
+    .querySelectorAll('.learning-category-explorer [data-course-language]')
+    .forEach((link) => {
+      link.hidden = link.dataset.courseLanguage !== learningPathState.language;
+    });
   const preview = document.getElementById('pathPairPreview');
   if (preview) {
     preview.textContent = LanguagePair
@@ -1276,11 +1281,24 @@ function setTargetLanguage(lang, options = {}) {
   if (pathLevelSelect) pathLevelSelect.value = requestedLevel;
   const level = syncCourseLevelSelect(pathLevelSelect, resolved);
   loadLearningPath({ language: resolved, level });
+  if (tutorLanguagePreference !== resolved) setTutorLanguage(resolved);
   updatePathPairPreview();
   updateAiTutorContext();
   updateLevelTabLabels();
   if (options.persist !== false) savePreferences(resolved, level, learningPathState.bridgeLanguage);
   return true;
+}
+
+function setCourseSelectionFromResource(language, level = learningPathState.level) {
+  const resolvedLanguage = normalizeLanguageKey(language);
+  if (!resolvedLanguage || !languageDisplayNames[resolvedLanguage]) return false;
+  if (
+    resolvedLanguage === learningPathState.bridgeLanguage &&
+    resolvedLanguage !== learningPathState.language
+  ) {
+    if (!swapLearningPathLanguages()) return false;
+  }
+  return setTargetLanguage(resolvedLanguage, { level });
 }
 
 // Swaps bridge<->target (Español -> Inglés becomes Inglés -> Español) for the
@@ -2092,6 +2110,9 @@ function applyPreferencesToSelects(preferences) {
   learningPathState.bridgeLanguage = preferences.bridgeLanguage;
   learningPathState.language = preferences.language;
   learningPathState.level = preferences.level;
+  if (tutorLanguagePreference !== preferences.language) {
+    setTutorLanguage(preferences.language);
+  }
   syncLearningMode();
   applyInterfaceLanguage(learningPathState.bridgeLanguage);
   updatePathPairPreview();
@@ -9278,8 +9299,8 @@ function updateAiTutorContext({ freeMode = false } = {}) {
   }
   const values = freeMode
     ? {
-        language: languageDisplayNames[getTutorLanguage()] || getTutorLanguage(),
-        level: 'N/A',
+        language: languageDisplayNames[learningPathState.language] || learningPathState.language,
+        level: learningPathState.level || 'N/A',
         lesson: 'Consulta libre'
       }
     : {
@@ -25087,13 +25108,16 @@ function testLanguageLabel(language) {
 
 function syncTestLevelOptions() {
   const level = document.getElementById('testLevelSelect');
+  const language = document.getElementById('testLanguageSelect')?.value || learningPathState.language;
   if (!level) return;
   const requested = level.value;
-  const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  const levels = getAvailableCourseLevels(language, { includePreA1: false });
   level.innerHTML = levels
     .map((item) => `<option value="${item}">${item}</option>`)
     .join('');
-  level.value = levels.includes(requested) ? requested : 'A1';
+  level.value = levels.includes(requested)
+    ? requested
+    : normalizeCourseLevel(language, learningPathState.level, { includePreA1: false });
 }
 
 function renderLessonTest() {
@@ -25551,6 +25575,28 @@ async function loadTestsView() {
   const languageSelect = document.getElementById('testLanguageSelect');
   const lessonSelect = document.getElementById('testLessonSelect');
   if (!levelSelect || !languageSelect || !lessonSelect) return;
+  if (learningPathState.level === 'PRE-A1') {
+    lessonTestState.language = learningPathState.language;
+    lessonTestState.level = 'PRE-A1';
+    lessonTestState.units = [];
+    lessonTestState.lessons = [];
+    lessonTestState.unitId = '';
+    lessonTestState.questions = [];
+    lessonTestState.result = null;
+    languageSelect.value = learningPathState.language;
+    levelSelect.disabled = true;
+    lessonSelect.innerHTML = '<option value="">No disponible todavía</option>';
+    lessonSelect.disabled = true;
+    const startButton = document.getElementById('startLessonTestBtn');
+    if (startButton) startButton.disabled = true;
+    applyTestsUiCopy();
+    const stage = document.getElementById('testsStage');
+    if (stage) {
+      stage.innerHTML = `<div class="tests-welcome"><h3>Pruebas de ${escapeHtml(testLanguageLabel(learningPathState.language))} próximamente</h3><p>Las pruebas todavía no están disponibles para el nivel PRE-A1.</p></div>`;
+    }
+    return;
+  }
+  levelSelect.disabled = false;
   syncTestLevelOptions();
   lessonTestState.language = languageSelect.value || 'english';
   lessonTestState.level = levelSelect.value || 'A1';
@@ -25631,10 +25677,20 @@ function setupTestsView() {
   const language = document.getElementById('testLanguageSelect');
   const lesson = document.getElementById('testLessonSelect');
   language?.addEventListener('change', () => {
+    if (!setCourseSelectionFromResource(language.value, level?.value)) {
+      language.value = learningPathState.language;
+      return;
+    }
     syncTestLevelOptions();
     loadTestsView();
   });
-  level?.addEventListener('change', loadTestsView);
+  level?.addEventListener('change', () => {
+    if (!setCourseSelectionFromResource(language?.value, level.value)) {
+      level.value = learningPathState.level;
+      return;
+    }
+    loadTestsView();
+  });
   lesson?.addEventListener('change', () => {
     lessonTestState.unitId = lesson.value;
   });
@@ -27607,6 +27663,12 @@ const GAME_DIFFICULTIES = {
   }
 };
 
+function getGamesDifficultyForCourseLevel(level) {
+  if (level === 'PRE-A1' || ['A1', 'A2'].includes(level)) return 'easy';
+  if (['B1', 'B2'].includes(level)) return 'normal';
+  return 'challenge';
+}
+
 function getGamesDifficulty() {
   return GAME_DIFFICULTIES[gamesState.difficulty] || GAME_DIFFICULTIES.normal;
 }
@@ -28577,8 +28639,13 @@ function renderGamesView() {
     button.addEventListener('click', async () => {
       const nextLanguage = button.dataset.gameLanguage;
       if (nextLanguage === gamesState.language) return;
+      if (!setCourseSelectionFromResource(nextLanguage)) {
+        renderGamesView();
+        return;
+      }
       gamesState.hasSelectedLanguage = true;
-      gamesState.language = nextLanguage;
+      gamesState.language = learningPathState.language;
+      gamesState.difficulty = getGamesDifficultyForCourseLevel(learningPathState.level);
       gamesState.vocabulary = [];
       await loadGamesView();
     })
@@ -29831,6 +29898,7 @@ function renderUsefulExpressionsView() {
     renderUsefulExpressionsView();
   }));
   app.querySelectorAll('[data-useful-expression-l1], [data-useful-expression-l2]').forEach((select) => select.addEventListener('change', () => {
+    const previousPair = usefulExpressionsLanguagePair;
     const selected = select.value;
     const isL1 = select.hasAttribute('data-useful-expression-l1');
     const other = isL1 ? usefulExpressionsLanguagePair.l2 : usefulExpressionsLanguagePair.l1;
@@ -29838,6 +29906,15 @@ function renderUsefulExpressionsView() {
     usefulExpressionsLanguagePair = isL1
       ? { l1: selected, l2: other === selected ? fallback : other }
       : { l1: other === selected ? fallback : other, l2: selected };
+    if (
+      !setCourseSelectionFromResource(usefulExpressionsLanguagePair.l2) ||
+      (learningPathState.bridgeLanguage !== usefulExpressionsLanguagePair.l1 &&
+        !setBridgeLanguage(usefulExpressionsLanguagePair.l1))
+    ) {
+      usefulExpressionsLanguagePair = previousPair;
+      renderUsefulExpressionsView();
+      return;
+    }
     try {
       localStorage.setItem(USEFUL_EXPRESSION_LANGUAGE_PAIR_STORAGE_KEY, JSON.stringify(usefulExpressionsLanguagePair));
     } catch {
@@ -29952,7 +30029,17 @@ async function renderGeneralDictionary() {
         </div>
       </section>
       <div class="general-dictionary-pagination no-print"><button type="button" class="secondary-btn" data-dictionary-page="previous" ${page <= 1 ? 'disabled' : ''}>← Anterior</button><button type="button" class="secondary-btn" data-dictionary-page="next" ${page >= pages ? 'disabled' : ''}>Siguiente →</button></div>`;
-    app.querySelector('[data-dictionary-language]')?.addEventListener('change', (event) => { generalDictionaryState.language = event.target.value; generalDictionaryState.query = ''; generalDictionaryState.letter = ''; generalDictionaryState.offset = 0; renderGeneralDictionary(); });
+    app.querySelector('[data-dictionary-language]')?.addEventListener('change', (event) => {
+      if (!setCourseSelectionFromResource(event.target.value)) {
+        event.target.value = learningPathState.language;
+        return;
+      }
+      generalDictionaryState.language = learningPathState.language;
+      generalDictionaryState.query = '';
+      generalDictionaryState.letter = '';
+      generalDictionaryState.offset = 0;
+      renderGeneralDictionary();
+    });
     let searchTimer;
     app.querySelector('[data-dictionary-search]')?.addEventListener('input', (event) => { window.clearTimeout(searchTimer); searchTimer = window.setTimeout(() => { generalDictionaryState.query = event.target.value.trim(); generalDictionaryState.offset = 0; renderGeneralDictionary(); }, 280); });
     app.querySelectorAll('[data-dictionary-letter]').forEach((button) => button.addEventListener('click', () => { generalDictionaryState.letter = button.dataset.dictionaryLetter || ''; generalDictionaryState.offset = 0; renderGeneralDictionary(); }));
@@ -30185,18 +30272,42 @@ function showView(viewId) {
   if (resolved === 'tutor') {
     // Opening Tutor from the global navigation is a free consultation, not
     // an implicit continuation of the learner's last course route.
+    if (getTutorLanguage() !== learningPathState.language) {
+      setTutorLanguage(learningPathState.language);
+    }
     updateAiTutorContext({ freeMode: true });
     checkTutorConnection();
     refreshTutorUsageCounter();
   }
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
-  if (resolved === 'dictionary') renderGeneralDictionary();
-  if (resolved === 'tests') loadTestsView();
+  if (resolved === 'dictionary') {
+    generalDictionaryState.language = learningPathState.language;
+    renderGeneralDictionary();
+  }
+  if (resolved === 'tests') {
+    const testLanguage = document.getElementById('testLanguageSelect');
+    const testLevel = document.getElementById('testLevelSelect');
+    if (testLanguage) testLanguage.value = learningPathState.language;
+    if (testLevel) testLevel.value = learningPathState.level;
+    syncTestLevelOptions();
+    loadTestsView();
+  }
   if (resolved === 'infographics') initInfographicApp();
-  if (resolved === 'games') loadGamesView();
+  if (resolved === 'games') {
+    gamesState.language = learningPathState.language;
+    gamesState.difficulty = getGamesDifficultyForCourseLevel(learningPathState.level);
+    gamesState.hasSelectedLanguage = true;
+    loadGamesView();
+  }
   if (resolved === 'readings') renderReadingLibrary();
   if (resolved === 'listenings') renderListeningLibrary();
-  if (resolved === 'useful-expressions') renderUsefulExpressionsView();
+  if (resolved === 'useful-expressions') {
+    usefulExpressionsLanguagePair = {
+      l1: learningPathState.bridgeLanguage,
+      l2: learningPathState.language
+    };
+    renderUsefulExpressionsView();
+  }
   if (resolved === 'technical-english') renderTechnicalEnglishView();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'teacher-curriculum') loadTeacherCurriculumPanel();
@@ -32436,7 +32547,10 @@ function enableHomepageActions() {
     .getElementById('tutorMainVoiceStop')
     ?.addEventListener('click', stopTutorMainConversation);
   document.querySelectorAll('[data-tutor-language]').forEach((button) => {
-    button.addEventListener('click', () => setTutorLanguage(button.dataset.tutorLanguage));
+    button.addEventListener('click', () => {
+      if (!setCourseSelectionFromResource(button.dataset.tutorLanguage)) return;
+      setTutorLanguage(learningPathState.language);
+    });
   });
   setTutorLanguage(getTutorLanguage());
 
@@ -35005,6 +35119,10 @@ enableHomepageActions();
 initializePdiInputFallback();
 initHeroCopyCarousel();
 loadProgress();
+document.addEventListener('andergo:course-language-request', (event) => {
+  if (!setCourseSelectionFromResource(event.detail?.language)) event.preventDefault();
+});
+
 setupLearningPathControls();
 setupTestsView();
 setupTranslator();
