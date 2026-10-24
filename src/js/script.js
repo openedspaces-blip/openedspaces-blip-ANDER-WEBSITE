@@ -5711,6 +5711,59 @@ function getPreA1SpriteStyle(topic) {
   return `background-image:url('/images/pre-a1-visual-course-grid.png');background-size:400% 300%;background-position:${topic.col * 33.333}% ${topic.row * 50}%;`;
 }
 
+function getEnglishBeginnerOpening(lesson, preA1 = false) {
+  if (learningPathState.language !== 'english') return null;
+  if (preA1 ? learningPathState.level !== 'PRE-A1' : learningPathState.level !== 'A1') {
+    return null;
+  }
+
+  const title = String(lesson?.title || 'today’s activity').trim();
+  if (preA1) {
+    return {
+      speech: `Hello! Welcome to English practice. Today we will learn ${title}. Look at the pictures, listen, and repeat. Then answer the quick question. Let’s begin!`,
+      direction: 'Look at the pictures, listen, and repeat. Then answer the quick question.',
+      support: 'Mira las imágenes, escucha y repite. Después, responde la pregunta.'
+    };
+  }
+
+  const skillInstructions = {
+    listening: ['listening', 'Listen to the audio, then answer the questions.', 'Escucha el audio y responde las preguntas.'],
+    speaking: ['speaking', 'Listen to the model and say the phrases out loud.', 'Escucha el modelo y repite las frases en voz alta.'],
+    reading: ['reading', 'Read the short text, then answer the questions.', 'Lee el texto breve y responde las preguntas.'],
+    writing: ['writing', 'Read the model, then write a few short sentences.', 'Lee el modelo y escribe unas oraciones breves.'],
+    grammar: ['grammar', 'Look at the example, then choose the correct answer.', 'Mira el ejemplo y elige la respuesta correcta.'],
+    vocabulary: ['vocabulary', 'Listen to each word, repeat it, and check its meaning.', 'Escucha cada palabra, repítela y revisa su significado.'],
+    introduction: ['English', 'Review the key words and phrases, then try the activity.', 'Repasa las palabras y frases clave y luego realiza la actividad.']
+  };
+  const [skill, direction, support] = skillInstructions[lesson?.skill] || [
+    'English',
+    'Read each instruction and try the activity one step at a time.',
+    'Lee cada instrucción y realiza la actividad paso a paso.'
+  ];
+  return {
+    speech: `Hello! Welcome to English. This is your ${skill} activity: ${title}. ${direction} Let’s begin!`,
+    direction,
+    support
+  };
+}
+
+function renderEnglishBeginnerOpening(opening) {
+  if (!opening) return '';
+  return `<aside class="english-beginner-opening" aria-label="Instructions before the activity">
+    <div><span>Before we begin</span><strong>Hi! Welcome to English.</strong><p>${escapeHtml(opening.direction)}</p><small>${escapeHtml(opening.support)}</small></div>
+    <button type="button" class="secondary-btn english-beginner-opening-listen" data-speech="${escapeHtml(opening.speech)}">🔊 Listen</button>
+  </aside>`;
+}
+
+function speakEnglishBeginnerOpening(lesson, preA1 = false) {
+  const opening = getEnglishBeginnerOpening(lesson, preA1);
+  if (!opening) return;
+  speakText(opening.speech, {
+    locale: getPronunciationLocale('english'),
+    rate: 0.82
+  });
+}
+
 function renderPreA1VisualCourse(selectedTopicId = '') {
   const section = document.getElementById('learning-path');
   const graph = document.getElementById('skillGraph');
@@ -5885,6 +5938,7 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   workspace.innerHTML = `
     <div class="pre-a1-lesson-nav"><button type="button" class="secondary-btn pre-a1-back-topics">← Volver a los temas</button><span>${course.findIndex((topic) => topic.id === selected.id) + 1} de ${course.length}</span></div>
     <div class="pre-a1-detail-head"><span class="pre-a1-detail-image" role="img" aria-label="Illustration: ${escapeHtml(selected.subtitle)}" style="${getPreA1SpriteStyle(selected)}"></span><div><span class="pre-a1-kicker">Mini lección</span><h3>${escapeHtml(selected.title)}</h3><p>${escapeHtml(selected.goal)}</p></div></div>
+    ${renderEnglishBeginnerOpening(getEnglishBeginnerOpening(selected, true))}
     <div class="pre-a1-mini-path" aria-label="Pasos de la lección"><span>1 · Mira</span><span>2 · Escucha</span><span>3 · Habla</span><span>4 · Comprueba</span></div>
     <div class="pre-a1-word-row">${selected.words.map(([word, support], index) => `<button type="button" class="pre-a1-word pre-a1-listen" data-speech="${escapeHtml(word)}" aria-label="Listen to ${escapeHtml(word)}"><b aria-hidden="true">${visuals[index]}</b><span>🔊 ${escapeHtml(word)}</span><small>${escapeHtml(support)}</small></button>`).join('')}</div>
     ${starterGreetingExercise}
@@ -5918,7 +5972,9 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
 
   graph.querySelectorAll('[data-pre-a1-topic]').forEach((button) =>
     button.addEventListener('click', () => {
+      const topic = course.find((item) => item.id === button.dataset.preA1Topic);
       renderPreA1VisualCourse(button.dataset.preA1Topic);
+      if (topic) speakEnglishBeginnerOpening(topic, true);
       // The mini lesson is rendered below the visual catalogue. Move to it
       // immediately so selecting a card feels like opening a lesson, rather
       // than merely changing an off-screen state.
@@ -5948,6 +6004,10 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
       if (!utterance) button.classList.remove('is-speaking');
     })
   );
+  workspace.querySelector('.english-beginner-opening-listen')?.addEventListener('click', (event) => {
+    const text = event.currentTarget.dataset.speech || '';
+    if (text) speakText(text, { locale: getPronunciationLocale('english'), rate: 0.82 });
+  });
   workspace.querySelectorAll('[data-pre-a1-visual-choice]').forEach((button) =>
     button.addEventListener('click', () => {
       const correct =
@@ -6391,6 +6451,7 @@ function openUnitSequenceStep(skill, lessonSlug = '', options = {}) {
     handleHomeAction('upgrade');
     return;
   }
+  speakEnglishBeginnerOpening(targetLesson);
   setActiveLesson(lessonSlug);
   updateLearnHash(skill);
   showView(skill);
@@ -7205,6 +7266,7 @@ function renderSkillUnitSequence(section, lesson) {
   section.querySelector('.unit-learning-sequence')?.remove();
   section.querySelector('.lesson-curriculum-brief')?.remove();
   section.querySelector('.activity-route-context')?.remove();
+  section.querySelector('.english-beginner-opening')?.remove();
   if (!lesson?.unitId) return;
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
@@ -7263,6 +7325,19 @@ function renderSkillUnitSequence(section, lesson) {
   routeContext.innerHTML = buildLearningRouteContextHtml(lesson);
   content.before(routeContext);
   content.before(nav);
+  const opening = getEnglishBeginnerOpening(lesson);
+  if (opening) {
+    const welcome = document.createElement('div');
+    welcome.innerHTML = renderEnglishBeginnerOpening(opening);
+    const welcomeCard = welcome.firstElementChild;
+    if (welcomeCard) {
+      content.before(welcomeCard);
+      welcomeCard.querySelector('.english-beginner-opening-listen')?.addEventListener('click', (event) => {
+        const text = event.currentTarget.dataset.speech || '';
+        if (text) speakText(text, { locale: getPronunciationLocale('english'), rate: 0.82 });
+      });
+    }
+  }
   wireUnitSequence(nav);
   wireMobileMissionStripAutoHide(nav);
 }
@@ -11831,7 +11906,9 @@ function wireSkillLibrary(section, skill) {
   section.querySelectorAll('.skill-library-card').forEach((card) => {
     card.addEventListener('click', () => {
       learningPathState.skillEntryContext = 'route';
+      const lesson = learningPathState.lessons.find((item) => item.slug === card.dataset.lessonSlug);
       setActiveLesson(card.dataset.lessonSlug);
+      speakEnglishBeginnerOpening(lesson);
       renderSkillView(skill);
       updateLearnHash(skill);
     });
