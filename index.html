@@ -2723,31 +2723,83 @@
     </footer>
     <!-- Course worlds load only when their language is selected. Loading all
          three here made the first visit parse several MB of unused lessons. -->
-    <script src="/src/js/gamification/state.js"></script>
-    <script src="/src/js/gamification/xp.js"></script>
-    <script src="/src/js/gamification/streaks.js"></script>
-    <script src="/src/js/gamification/badges.js"></script>
-    <script src="/src/js/gamification/missions.js"></script>
-    <script src="/src/js/gamification/toasts.js"></script>
-    <script src="/src/js/gamification/render.js"></script>
-    <script src="/src/js/gamification/index.js"></script>
-    <script src="/src/js/username-rules.js"></script>
-    <script src="/src/js/language-pair.js"></script>
-    <script src="/src/js/business-info.js"></script>
-    <script src="/src/js/translator-languages.js"></script>
-    <script src="/src/js/translator-predictive.js"></script>
-    <script src="/src/js/app-install.js"></script>
-    <script src="/src/js/global-search.js"></script>
-    <!-- Verb data and its view are loaded when #verbs is opened. -->
-    <script src="/src/js/lexicon-catalogues.generated.js"></script>
-    <script src="/src/js/lexicon-view.js"></script>
+    <script defer src="/src/js/gamification/state.js"></script>
+    <script defer src="/src/js/gamification/xp.js"></script>
+    <script defer src="/src/js/gamification/streaks.js"></script>
+    <script defer src="/src/js/gamification/badges.js"></script>
+    <script defer src="/src/js/gamification/missions.js"></script>
+    <script defer src="/src/js/gamification/toasts.js"></script>
+    <script defer src="/src/js/gamification/render.js"></script>
+    <script defer src="/src/js/gamification/index.js"></script>
+    <script defer src="/src/js/username-rules.js"></script>
+    <script defer src="/src/js/language-pair.js"></script>
+    <script defer src="/src/js/business-info.js"></script>
+    <script defer src="/src/js/translator-languages.js"></script>
+    <script defer src="/src/js/translator-predictive.js"></script>
+    <script defer src="/src/js/app-install.js"></script>
+    <script defer src="/src/js/global-search.js"></script>
+    <!-- Large vocabulary catalogues load only when their section is opened. -->
     <!-- Cloud pronunciation for the six supported course languages. Haitian
          Creole deliberately stays on the device voice because ResponsiveVoice
          does not currently provide a Haitian Creole voice. -->
-    <script src="https://cdn.responsivevoice.org/sdk/latest/responsivevoice.js"></script>
+    <script defer src="https://cdn.responsivevoice.org/sdk/latest/responsivevoice.js"></script>
     <script>
-      window.responsiveVoice?.init?.({ apiKey: 'Xf5ulDwo' });
+      window.addEventListener(
+        'DOMContentLoaded',
+        () => window.responsiveVoice?.init?.({ apiKey: 'Xf5ulDwo' }),
+        { once: true },
+      );
     </script>
-    <script src="/src/js/script.js?v=20260805-games-upgrade"></script>
+    <script defer src="/src/js/script.js?v=20260805-games-upgrade"></script>
+    <script>
+      (() => {
+        const pendingRenders = new Map();
+        let lexiconLoadPromise;
+
+        const loadScript = (src) =>
+          new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = src;
+            script.onload = resolve;
+            script.onerror = () => reject(new Error(`No se pudo cargar ${src}`));
+            document.body.append(script);
+          });
+
+        const loadLexicon = () => {
+          if (!lexiconLoadPromise) {
+            lexiconLoadPromise = loadScript('/src/js/lexicon-catalogues.generated.js')
+              .then(() => loadScript('/src/js/lexicon-view.js'))
+              .catch((error) => {
+                lexiconLoadPromise = undefined;
+                pendingRenders.forEach(([section]) => {
+                  const content = section.querySelector('.skill-view-content');
+                  if (content) content.textContent = 'No se pudo cargar el catálogo. Intenta abrir esta sección de nuevo.';
+                });
+                throw error;
+              });
+          }
+
+          return lexiconLoadPromise;
+        };
+
+        const renderWhenReady = (section, kind, language) => {
+          if (!section) return;
+          pendingRenders.set(section, [section, kind, language]);
+          const content = section.querySelector('.skill-view-content');
+          if (content) content.textContent = 'Preparando el catálogo…';
+
+          loadLexicon()
+            .then(() => {
+              const render = window.AndergoLexicon?.render;
+              if (typeof render !== 'function' || render === renderWhenReady) return;
+              pendingRenders.forEach((args) => render(...args));
+              pendingRenders.clear();
+            })
+            .catch(() => {});
+        };
+
+        window.AndergoLexicon = { render: renderWhenReady };
+      })();
+    </script>
   </body>
 </html>

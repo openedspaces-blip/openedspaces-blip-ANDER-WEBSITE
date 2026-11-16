@@ -10511,43 +10511,43 @@ const UNIT_SLUG_ARTWORK = {
 // consistently while it grows unit by unit.
 const UNIT_ROUTE_ARTWORK_SHEETS = {
   english: {
-    A1: '/images/route-artwork/english-a1-route-grid.png',
-    A2: '/images/route-artwork/english-a2-route-grid.png',
-    B1: '/images/route-artwork/english-b1-route-grid.png',
-    B2: '/images/route-artwork/english-b2-route-grid.png',
-    C1: '/images/route-artwork/english-c1-route-grid.png',
-    C2: '/images/route-artwork/english-c2-route-grid.png'
+    A1: '/images/route-artwork/english-a1-route-grid.webp',
+    A2: '/images/route-artwork/english-a2-route-grid.webp',
+    B1: '/images/route-artwork/english-b1-route-grid.webp',
+    B2: '/images/route-artwork/english-b2-route-grid.webp',
+    C1: '/images/route-artwork/english-c1-route-grid.webp',
+    C2: '/images/route-artwork/english-c2-route-grid.webp'
   },
   french: {
-    A1: '/images/route-artwork/french-a1-route-grid.png',
-    A2: '/images/route-artwork/french-a2-route-grid.png',
-    B1: '/images/route-artwork/french-b1-route-grid.png',
-    B2: '/images/route-artwork/french-b2-route-grid.png',
-    C1: '/images/route-artwork/french-c1-route-grid.png',
-    C2: '/images/route-artwork/french-c2-route-grid.png'
+    A1: '/images/route-artwork/french-a1-route-grid.webp',
+    A2: '/images/route-artwork/french-a2-route-grid.webp',
+    B1: '/images/route-artwork/french-b1-route-grid.webp',
+    B2: '/images/route-artwork/french-b2-route-grid.webp',
+    C1: '/images/route-artwork/french-c1-route-grid.webp',
+    C2: '/images/route-artwork/french-c2-route-grid.webp'
   },
   spanish: {
-    A1: '/images/route-artwork/spanish-a1-route-grid.png',
-    A2: '/images/route-artwork/spanish-a2-route-grid.png',
-    B1: '/images/route-artwork/spanish-b1-route-grid.png',
-    B2: '/images/route-artwork/spanish-b2-route-grid.png',
-    C1: '/images/route-artwork/spanish-c1-route-grid.png',
-    C2: '/images/route-artwork/spanish-c2-route-grid.png'
+    A1: '/images/route-artwork/spanish-a1-route-grid.webp',
+    A2: '/images/route-artwork/spanish-a2-route-grid.webp',
+    B1: '/images/route-artwork/spanish-b1-route-grid.webp',
+    B2: '/images/route-artwork/spanish-b2-route-grid.webp',
+    C1: '/images/route-artwork/spanish-c1-route-grid.webp',
+    C2: '/images/route-artwork/spanish-c2-route-grid.webp'
   },
   italian: {
-    A1: '/images/route-artwork/italian-a1-route-grid.png',
-    A2: '/images/route-artwork/italian-a2-route-grid.png',
-    B1: '/images/route-artwork/italian-b1-route-grid.png'
+    A1: '/images/route-artwork/italian-a1-route-grid.webp',
+    A2: '/images/route-artwork/italian-a2-route-grid.webp',
+    B1: '/images/route-artwork/italian-b1-route-grid.webp'
   },
   portuguese: {
-    A1: '/images/route-artwork/portuguese-a1-route-grid.png',
-    A2: '/images/route-artwork/portuguese-a2-route-grid.png',
-    B1: '/images/route-artwork/portuguese-b1-route-grid.png'
+    A1: '/images/route-artwork/portuguese-a1-route-grid.webp',
+    A2: '/images/route-artwork/portuguese-a2-route-grid.webp',
+    B1: '/images/route-artwork/portuguese-b1-route-grid.webp'
   },
   german: {
-    A1: '/images/route-artwork/german-a1-route-grid.png',
-    A2: '/images/route-artwork/german-a2-route-grid.png',
-    B1: '/images/route-artwork/german-b1-route-grid.png'
+    A1: '/images/route-artwork/german-a1-route-grid.webp',
+    A2: '/images/route-artwork/german-a2-route-grid.webp',
+    B1: '/images/route-artwork/german-b1-route-grid.webp'
   }
 };
 
