@@ -4179,6 +4179,43 @@ test('Reading PDF starts at the normal page margin and Word includes comprehensi
   );
 });
 
+test('French cultural Reading capsule keeps its label, title and context in the target language', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const calendarMatch = source.match(
+    /const READING_CULTURAL_CALENDAR = Object\.freeze\((\{[\s\S]*?\})\);/
+  );
+  const rendererMatch = source.match(
+    /function renderReadingCulturalContextHtml\(lesson\) \{[\s\S]*?\n\}/
+  );
+  assert.ok(calendarMatch, 'expected the cultural calendar data');
+  assert.ok(rendererMatch, 'expected the cultural context renderer');
+
+  const calendar = vm.runInNewContext(`(${calendarMatch[1]})`);
+  const frenchReading = calendar['french-a1-l-heure-et-les-dates-reading'];
+  assert.ok(frenchReading, 'expected the French A1 cultural reading');
+  for (const context of Object.values(calendar)) {
+    assert.ok(context.label, 'every target-language capsule needs its own label');
+  }
+  assert.equal(frenchReading.label, 'REPÈRE CULTUREL ET HISTORIQUE');
+  assert.equal(frenchReading.date, '14 juillet · Fête nationale française');
+  assert.equal(frenchReading.title, 'Une date marquée par l’histoire civique');
+  assert.match(frenchReading.text, /Cette célébration rappelle la prise de la Bastille/);
+  assert.doesNotMatch(
+    `${frenchReading.title} ${frenchReading.text}`,
+    /\b(?:a date with|the celebration recalls|it is an opportunity)\b/i
+  );
+
+  const render = vm.runInNewContext(`(${rendererMatch[0]})`, {
+    READING_CULTURAL_CALENDAR: calendar,
+    escapeHtml: (value) => String(value)
+  });
+  const html = render({ slug: 'french-a1-l-heure-et-les-dates-reading' });
+  assert.match(html, /aria-label="REPÈRE CULTUREL ET HISTORIQUE"/);
+  assert.match(html, /<span>REPÈRE CULTUREL ET HISTORIQUE<\/span>/);
+  assert.match(html, /Une date marquée par l’histoire civique/);
+  assert.match(html, /Cette célébration rappelle la prise de la Bastille/);
+});
+
 test('script.js: language-pair label always describes L1 support for the distinct L2', () => {
   const langPairSource = fs.readFileSync(path.join(__dirname, 'src', 'js', 'language-pair.js'), 'utf8');
   const labelBody = langPairSource.match(/function getLanguagePairLabel\(bridgeLanguage, targetLanguage, interfaceLanguage\) \{([\s\S]*?)\n  \}/)?.[1];

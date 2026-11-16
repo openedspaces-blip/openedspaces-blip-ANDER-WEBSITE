@@ -13384,31 +13384,37 @@ const readingTopicSelections = new Map();
 // that treats the event, never as detached calendar trivia.
 const READING_CULTURAL_CALENDAR = Object.freeze({
   'english-b2-fourth-of-july-reading': {
+    label: 'CULTURAL DATE & CONTEXT',
     date: '4 July · Independence Day',
     title: 'Freedom, citizenship and memory',
     text: 'The date marks the United States Declaration of Independence in 1776. Reading it critically also opens space to consider whose freedom was delayed and how civic ideals continue to be debated.'
   },
   'french-a1-l-heure-et-les-dates-reading': {
+    label: 'REPÈRE CULTUREL ET HISTORIQUE',
     date: '14 juillet · Fête nationale française',
-    title: 'A date with a civic history',
-    text: 'The celebration recalls the storming of the Bastille in 1789. It is an opportunity to connect a public holiday with ideas of citizenship, liberty and the historical changes that shaped France.'
+    title: 'Une date marquée par l’histoire civique',
+    text: 'Cette célébration rappelle la prise de la Bastille en 1789. Elle permet de relier une fête nationale aux notions de citoyenneté, de liberté et aux transformations historiques qui ont façonné la France.'
   },
   'spanish-b1-cultura-y-tradiciones-reading': {
+    label: 'EFEMÉRIDE Y CONTEXTO',
     date: 'Febrero y marzo · Carnaval dominicano',
     title: 'Tradición, memoria y comunidad',
     text: 'Carnival dates change each year, but the celebration connects local communities with masks, music and historical characters such as the Diablo Cojuelo. It is a living cultural memory, not only a spectacle.'
   },
   'italian-a1-una-festa-di-quartiere-reading': {
+    label: 'DATA E CONTESTO CULTURALE',
     date: '2 giugno · Festa della Repubblica',
     title: 'Una festa e la vita civica',
     text: 'La Festa della Repubblica ricorda il referendum del 1946. Aiuta a collegare una celebrazione pubblica alla comunità, alla partecipazione e alla storia contemporanea dell’Italia.'
   },
   'portuguese-a1-uma-roda-cultural-reading': {
+    label: 'DATA E CONTEXTO CULTURAL',
     date: '20 de novembro · Dia da Consciência Negra',
     title: 'Música, memoria e identidade',
     text: 'No Brasil, a data convida a reconhecer as contribuições afro-brasileiras e a memória de Zumbi dos Palmares. Uma roda cultural pode ser um espaço de música, encontro e história compartilhada.'
   },
   'german-a2-feste-und-traditionen-reading': {
+    label: 'KULTURELLER ANLASS UND KONTEXT',
     date: '3. Oktober · Tag der Deutschen Einheit',
     title: 'Erinnerung und gemeinsames Leben',
     text: 'Der Tag der Deutschen Einheit erinnert an die Wiedervereinigung Deutschlands im Jahr 1990. Er verbindet eine öffentliche Feier mit Fragen nach Geschichte, Erinnerung und Zusammenleben.'
@@ -14282,8 +14288,8 @@ function renderReadingCulturalContextHtml(lesson) {
   const context = READING_CULTURAL_CALENDAR[lesson?.slug];
   if (!context) return '';
   return `
-    <aside class="reading-cultural-context no-print" aria-label="Efeméride y contexto cultural">
-      <span>EFEMÉRIDE Y CONTEXTO</span>
+    <aside class="reading-cultural-context no-print" aria-label="${escapeHtml(context.label)}">
+      <span>${escapeHtml(context.label)}</span>
       <strong>${escapeHtml(context.date)}</strong>
       <h4>${escapeHtml(context.title)}</h4>
       <p>${escapeHtml(context.text)}</p>
