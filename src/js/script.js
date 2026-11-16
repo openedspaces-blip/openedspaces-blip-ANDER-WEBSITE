@@ -21372,6 +21372,28 @@ function renderVocabularyMissionHtml(lesson, cards, french) {
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
+  const searchMode = isVocabularySearchMode();
+  section.classList.toggle('vocabulary-search-mode', searchMode);
+  const modeTabsHtml = `
+    <nav class="vocabulary-mode-tabs" aria-label="Modos de vocabulario">
+      <a href="#vocabulary"${searchMode ? '' : ' aria-current="page"'}>Estudiar vocabulario</a>
+      <a href="#vocabulary/search"${searchMode ? ' aria-current="page"' : ''}>Buscar palabras</a>
+    </nav>`;
+  if (searchMode) {
+    content.innerHTML = `
+      ${modeTabsHtml}
+      <section class="general-dictionary-shell vocabulary-lookup-shell" aria-labelledby="vocabulary-search-title">
+        <header class="general-dictionary-header">
+          <span>ANDERGO · VOCABULARIO</span>
+          <h2 id="vocabulary-search-title" tabindex="-1">Buscar palabras</h2>
+          <p>Busca por palabra o por español, escucha la pronunciación y copia la entrada. Sin salir de ANDERGO.</p>
+        </header>
+        <div id="generalDictionaryApp" aria-live="polite"><p class="skill-graph-empty">Preparando vocabulario…</p></div>
+      </section>`;
+    generalDictionaryState.language = learningPathState.language;
+    renderGeneralDictionary();
+    return;
+  }
   // A route is a focused lesson, not a catalogue. Keep its first screen to
   // the words authored for that unit; the standalone Vocabulary view remains
   // level-first for learners who explicitly want to explore.
@@ -21481,6 +21503,7 @@ function renderVocabularyView(section, lesson) {
       </section>`;
 
   content.innerHTML = `
+    ${modeTabsHtml}
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
       <div class="vocab-catalogue-heading">
         <div><span>${isRouteVocabulary ? 'PASO 1 · VOCABULARY' : `VOCABULARY · ${escapeHtml(lesson.level)}`}</span><h3>${isRouteVocabulary ? escapeHtml(lesson.title) : (french ? 'Vocabulaire du niveau' : 'Vocabulario del nivel')}</h3></div>
@@ -29697,7 +29720,8 @@ const VIEW_SECTIONS = {
   writing: ['#writing'],
   grammar: ['#grammar'],
   vocabulary: ['#vocabulary'],
-  dictionary: ['#dictionary'],
+  // Legacy hash alias: the dictionary lookup is now a mode inside Vocabulary.
+  dictionary: ['#vocabulary'],
   'useful-expressions': ['#usefulExpressions'],
   'technical-english': ['#technicalEnglish'],
   adjectives: ['#adjectives'],
@@ -30050,7 +30074,7 @@ const VIEW_TITLE_SELECTORS = {
   writing: '#writing .level-tab[data-tab="writing"]',
   grammar: '#grammar .level-tab[data-tab="grammar"]',
   vocabulary: '#vocabulary .level-tab[data-tab="vocabulary"]',
-  dictionary: '#dictionary h2',
+  dictionary: '#vocabulary-search-title',
   'useful-expressions': '#usefulExpressions h2',
   'technical-english': '#technicalEnglish h2',
   adjectives: '#adjectives .level-tab[data-tab="adjectives"]',
@@ -30059,6 +30083,16 @@ const VIEW_TITLE_SELECTORS = {
 };
 
 const generalDictionaryState = { language: 'english', query: '', letter: '', offset: 0, limit: 60 };
+let activeVocabularyMode = 'study';
+
+function isVocabularySearchHash() {
+  const [view, ...segments] = window.location.hash.replace(/^#/, '').split('/');
+  return view === 'dictionary' || (view === 'vocabulary' && segments.includes('search'));
+}
+
+function isVocabularySearchMode() {
+  return activeVocabularyMode === 'search';
+}
 
 // Reference dictionaries are opened on their own official domains. Their
 // entries are copyrighted and commonly block iframe embedding, so a deep
@@ -30075,6 +30109,58 @@ const DICTIONARY_REFERENCES = {
 
 function generalDictionaryInitial(term) {
   return String(term || '').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '').charAt(0).toLocaleUpperCase();
+}
+
+function generalDictionaryPartOfSpeechLabel(value) {
+  const raw = String(value || '').normalize('NFKC').trim();
+  if (!raw) return '';
+  const key = raw
+    .toLocaleLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[_-]+/g, ' ')
+    .replace(/\s+/g, ' ');
+  const labels = {
+    noun: 'Sustantivo', sustantivo: 'Sustantivo', substantivo: 'Sustantivo', nome: 'Sustantivo', nom: 'Sustantivo',
+    substantiv: 'Sustantivo', 'proper noun': 'Nombre propio', 'noun phrase': 'Locución nominal',
+    'locucion nominal': 'Locución nominal', 'locucao nominal': 'Locución nominal',
+    'expression ou groupe nominal': 'Expresión o grupo nominal',
+    verb: 'Verbo', verbo: 'Verbo', verbe: 'Verbo', 'phrasal verb': 'Verbo frasal', 'verb phrase': 'Locución verbal',
+    'locucion verbal': 'Locución verbal', 'locucao verbal': 'Locución verbal',
+    adjective: 'Adjetivo', adjetivo: 'Adjetivo', adjectif: 'Adjetivo', aggettivo: 'Adjetivo', adjektiv: 'Adjetivo',
+    'adjective phrase': 'Locución adjetival', adverb: 'Adverbio', adverbio: 'Adverbio', adverbe: 'Adverbio',
+    avverbio: 'Adverbio', 'adverb phrase': 'Locución adverbial', preposition: 'Preposición', preposicion: 'Preposición',
+    preposizione: 'Preposición', preposicao: 'Preposición', pronoun: 'Pronombre', pronombre: 'Pronombre',
+    pronom: 'Pronombre', pronome: 'Pronombre', determiner: 'Determinante', determinante: 'Determinante',
+    conjunction: 'Conjunción', conjuncion: 'Conjunción', conjonction: 'Conjunción', congiunzione: 'Conjunción',
+    conjuncao: 'Conjunción', interjection: 'Interjección', interjeccion: 'Interjección', interiezione: 'Interjección',
+    interjeicao: 'Interjección', article: 'Artículo', articulo: 'Artículo', 'noun/verb': 'Sustantivo o verbo',
+    'nom ou verbe': 'Sustantivo o verbo', 'adjective/noun': 'Adjetivo o sustantivo',
+    'verb/abbreviation': 'Verbo o abreviatura', phrase: 'Expresión', expression: 'Expresión',
+    expresion: 'Expresión', locucion: 'Locución', 'academic term': 'Término académico'
+  };
+  return labels[key] || raw.charAt(0).toLocaleUpperCase() + raw.slice(1);
+}
+
+function generalDictionaryShortExample(value) {
+  const example = String(value || '').replace(/\s+/g, ' ').trim();
+  if (example.length <= 160) return example;
+  const completeSentence = example.match(/^.{1,160}?[.!?](?=\s|$)/u)?.[0];
+  if (completeSentence) return completeSentence.trim();
+  const excerpt = example.slice(0, 157);
+  const lastSpace = excerpt.lastIndexOf(' ');
+  return `${excerpt.slice(0, lastSpace > 90 ? lastSpace : 157).trimEnd()}…`;
+}
+
+function renderGeneralDictionaryEntryHtml(entry, language) {
+  const partOfSpeech = generalDictionaryPartOfSpeechLabel(entry.part_of_speech);
+  const example = generalDictionaryShortExample(entry.example);
+  const copyText = [
+    `${entry.term} — ${entry.spanish_meaning}`,
+    partOfSpeech ? `Categoría: ${partOfSpeech}` : '',
+    example ? `Ejemplo: ${example}` : ''
+  ].filter(Boolean).join('\n');
+  return `<article class="general-dictionary-entry"><span class="general-dictionary-initial" aria-hidden="true">${escapeHtml(generalDictionaryInitial(entry.term))}</span><div class="general-dictionary-term"><strong>${escapeHtml(entry.term)}</strong>${partOfSpeech ? `<span class="general-dictionary-pos" aria-label="Categoría gramatical: ${escapeHtml(partOfSpeech)}">${escapeHtml(partOfSpeech)}</span>` : ''}</div><div class="general-dictionary-translation"><span>${escapeHtml(entry.spanish_meaning)}</span>${example ? `<p class="general-dictionary-example"><span class="general-dictionary-example-label">Ejemplo</span><q>${escapeHtml(example)}</q></p>` : ''}</div><div class="general-dictionary-actions"><button type="button" class="general-dictionary-speak" data-speak-text="${escapeHtml(entry.term)}" data-speak-locale="${escapeHtml(getPronunciationLocale(language))}" aria-label="Escuchar la pronunciación de ${escapeHtml(entry.term)}" title="Escuchar pronunciación">🔊</button><button type="button" class="general-dictionary-copy" data-dictionary-copy="${escapeHtml(copyText)}" aria-label="Copiar ${escapeHtml(entry.term)} y su traducción" title="Copiar entrada">⧉</button></div></article>`;
 }
 
 async function renderGeneralDictionary() {
@@ -30106,9 +30192,9 @@ async function renderGeneralDictionary() {
         ${letters.map((letter) => `<button type="button" data-dictionary-letter="${letter}" class="${generalDictionaryState.letter === letter ? 'is-active' : ''}">${letter}</button>`).join('')}
       </div>
       <div class="general-dictionary-result-bar"><p class="general-dictionary-meta"><strong>${data.total.toLocaleString('es-DO')}</strong> entradas · ${escapeHtml(languageDisplayNames[language])} → Español</p><span>Página ${page} de ${pages}</span></div>
-      <section class="general-dictionary-results" aria-label="Resultados del diccionario">
+      <section class="general-dictionary-results" aria-label="Resultados del vocabulario">
         <div class="general-dictionary-list">
-          ${entries.length ? entries.map((entry) => `<article class="general-dictionary-entry"><span class="general-dictionary-initial" aria-hidden="true">${escapeHtml(generalDictionaryInitial(entry.term))}</span><div class="general-dictionary-term"><strong>${escapeHtml(entry.term)}</strong></div><div class="general-dictionary-translation"><span>${escapeHtml(entry.spanish_meaning)}</span></div><div class="general-dictionary-actions"><button type="button" class="general-dictionary-speak" data-speak-text="${escapeHtml(entry.term)}" data-speak-locale="${escapeHtml(getPronunciationLocale(language))}" aria-label="Escuchar la pronunciación de ${escapeHtml(entry.term)}" title="Escuchar pronunciación">🔊</button><button type="button" class="general-dictionary-copy" data-dictionary-copy="${escapeHtml(`${entry.term} — ${entry.spanish_meaning}`)}" aria-label="Copiar ${escapeHtml(entry.term)} y su traducción" title="Copiar entrada">⧉</button></div></article>`).join('') : '<p class="skill-graph-empty">No encontramos palabras con estos filtros.</p>'}
+          ${entries.length ? entries.map((entry) => renderGeneralDictionaryEntryHtml(entry, language)).join('') : '<p class="skill-graph-empty">No encontramos palabras con estos filtros.</p>'}
         </div>
       </section>
       <div class="general-dictionary-pagination no-print"><button type="button" class="secondary-btn" data-dictionary-page="previous" ${page <= 1 ? 'disabled' : ''}>← Anterior</button><button type="button" class="secondary-btn" data-dictionary-page="next" ${page >= pages ? 'disabled' : ''}>Siguiente →</button></div>`;
@@ -30185,8 +30271,8 @@ function parseLearnHashState() {
   return {
     language: language && languageDisplayNames[language] ? language : null,
     level: level || null,
-    unitId: unitId || null,
-    lessonSlug: lessonSlug || null
+    unitId: unitId && unitId !== 'search' ? unitId : null,
+    lessonSlug: lessonSlug && lessonSlug !== 'search' ? lessonSlug : null
   };
 }
 
@@ -30203,6 +30289,7 @@ function updateLearnHash(viewOverride) {
     parts.push(learningPathState.unitId);
     if (learningPathState.activeSlug) parts.push(learningPathState.activeSlug);
   }
+  if (view === 'vocabulary' && isVocabularySearchMode()) parts.push('search');
   const next = `#${parts.join('/')}`;
   if (window.location.hash !== next) history.pushState(null, '', next);
 }
@@ -30210,13 +30297,19 @@ function updateLearnHash(viewOverride) {
 function showView(viewId) {
   let resolved = VIEW_SECTIONS[viewId] ? viewId : 'home';
   if (isAnonymousVisitor() && resolved !== 'home' && !ANONYMOUS_PREVIEW_VIEWS.has(resolved)) {
-    pendingProtectedView = resolved;
+    pendingProtectedView =
+      resolved === 'vocabulary' && isVocabularySearchHash() ? 'dictionary' : resolved;
     resolved = 'home';
     if (window.location.hash !== '#home') history.replaceState(null, '', '#home');
     window.requestAnimationFrame(() =>
       openModal('login', { message: 'Debes iniciar sesión para acceder a esta sección.' })
     );
   }
+  activeVocabularyMode =
+    resolved === 'dictionary' ||
+    (resolved === 'vocabulary' && isVocabularySearchHash())
+      ? 'search'
+      : 'study';
   if (
     resolved === 'teacher-curriculum' &&
     !['teacher', 'ceo'].includes(authStatus.entitlements?.role)
@@ -30264,11 +30357,12 @@ function showView(viewId) {
     )
     .forEach((link) => {
       const linkView = link.getAttribute('href')?.slice(1);
+      const isVocabularyAlias = resolved === 'dictionary' && linkView === 'vocabulary';
       const isLearningAppDestination =
         link.closest('.mobile-app-nav') &&
         linkView === 'learn' &&
         (resolved === 'learn' || SKILL_VIEWS.includes(resolved));
-      const isActive = linkView === resolved || isLearningAppDestination;
+      const isActive = linkView === resolved || isVocabularyAlias || isLearningAppDestination;
       link.classList.toggle('active', isActive);
       if (isActive) {
         link.setAttribute('aria-current', 'page');
@@ -30365,7 +30459,7 @@ function showView(viewId) {
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
   if (resolved === 'dictionary') {
     generalDictionaryState.language = learningPathState.language;
-    renderGeneralDictionary();
+    renderSkillView('vocabulary');
   }
   if (resolved === 'tests') {
     const testLanguage = document.getElementById('testLanguageSelect');
@@ -30438,7 +30532,12 @@ function showView(viewId) {
   closeTutorDrawer();
 
   window.scrollTo({ top: 0, behavior: 'auto' });
-  document.querySelector(VIEW_TITLE_SELECTORS[resolved])?.focus({ preventScroll: true });
+  const titleSelector =
+    (resolved === 'dictionary' ||
+      (resolved === 'vocabulary' && isVocabularySearchMode()))
+      ? '#vocabulary-search-title'
+      : VIEW_TITLE_SELECTORS[resolved];
+  document.querySelector(titleSelector)?.focus({ preventScroll: true });
 }
 
 window.addEventListener('hashchange', () => {

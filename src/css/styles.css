@@ -3875,11 +3875,19 @@ a:focus-visible {
 .hero .quick-stats div i { display: grid; place-items: center; width: 27px; height: 27px; flex: 0 0 27px; border-radius: 8px; background: #eaf2ff; color: #2864e9; font-size: .9rem; font-style: normal; font-weight: 900; }.hero .quick-stats div:nth-child(2) i { background: #fff3d8; color: #b77900; }.hero .quick-stats div:nth-child(3) i { background: #e2f8f0; color: #07866f; }
 .hero .quick-stats div > span { display: grid; gap: .12rem; }.hero .quick-stats strong { color: #183153; font-size: .78rem; }.hero .quick-stats small { color: #6c7f99; font-size: .66rem; line-height: 1.25; }
 @media (max-width: 640px) { .hero-carousel-label { display: none; }.hero-carousel-controls { margin-bottom: 1rem; }.hero-language-heading { align-items: flex-start; flex-direction: column; gap: .16rem; }.hero .quick-stats { gap: .45rem; }.hero .quick-stats div { min-height: 58px; justify-content: center; padding: .5rem; }.hero .quick-stats div i { width: 24px; height: 24px; flex-basis: 24px; }.hero .quick-stats small { display: none; } }
+.vocabulary-mode-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1rem; padding: .35rem; border: 1px solid var(--andergo-line); border-radius: 14px; background: #f6f9ff; }
+.vocabulary-mode-tabs a { display: inline-flex; align-items: center; justify-content: center; min-height: 2.55rem; padding: .55rem .9rem; border: 1px solid transparent; border-radius: 10px; color: #4b607e; font-size: .88rem; font-weight: 800; text-decoration: none; }
+.vocabulary-mode-tabs a:hover { background: #eaf2ff; color: #2457b7; }
+.vocabulary-mode-tabs a[aria-current="page"] { background: #fff; border-color: #dbe6f5; color: #1b4388; box-shadow: 0 3px 10px rgba(24,49,83,.08); }
+#vocabulary.vocabulary-search-mode > .skill-view-header { display: none; }
 .general-dictionary-shell { padding: clamp(1rem, 2.6vw, 2rem); border: 1px solid var(--andergo-line); border-radius: 26px; background: rgba(255,255,255,.96); box-shadow: var(--andergo-shadow-md); }
 .general-dictionary-header { max-width: 760px; margin-bottom: 1.25rem; }
 .general-dictionary-header > span { color: var(--andergo-indigo); font-size: .72rem; font-weight: 900; letter-spacing: .09em; }
 .general-dictionary-header h2 { margin: .2rem 0 .38rem; color: var(--andergo-ink); font-size: clamp(1.65rem, 3vw, 2.55rem); letter-spacing: -.045em; }
 .general-dictionary-header p, .general-dictionary-meta { color: var(--andergo-muted); }
+.general-dictionary-pos { display: inline-flex; max-width: 100%; margin-top: .28rem; padding: .18rem .48rem; border: 1px solid #d8e5f8; border-radius: 999px; background: #f2f7ff; color: #3c5d91; font-size: .68rem; font-weight: 800; line-height: 1.3; }
+.general-dictionary-example { margin: .38rem 0 0; color: #5f718b; font-size: .76rem; line-height: 1.4; overflow-wrap: anywhere; }
+.general-dictionary-example-label { display: block; margin-bottom: .08rem; color: #71819a; font-size: .62rem; font-weight: 850; letter-spacing: .04em; text-transform: uppercase; }
 .general-dictionary-controls { display: grid; grid-template-columns: minmax(180px, .38fr) minmax(0, 1fr); gap: .72rem; padding: .78rem; border: 1px solid var(--andergo-line); border-radius: 16px; background: #f6f9ff; }
 .general-dictionary-controls label { display: grid; gap: .28rem; color: #51647f; font-size: .78rem; font-weight: 800; }
 .general-dictionary-controls select, .general-dictionary-controls input { min-height: 43px; padding-inline: .72rem; }

@@ -499,7 +499,7 @@ test('member navigation keeps core destinations visible and secondary tools in M
   );
   assert.ok(translatorIndex < moreIndex);
   assert.ok(moreIndex < audiosIndex && audiosIndex < adjectivesIndex && adjectivesIndex < adverbsIndex);
-  assert.match(memberNav, /href="#dictionary" data-i18n="navVocabulary">Diccionario<\/a>/);
+  assert.match(memberNav, /href="#vocabulary" data-i18n="navVocabulary">Vocabulario<\/a>/);
   assert.match(memberNav, /<summary>Más<\/summary>/);
   assert.match(memberNav, /href="#tutor" data-i18n="navTutor">Tutor I\.A\.<\/a>/);
   assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navProgress"/);
@@ -3340,6 +3340,65 @@ test('Vocabulary stays within the selected route level and exposes search, maste
   assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*1fr/);
   assert.match(source, /function compactLearningToolbars\([\s\S]*?firstBar\.replaceChildren\(primary, \.\.\.secondary\)/);
   assert.match(source, /if \(skill === 'vocabulary' && activities\.length\)[\s\S]*?renderVocabularyView\(section, catalogueLesson\)/);
+});
+
+test('Dictionary lookup is unified inside Vocabulary and the old #dictionary link remains compatible', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(source, /dictionary:\s*\['#vocabulary'\]/);
+  assert.match(source, /function isVocabularySearchHash\(/);
+  assert.match(source, /href="#vocabulary\/search"/);
+  assert.match(source, /id="generalDictionaryApp"/);
+  assert.match(source, /if \(resolved === 'dictionary'\)\s*\{[\s\S]*?renderSkillView\('vocabulary'\)/);
+  assert.match(html, /<a href="#vocabulary">Vocabulario<\/a>/);
+  assert.doesNotMatch(html, /<section id="dictionary"/);
+  assert.match(css, /\.vocabulary-mode-tabs/);
+  assert.match(css, /#vocabulary\.vocabulary-search-mode/);
+});
+
+test('Dictionary results include curated grammatical categories and brief examples when available', () => {
+  const {
+    enrichEntriesWithCurriculumMetadata,
+    buildCuratedVocabularyIndex
+  } = require('./lib/vocabularyDictionaryService');
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  const [curated, stored, unmatched] = enrichEntriesWithCurriculumMetadata(
+    [
+      { term: 'wake up', part_of_speech: null, example: null },
+      { term: 'wake up', part_of_speech: 'phrasal verb', example: 'Stored example.' },
+      { term: 'unlikely-unlisted-term', part_of_speech: null, example: null }
+    ],
+    'english'
+  );
+  assert.equal(curated.part_of_speech, 'verb');
+  assert.equal(curated.example, 'I wake up at seven every morning.');
+  assert.equal(stored.part_of_speech, 'phrasal verb');
+  assert.equal(stored.example, 'Stored example.');
+  assert.equal(unmatched.part_of_speech, null);
+  assert.equal(unmatched.example, null);
+  const merged = buildCuratedVocabularyIndex(
+    [
+      { skill: 'vocabulary', target_language: 'english', level: 'A1', content_json: { vocabulary: [{ word: 'sampleword', partOfSpeech: 'noun' }] } },
+      { skill: 'vocabulary', target_language: 'english', level: 'A1', content_json: { vocabulary: [{ word: 'sampleword', example: 'Here is a brief sample.' }] } }
+    ],
+    'english'
+  ).get('sampleword');
+  assert.deepEqual(merged, {
+    partOfSpeech: 'noun',
+    example: 'Here is a brief sample.',
+    level: 'A1'
+  });
+  assert.match(source, /function generalDictionaryPartOfSpeechLabel\(/);
+  assert.match(source, /function generalDictionaryShortExample\(/);
+  assert.match(source, /function renderGeneralDictionaryEntryHtml\(/);
+  assert.match(source, /generalDictionaryPartOfSpeechLabel\(entry\.part_of_speech\)/);
+  assert.match(source, /generalDictionaryShortExample\(entry\.example\)/);
+  assert.match(source, /class="general-dictionary-example"/);
+  assert.match(source, /class="general-dictionary-pos"/);
+  assert.match(css, /\.general-dictionary-example\s*\{/);
+  assert.match(css, /\.general-dictionary-pos\s*\{/);
 });
 
 test('C1/C2 direct-mode vocabulary shows translation and contextual examples by default', () => {
