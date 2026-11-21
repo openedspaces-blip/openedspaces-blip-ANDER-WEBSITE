@@ -6205,41 +6205,40 @@ const UNIT_LEARNING_SEQUENCE = [
   'grammar'
 ];
 const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE);
-const ENGLISH_A1_STAGE_PILOT = {
-  language: 'english',
-  level: 'A1',
-  unitSlug: 'hello',
-  stages: [
-    { id: 'understand', labelKey: 'stageUnderstand', skills: ['reading', 'listening'] },
-    { id: 'build', labelKey: 'stageBuild', skills: ['grammar', 'verbs'] },
-    { id: 'communicate', labelKey: 'stageCommunicate', skills: ['speaking', 'writing'] }
-  ]
-};
+const ENGLISH_STAGE_PILOTS = [
+  { language: 'english', level: 'A1', unitSlug: 'hello', order: 1 },
+  { language: 'english', level: 'A2', unitSlug: 'everyday-life', order: 1 }
+];
+const ENGLISH_STAGE_DEFINITIONS = [
+  { id: 'understand', labelKey: 'stageUnderstand', skills: ['reading', 'listening'] },
+  { id: 'build', labelKey: 'stageBuild', skills: ['grammar', 'verbs'] },
+  { id: 'communicate', labelKey: 'stageCommunicate', skills: ['speaking', 'writing'] }
+];
 
-function isEnglishA1StagePilotUnit(unitId) {
-  if (
-    learningPathState.language !== ENGLISH_A1_STAGE_PILOT.language ||
-    learningPathState.level !== ENGLISH_A1_STAGE_PILOT.level
-  ) return false;
+function isEnglishStagePilotUnit(unitId) {
+  const pilot = ENGLISH_STAGE_PILOTS.find(
+    (item) => item.language === learningPathState.language && item.level === learningPathState.level
+  );
+  if (!pilot) return false;
   const unit = learningPathState.units.find(
     (item) => item.id === unitId || item.slug === unitId
   );
   const slug = unit?.slug || unit?.unitSlug || unit?.unit_slug;
   const order = Number(unit?.order || unit?.orderIndex || unit?.order_index);
-  return slug === ENGLISH_A1_STAGE_PILOT.unitSlug || (!slug && order === 1);
+  return slug === pilot.unitSlug || (!slug && order === pilot.order);
 }
 
 function getUnitSkillSequence(unitId) {
-  return isEnglishA1StagePilotUnit(unitId)
+  return isEnglishStagePilotUnit(unitId)
     ? ['reading', 'listening', 'grammar', 'speaking', 'writing']
     : UNIT_LEARNING_SEQUENCE;
 }
 
-function getEnglishA1StageProgress(unitId, currentSkill = '') {
-  if (!isEnglishA1StagePilotUnit(unitId)) return null;
+function getEnglishPilotStageProgress(unitId, currentSkill = '') {
+  if (!isEnglishStagePilotUnit(unitId)) return null;
   const activities = getUnitActivities(unitId);
   const verbProgress = learningPathState.verbProgressByUnit[unitId];
-  const stages = ENGLISH_A1_STAGE_PILOT.stages.map((definition) => {
+  const stages = ENGLISH_STAGE_DEFINITIONS.map((definition) => {
     const members = definition.skills.map((skill) => {
       if (skill === 'verbs') {
         return { skill, slug: '', completed: verbProgress?.status === 'completed', locked: false };
@@ -6271,8 +6270,8 @@ function getEnglishA1StageProgress(unitId, currentSkill = '') {
   }));
 }
 
-function renderEnglishA1StageSteps(unitId, currentSkill = '', compact = false) {
-  const stages = getEnglishA1StageProgress(unitId, currentSkill);
+function renderEnglishPilotStageSteps(unitId, currentSkill = '', compact = false) {
+  const stages = getEnglishPilotStageProgress(unitId, currentSkill);
   if (!stages) return '';
   return stages.map((stage) => {
     const target = stage.target;
@@ -6433,8 +6432,8 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
       <span class="unit-sequence-label"><strong>Reto final</strong><small>${finalUnlocked ? 'Disponible' : 'Completa la ruta'}</small></span>
     </button>`
     : '';
-  if (isEnglishA1StagePilotUnit(unitId)) {
-    return `${renderEnglishA1StageSteps(unitId, currentSkill)}${finalStep}`;
+  if (isEnglishStagePilotUnit(unitId)) {
+    return `${renderEnglishPilotStageSteps(unitId, currentSkill)}${finalStep}`;
   }
   return `${steps}
     <button type="button" class="unit-sequence-step unit-sequence-step--verbs unit-sequence-step--${verbState}" data-sequence-skill="verbs" ${currentSkill === 'verbs' ? 'aria-current="step"' : ''}>
@@ -7369,7 +7368,7 @@ function renderSkillUnitSequence(section, lesson) {
   if (!content) return;
   const activities = getUnitActivities(lesson.unitId);
   const routeActivities = activities;
-  const stageProgress = getEnglishA1StageProgress(lesson.unitId, lesson.skill);
+  const stageProgress = getEnglishPilotStageProgress(lesson.unitId, lesson.skill);
   const activeStage = stageProgress?.find((stage) => stage.current) || null;
   const currentIndex = stageProgress
     ? activeStage?.index || 0
@@ -7391,7 +7390,7 @@ function renderSkillUnitSequence(section, lesson) {
       </button>`
     : '';
   const markersHtml = stageProgress
-    ? `${renderEnglishA1StageSteps(lesson.unitId, lesson.skill, true)}${finalMarker}`
+    ? `${renderEnglishPilotStageSteps(lesson.unitId, lesson.skill, true)}${finalMarker}`
     : [
         ...routeActivities.map((activity, index) => {
           const current = activity.slug === lesson.slug && activity.skill === lesson.skill;
@@ -7537,7 +7536,7 @@ function renderUnitVerbContext() {
   });
   banner.querySelector('.unit-verbs-return-btn')?.addEventListener('click', () => {
     const activities = getUnitActivities(unit.id);
-    const target = isEnglishA1StagePilotUnit(unit.id)
+    const target = isEnglishStagePilotUnit(unit.id)
       ? activities.find((item) => item.skill === 'grammar')
       : [...activities].reverse().find((item) => !item.locked) || activities[0];
     if (target) openUnitSequenceStep(target.skill, target.slug);
@@ -7545,7 +7544,7 @@ function renderUnitVerbContext() {
   });
   banner.querySelector('.unit-verbs-previous-btn')?.addEventListener('click', () => {
     const activities = getUnitActivities(unit.id);
-    const target = isEnglishA1StagePilotUnit(unit.id)
+    const target = isEnglishStagePilotUnit(unit.id)
       ? activities.find((item) => item.skill === 'grammar')
       : [...activities].reverse().find((item) => !item.locked) || activities[0];
     if (target) openUnitSequenceStep(target.skill, target.slug);
@@ -11092,7 +11091,7 @@ function renderUnitOverviewCard(unit) {
   const actionLesson = learningPathState.lessons.find(
     (lesson) => lesson.slug === action.targetSlug
   );
-  const pilotStages = getEnglishA1StageProgress(unit.id);
+  const pilotStages = getEnglishPilotStageProgress(unit.id);
   const recommendedStage = pilotStages?.find((stage) => stage.skills.includes(action.targetSkill));
   const pct = getUnitProgressMetrics(unit.id).progressPercent;
   const bodyHtml = renderUnitOverviewBody(data);
