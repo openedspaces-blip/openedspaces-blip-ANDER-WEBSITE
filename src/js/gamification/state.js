@@ -28,6 +28,7 @@
       streak: 0,
       longestStreak: 0,
       lastActiveDate: null,
+      lastStreakGraceDate: null,
       badges: [],
       completedSlugs: [],
       completedUnitIds: [],
@@ -36,6 +37,7 @@
       skillsTouchedToday: [],
       correctAnswersToday: 0,
       languagesTouchedToday: [],
+      dailyBonusAwarded: false,
       missions: { date: null, items: [] }
     };
   };

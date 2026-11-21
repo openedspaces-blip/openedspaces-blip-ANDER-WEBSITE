@@ -72,7 +72,7 @@
     xpReward = 20
   } = {}) {
     G.ensureDailyMissions();
-    G.bumpStreak();
+    const streakUpdate = G.bumpStreak();
     const alreadyCompleted = G.state.completedSlugs.includes(slug);
     if (!alreadyCompleted) {
       G.state.completedSlugs.push(slug);
@@ -93,6 +93,7 @@
     G.render();
     newBadges.forEach((badge) => G.notify('badge-unlocked', badge));
     G.notify('streak', { streak: G.state.streak });
+    if (streakUpdate === 'grace-used') G.notify('streak-grace', { streak: G.state.streak });
     return {
       newBadges,
       newlyCompletedUnit,
@@ -111,7 +112,14 @@
     if (typeof serverState.streak === 'number')
       G.state.streak = Math.max(G.state.streak, serverState.streak);
     if (typeof serverState.longestStreak === 'number')
-      G.state.longestStreak = Math.max(G.state.longestStreak, serverState.longestStreak);
+      G.state.longestStreak = Math.max(G.state.longestStreak || 0, serverState.longestStreak);
+    if (typeof serverState.lastActiveDate === 'string')
+      G.state.lastActiveDate = serverState.lastActiveDate;
+    if (
+      typeof serverState.lastStreakGraceDate === 'string' ||
+      serverState.lastStreakGraceDate === null
+    )
+      G.state.lastStreakGraceDate = serverState.lastStreakGraceDate;
     if (Array.isArray(serverState.badges)) {
       const merged = new Set([...G.state.badges, ...serverState.badges]);
       G.state.badges = Array.from(merged);
@@ -136,6 +144,7 @@
     getState,
     render: G.render,
     BADGE_DEFINITIONS: G.BADGE_DEFINITIONS,
-    levelForXp: G.levelForXp
+    levelForXp: G.levelForXp,
+    levelName: G.levelName
   };
 })();

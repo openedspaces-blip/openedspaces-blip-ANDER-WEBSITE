@@ -7972,6 +7972,16 @@ footer small {
   color: var(--muted);
 }
 
+.stat-tile-copy .stat-level-name {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.stat-tile-copy .stat-streak-hint {
+  max-width: 15rem;
+  font-size: 0.65rem;
+}
+
 .stat-level-ring {
   --ring-percent: 0;
   width: 46px;

@@ -46,7 +46,7 @@
     } else if (type === 'level-up') {
       showToast({
         icon: '⭐',
-        title: `¡Subiste a nivel ${payload.level}!`,
+        title: `¡Nivel ${payload.level}: ${G.levelName(payload.level)}!`,
         detail: 'Sigue practicando para ganar más XP.',
         variant: 'level'
       });
@@ -55,6 +55,20 @@
         icon: '✅',
         title: 'Misión completada',
         detail: `${payload.label} · +${payload.xpReward} XP`,
+        variant: 'mission'
+      });
+    } else if (type === 'streak-grace') {
+      showToast({
+        icon: '🔥',
+        title: 'Tu racha sigue en pie',
+        detail: 'Usaste tu día de pausa flexible. ¡Retoma cuando puedas!',
+        variant: 'mission'
+      });
+    } else if (type === 'daily-bonus') {
+      showToast({
+        icon: '⭐',
+        title: '¡Todas las misiones listas!',
+        detail: `Bonificación diaria · +${payload.xpReward} XP`,
         variant: 'mission'
       });
     }

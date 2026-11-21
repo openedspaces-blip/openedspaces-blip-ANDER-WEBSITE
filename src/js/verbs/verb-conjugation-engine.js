@@ -53,9 +53,10 @@
     }
     const verbForm = p.third ? raw.forms.thirdPersonSingular : raw.infinitive;
     const doWord = p.third ? 'does' : 'do';
+    const negativeAux = p.third ? "doesn't" : "don't";
     return {
       affirmative: `${p.subject} ${verbForm}`,
-      negative: `${p.subject} ${doWord} not ${raw.infinitive}`,
+      negative: `${p.subject} ${negativeAux} ${raw.infinitive}`,
       interrogative: `${cap(doWord)} ${subjectLower(p.subject)} ${raw.infinitive}?`
     };
   }
@@ -131,13 +132,33 @@
   // usage note instead of presenting "I am knowing" as equally natural as
   // "I am going".
   const STATIVE_VERBS = new Set([
-    'be', 'have', 'know', 'think', 'want', 'need', 'feel', 'mean', 'seem',
-    'believe', 'understand', 'hear', 'see', 'love', 'remember', 'hope', 'agree'
+    'be',
+    'have',
+    'know',
+    'think',
+    'want',
+    'need',
+    'feel',
+    'mean',
+    'seem',
+    'believe',
+    'understand',
+    'hear',
+    'see',
+    'love',
+    'remember',
+    'hope',
+    'agree'
   ]);
 
   const TENSES = [
     { id: 'presentSimple', label: 'Presente simple', build: presentSimple },
-    { id: 'presentContinuous', label: 'Presente continuo', build: presentContinuous, stativeCheck: true },
+    {
+      id: 'presentContinuous',
+      label: 'Presente continuo',
+      build: presentContinuous,
+      stativeCheck: true
+    },
     { id: 'pastSimple', label: 'Pasado simple', build: pastSimple },
     { id: 'pastContinuous', label: 'Pasado continuo', build: pastContinuous, stativeCheck: true },
     { id: 'presentPerfect', label: 'Presente perfecto', build: presentPerfect },

@@ -23,6 +23,7 @@
     G.state.skillsTouchedToday = [];
     G.state.correctAnswersToday = 0;
     G.state.languagesTouchedToday = [];
+    G.state.dailyBonusAwarded = false;
     G.state.missions = {
       date: today,
       version: 2,
@@ -39,6 +40,11 @@
       mission.done = true;
       G.addXp(mission.xpReward, `Misión completada: ${mission.label}`);
       G.notify('mission-complete', mission);
+    }
+    if (!G.state.dailyBonusAwarded && G.state.missions.items.every((item) => item.done)) {
+      G.state.dailyBonusAwarded = true;
+      G.addXp(10, 'Bonificación: todas las misiones del día');
+      G.notify('daily-bonus', { xpReward: 10 });
     }
     G.persist();
     G.render();

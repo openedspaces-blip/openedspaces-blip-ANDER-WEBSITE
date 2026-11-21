@@ -33,7 +33,9 @@
     const streakFlame = document.querySelector('.streak-flame-count');
 
     if (xpBarFill) xpBarFill.style.width = `${Math.max(4, G.xpProgressPercent())}%`;
-    if (xpLabel) xpLabel.textContent = `Nivel ${G.state.level} · ${G.state.xp} XP`;
+    if (xpBarFill) xpBarFill.setAttribute('aria-valuenow', String(G.xpProgressPercent()));
+    if (xpLabel)
+      xpLabel.textContent = `Nivel ${G.state.level} · ${G.levelName(G.state.level)} · ${G.state.xp} XP`;
     if (levelChip) levelChip.textContent = `Nv. ${G.state.level}`;
     if (streakFlame) streakFlame.textContent = String(G.state.streak);
 
@@ -50,17 +52,23 @@
     const streakValue = document.querySelector('.stat-streak-value');
     const bestStreakValue = document.querySelector('.stat-best-streak-value');
     const badgesValue = document.querySelector('.stat-badges-value');
+    const levelName = document.querySelector('.stat-level-name');
+    const streakHint = document.querySelector('.stat-streak-hint');
 
     const pct = Math.max(0, Math.min(100, G.xpProgressPercent()));
     ring.style.setProperty('--ring-percent', pct);
     if (ringValue) ringValue.textContent = G.state.level;
+    if (levelName) levelName.textContent = G.levelName(G.state.level);
     if (xpCaption) {
-      const floor = (G.state.level - 1) * G.LEVEL_XP_STEP;
-      xpCaption.textContent = `${G.state.xp - floor} / ${G.LEVEL_XP_STEP} XP`;
+      const xpToNext = Math.max(0, G.state.level * G.LEVEL_XP_STEP - G.state.xp);
+      xpCaption.textContent = xpToNext
+        ? `${xpToNext} XP para el próximo nivel`
+        : 'Nivel completado';
     }
     if (streakValue) streakValue.textContent = String(G.state.streak);
     if (bestStreakValue)
       bestStreakValue.textContent = String(Math.max(G.state.longestStreak || 0, G.state.streak));
+    if (streakHint) streakHint.textContent = 'Un día de pausa flexible cada 7 días';
     if (badgesValue) {
       const validIds = new Set(G.BADGE_DEFINITIONS.map((badge) => badge.id));
       const unlockedCount = G.state.badges.filter((id) => validIds.has(id)).length;
