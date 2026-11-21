@@ -11883,7 +11883,7 @@ footer small {
   }
 
   .unit-route-markers {
-    grid-template-columns: repeat(7, minmax(62px, 1fr));
+    grid-template-columns: repeat(6, minmax(62px, 1fr));
     width: 100%;
     padding-bottom: 0.35rem;
     scroll-snap-type: x proximity;
@@ -16206,6 +16206,43 @@ footer small {
   opacity: 0.62;
 }
 
+.unit-sequence-step--stage {
+  min-height: 5.2rem;
+  justify-content: flex-start;
+  text-align: left;
+}
+.unit-sequence-step--stage .unit-sequence-label {
+  gap: 0.2rem;
+}
+.unit-sequence-step--stage .unit-sequence-label strong {
+  font-size: 0.88rem;
+}
+.unit-sequence-step--stage .unit-sequence-label small {
+  line-height: 1.3;
+  white-space: normal;
+}
+.unit-sequence-step--stage .unit-sequence-label small:last-child {
+  color: var(--blue);
+  font-weight: 800;
+}
+.unit-sequence-step--stage .unit-sequence-label .unit-stage-skill {
+  margin-top: 0;
+  font-size: 0.66rem;
+  font-weight: 650;
+}
+.unit-stage-skill--completed {
+  color: #15803d !important;
+}
+.unit-stage-skill--incomplete {
+  color: var(--muted);
+}
+.unit-route-marker-label .unit-stage-skill {
+  font-size: 0.55rem;
+  font-weight: 600;
+}
+.unit-route-marker--current .unit-route-marker-label .unit-stage-skill--incomplete {
+  color: rgba(255, 255, 255, 0.8);
+}
 .unit-sequence-step--verbs {
   border-style: solid;
 }
@@ -20437,7 +20474,7 @@ footer small {
 .unit-route-markers {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(7, minmax(72px, 1fr));
+  grid-template-columns: repeat(6, minmax(72px, 1fr));
   flex: 1 0 100%;
   gap: 0;
   width: 100%;
@@ -21303,7 +21340,7 @@ footer small {
   }
 
   .unit-route-markers {
-    grid-template-columns: repeat(7, 76px);
+    grid-template-columns: repeat(6, 76px);
     width: 100%;
     padding: 0.15rem 0.15rem 0.35rem;
     scroll-padding-inline: 0.15rem;
@@ -39161,6 +39198,38 @@ footer small {
   grid-template-columns: repeat(8, minmax(68px, 1fr));
 }
 
+.unit-route-markers--stages {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  overflow: visible;
+}
+.unit-route-markers--stages .unit-route-marker--stage {
+  min-width: 0;
+  padding-inline: 0.2rem;
+}
+.unit-route-markers--stages .unit-route-marker-label {
+  display: grid;
+  justify-items: center;
+  gap: 0.08rem;
+  max-width: 100%;
+  text-align: center;
+  white-space: normal;
+}
+.unit-route-markers--stages .unit-route-marker-label strong {
+  font-size: 0.68rem;
+  line-height: 1.2;
+}
+.unit-route-markers--stages .unit-route-marker-label small {
+  font-size: 0.57rem;
+  line-height: 1.25;
+  white-space: normal;
+}
+.unit-route-markers--stages .unit-route-marker--current {
+  color: var(--blue);
+}
+.unit-route-markers--stages .unit-route-marker--recommended > span {
+  background: var(--blue);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.16);
+}
 .unit-route-marker--final > span {
   background: #7e22ce;
   box-shadow: 0 0 0 1px #7e22ce;
@@ -39219,6 +39288,10 @@ footer small {
 }
 
 @media (max-width: 640px) {
+  .unit-route-markers--stages {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    overflow: visible;
+  }
   .english-a1-mission-pilot .learning-path-layout {
     grid-template-columns: 1fr;
   }

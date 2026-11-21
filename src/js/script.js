@@ -6198,7 +6198,6 @@ async function loadTeacherCurriculumPanel() {
 }
 
 const UNIT_LEARNING_SEQUENCE = [
-  'vocabulary',
   'reading',
   'listening',
   'speaking',
@@ -6206,10 +6205,99 @@ const UNIT_LEARNING_SEQUENCE = [
   'grammar'
 ];
 const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE);
+const ENGLISH_A1_STAGE_PILOT = {
+  language: 'english',
+  level: 'A1',
+  unitSlug: 'hello',
+  stages: [
+    { id: 'understand', labelKey: 'stageUnderstand', skills: ['reading', 'listening'] },
+    { id: 'build', labelKey: 'stageBuild', skills: ['grammar', 'verbs'] },
+    { id: 'communicate', labelKey: 'stageCommunicate', skills: ['speaking', 'writing'] }
+  ]
+};
 
-function unitSkillOrder(skill) {
-  const index = UNIT_LEARNING_SEQUENCE.indexOf(String(skill || '').toLowerCase());
-  return index === -1 ? UNIT_LEARNING_SEQUENCE.length : index;
+function isEnglishA1StagePilotUnit(unitId) {
+  if (
+    learningPathState.language !== ENGLISH_A1_STAGE_PILOT.language ||
+    learningPathState.level !== ENGLISH_A1_STAGE_PILOT.level
+  ) return false;
+  const unit = learningPathState.units.find(
+    (item) => item.id === unitId || item.slug === unitId
+  );
+  const slug = unit?.slug || unit?.unitSlug || unit?.unit_slug;
+  const order = Number(unit?.order || unit?.orderIndex || unit?.order_index);
+  return slug === ENGLISH_A1_STAGE_PILOT.unitSlug || (!slug && order === 1);
+}
+
+function getUnitSkillSequence(unitId) {
+  return isEnglishA1StagePilotUnit(unitId)
+    ? ['reading', 'listening', 'grammar', 'speaking', 'writing']
+    : UNIT_LEARNING_SEQUENCE;
+}
+
+function getEnglishA1StageProgress(unitId, currentSkill = '') {
+  if (!isEnglishA1StagePilotUnit(unitId)) return null;
+  const activities = getUnitActivities(unitId);
+  const verbProgress = learningPathState.verbProgressByUnit[unitId];
+  const stages = ENGLISH_A1_STAGE_PILOT.stages.map((definition) => {
+    const members = definition.skills.map((skill) => {
+      if (skill === 'verbs') {
+        return { skill, slug: '', completed: verbProgress?.status === 'completed', locked: false };
+      }
+      return activities.find((activity) => activity.skill === skill) || null;
+    }).filter(Boolean);
+    const completedCount = members.filter((member) => member.completed).length;
+    const target = members.find((member) => !member.completed && !member.locked) || members[0] || null;
+    return {
+      ...definition,
+      members,
+      target,
+      completedCount,
+      completed: members.length > 0 && completedCount === members.length,
+      current: definition.skills.includes(currentSkill)
+    };
+  });
+  const recommendedStageId = stages.find((stage) => !stage.completed)?.id || stages[0]?.id;
+  return stages.map((stage, index) => ({
+    ...stage,
+    index,
+    state: stage.current
+      ? 'current'
+      : stage.completed
+        ? 'completed'
+        : !currentSkill && stage.id === recommendedStageId
+          ? 'recommended'
+          : 'available'
+  }));
+}
+
+function renderEnglishA1StageSteps(unitId, currentSkill = '', compact = false) {
+  const stages = getEnglishA1StageProgress(unitId, currentSkill);
+  if (!stages) return '';
+  return stages.map((stage) => {
+    const target = stage.target;
+    const skillNames = stage.members.map((member) => getSkillLabel(member.skill)).join(' · ');
+    const memberProgress = stage.members.map((member) => `
+      <small class="unit-stage-skill ${member.completed ? 'unit-stage-skill--completed' : 'unit-stage-skill--incomplete'}">
+        <span aria-hidden="true">${member.completed ? '✓' : '○'}</span> ${escapeHtml(getSkillLabel(member.skill))}
+      </small>`).join('');
+    const stateClass = compact ? 'unit-route-marker' : 'unit-sequence-step';
+    const currentAttribute = stage.current ? ' aria-current="step"' : '';
+    return `
+      <button type="button" class="${stateClass} ${stateClass}--${stage.state} ${stateClass}--stage" data-route-stage-id="${stage.id}" data-sequence-skill="${escapeHtml(target?.skill || '')}" data-lesson-slug="${escapeHtml(target?.slug || '')}"${currentAttribute} aria-label="${escapeHtml(`${routeText('stage')} ${stage.index + 1}: ${routeText(stage.labelKey)}. ${skillNames}. ${stage.completedCount}/${stage.members.length} ${routeText('stageActivities')}`)}">
+        <span${compact ? '' : ' class="unit-sequence-number"'}>${stage.completed ? '✓' : stage.index + 1}</span>
+        <span class="${compact ? 'unit-route-marker-label' : 'unit-sequence-label'}">
+          <strong>${escapeHtml(routeText(stage.labelKey))}</strong>
+          ${memberProgress}
+          <small>${stage.completedCount}/${stage.members.length} ${escapeHtml(routeText('stageActivities'))}</small>
+        </span>
+      </button>`;
+  }).join('');
+}
+
+function unitSkillOrder(skill, unitId) {
+  const index = getUnitSkillSequence(unitId).indexOf(String(skill || '').toLowerCase());
+  return index === -1 ? getUnitSkillSequence(unitId).length : index;
 }
 
 function getUnitActivities(unitId) {
@@ -6218,11 +6306,11 @@ function getUnitActivities(unitId) {
       // Standalone dialogues and any future supplementary resources remain
       // available as lesson content, but do not become extra route stops.
       // This keeps Français A1's primary route structurally identical to
-      // English A1: six core activities followed by Verbs.
+      // English A1: five core activities followed by Verbs.
       .filter((item) => item.unitId === unitId && UNIT_ROUTE_SKILLS.has(item.skill))
       .sort(
         (a, b) =>
-          unitSkillOrder(a.skill) - unitSkillOrder(b.skill) ||
+          unitSkillOrder(a.skill, unitId) - unitSkillOrder(b.skill, unitId) ||
           (a.orderIndex || 0) - (b.orderIndex || 0)
       )
   );
@@ -6283,8 +6371,7 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
     listening: 'Escuchar',
     speaking: 'Hablar',
     writing: 'Escribir',
-    grammar: 'Practicar',
-    vocabulary: 'Explorar'
+    grammar: 'Practicar'
   };
   const activities = getUnitActivities(unitId);
   const routeActivities = activities;
@@ -6346,6 +6433,9 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
       <span class="unit-sequence-label"><strong>Reto final</strong><small>${finalUnlocked ? 'Disponible' : 'Completa la ruta'}</small></span>
     </button>`
     : '';
+  if (isEnglishA1StagePilotUnit(unitId)) {
+    return `${renderEnglishA1StageSteps(unitId, currentSkill)}${finalStep}`;
+  }
   return `${steps}
     <button type="button" class="unit-sequence-step unit-sequence-step--verbs unit-sequence-step--${verbState}" data-sequence-skill="verbs" ${currentSkill === 'verbs' ? 'aria-current="step"' : ''}>
       <span class="unit-sequence-number">${verbProgress?.status === 'completed' ? '✓' : verbsNumber}</span>
@@ -6482,7 +6572,10 @@ window.addEventListener('andergo:open-search-result', async (event) => {
       handleHomeAction('upgrade');
       return;
     }
-    openUnitSequenceStep(skill || lesson.skill, lesson.slug);
+    const targetSkill = skill || lesson.skill;
+    openUnitSequenceStep(targetSkill, lesson.slug, {
+      entryContext: UNIT_ROUTE_SKILLS.has(targetSkill) ? 'route' : 'explore'
+    });
   } catch {
     showHomeToast('No pudimos abrir este resultado. Inténtalo de nuevo.');
   }
@@ -6524,14 +6617,16 @@ function openLearningRouteTab(skill) {
   if (skill === 'introduction') {
     const vocabularyLesson = getCurrentUnitActivityForSkill('vocabulary');
     if (vocabularyLesson) {
-      openUnitSequenceStep('introduction', vocabularyLesson.slug);
+      openUnitSequenceStep('introduction', vocabularyLesson.slug, { entryContext: 'explore' });
       return;
     }
   }
 
   const targetLesson = getCurrentUnitActivityForSkill(skill);
   if (targetLesson) {
-    openUnitSequenceStep(skill, targetLesson.slug);
+    openUnitSequenceStep(skill, targetLesson.slug, {
+      entryContext: skill === 'vocabulary' ? 'explore' : 'route'
+    });
     return;
   }
 
@@ -6541,14 +6636,16 @@ function openLearningRouteTab(skill) {
   showView(skill);
 }
 
-// Vocabulary always belongs to one lesson. From a unit, preserve that unit's
-// word set instead of replacing it with an unrelated level-wide catalogue.
+// Vocabulary remains available as a supplementary lesson. From a unit,
+// preserve that unit's word set without adding it to the guided route.
 function openVocabularyFromMainNav() {
   const unitVocabulary = learningPathState.unitId
-    ? getUnitActivities(learningPathState.unitId).find((item) => item.skill === 'vocabulary')
+    ? learningPathState.lessons.find(
+        (item) => item.unitId === learningPathState.unitId && item.skill === 'vocabulary'
+      )
     : null;
   if (unitVocabulary) {
-    openUnitSequenceStep('vocabulary', unitVocabulary.slug);
+    openUnitSequenceStep('vocabulary', unitVocabulary.slug, { entryContext: 'explore' });
     return;
   }
   learningPathState.skillEntryContext = 'explore';
@@ -7267,17 +7364,20 @@ function renderSkillUnitSequence(section, lesson) {
   section.querySelector('.lesson-curriculum-brief')?.remove();
   section.querySelector('.activity-route-context')?.remove();
   section.querySelector('.english-beginner-opening')?.remove();
-  if (!lesson?.unitId) return;
+  if (!lesson?.unitId || !UNIT_ROUTE_SKILLS.has(lesson.skill)) return;
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
   const activities = getUnitActivities(lesson.unitId);
   const routeActivities = activities;
-  const currentIndex = Math.max(
-    0,
-    routeActivities.findIndex((item) => item.slug === lesson.slug && item.skill === lesson.skill)
-  );
-  const nextLesson = routeActivities.slice(currentIndex + 1).find((item) => !item.locked) || null;
-  const total = routeActivities.length + 1;
+  const stageProgress = getEnglishA1StageProgress(lesson.unitId, lesson.skill);
+  const activeStage = stageProgress?.find((stage) => stage.current) || null;
+  const currentIndex = stageProgress
+    ? activeStage?.index || 0
+    : Math.max(0, routeActivities.findIndex((item) => item.slug === lesson.slug && item.skill === lesson.skill));
+  const nextLesson = routeActivities.slice(
+    Math.max(0, routeActivities.findIndex((item) => item.slug === lesson.slug) + 1)
+  ).find((item) => !item.locked) || null;
+  const total = stageProgress ? stageProgress.length : routeActivities.length + 1;
   const routeProgress = total > 1 ? Math.round((currentIndex / (total - 1)) * 100) : 0;
   const minutes = getLessonDurationMinutes(lesson);
   const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
@@ -7290,32 +7390,34 @@ function renderSkillUnitSequence(section, lesson) {
         <span>★</span><small>Reto final</small>
       </button>`
     : '';
-  const markersHtml = [
-    ...routeActivities.map((activity, index) => {
-      const current = activity.slug === lesson.slug && activity.skill === lesson.skill;
-      const state = current ? 'current' : activity.completed ? 'completed' : 'available';
-      return `
-        <button type="button" class="unit-route-marker unit-route-marker--${state}" data-sequence-skill="${escapeHtml(activity.skill)}" data-lesson-slug="${escapeHtml(activity.slug)}" ${current ? 'aria-current="step"' : ''} aria-label="${escapeHtml(`${index + 1}. ${getSkillLabel(activity.skill)}`)}">
-          <span>${activity.completed ? '✓' : index + 1}</span>
-          <small>${escapeHtml(getSkillLabel(activity.skill))}</small>
-        </button>`;
-    }),
-    `
-      <button type="button" class="unit-route-marker unit-route-marker--${verbProgress?.status === 'completed' ? 'completed' : 'available'}" data-sequence-skill="verbs" aria-label="${routeActivities.length + 1}. Verbos">
-        <span>${verbProgress?.status === 'completed' ? '✓' : routeActivities.length + 1}</span>
-        <small>Verbos</small>
-      </button>${finalMarker}`
-  ].join('');
+  const markersHtml = stageProgress
+    ? `${renderEnglishA1StageSteps(lesson.unitId, lesson.skill, true)}${finalMarker}`
+    : [
+        ...routeActivities.map((activity, index) => {
+          const current = activity.slug === lesson.slug && activity.skill === lesson.skill;
+          const state = current ? 'current' : activity.completed ? 'completed' : 'available';
+          return `
+            <button type="button" class="unit-route-marker unit-route-marker--${state}" data-sequence-skill="${escapeHtml(activity.skill)}" data-lesson-slug="${escapeHtml(activity.slug)}" ${current ? 'aria-current="step"' : ''} aria-label="${escapeHtml(`${index + 1}. ${getSkillLabel(activity.skill)}`)}">
+              <span>${activity.completed ? '✓' : index + 1}</span>
+              <small>${escapeHtml(getSkillLabel(activity.skill))}</small>
+            </button>`;
+        }),
+        `
+          <button type="button" class="unit-route-marker unit-route-marker--${verbProgress?.status === 'completed' ? 'completed' : 'available'}" data-sequence-skill="verbs" aria-label="${routeActivities.length + 1}. Verbos">
+            <span>${verbProgress?.status === 'completed' ? '✓' : routeActivities.length + 1}</span>
+            <small>Verbos</small>
+          </button>${finalMarker}`
+      ].join('');
   const nav = document.createElement('nav');
   nav.className = 'unit-learning-sequence unit-mission-strip';
   nav.setAttribute('aria-label', 'Misión actual de la unidad');
   nav.innerHTML = `
     <div class="unit-mission-copy">
-      <span>🎯 Misión actual · ${currentIndex + 1}/${total}</span>
-      <small>${minutes ? `⏱ ${escapeHtml(String(minutes))} min · ` : ''}⭐ ${escapeHtml(String(xp))} XP · ${nextLesson ? `Después: ${escapeHtml(getSkillLabel(nextLesson.skill))}` : 'Última actividad antes de Verbos'}</small>
+      <span>${stageProgress ? `${escapeHtml(routeText('stage'))} ${currentIndex + 1}/${total} · ${escapeHtml(routeText(activeStage?.labelKey || 'stageUnderstand'))}` : `🎯 Misión actual · ${currentIndex + 1}/${total}`}</span>
+      <small>${minutes ? `⏱ ${escapeHtml(String(minutes))} min · ` : ''}⭐ ${escapeHtml(String(xp))} XP · ${stageProgress ? `${activeStage?.completedCount || 0}/${activeStage?.members.length || 0} ${escapeHtml(routeText('stageActivities'))}` : nextLesson ? `Después: ${escapeHtml(getSkillLabel(nextLesson.skill))}` : 'Última actividad antes de Verbos'}</small>
     </div>
     <button type="button" class="secondary-btn unit-mission-reveal-btn" aria-expanded="true" hidden>Ver misión</button>
-    <div class="unit-route-markers${isMissionRouteEnabled() ? ' unit-route-markers--with-final' : ''}" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
+    <div class="unit-route-markers${stageProgress ? ' unit-route-markers--stages' : ''}${isMissionRouteEnabled() ? ' unit-route-markers--with-final' : ''}" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
       ${markersHtml}
     </div>
   `;
@@ -7435,13 +7537,17 @@ function renderUnitVerbContext() {
   });
   banner.querySelector('.unit-verbs-return-btn')?.addEventListener('click', () => {
     const activities = getUnitActivities(unit.id);
-    const target = [...activities].reverse().find((item) => !item.locked) || activities[0];
+    const target = isEnglishA1StagePilotUnit(unit.id)
+      ? activities.find((item) => item.skill === 'grammar')
+      : [...activities].reverse().find((item) => !item.locked) || activities[0];
     if (target) openUnitSequenceStep(target.skill, target.slug);
     else showView('learn');
   });
   banner.querySelector('.unit-verbs-previous-btn')?.addEventListener('click', () => {
     const activities = getUnitActivities(unit.id);
-    const target = [...activities].reverse().find((item) => !item.locked) || activities[0];
+    const target = isEnglishA1StagePilotUnit(unit.id)
+      ? activities.find((item) => item.skill === 'grammar')
+      : [...activities].reverse().find((item) => !item.locked) || activities[0];
     if (target) openUnitSequenceStep(target.skill, target.slug);
   });
   banner.querySelector('.unit-verbs-finish-btn')?.addEventListener('click', () => {
@@ -10860,9 +10966,12 @@ function renderLessonExercise(item, index, lesson) {
 // First lesson that's neither completed nor locked - used both for the
 // right panel's default "continue" card and for the module summary header.
 function getNextRecommendedLesson() {
+  const routeLessons = learningPathState.unitId
+    ? getUnitActivities(learningPathState.unitId)
+    : learningPathState.lessons.filter((item) => UNIT_ROUTE_SKILLS.has(item.skill));
   return (
-    learningPathState.lessons.find((item) => !item.completed && !item.locked) ||
-    learningPathState.lessons[0] ||
+    routeLessons.find((item) => !item.completed && !item.locked) ||
+    routeLessons[0] ||
     null
   );
 }
@@ -10922,6 +11031,7 @@ function getUnitActionState(unit) {
   const activities = metrics.activities;
   const total = metrics.total;
   const completedCount = metrics.completedCount;
+  const verbProgress = metrics.verbProgress;
   const started = activities.some(
     (item) => item.completed || item.progressStatus === 'in_progress'
   );
@@ -10933,9 +11043,12 @@ function getUnitActionState(unit) {
 
   const target = allCompleted
     ? activities[0]
-    : activities.find((item) => !item.completed && !item.locked) || activities[0];
+    : activities.find((item) => !item.completed && !item.locked) || null;
+  const targetSkill = target?.skill || (verbProgress?.status !== 'completed' ? 'verbs' : activities[0]?.skill || '');
+  const targetIndex = target ? activities.findIndex((item) => item.slug === target.slug) : activities.length;
+  const targetStep = targetSkill === 'verbs' ? activities.length + 1 : Math.max(1, targetIndex + 1);
 
-  return { total, completedCount, label, targetSlug: target?.slug || '' };
+  return { total, completedCount, label, targetSlug: target?.slug || '', targetSkill, targetStep };
 }
 
 function renderUnitOverviewList(items) {
@@ -10979,6 +11092,8 @@ function renderUnitOverviewCard(unit) {
   const actionLesson = learningPathState.lessons.find(
     (lesson) => lesson.slug === action.targetSlug
   );
+  const pilotStages = getEnglishA1StageProgress(unit.id);
+  const recommendedStage = pilotStages?.find((stage) => stage.skills.includes(action.targetSkill));
   const pct = getUnitProgressMetrics(unit.id).progressPercent;
   const bodyHtml = renderUnitOverviewBody(data);
   const reward = getUnitActivities(unit.id).reduce(
@@ -11015,20 +11130,20 @@ function renderUnitOverviewCard(unit) {
         <span class="unit-overview-progress-label"><strong>${action.completedCount}/${action.total} ${missionPilot ? 'estaciones' : escapeHtml(routeText('completedActivities'))}</strong> · ${missionPilot ? `⭐ ${earnedXp}/${reward} XP` : `🏆 ${reward} XP`}</span>
       </div>
       <div class="unit-overview-actions unit-overview-actions--primary">
-        <span><strong>${escapeHtml(routeText('step'))} 2</strong> · ${escapeHtml(routeText('recommended'))}</span>
-        <button type="button" class="primary-btn unit-action-btn" data-lesson-slug="${escapeHtml(action.targetSlug)}" data-lesson-skill="${escapeHtml(actionLesson?.skill || '')}">${escapeHtml(action.label)} <span aria-hidden="true">→</span></button>
+        <span><strong>${escapeHtml(pilotStages ? `${routeText('stage')} ${(recommendedStage?.index ?? 0) + 1}` : `${routeText('step')} ${action.targetStep}`)}</strong> · ${escapeHtml(pilotStages ? routeText(recommendedStage?.labelKey || 'stageUnderstand') : routeText('recommended'))}</span>
+        <button type="button" class="primary-btn unit-action-btn" data-lesson-slug="${escapeHtml(action.targetSlug)}" data-lesson-skill="${escapeHtml(action.targetSkill || actionLesson?.skill || '')}">${escapeHtml(action.label)} <span aria-hidden="true">→</span></button>
       </div>
       <div class="unit-overview-sequence">
         <div class="unit-sequence-heading">
-          <strong>${escapeHtml(routeText('activities'))}</strong>
-          <span>${escapeHtml(routeText('directOpen'))}</span>
+          <strong>${escapeHtml(routeText(pilotStages ? 'stages' : 'activities'))}</strong>
+          <span>${escapeHtml(routeText(pilotStages ? 'stageHelp' : 'directOpen'))}</span>
         </div>
         <div class="unit-sequence-steps">${renderUnitSequenceStepsHtml(unit.id)}</div>
       </div>
       ${missionPilot ? `
       <div class="unit-final-challenge-card${finalUnlocked ? ' is-unlocked' : ''}">
         <span class="unit-final-challenge-icon" aria-hidden="true">★</span>
-        <span><strong>Reto final de la misión</strong><small>${finalUnlocked ? 'Ya completaste las siete estaciones. El reto está disponible.' : `Completa las ${unitMetrics.total} estaciones para desbloquearlo.`}</small></span>
+        <span><strong>Reto final de la misión</strong><small>${finalUnlocked ? 'Ya completaste las seis actividades. El reto está disponible.' : `Completa las ${unitMetrics.total} actividades para desbloquearlo.`}</small></span>
         <button type="button" class="${finalUnlocked ? 'primary-btn' : 'secondary-btn'} unit-final-challenge-btn" data-unit-final-challenge="${escapeHtml(unit.id)}" ${finalUnlocked ? '' : 'disabled'}>${finalUnlocked ? 'Comenzar reto →' : 'Bloqueado'}</button>
       </div>` : ''}
       ${
@@ -11469,7 +11584,7 @@ const ROUTE_COPY = {
     mission: 'Tu misión:', step: 'Paso', continueHere: 'Continúa por aquí', oneAtATime: 'Una actividad a la vez. Cuando termines, la siguiente quedará lista.',
     recommended: 'Sigue con la actividad recomendada', activities: 'Actividades de la unidad', directOpen: 'También puedes abrir directamente cualquier actividad disponible.',
     learningOutcomes: 'Hoy aprenderás a', grammar: 'Gramática que usarás', keyVocabulary: 'Palabras clave', details: 'Ver detalles de la unidad',
-    extraPractice: 'Práctica complementaria', planToday: 'PLAN DE HOY', review: 'REPASO ESPACIADO', bestNext: 'SIGUIENTE MEJOR PASO',
+    extraPractice: 'Práctica complementaria', stages: 'Tres etapas para aprender', stageHelp: 'Cada etapa agrupa habilidades; tu avance individual se conserva.', stage: 'Etapa', stageActivities: 'actividades', stageUnderstand: 'Comprender', stageBuild: 'Construir', stageCommunicate: 'Comunicar', planToday: 'PLAN DE HOY', review: 'REPASO ESPACIADO', bestNext: 'SIGUIENTE MEJOR PASO',
     startNow: 'Empezar ahora', reviewNow: 'Repasar ahora', personalize: 'Personalizar plan', learningGoal: 'Objetivo de aprendizaje'
   },
   english: {
@@ -11478,7 +11593,7 @@ const ROUTE_COPY = {
     mission: 'Your mission:', step: 'Step', continueHere: 'Continue here', oneAtATime: 'One activity at a time. When you finish, the next one will be ready.',
     recommended: 'Continue with the recommended activity', activities: 'Unit activities', directOpen: 'You can also open any available activity directly.',
     learningOutcomes: 'Today you will learn to', grammar: 'Grammar you will use', keyVocabulary: 'Key words', details: 'View unit details',
-    extraPractice: 'Extra practice', planToday: "TODAY'S PLAN", review: 'SPACED REVIEW', bestNext: 'BEST NEXT STEP',
+    extraPractice: 'Extra practice', stages: 'Three learning stages', stageHelp: 'Each stage groups skills; individual progress is preserved.', stage: 'Stage', stageActivities: 'activities', stageUnderstand: 'Understand', stageBuild: 'Build', stageCommunicate: 'Communicate', planToday: "TODAY'S PLAN", review: 'SPACED REVIEW', bestNext: 'BEST NEXT STEP',
     startNow: 'Start now', reviewNow: 'Review now', personalize: 'Personalize plan', learningGoal: 'Learning goal'
   },
   french: {
@@ -11487,7 +11602,7 @@ const ROUTE_COPY = {
     mission: 'Votre mission :', step: 'Étape', continueHere: 'Continuez ici', oneAtATime: 'Une activité à la fois. Quand vous terminez, la suivante sera prête.',
     recommended: "Continuez avec l’activité recommandée", activities: "Activités de l’unité", directOpen: 'Vous pouvez aussi ouvrir directement toute activité disponible.',
     learningOutcomes: 'Aujourd’hui, vous apprendrez à', grammar: 'Grammaire à utiliser', keyVocabulary: 'Mots clés', details: "Voir les détails de l’unité",
-    extraPractice: 'Pratique complémentaire', planToday: "PLAN DU JOUR", review: 'RÉVISION ESPACÉE', bestNext: 'MEILLEURE PROCHAINE ÉTAPE',
+    extraPractice: 'Pratique complémentaire', stages: 'Trois étapes d’apprentissage', stageHelp: 'Chaque étape regroupe des compétences ; leur progression reste distincte.', stage: 'Étape', stageActivities: 'activités', stageUnderstand: 'Comprendre', stageBuild: 'Construire', stageCommunicate: 'Communiquer', planToday: "PLAN DU JOUR", review: 'RÉVISION ESPACÉE', bestNext: 'MEILLEURE PROCHAINE ÉTAPE',
     startNow: 'Commencer', reviewNow: 'Réviser maintenant', personalize: 'Personnaliser le plan', learningGoal: "Objectif d’apprentissage"
   }
 };
@@ -22900,11 +23015,11 @@ function wireListeningConnectedTools(content, lesson, runtime) {
   });
 
   content.querySelector('[data-listening-open-vocabulary]')?.addEventListener('click', () => {
-    const vocabularyLesson = getUnitActivities(lesson.unitId).find(
-      (item) => item.skill === 'vocabulary'
+    const vocabularyLesson = learningPathState.lessons.find(
+      (item) => item.unitId === lesson.unitId && item.skill === 'vocabulary'
     );
     if (vocabularyLesson) {
-      openUnitSequenceStep('vocabulary', vocabularyLesson.slug);
+      openUnitSequenceStep('vocabulary', vocabularyLesson.slug, { entryContext: 'explore' });
       return;
     }
     showHomeToast('La actividad de Vocabulary de esta unidad estará disponible próximamente.');
@@ -24469,7 +24584,6 @@ async function performLearningPathLoad(options = {}) {
       ? getUnitActivities(learningPathState.unitId)
       : [];
     const restoredFirstActivity =
-      restoredActivities.find((item) => item.skill === 'vocabulary' && !item.locked) ||
       restoredActivities.find((item) => !item.locked) ||
       restoredActivities[0];
     learningPathState.activeSlug = restoredFirstActivity?.slug || '';
@@ -24770,6 +24884,7 @@ document.addEventListener('click', async (event) => {
       (item) => item.slug === unitActionBtn.dataset.lessonSlug
     );
     if (lesson) openUnitSequenceStep(lesson.skill, lesson.slug);
+    else if (unitActionBtn.dataset.lessonSkill === 'verbs') openUnitSequenceStep('verbs');
     return;
   }
 
@@ -30561,7 +30676,9 @@ document.addEventListener('click', (event) => {
   if (introductionContinue) {
     event.preventDefault();
     const vocabularySlug = introductionContinue.dataset.vocabularySlug;
-    if (vocabularySlug) openUnitSequenceStep('vocabulary', vocabularySlug);
+    if (vocabularySlug) {
+      openUnitSequenceStep('vocabulary', vocabularySlug, { entryContext: 'explore' });
+    }
     return;
   }
   const mainVocabularyLink = event.target.closest('.nav-group-member > a[href="#vocabulary"]');
@@ -30734,7 +30851,6 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
     close();
     const activities = getUnitActivities(unit.id);
     const lesson =
-      activities.find((item) => item.skill === 'vocabulary' && !item.locked) ||
       activities.find((item) => !item.locked) ||
       activities[0];
     if (lesson) openUnitSequenceStep(lesson.skill, lesson.slug);
@@ -30752,7 +30868,6 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
     selectUnit(selected.id, { render: false });
     const activities = getUnitActivities(selected.id);
     const lesson =
-      activities.find((item) => item.skill === 'vocabulary' && !item.locked) ||
       activities.find((item) => !item.locked) ||
       activities[0];
     if (lesson) openUnitSequenceStep(lesson.skill, lesson.slug);

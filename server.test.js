@@ -656,11 +656,11 @@ test('normalized lesson completion returns the persisted seven-activity course s
   );
 });
 
-test('the seven-activity route remains touch-friendly and readable on phones', () => {
+test('the six-marker route remains touch-friendly and readable on phones', () => {
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
   assert.match(
     css,
-    /@media \(max-width: 560px\)[\s\S]*?\.unit-route-markers\s*\{[\s\S]*?grid-template-columns:\s*repeat\(7,\s*76px\)/
+    /@media \(max-width: 560px\)[\s\S]*?\.unit-route-markers\s*\{[\s\S]*?grid-template-columns:\s*repeat\(6,\s*76px\)/
   );
   assert.match(css, /\.unit-route-marker\s*\{[\s\S]*?min-height:\s*44px/);
   assert.match(
@@ -3957,18 +3957,18 @@ test('Listening links directly to unit Vocabulary and omits the old auxiliary-mo
   assert.match(source, /openUnitSequenceStep\('vocabulary'/);
 });
 
-test('unit learning route follows the approved Vocabulary-first sequence and closes with Verbs', () => {
+test('unit learning route starts with Reading, excludes Vocabulary and closes with Verbs', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(
     source,
-    /UNIT_LEARNING_SEQUENCE\s*=\s*\[\s*'vocabulary',\s*'reading',\s*'listening',\s*'speaking',\s*'writing',\s*'grammar'\s*\]/
+    /UNIT_LEARNING_SEQUENCE\s*=\s*\[\s*'reading',\s*'listening',\s*'speaking',\s*'writing',\s*'grammar'\s*\]/
   );
   assert.match(source, /renderUnitSequenceStepsHtml/);
   assert.match(source, /data-sequence-skill="verbs"/);
   assert.match(source, /renderUnitVerbContext/);
 });
 
-test('lesson route keeps seven connected markers with current and completed states', () => {
+test('lesson route keeps six connected markers with current and completed states', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
   const routeRenderer =
@@ -4065,9 +4065,37 @@ test('back-to-route keeps the active language, level, unit and lesson context', 
   assert.match(source, /getElementById\('learning-path'\)\s*\?\.scrollIntoView/);
 });
 
+test('Vocabulary stays outside the guided A1 route in all six languages', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const routeSkills = ['reading', 'listening', 'speaking', 'writing', 'grammar'];
+  assert.match(
+    source,
+    /UNIT_LEARNING_SEQUENCE\s*=\s*\[\s*'reading',\s*'listening',\s*'speaking',\s*'writing',\s*'grammar'\s*\]/
+  );
+  assert.match(source, /item\.unitId === unitId && UNIT_ROUTE_SKILLS\.has\(item\.skill\)/);
+
+  for (const language of WORLD_LANGUAGES) {
+    const rows = getLocalLessons(language).filter((row) => row.level === 'A1');
+    const unitIds = [...new Set(rows.map((row) => row.unitId || row.unit_slug).filter(Boolean))];
+    assert.equal(unitIds.length, 12, `${language} A1 has 12 units`);
+    for (const unitId of unitIds) {
+      const unitRows = rows.filter((row) => (row.unitId || row.unit_slug) === unitId);
+      const actualRouteSkills = unitRows
+        .filter((row) => routeSkills.includes(row.skill))
+        .map((row) => row.skill)
+        .sort();
+      assert.deepEqual(actualRouteSkills, [...routeSkills].sort(), `${language} ${unitId}`);
+      assert.ok(
+        unitRows.some((row) => row.skill === 'vocabulary'),
+        `${language} ${unitId} retains Vocabulary as supplementary practice`
+      );
+    }
+  }
+});
+
 test('French A1 primary route mirrors English A1 while keeping standalone dialogues supplementary', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
-  const coreSkills = ['reading', 'listening', 'speaking', 'writing', 'grammar', 'vocabulary'];
+  const coreSkills = ['reading', 'listening', 'speaking', 'writing', 'grammar'];
   for (const language of ['english', 'french']) {
     const rows = seedLessons.filter(
       (row) => row.target_language === language && row.level === 'A1'
@@ -4082,6 +4110,7 @@ test('French A1 primary route mirrors English A1 while keeping standalone dialog
         .map((row) => row.skill)
         .sort();
       assert.deepEqual(routeSkills, [...coreSkills].sort(), `${language} ${unit.slug}`);
+      assert.ok(rows.some((row) => row.unit_slug === unit.slug && row.skill === 'vocabulary'), `${language} ${unit.slug} keeps Vocabulary as a supplementary lesson`);
     });
   }
   assert.match(source, /UNIT_ROUTE_SKILLS = new Set\(UNIT_LEARNING_SEQUENCE\)/);
@@ -4117,6 +4146,23 @@ test('student journey presents practical curriculum guidance and preserves lesso
   assert.match(source, /renderContinueCard\(activeLesson, \{ selected: true \}\)/);
 });
 
+test('English A1 Hello pilot groups six distinct activities into three stages without changing other routes', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(source, /language: 'english',[\s\S]*?level: 'A1',[\s\S]*?unitSlug: 'hello'/);
+  assert.match(source, /id: 'understand', labelKey: 'stageUnderstand', skills: \['reading', 'listening'\]/);
+  assert.match(source, /id: 'build', labelKey: 'stageBuild', skills: \['grammar', 'verbs'\]/);
+  assert.match(source, /id: 'communicate', labelKey: 'stageCommunicate', skills: \['speaking', 'writing'\]/);
+  assert.match(source, /return isEnglishA1StagePilotUnit\(unitId\)[\s\S]*?\['reading', 'listening', 'grammar', 'speaking', 'writing'\][\s\S]*?: UNIT_LEARNING_SEQUENCE/);
+  assert.match(source, /completed: verbProgress\?\.status === 'completed'/);
+  assert.ok(source.includes("member.completed ? 'unit-stage-skill--completed' : 'unit-stage-skill--incomplete'"));
+  assert.match(source, /return activities\.find\(\(activity\) => activity\.skill === skill\) \|\| null/);
+  assert.match(source, /data-route-stage-id="\$\{stage\.id\}"[\s\S]*?data-sequence-skill="\$\{escapeHtml\(target\?\.skill \|\| ''\)\}"/);
+  assert.match(source, /function wireUnitSequence\([\s\S]*?querySelectorAll\('\.unit-sequence-step, \.unit-route-marker'\)/);
+  assert.match(source, /function getUnitProgressMetrics\(unitId\) \{[\s\S]*?activities\.length \+ 1[\s\S]*?verbProgress/);
+  assert.match(css, /\.unit-route-markers--stages \{[\s\S]*?grid-template-columns: repeat\(3, minmax\(0, 1fr\)\)/);
+  assert.match(css, /\.unit-sequence-step--stage/);
+});
 test('teacher curriculum panel is role-gated on both client and server', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
