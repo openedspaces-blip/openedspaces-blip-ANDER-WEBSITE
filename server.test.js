@@ -4004,7 +4004,7 @@ test('a selected unit reveals its activity sequence in the overview and every sk
   const selectUnitBody = source.match(/function selectUnit\(unitId, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1] || '';
   const renderSkillBody = source.match(/function renderSkillView\(skill\) \{([\s\S]*?)\n\}/)?.[1] || '';
   assert.match(selectUnitBody, /learningPathState\.activeSlug = ''/);
-  assert.match(source, /class="unit-overview-sequence"/);
+  assert.match(source, /class="unit-overview-sequence\$\{pilotStages \? ' unit-overview-sequence--stages' : ''\}"/);
   assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
   assert.match(source, /Sigue con la actividad recomendada/);
   assert.match(renderSkillBody, /if \(!selected && learningPathState\.unitId\)/);
@@ -4121,7 +4121,7 @@ test('student journey presents practical curriculum guidance and preserves lesso
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
-  assert.match(source, /class="unit-overview-sequence"/);
+  assert.match(source, /class="unit-overview-sequence\$\{pilotStages \? ' unit-overview-sequence--stages' : ''\}"/);
   assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
   assert.match(source, /class="path-unit-journey">\$\{missionPilot \? 'Misión' : escapeHtml\(routeText\('unit'\)\)\}/);
   assert.match(source, /class="path-unit-reward">/);
@@ -4164,6 +4164,17 @@ test('English A1 Hello and A2 Everyday Life pilots group six distinct activities
   assert.match(source, /function getUnitProgressMetrics\(unitId\) \{[\s\S]*?activities\.length \+ 1[\s\S]*?verbProgress/);
   assert.match(css, /\.unit-route-markers--stages \{[\s\S]*?grid-template-columns: repeat\(3, minmax\(0, 1fr\)\)/);
   assert.match(css, /\.unit-sequence-step--stage/);
+  const overviewStart = source.indexOf('function renderUnitOverviewCard(unit) {');
+  const overviewEnd = source.indexOf('\nfunction renderLessonDetail(lesson) {', overviewStart);
+  const overview = source.slice(overviewStart, overviewEnd);
+  assert.match(overview, /pilotStages \? '' : `\s*<div class=\"unit-overview-progress\"/);
+  assert.match(overview, /unit-overview-actions--staged/);
+  assert.match(overview, /pilotStages \? '' : `<span/);
+  assert.match(overview, /routeText\(recommendedStage\?\.labelKey \|\| 'stageUnderstand'\)/);
+  assert.match(overview, /renderUnitSequenceStepsHtml\(unit\.id\)/);
+  assert.match(overview, /missionPilot && \(!pilotStages \|\| finalUnlocked\)/);
+  assert.match(css, /#learning-path \.unit-overview-sequence--stages \{\s*display:\s*block/);
+  assert.match(css, /\.unit-overview-sequence--stages \.unit-sequence-steps \{[\s\S]*?grid-template-columns: repeat\(3, minmax\(0, 1fr\)\)/);
 
   const helperStart = source.indexOf('const ENGLISH_STAGE_PILOTS = [');
   const helperEnd = source.indexOf('\nfunction getUnitActivities(unitId) {', helperStart);

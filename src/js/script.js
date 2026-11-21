@@ -11122,24 +11122,26 @@ function renderUnitOverviewCard(unit) {
         ${data.objective ? `<p class="unit-objective"><strong>${escapeHtml(routeText('mission'))}</strong> ${escapeHtml(data.objective)}</p>` : ''}
         ${data.scenario ? `<p class="unit-scenario">“${escapeHtml(data.scenario)}”</p>` : ''}
       </div>
+      ${pilotStages ? '' : `
       <div class="unit-overview-progress">
         <div class="unit-overview-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
           <div style="width:${pct}%"></div>
         </div>
         <span class="unit-overview-progress-label"><strong>${action.completedCount}/${action.total} ${missionPilot ? 'estaciones' : escapeHtml(routeText('completedActivities'))}</strong> · ${missionPilot ? `⭐ ${earnedXp}/${reward} XP` : `🏆 ${reward} XP`}</span>
       </div>
-      <div class="unit-overview-actions unit-overview-actions--primary">
-        <span><strong>${escapeHtml(pilotStages ? `${routeText('stage')} ${(recommendedStage?.index ?? 0) + 1}` : `${routeText('step')} ${action.targetStep}`)}</strong> · ${escapeHtml(pilotStages ? routeText(recommendedStage?.labelKey || 'stageUnderstand') : routeText('recommended'))}</span>
-        <button type="button" class="primary-btn unit-action-btn" data-lesson-slug="${escapeHtml(action.targetSlug)}" data-lesson-skill="${escapeHtml(action.targetSkill || actionLesson?.skill || '')}">${escapeHtml(action.label)} <span aria-hidden="true">→</span></button>
+      `}
+      <div class="unit-overview-actions unit-overview-actions--primary${pilotStages ? ' unit-overview-actions--staged' : ''}">
+        ${pilotStages ? '' : `<span><strong>${escapeHtml(routeText('step'))} ${action.targetStep}</strong> · ${escapeHtml(routeText('recommended'))}</span>`}
+        <button type="button" class="primary-btn unit-action-btn" data-lesson-slug="${escapeHtml(action.targetSlug)}" data-lesson-skill="${escapeHtml(action.targetSkill || actionLesson?.skill || '')}">${escapeHtml(action.label)}${pilotStages ? ` · ${escapeHtml(routeText(recommendedStage?.labelKey || 'stageUnderstand'))}` : ''} <span aria-hidden="true">→</span></button>
       </div>
-      <div class="unit-overview-sequence">
+      <div class="unit-overview-sequence${pilotStages ? ' unit-overview-sequence--stages' : ''}">
         <div class="unit-sequence-heading">
           <strong>${escapeHtml(routeText(pilotStages ? 'stages' : 'activities'))}</strong>
           <span>${escapeHtml(routeText(pilotStages ? 'stageHelp' : 'directOpen'))}</span>
         </div>
         <div class="unit-sequence-steps">${renderUnitSequenceStepsHtml(unit.id)}</div>
       </div>
-      ${missionPilot ? `
+      ${missionPilot && (!pilotStages || finalUnlocked) ? `
       <div class="unit-final-challenge-card${finalUnlocked ? ' is-unlocked' : ''}">
         <span class="unit-final-challenge-icon" aria-hidden="true">★</span>
         <span><strong>Reto final de la misión</strong><small>${finalUnlocked ? 'Ya completaste las seis actividades. El reto está disponible.' : `Completa las ${unitMetrics.total} actividades para desbloquearlo.`}</small></span>

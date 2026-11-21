@@ -23839,6 +23839,21 @@ footer small {
   .unit-overview-sequence {
     display: none;
   }
+  #learning-path .unit-overview-sequence--stages {
+    display: block;
+  }
+  .unit-overview-sequence--stages .unit-sequence-steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    overflow: visible;
+  }
+  .unit-overview-sequence--stages .unit-sequence-step--stage {
+    min-width: 0;
+    padding: 0.5rem 0.35rem;
+  }
+  .unit-overview-sequence--stages .unit-sequence-step--final {
+    grid-column: 1 / -1;
+  }
 
   .unit-selection-intro {
     margin-bottom: 0.6rem;
@@ -26063,6 +26078,13 @@ body {
   min-width: 190px;
   min-height: 50px;
   font-size: 0.9rem;
+}
+.unit-overview-actions--staged {
+  justify-content: flex-start;
+}
+.unit-overview-actions--staged .unit-action-btn {
+  flex: 1 1 auto;
+  width: 100%;
 }
 
 .unit-overview-dashboard {
