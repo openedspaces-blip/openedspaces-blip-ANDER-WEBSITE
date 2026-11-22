@@ -4004,7 +4004,7 @@ test('a selected unit reveals its activity sequence in the overview and every sk
   const selectUnitBody = source.match(/function selectUnit\(unitId, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1] || '';
   const renderSkillBody = source.match(/function renderSkillView\(skill\) \{([\s\S]*?)\n\}/)?.[1] || '';
   assert.match(selectUnitBody, /learningPathState\.activeSlug = ''/);
-  assert.match(source, /class="unit-overview-sequence\$\{pilotStages \? ' unit-overview-sequence--stages' : ''\}"/);
+  assert.match(source, /class="unit-overview-sequence\$\{stageProgress \? ' unit-overview-sequence--stages' : ''\}"/);
   assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
   assert.match(source, /Sigue con la actividad recomendada/);
   assert.match(renderSkillBody, /if \(!selected && learningPathState\.unitId\)/);
@@ -4121,7 +4121,7 @@ test('student journey presents practical curriculum guidance and preserves lesso
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
-  assert.match(source, /class="unit-overview-sequence\$\{pilotStages \? ' unit-overview-sequence--stages' : ''\}"/);
+  assert.match(source, /class="unit-overview-sequence\$\{stageProgress \? ' unit-overview-sequence--stages' : ''\}"/);
   assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
   assert.match(source, /class="path-unit-journey">\$\{missionPilot \? 'Misión' : escapeHtml\(routeText\('unit'\)\)\}/);
   assert.match(source, /class="path-unit-reward">/);
@@ -4146,16 +4146,17 @@ test('student journey presents practical curriculum guidance and preserves lesso
   assert.match(source, /renderContinueCard\(activeLesson, \{ selected: true \}\)/);
 });
 
-test('English A1 Hello and A2 Everyday Life pilots group six distinct activities into three stages', () => {
+test('English A1/A2 units group activities into three stages without changing other routes', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
-  assert.match(source, /language: 'english', level: 'A1', unitSlug: 'hello', order: 1/);
-  assert.match(source, /language: 'english', level: 'A2', unitSlug: 'everyday-life', order: 1/);
-  assert.match(source, /learningPathState\.language && item\.level === learningPathState\.level/);
+  assert.match(source, /const ENGLISH_STAGED_ROUTE_LEVELS = new Set\(\['A1', 'A2'\]\)/);
+  assert.match(source, /learningPathState\.language === 'english'/);
+  assert.match(source, /ENGLISH_STAGED_ROUTE_LEVELS\.has\(learningPathState\.level\)/);
+  assert.match(source, /function renderSkillUnitSequence\(section, lesson\) \{[\s\S]*?shouldHideEnglishA1A2ReadingProgress\(lesson\)/);
   assert.match(source, /id: 'understand', labelKey: 'stageUnderstand', skills: \['reading', 'listening'\]/);
   assert.match(source, /id: 'build', labelKey: 'stageBuild', skills: \['grammar', 'verbs'\]/);
   assert.match(source, /id: 'communicate', labelKey: 'stageCommunicate', skills: \['speaking', 'writing'\]/);
-  assert.match(source, /return isEnglishStagePilotUnit\(unitId\)[\s\S]*?\['reading', 'listening', 'grammar', 'speaking', 'writing'\][\s\S]*?: UNIT_LEARNING_SEQUENCE/);
+  assert.match(source, /return isEnglishStagedRouteUnit\(unitId\)[\s\S]*?\['reading', 'listening', 'grammar', 'speaking', 'writing'\][\s\S]*?: UNIT_LEARNING_SEQUENCE/);
   assert.match(source, /completed: verbProgress\?\.status === 'completed'/);
   assert.ok(source.includes("member.completed ? 'unit-stage-skill--completed' : 'unit-stage-skill--incomplete'"));
   assert.match(source, /return activities\.find\(\(activity\) => activity\.skill === skill\) \|\| null/);
@@ -4167,16 +4168,16 @@ test('English A1 Hello and A2 Everyday Life pilots group six distinct activities
   const overviewStart = source.indexOf('function renderUnitOverviewCard(unit) {');
   const overviewEnd = source.indexOf('\nfunction renderLessonDetail(lesson) {', overviewStart);
   const overview = source.slice(overviewStart, overviewEnd);
-  assert.match(overview, /pilotStages \? '' : `\s*<div class=\"unit-overview-progress\"/);
+  assert.match(overview, /stageProgress \? '' : `\s*<div class=\"unit-overview-progress\"/);
   assert.match(overview, /unit-overview-actions--staged/);
-  assert.match(overview, /pilotStages \? '' : `<span/);
+  assert.match(overview, /stageProgress \? '' : `<span/);
   assert.match(overview, /routeText\(recommendedStage\?\.labelKey \|\| 'stageUnderstand'\)/);
   assert.match(overview, /renderUnitSequenceStepsHtml\(unit\.id\)/);
-  assert.match(overview, /missionPilot && \(!pilotStages \|\| finalUnlocked\)/);
+  assert.match(overview, /missionPilot && \(!stageProgress \|\| finalUnlocked\)/);
   assert.match(css, /#learning-path \.unit-overview-sequence--stages \{\s*display:\s*block/);
   assert.match(css, /\.unit-overview-sequence--stages \.unit-sequence-steps \{[\s\S]*?grid-template-columns: repeat\(3, minmax\(0, 1fr\)\)/);
 
-  const helperStart = source.indexOf('const ENGLISH_STAGE_PILOTS = [');
+  const helperStart = source.indexOf('const ENGLISH_STAGED_ROUTE_LEVELS = new Set');
   const helperEnd = source.indexOf('\nfunction getUnitActivities(unitId) {', helperStart);
   assert.ok(helperStart >= 0 && helperEnd > helperStart, 'stage helpers can be isolated for a behavior test');
   const lessonActivities = [
@@ -4203,25 +4204,47 @@ test('English A1 Hello and A2 Everyday Life pilots group six distinct activities
     escapeHtml: (value) => String(value)
   };
   const api = vm.runInNewContext(
-    `const UNIT_LEARNING_SEQUENCE = ['reading', 'listening', 'speaking', 'writing', 'grammar'];\n${source.slice(helperStart, helperEnd)}\n({ isEnglishStagePilotUnit, getUnitSkillSequence, getEnglishPilotStageProgress, renderEnglishPilotStageSteps })`,
+    `const UNIT_LEARNING_SEQUENCE = ['reading', 'listening', 'speaking', 'writing', 'grammar'];\n${source.slice(helperStart, helperEnd)}\n({ isEnglishStagedRouteUnit, getUnitSkillSequence, getEnglishStageProgress, renderEnglishStageSteps, shouldHideEnglishA1A2ReadingProgress })`,
     context
   );
-  assert.equal(api.isEnglishStagePilotUnit('everyday-life'), true);
-  assert.equal(api.isEnglishStagePilotUnit('family-and-relationships'), false);
+  assert.equal(api.isEnglishStagedRouteUnit('everyday-life'), true);
+  assert.equal(api.isEnglishStagedRouteUnit('family-and-relationships'), true);
+  assert.equal(api.shouldHideEnglishA1A2ReadingProgress({ skill: 'reading' }), true);
+  assert.equal(api.shouldHideEnglishA1A2ReadingProgress({ skill: 'listening' }), false);
   assert.deepEqual(Array.from(api.getUnitSkillSequence('everyday-life')), ['reading', 'listening', 'grammar', 'speaking', 'writing']);
-  assert.deepEqual(Array.from(api.getUnitSkillSequence('family-and-relationships')), ['reading', 'listening', 'speaking', 'writing', 'grammar']);
-  const buildStage = Array.from(api.getEnglishPilotStageProgress('everyday-life', 'grammar')).find((stage) => stage.id === 'build');
+  assert.deepEqual(Array.from(api.getUnitSkillSequence('family-and-relationships')), ['reading', 'listening', 'grammar', 'speaking', 'writing']);
+  const buildStage = Array.from(api.getEnglishStageProgress('everyday-life', 'grammar')).find((stage) => stage.id === 'build');
   assert.equal(buildStage.completedCount, 1, 'completed Verbs progress stays separate from Grammar');
   assert.equal(buildStage.target.skill, 'grammar', 'stage navigation selects its next incomplete skill');
-  assert.match(api.renderEnglishPilotStageSteps('everyday-life'), /unit-stage-skill--completed/);
-  assert.match(api.renderEnglishPilotStageSteps('everyday-life'), /unit-stage-skill--incomplete/);
+  assert.match(api.renderEnglishStageSteps('everyday-life'), /unit-stage-skill--completed/);
+  assert.match(api.renderEnglishStageSteps('everyday-life'), /unit-stage-skill--incomplete/);
+  const englishA1A2Units = testUnits.filter(
+    (unit) => unit.target_language === 'english' && ['A1', 'A2'].includes(unit.level)
+  );
+  assert.equal(englishA1A2Units.length, 22);
+  for (const unit of englishA1A2Units) {
+    state.level = unit.level;
+    state.units = englishA1A2Units.filter((candidate) => candidate.level === unit.level);
+    assert.equal(api.isEnglishStagedRouteUnit(unit.slug), true, `${unit.level} ${unit.slug} uses stages`);
+    assert.equal(api.shouldHideEnglishA1A2ReadingProgress({ skill: 'reading' }), true);
+    assert.equal(api.shouldHideEnglishA1A2ReadingProgress({ skill: 'grammar' }), false);
+    assert.deepEqual(
+      Array.from(api.getUnitSkillSequence(unit.slug)),
+      ['reading', 'listening', 'grammar', 'speaking', 'writing'],
+      `${unit.level} ${unit.slug} keeps the staged skill order`
+    );
+  }
+  state.level = 'B1';
+  state.units = englishA1A2Units.filter((unit) => unit.level === 'A2');
+  assert.equal(api.isEnglishStagedRouteUnit('everyday-life'), false, 'English B1 keeps its current route');
+  assert.equal(api.shouldHideEnglishA1A2ReadingProgress({ skill: 'reading' }), false, 'English B1 keeps its progress strip');
+  state.language = 'spanish';
   state.level = 'A1';
-  state.units = [
-    { id: 'hello', slug: 'hello', order: 1 },
-    { id: 'another-a1-unit', slug: 'another-a1-unit', order: 2 }
-  ];
-  assert.equal(api.isEnglishStagePilotUnit('hello'), true, 'the original A1 pilot remains active');
-  assert.equal(api.isEnglishStagePilotUnit('another-a1-unit'), false, 'the A1 pilot stays scoped');
+  state.units = englishA1A2Units.filter((unit) => unit.level === 'A1');
+  assert.equal(api.isEnglishStagedRouteUnit('hello'), false, 'Spanish A1 keeps its current route');
+  assert.equal(api.shouldHideEnglishA1A2ReadingProgress({ skill: 'reading' }), false, 'Spanish A1 keeps its progress strip');
+  state.language = 'english';
+  assert.equal(api.isEnglishStagedRouteUnit('not-a-course-unit'), false, 'unknown units are not staged');
 });
 test('teacher curriculum panel is role-gated on both client and server', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
