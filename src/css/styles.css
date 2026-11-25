@@ -557,6 +557,17 @@ a:focus-visible {
   background: rgba(255, 255, 255, 0.98);
   box-shadow: 0 18px 45px rgba(15, 23, 42, 0.14);
 }
+.mobile-nav-secondary {
+  display: none !important;
+}
+.nav-more-section-label {
+  padding: 0.45rem 0.75rem 0.15rem;
+  color: #64748b;
+  font-size: 0.66rem;
+  font-weight: 850;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
 
 .menu .nav-more-menu a {
   padding: 0.7rem 0.85rem;
@@ -32781,6 +32792,15 @@ body.is-anonymous-visitor .mobile-header-tabs > a:not([data-guest-preview]) {
     gap: 0.22rem;
     margin-top: 0.22rem;
   }
+  .menu.is-open .nav-more-menu .nav-more-section-label.mobile-nav-secondary {
+    display: block !important;
+    grid-column: 1 / -1;
+  }
+  .menu.is-open .nav-more-menu a.mobile-nav-secondary {
+    display: flex !important;
+    align-items: center;
+    text-align: left;
+  }
 }
 
 @media (max-width: 420px) {
@@ -40691,4 +40711,242 @@ body.tutor-robot-speaking #tutor .tutor-mentor-lips {
 @media (prefers-reduced-motion: reduce) {
   body.tutor-robot-speaking #tutor .tutor-mentor-speech { opacity: 0; }
   body.tutor-robot-speaking #tutor .tutor-mentor-lips { animation: none; }
+}
+
+
+/* Editorial learning homepage: warm, open and language-choice first. */
+.andergo-modern {
+  --andergo-ink: #1c293b;
+  --andergo-muted: #667386;
+  --andergo-paper: #fbfaf7;
+  --andergo-line: #e8e5de;
+  background: var(--andergo-paper);
+}
+.andergo-modern .navbar {
+  background: #fff;
+  border-bottom: 1px solid #ece9e2;
+}
+.andergo-modern .hero {
+  grid-template-columns: minmax(0, 1.08fr) minmax(330px, 0.82fr);
+  gap: clamp(34px, 5vw, 72px);
+  padding: clamp(38px, 5vw, 64px) clamp(24px, 5.5vw, 82px) 54px;
+  background: var(--andergo-paper);
+}
+.andergo-modern .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.andergo-modern .hero .pill { order: 0; color: #355c9b; }
+.andergo-modern .hero-copy-carousel { order: 1; }
+.andergo-modern .hero-language-heading { order: 2; margin: 4px 0 12px; }
+.andergo-modern .hero-language-tabs { order: 3; }
+.andergo-modern .hero-buttons { order: 4; margin: 20px 0 0; }
+.andergo-modern .hero .quick-stats { order: 5; }
+.andergo-modern .hero h1,
+.andergo-modern .hero h2 {
+  max-width: 610px;
+  font-size: clamp(2.5rem, 4.1vw, 3.7rem);
+  line-height: 1.08;
+  letter-spacing: -0.052em;
+  font-weight: 760;
+  color: #1c293b;
+}
+.andergo-modern .hero-title-accent {
+  color: #2f67bf;
+  background: none;
+  -webkit-text-fill-color: currentColor;
+}
+.andergo-modern .hero-copy-slide > p {
+  max-width: 56ch;
+  margin-top: 16px;
+  color: #667386;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.andergo-modern .hero-language-heading > span {
+  color: #26364a;
+  font-size: 0.9rem;
+  font-weight: 780;
+}
+.andergo-modern .hero-language-heading p {
+  margin-top: 3px;
+  color: #758195;
+  font-size: 0.75rem;
+}
+.andergo-modern .hero-language-tabs {
+  width: 100%;
+  max-width: 650px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+.andergo-modern .hero-language-tabs button {
+  min-height: 64px;
+  padding: 10px 12px;
+  border: 1px solid var(--andergo-line);
+  border-radius: 12px;
+  background: #fff !important;
+  box-shadow: 0 2px 8px rgba(35, 46, 62, 0.035) !important;
+}
+.andergo-modern .hero-language-tabs button:hover,
+.andergo-modern .hero-language-tabs button.is-selected {
+  border-color: #91add7;
+  background: #f3f7fd !important;
+}
+.andergo-modern .hero-language-tabs button b { border-radius: 8px; }
+.andergo-modern .hero-language-tabs button strong { color: #28374a; }
+.andergo-modern .hero-language-tabs button small { color: #778397; }
+.andergo-modern .hero-buttons > * { min-height: 44px; }
+.andergo-modern .hero-buttons .primary-btn {
+  background: #2f67bf;
+  box-shadow: none;
+}
+.andergo-modern .hero-buttons .primary-btn:hover { background: #2457a8; }
+.andergo-modern .hero-search-trigger { background: transparent; }
+.andergo-modern .hero .quick-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+  margin-top: 22px;
+}
+.andergo-modern .hero .quick-stats div {
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid #eeece6;
+  border-radius: 12px;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+.andergo-modern .hero .quick-stats i { color: #5476ab; }
+.andergo-modern .hero .quick-stats strong { color: #39485c; font-size: 0.7rem; }
+.andergo-modern .hero .quick-stats small { color: #788496; font-size: 0.63rem; }
+.andergo-modern .hero-card {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(260px, auto) auto;
+  align-self: center;
+  gap: 14px;
+  width: 100%;
+  max-width: 500px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.andergo-modern .hero-tutor-art {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 295px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #e9e6df;
+  border-radius: 24px;
+  background: radial-gradient(circle at 52% 33%, #fff 0, #f6f3ec 66%, #f0eee7 100%);
+}
+.andergo-modern .hero-tutor-art img {
+  display: block;
+  width: min(82%, 340px);
+  height: 310px;
+  object-fit: contain;
+  object-position: center bottom;
+}
+.andergo-modern .hero-tutor-art figcaption {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  display: grid;
+  gap: 2px;
+  padding: 9px 12px;
+  border: 1px solid rgba(232, 229, 222, 0.9);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 5px 16px rgba(31, 41, 55, 0.07);
+}
+.andergo-modern .hero-tutor-art figcaption span {
+  color: #6b7b91;
+  font-size: 0.56rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+}
+.andergo-modern .hero-tutor-art figcaption strong {
+  color: #24354b;
+  font-size: 0.76rem;
+}
+.andergo-modern .hero-tutor-note {
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  max-width: 145px;
+  padding: 9px 11px;
+  border: 1px solid #e9e6df;
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #5f6e81;
+  font-size: 0.65rem;
+  line-height: 1.45;
+}
+.andergo-modern .hero-card > .course-card {
+  width: 100%;
+  padding: 19px 20px;
+  border-color: #e9e6df;
+  border-radius: 17px;
+  box-shadow: 0 8px 22px rgba(31, 41, 55, 0.045);
+}
+.andergo-modern .hero-card > .course-card > *:not(:last-child) { margin-bottom: 12px; }
+.andergo-modern .hero-card-kicker { color: #5476ab; }
+.andergo-modern .home-guest-preview span {
+  padding: 8px 10px;
+  border: 1px solid #eeece6;
+  border-radius: 10px;
+  background: #fbfaf7;
+}
+.andergo-modern .home-guest-actions > a { min-height: 42px; }
+.andergo-modern .section-heading > span { color: #5476ab; }
+.andergo-modern .plan { border-color: #e9e6df; }
+
+@media (max-width: 1000px) {
+  .andergo-modern .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.78fr);
+    gap: 26px;
+    padding: 38px 24px 44px;
+  }
+  .andergo-modern .hero .quick-stats { grid-template-columns: 1fr; gap: 8px; }
+  .andergo-modern .hero .quick-stats div { padding: 8px 10px; }
+  .andergo-modern .hero-tutor-art { min-height: 260px; }
+  .andergo-modern .hero-tutor-art img { height: 280px; }
+}
+@media (max-width: 760px) {
+  .andergo-modern .hero {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 30px 20px 38px;
+    gap: 24px;
+  }
+  .andergo-modern .hero h1,
+  .andergo-modern .hero h2 { font-size: clamp(2.1rem, 8vw, 3.15rem); }
+  .andergo-modern .hero-language-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .andergo-modern .hero-language-tabs button {
+    flex-direction: row;
+    align-items: center;
+    min-height: 62px;
+    padding: 9px 10px;
+  }
+  .andergo-modern .hero-language-tabs button small { display: block; margin-top: 2px; }
+  .andergo-modern .hero-buttons { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .andergo-modern .hero-buttons > * { min-width: 0; padding-inline: 10px; }
+  .andergo-modern .hero-card { max-width: 540px; }
+  .andergo-modern .hero-tutor-art { min-height: 270px; }
+  .andergo-modern .hero-tutor-art img { height: 300px; }
+  .andergo-modern .hero .quick-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 400px) {
+  .andergo-modern .hero { padding-inline: 16px; }
+  .andergo-modern .hero-buttons { grid-template-columns: 1fr; }
+  .andergo-modern .hero .quick-stats { grid-template-columns: 1fr; }
+  .andergo-modern .hero-language-tabs button { padding: 8px; gap: 7px; }
+  .andergo-modern .hero-language-tabs button b { width: 26px; height: 26px; flex-basis: 26px; }
+  .andergo-modern .hero-tutor-art { min-height: 245px; }
+  .andergo-modern .hero-tutor-art img { height: 275px; }
 }
